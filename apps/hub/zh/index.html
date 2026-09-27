@@ -77,7 +77,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 7,
+  "numberOfItems": 8,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -127,6 +127,13 @@
       "url": "https://monster.example.com/zh/",
       "name": "万圣节怪物测试",
       "description": "万圣节之夜10道题，1分钟测出和你最像的怪物。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://pumpkin.example.com/zh/",
+      "name": "万圣节南瓜灯制作",
+      "description": "挑选眼睛、鼻子和嘴巴，点亮蜡烛，做一盏专属南瓜灯。可以存成图片，也能发给朋友。"
     }
   ]
 }
@@ -202,6 +209,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="pumpkin">
+        <a class="cur-card" href="https://pumpkin.example.com/zh/" style="--h:150;--h2:176">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">动手做</span></span>
+            <h3 class="cur-headline">雕一盏会发光的南瓜灯</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">挑选眼睛、鼻子和嘴巴，点亮蜡烛，存图或发给朋友。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">万圣节南瓜灯制作</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="monster">
         <a class="cur-card" href="https://monster.example.com/zh/" style="--h:308;--h2:290">
           <span class="cur-art">
@@ -282,29 +305,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="past-life">
-        <a class="cur-card" href="https://past-life.example.com/zh/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">无聊时测一测</span></span>
-            <h3 class="cur-headline">你的前世是谁？</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">回答12道小题就能揭晓，再和朋友比一比。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">前世测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">7个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">8个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>最热门</option><option value="rating">评分最高</option><option value="newest">最新上线</option></select>
@@ -372,6 +379,13 @@
         <a class="tile-link" href="https://monster.example.com/zh/" title="万圣节之夜10道题，1分钟测出和你最像的怪物。" style="--h:308;--h2:290">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">万圣节怪物测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="pumpkin" data-cat="create">
+        <a class="tile-link" href="https://pumpkin.example.com/zh/" title="挑选眼睛、鼻子和嘴巴，点亮蜡烛，做一盏专属南瓜灯。可以存成图片，也能发给朋友。" style="--h:150;--h2:176">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">万圣节南瓜灯制作</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

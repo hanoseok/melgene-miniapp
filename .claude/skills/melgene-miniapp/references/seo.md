@@ -18,8 +18,9 @@
 | past-life | past life test | 前世診断 | 前世测试 | 전생 테스트 | test vie antérieure | Früheres-Leben-Test | ทดสอบชาติที่แล้ว | trắc nghiệm kiếp trước | test de vidas pasadas | test vita precedente | teste de vida passada |
 | life | life animation maker, life timeline | 人生アニメ・自分史 | 人生动画·人生时间轴 | 내 인생 애니메이션·인생 그래프 | ma vie en animation, frise de vie | Lebens-Animation, Lebenszeitstrahl | แอนิเมชันชีวิตฉัน | hoạt hình cuộc đời | animación de mi vida, línea de vida | animazione della mia vita | animação da minha vida |
 | monster | which monster are you, Halloween personality test | モンスター診断・ハロウィン診断 | 万圣节怪物测试 | 할로윈 몬스터 테스트·나를 닮은 몬스터 | quel monstre es-tu, test Halloween | Welches Monster bist du, Halloween-Test | แบบทดสอบฮาโลวีน คุณคือปีศาจตัวไหน | bạn là quái vật nào, trắc nghiệm Halloween | ¿qué monstruo eres?, test de Halloween | che mostro sei? test di Halloween | que monstro você é? teste de Halloween |
+| pumpkin | pumpkin carving online, jack-o’-lantern maker | かぼちゃランタン作り・ジャックオーランタンメーカー | 万圣节南瓜灯制作 | 할로윈 호박 꾸미기·잭오랜턴 만들기 | sculpter une citrouille d’Halloween en ligne | Kürbis schnitzen online – Halloween-Kürbis | แกะสลักฟักทองฮาโลวีน | khắc bí ngô Halloween online | tallar calabaza de Halloween online | intagliare la zucca di Halloween online | esculpir abóbora de Halloween online |
 
-러시아어(ru) 검색어: 포털 бесплатные мини-игры, психологические тесты · ladder жеребьёвка онлайн, жребий-лесенка · roulette колесо фортуны онлайн, рулетка выбора · reaction тест на реакцию · balance что бы ты выбрал · past-life тест «кем я был в прошлой жизни» · life анимация моей жизни, лента жизни · monster какой ты монстр — тест на Хэллоуин.
+러시아어(ru) 검색어: 포털 бесплатные мини-игры, психологические тесты · ladder жеребьёвка онлайн, жребий-лесенка · roulette колесо фортуны онлайн, рулетка выбора · reaction тест на реакцию · balance что бы ты выбрал · past-life тест «кем я был в прошлой жизни» · life анимация моей жизни, лента жизни · monster какой ты монстр — тест на Хэллоуин · pumpkin вырезать тыкву на Хэллоуин онлайн — фонарь Джека.
 
 `SITES[].title` (포털 아이콘 이름)도 이 검색어와 같은 이름으로 맞춘다.
 

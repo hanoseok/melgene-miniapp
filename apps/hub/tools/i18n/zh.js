@@ -26,6 +26,12 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'pumpkin',
+        kicker: '动手做',
+        headline: '雕一盏会发光的南瓜灯',
+        blurb: '挑选眼睛、鼻子和嘴巴，点亮蜡烛，存图或发给朋友。',
+      },
+      {
         id: 'monster',
         kicker: '万圣节特辑',
         headline: '你是哪种万圣节怪物？',
@@ -54,12 +60,6 @@ module.exports = {
         kicker: '选择困难症救星',
         headline: '中午吃什么？交给转盘吧',
         blurb: '写好选项转一转就行，排值日、抽惩罚也能用。',
-      },
-      {
-        id: 'past-life',
-        kicker: '无聊时测一测',
-        headline: '你的前世是谁？',
-        blurb: '回答12道小题就能揭晓，再和朋友比一比。',
       },
     ],
   },

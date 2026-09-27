@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 7,
+  "numberOfItems": 8,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -128,6 +128,13 @@
       "url": "https://monster.example.com/vi/",
       "name": "Bạn là quái vật nào?",
       "description": "10 câu hỏi đêm Halloween, 1 phút có kết quả. Quái vật nào giống bạn nhất?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://pumpkin.example.com/vi/",
+      "name": "Khắc bí ngô Halloween",
+      "description": "Chọn mắt, mũi, miệng, thắp nến và khắc chiếc đèn bí ngô của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè."
     }
   ]
 }
@@ -203,6 +210,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="pumpkin">
+        <a class="cur-card" href="https://pumpkin.example.com/vi/" style="--h:150;--h2:176">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tự tay làm</span></span>
+            <h3 class="cur-headline">Khắc đèn bí ngô phát sáng của bạn</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Chọn mắt, mũi, miệng, thắp nến rồi lưu ảnh hoặc gửi đi.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Khắc bí ngô Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="monster">
         <a class="cur-card" href="https://monster.example.com/vi/" style="--h:308;--h2:290">
           <span class="cur-art">
@@ -283,29 +306,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="past-life">
-        <a class="cur-card" href="https://past-life.example.com/vi/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Cho lúc rảnh rỗi</span></span>
-            <h3 class="cur-headline">Kiếp trước bạn là ai?</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Trả lời 12 câu hỏi ngắn để tìm ra đáp án, rồi so kết quả với bạn bè.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Trắc nghiệm kiếp trước</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">7 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">8 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Phổ biến</option><option value="rating">Đánh giá cao</option><option value="newest">Mới nhất</option></select>
@@ -373,6 +380,13 @@
         <a class="tile-link" href="https://monster.example.com/vi/" title="10 câu hỏi đêm Halloween, 1 phút có kết quả. Quái vật nào giống bạn nhất?" style="--h:308;--h2:290">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">Bạn là quái vật nào?</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="pumpkin" data-cat="create">
+        <a class="tile-link" href="https://pumpkin.example.com/vi/" title="Chọn mắt, mũi, miệng, thắp nến và khắc chiếc đèn bí ngô của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè." style="--h:150;--h2:176">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Khắc bí ngô Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

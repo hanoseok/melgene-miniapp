@@ -77,7 +77,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 7,
+  "numberOfItems": 8,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -127,6 +127,13 @@
       "url": "https://monster.example.com/ja/",
       "name": "モンスター診断",
       "description": "ハロウィンの夜の10問で診断。あなたにそっくりなモンスターは？"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "url": "https://pumpkin.example.com/ja/",
+      "name": "かぼちゃランタン作り",
+      "description": "目・鼻・口を選んで自分だけのジャックオーランタンを作ろう。ろうそくを灯して画像保存、友だちにも送れる。"
     }
   ]
 }
@@ -202,6 +209,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="pumpkin">
+        <a class="cur-card" href="https://pumpkin.example.com/ja/" style="--h:150;--h2:176">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">自分で作る</span></span>
+            <h3 class="cur-headline">光るジャックオーランタンを作ろう</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">目・鼻・口を選んでろうそくを灯そう。画像で保存も。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">かぼちゃランタン作り</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="monster">
         <a class="cur-card" href="https://monster.example.com/ja/" style="--h:308;--h2:290">
           <span class="cur-art">
@@ -282,29 +305,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="past-life">
-        <a class="cur-card" href="https://past-life.example.com/ja/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ひまな時にぴったり</span></span>
-            <h3 class="cur-headline">あなたの前世はだれだった？</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12問に答えると前世がわかります。友だちと結果を比べてみて。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">前世診断テスト</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">7件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">8件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>人気順</option><option value="rating">評価順</option><option value="newest">新着順</option></select>
@@ -372,6 +379,13 @@
         <a class="tile-link" href="https://monster.example.com/ja/" title="ハロウィンの夜の10問で診断。あなたにそっくりなモンスターは？" style="--h:308;--h2:290">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">モンスター診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="pumpkin" data-cat="create">
+        <a class="tile-link" href="https://pumpkin.example.com/ja/" title="目・鼻・口を選んで自分だけのジャックオーランタンを作ろう。ろうそくを灯して画像保存、友だちにも送れる。" style="--h:150;--h2:176">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">かぼちゃランタン作り</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

@@ -23,6 +23,12 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'pumpkin',
+        kicker: '직접 만들기',
+        headline: '촛불 켜진 나만의 잭오랜턴',
+        blurb: '눈·코·입을 골라 촛불을 켜고, 이미지로 저장해 보내요.',
+      },
+      {
         id: 'monster',
         kicker: '할로윈 특집',
         headline: '나를 닮은 할로윈 몬스터는?',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: '점심 고민 끝',
         headline: '오늘 뭐 먹지? 돌림판이 정해 줄게요',
         blurb: '메뉴만 적고 돌리면 끝. 당번 정하기, 벌칙 뽑기에도 써요.',
-      },
-      {
-        id: 'past-life',
-        kicker: '심심할 때 딱',
-        headline: '나는 전생에 누구였을까?',
-        blurb: '짧은 질문 12개에 답하면 전생이 나와요. 결과를 친구와 비교해 보세요.',
       },
     ],
   },

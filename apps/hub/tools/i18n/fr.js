@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'À faire soi-même',
+        headline: 'Sculpte ta citrouille qui s’illumine',
+        blurb: 'Yeux, nez, bouche, bougie : garde l’image ou envoie-la.',
+      },
+      {
         id: 'monster',
         kicker: 'Spécial Halloween',
         headline: 'Quel monstre d’Halloween es-tu ?',
@@ -49,12 +55,6 @@ module.exports = {
         kicker: 'Fini d’hésiter',
         headline: 'On mange quoi ? La roue décide',
         blurb: 'Écrivez vos options et lancez la roue. Parfait aussi pour les gages.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'Pour une petite pause',
-        headline: 'Qui étiez-vous dans une vie antérieure ?',
-        blurb: 'Répondez à 12 questions rapides pour le découvrir, puis comparez avec vos amis.',
       },
     ],
   },

@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'Selbst gestalten',
+        headline: 'Schnitz deinen leuchtenden Kürbis',
+        blurb: 'Augen, Nase, Mund wählen, Kerze an, als Bild speichern.',
+      },
+      {
         id: 'monster',
         kicker: 'Halloween-Special',
         headline: 'Welches Monster bist du?',
@@ -49,12 +55,6 @@ module.exports = {
         kicker: 'Nie mehr grübeln',
         headline: 'Unentschlossen? Lass das Glücksrad entscheiden',
         blurb: 'Optionen eintippen und drehen. Praktisch auch für den Putzplan und Mutproben.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'Für eine kleine Pause',
-        headline: 'Wer warst du in einem früheren Leben?',
-        blurb: '12 kurze Fragen beantworten und das Ergebnis mit Freunden vergleichen.',
       },
     ],
   },

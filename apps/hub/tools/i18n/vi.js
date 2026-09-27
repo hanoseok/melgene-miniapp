@@ -25,6 +25,12 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'Tự tay làm',
+        headline: 'Khắc đèn bí ngô phát sáng của bạn',
+        blurb: 'Chọn mắt, mũi, miệng, thắp nến rồi lưu ảnh hoặc gửi đi.',
+      },
+      {
         id: 'monster',
         kicker: 'Đặc biệt Halloween',
         headline: 'Bạn là quái vật Halloween nào?',
@@ -53,12 +59,6 @@ module.exports = {
         kicker: 'Hết đau đầu chọn món',
         headline: 'Trưa nay ăn gì? Để vòng quay quyết định',
         blurb: 'Nhập các lựa chọn rồi quay. Dùng để chia việc hay chọn hình phạt cũng tiện.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'Cho lúc rảnh rỗi',
-        headline: 'Kiếp trước bạn là ai?',
-        blurb: 'Trả lời 12 câu hỏi ngắn để tìm ra đáp án, rồi so kết quả với bạn bè.',
       },
     ],
   },

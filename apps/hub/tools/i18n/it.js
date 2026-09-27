@@ -20,6 +20,12 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'Fai da te',
+        headline: 'Intaglia la tua zucca luminosa',
+        blurb: 'Occhi, naso e bocca, accendi la candela e salva l’immagine.',
+      },
+      {
         id: 'monster',
         kicker: 'Speciale Halloween',
         headline: 'Che mostro di Halloween sei?',
@@ -48,12 +54,6 @@ module.exports = {
         kicker: 'Basta indecisioni',
         headline: 'Non sai cosa scegliere? Decide la ruota',
         blurb: 'Scrivi le opzioni e gira: comodo per faccende, sfide e chi paga il caffè.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'Per un pomeriggio tranquillo',
-        headline: 'Chi eri in una vita precedente?',
-        blurb: 'Rispondi a 12 domande veloci e confrontati poi con i tuoi amici.',
       },
     ],
   },

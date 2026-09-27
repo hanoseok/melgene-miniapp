@@ -23,6 +23,12 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'pumpkin',
+        kicker: '自分で作る',
+        headline: '光るジャックオーランタンを作ろう',
+        blurb: '目・鼻・口を選んでろうそくを灯そう。画像で保存も。',
+      },
+      {
         id: 'monster',
         kicker: 'ハロウィン特集',
         headline: 'あなたに似たモンスターは？',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: 'ランチの悩みに',
         headline: '今日なに食べる？ルーレットにおまかせ',
         blurb: '項目を書いて回すだけ。当番決めや罰ゲームにも使えます。',
-      },
-      {
-        id: 'past-life',
-        kicker: 'ひまな時にぴったり',
-        headline: 'あなたの前世はだれだった？',
-        blurb: '12問に答えると前世がわかります。友だちと結果を比べてみて。',
       },
     ],
   },

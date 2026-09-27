@@ -23,6 +23,12 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'Make it yourself',
+        headline: 'Carve your own glowing jack-o’-lantern',
+        blurb: 'Pick eyes, nose and mouth, light the candle, then save it or send it.',
+      },
+      {
         id: 'monster',
         kicker: 'Halloween special',
         headline: 'Which Halloween monster are you?',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: 'Lunch, decided',
         headline: 'Can’t decide? Let the wheel pick',
         blurb: 'Type your options and spin. Handy for chores, dares and who buys the coffee.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'For a slow afternoon',
-        headline: 'Who were you in a past life?',
-        blurb: 'Answer 12 quick questions to find out, then compare with your friends.',
       },
     ],
   },

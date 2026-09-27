@@ -20,6 +20,12 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'pumpkin',
+        kicker: 'Faça você mesmo',
+        headline: 'Esculpa sua abóbora que brilha',
+        blurb: 'Escolha olhos, nariz e boca, acenda a vela e salve a imagem.',
+      },
+      {
         id: 'monster',
         kicker: 'Especial de Halloween',
         headline: 'Que monstro do Halloween você é?',
@@ -48,12 +54,6 @@ module.exports = {
         kicker: 'Chega de indecisão',
         headline: 'Não sabe o que escolher? A roleta decide',
         blurb: 'Digite as opções e gire: ótimo pra tarefas e desafios do dia a dia.',
-      },
-      {
-        id: 'past-life',
-        kicker: 'Pra uma tarde tranquila',
-        headline: 'Quem você foi em uma vida passada?',
-        blurb: 'Responda 12 perguntas rápidas e depois compare com os amigos.',
       },
     ],
   },
