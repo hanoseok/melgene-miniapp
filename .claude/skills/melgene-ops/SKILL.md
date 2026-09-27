@@ -18,8 +18,8 @@ DEPLOY_DRY_RUN=1 ./deploy.sh          # 어디로 갈지만 확인
 node tools/check-links.js dist        # 배포 빌드 검사(선택)
 ```
 
-- ⚠ **지금 miniapp.melgene.com 은 공개 저장소 `hanoseok/miniapp`(main)의 Pages 로 서비스한다**(deploy.env `REPO_miniapp=miniapp`). `hanoseok/melgene-miniapp` 은 **비공개라 GitHub Pages 를 켤 수 없다** — 2026-09-27 전환 시도에서 예전 저장소의 도메인(CNAME)을 먼저 떼는 바람에 사이트 전체가 "Site not found"(404)가 됐고, CNAME 을 되돌려 복구했다. 소스 저장소를 공개로 바꾸고(사용자 결정) 새 저장소 Pages 가 켜진 걸 확인한 **뒤에만** 도메인을 옮긴다. 옮길 때는 새 쪽을 먼저 준비하고 도메인을 떼자마자 붙여 끊김을 최소화하고, 바로 라이브 200 을 확인한다.
-- 배포 단위(`dist/UNITS`): `dist/miniapp` → (전환 후) **hanoseok/melgene-miniapp 의 `gh-pages` 브랜치** → **miniapp.melgene.com** (루트 = 포털, `/<앱>/`, CNAME 파일), `dist/hub` → today-test(main) → melgene.com(같은 포털), `dist/legacy/<앱>` → ladder·life-story·past-life(main) → 예전 `<앱>.melgene.com` 리다이렉트.
+- **miniapp.melgene.com = 공개 저장소 `hanoseok/melgene-miniapp` 의 `gh-pages` 브랜치 Pages** (2026-09-27 이전 완료, 사용자 결정으로 저장소 공개). 예전 `hanoseok/miniapp` 은 도메인을 뗀 상태(github.io 주소로만 남음). 교훈: 도메인을 옮길 때는 새 쪽 Pages 를 먼저 켜고(배포까지) 예전 쪽에서 떼자마자 새 쪽에 붙이고 바로 라이브 200 을 확인한다 — 반대로 하면 사이트가 통째로 404 가 된다.
+- 배포 단위(`dist/UNITS`): `dist/miniapp` → **hanoseok/melgene-miniapp 의 `gh-pages` 브랜치** → **miniapp.melgene.com** (루트 = 포털, `/<앱>/`, CNAME 파일), `dist/hub` → today-test(main) → melgene.com(같은 포털), `dist/legacy/<앱>` → ladder·life-story·past-life(main) → 예전 `<앱>.melgene.com` 리다이렉트.
 - 브랜치 규칙(deploy.sh): `BRANCH_<단위>` → 없으면 저장소가 `SOURCE_REPO`(melgene-miniapp)면 gh-pages, 아니면 main. 소스 저장소 main 으로 가는 설정이면 멈춘다. 스위치는 deploy.env `REPO_miniapp` 한 줄(`miniapp` = 예전 hanoseok/miniapp main, `melgene-miniapp` = 새 gh-pages). Pages 커스텀 도메인은 한 저장소에만 붙으므로 바꿀 때는 예전 저장소에서 도메인을 먼저 뗀다(README "배포").
 - deploy-prep 이 하는 일: `https://<앱>.example.com`·`https://example.com` 자리표시자 치환(남으면 실패), 모든 HTML `<head>` 에 AdSense 자동 광고 스크립트 + `google-adsense-account` 메타, 도메인 루트에 ads.txt·robots.txt·sitemap-index.xml·Search Console 인증 파일(`GSC_FILES_miniapp`), 404.html(옛 `/<앱>/en/…` → `/<앱>/…`, 쿼리·해시 유지).
 - 회사 프록시로 GitHub HTTPS/API 가 막히면 deploy.sh 가 SSH 푸시로 대신한다("GitHub API에 연결되지 않는다 … SSH로 푸시만 한다"는 정상).
@@ -60,7 +60,7 @@ Supabase 대시보드 → 프로젝트 melgene → SQL Editor (공개 키로는 
 
 ## 4-1. Supabase 접속 정보 — 저장소에 절대 넣지 않는다 (사용자 지시)
 
-- 소스(`hanoseok/melgene-miniapp`, 공개)에는 Supabase URL·키·프로젝트 ref·대시보드 링크를 두지 않는다. `shared/site.config.js` 의 `SUPABASE_URL`/`SUPABASE_ANON_KEY` 는 빈 값.
+- 소스(`hanoseok/melgene-miniapp`, **공개 저장소**)에는 Supabase URL·키·프로젝트 ref·대시보드 링크를 두지 않는다. `shared/site.config.js` 의 `SUPABASE_URL`/`SUPABASE_ANON_KEY` 는 빈 값.
 - 값은 로컬 전용 `deploy.local.env`(.gitignore)에만: `SUPABASE_URL=…`, `SUPABASE_ANON_KEY=sb_publishable_…`. deploy-prep 이 배포본(dist → gh-pages)의 site.config.js 에만 넣는다 — 브라우저가 써야 하므로 배포된 사이트에는 공개용 값이 들어간다(원래 공개용).
 - deploy-prep 은 파일이 없거나 형식이 이상하거나 `sb_secret_`/service_role 키면 멈춘다. secret 키·DB 비밀번호·토큰은 어디에도 두지 않는다.
 - 커밋 전 확인: `git grep -n -E 'supabase\.co|sb_publishable|sb_secret|service_role|postgres://'` 결과에 값이 없어야 한다(코드의 변수 이름·주석만).
