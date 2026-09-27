@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://life.example.com/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/ja/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/zh/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/ko/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/fr/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/de/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/th/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/vi/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/es/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/it/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/pt/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/ja/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/zh/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/ko/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/fr/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/de/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/th/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/vi/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/es/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/it/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://life.example.com/pt/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://life.example.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://life.example.com/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://life.example.com/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://life.example.com/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://life.example.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://life.example.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://life.example.com/th/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://life.example.com/vi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://life.example.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://life.example.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://life.example.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://life.example.com/privacy.html"/>
+  </url>
+</urlset>

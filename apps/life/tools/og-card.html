@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- OG 카드 템플릿 (1200x630). tools/gen-og.js 가 {{...}} 를 채우고 life-core.js / life-engine.js 를 인라인해서
+     실제 렌더러로 만화 한 페이지를 완성 상태로 그린 뒤 Chrome headless 로 스크린샷한다. -->
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="{{fontCss}}">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    font-family: {{bodyFont}};
+    color: #171614;
+    background-color: #efece4;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .32 0 0 0 0 .28 0 0 0 0 .2 0 0 0 .12 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  .copy { position: absolute; left: 80px; top: 0; bottom: 0; width: 600px; display: flex; flex-direction: column; justify-content: center; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: {{handFont}}; font-size: {{brandSize}}px; line-height: 1; margin-bottom: 30px; }
+  .brand svg { width: 26px; height: 26px; }
+  h1 { font-family: {{displayFont}}; font-weight: {{titleWeight}}; font-size: 88px; line-height: 1.08; letter-spacing: -0.02em; white-space: nowrap; }
+  .tag { margin-top: 26px; font-family: {{handFont}}; font-size: {{tagSize}}px; line-height: 1.25; color: rgba(23,22,20,.78); max-width: 580px; word-break: keep-all; text-wrap: balance; }
+  html:lang(ja) .tag { word-break: auto-phrase; }
+  html:is(:lang(ja), :lang(zh), :lang(th)) .tag { word-break: normal; }
+  html:lang(th) .tag { line-height: 1.45; }
+  .chip { position: relative; display: inline-flex; align-self: flex-start; margin-top: 38px; padding: 14px 26px; background: #171614; color: #f7f5ef; font-size: 26px; font-weight: 700; border-radius: 4px 6px 5px 3px; }
+  .chip::after { content: ''; position: absolute; inset: -6px -8px -5px -6px; border: 2px solid #171614; border-radius: 3px; transform: rotate(-0.8deg); }
+  .sheet { position: absolute; right: 86px; top: 42px; width: 408px; height: 544px; transform: rotate(1.6deg); background: #f2efe8;
+    box-shadow: 0 2px 0 rgba(0,0,0,.04), 0 30px 50px -26px rgba(52,40,20,.55), 0 6px 14px -8px rgba(52,40,20,.25); }
+  .sheet::before { content: ''; position: absolute; top: -14px; left: 50%; width: 120px; height: 30px; transform: translateX(-50%) rotate(-3deg); background: rgba(214,205,180,.8); box-shadow: 0 1px 2px rgba(0,0,0,.08); z-index: 2; }
+  .sheet canvas { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="brand"><svg viewBox="0 0 24 24"><path d="M12 3.2l2 6 6.2 2-6.2 2-2 6.2-2-6.2-6.2-2 6.2-2z" fill="#171614"/></svg>{{brand}}</div>
+    <h1 id="t">{{title}}</h1>
+    <p class="tag">{{tag}}</p>
+    <span class="chip">{{chip}}</span>
+  </div>
+  <div class="sheet"><canvas id="sheet"></canvas></div>
+  <script>{{core}}</script>
+  <script>{{engine}}</script>
+  <script>
+    (function () {
+      var h = document.getElementById('t'), s = 88;
+      while (h.scrollWidth > 600 && s > 56) { s -= 4; h.style.fontSize = s + 'px'; }
+      // 긴 이름(예: vi, de)은 한 줄로 줄이지 말고 두 줄로 나눈다
+      if (h.scrollWidth > 600) { h.style.whiteSpace = 'normal'; h.style.textWrap = 'balance'; s = 72; h.style.fontSize = s + 'px'; while (h.scrollHeight > 170 && s > 52) { s -= 4; h.style.fontSize = s + 'px'; } }
+      var UI = {{uiJson}};
+      var d = new Date();
+      var inp = LIFE_CORE.normalizeInput({ birth: 1994, pen: 'brush', moments: ['steps', 'school', 'love', 'travel', 'wedding'].map(function (id) { return { id: id }; }) }, { y: d.getFullYear(), m: d.getMonth() + 1 });
+      var plan = LIFE_CORE.planFilm(inp, UI, { hero: true });
+      var text = plan.scenes.map(function (x) { return (x.meta || '') + ' ' + (x.line || ''); }).join(' ') + ' 0123456789';
+      var go = function () {
+        var film = LIFE_ENGINE.createFilm(document.getElementById('sheet'), plan, { hd: 1440, width: 816, height: 1088, fonts: UI.canvasFont, drift: false, timeline: false });
+        var best = 0;
+        film.L.pages.forEach(function (p, i) { if (p.scenes.length > film.L.pages[best].scenes.length) best = i; });
+        film.renderPage(best);
+      };
+      var f = UI.canvasFont;
+      Promise.race([document.fonts.load(f.weight + ' 48px ' + f.hand, text), new Promise(function (r) { setTimeout(r, 3500); })]).then(go, go);
+    })();
+  </script>
+</body>
+</html>

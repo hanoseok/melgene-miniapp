@@ -1,0 +1,478 @@
+/* apps/balance/style.css — 밸런스 게임 전용 스타일
+ * 컨셉: 예능 자막의 "VS" 화면. 탠저린(A) vs 코발트(B) 두 덩어리가 화면을 반으로 가르고, 레몬색 VS 스티커가 경계에 붙는다.
+ * 고르면 경계선이 실제 선택률 쪽으로 밀려 움직인다 — 이 한 번의 움직임에 모션을 몰아 쓴다.
+ * ladder(마리골드 코믹 아웃라인)·past-life(밤하늘 금빛)·life(흑백 잉크)와 겹치지 않는 차가운 종이 바탕 + 원색 대비.
+ * 맨 위 타이틀 바·끝 화면(별점·공유·FAQ·다시 하기·다른 앱)은 공통 컴포넌트 — 여기서는 변수와 범위 한정 덮어쓰기로 색·글꼴만 맞춘다.
+ */
+
+:root {
+  color-scheme: light;
+  --ink: #17153b;
+  --ink-2: rgba(23, 21, 59, 0.7);
+  --ink-3: rgba(23, 21, 59, 0.46);
+  --line: rgba(23, 21, 59, 0.13);
+  --paper: #edeff6;
+  --card: #ffffff;
+  --a: #ff5a1f;       /* A: 탠저린 — 위에 올리는 글자는 잉크색 (대비 5.6:1) */
+  --a-deep: #c03a07;  /* 흰 바탕 위 A 글자 */
+  --a-ink: #17153b;
+  --b: #2743ff;       /* B: 코발트 — 위에 올리는 글자는 흰색 (대비 6.9:1) */
+  --b-deep: #1a2fd1;
+  --b-ink: #ffffff;
+  --lemon: #ffe14a;
+  /* 아래 변수 + --wb(줄바꿈)·--hyphens 는 언어마다 다르다: tools/i18n/<lang>.js 의 fonts 를 gen-i18n.js 가 <head> 에 넣는다.
+     여기 값은 기본(라틴 문자)용. 한글·가나·한자처럼 글자가 넓은 문자는 <html class="bal-dense">,
+     태국어·베트남어처럼 부호가 위아래로 쌓이는 문자는 <html class="bal-tall"> 로 크기·줄 간격 단계를 바꾼다. */
+  --font-display: 'Dela Gothic One', var(--font-sans);
+  --display-weight: 400;
+  /* 숫자·퍼센트는 모든 언어에서 같은 굵은 숫자 글꼴. 그 안의 단위 글자(秒, วิ …)는 그 언어의 제목 글꼴로 */
+  --font-num: 'Dela Gothic One', var(--font-display);
+  --font-opt: var(--font-sans);
+  --opt-weight: 800;
+  --opt-scale: 1;
+  --hero-scale: 1;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 컴포넌트 색 맞추기 (shared/base.css 의 변수만 쓴다) */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--ink);
+  --mg-top-badge-fg: var(--lemon);
+  --lang-bg: #ffffff;
+  --lang-fg: var(--ink);
+  --lang-border: rgba(23, 21, 59, 0.16);
+  --mg-star-on: var(--a);
+  --mg-star-off: rgba(23, 21, 59, 0.18);
+  --mg-heart-border: rgba(23, 21, 59, 0.14);
+  --mg-heart-bg: #ffffff;
+  --mg-share-bg: #ffffff;
+  --mg-share-border: rgba(23, 21, 59, 0.12);
+  --mg-faq-bg: #ffffff;
+  --mg-faq-border: rgba(23, 21, 59, 0.1);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #ffffff;
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+}
+
+html { background: var(--paper); }
+/* 줄바꿈: 한국어는 어절 단위(keep-all), 일본어는 문절(auto-phrase), 그 밖은 기본 — 언어 파일의 fonts.wordBreak */
+body.bal-body { background: var(--paper); color: var(--ink); min-height: 100vh; word-break: var(--wb); overflow-wrap: break-word; line-break: strict; }
+/* 긴 합성어(독일어 등)는 좁은 칸에서만 하이픈으로 나눈다 — 본문 문단은 그대로 둔다 (--hyphens: 언어 파일의 fonts.hyphens) */
+:where(.bal-opt, .bal-pack-name, .bal-prompt, .bal-result-type, .bal-statbox-label, .bal-friend-banner) { -webkit-hyphens: var(--hyphens); hyphens: var(--hyphens); }
+
+/* 모든 미니앱은 모바일 화면이 기본: 데스크톱에서도 가운데 한 줄(--app-width, shared/base.css). 넓히는 분기점은 두지 않는다. */
+.bal-shell { max-width: var(--app-width, var(--max-width)); margin: 0 auto; padding: 0 16px 8px; }
+
+.bal-screen[hidden] { display: none !important; }
+
+:where(.bal-body) button:focus-visible,
+:where(.bal-body) a:focus-visible,
+:where(.bal-body) summary:focus-visible { outline: 3px solid var(--b); outline-offset: 3px; }
+
+/* ---------------------------------------------------------------- 히어로: 제목이 A/B 두 덩어리로 갈라진다 */
+.bal-hero { position: relative; margin: 8px 0 18px; border-radius: 28px; overflow: hidden; overflow: clip; } /* 옆에서 밀려 들어오는 첫 모션이 화면 밖으로 넘치지 않게 (모바일에서 가로 폭이 늘어난다) */
+.bal-hero-title { margin: 0; display: flex; flex-direction: column; font-family: var(--font-display); font-weight: var(--display-weight); }
+.bal-hero-a,
+.bal-hero-b { display: block; padding: 22px 22px 38px; line-height: 1.02; letter-spacing: -0.01em; }
+/* shared/base.css 의 :lang(zh|th|vi) 가 모든 요소에 본문 글꼴을 직접 준다 → 제목 글꼴을 물려받아야 하는 안쪽 span 은 명시적으로 inherit */
+.bal-hero-title > span,
+.bal-next-label { font-family: inherit; font-weight: inherit; }
+.bal-hero-title > span,
+.bal-pack-name { text-wrap: balance; }
+/* 문단 끝에 한 단어만 남는 줄(태국어·중국어에서 자주 생긴다)을 피한다 — 지원 브라우저만 */
+.bal-hook, .bal-pack-blurb, .bal-friend-banner, .bal-note, .bal-result-desc, .bal-result-line { text-wrap: pretty; }
+.bal-hero-a {
+  background: var(--a); color: var(--a-ink);
+  border-radius: 28px 28px 0 0;
+  font-size: calc(clamp(38px, 11.4vw, 54px) * var(--hero-scale));
+}
+.bal-dense .bal-hero-a { font-size: calc(clamp(44px, 13.5vw, 62px) * var(--hero-scale)); }
+.bal-hero-b {
+  background: var(--b); color: var(--b-ink);
+  border-radius: 0 0 28px 28px;
+  padding: 38px 22px 22px;
+  text-align: right;
+  font-size: calc(clamp(28px, 8.4vw, 40px) * var(--hero-scale));
+}
+/* 부호가 위아래로 쌓이는 문자(태국어·베트남어)는 줄 간격을 넉넉히 — 윗줄 성조가 아랫줄에 닿지 않게 */
+.bal-tall .bal-hero-a,
+.bal-tall .bal-hero-b { line-height: 1.28; }
+
+.bal-vs,
+.bal-hero-b::before {
+  position: absolute; z-index: 3;
+  left: 50%; top: 0;
+  width: 62px; height: 62px;
+  margin: -31px 0 0 -31px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: var(--lemon); color: var(--ink);
+  box-shadow: 0 0 0 4px var(--ink);
+  font-family: 'Dela Gothic One', var(--font-sans);
+  font-size: 21px; line-height: 1; letter-spacing: -0.03em;
+  transform: rotate(-10deg);
+  pointer-events: none;
+}
+/* 히어로의 VS 는 B 덩어리 위쪽 가장자리(= 실제 경계)에 붙는다. 장식이므로 읽지 않는다(content 대체 텍스트 ""). */
+.bal-hero-b { position: relative; }
+.bal-hero-b::before { content: attr(data-vs); content: attr(data-vs) / ''; text-align: center; }
+
+/* 페이지 첫 모션 한 번: 두 덩어리가 양쪽에서 부딪히고 VS 가 찍힌다 */
+.bal-hero-a { animation: bal-in-left 0.55s cubic-bezier(0.2, 0.9, 0.25, 1) both; }
+.bal-hero-b { animation: bal-in-right 0.55s cubic-bezier(0.2, 0.9, 0.25, 1) 0.05s both; }
+.bal-hero-b::before { animation: bal-vs-stamp 0.5s cubic-bezier(0.2, 1.5, 0.4, 1) 0.42s both; }
+@keyframes bal-in-left { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
+@keyframes bal-in-right { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes bal-vs-stamp {
+  0% { opacity: 0; transform: scale(2.4) rotate(-30deg); }
+  70% { opacity: 1; transform: scale(0.9) rotate(-6deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-10deg); }
+}
+
+.bal-hook { font-size: 15px; line-height: 1.7; color: var(--ink-2); margin: 0 0 6px; max-width: 34em; }
+
+.bal-h2 { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 22px; line-height: 1.25; margin: 28px 0 12px; }
+
+/* ---------------------------------------------------------------- 팩 고르기 */
+.bal-packs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.bal-pack {
+  position: relative;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+  min-height: 132px;
+  padding: 14px 14px 12px;
+  border: 0; border-radius: 20px;
+  background: var(--card); color: var(--ink);
+  box-shadow: inset 0 0 0 2px var(--line);
+  text-align: left; cursor: pointer;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.bal-pack:hover { box-shadow: inset 0 0 0 2px var(--ink); }
+.bal-pack:active { transform: scale(0.97); }
+.bal-pack-emoji { font-size: 26px; line-height: 1; margin-bottom: 6px; }
+.bal-pack-name { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 21px; line-height: 1.12; }
+.bal-tall .bal-pack-name { line-height: 1.35; }
+.bal-pack-blurb { font-size: 12.5px; line-height: 1.45; color: var(--ink-2); }
+.bal-pack-count { margin-top: auto; padding-top: 8px; font-size: 12px; font-weight: 700; color: var(--ink-3); }
+
+/* 랜덤 12: 카드 자체가 A|B 로 갈라져 있다 */
+.bal-pack--random {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 64% 36%;
+  grid-template-areas: 'name emoji' 'blurb count';
+  align-items: start;
+  min-height: 0;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--a) 0 64%, var(--b) 64% 100%);
+  box-shadow: none;
+}
+.bal-pack--random:hover { box-shadow: inset 0 0 0 3px var(--ink); }
+.bal-pack--random .bal-pack-name { grid-area: name; padding: 18px 16px 0; font-size: clamp(22px, 6.6vw, 28px); }
+.bal-pack--random .bal-pack-blurb { grid-area: blurb; padding: 6px 16px 18px; color: rgba(23, 21, 59, 0.82); font-weight: 600; }
+.bal-pack--random .bal-pack-emoji { grid-area: emoji; justify-self: center; align-self: end; margin: 0; padding-top: 16px; font-size: 40px; }
+.bal-pack--random .bal-pack-count { grid-area: count; justify-self: center; margin: 0; padding: 8px 0 16px; color: #fff; }
+
+/* 극한: 가장 어려운 팩은 잉크 바탕 */
+.bal-pack--boss {
+  grid-column: 1 / -1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas: 'emoji name count' 'emoji blurb count';
+  column-gap: 14px; row-gap: 2px;
+  align-items: center;
+  padding: 16px 18px;
+  background: var(--ink); color: #fff;
+  box-shadow: none;
+}
+.bal-pack--boss:hover { box-shadow: inset 0 0 0 3px var(--lemon); }
+.bal-pack--boss .bal-pack-emoji { grid-area: emoji; margin: 0; font-size: 32px; }
+.bal-pack--boss .bal-pack-name { grid-area: name; color: var(--lemon); }
+.bal-pack--boss .bal-pack-blurb { grid-area: blurb; color: rgba(255, 255, 255, 0.72); }
+.bal-pack--boss .bal-pack-count { grid-area: count; margin: 0; padding: 0; color: rgba(255, 255, 255, 0.6); }
+
+/* ---------------------------------------------------------------- 질문 화면 */
+.bal-bar { display: flex; align-items: center; gap: 10px; padding: 8px 0 4px; }
+.bal-icon-btn {
+  flex-shrink: 0;
+  width: 42px; height: 42px;
+  display: grid; place-items: center;
+  border: 0; border-radius: 50%;
+  background: var(--card); color: var(--ink);
+  box-shadow: inset 0 0 0 2px var(--line);
+  cursor: pointer;
+}
+.bal-icon-btn:active { transform: scale(0.92); }
+.bal-progress { flex: 1; min-width: 0; display: flex; gap: 3px; margin: 0; padding: 0; list-style: none; }
+.bal-progress li { flex: 1; height: 8px; border-radius: 4px; background: rgba(23, 21, 59, 0.12); transition: background 0.2s ease; }
+.bal-progress li.is-current { background: var(--ink); }
+.bal-progress li.is-skip { background: rgba(23, 21, 59, 0.3); }
+.bal-progress li.is-a { background: var(--a); }
+.bal-progress li.is-b { background: var(--b); }
+.bal-progress-num { flex-shrink: 0; min-width: 44px; text-align: right; font-family: var(--font-num); font-size: 13px; font-variant-numeric: tabular-nums; }
+.bal-text-btn {
+  flex-shrink: 0;
+  padding: 10px 2px;
+  border: 0; background: none; color: var(--ink-2);
+  font-size: 13px; font-weight: 700;
+  text-decoration: underline; text-underline-offset: 3px;
+  cursor: pointer;
+}
+.bal-text-btn[hidden] { display: inline-block !important; visibility: hidden; }
+
+.bal-friend-banner {
+  margin: 8px 0 0; padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--lemon); color: var(--ink);
+  font-size: 13px; font-weight: 700; line-height: 1.45;
+}
+
+.bal-q-head { text-align: center; margin: 12px 0 12px; }
+.bal-q-pack { margin: 0 0 4px; font-size: 12.5px; font-weight: 700; color: var(--ink-2); }
+.bal-prompt { margin: 0; min-height: 1.25em; font-family: var(--font-display); font-weight: var(--display-weight); font-size: 23px; line-height: 1.25; text-wrap: balance; }
+.bal-tall .bal-prompt { line-height: 1.45; }
+.bal-prompt.is-long { font-size: 17px; }
+
+/* 대결 카드: 위 A / 아래 B. 고르면 flex-basis 가 선택률 쪽으로 움직인다 */
+.bal-duel {
+  position: relative;
+  display: flex; flex-direction: column;
+  height: clamp(340px, calc(100vh - 290px), 540px);
+  height: clamp(340px, calc(100svh - 290px), 540px);
+  border-radius: 28px;
+  overflow: hidden;
+  overflow: clip; /* hidden 은 스크립트·포커스로 안쪽이 스크롤될 수 있다(선택지에 초점이 가면 두 칸이 위로 밀림) → clip 은 스크롤 자체가 없다 */
+  background: var(--ink);
+  isolation: isolate;
+}
+/* 친구 링크 안내나 긴 질문 문장이 있으면 그만큼 카드를 줄여 "다음" 버튼이 첫 화면에 남게 한다 */
+.bal-friend-banner:not([hidden]) ~ .bal-duel {
+  height: clamp(320px, calc(100vh - 360px), 520px);
+  height: clamp(320px, calc(100svh - 360px), 520px);
+}
+.bal-screen.has-long-prompt .bal-duel {
+  height: clamp(320px, calc(100vh - 320px), 520px);
+  height: clamp(320px, calc(100svh - 320px), 520px);
+}
+.bal-screen.has-long-prompt .bal-friend-banner:not([hidden]) ~ .bal-duel {
+  height: clamp(300px, calc(100vh - 390px), 500px);
+  height: clamp(300px, calc(100svh - 390px), 500px);
+}
+.bal-side {
+  position: relative;
+  flex: 1 1 50%;
+  min-height: 0; min-width: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+  margin: 0; padding: 26px 22px;
+  border: 0; border-radius: 0;
+  font: inherit; text-align: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: flex-basis 0.65s cubic-bezier(0.22, 1, 0.3, 1), filter 0.3s ease, padding 0.3s ease;
+}
+.bal-side--a { background: var(--a); color: var(--a-ink); overflow: hidden; overflow: clip; padding-bottom: 38px; }
+/* 경계선 위의 VS 스티커(지름 62px)가 글자를 가리지 않게 A 는 아래, B 는 위를 넉넉히 비운다 */
+.bal-side--b { padding-top: 38px; }
+.bal-side--b { background: var(--b); color: var(--b-ink); }
+.bal-side:focus-visible { outline: 4px solid var(--lemon); outline-offset: -10px; }
+
+/* 커다란 A / B 워터마크 (대각선으로 마주 보게) */
+.bal-side-letter {
+  position: absolute;
+  font-family: 'Dela Gothic One', var(--font-sans);
+  font-size: 200px; line-height: 0.8;
+  opacity: 0.12;
+  pointer-events: none;
+}
+.bal-side--a .bal-side-letter { top: -6px; left: 4px; }
+.bal-side--b .bal-side-letter { right: 4px; bottom: -34px; }
+.bal-side--b { overflow: visible; } /* VS 스티커가 경계 위로 튀어나온다 (바깥은 .bal-duel 이 자른다) */
+
+.bal-opt {
+  position: relative;
+  max-width: 15em;
+  font-family: var(--font-opt); font-weight: var(--opt-weight);
+  font-size: calc(clamp(21px, 5.8vw, 27px) * var(--opt-scale)); line-height: 1.2; letter-spacing: -0.012em;
+  overflow-wrap: anywhere; text-wrap: balance;
+  transition: font-size 0.3s ease, opacity 0.3s ease;
+}
+.bal-dense .bal-opt { font-size: calc(clamp(26px, 8vw, 34px) * var(--opt-scale)); letter-spacing: 0; }
+.bal-tall .bal-opt { line-height: 1.38; letter-spacing: 0; }
+.bal-duel[data-long='1'] .bal-opt { font-size: calc(clamp(19px, 5.2vw, 24px) * var(--opt-scale)); }
+.bal-dense .bal-duel[data-long='1'] .bal-opt { font-size: calc(clamp(23px, 6.8vw, 29px) * var(--opt-scale)); }
+
+@media (hover: hover) {
+  .bal-duel[data-state='idle'] .bal-side:hover .bal-opt { transform: scale(1.035); }
+  .bal-opt { transition: font-size 0.3s ease, opacity 0.3s ease, transform 0.2s ease; }
+}
+.bal-duel[data-state='idle'] .bal-side:active { filter: brightness(0.93); }
+
+/* 선택 */
+.bal-side.is-chosen { animation: bal-punch 0.36s ease-out; }
+@keyframes bal-punch { 0% { filter: brightness(1.15); } 100% { filter: none; } }
+.bal-side::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: var(--ink);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.bal-side.is-other::before { opacity: 0.26; }
+.bal-side.is-other .bal-opt { opacity: 0.8; }
+
+.bal-tag {
+  position: absolute; z-index: 2;
+  top: 14px; right: 14px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--lemon); color: var(--ink);
+  box-shadow: 0 0 0 3px var(--ink);
+  font-size: 13px; font-weight: 800; line-height: 1.2;
+  opacity: 0;
+  transform: scale(0.4) rotate(-8deg);
+  pointer-events: none;
+}
+.bal-side.is-chosen .bal-tag--you { animation: bal-stamp 0.42s cubic-bezier(0.2, 1.6, 0.4, 1) forwards; }
+@keyframes bal-stamp {
+  0% { opacity: 0; transform: scale(2.2) rotate(-20deg); }
+  60% { opacity: 1; transform: scale(0.92) rotate(-5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-8deg); }
+}
+.bal-tag--friend { right: auto; left: 14px; background: #fff; transform: rotate(4deg); }
+.bal-duel:is([data-state='result'], [data-state='nodata']) .bal-side.has-friend .bal-tag--friend { opacity: 1; transform: rotate(4deg); transition: opacity 0.3s ease 0.4s; }
+
+/* 결과: 퍼센트 + 인원 + 정확한 막대 */
+.bal-stat { display: none; align-items: baseline; justify-content: center; flex-wrap: wrap; column-gap: 8px; row-gap: 2px; position: relative; }
+.bal-duel[data-state='result'] .bal-stat { display: flex; }
+.bal-pct { font-family: var(--font-num); font-size: clamp(36px, 11vw, 50px); line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.bal-cnt { font-size: 13px; font-weight: 700; opacity: 0.82; }
+.bal-meter {
+  position: absolute; left: 22px; right: 22px; bottom: 14px;
+  height: 6px; border-radius: 3px;
+  background: rgba(23, 21, 59, 0.2);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.bal-side--b .bal-meter { background: rgba(255, 255, 255, 0.24); }
+.bal-meter-fill { display: block; width: 0; height: 100%; border-radius: inherit; background: currentColor; transition: width 0.65s cubic-bezier(0.22, 1, 0.3, 1); }
+.bal-duel[data-state='result'] .bal-meter { opacity: 1; }
+.bal-duel[data-state='result'] .bal-side { padding: 18px 20px 26px; gap: 6px; }
+.bal-duel[data-state='result'] .bal-side--a { padding-bottom: 40px; }
+.bal-duel[data-state='result'] .bal-side--b { padding-top: 36px; }
+.bal-duel[data-state='result'] .bal-opt { font-size: clamp(15px, 4.2vw, 18px); }
+.bal-dense .bal-duel[data-state='result'] .bal-opt { font-size: clamp(16px, 4.6vw, 20px); }
+/* 자리가 넉넉한 쪽(경계선이 밀려난 반대편)은 글자를 한 단계 크게 둔다 */
+.bal-duel[data-state='result'] .bal-side.is-roomy .bal-opt { font-size: clamp(17px, 4.8vw, 21px); }
+.bal-dense .bal-duel[data-state='result'] .bal-side.is-roomy .bal-opt { font-size: clamp(19px, 5.6vw, 24px); }
+
+/* 질문이 바뀔 때: 두 덩어리가 양쪽에서 짧게 밀려 들어온다 */
+.bal-duel.is-entering .bal-side--a { animation: bal-slide-a 0.34s cubic-bezier(0.2, 0.9, 0.3, 1); }
+.bal-duel.is-entering .bal-side--b { animation: bal-slide-b 0.34s cubic-bezier(0.2, 0.9, 0.3, 1); }
+@keyframes bal-slide-a { from { transform: translateX(-18px); opacity: 0.4; } to { transform: none; opacity: 1; } }
+@keyframes bal-slide-b { from { transform: translateX(18px); opacity: 0.4; } to { transform: none; opacity: 1; } }
+.bal-duel.no-anim .bal-side,
+.bal-duel.no-anim .bal-meter-fill,
+.bal-duel.no-anim .bal-opt { transition: none !important; }
+
+.bal-after { min-height: 96px; display: flex; flex-direction: column; align-items: center; gap: 8px; padding-top: 12px; }
+.bal-note { margin: 0; min-height: 1.45em; max-width: 30em; font-size: 13px; line-height: 1.45; color: var(--ink-2); text-align: center; }
+.bal-next {
+  position: relative; overflow: hidden;
+  width: 100%; max-width: 340px;
+  padding: 15px 20px;
+  border: 0; border-radius: 999px;
+  background: var(--ink); color: #fff;
+  font-family: var(--font-display); font-weight: var(--display-weight); font-size: 18px; line-height: 1.2;
+  cursor: pointer;
+}
+.bal-next[hidden] { display: block !important; visibility: hidden; }
+.bal-next-fill { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: var(--lemon); transform: scaleX(0); transform-origin: left center; }
+.bal-next.is-counting .bal-next-fill { transform: scaleX(1); transition: transform var(--advance, 1.2s) linear; }
+.bal-next-label { position: relative; }
+.bal-next:active { transform: scale(0.98); }
+
+/* ---------------------------------------------------------------- 결과 화면 */
+.bal-result {
+  position: relative;
+  margin-top: 14px;
+  padding: 30px 20px 20px;
+  border-radius: 28px;
+  background: var(--ink); color: #fff;
+  overflow: hidden;
+}
+.bal-result::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 10px;
+  background: linear-gradient(90deg, var(--a) 0 50%, var(--b) 50% 100%);
+}
+.bal-result-pack { margin: 0 0 6px; font-size: 13px; font-weight: 700; color: rgba(255, 255, 255, 0.72); }
+.bal-result-type { margin: 0 0 10px; font-family: var(--font-display); font-weight: var(--display-weight); font-size: clamp(34px, 10vw, 48px); line-height: 1.05; color: var(--lemon); outline: none; text-wrap: balance; }
+.bal-tall .bal-result-type { line-height: 1.3; }
+.bal-dense .bal-result-type { font-size: clamp(40px, 12vw, 56px); }
+.bal-result-desc { margin: 0 0 18px; font-size: 15px; line-height: 1.65; color: rgba(255, 255, 255, 0.86); }
+.bal-stats { display: flex; flex-wrap: wrap; gap: 8px; }
+.bal-statbox { flex: 1 1 28%; min-width: 92px; display: flex; flex-direction: column; gap: 6px; padding: 12px; border-radius: 16px; background: rgba(255, 255, 255, 0.08); }
+.bal-statbox[hidden] { display: none; }
+.bal-statbox-num { font-family: var(--font-num); font-size: 24px; line-height: 1; font-variant-numeric: tabular-nums; }
+.bal-statbox-label { font-size: 12px; line-height: 1.3; color: rgba(255, 255, 255, 0.72); }
+.bal-rate-meter { margin-top: 14px; height: 10px; border-radius: 5px; background: rgba(255, 255, 255, 0.14); overflow: hidden; }
+.bal-rate-meter[hidden] { display: none; }
+.bal-rate-meter-fill { display: block; width: 0; height: 100%; border-radius: inherit; background: var(--lemon); transition: width 0.9s cubic-bezier(0.22, 1, 0.3, 1); }
+.bal-result-line { margin: 12px 0 0; font-size: 13px; line-height: 1.55; color: rgba(255, 255, 255, 0.76); }
+.bal-result-line:empty { display: none; }
+
+/* ---------------------------------------------------------------- 공통 끝 화면 (data-mg-end) — 색·글꼴만 맞춘다 */
+.bal-body .mg-end { margin-top: 18px; }
+.bal-body .mg-end .mg-rating { margin: 6px auto 4px; padding: 18px 12px 16px; border-radius: 22px; background: var(--card); width: 100%; }
+.bal-body .mg-rating-title,
+.bal-body .mg-end-h { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 19px; line-height: 1.3; }
+.bal-body .mg-end .mg-share-btn { border-radius: 16px; }
+.bal-body .mg-end-retry { border-radius: 999px; font-family: var(--font-display); font-weight: var(--display-weight); font-size: 18px; }
+.bal-body .mg-end-retry:active { transform: scale(0.98); }
+.bal-body .more-test-card { background: var(--card); border: 0; box-shadow: inset 0 0 0 2px var(--line); }
+.bal-body .more-test-card:hover { box-shadow: inset 0 0 0 2px var(--ink); }
+.bal-body .site-footer { opacity: 0.7; margin-top: 28px; }
+
+/* 결과 경계선 계산용 복제본 (balance.js fitVisual) — 화면 밖에서 실제 크기로만 그린다 */
+.bal-duel--probe { position: absolute !important; left: -10000px; top: 0; visibility: hidden; pointer-events: none; }
+
+/* 질문 화면의 광고 한 자리 (카드·"다음" 버튼 아래) */
+.bal-screen .mg-ad[data-mg-ad-ready] { margin-top: 20px; }
+
+/* ---------------------------------------------------------------- 개인정보처리방침 */
+.bal-doc { padding: 24px 0 20px; font-size: 14.5px; line-height: 1.8; color: var(--ink-2); }
+.bal-doc h1 { margin: 8px 0 20px; font-family: var(--font-display); font-weight: var(--display-weight); font-size: 30px; line-height: 1.25; color: var(--ink); }
+.bal-doc h2 { margin: 26px 0 8px; font-size: 16px; font-weight: 800; color: var(--ink); }
+.bal-doc a { color: var(--b-deep); text-decoration: underline; }
+
+/* ---------------------------------------------------------------- 반응형 */
+@media (max-height: 700px) {
+  .bal-duel[data-state='result'] .bal-opt,
+  .bal-dense .bal-duel[data-state='result'] .bal-opt { font-size: 15px; }
+  .bal-pct { font-size: 34px; }
+  .bal-duel[data-state='result'] .bal-side { padding: 12px 18px 22px; }
+  .bal-duel[data-state='result'] .bal-side--a { padding-bottom: 38px; }
+  .bal-duel[data-state='result'] .bal-side--b { padding-top: 34px; }
+  .bal-q-head { margin: 8px 0; }
+  .bal-prompt { font-size: 20px; }
+}
+@media (max-width: 359px) {
+  .bal-pack-name { font-size: 18px; }
+  .bal-text-btn { font-size: 12px; }
+}
+/* ---------------------------------------------------------------- 모션 감소 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    transition-delay: 0s !important;
+  }
+}

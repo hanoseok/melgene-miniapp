@@ -1,0 +1,14 @@
+{
+  "name": "melgene-miniapp",
+  "private": true,
+  "description": "Melgene Apps (miniapp.melgene.com) — static mini apps, one module per folder in apps/",
+  "scripts": {
+    "gen": "node tools/gen-all.js",
+    "gen:og": "node tools/gen-all.js --og",
+    "check": "node tools/check-all.js",
+    "check:links": "node tools/check-links.js",
+    "build": "./deploy-prep.sh && node tools/check-links.js dist",
+    "deploy": "./deploy.sh",
+    "mock-supa": "node tools/mock-supa.js 8799"
+  }
+}

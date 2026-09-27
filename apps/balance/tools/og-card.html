@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- OG 카드 템플릿(1200x630). tools/gen-og.js 가 {{...}} 를 언어별 문구(tools/i18n/<lang>.js 의 og)로 채워 스크린샷한다.
+     A|B 로 갈라진 화면 + 레몬색 VS. 결과 숫자는 "?%" 로만 둔다 (가짜 퍼센트를 그리지 않는다).
+     양쪽 문구도 실제 질문이 아니라 "이쪽? / 저쪽?" 같은 말만 쓴다 (스포일러 금지). -->
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="{{fontCss}}">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; background: #17153b; }
+  body { position: relative; font-family: 'Pretendard', 'Hiragino Sans', sans-serif; }
+  .half { position: absolute; top: 0; bottom: 96px; overflow: hidden; }
+  .a { left: 0; width: 660px; background: #ff5a1f; color: #17153b; clip-path: polygon(0 0, 100% 0, 540px 100%, 0 100%); }
+  .b { right: 0; width: 660px; background: #2743ff; color: #fff; clip-path: polygon(120px 0, 100% 0, 100% 100%, 0 100%); }
+  .letter { position: absolute; font-family: 'Dela Gothic One', sans-serif; font-size: 400px; line-height: 0.8; opacity: 0.13; }
+  .a .letter { left: 14px; top: -10px; }
+  .b .letter { right: 20px; bottom: -40px; }
+  .title { position: absolute; left: 64px; top: 50px; font-family: {{displayFont}}; font-weight: {{displayWeight}}; font-size: 60px; line-height: {{lineHeight}}; color: #17153b; white-space: nowrap; }
+  .opt { position: absolute; font-family: {{displayFont}}; font-weight: {{displayWeight}}; line-height: {{lineHeight}}; word-break: keep-all; }
+  /* keep-all: 띄어쓰기가 있는 언어는 단어 단위로 줄바꿈, 없는 언어(일본어 등)는 한 줄로 두고 아래 fit() 이 글자를 줄인다 */
+  .opt-a { left: 64px; top: 180px; width: 400px; font-size: 88px; }
+  .opt-b { right: 64px; top: 180px; width: 400px; font-size: 88px; text-align: right; }
+  .q { position: absolute; bottom: 44px; font-family: 'Dela Gothic One', sans-serif; font-size: 64px; line-height: 1; opacity: 0.9; }
+  .a .q { left: 64px; }
+  .b .q { right: 64px; }
+  .vs {
+    position: absolute; left: 600px; top: 267px;
+    width: 164px; height: 164px; margin: -82px 0 0 -82px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: #ffe14a; color: #17153b;
+    box-shadow: 0 0 0 10px #17153b;
+    font-family: 'Dela Gothic One', sans-serif; font-size: 58px; letter-spacing: -0.03em;
+    transform: rotate(-10deg);
+  }
+  .band {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 96px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 64px;
+    background: #17153b; color: #fff;
+  }
+  .tag { font-family: {{sansFont}}; font-size: 34px; font-weight: 800; white-space: nowrap; }
+  .chips { display: flex; gap: 10px; }
+  .chip { width: 46px; height: 16px; border-radius: 8px; }
+</style>
+</head>
+<body>
+  <div class="half a">
+    <div class="letter">{{sideA}}</div>
+    <div class="title" id="title">{{title}}</div>
+    <div class="opt opt-a" id="oa">{{a}}</div>
+    <div class="q">{{unknown}}</div>
+  </div>
+  <div class="half b">
+    <div class="letter">{{sideB}}</div>
+    <div class="opt opt-b" id="ob">{{b}}</div>
+    <div class="q">{{unknown}}</div>
+  </div>
+  <div class="vs">{{vs}}</div>
+  <div class="band">
+    <div class="tag" id="tag">{{tag}}</div>
+    <div class="chips"><span class="chip" style="background:#ff5a1f"></span><span class="chip" style="background:#ffe14a"></span><span class="chip" style="background:#2743ff"></span></div>
+  </div>
+  <script>
+    // 긴 문구는 칸 안에 들어갈 때까지 줄인다
+    // 웹폰트가 다 불러와진 뒤에 재야 실제 글자 폭이 나온다
+    (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function () {
+      // 줄바꿈 없는 한 덩어리(일본어·한 단어)는 폭, 여러 줄은 높이로 판단한다
+      function fit(el, maxW, maxH, size, min) {
+        el.style.fontSize = size + 'px';
+        while ((el.scrollWidth > maxW || el.scrollHeight > maxH || el.getBoundingClientRect().width > maxW) && size > min) {
+          size -= 2; el.style.fontSize = size + 'px';
+        }
+      }
+      fit(document.getElementById('oa'), 400, 220, 88, 40);
+      fit(document.getElementById('ob'), 400, 220, 88, 40);
+      fit(document.getElementById('title'), 470, 70, 60, 30);
+      fit(document.getElementById('tag'), 860, 50, 34, 20);
+    });
+  </script>
+</body>
+</html>

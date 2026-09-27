@@ -1,0 +1,28 @@
+# 배포 빌드 (deploy-prep.sh 가 만든다 — 배포본은 gh-pages 브랜치로 따로 올라간다)
+dist/
+node_modules/
+
+# 에이전트·도구 상태 / 로컬 설정
+.omc/
+.claude/settings*.json
+.claude/*.local.*
+
+# OS·편집기·임시
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.log
+*.bak
+*.tmp
+.sc.bak
+scratch/
+tmp/
+
+# 비밀·접속 정보 (이 저장소에는 두지 않는다). Supabase URL·키는 로컬 전용 deploy.local.env 에만.
+deploy.local.env
+.env
+.env.*
+*.pem
+*.key
+supabase/.temp/

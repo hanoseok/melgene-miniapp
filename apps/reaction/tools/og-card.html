@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- OG 카드 템플릿. tools/gen-og.js 가 {{...}} 를 언어별 문구(tools/i18n/<lang>.js 의 og)로 채워 스크린샷한다. -->
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="{{fontCss}}">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1200px; height: 630px;
+    font-family: {{bodyFont}};
+    background: #1532d2;
+    color: #f2f5ff;
+    overflow: hidden;
+    position: relative;
+  }
+  /* 코트 라인 */
+  .court { position: absolute; inset: 22px; border: 3px solid rgba(242,245,255,0.18); border-radius: 10px; }
+  .half { position: absolute; top: 22px; bottom: 22px; left: 770px; width: 3px; background: rgba(242,245,255,0.18); }
+  .circle {
+    position: absolute; top: 315px; left: 771px; width: 400px; height: 400px; margin: -200px 0 0 -200px;
+    border: 3px solid rgba(242,245,255,0.18); border-radius: 50%;
+  }
+  .badge {
+    position: absolute; top: 70px; left: 76px;
+    padding: 12px 22px; border-radius: 999px;
+    background: #ffe83a; color: #08124a;
+    font-size: 26px; font-weight: 800;
+  }
+  h1 {
+    position: absolute; top: 150px; left: 72px;
+    font-family: {{displayFont}}; font-weight: {{displayWeight}}; font-stretch: {{displayStretch}};
+    font-size: 104px; line-height: 1.02; white-space: nowrap; letter-spacing: -0.01em;
+  }
+  p.tag {
+    position: absolute; top: 290px; left: 76px;
+    font-size: 34px; font-weight: 700; color: rgba(242,245,255,0.8); white-space: nowrap;
+  }
+  .laps { position: absolute; left: 76px; bottom: 70px; display: flex; gap: 14px; }
+  .lap { width: 112px; border-top: 5px solid rgba(242,245,255,0.8); padding-top: 12px; }
+  .lap b { display: block; font-family: 'Archivo', sans-serif; font-size: 18px; font-weight: 700; color: rgba(242,245,255,0.55); }
+  .lap span {
+    display: block; margin-top: 6px;
+    font-family: 'Archivo', sans-serif; font-weight: 900; font-stretch: 70%;
+    font-size: 58px; line-height: 1; font-variant-numeric: tabular-nums;
+  }
+  .lap.best { border-top-color: #26ea73; }
+  .tiles { position: absolute; top: 70px; left: 820px; width: 310px; transform: rotate(-4deg); }
+  .tile {
+    height: 232px; border-radius: 30px;
+    display: grid; place-items: center;
+    font-family: {{displayFont}}; font-weight: {{displayWeight}}; font-stretch: {{displayStretch}};
+    box-shadow: 0 24px 50px rgba(3,9,60,0.4);
+  }
+  .tile.wait { background: #e8173f; color: #fff; }
+  .tile span { display: inline-block; white-space: nowrap; }
+  .tile.go { background: #26ea73; color: #08124a; margin-top: 26px; }
+</style>
+</head>
+<body>
+  <div class="court"></div>
+  <div class="half"></div>
+  <div class="circle"></div>
+  <div class="badge">{{badge}}</div>
+  <h1 id="t">{{title}}</h1>
+  <p class="tag" id="g">{{tag}}</p>
+  <div class="laps">
+    <div class="lap"><b>1</b><span>243</span></div>
+    <div class="lap best"><b>2</b><span>218</span></div>
+    <div class="lap"><b>3</b><span>261</span></div>
+    <div class="lap"><b>4</b><span>237</span></div>
+    <div class="lap"><b>5</b><span>249</span></div>
+  </div>
+  <div class="tiles">
+    <div class="tile wait"><span id="w">{{wait}}</span></div>
+    <div class="tile go"><span id="o">{{go}}</span></div>
+  </div>
+  <script>
+    // 긴 제목·문구는 오른쪽 신호 카드와 겹치지 않을 때까지 줄인다
+    (function () {
+      function fit(el, max, size, min) {
+        el.style.fontSize = size + 'px';
+        while (Math.max(el.scrollWidth, el.offsetWidth) > max && size > min) { size -= 2; el.style.fontSize = size + 'px'; }
+      }
+      fit(document.getElementById('t'), 680, 104, 56);
+      fit(document.getElementById('g'), 680, 34, 22);
+      fit(document.getElementById('w'), 250, 76, 36);
+      fit(document.getElementById('o'), 250, 116, 60);
+    })();
+  </script>
+</body>
+</html>

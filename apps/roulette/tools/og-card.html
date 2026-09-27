@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- OG 카드 템플릿 (1200x630). tools/gen-og.js 가 {{...}} 를 채우고 실제 렌더러(roulette-core.js + roulette-draw.js)를
+     인라인해서 휠을 그린 뒤 Chrome headless 로 스크린샷한다. -->
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="{{fontCss}}">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1200px; height: 630px; overflow: hidden; position: relative;
+    font-family: {{bodyFont}};
+    color: #3B1C2C;
+    background:
+      radial-gradient(520px 480px at 870px 360px, rgba(255, 250, 252, 0.98), rgba(255, 250, 252, 0) 72%),
+      #FFE9F0;
+  }
+  .awning {
+    position: absolute; left: 0; top: 0; width: 100%; height: 40px;
+    background: repeating-linear-gradient(90deg, #E8285A 0 40px, #FFF7F9 40px 80px);
+    -webkit-mask:
+      linear-gradient(#000, #000) top / 100% 20px no-repeat,
+      radial-gradient(circle 20px at 20px 20px, #000 97%, transparent 100%) 0 0 / 40px 40px repeat-x;
+    filter: drop-shadow(0 4px 0 rgba(184, 18, 63, 0.12));
+  }
+  .copy { position: absolute; left: 76px; top: 150px; width: 500px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 12px 24px; border-radius: 999px;
+    background: #FFF; color: #B8123F;
+    font-size: 26px; font-weight: 800;
+    box-shadow: 0 10px 24px -14px rgba(150, 16, 56, 0.6);
+  }
+  h1 {
+    margin-top: 30px;
+    font-family: {{displayFont}}, sans-serif; font-weight: 400;
+    font-size: {{titleSize}}px; line-height: 1.05; color: #E8285A;
+    white-space: nowrap; display: inline-block;
+    text-shadow: 0 3px 0 #FFF, 0 8px 0 #F4B63F, 0 11px 0 #B7741A, 0 22px 30px rgba(184, 18, 63, 0.25);
+  }
+  .tag {
+    margin-top: 34px;
+    font-size: {{tagSize}}px; font-weight: 700; line-height: 1.4;
+    color: rgba(59, 28, 44, 0.74);
+    text-wrap: balance;
+  }
+  .stage { position: absolute; left: 610px; top: 78px; width: 520px; height: 520px; }
+  .stage::before {
+    content: ''; position: absolute; left: 12%; right: 12%; bottom: -7%; height: 16%;
+    border-radius: 50%; background: radial-gradient(closest-side, rgba(150, 16, 56, 0.3), rgba(150, 16, 56, 0));
+  }
+  canvas { position: absolute; left: 0; top: 0; }
+  .gloss {
+    position: absolute; border-radius: 50%; pointer-events: none;
+    background:
+      radial-gradient(64% 46% at 34% 22%, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.07) 62%, rgba(255, 255, 255, 0) 74%),
+      radial-gradient(closest-side, rgba(60, 8, 30, 0) 84%, rgba(60, 8, 30, 0.2) 100%);
+  }
+  .hub {
+    position: absolute; left: 50%; top: 50%; width: 25%; height: 25%;
+    transform: translate(-50%, -50%); border-radius: 50%;
+    display: grid; place-items: center;
+    color: #FFF; font-family: {{displayFont}}, sans-serif; font-size: {{hubSize}}px;
+    text-shadow: 0 2px 0 rgba(120, 0, 36, 0.45);
+    background: radial-gradient(circle at 36% 28%, #FF86A5 0%, #F03A68 34%, #E8285A 58%, #A60D38 100%);
+    box-shadow: 0 0 0 7px #F4B63F, 0 0 0 9px #B7741A, inset 0 4px 1px rgba(255, 255, 255, 0.4), inset 0 -9px 14px rgba(90, 0, 30, 0.38), 0 14px 24px rgba(110, 10, 40, 0.38);
+  }
+  .pointer { position: absolute; left: 50%; transform: translateX(-50%); filter: drop-shadow(0 5px 4px rgba(110, 10, 40, 0.32)); }
+  .pointer svg { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+  <div class="awning"></div>
+  <div class="copy">
+    <div class="badge">{{badge}}</div>
+    <h1 id="t">{{title}}</h1>
+    <p class="tag">{{tag}}</p>
+  </div>
+  <div class="stage" id="stage">
+    <canvas id="rim"></canvas>
+    <canvas id="wheel"></canvas>
+    <div class="gloss" id="gloss"></div>
+    <div class="pointer" id="pointer">{{pointer}}</div>
+    <div class="hub">{{spin}}</div>
+  </div>
+  <script>{{core}}</script>
+  <script>{{draw}}</script>
+  <script>
+    (function () {
+      var items = {{itemsJson}};
+      var S = 520, dpr = 1, rimW = Math.round(S * 0.055), r = S / 2 - rimW;
+      function draw() {
+        var family = getComputedStyle(document.body).fontFamily;
+        var rim = ROULETTE_DRAW.createRim({ size: S, dpr: dpr, r: r, w: rimW, bulbs: 32, canvas: document.getElementById('rim') });
+        rim.draw(function (i) { return i % 3 === 0 ? 1 : 0.55; });
+        var c = document.getElementById('wheel');
+        c.width = c.height = 2 * r; c.style.left = c.style.top = rimW + 'px';
+        var g = document.getElementById('gloss');
+        g.style.left = g.style.top = rimW + 'px'; g.style.width = g.style.height = 2 * r + 'px';
+        var w = items.map(function () { return 1; });
+        var lay = ROULETTE_CORE.layout(w);
+        // 0번 칸 한가운데가 포인터 밑에 오도록 (결과가 막 정해진 순간처럼)
+        var rot = -(lay.starts[0] + lay.ends[0]) / 2;
+        ROULETTE_DRAW.drawWheel(c.getContext('2d'), { cx: r, cy: r, r: r, items: items, weights: w, theme: 'candy', rotation: rot, highlight: -1, family: family, hubR: S * 0.14 });
+        var p = document.getElementById('pointer');
+        var pw = S * 0.12, ph = pw * 80 / 60, tipY = S / 2 - r * 0.905;
+        p.style.width = pw + 'px'; p.style.height = ph + 'px'; p.style.top = (tipY - ph * 77 / 80) + 'px';
+        // 긴 제목은 글자 칸(500px)에 맞춰 줄인다 — 휠과 겹치지 않게
+        var t = document.getElementById('t'), size = parseFloat(getComputedStyle(t).fontSize);
+        while (t.getBoundingClientRect().width > 500 && size > 48) { size -= 2; t.style.fontSize = size + 'px'; }
+      }
+      (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(draw);
+    })();
+  </script>
+</body>
+</html>

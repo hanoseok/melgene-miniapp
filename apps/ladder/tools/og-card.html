@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- OG 카드 템플릿. tools/gen-og.js 가 {{...}} 를 언어별 문구(tools/i18n/<lang>.js 의 og)로 채워 스크린샷한다. -->
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="{{fontCss}}">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1200px; height: 630px;
+    font-family: {{bodyFont}};
+    background: linear-gradient(180deg, #ffe28a, #ffc93c 40%, #ffb100 100%);
+    overflow: hidden;
+    position: relative;
+  }
+  .badge {
+    position: absolute; top: 64px; left: 72px;
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 12px 24px; border-radius: 999px;
+    background: #fff8e8; border: 4px solid #221e14;
+    box-shadow: 8px 8px 0 #221e14;
+    font-size: 24px; font-weight: 800; color: #221e14;
+  }
+  .emoji {
+    position: absolute; top: 150px; left: 72px;
+    font-size: 150px; line-height: 1;
+    filter: drop-shadow(10px 10px 0 rgba(34,30,20,0.18));
+  }
+  h1 {
+    position: absolute; top: 330px; left: 72px;
+    font-family: {{displayFont}}; font-weight: 400;
+    font-size: 100px; color: #221e14; line-height: 1; white-space: nowrap;
+  }
+  p.tag {
+    position: absolute; top: 452px; left: 76px;
+    font-size: 32px; font-weight: 700; color: rgba(34,30,20,0.72);
+    white-space: nowrap;
+  }
+  .dots {
+    position: absolute; bottom: 64px; left: 72px;
+    display: flex; gap: 16px;
+  }
+  .dot {
+    width: 46px; height: 46px; border-radius: 50%;
+    border: 4px solid #221e14;
+  }
+  .card {
+    position: absolute; top: 70px; right: 80px;
+    width: 300px; height: 460px;
+    background: #fff8e8; border: 6px solid #221e14; border-radius: 32px;
+    box-shadow: 12px 12px 0 rgba(34,30,20,0.55);
+  }
+  .rail { position: absolute; top: 40px; bottom: 40px; width: 6px; background: #221e14; border-radius: 4px; }
+  .rail.r1 { left: 60px; }
+  .rail.r2 { left: 150px; }
+  .rail.r3 { left: 240px; }
+  .rung { position: absolute; height: 6px; background: #ff5d5d; border-radius: 4px; }
+</style>
+</head>
+<body>
+  <div class="badge">{{badge}}</div>
+  <div class="emoji">🪜</div>
+  <h1 id="t">{{title}}</h1>
+  <p class="tag" id="g">{{tag}}</p>
+  <div class="dots">
+    <div class="dot" style="background:#ff5d5d"></div>
+    <div class="dot" style="background:#ff9f45"></div>
+    <div class="dot" style="background:#2fbf71"></div>
+    <div class="dot" style="background:#2ea8e5"></div>
+    <div class="dot" style="background:#9b5de5"></div>
+    <div class="dot" style="background:#f15bb5"></div>
+  </div>
+  <div class="card">
+    <div class="rail r1"></div>
+    <div class="rail r2"></div>
+    <div class="rail r3"></div>
+    <div class="rung" style="top:110px; left:60px; width:90px; background:#ff9f45;"></div>
+    <div class="rung" style="top:190px; left:150px; width:90px; background:#2ea8e5;"></div>
+    <div class="rung" style="top:270px; left:60px; width:90px; background:#2fbf71;"></div>
+    <div class="rung" style="top:350px; left:150px; width:90px; background:#9b5de5;"></div>
+  </div>
+  <script>
+    // 긴 제목은 카드(오른쪽)와 겹치지 않을 때까지 줄인다
+    (function () {
+      var h = document.getElementById('t'), size = 100;
+      while (h.scrollWidth > 700 && size > 56) { size -= 4; h.style.fontSize = size + 'px'; }
+      var g = document.getElementById('g'), gs = 32;
+      while (g.scrollWidth > 700 && gs > 22) { gs -= 1; g.style.fontSize = gs + 'px'; }
+    })();
+  </script>
+</body>
+</html>
