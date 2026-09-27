@@ -77,6 +77,7 @@ Supabase 대시보드 → 프로젝트 melgene → SQL Editor (공개 키로는 
 ## 6. Search Console
 
 - 속성 `https://miniapp.melgene.com/` (사용자 Google 계정, HTML 파일 인증 `googlea6d2c28765f03a02.html` — deploy.env `GSC_FILES_miniapp`, 지우지 않음). 사이트맵 `sitemap-index.xml` 제출됨.
+- 속성 `https://melgene.com/` 도 같은 HTML 파일로 인증(deploy.env `GSC_FILES_hub`, 2026-09-27). melgene.com 도메인 속성(DNS TXT)은 Chrome 확장이 확인 문자열을 '토큰'으로 보고 입력을 막아 보류 — 필요하면 사용자가 Spaceship 에 TXT 를 직접 붙여 넣는다.
 - 새 앱·큰 변경 후: 상단 URL 검사에 주소 → "색인 생성 요청"(하루 할당량이 적어 포털·새 앱 첫 화면 위주). 입력창은 먼저 클릭해 포커스를 준 뒤 입력.
 - melgene.com 도메인 속성은 DNS TXT(Spaceship) 필요 — 회사망에서는 보안 게이트웨이로 막힘, 사용자에게 맡기거나 다른 망에서.
 
