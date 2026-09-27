@@ -26,12 +26,17 @@ function ogImage(lang) {
   return `${SITE_ROOT}/og/${dir ? dir + '/' : ''}default.png`;
 }
 
+// Archivo 콘덴스드와 같은 계열(좁은 그로테스크 블랙)인 제목 글꼴 — 숫자 자리의 Archivo 에 없는 글자를 이어받아도 어울린다
+const CONDENSED_FONT = /^'(Archivo|Sofia Sans Condensed)'$/;
+
 // 언어 파일의 typography → :root CSS 변수 (style.css 의 기본값은 라틴 문자용). 언어별 CSS 선택자를 두지 않는다.
 function typographyStyle(T) {
   const t = T.typography || {};
   const css = (v) => String(v).replace(/[<>{};]/g, '');
   const vars = [];
   if (t.display) vars.push(`--font-display: ${css(t.display)}, var(--font-sans)`);
+  // 숫자는 늘 Archivo. Archivo 에 없는 글자(키릴 «мс»·«Раунд» 등)는 같은 계열의 콘덴스드 제목 글꼴이 이어받는다
+  if (t.display && t.display !== "'Archivo'" && CONDENSED_FONT.test(t.display)) vars.push(`--font-num: 'Archivo', ${css(t.display)}, var(--font-sans)`);
   if (t.displayWeight != null) vars.push(`--display-weight: ${Number(t.displayWeight)}`);
   if (t.scale != null) vars.push(`--display-scale: ${Number(t.scale)}`);
   if (t.scaleSmall != null) vars.push(`--display-scale-sm: ${Number(t.scaleSmall)}`);

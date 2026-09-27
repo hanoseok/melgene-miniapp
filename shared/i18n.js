@@ -24,7 +24,8 @@
     { code: 'vi', dir: 'vi', label: 'Tiếng Việt', name: 'Tiếng Việt', ogLocale: 'vi_VN' },
     { code: 'es', dir: 'es', label: 'Español', name: 'Español', ogLocale: 'es_ES' },
     { code: 'it', dir: 'it', label: 'Italiano', name: 'Italiano', ogLocale: 'it_IT' },
-    { code: 'pt', dir: 'pt', label: 'Português', name: 'Português', ogLocale: 'pt_BR' }
+    { code: 'pt', dir: 'pt', label: 'Português', name: 'Português', ogLocale: 'pt_BR' },
+    { code: 'ru', dir: 'ru', label: 'Русский', name: 'Русский', ogLocale: 'ru_RU' }
   ];
 
   var DEFAULT_LOCALE = 'en'; // 사이트 루트(/)에 있는 언어
@@ -90,6 +91,7 @@
       shareTiktok: 'TikTok',
       shareKakao: 'KakaoTalk',
       shareWhatsapp: 'WhatsApp',
+      shareTelegram: 'Telegram',
       shareGuide: 'Link copied — paste it in {app} to share',
       brandBadge: 'Apps',
       homeAria: 'Melgene Apps home',
@@ -381,6 +383,40 @@
       brandBadge: 'Apps',
       homeAria: 'Início do Melgene Apps',
       faqTitle: 'Perguntas frequentes'
+    },
+    ru: {
+      copied: 'Ссылка скопирована!',
+      ad: 'Реклама',
+      langNav: 'Язык',
+      rateTitle: 'Как вам?',
+      rateThanks: 'Спасибо за оценку!',
+      rateYours: 'Ваша оценка: {n}',
+      rateFirst: 'Оцените первым',
+      rateMeta: '★ {avg} · оценок: {votes}',
+      rateMetaOne: '★ {avg} · 1 оценка',
+      playedBy: 'сыграли: {n}',
+      playedByOne: 'сыграл 1 человек',
+      starLabel: 'звёзд: {n}',
+      heartAria: 'Отправить сердечко',
+      heartCount: 'сердечек: {n}',
+      shareNative: 'Поделиться',
+      shareCopy: 'Копировать',
+      shareX: 'X',
+      shareFb: 'Facebook',
+      shareLine: 'LINE',
+      shareTelegram: 'Telegram',
+      shareAria: 'Поделиться в {name}',
+      retry: 'Ещё раз',
+      moreTitle: 'Другие мини-приложения',
+      shareTitle: 'Поделиться с друзьями',
+      shareInstagram: 'Instagram',
+      shareTiktok: 'TikTok',
+      shareKakao: 'KakaoTalk',
+      shareWhatsapp: 'WhatsApp',
+      shareGuide: 'Ссылка скопирована — вставьте её в {app}',
+      brandBadge: 'Apps',
+      homeAria: 'Главная Melgene Apps',
+      faqTitle: 'Частые вопросы'
     }
   };
 

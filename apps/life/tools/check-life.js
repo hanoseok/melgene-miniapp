@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 /**
- * 내 인생 애니메이션 검증 (Node 전용, 배포되지 않음) — 11개 언어(shared/i18n.js LOCALES)
- *   1) 공유 링크(#d=) 인코딩/디코딩 왕복 — 한·일·중·타이·베트남어·이모지 이름과 나만의 장면 포함
+ * 내 인생 애니메이션 검증 (Node 전용, 배포되지 않음) — 모든 언어(shared/i18n.js LOCALES, 지금 12개)
+ *   1) 공유 링크(#d=) 인코딩/디코딩 왕복 — 한·일·중·타이·베트남·러시아어·이모지 이름과 나만의 장면 포함
  *   2) 시드 결정성 — 같은 입력이면 같은 장면 계획·같은 획 계획(엔진 buildAll 해시), 다른 입력이면 다른 시드
  *   3) 시간순 정렬과 나이 계산 — 출생 연도 1950~2025 × 무작위 장면 조합, 연도를 비운 장면의 보간
  *   4) 장면 길이 — 전체 40~60초, 모든 획이 자기 장면 안에서 끝나는지
  *   5) 자막 길이 — 가장 좁은 패널(3컷 페이지)에서 캡션이 3줄 이내(타이어는 단어 단위, 결합 부호를 쪼개지 않음),
  *      끝 장면 제목이 과하게 줄지 않는지, 타이 불기 표시
- *   6) 언어 파일 구조 — 모든 언어에 같은 키, 모든 장면 id 에 label/line, FAQ 3~5개(짧게), 제목·설명 길이, 검색어
+ *   6) 언어 파일 구조 — 모든 언어에 같은 키, 모든 장면 id 에 label/line, FAQ 3~5개(짧게), 제목·설명 길이, 검색어,
+ *      복수형 표(ui.plural, ru) — Intl.PluralRules 범주가 모두 있고 자리표시자가 같은지
  *   7) 360px 화면 — 줄바꿈 안 되는 버튼·칩 문구가 폭 안에 들어가는지(어림)
  *   8) 생성된 HTML — 공통 타이틀 바·h1 하나(검색어 포함)·data-mg-end 하나·MG_FAQ, FAQPage/SEO 글/다른 테스트 목록/광고 자리 없음
  *
@@ -43,9 +44,9 @@ function randomInput(lang, opts = {}) {
   const span = NOW.y - birth;
   const moments = ids.map((id) => ({ id, year: rnd() < 0.3 ? birth + Math.floor(rnd() * (span + 1)) : null }));
   return CORE.normalizeInput({
-    name: pick(['', '지수', 'Sam', 'ゆい', '민준🎈', 'Élodie', '김하늘바다구름별', '小雨', 'มิว', 'Nguyễn Linh', 'Jürgen', 'Lucía']),
+    name: pick(['', '지수', 'Sam', 'ゆい', '민준🎈', 'Élodie', '김하늘바다구름별', '小雨', 'มิว', 'Nguyễn Linh', 'Jürgen', 'Lucía', 'Ксюша', 'Александрина']),
     birth, month: Math.floor(rnd() * 13), pen: pick(CORE.PENS), moments,
-    custom: withCustom ? { text: pick(['제주도 한 달 살기', 'A summer in Lisbon', '沖縄でひと夏すごした', '첫 마라톤 완주 🏃', '가'.repeat(20), '在大理住了一个月', 'ไปอยู่เชียงใหม่หนึ่งเดือน', 'Một tháng ở Đà Lạt', 'Ein Sommer an der Ostsee']), year: rnd() < 0.5 ? birth + Math.floor(rnd() * (span + 1)) : null } : null,
+    custom: withCustom ? { text: pick(['제주도 한 달 살기', 'A summer in Lisbon', '沖縄でひと夏すごした', '첫 마라톤 완주 🏃', '가'.repeat(20), '在大理住了一个月', 'ไปอยู่เชียงใหม่หนึ่งเดือน', 'Một tháng ở Đà Lạt', 'Ein Sommer an der Ostsee', 'Лето на Байкале', 'Первый марафон — финиш!']), year: rnd() < 0.5 ? birth + Math.floor(rnd() * (span + 1)) : null } : null,
   }, NOW);
 }
 
@@ -213,7 +214,7 @@ function checkTimingAndCaptions() {
     });
     // 나만의 장면(최대 20자)은 사용자가 쓰는 글자라 가장 넓은 경우를 넣어 본다
     lines.push(ui.birthLine, ui.todayLine, '가'.repeat(CORE.CUSTOM_MAX), 'W'.repeat(CORE.CUSTOM_MAX), 'あ'.repeat(CORE.CUSTOM_MAX),
-      '画'.repeat(CORE.CUSTOM_MAX), 'ก'.repeat(CORE.CUSTOM_MAX), 'ĐƯỜNG'.repeat(4), 'ไปอยู่เชียงใหม่หนึ่งเดือนเต็ม');
+      '画'.repeat(CORE.CUSTOM_MAX), 'ก'.repeat(CORE.CUSTOM_MAX), 'ĐƯỜNG'.repeat(4), 'ไปอยู่เชียงใหม่หนึ่งเดือนเต็ม', 'Щ'.repeat(CORE.CUSTOM_MAX), 'Переквалификация'.slice(0, CORE.CUSTOM_MAX));
     lines.forEach((ln) => {
       captions++;
       const wrapped = ENGINE.balanceWrap(ln, narrowMaxW, font, M); // 캡션이 실제로 쓰는 줄바꿈(줄 수는 wrapText 와 같다)
@@ -221,17 +222,22 @@ function checkTimingAndCaptions() {
       if (wrapped.join('').replace(/\s/g, '') !== ln.replace(/\s/g, '')) fail(`caption: [${lang}] 줄바꿈에서 글자가 바뀜 "${ln}"`);
       // 줄 머리에 결합 부호(타이 모음·성조, U+0300~)가 오면 글자가 깨진다
       wrapped.forEach((w) => { if (/^[\u0300-\u036f\u0e31\u0e34-\u0e3a\u0e47-\u0e4e]/.test(w)) fail(`caption: [${lang}] 줄이 결합 부호로 시작 "${w}"`); });
+      // 줄 머리에 대시(—/–)가 오지 않는다 (ru 타이포그래피, 엔진이 앞 단어에 붙인다)
+      wrapped.slice(1).forEach((w) => { if (/^[\u2013\u2014]/.test(w)) fail(`caption: [${lang}] 줄이 대시로 시작 "${w}"`); });
       wrapped.slice(0, -1).forEach((w) => { if (/[\u0e40-\u0e44]$/.test(w)) fail(`caption: [${lang}] 줄이 타이 앞 모음으로 끝남 "${w}"`); });
     });
     const yo = ui.yearOffset || 0;
-    [CORE.fmt(ui.metaTpl, { year: 2026 + yo, age: CORE.fmt(ui.ageTpl, { n: 76 }) }), CORE.fmt(ui.birthMetaMonth, { year: 1996 + yo, month: 12, monthName: (ui.months || [])[8] || 12 })].forEach((mt) => {
+    // 나이 문구는 복수형(ru: 21 год · 74 года · 76 лет)까지 가장 긴 것을 본다
+    const ages = [1, 2, 21, 22, 74, 76].map((n) => CORE.fmt(ui.metaTpl, { year: 2026 + yo, age: CORE.ageText(ui, n) }));
+    ages.concat([CORE.fmt(ui.birthMetaMonth, { year: 1996 + yo, month: 12, monthName: (ui.months || [])[8] || 12 })]).forEach((mt) => {
       captions++;
       if (M(mt, mfont) > narrowMaxW) fail(`caption: [${lang}] 메타 "${mt}" 가 한 줄을 넘음`);
     });
     // 끝 장면 제목: 가장 긴 이름(12자)에서도 글자 크기가 60% 이상 유지
     const titleMax = 1016 - 64 - 40;
-    const longName = { en: 'Christopherr', fr: 'Marie-Hélène', de: 'Maximilianne', es: 'María José G', vi: 'Nguyễn Thảo', ja: 'たかはしゆいなつみ', zh: '欧阳小雨晴天', th: 'ปิยะวัฒน์ชัย', ko: '김하늘바다구름별빛나' }[lang] || 'Christopherr';
-    [[CORE.fmt(ui.endTitle, { name: longName }), 78], [CORE.fmt(ui.endTitle2, { n: 75 }), 112], [ui.endTitleZero, 112]].forEach(([tt, sz]) => {
+    const longName = { en: 'Christopherr', fr: 'Marie-Hélène', de: 'Maximilianne', es: 'María José G', vi: 'Nguyễn Thảo', ja: 'たかはしゆいなつみ', zh: '欧阳小雨晴天', th: 'ปิยะวัฒน์ชัย', ko: '김하늘바다구름별빛나', ru: 'Александрина' }[lang] || 'Christopherr';
+    const t2 = [2, 22, 75].map((n) => [CORE.fmt(CORE.plural(ui, 'endTitle2', n), { n }), 112]);
+    [[CORE.fmt(ui.endTitle, { name: longName }), 78], ...t2, [ui.endTitleZero, 112]].concat(ui.endTitleOne ? [[ui.endTitleOne, 112]] : []).forEach(([tt, sz]) => {
       captions++;
       const w = M(tt, `${fonts.weight} ${sz * fonts.scale}px x`);
       if (titleMax / w < 0.6) fail(`caption: [${lang}] 끝 제목 "${tt}" 이 너무 많이 줄어듦 (${(titleMax / w).toFixed(2)})`);
@@ -267,11 +273,11 @@ function checkYearOffset() {
 // 6) 언어 파일 구조
 // ---------------------------------------------------------------
 // 검색어: 제목·h1 에 들어가야 하는 현지 검색어 (Update 4 표)
-const SEARCH = { en: 'life animation', ja: '人生アニメ', zh: '人生动画', ko: '인생 애니메이션', fr: 'ma vie en animation', de: 'lebens-animation', th: 'แอนิเมชันชีวิต', vi: 'hoạt hình cuộc đời', es: 'animación de', it: 'animazione della', pt: 'animação da' };
+const SEARCH = { en: 'life animation', ja: '人生アニメ', zh: '人生动画', ko: '인생 애니메이션', fr: 'ma vie en animation', de: 'lebens-animation', th: 'แอนิเมชันชีวิต', vi: 'hoạt hình cuộc đời', es: 'animación de', it: 'animazione della', pt: 'animação da', ru: 'анимация моей жизни' };
 function checkLocales() {
   const base = L10N[G.DEFAULT_LOCALE];
   const keysOf = (o, p = '') => Object.entries(o).flatMap(([k, v]) => (v && typeof v === 'object' && !Array.isArray(v) ? keysOf(v, p + k + '.') : [p + k]));
-  const optional = (k) => k.startsWith('ui.months') || /ui\.(ageZero|ageOne|endTitleOne|yearOffset)$/.test(k) || /canvasFont\.lh$/.test(k);
+  const optional = (k) => k.startsWith('ui.months') || k.startsWith('ui.plural.') || /ui\.(ageZero|ageOne|endTitleOne|yearOffset)$/.test(k) || /canvasFont\.lh$/.test(k);
   const baseKeys = keysOf(base).filter((k) => !optional(k));
   const U = CORE.textUnits;
   Object.entries(L10N).forEach(([lang, T]) => {
@@ -282,6 +288,21 @@ function checkLocales() {
     CORE.PENS.forEach((p) => { if (!T.form.pens[p]) fail(`i18n: [${lang}] form.pens.${p} 없음`); });
     CORE.STAGES.forEach((st) => { if (!T.form.groups[st]) fail(`i18n: [${lang}] form.groups.${st} 없음`); });
     if (T.ui.lang !== lang) fail(`i18n: [${lang}] ui.lang 이 ${T.ui.lang}`);
+    // 복수형 표: 그 언어의 Intl.PluralRules 범주가 모두 있고, 기본 문구와 자리표시자가 같다
+    const cats = new Intl.PluralRules(lang).resolvedOptions().pluralCategories;
+    const holders = (str) => (String(str).match(/\{\w+\}/g) || []).sort().join();
+    Object.entries(T.ui.plural || {}).forEach(([key, tab]) => {
+      if (typeof T.ui[key] !== 'string') fail(`i18n: [${lang}] ui.plural.${key} 의 기본 문구 ui.${key} 가 없음`);
+      cats.forEach((cat) => { if (typeof tab[cat] !== 'string') fail(`i18n: [${lang}] ui.plural.${key}.${cat} 없음 (${cats.join('/')})`); });
+      Object.entries(tab).forEach(([cat, str]) => {
+        if (!cats.includes(cat)) fail(`i18n: [${lang}] ui.plural.${key}.${cat} 는 이 언어의 복수형 범주가 아님`);
+        if (holders(str) !== holders(T.ui[key])) fail(`i18n: [${lang}] ui.plural.${key}.${cat} 자리표시자가 ui.${key} 와 다름 "${str}"`);
+      });
+    });
+    if (lang === 'ru') {
+      const want = { 1: '1 год', 2: '2 года', 5: '5 лет', 11: '11 лет', 21: '21 год', 22: '22 года', 25: '25 лет' };
+      Object.entries(want).forEach(([n, w]) => { if (CORE.ageText(T.ui, Number(n)) !== w) fail(`i18n: [ru] 나이 ${n} → "${CORE.ageText(T.ui, Number(n))}" (기대 "${w}")`); });
+    }
     if (!/\{name\}/.test(T.ui.endTitle) || !/\{n\}/.test(T.ui.endTitle2)) fail(`i18n: [${lang}] 끝 제목 자리표시자 누락`);
     if (/\{monthName\}/.test(T.ui.birthMetaMonth) && (!T.ui.months || T.ui.months.length !== 12)) fail(`i18n: [${lang}] monthName 을 쓰는데 months 12개가 없음`);
     if (/\{name\}/.test(T.form.monthTpl) && (!T.ui.months || T.ui.months.length !== 12)) fail(`i18n: [${lang}] monthTpl 이 {name} 인데 months 없음`);
@@ -386,7 +407,7 @@ const nWidth = checkWidths();
 const nHtml = checkHtml();
 
 console.log('\n=== 내 인생 애니메이션 검증 ===\n');
-console.log(`공유 링크 왕복: ${nShare}개 입력 (11개 언어·이모지 이름, 나만의 장면 포함)`);
+console.log(`공유 링크 왕복: ${nShare}개 입력 (${LANGS.length}개 언어·이모지 이름, 나만의 장면 포함)`);
 console.log(`결정성: ${nDet}개 입력 × (장면 계획 + 획 계획 해시 + 링크 복원)`);
 console.log(`시간순·나이: 출생 1950~2025 × 12 = ${nChrono}개 조합`);
 console.log(`장면 길이·획 타이밍: 필름 ${tc.films}개, 자막 길이: ${tc.captions}건`);

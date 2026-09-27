@@ -195,6 +195,9 @@ button { -webkit-tap-highlight-color: transparent; }
   transition: transform 0.15s cubic-bezier(.3, 1.6, .5, 1), filter 0.2s ease;
 }
 .rlt-hub span { display: block; transform: translateY(1px); }
+/* shared/base.css 의 :lang(ru) 글꼴 규칙이 span 에 직접 걸려 간판체(--font-display) 상속을 끊는다 → 허브 글자는 버튼의 간판체를 그대로 쓴다 */
+/* base.css 의 :lang(zh|th|vi) 글꼴 규칙이 버튼 글자만 본문 글꼴로 바꾸지 않게 (모든 언어) */
+.rlt-hub span { font-family: inherit; }
 .rlt-hub:hover { filter: brightness(1.06); }
 .rlt-hub:active { transform: translate(-50%, -50%) scale(0.94); }
 .rlt-hub[aria-disabled="true"] { cursor: default; filter: saturate(0.85); }
@@ -623,6 +626,10 @@ html:lang(ko) .rlt-modal-label { word-break: keep-all; }
 /* 개인정보처리방침 */
 .rlt-doc { padding: 28px 0 32px; font-size: 14.5px; line-height: 1.8; color: var(--cocoa-dim); }
 .rlt-doc h1 { margin: 0 0 20px; font-family: var(--font-display); font-weight: 400; font-size: 30px; color: var(--berry); }
+/* ru: «конфиденциальности» — одно слово ≈13.3em в Dela Gothic One → на 320–375px уменьшаем, чтобы слово не вылезало за край */
+html:lang(ru) .rlt-doc h1 { font-size: clamp(20px, 6.6vw, 30px); }
+/* 긴 한 단어 제목(de Datenschutzerklärung 등)이 360px 밖으로 나가지 않게 */
+.rlt-doc h1 { hyphens: auto; overflow-wrap: break-word; }
 .rlt-doc h2 { margin: 28px 0 8px; font-size: 16px; font-weight: 800; color: var(--cocoa); }
 .rlt-doc p { margin: 0; }
 .rlt-doc a { color: var(--berry-deep); text-decoration: underline; }

@@ -2,7 +2,7 @@
 /**
  * 결과별 + 기본 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 생성한다.
  *   en(기본, 사이트 루트): og/<id>.png, og/default.png
- *   그 밖:                og/<언어 dir>/<id>.png, og/<언어 dir>/default.png  (ko, ja, zh, fr, de, th, vi, es, it, pt)
+ *   그 밖:                og/<언어 dir>/<id>.png, og/<언어 dir>/default.png  (ko, ja, zh, fr, de, th, vi, es, it, pt, ru)
  * 글꼴은 언어 파일 typography(fontCss/font)를 그대로 쓴다(웹폰트는 네트워크 필요). 기본 이미지는 결과를 인용하지 않는다.
  *
  * 실행: node tools/gen-og.js          (기본 언어 en 을 뺀 모든 언어)

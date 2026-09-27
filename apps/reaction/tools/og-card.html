@@ -83,10 +83,15 @@
         el.style.fontSize = size + 'px';
         while (Math.max(el.scrollWidth, el.offsetWidth) > max && size > min) { size -= 2; el.style.fontSize = size + 'px'; }
       }
-      fit(document.getElementById('t'), 680, 104, 56);
-      fit(document.getElementById('g'), 680, 34, 22);
-      fit(document.getElementById('w'), 250, 76, 36);
-      fit(document.getElementById('o'), 250, 116, 60);
+      function fitAll() {
+        fit(document.getElementById('t'), 680, 104, 56);
+        fit(document.getElementById('g'), 680, 34, 22);
+        fit(document.getElementById('w'), 250, 76, 36);
+        fit(document.getElementById('o'), 250, 116, 60);
+      }
+      fitAll();
+      // 웹폰트가 늦게 오면 대체 글꼴 폭으로 잰 크기가 남는다 → 글꼴이 다 오면 처음 크기부터 다시 잰다
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitAll);
     })();
   </script>
 </body>

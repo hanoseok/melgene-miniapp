@@ -1,5 +1,5 @@
 // monster 미니앱 등록 정보 — tools/gen-sites.js 가 모아 shared/site.config.js 의 SITE_CONFIG.SITES 를 만든다.
-// title/desc: 11개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
+// title/desc: 12개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
 // path 는 자리표시자 주소(deploy-prep.sh 가 https://miniapp.melgene.com/monster/ 로 바꾼다).
 module.exports = {
   id: 'monster',
@@ -20,6 +20,7 @@ module.exports = {
     es: '¿Qué monstruo eres?',
     it: 'Che mostro sei?',
     pt: 'Que monstro você é?',
+    ru: 'Какой ты монстр?',
   },
   desc: {
     ko: '할로윈 밤 10문항, 1분이면 끝. 나를 닮은 몬스터는 누구?',
@@ -33,5 +34,6 @@ module.exports = {
     es: '10 preguntas tiernamente terroríficas para Halloween. ¿Qué monstruo se parece a ti?',
     it: '10 domande tra brividi e tenerezza per la notte di Halloween. Quale mostro ti somiglia?',
     pt: '10 perguntas fofas e assustadoras para a noite de Halloween. Qual monstro combina com você?',
+    ru: 'Тест на Хэллоуин: 10 жутко милых вопросов за минуту. Какой монстр — твой двойник?',
   },
 };

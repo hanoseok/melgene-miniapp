@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * 나의 전생 테스트의 정적 페이지를 언어별로 모두 생성한다 (shared/i18n.js 의 LOCALES 11개).
- *   - 시작/퀴즈:    index.html (en, 사이트 루트), ko/index.html, ja/index.html, zh/…, fr/…, de/…, th/…, vi/…, es/…
+ * 나의 전생 테스트의 정적 페이지를 언어별로 모두 생성한다 (shared/i18n.js 의 LOCALES 12개).
+ *   - 시작/퀴즈:    index.html (en, 사이트 루트), ko/index.html, ja/index.html, zh/…, fr/…, de/…, th/…, vi/…, es/…, it/…, pt/…, ru/…
  *   - 결과 16종:    r/<type>.html,  <dir>/r/<type>.html
  *   - 개인정보:     privacy.html,   <dir>/privacy.html
  *   - sitemap.xml  (모든 언어 URL + xhtml:link hreflang 대체 링크)

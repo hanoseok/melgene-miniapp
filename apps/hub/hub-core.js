@@ -4,7 +4,8 @@
  *   hueOf(id)            앱 아이콘 색상(0~359, OKLCH 색상각). id 로만 정해진다.
  *   hueStyle(id)         카드에 넣을 인라인 스타일 '--h:..;--h2:..' (style.css 가 그라데이션을 만든다)
  *   compact(n, lang)     참여 수·하트 줄임 표기 (ko 1.2만 / ja 1.2万 / zh 1.2万·1234万 / en·th 12K / fr 12 k /
- *                        de 12.345·1,2 Mio. / vi 12 N·1,2 Tr / es 12 mil / it 12.345·1,2 Mln / pt 12 mil·1,2 mi).
+ *                        de 12.345·1,2 Mio. / vi 12 N·1,2 Tr / es 12 mil / it 12.345·1,2 Mln / pt 12 mil·1,2 mi /
+ *                        ru 12 тыс.·1,2 млн).
  *                        절대 올려서 표시하지 않는다(내림).
  *   isNew(added, today)  추가된 지 14일 안이면 true (미래 날짜도 true)
  *   sortApps(apps, stats, mode)   popular | rating | newest
@@ -50,7 +51,7 @@
   //   man   : 만/万 단위 언어 (1.2만 · 12만 · 1.2억). group=false 면 1234万 처럼 쉼표 없이 (중국어 관습)
   //   units : [기준값, 단위] 큰 것부터. 값이 10 미만이면 소수 한 자리(내림), 10 이상이면 정수(내림).
   //   min   : 이보다 작으면 줄이지 않고 그 언어의 숫자 표기 그대로 (de 는 100만 미만을 줄이지 않는 게 표준)
-  //   dec/sp: 소수점 기호, 숫자와 단위 사이 (프랑스어·베트남어·스페인어·독일어·이탈리아어·포르투갈어는 줄바꿈 없는 공백)
+  //   dec/sp: 소수점 기호, 숫자와 단위 사이 (프랑스어·베트남어·스페인어·독일어·이탈리아어·포르투갈어·러시아어는 줄바꿈 없는 공백)
   var NB = ' ';
   var FORMATS = {
     ko: { man: ['만', '억'], group: true },
@@ -63,7 +64,8 @@
     vi: { units: [[1e9, 'T'], [1e6, 'Tr'], [1e3, 'N']], min: 1e4, dec: ',', sp: NB },
     es: { units: [[1e6, 'M'], [1e3, 'mil']], min: 1e4, dec: ',', sp: NB },
     it: { units: [[1e9, 'Mld'], [1e6, 'Mln']], min: 1e6, dec: ',', sp: NB }, // CLDR: 천 단위는 줄이지 않음 (12.345 · 1,2 Mln)
-    pt: { units: [[1e9, 'bi'], [1e6, 'mi'], [1e3, 'mil']], min: 1e4, dec: ',', sp: NB } // pt-BR: 12 mil · 1,2 mi
+    pt: { units: [[1e9, 'bi'], [1e6, 'mi'], [1e3, 'mil']], min: 1e4, dec: ',', sp: NB }, // pt-BR: 12 mil · 1,2 mi
+    ru: { units: [[1e9, 'млрд'], [1e6, 'млн'], [1e3, 'тыс.']], min: 1e4, dec: ',', sp: NB } // CLDR ru: 12 тыс. · 1,2 млн · 1,2 млрд (1 234 은 그대로)
   };
   // 단위로 나눈 값(v >= 1)을 내림: 10 미만은 소수 한 자리, 그 이상은 정수 (12,999 → 12K, 1,299 → 1.2K)
   function floorShort(v, dec, L) {

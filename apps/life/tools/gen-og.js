@@ -3,7 +3,7 @@
  * 내 인생 애니메이션 기본 OG 이미지(1200x630)를 언어별로 Chrome headless 로 만든다.
  * 템플릿: tools/og-card.html — 실제 렌더러(life-core.js + life-engine.js)를 인라인해서 펜 만화 한 페이지를 그린다.
  * 문구: tools/i18n/<lang>.js 의 og / ui. 글꼴은 Google Fonts 에서 받으므로 네트워크가 필요하다.
- *   en(루트): og/default.png, 나머지: og/<언어>/default.png (ja, zh, ko, fr, de, th, vi, es, it, pt)
+ *   en(루트): og/default.png, 나머지: og/<언어>/default.png (ja, zh, ko, fr, de, th, vi, es, it, pt, ru)
  *   (og/en/default.png 는 예전 /en/ 페이지가 공유될 때 쓰던 캐시용으로 남아 있다)
  *
  * 실행: node tools/gen-og.js          (새 사이트라 기본값이 전체 언어)
@@ -28,6 +28,8 @@ const STYLE = {
   ja: { display: "'Shippori Mincho', serif", weight: 700, hand: "'Klee One', cursive", body: "'Hiragino Sans', 'Noto Sans JP', sans-serif", brand: 26, tag: 29 },
   zh: { display: "'ZCOOL XiaoWei', 'Songti SC', serif", weight: 400, hand: "'Ma Shan Zheng', 'Kaiti SC', cursive", body: "'PingFang SC', 'Noto Sans SC', sans-serif", brand: 30, tag: 34 },
   th: { display: "'Trirong', serif", weight: 600, hand: "'Mali', cursive", body: "'Sukhumvit Set', 'Thonburi', 'Noto Sans Thai', sans-serif", brand: 28, tag: 31 },
+  // ru: Newsreader 에 키릴 문자가 없어 제목은 Source Serif 4(키릴 포함), 손글씨는 Caveat(키릴 포함) 그대로
+  ru: { display: "'Source Serif 4', 'PT Serif', serif", weight: 500, hand: "'Caveat', cursive", body: "'Pretendard', -apple-system, 'Helvetica Neue', Arial, sans-serif", brand: 32, tag: 35 },
 };
 
 function main() {

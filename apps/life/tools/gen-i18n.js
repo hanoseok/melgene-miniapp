@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * 내 인생 애니메이션의 정적 페이지를 언어별로 생성한다 (11개 언어, 영어가 사이트 루트).
- *   index.html(en) / ja/ / zh/ / ko/ / fr/ / de/ / th/ / vi/ / es/  (+ privacy.html 각각)
+ * 내 인생 애니메이션의 정적 페이지를 언어별로 생성한다 (shared/i18n.js LOCALES 12개 언어, 영어가 사이트 루트).
+ *   index.html(en) / ja/ / zh/ / ko/ / fr/ / de/ / th/ / vi/ / es/ / it/ / pt/ / ru/  (+ privacy.html 각각)
  *   en/index.html, en/privacy.html — 예전 영어 주소(/en/)로 공유된 링크를 루트로 넘기는 리다이렉트(?s=·#d= 유지, noindex)
  *   sitemap.xml (모든 언어 URL + xhtml:link hreflang)
  * 문구는 tools/i18n/<lang>.js. life.js / life-core.js 가 쓰는 문자열(ui)은 페이지에 인라인(window.PAGE_I18N)된다.
@@ -32,6 +32,7 @@ const ICONS = {
   kinder: '<path d="M3.5 11 12 4.5l8.5 6.5"/><path d="M5.8 9.6V19.5h12.4V9.6"/><circle cx="12" cy="13.4" r="1.9"/><path d="M10.5 19.5v-2.6h3v2.6"/>',
   school: '<path d="M2.8 20.2h18.4"/><path d="M5 20V11.2l7-4 7 4V20"/><path d="M12 7.2V3l3.2 1.1L12 5.3"/><path d="M10 20v-4.2h4V20M7.5 13h1.6M14.9 13h1.6"/>',
   friend: '<circle cx="8" cy="7.6" r="2.4"/><circle cx="16" cy="7.6" r="2.4"/><path d="M3.8 19.2c.3-3.2 1.9-5 4.2-5 1.4 0 2.4.6 3.1 1.6M20.2 19.2c-.3-3.2-1.9-5-4.2-5-1.4 0-2.4.6-3.1 1.6"/><path d="M10.4 17.4h3.2"/>',
+  dacha: '<path d="M2.2 20h19.6"/><path d="M2.8 11.6 7.8 7l5 4.6"/><path d="M4.2 10.4V20h7.2v-9.6"/><path d="M6.6 13.2h2.4v2.4H6.6z"/><circle cx="17.6" cy="8.6" r="3.6"/><path d="M17.6 12.2V20"/>',
   teen: '<path d="M4.4 15.2v-3a7.6 7.6 0 0 1 15.2 0v3"/><rect x="3" y="14" width="3.6" height="6" rx="1.4"/><rect x="17.4" y="14" width="3.6" height="6" rx="1.4"/>',
   love: '<path d="M12 20s-7.2-4.4-7.2-10.1A4 4 0 0 1 12 7.4a4 4 0 0 1 7.2 2.5C19.2 15.6 12 20 12 20z"/>',
   exam: '<path d="M6 3.2h8.6l3.4 3.4v14.2H6z"/><path d="M9 10.2h6M9 13.4h6M9 16.6h3.8"/><path d="M14.4 3.4v3.4h3.4"/>',

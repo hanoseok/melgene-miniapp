@@ -26,7 +26,7 @@ id 는 `^[a-z0-9-]{1,32}$`. 주소는 원본에서 `https://<id>.example.com/` �
 
 ## 2. 생성기 (tools/gen-i18n.js) 필수 요소
 
-- `const G = require('../../../tools/lib/i18n-gen.js'); const L = G.loadSiteLocales(SITE_DIR);` — 11개 파일이 없으면 실패한다.
+- `const G = require('../../../tools/lib/i18n-gen.js'); const L = G.loadSiteLocales(SITE_DIR);` — 12개 파일이 없으면 실패한다.
 - `<html lang>`, `<title>` = 현지 검색어 | `G.brandOf(lang)`, 메타 설명, og(+`G.ogLocaleTags`), canonical, `G.hreflangTags(siteRoot, rel)`.
 - `G.appLd(lang, { siteRoot, rel, name, description, category })` (game|test|create|vote).
 - 맨 위 `G.topBar(lang, rel)`. (지역 언어 자동 이동은 common.js 가 hreflang·언어 선택으로 알아서 한다 — 앱에서 할 일 없음)
@@ -47,7 +47,7 @@ id 는 `^[a-z0-9-]{1,32}$`. 주소는 원본에서 `https://<id>.example.com/` �
 
 - `apps/<id>/app.config.js` = `module.exports = { id, emoji, category, added: 'YYYY-MM-DD', path: 'https://<id>.example.com/', title: {11개}, desc: {11개} }` (같은 날 여러 개면 `order: 1, 2 …`). 제목은 앱 페이지의 검색어와 같은 이름. 다른 앱의 app.config.js 를 복사해 고친다.
 - `node tools/gen-all.js` 가 먼저 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역)를 다시 쓴다 — id≠폴더, path 모양, 빠진 언어가 있으면 실패. deploy-prep 은 SITES 가 어긋나면(`gen-sites.js --check`) 멈춘다.
-- 포털 큐레이션에 넣으려면 `apps/hub/tools/i18n/<lang>.js` 의 `curation.items` 에 11개 언어로(2줄 규칙, portal.md).
+- 포털 큐레이션에 넣으려면 `apps/hub/tools/i18n/<lang>.js` 의 `curation.items` 에 12개 언어로(2줄 규칙, portal.md).
 - `deploy.env` 는 고칠 것이 없다(miniapp.melgene.com 배포 단위에 함께 들어감 — hanoseok/melgene-miniapp 의 gh-pages). 예전 서브도메인 리다이렉트가 필요할 때만 `REPO_<id>`.
 
 ## 5. 언어·글꼴 주의 (겪은 일)

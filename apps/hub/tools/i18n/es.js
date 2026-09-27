@@ -132,7 +132,7 @@ module.exports = {
       ],
       [
         '5. Cookies y almacenamiento del navegador',
-        'Ajustes como tu idioma, la última categoría y el último orden que usaste o las valoraciones que diste se guardan solo en tu navegador (localStorage). Puedes borrar o bloquear las cookies y los datos del sitio en cualquier momento desde la configuración del navegador.',
+        'Ajustes como tu idioma, la última categoría y el último orden que usaste o las valoraciones que diste se guardan solo en tu navegador (localStorage y una cookie que recuerda tu idioma). Puedes borrar o bloquear las cookies y los datos del sitio en cualquier momento desde la configuración del navegador.',
       ],
       ['6. Contacto', 'Si tienes alguna pregunta sobre esta política de privacidad, ponte en contacto con el responsable del sitio.'],
       ['7. Fecha de entrada en vigor', 'Esta política está en vigor desde el 26 de septiembre de 2026.'],

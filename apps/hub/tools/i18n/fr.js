@@ -133,7 +133,7 @@ module.exports = {
       ],
       [
         '5. Cookies et stockage du navigateur',
-        'Des réglages comme votre langue, la dernière catégorie et le dernier tri utilisés ou les notes que vous avez données sont enregistrés uniquement dans votre navigateur (localStorage). Vous pouvez supprimer ou bloquer les cookies et les données de site à tout moment dans les paramètres de votre navigateur.',
+        'Des réglages comme votre langue, la dernière catégorie et le dernier tri utilisés ou les notes que vous avez données sont enregistrés uniquement dans votre navigateur (localStorage, ainsi qu’un cookie qui retient votre langue). Vous pouvez supprimer ou bloquer les cookies et les données de site à tout moment dans les paramètres de votre navigateur.',
       ],
       ['6. Contact', 'Pour toute question sur cette politique de confidentialité, veuillez contacter l’éditeur du site.'],
       ['7. Date d’entrée en vigueur', 'Cette politique est en vigueur depuis le 26 septembre 2026.'],

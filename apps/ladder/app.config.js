@@ -1,5 +1,5 @@
 // ladder 미니앱 등록 정보 — tools/gen-sites.js 가 모아 shared/site.config.js 의 SITE_CONFIG.SITES 를 만든다.
-// title/desc: 11개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
+// title/desc: 12개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
 // path 는 자리표시자 주소(deploy-prep.sh 가 https://miniapp.melgene.com/ladder/ 로 바꾼다).
 module.exports = {
   id: 'ladder',
@@ -20,6 +20,7 @@ module.exports = {
     es: 'Juego de la escalera',
     it: 'Gioco della scala',
     pt: 'Jogo da escada',
+    ru: 'Жеребьёвка',
   },
   desc: {
     ko: '점심 메뉴부터 내기까지, 공정한 온라인 사다리타기.',
@@ -33,5 +34,6 @@ module.exports = {
     es: 'Almuerzo, quién paga el café, tareas: un sorteo justo en línea.',
     it: 'Pranzo, chi paga il caffè, faccende: un sorteggio equo online.',
     pt: 'Almoço, quem paga o café, tarefas: um sorteio online justo.',
+    ru: 'Обед, кто платит за кофе, дежурства — честная жеребьёвка онлайн.',
   },
 };

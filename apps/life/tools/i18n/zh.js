@@ -81,6 +81,7 @@ module.exports = {
       kinder: { label: '上幼儿园', line: '第一天上幼儿园，哭着不肯松手' },
       school: { label: '上小学', line: '背上新书包，走进小学校门' },
       friend: { label: '第一个好朋友', line: '遇见了一辈子的好朋友' },
+      dacha: { label: '乡间小屋的夏天', line: '在带菜园的乡间小屋过暑假' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: '青春期', line: '对什么都好奇，又什么都不确定' },
       love: { label: '初恋', line: '心第一次怦怦直跳' },
       exam: { label: '高考', line: '熬过了那个漫长的六月' },

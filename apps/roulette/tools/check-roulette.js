@@ -6,7 +6,7 @@
  *  2) 각도 → 칸 매핑: 항목 2~16개 × 무작위 가중치 × 모든 칸 × 여러 시작 각도/멈출 위치/바퀴 수에서
  *     planSpin 의 최종 각도가 항상 뽑힌 칸에 멈추는지, angleAt 이 끝에서 정확히 plan.to 인지,
  *     windup 이후 각도가 단조 증가하는지, 경계 여백(LAND_MARGIN) 안쪽인지
- *  3) 공유 해시 왕복: ko/ja/emoji(ZWJ·국기·피부색)/제어문자/초과 길이 → decode(encode(x)) === normalize(x),
+ *  3) 공유 해시 왕복: ko/ja/ru/emoji(ZWJ·국기·피부색)/제어문자/초과 길이 → decode(encode(x)) === normalize(x),
  *     URL 안전 문자만 쓰는지, 망가진 입력은 null 인지
  *  4) 언어 파일: 모든 언어의 ui 키, 프리셋 키·개수 일치, 프리셋 항목 길이(24자) 이하, 테마 이름, FAQ 4~5개,
  *     SEO 본문 길이(600~900자 권장 — 벗어나면 경고), meta 길이
@@ -153,7 +153,7 @@ function checkLanding() {
 function checkShare() {
   const samples = [
     '짜장면', '김치찌개 🍲', 'ラーメン', '牛丼（大盛り）', 'はい', '👨‍👩‍👧‍👦 가족', '🇰🇷🇯🇵', '👍🏽 OK', 'café crème', 'Ω≈ç√',
-    'a"b\\c', '<script>', '  공백  많은   항목  ', 'tab\there', 'line\nbreak', '𠮷野家', 'ẞ', '١٢٣', '😀'.repeat(20), 'x'.repeat(40),
+    'Пельмени', 'Ёжик в тумане', 'a"b\\c', '<script>', '  공백  많은   항목  ', 'tab\there', 'line\nbreak', '𠮷野家', 'ẞ', '١٢٣', '😀'.repeat(20), 'x'.repeat(40),
   ];
   let trips = 0;
   const pick = () => samples[rint(0, samples.length - 1)];
@@ -240,9 +240,9 @@ function checkLocales() {
     (T.faq || []).forEach((it, i) => {
       if (!it || !it.q || !it.a) fail(`[언어] ${lang}: faq[${i}] 에 q/a 없음`);
     });
-    // title: "검색어 | 브랜드" 형식, 라틴은 ~60자, CJK/태국어는 ~32자 권장
+    // title: "검색어 | 브랜드" 형식, 라틴·키릴(ru)은 ~60자, CJK/태국어는 ~32자 권장
     const titleLen = [...T.meta.title].length;
-    const latinTitle = (T.meta.title.match(/[A-Za-z\u00C0-\u024F]/g) || []).length / Math.max(1, [...T.meta.title.replace(/\s/g, '')].length);
+    const latinTitle = (T.meta.title.match(/[A-Za-z\u00C0-\u024F\u0400-\u04FF]/g) || []).length / Math.max(1, [...T.meta.title.replace(/\s/g, '')].length);
     const titleLim = latinTitle > 0.5 ? 62 : 34;
     if (titleLen > titleLim) warnings.push(`[언어] ${lang}: title ${titleLen}자 (권장 ≤${titleLim})`);
     if (!/ \| /.test(T.meta.title)) warnings.push(`[언어] ${lang}: title 에 " | 브랜드" 구분자 없음`);
@@ -281,7 +281,7 @@ console.log('\n=== 돌림판 검증 ===\n');
 console.log(`1) 가중치 추첨 분포 — 총 ${dist.draws.toLocaleString()}회 (crypto.getRandomValues)`);
 dist.rows.forEach((r) => console.log(r));
 console.log(`2) 각도→칸 매핑 — 스핀 계획 ${land.checks.toLocaleString()}건 (항목 2~16개, 무작위 가중치, 모든 칸, 여백/중앙/무작위 위치), 궤적 단조성 ${land.monoChecks.toLocaleString()}프레임`);
-console.log(`3) 공유 해시 왕복 — ${share.trips.toLocaleString()}건 (ko/ja/이모지 ZWJ·국기·피부색/제어문자/초과 길이), 망가진 입력 ${share.bad}건 거절`);
+console.log(`3) 공유 해시 왕복 — ${share.trips.toLocaleString()}건 (ko/ja/ru/이모지 ZWJ·국기·피부색/제어문자/초과 길이), 망가진 입력 ${share.bad}건 거절`);
 console.log(`4) 언어 파일 — ${Object.keys(L10N).join(', ')}`);
 loc.forEach((r) => console.log(r));
 console.log(`5) 테마 색 — ${CORE.THEME_IDS.length}테마 × 2~16칸 = ${colors}조합, 이웃 칸 색 겹침 없음`);

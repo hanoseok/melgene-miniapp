@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * 밸런스 게임 검증.
- *   1) 언어 파일(11개): 모든 언어가 같은 qid(= balance-core.js 의 팩 구성) · 같은 a/b · 같은 q 유무를 갖는지,
+ *   1) 언어 파일(12개): 모든 언어가 같은 qid(= balance-core.js 의 팩 구성) · 같은 a/b · 같은 q 유무를 갖는지,
  *      팩/유형/ui 키가 빠짐없이 있는지, {치환자}가 기본 언어(en)와 같은지, 복수형이 그 언어의 Intl.PluralRules 범주를 다 채우는지,
  *      글꼴·줄바꿈 설정, 360px 카드에 들어가는지(글자 폭 모델), 제목·설명 길이(SEO), FAQ 3~5개, 스포일러(질문·유형 인용) 없음
  *   2) 공유: 해시 인코딩 왕복, 잘못된 해시 거절, 공유 문구 길이
@@ -47,7 +47,11 @@ function charEm(c) {
   if (/[\u0E00-\u0E7F]/.test(c)) return 0.62;
   if (WIDE.test(c)) return 1.0;
   if (c === ' ' || c === '\u00a0' || c === '\u202f') return 0.27;
-  if (/[A-ZÀ-ÞĀ-ſ]/.test(c) && c === c.toUpperCase() && c !== c.toLowerCase()) return 0.72;
+  // 키릴 문자: 라틴보다 넓다 (Ж Ш Щ Ю Ы М Ф / ж ш щ ю ы м ф 는 m·w 급, 나머지 소문자도 라틴보다 조금 넓게)
+  if (/[ЖШЩЮЫМФ]/.test(c)) return 0.95;
+  if (/[жшщюымф]/.test(c)) return 0.86;
+  if (/[A-ZÀ-ÞĀ-ſА-ЯЁ]/.test(c) && c === c.toUpperCase() && c !== c.toLowerCase()) return 0.72;
+  if (/[а-яё]/.test(c)) return 0.6;
   if (/[0-9]/.test(c)) return 0.62;
   if (/[.,:;'’!?¿¡()\-–—«»„“”"/]/.test(c)) return 0.34;
   if (/[mwMWœæ]/.test(c)) return 0.86;
@@ -169,7 +173,8 @@ LANGS.forEach((lang) => {
   const dl = vlen(T.meta.description);
   ok(wide ? dl >= 45 && dl <= 100 : dl >= 100 && dl <= 170, `[${lang}] 메타 설명 길이 ${dl}자 (권장 ${wide ? '45~100' : '100~170'})`);
   ok(T.meta.title.includes(T.app.name) || T.meta.title.includes(T.app.name.replace(/[?？ \s]+$/, '')), `[${lang}] meta.title 에 대표 검색어 "${T.app.name}" 없음`);
-  ok((T.home.h1a + ' ' + T.home.h1b).includes(T.app.name.replace(/[?？ \s]+$/, '')), `[${lang}] h1 에 대표 검색어 "${T.app.name}" 없음`);
+  // h1 은 줄바꿈 조절용 줄바꿈 없는 공백(NBSP·NNBSP)을 쓸 수 있다 — 검색어 비교는 보통 공백으로
+  ok((T.home.h1a + ' ' + T.home.h1b).replace(/[  ]/g, ' ').includes(T.app.name.replace(/[?？ \s]+$/, '')), `[${lang}] h1 에 대표 검색어 "${T.app.name}" 없음`);
   ok(T.meta.ogTitle && T.meta.ogDescription, `[${lang}] og 제목/설명 없음`);
   ok(placeholders(T.home.count) === '{n}', `[${lang}] home.count 에 {n} 없음`);
 
@@ -385,7 +390,7 @@ LANGS.forEach((lang) => {
   ok(!/renderMoreTests|window\.share\(|shareTwitterUrl|shareFacebookUrl/.test(jsCode), 'balance.js 에 앱 자체 공유/다른 테스트 코드가 남아 있음 (공통 끝 화면 사용)');
   ok(/setShareData/.test(jsCode) && /setRetry/.test(jsCode), 'balance.js 가 setShareData / setRetry 를 등록하지 않음');
   const sm = fs.readFileSync(path.join(SITE, 'sitemap.xml'), 'utf8');
-  ok((sm.match(/<url>/g) || []).length === G.LOCALES.length && /<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/.test(sm), 'sitemap.xml 에 11개 언어 URL + lastmod');
+  ok((sm.match(/<url>/g) || []).length === G.LOCALES.length && /<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/.test(sm), 'sitemap.xml 에 12개 언어 URL + lastmod');
 }
 console.log(`  ${LANGS.length}개 언어 index·privacy · balance.js 가 쓰는 ui 키 ${usedUi.length}개`);
 

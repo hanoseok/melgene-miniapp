@@ -8,7 +8,7 @@
  */
 const { spawn } = require('child_process');
 const fs = require('fs');
-const HREFLANG_N = require('../shared/i18n.js').LOCALES.length + 1; // 언어 11개 + x-default
+const HREFLANG_N = require('../shared/i18n.js').LOCALES.length + 1; // 언어 수 + x-default
 
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const PORT = 9361;

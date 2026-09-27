@@ -278,6 +278,7 @@ button { font-family: inherit; }
 .mg-share-kakao .mg-sico { color: #3a1d1d; background: #fee500; border-radius: 6px; padding: 2px; }
 .mg-share-line .mg-sico { color: #06c755; }
 .mg-share-whatsapp .mg-sico { color: #25d366; }
+.mg-share-telegram .mg-sico { color: #229ed9; }
 .mg-end-retry {
   display: block; width: 100%; min-height: 52px; margin: 18px 0 4px;
   border: 0; border-radius: 16px;

@@ -3,7 +3,7 @@
  * 할로윈 몬스터 테스트 검사.
  *   1) 채점: 모든 답 조합(4^8×3^2 = 589,824가지)을 전부 채점해 12종이 모두 나오는지 + 무작위 200,000회 시뮬레이션에서
  *      각 유형이 3%~15% 안인지. 같은 답은 언제나 같은 결과인지(결정적), 가중치·단짝·라이벌 id 가 맞는지.
- *   2) 언어 파일 11개: en.js 와 키 구조가 완전히 같은지(배열 길이 포함), 문항·보기 수가 monster-core.js 와 같은지,
+ *   2) 언어 파일 12개(shared/i18n.js LOCALES): en.js 와 키 구조가 완전히 같은지(배열 길이 포함), 문항·보기 수가 monster-core.js 와 같은지,
  *      자리표시자, FAQ 3~5개(일반 텍스트, "무료인가요?" 류 금지), 한국어가 아닌 파일에 한글이 남았는지,
  *      스포일러(메타·OG 기본·시작 화면·FAQ 에 몬스터 이름/질문 인용 금지), 360px 폭 예산.
  *      // TODO-TRANSLATE 표시가 남은 파일은 (참고)로 알려 준다(실패 아님).
@@ -99,7 +99,8 @@ function emWidth(str) {
     else if (c >= 0x0e00 && c <= 0x0e7f) w += 0.62;
     else if ((c >= 0x1100 && c <= 0x11ff) || (c >= 0x2e80 && c <= 0x9fff) || (c >= 0xac00 && c <= 0xd7af) || (c >= 0xff00 && c <= 0xffef) || (c >= 0x3000 && c <= 0x303f)) w += 1;
     else if (ch === ' ' || ch === ' ' || ch === ' ') w += 0.28;
-    else if (/[A-ZÀ-ÞĀ-Ž]/.test(ch)) w += 0.66;
+    else if (/[A-ZÀ-ÞĀ-ŽА-ЯЁ]/.test(ch)) w += 0.66;
+    else if (/[а-яё]/.test(ch)) w += 0.6; // 키릴 소문자는 라틴보다 조금 넓다(ж ш щ ы ю м)
     else if (/[0-9]/.test(ch)) w += 0.58;
     else if (/[.,:;!?'’"“”«»()\-–—…·|/]/.test(ch)) w += 0.32;
     else w += 0.55;
@@ -115,7 +116,10 @@ const BUDGET = [
   { key: 'result.bestLabel', get: (T) => T.result.bestLabel, px: (328 - 10) / 2 - 16, size: 13 * 1.08, hard: false, what: '단짝 라벨 한 줄' },
   { key: 'result.rivalLabel', get: (T) => T.result.rivalLabel, px: (328 - 10) / 2 - 16, size: 13 * 1.08, hard: false, what: '라이벌 라벨 한 줄' },
 ];
-const FREE_Q = /\bfree\b|무료|無料|免费|免費|gratuit|kostenlos|ฟรี|miễn phí|gratis/i;
+// Google Fonts 메타데이터(subsets 에 cyrillic)로 확인한 둥근 제목 글꼴
+const CYRILLIC_LANGS = ['ru'];
+const CYRILLIC_DISPLAY = ['Nunito', 'Rubik', 'Comfortaa', 'Balsamiq Sans', 'M PLUS Rounded 1c', 'Pangolin', 'Unbounded', 'Russo One', 'Montserrat Alternates', 'Neucha'];
+const FREE_Q = /\bfree\b|무료|無料|免费|免費|gratuit|kostenlos|ฟรี|miễn phí|gratis|бесплатн/i;
 
 function checkLocales() {
   const base = new Set(shape(L10N.en));
@@ -158,6 +162,8 @@ function checkLocales() {
       else if (FREE_Q.test(f.q)) bad(`${tag} faq[${i}] "무료인가요?" 류 질문 금지: ${f.q}`);
     });
     if (!T.fonts || !T.fonts.css || !T.fonts.display) bad(`${tag} fonts.css / fonts.display 없음`);
+    // 키릴 문자 언어: 제목 글꼴(첫 번째)이 Google Fonts 에서 cyrillic 부분 집합이 있는 글꼴이어야 한다(Baloo 2 에는 없음 → 두부 글자)
+    if (CYRILLIC_LANGS.includes(lang) && T.fonts && !CYRILLIC_DISPLAY.includes(String(T.fonts.display).split(',')[0].replace(/['"]/g, '').trim())) bad(`${tag} fonts.display "${T.fonts.display}" 는 키릴 문자를 지원하는 글꼴이 아님 (${CYRILLIC_DISPLAY.join(', ')})`);
     const h1 = T.start.h1Html;
     if ((h1.match(/<br\s*\/?>/gi) || []).length !== 1 || !/<em>[^<]+<\/em>/.test(h1) || /<(?!br|\/?em)/i.test(h1)) bad(`${tag} start.h1Html 은 <br> 1개 + <em> 강조만`);
     if (!T.meta.title.includes(T.start.h1Kicker) && !T.meta.title.toLowerCase().includes(T.start.h1Kicker.toLowerCase())) warn(`${tag} meta.title 이 h1Kicker(검색어)를 담지 않음`);

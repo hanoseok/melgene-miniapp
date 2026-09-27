@@ -21,16 +21,20 @@
   window.t = t;
 
   // ---------------------------------------------------------------
-  // 0) 방문자 지역 → 그 나라 언어 페이지로 자동 이동 (가능한 한 빨리: 이 파일이 읽히는 즉시, 화면 그리기 전에)
-  //    - 기본 언어(en, 사이트 루트) 페이지에서만, 방문자가 언어를 직접 고른 적이 없을 때만(lang_pref / mg_lang).
+  // 0) 언어 자동 이동 (가능한 한 빨리: 이 파일이 읽히는 즉시, 화면 그리기 전에)
+  //    ① 고른 언어가 있으면(쿠키 mg_lang → localStorage lang_pref/mg_lang) 어느 페이지든 같은 페이지의 그 언어 주소로.
+  //       쿠키는 .melgene.com 전체(melgene.com·miniapp.melgene.com 공유), 1년. 둘 중 하나만 있으면 서로 채운다.
+  //    ② 고른 언어가 없으면: 기본 언어(en, 사이트 루트) 페이지에서만 방문자 지역 → 그 나라 언어.
   //    - 크롤러·자동화 브라우저(navigator.webdriver)는 절대 옮기지 않는다 → Google 은 언어별 주소를 그대로 색인.
-  //    - ?lang=<코드> 는 그 언어를 고른 것으로 기억하고 이동하지 않는다. #nolang 은 이번만 이동하지 않는다.
+  //    - ?lang=<코드> 는 그 언어를 고른 것으로 기억하고 그 언어로 간다. #nolang 은 이번만 이동하지 않는다.
   //    - 나라: Supabase RPC client_country()(Cloudflare cf-ipcountry, 저장 안 함, 세션 동안 sessionStorage 캐시, 1.2초 제한)
   //      → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 영어권이면 영어 그대로.
   //    - 이동할 주소는 이 페이지의 언어 선택(상대 주소) 또는 hreflang 링크에서 찾고, 쿼리·해시는 그대로 넘긴다.
   // ---------------------------------------------------------------
   var PREF_KEY = 'lang_pref';
   var PREF_KEYS = [PREF_KEY, 'mg_lang'];
+  var PREF_COOKIE = 'mg_lang';
+  var PREF_COOKIE_AGE = 60 * 60 * 24 * 365;
   var GEO_CACHE = 'mg_cc';
   var GEO_TIMEOUT = 1200;
   var BOT_UA = /(^|[^a-z])bot([^a-z]|$)|[a-z]bot\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright/i;
@@ -48,17 +52,46 @@
     set('es', 'ES MX AR CO CL PE VE EC GT CU BO DO HN PY SV NI CR PA UY PR');
     set('it', 'IT SM VA');
     set('pt', 'PT BR AO MZ CV GW ST TL');
+    set('ru', 'RU BY KZ KG');
   })();
 
+  // 고른 언어 저장: localStorage(lang_pref, mg_lang) + 쿠키(mg_lang). melgene.com 아래면 쿠키를 .melgene.com 전체에.
+  function cookieDomain() {
+    var h = window.location.hostname || '';
+    return /(^|\.)melgene\.com$/.test(h) ? '; Domain=.melgene.com' : '';
+  }
+  function readCookie(name) {
+    try {
+      var m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+      return m ? decodeURIComponent(m[1]) : null;
+    } catch (e) { return null; }
+  }
+  function writeCookie(lang) {
+    try {
+      document.cookie = PREF_COOKIE + '=' + encodeURIComponent(lang) + '; Path=/; Max-Age=' + PREF_COOKIE_AGE +
+        '; SameSite=Lax' + (window.location.protocol === 'https:' ? '; Secure' : '') + cookieDomain();
+    } catch (e) { /* noop */ }
+  }
   function savePref(lang) {
-    try { localStorage.setItem(PREF_KEY, lang); } catch (e) { /* noop */ }
-  }
-  function hasPref() {
+    if (!knownLang(lang)) return;
     for (var i = 0; i < PREF_KEYS.length; i++) {
-      try { if (localStorage.getItem(PREF_KEYS[i])) return true; } catch (e) { return true; } // 저장소를 못 쓰면 옮기지 않는다
+      try { localStorage.setItem(PREF_KEYS[i], lang); } catch (e) { /* noop */ }
     }
-    return false;
+    writeCookie(lang);
   }
+  window.mgSaveLang = savePref;
+  // 고른 언어(없으면 null). 쿠키가 먼저, 없으면 localStorage — 한쪽에만 있으면 다른 쪽도 채운다.
+  function getPref() {
+    var c = readCookie(PREF_COOKIE);
+    var ls = null;
+    for (var i = 0; i < PREF_KEYS.length && !ls; i++) {
+      try { ls = localStorage.getItem(PREF_KEYS[i]); } catch (e) { /* noop */ }
+    }
+    var lang = knownLang(c) ? c : (knownLang(ls) ? ls : null);
+    if (lang && (c !== lang || ls !== lang)) savePref(lang);
+    return lang;
+  }
+  window.mgGetLang = getPref;
   function navLangs() {
     var l = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
     return Array.prototype.map.call(l, function (x) { return String(x || ''); });
@@ -149,13 +182,30 @@
     geoWait.splice(0).forEach(function (fn) { try { fn(); } catch (e) { /* noop */ } });
   }
   function afterGeo(fn) { if (geoSettled) fn(); else geoWait.push(fn); }
+  // 같은 페이지의 그 언어 주소로 (없거나 이미 그 언어면 false)
+  function goLang(lang, dropLangParam) {
+    if (!lang || lang === LANG) return false;
+    var url = altUrl(lang);
+    if (!url) return false;
+    if (dropLangParam) {
+      try { var u = new URL(url); u.searchParams.delete('lang'); url = u.href; } catch (e) { /* noop */ }
+    }
+    window.location.replace(url);
+    return true;
+  }
   function regionRedirect() {
-    if (LANG !== DEFAULT_LANG) return geoDone();
+    if (/^#nolang\b/.test(window.location.hash)) return geoDone();
     var q = null;
     try { q = new URLSearchParams(window.location.search).get('lang'); } catch (e) { q = null; }
-    if (q != null) { if (knownLang(q)) savePref(q); return geoDone(); } // ?lang=<코드>: 직접 고른 것으로
-    if (/^#nolang\b/.test(window.location.hash)) return geoDone();
-    if (hasPref() || isBot()) return geoDone();
+    if (q != null && knownLang(q)) { // ?lang=<코드>: 직접 고른 것으로 기억하고 그 언어로
+      savePref(q);
+      if (!goLang(q, true)) geoDone();
+      return;
+    }
+    if (isBot()) return geoDone();
+    var pref = getPref();
+    if (pref) { if (!goLang(pref)) geoDone(); return; } // 고른 언어가 있으면 어느 페이지든 그 언어로
+    if (LANG !== DEFAULT_LANG) return geoDone(); // 지역 판단은 기본 언어(en 루트) 페이지에서만
     serverCountry(function (cc) {
       var lang = cc ? langForCountry(cc) : langForCountry(navCountry());
       var url = lang && lang !== DEFAULT_LANG ? altUrl(lang) : null;
@@ -455,8 +505,10 @@
   // 결과 화면이 나중에 생기는 앱은 window.renderRating(el) 또는 window.initRatings() 를 부른다.
   // ---------------------------------------------------------------
   function fmtN(n) { try { return Number(n).toLocaleString(LANG); } catch (e) { return String(n); } }
+  // 별점 평균 한 자리 (ru·fr·de 는 4,0 처럼 언어 표기)
+  function fmt1(x) { x = Number(x) || 0; try { return x.toLocaleString(LANG, { minimumFractionDigits: 1, maximumFractionDigits: 1 }); } catch (e) { return x.toFixed(1); } }
   function fill(str, map) { return String(str).replace(/\{(\w+)\}/g, function (m, k) { return map[k] != null ? map[k] : m; }); }
-  window.mgFormat = { num: fmtN, fill: fill };
+  window.mgFormat = { num: fmtN, one: fmt1, fill: fill };
 
   // 하트 버튼: 여러 번 누를 수 있다. 같은 앱·같은 IP 는 30초 안에 다시 세지 않는다(서버 판정).
   // <button data-mg-heart="사이트id"></button> 또는 별점 위젯 안에 자동으로 들어간다.
@@ -587,7 +639,7 @@
       // 단수형(rateMetaOne/playedByOne)이 있는 언어만 1일 때 바꾼다
       var rk = cur.votes === 1 && S.rateMetaOne ? 'rateMetaOne' : 'rateMeta';
       var pk = cur.plays === 1 && S.playedByOne ? 'playedByOne' : 'playedBy';
-      parts.push(cur.votes ? fill(t(rk), { avg: (cur.avg || 0).toFixed(1), votes: fmtN(cur.votes) }) : t('rateFirst'));
+      parts.push(cur.votes ? fill(t(rk), { avg: fmt1(cur.avg), votes: fmtN(cur.votes) }) : t('rateFirst'));
       if (cur.plays) parts.push(fill(t(pk), { n: fmtN(cur.plays) }));
       if (mine) parts.push(fill(t('rateYours'), { n: mine }));
       meta.textContent = parts.join(' · ');
@@ -698,7 +750,8 @@
     fb: '<path d="M14.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5H17.7V4.4A21 21 0 0 0 15.3 4.3c-2.4 0-4 1.4-4 4.1v2.1H8.6v3h2.7V21" fill="currentColor"/>',
     kakao: '<path d="M12 4C7 4 3 7.1 3 11c0 2.5 1.7 4.7 4.2 5.9l-.9 3.3c-.1.3.3.6.6.4l3.9-2.6c.4 0 .8.1 1.2.1 5 0 9-3.1 9-7s-4-7.1-9-7.1z" fill="currentColor"/>',
     line: '<path d="M12 3.5c-5 0-9 3.2-9 7.2 0 3.6 3.2 6.6 7.5 7.1.3.1.7.2.8.5.1.2 0 .6 0 .9l-.1.8c0 .2-.2.9.8.5s5.4-3.2 7.4-5.5C20.8 13.6 21 12.2 21 10.7c0-4-4-7.2-9-7.2z" fill="currentColor"/>',
-    whatsapp: '<path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.5c.3 2.9 2.6 5.3 5.5 5.9l1.2-1.2-1.8-.9-.8.8c-1-.4-1.8-1.2-2.2-2.2l.8-.8-.9-1.8z" fill="currentColor"/>'
+    whatsapp: '<path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.5c.3 2.9 2.6 5.3 5.5 5.9l1.2-1.2-1.8-.9-.8.8c-1-.4-1.8-1.2-2.2-2.2l.8-.8-.9-1.8z" fill="currentColor"/>',
+    telegram: '<path d="M21 4.5 2.9 11.4c-1 .4-1 1 .1 1.3l4.6 1.4 1.8 5.4c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.2-2.1 4.6 3.4c.8.5 1.4.2 1.6-.8L22 5.8c.3-1.3-.5-1.8-1-1.3z" fill="currentColor"/><path d="M8.2 14.2 18 8" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>'
   };
   function icon(name) {
     return '<svg class="mg-sico" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">' + ICONS[name] + '</svg>';
@@ -706,6 +759,7 @@
   function messenger() {
     if (LANG === 'ko') return 'kakao';
     if (LANG === 'ja' || LANG === 'th') return 'line';
+    if (LANG === 'ru') return 'telegram';
     return 'whatsapp';
   }
   function openWin(url) { window.open(url, '_blank', 'noopener,noreferrer,width=600,height=640'); }
@@ -767,6 +821,9 @@
     if (m === 'kakao') btn('kakao', t('shareKakao'), kakaoShare);
     else if (m === 'line') btn('line', t('shareLine'), function () {
       getShareData().then(function (d) { openWin('https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(d.url) + '&text=' + encodeURIComponent(d.text || d.title)); });
+    });
+    else if (m === 'telegram') btn('telegram', t('shareTelegram'), function () {
+      getShareData().then(function (d) { openWin('https://t.me/share/url?url=' + encodeURIComponent(d.url) + '&text=' + encodeURIComponent(d.text || d.title)); });
     });
     else btn('whatsapp', t('shareWhatsapp'), function () {
       getShareData().then(function (d) { openWin('https://wa.me/?text=' + encodeURIComponent((d.text ? d.text + ' ' : '') + d.url)); });

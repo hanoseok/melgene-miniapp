@@ -3,7 +3,7 @@
  * data.js의 채점 가중치로 200,000개의 무작위 답변 조합을 뽑아
  * 16개 결과 타입의 도달 분포를 검증한다.
  * 목표: 어떤 타입도 2% 미만 또는 12% 초과로 쏠리지 않을 것.
- * 가중치는 data.js 한 곳에만 있으므로 모든 언어가 같은 분포를 가진다. 추가로 11개 언어 파일
+ * 가중치는 data.js 한 곳에만 있으므로 모든 언어가 같은 분포를 가진다. 추가로 모든 언어 파일(12개)
  * (tools/i18n/<lang>.js)을 검사한다:
  *   - data.js와 같은 타입 16종·문항 수·보기 수, en.js 와 키 구조가 완전히 같은지(typography 제외)
  *   - 자리표시자({name}/{emoji}/{tagline}), FAQ 3~5개({q,a}), 한국어 파일이 아닌데 한글이 남았는지
@@ -63,6 +63,9 @@ function emWidth(str) {
     else if ((c >= 0x1100 && c <= 0x11ff) || (c >= 0x2e80 && c <= 0x9fff) || (c >= 0xac00 && c <= 0xd7af) || (c >= 0xff00 && c <= 0xffef) || (c >= 0x3000 && c <= 0x303f)) w += 1;
     else if (ch === ' ' || ch === '\u00a0' || ch === '\u202f') w += 0.28;
     else if (/[A-ZÀ-ÞĀ-Ž]/.test(ch) && ch === ch.toUpperCase() && ch !== ch.toLowerCase()) w += 0.68;
+    else if (/[А-ЯЁ]/.test(ch)) w += 0.74; // 키릴 대문자 (Pretendard 실측 평균 0.74em)
+    else if (/[жмфшщъыю]/.test(ch)) w += 0.8; // 넓은 키릴 소문자
+    else if (/[а-яё]/.test(ch)) w += 0.58; // 그 밖 키릴 소문자
     else if (/[0-9]/.test(ch)) w += 0.58;
     else if (/[.,:;!?'’"“”«»()\-–—…·|/]/.test(ch)) w += 0.32;
     else w += 0.56;
@@ -224,7 +227,7 @@ function run() {
     if (problems.length) console.error('결과: 실패 — 언어 파일(tools/i18n/<lang>.js)을 고치세요.');
     process.exit(1);
   } else {
-    console.log('결과: 통과 — 모든 타입이 2%~12% 범위 안에 있고, 11개 언어 파일이 모두 맞습니다.');
+    console.log(`결과: 통과 — 모든 타입이 2%~12% 범위 안에 있고, ${langs.length}개 언어 파일이 모두 맞습니다.`);
     process.exit(0);
   }
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 밸런스 게임의 정적 페이지를 언어별로 생성한다 (11개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
+ * 밸런스 게임의 정적 페이지를 언어별로 생성한다 (12개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
  *   index.html, <dir>/index.html   — 팩 고르기(티징만) → 질문 카드 → 결과 + 공통 끝 화면
  *   privacy.html, <dir>/privacy.html
  *   sitemap.xml (모든 언어 URL + xhtml:link hreflang + lastmod)

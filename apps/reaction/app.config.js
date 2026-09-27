@@ -1,5 +1,5 @@
 // reaction 미니앱 등록 정보 — tools/gen-sites.js 가 모아 shared/site.config.js 의 SITE_CONFIG.SITES 를 만든다.
-// title/desc: 11개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
+// title/desc: 12개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
 // path 는 자리표시자 주소(deploy-prep.sh 가 https://miniapp.melgene.com/reaction/ 로 바꾼다).
 module.exports = {
   id: 'reaction',
@@ -20,6 +20,7 @@ module.exports = {
     es: 'Test de reflejos',
     it: 'Test di reazione',
     pt: 'Teste de reação',
+    ru: 'Тест на реакцию',
   },
   desc: {
     ko: '초록색이 되면 탭! 내 반응속도는 전체에서 상위 몇 %?',
@@ -33,5 +34,6 @@ module.exports = {
     es: 'Toca cuando se ponga verde. ¿Qué tan rápido eres comparado con todos?',
     it: 'Tocca quando diventa verde. Quanto sei veloce rispetto agli altri?',
     pt: 'Toque quando ficar verde. Você é mais rápido que os outros?',
+    ru: 'Нажми, когда станет зелёным. Насколько ты быстрее остальных?',
   },
 };

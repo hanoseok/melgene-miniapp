@@ -5,7 +5,8 @@
  * 손으로 그린 테두리/채움은 life.js 가 SVG(.lf-ink)로 덧그린다. JS 전에는 아래의 일반 테두리가 보인다.
  * 글꼴(제목 / 손글씨): 라틴 en·fr·de·es = Newsreader / Caveat, vi = Newsreader / Patrick Hand(베트남어 글자 포함),
  *   ko = Gowun Batang / Nanum Pen Script, ja = Shippori Mincho / Klee One, zh = ZCOOL XiaoWei / Ma Shan Zheng,
- *   th = Trirong / Mali. 캔버스 손글씨는 언어 파일 ui.canvasFont 가 따로 정한다.
+ *   th = Trirong / Mali, ru = Source Serif 4 / Caveat(둘 다 키릴 문자 포함 — Newsreader 에는 키릴이 없다).
+ *   캔버스 손글씨는 언어 파일 ui.canvasFont 가 따로 정한다.
  * 공통 타이틀 바·끝 화면(data-mg-end)은 base.css 가 그리고, 여기서는 변수와 이 페이지 범위의 덧칠만 한다.
  */
 
@@ -31,6 +32,9 @@ html:lang(vi) {
   --font-hand: 'Patrick Hand', 'Segoe Print', cursive;
   --hand-k: 1.06;
   --hand-size: calc(var(--hand-k) * 1em);
+}
+html:lang(ru) {
+  --font-display: 'Source Serif 4', 'PT Serif', Georgia, 'Times New Roman', serif;
 }
 html:lang(ko) {
   --font-display: 'Gowun Batang', 'Noto Serif KR', 'AppleMyungjo', serif;
@@ -68,16 +72,17 @@ body.lf-body {
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
-/* base.css 의 :lang(zh|th|vi){font-family; line-height} 는 모든 요소에 직접 걸려서 제목·손글씨 글꼴의 상속을 끊는다
+/* base.css 의 :lang(zh|th|vi|ru){font-family; line-height} 는 모든 요소에 직접 걸려서 제목·손글씨 글꼴의 상속을 끊는다
    (h1 안 span 이 시스템 고딕으로 보임). 이 페이지에서는 같은 우선순위로 상속을 되돌리고, 본문 글꼴은 body 에 준다. */
-:is(:lang(zh), :lang(th), :lang(vi)) { font-family: inherit; line-height: inherit; }
+:is(:lang(zh), :lang(th), :lang(vi), :lang(ru)) { font-family: inherit; line-height: inherit; }
 html:lang(zh) body.lf-body { font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', var(--font-sans); }
 html:lang(th) body.lf-body { font-family: 'Sukhumvit Set', 'Thonburi', 'Leelawadee UI', 'Noto Sans Thai', var(--font-sans); line-height: 1.7; }
 html:lang(vi) body.lf-body { font-family: var(--font-sans), 'Noto Sans', 'Segoe UI', sans-serif; }
 
 /* 한국어만 어절 단위(keep-all). 일본어·중국어는 글자 단위, 타이어는 브라우저 사전 단위로 줄바꿈 */
 html:is(:lang(ja), :lang(zh), :lang(th)) body.lf-body { word-break: normal; }
-html:is(:lang(de), :lang(fr), :lang(es), :lang(it), :lang(pt)) body.lf-body { -webkit-hyphens: auto; hyphens: auto; }
+html:is(:lang(de), :lang(fr), :lang(es), :lang(it), :lang(pt), :lang(ru)) body.lf-body { -webkit-hyphens: auto; hyphens: auto; }
+html:lang(ru) body.lf-body { hyphenate-limit-chars: 9 4 4; } /* короткие слова (комикс, моментов) не переносим */
 html:lang(th) :is(.lf-btn, .lf-chip, .lf-toggle, .lf-pen, .lf-tl li) { line-height: 1.35; }
 .lf-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 .lf-body [hidden] { display: none !important; }
@@ -213,8 +218,8 @@ html:lang(th) :is(.lf-btn, .lf-chip, .lf-toggle, .lf-pen, .lf-tl li) { line-heig
 }
 .lf-hero h1 .lf-h1 { display: block; }
 .lf-hero h1 { font-size: clamp(27px, 7.3vw, 36px); }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .lf-hero h1 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.12; font-size: clamp(30px, 8.2vw, 40px); }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .lf-hero h1 .lf-eyebrow { font-weight: 700; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .lf-hero h1 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.12; font-size: clamp(30px, 8.2vw, 40px); }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .lf-hero h1 .lf-eyebrow { font-weight: 700; }
 html:lang(ja) .lf-hero h1 { line-height: 1.38; font-size: clamp(25px, 6.6vw, 33px); }
 html:lang(zh) .lf-hero h1 { font-weight: 400; line-height: 1.34; letter-spacing: 0.01em; font-size: clamp(27px, 7.4vw, 36px); }
 html:lang(th) .lf-hero h1 { font-weight: 600; line-height: 1.42; letter-spacing: 0; font-size: clamp(25px, 6.8vw, 33px); }
@@ -280,7 +285,7 @@ html:lang(vi) .lf-hero h1 { line-height: 1.2; }
   line-height: 1.3;
   margin: 0 0 6px;
 }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .lf-step-title { font-weight: 500; font-size: 25px; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .lf-step-title { font-weight: 500; font-size: 25px; }
 html:lang(zh) .lf-step-title { font-weight: 400; }
 html:lang(th) .lf-step-title { font-weight: 600; font-size: 21px; line-height: 1.45; }
 .lf-step-title > span:last-child { min-width: 0; }
@@ -305,6 +310,7 @@ html:lang(ko) .lf-num { font-size: 26px; }
 
 .lf-label { display: block; font-size: 13.5px; font-weight: 700; color: var(--ink-2); margin-bottom: 6px; }
 .lf-label em { font-style: normal; font-weight: 500; color: var(--ink-3); margin-left: 2px; }
+html:lang(ru) .lf-label em { white-space: nowrap; } /* «по желанию» переносится целиком, без дефиса внутри */
 
 .lf-birth { margin-top: 14px; }
 .lf-year-row { display: flex; align-items: center; gap: 12px; }
@@ -369,7 +375,7 @@ select.lf-input { -webkit-appearance: none; appearance: none; background-image: 
   line-height: 1.2;
   color: var(--ink-2);
 }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt)) .lf-group-title { font-size: 1.28em; font-weight: 600; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(ru)) .lf-group-title { font-size: 1.28em; font-weight: 600; }
 html:lang(vi) .lf-group-title { font-size: 1.14em; }
 html:lang(ja) .lf-group-title { font-weight: 600; font-size: 15px; }
 html:lang(th) .lf-group-title { font-weight: 500; font-size: 15px; }
@@ -498,7 +504,7 @@ html:lang(th) .lf-group-title { font-weight: 500; font-size: 15px; }
 }
 .lf-pen-doodle { display: block; width: 100%; height: 58px; }
 .lf-pen-name { font-family: var(--font-display); font-size: 16.5px; font-weight: 700; }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .lf-pen-name { font-weight: 600; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .lf-pen-name { font-weight: 600; }
 html:lang(zh) .lf-pen-name { font-weight: 400; }
 .lf-pen-note { font-size: 12.5px; color: var(--ink-2); line-height: 1.35; }
 
@@ -642,7 +648,7 @@ html:lang(zh) .lf-pen-name { font-weight: 400; }
   margin: 0;
   text-wrap: balance;
 }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .lf-end h2 { font-weight: 500; font-size: 28px; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .lf-end h2 { font-weight: 500; font-size: 28px; }
 html:lang(zh) .lf-end h2 { font-weight: 400; }
 html:lang(th) .lf-end h2 { font-weight: 600; line-height: 1.45; }
 .lf-end-close { margin: 6px 0 0; font-family: var(--font-hand); font-size: calc(var(--hand-size) * 1.05); color: var(--ink-2); line-height: 1.25; }
@@ -681,10 +687,10 @@ html:lang(th) .lf-end h2 { font-weight: 600; line-height: 1.45; }
   margin-top: 18px;
 }
 .lf-body .mg-end-h { font-family: var(--font-display); font-size: 19px; font-weight: 700; margin: 26px 0 12px; }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .mg-end-h { font-weight: 500; font-size: 21px; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .mg-end-h { font-weight: 500; font-size: 21px; }
 html:lang(zh) .mg-end-h { font-weight: 400; }
 .lf-body .mg-rating-title { font-family: var(--font-hand); font-size: calc(var(--hand-k) * 1.2rem); font-weight: 400; color: var(--ink-2); }
-html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi)) .mg-rating-title { font-weight: 700; }
+html:is(:lang(en), :lang(fr), :lang(de), :lang(es), :lang(it), :lang(pt), :lang(vi), :lang(ru)) .mg-rating-title { font-weight: 700; }
 .lf-body .mg-rating-meta { color: var(--ink-2); }
 .lf-body .mg-heart { border-radius: var(--wobble-b); }
 .lf-body .mg-end .mg-share-btn {

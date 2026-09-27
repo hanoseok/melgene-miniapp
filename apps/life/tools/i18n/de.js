@@ -80,6 +80,7 @@ module.exports = {
       kinder: { label: 'Kindergarten', line: 'Kleiner Rucksack, großer erster Tag' },
       school: { label: 'Einschulung', line: 'Mit der Schultüte durchs Schultor' },
       friend: { label: 'Beste Freundschaft', line: 'Eine Freundschaft fürs Leben' },
+      dacha: { label: 'Sommer auf der Datscha', line: 'Sommer auf der Datscha: Äpfel, Fluss und Mücken' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: 'Pubertät', line: 'Neugierig auf alles, sicher bei nichts' },
       love: { label: 'Erste Liebe', line: 'Zum ersten Mal Herzklopfen' },
       exam: { label: 'Abschluss', line: 'Letzte Prüfung – und dann ab in den Sommer' },

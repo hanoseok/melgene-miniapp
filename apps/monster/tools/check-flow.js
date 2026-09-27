@@ -55,6 +55,8 @@ class Tab {
       if (m.method === 'Log.entryAdded' && m.params.entry.level === 'error' && !/favicon/.test(m.params.entry.url || '')) this.errors.push('log: ' + m.params.entry.text + ' ' + (m.params.entry.url || ''));
       if (m.method === 'Page.loadEventFired' && this.onload) { const f = this.onload; this.onload = null; f(); }
     };
+    // Chrome 이 밖에서 꺼지면(병렬 작업 등) 기다리던 호출을 실패로 끝낸다 — 멈춰 있지 않게
+    ws.onclose = () => { this.wait.forEach((w) => w.rej(new Error('Chrome(CDP) 연결이 끊김'))); this.wait.clear(); };
   }
   send(method, params = {}) { const id = ++this.n; return new Promise((res, rej) => { this.wait.set(id, { res, rej }); this.ws.send(JSON.stringify({ id, method, params })); }); }
   async eval(expr) {
@@ -80,6 +82,16 @@ async function openTab(width) {
   await tab.send('Emulation.setDeviceMetricsOverride', { width, height: width >= 768 ? 900 : 740, deviceScaleFactor: 2, mobile: width < 768 });
   if (width < 768) await tab.send('Emulation.setTouchEmulationEnabled', { enabled: true, maxTouchPoints: 5 });
   return tab;
+}
+// 진행 표시가 want 가 될 때까지(최대 ms) 기다렸다가 현재 값을 돌려준다
+async function waitNum(tab, want, ms = 5000) {
+  let v = '';
+  for (const end = Date.now() + ms; Date.now() < end; await sleep(50)) {
+    v = await tab.eval(`document.getElementById('progress-num').textContent.trim()`);
+    if (v === want) break;
+  }
+  await sleep(60);
+  return v;
 }
 const mockRpc = (n, b) => fetch(`http://localhost:${MOCK_PORT}/rest/v1/rpc/${n}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(b || {}) }).then((r) => r.text());
 
@@ -153,14 +165,17 @@ async function main() {
             (await tab.eval(BROKEN_WORDS + `('.mon-q-text, .mon-choice')`)).forEach((w) => report(tag, `Q${qi + 1} 단어 잘림 "${w}"`));
           }
           if (qi === 3) { // 뒤로 가기 한 번: Q3 으로 돌아가서 다시 답한다
-            await tab.tap('#back-btn'); await sleep(80);
-            const back = await tab.eval(`document.getElementById('progress-num').textContent.trim()`);
+            await tab.tap('#back-btn');
+            const back = await waitNum(tab, `3 / ${CORE.QUESTIONS.length}`);
             if (back !== `3 / ${CORE.QUESTIONS.length}`) report(tag, `뒤로 가기 후 "${back}"`);
-            await tab.tap(`.mon-choice:nth-child(${answers[2] + 1})`); await sleep(400);
+            await tab.tap(`.mon-choice:nth-child(${answers[2] + 1})`);
+            await waitNum(tab, `4 / ${CORE.QUESTIONS.length}`);
           }
           await tab.tap(`.mon-choice:nth-child(${ci + 1})`);
           answers.push(ci);
-          await sleep(qi === CORE.QUESTIONS.length - 1 ? 500 : 330);
+          // 보기를 누르면 240ms 동안 다음 탭을 무시한다(연타 방지) — 고정 대기 대신 진행 표시가 바뀔 때까지 기다린다(부하에 강하게)
+          if (qi === CORE.QUESTIONS.length - 1) await sleep(500);
+          else await waitNum(tab, `${qi + 2} / ${CORE.QUESTIONS.length}`);
         }
         seed++;
         const expected = CORE.score(answers);

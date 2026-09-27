@@ -14,6 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -30,6 +31,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -46,6 +48,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -62,6 +65,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -78,6 +82,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -94,6 +99,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -110,6 +116,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -126,6 +133,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -142,6 +150,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -158,6 +167,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
   <url>
@@ -174,6 +184,24 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
+  </url>
+  <url>
+    <loc>https://balance.example.com/ru/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://balance.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://balance.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://balance.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://balance.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://balance.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://balance.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://balance.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://balance.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://balance.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://balance.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://balance.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://balance.example.com/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://balance.example.com/"/>
   </url>
 </urlset>

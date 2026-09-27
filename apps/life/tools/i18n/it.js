@@ -80,6 +80,7 @@ module.exports = {
       kinder: { label: 'Asilo', line: 'Uno zainetto piccolo, un grande primo giorno' },
       school: { label: 'Prima elementare', line: 'Zaino nuovo, primo giorno di scuola' },
       friend: { label: 'Il migliore amico', line: 'Un’amicizia per la vita' },
+      dacha: { label: 'Estati alla dacia', line: 'Estate alla dacia: mele, fiume e zanzare' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: 'Adolescenza', line: 'Curioso di tutto, sicuro di niente' },
       love: { label: 'Primo amore', line: 'Il cuore ha fatto un balzo per la prima volta' },
       exam: { label: 'La maturità', line: 'Ultimo esame, e poi finalmente l’estate' },

@@ -133,7 +133,7 @@ module.exports = {
       ],
       [
         '5. Cookies e armazenamento do navegador',
-        'Ajustes como seu idioma, a última categoria e ordenação usadas, e as notas que você deu ficam salvos só no seu navegador (localStorage). Você pode apagar ou bloquear cookies e dados do site a qualquer momento nas configurações do navegador.',
+        'Ajustes como seu idioma, a última categoria e ordenação usadas, e as notas que você deu ficam salvos só no seu navegador (localStorage e um cookie que lembra seu idioma). Você pode apagar ou bloquear cookies e dados do site a qualquer momento nas configurações do navegador.',
       ],
       ['6. Contato', 'Se tiver alguma dúvida sobre esta política de privacidade, entre em contato com o responsável pelo site.'],
       ['7. Data de vigência', 'Esta política está em vigor desde 26 de setembro de 2026.'],

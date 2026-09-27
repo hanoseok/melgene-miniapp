@@ -134,7 +134,7 @@ module.exports = {
       ],
       [
         '5. Cookies and browser storage',
-        'Settings such as your language, the category and sort you last used, and the ratings you gave are saved only in your browser (localStorage). You can delete or block cookies and site data in your browser settings at any time.',
+        'Settings such as your language, the category and sort you last used, and the ratings you gave are saved only in your browser (localStorage, plus a cookie that remembers your language). You can delete or block cookies and site data in your browser settings at any time.',
       ],
       ['6. Contact', 'If you have any questions about this Privacy Policy, please contact the site operator.'],
       ['7. Effective date', 'This policy is effective as of September 26, 2026.'],

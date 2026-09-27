@@ -13,6 +13,8 @@
   var CFG = window.SITE_CONFIG || {};
   var UI = window.PAGE_I18N || {};
   var LANG = window.PAGE_LANG || (document.documentElement.lang || 'en').split('-')[0];
+  // 별점 평균 한 자리를 언어 표기로 (ru·fr·de 는 4,0)
+  function avg1(x) { x = Number(x) || 0; try { return x.toLocaleString(LANG, { minimumFractionDigits: 1, maximumFractionDigits: 1 }); } catch (e) { return x.toFixed(1); } }
   var grid = document.getElementById('hub-grid');
   if (!CORE || !grid) return;
 
@@ -80,7 +82,7 @@
   function srText(st) {
     var parts = [];
     if (st.hearts > 0 && window.t) parts.push(fmt(window.t('heartCount'), { n: CORE.num(st.hearts, LANG) }));
-    if (st.avg != null) parts.push(fmt(UI.ratingAria, { avg: st.avg.toFixed(1), votes: CORE.num(st.votes, LANG) }));
+    if (st.avg != null) parts.push(fmt(UI.ratingAria, { avg: avg1(st.avg), votes: CORE.num(st.votes, LANG) }));
     if (st.plays > 0) parts.push(fmt(UI.plays, { n: CORE.compact(st.plays, LANG) }));
     return parts.join(', ');
   }
@@ -115,7 +117,7 @@
     vis.setAttribute('aria-hidden', 'true');
     // 아이콘 아래는 자리가 좁다: 하트·별점 우선, 둘 다 없으면 참여 수
     if (st.hearts > 0) vis.appendChild(el('span', 't-hearts', CORE.compact(st.hearts, LANG)));
-    if (st.avg != null) vis.appendChild(el('span', 't-star', st.avg.toFixed(1)));
+    if (st.avg != null) vis.appendChild(el('span', 't-star', avg1(st.avg)));
     if (!(st.hearts > 0) && st.avg == null && st.plays > 0) vis.appendChild(el('span', 't-plays', CORE.compact(st.plays, LANG)));
     m.appendChild(vis);
     m.appendChild(el('span', 'visually-hidden', srText(st)));
@@ -195,7 +197,7 @@
       var vis = el('span', 'cur-stats-vis');
       vis.setAttribute('aria-hidden', 'true');
       if (st.hearts > 0) vis.appendChild(el('span', 'c-hearts', CORE.compact(st.hearts, LANG)));
-      if (st.avg != null) vis.appendChild(el('span', 'c-star', st.avg.toFixed(1)));
+      if (st.avg != null) vis.appendChild(el('span', 'c-star', avg1(st.avg)));
       if (st.plays > 0) vis.appendChild(el('span', 'c-plays', fmt(UI.plays, { n: CORE.compact(st.plays, LANG) })));
       box.appendChild(vis);
       box.appendChild(el('span', 'visually-hidden', srText(st)));

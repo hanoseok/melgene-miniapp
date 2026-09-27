@@ -6,7 +6,8 @@
  *   2) 등급 경계(220/260/300/350/449/450), 평균 반올림, 단조성
  *   3) 10ms 구간 반올림(Math.round(avg/10)), 잘못된 값, 상한
  *   4) 대기 시간 난수 범위(1.5~4.5초), 요약(평균/최고), 차트 구간 묶기
- *   5) 언어 파일 11개(en/ja/zh/ko/fr/de/th/vi/es/it/pt) 키 구조가 같은지, ui 문자열의 {자리표시자}가 같은지, 등급 문구 수 = TIERS 수,
+ *   5) 언어 파일 12개(en/ja/zh/ko/fr/de/th/vi/es/it/pt/ru) 키 구조가 같은지, ui 문자열의 {자리표시자}가 같은지, 등급 문구 수 = TIERS 수,
+ *      제목 글꼴을 fontCss 로 불러오는지, 키릴 문구(ru)의 제목 글꼴이 키릴을 지원하는지(Archivo 에는 키릴이 없다),
  *      FAQ 3~5개(끝 화면 전용), title="검색어 | 브랜드" 형태와 길이(라틴/CJK·태국 구간)
  *   6) 생성된 index.html 의 구조화 데이터(G.appLd: WebApplication + BreadcrumbList, FAQPage 없음)가 올바른 JSON 인지,
  *      스크립트 순서(MG_FAQ 포함), 광고 자리 없음, 공통 끝 화면·타이틀 바 자리, 제거 대상 잔존 여부
@@ -156,6 +157,8 @@ function flat(obj, pre = '', out = {}) {
   });
   return out;
 }
+// 제목 글꼴 중 키릴 문자를 지원하는 것 (fonts.google.com/metadata/fonts 의 subsets 에 cyrillic 이 있는지 확인해 넣는다)
+const CYRILLIC_FONTS = ['Sofia Sans Condensed'];
 const vars = (s) => [...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',');
 
 function checkLocales() {
@@ -192,6 +195,13 @@ function checkLocales() {
     ok(ty.scale <= 1.2 && ty.scaleSmall <= 1.2 && ty.leading >= 0.8 && ty.leading <= 1.5, `[${lang}] typography 범위`);
     ok(['normal', 'keep-all', 'auto-phrase', 'break-word'].includes(ty.wordBreak), `[${lang}] typography.wordBreak`, ty.wordBreak);
     ok(typeof T.fontCss === 'string' && /^https:\/\/fonts\.googleapis\.com\//.test(T.fontCss) && T.fontCss.includes('Archivo'), `[${lang}] fontCss 에 Archivo(숫자 글꼴)`);
+    const fam = String(ty.display || '').replace(/'/g, '');
+    const famParam = fam.replace(/ /g, '+').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    ok(new RegExp(`[?&]family=${famParam}(:|&)`).test(T.fontCss), `[${lang}] 제목 글꼴(${fam})을 fontCss 로 불러옴`, T.fontCss);
+    // 키릴 문구가 있으면 제목 글꼴은 키릴을 지원해야 한다 (Google Fonts subsets 에 cyrillic 이 있는 글꼴만 — Archivo 는 latin/vietnamese 뿐)
+    if (/[\u0400-\u04ff]/.test(JSON.stringify([T.hero, T.result, T.ui, T.og]))) {
+      ok(CYRILLIC_FONTS.includes(fam), `[${lang}] 키릴 문구 → 제목 글꼴이 키릴 지원 글꼴(${CYRILLIC_FONTS.join(', ')})`, fam);
+    }
   });
   return langs;
 }

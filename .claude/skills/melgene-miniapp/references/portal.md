@@ -6,7 +6,7 @@
 
 1. 공통 머리글: "Melgene + 언어별 배지"(누르면 같은 언어 포털 홈) · 언어 `<select>`
 2. 작게 보이는 `<h1>` 한 줄: 브랜드 + 검색어 (예: "멜진 미니앱 · 무료 미니게임·심리테스트"). 숨긴 h1 금지
-3. **오늘의 미니앱** 캐러셀 (제목 그대로: en "Today's Mini Apps", ja "今日のミニアプリ", zh "今日小应用", ko "오늘의 미니앱", fr "Mini-apps du jour", de "Mini-Apps des Tages", th "มินิแอปวันนี้", vi "Mini app hôm nay", es "Mini apps de hoy", it "Mini app di oggi", pt "Mini apps de hoje"). 실제 누적 참여 수가 0보다 클 때만 제목 아래 한 줄
+3. **오늘의 미니앱** 캐러셀 (제목 그대로: en "Today's Mini Apps", ja "今日のミニアプリ", zh "今日小应用", ko "오늘의 미니앱", fr "Mini-apps du jour", de "Mini-Apps des Tages", th "มินิแอปวันนี้", vi "Mini app hôm nay", es "Mini apps de hoy", it "Mini app di oggi", pt "Mini apps de hoje", ru "Мини-приложения дня"). 실제 누적 참여 수가 0보다 클 때만 제목 아래 한 줄
 4. **모든 미니앱**: 카테고리 칩(전체·게임·심리테스트·만들기·투표) · 검색 · 정렬(인기순·별점순·최신순) · 4칸 아이콘 격자(아이콘 + 이름, 아래 ♥·★)
 5. **광고** `<div class="mg-ad"></div>` 1개 — 반드시 "모든 미니앱" 아래, FAQ 위
 6. **자주 묻는 질문** (보이는 접이식, 4~6개)
@@ -25,7 +25,7 @@
 
 - 모든 숫자는 Supabase `app_summary()` 실제 값. 없으면 숨김/"새로 나왔어요".
 - 인기순 = `score` (하트×10 + 별점 합 + 플레이) → 하트 → 플레이 → 최신. 등록 14일 이내 NEW 배지(`SITES[].added`).
-- 줄임 표기는 언어별(1.2万·1.2만·12 k·1,2 Mio.·12 N·12 mil·it 12.345/1,2 Mln·pt 12 mil/1,2 mi), 항상 내림.
+- 줄임 표기는 언어별(1.2万·1.2만·12 k·1,2 Mio.·12 N·12 mil·it 12.345/1,2 Mln·pt 12 mil/1,2 mi·ru 12 тыс./1,2 млн), 항상 내림.
 
 ## 포털 FAQ
 
@@ -35,4 +35,4 @@
 
 ## 확인
 
-`node apps/hub/tools/gen-i18n.js && node apps/hub/tools/check-hub.js --layout` (구조·브랜드·SEO·스포일러·순서 + 11개 언어 360/375 실측: 넘침, 헤드라인·소개 2줄, 머리글 겹침). 포털 OG 는 SITES 이름을 쓰므로 이름을 바꾸면 `node apps/hub/tools/gen-og.js`.
+`node apps/hub/tools/gen-i18n.js && node apps/hub/tools/check-hub.js --layout` (구조·브랜드·SEO·스포일러·순서 + 12개 언어 360/375 실측: 넘침, 헤드라인·소개 2줄, 머리글 겹침). 포털 OG 는 SITES 이름을 쓰므로 이름을 바꾸면 `node apps/hub/tools/gen-og.js`.

@@ -133,7 +133,7 @@ module.exports = {
       ],
       [
         '5. Cookies und Browserspeicher',
-        'Einstellungen wie deine Sprache, die zuletzt genutzte Kategorie und Sortierung sowie deine abgegebenen Bewertungen werden nur in deinem Browser (localStorage) gespeichert. Cookies und Websitedaten kannst du jederzeit in den Browsereinstellungen löschen oder blockieren.',
+        'Einstellungen wie deine Sprache, die zuletzt genutzte Kategorie und Sortierung sowie deine abgegebenen Bewertungen werden nur in deinem Browser (localStorage sowie ein Cookie, das deine Sprache speichert) gespeichert. Cookies und Websitedaten kannst du jederzeit in den Browsereinstellungen löschen oder blockieren.',
       ],
       ['6. Kontakt', 'Bei Fragen zu dieser Datenschutzerklärung wende dich bitte an den Betreiber der Website.'],
       ['7. Gültig ab', 'Diese Datenschutzerklärung gilt ab dem 26. September 2026.'],

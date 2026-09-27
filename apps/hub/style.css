@@ -4,7 +4,7 @@
  * 순서: 머리글(브랜드 + 언어) → 작은 h1 한 줄 → 오늘의 미니앱 캐러셀(앱 색 아트 + 비스듬한 거대 이모지)
  *   → 광고 → 홈 화면식 아이콘 격자 → 자주 묻는 질문. 장식은 큐레이션 카드와 아이콘에만 쓰고 나머지는 조용하게.
  * 글꼴: --font-sans(본문) / --font-display(카드 헤드라인·섹션 제목)는 언어 파일 typography 가 정한다
- *   (라틴 = Gabarito, 태국어 = Prompt, 베트남어 = Plus Jakarta Sans, 한중일 = 본문 글꼴).
+ *   (라틴 = Gabarito, 러시아어 = Onest(Gabarito 에 키릴 문자가 없다), 태국어 = Prompt, 베트남어 = Plus Jakarta Sans, 한중일 = 본문 글꼴).
  * 모든 화면이 모바일 레이아웃: 데스크톱에서도 --app-width(480px, shared/base.css) 한 줄을 가운데에 두고
  * 배경만 꽉 채운다. 화면 폭(vw·min-width)이 아니라 이 칸의 폭(cqi)으로만 크기를 정한다.
  */
@@ -74,9 +74,9 @@ html:lang(ko) body { word-break: keep-all; overflow-wrap: break-word; }
 /* 일본어는 문절 단위로 (지원 브라우저만). 중국어는 글자 단위 기본 줄바꿈 + 문장부호 금칙(line-break: strict) */
 html:lang(ja) :is(.page-h1, .cur-headline, .cur-blurb, .tile-name, .apps-empty p, .faq-item summary) { word-break: auto-phrase; }
 html:is(:lang(zh), :lang(ja)) body { line-break: strict; }
-/* 긴 합성어(독일어·프랑스어·베트남어 등)는 하이픈으로 나누고, 그래도 넘치면 단어 안에서 줄바꿈 */
+/* 긴 합성어(독일어·프랑스어·러시아어 등)는 하이픈으로 나누고, 그래도 넘치면 단어 안에서 줄바꿈 */
 body.hub { overflow-wrap: break-word; }
-html:is(:lang(de), :lang(fr), :lang(es), :lang(en)) .tile-name { hyphens: auto; }
+html:is(:lang(de), :lang(fr), :lang(es), :lang(en), :lang(ru)) .tile-name { hyphens: auto; }
 html:lang(de) :is(.cur-headline, .cur-blurb, .faq-item summary, .faq-item p) { hyphens: auto; }
 /* 태국어: 윗·아랫 성조 기호가 겹치거나 잘리지 않게 줄 간격을 넉넉히, 자간은 0 (음수 자간은 결합 문자를 뭉갠다) */
 html:lang(th) :is(.cur-head h2, .browse-head h2, .faq h2, .cur-headline, .cur-kicker, .page-h1, .brand-sub, .chip, .cur-cta, .cur-name) { letter-spacing: 0; }

@@ -133,7 +133,7 @@ module.exports = {
       ],
       [
         '5. Cookie e memoria del browser',
-        'Impostazioni come la lingua, l’ultima categoria e l’ultimo ordinamento usati, o i voti che hai dato, sono salvate solo nel tuo browser (localStorage). Puoi eliminare o bloccare cookie e dati del sito in qualsiasi momento dalle impostazioni del browser.',
+        'Impostazioni come la lingua, l’ultima categoria e l’ultimo ordinamento usati, o i voti che hai dato, sono salvate solo nel tuo browser (localStorage e un cookie che ricorda la tua lingua). Puoi eliminare o bloccare cookie e dati del sito in qualsiasi momento dalle impostazioni del browser.',
       ],
       ['6. Contatti', 'Per qualsiasi domanda su questa informativa sulla privacy, contatta il gestore del sito.'],
       ['7. Data di entrata in vigore', 'Questa informativa è in vigore dal 26 settembre 2026.'],

@@ -1,6 +1,6 @@
 # Trend Web Challenge — Melgene Apps (멜진 미니앱)
 
-광고 수익형 미니앱 모음. 소스 저장소 **github.com/hanoseok/melgene-miniapp** (`main`) — 미니앱마다 `apps/<id>/` 모듈 하나. **작업 규칙은 `.claude/skills/melgene-miniapp/SKILL.md`** (스포일러 금지, 시작 화면 티징만, 공통 끝 화면, 11개 언어, SEO, 광고, 진짜 숫자만) — 앱을 만들거나 고치기 전에 먼저 읽는다.
+광고 수익형 미니앱 모음. 소스 저장소 **github.com/hanoseok/melgene-miniapp** (`main`) — 미니앱마다 `apps/<id>/` 모듈 하나. **작업 규칙은 `.claude/skills/melgene-miniapp/SKILL.md`** (스포일러 금지, 시작 화면 티징만, 공통 끝 화면, 12개 언어, SEO, 광고, 진짜 숫자만) — 앱을 만들거나 고치기 전에 먼저 읽는다.
 
 - 주소: 포털 **https://miniapp.melgene.com/** (melgene.com 에도 같은 포털, canonical 은 miniapp), 미니앱은 **`https://miniapp.melgene.com/<앱>/`**. 예전 `<앱>.melgene.com` 은 경로·쿼리·해시를 유지한 채 새 주소로 넘어간다. 원본은 `https://<앱>.example.com`·`https://example.com` 자리표시자를 쓰고 `deploy-prep.sh` 가 `dist/` 에서만 실제 주소로 바꾼다.
 - 호스팅: GitHub Pages (github.com/hanoseok) — `melgene-miniapp` 의 **`gh-pages` 브랜치**=miniapp.melgene.com(포털 + 모든 앱, deploy.env `REPO_miniapp=melgene-miniapp`; 전환 전에는 예전 저장소 `miniapp` 의 main), `today-test`=melgene.com, `life-story`/`past-life`/`ladder`=예전 서브도메인 리다이렉트. DNS 는 Spaceship.
@@ -31,7 +31,7 @@ Trend Web Chalenge/
     └── roulette/   돌림판 (게임)
 ```
 
-각 `apps/<id>/`는 **빌드 없이 그대로 배포되는 정적 폴더이자 독립 모듈**이다: `app.config.js`(등록 정보: id·이모지·카테고리·등록일·같은 날 순서 `order`·11개 언어 제목/설명), `README.md`, 자기 `tools/`(i18n·gen·og·check), `shared` 심볼릭 링크. `shared/`는 배포 전에 각 앱 폴더로 복사한다(`./deploy-prep.sh`). `app.config.js`·`README.md`·`tools/` 는 배포되지 않는다.
+각 `apps/<id>/`는 **빌드 없이 그대로 배포되는 정적 폴더이자 독립 모듈**이다: `app.config.js`(등록 정보: id·이모지·카테고리·등록일·같은 날 순서 `order`·12개 언어 제목/설명), `README.md`, 자기 `tools/`(i18n·gen·og·check), `shared` 심볼릭 링크. `shared/`는 배포 전에 각 앱 폴더로 복사한다(`./deploy-prep.sh`). `app.config.js`·`README.md`·`tools/` 는 배포되지 않는다.
 **앱 추가 = `apps/<id>/` 폴더 하나(+ app.config.js)** — 중앙에서 고칠 곳이 없다. `tools/gen-sites.js`(gen-all 이 맨 먼저 부름)가 `apps/*/app.config.js` 를 모아 `shared/site.config.js` 의 `SITES`(생성 구역)를 다시 쓰고, gen-all·check-all·deploy-prep 은 `apps/*` 를 자동 탐색한다. deploy-prep 은 SITES 가 app.config.js 와 어긋나면 멈춘다.
 HTML 페이지는 손으로 고치지 말고 `apps/<id>/tools/` 의 생성기로 만든다(아래 "다국어").
 
@@ -106,15 +106,16 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | roulette | apps/roulette | 2~16항목 가중치 돌림판, 공유 링크 | `check-roulette.js` |
 | monster | apps/monster | 할로윈 몬스터 테스트: 10문항 → 결과 12종(결과별 공유 페이지 r/<id>.html, 같은 결과 비율은 poll 실제 값) | `check-monster.js`, `check-flow.js` |
 
-새 앱: `apps/<id>/` 폴더 = `app.config.js`(11개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<11개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
+새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 
 ## 다국어 (i18n)
 
-11개 언어: **en(루트 `/`, 기본·x-default)**, ja `/ja/`, zh `/zh/`, ko `/ko/`, fr `/fr/`, de `/de/`, th `/th/`, vi `/vi/`, es `/es/`, it `/it/`, pt `/pt/`(브라질 포르투갈어, og:locale pt_BR). 모든 사이트가 같은 구조다(2026-09-27 에 ko 루트 → en 루트로 전환, 예전 `/<앱>/en/…` 주소는 deploy-prep 이 만드는 404 페이지가 새 주소로 넘긴다).
+12개 언어: **en(루트 `/`, 기본·x-default)**, ja `/ja/`, zh `/zh/`, ko `/ko/`, fr `/fr/`, de `/de/`, th `/th/`, vi `/vi/`, es `/es/`, it `/it/`, pt `/pt/`(브라질 포르투갈어, og:locale pt_BR), ru `/ru/`(러시아어, og:locale ru_RU, 메신저 공유는 Telegram). 모든 사이트가 같은 구조다(2026-09-27 에 ko 루트 → en 루트로 전환, 예전 `/<앱>/en/…` 주소는 deploy-prep 이 만드는 404 페이지가 새 주소로 넘긴다).
 
 - 각 언어 페이지는 실제 정적 HTML: `<html lang>`, 현지 검색어로 시작하는 title(`검색어 | 브랜드`), 설명, og(+`og:locale`/alternate), canonical, hreflang 11개 + x-default, 앱은 `G.appLd`(WebApplication + BreadcrumbList). 사이트맵은 모든 언어 URL + `xhtml:link`.
-- 맨 위 공통 타이틀 바(`G.topBar`): 왼쪽 "Melgene + 언어별 배지" → 같은 언어 포털 홈, 오른쪽 언어 `<select>`(선택 기억 `lang_pref`, 쿼리·해시 유지).
-- **방문자 지역 → 언어 자동 이동**(`shared/common.js` 맨 앞): 기본 언어(en 루트) 페이지에서만, 언어를 직접 고른 적이 없고(`lang_pref`/`mg_lang`), 봇·크롤러·자동화 브라우저가 아닐 때만 같은 페이지의 그 나라 언어 주소로 `location.replace`(쿼리·해시 유지). 나라는 Supabase RPC `client_country()`(`cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초) → 없으면 브라우저 언어의 지역 → 없거나 매핑 없는 나라면 영어. `?lang=<코드>` 는 그 언어를 고른 것으로 기억, `#nolang` 은 이번만 안 옮김. 이동할 페이지는 조회수·플레이를 세지 않는다. 나라→언어 표는 common.js `COUNTRY_LANG` / 스킬 4번. (예전 추천 배너는 없앴다)
+- 맨 위 공통 타이틀 바(`G.topBar`): 왼쪽 "Melgene + 언어별 배지" → 같은 언어 포털 홈, 오른쪽 언어 `<select>`(쿼리·해시 유지).
+- **고른 언어 기억·적용**(`shared/common.js` 맨 앞): 언어 `<select>` 로 고르거나 `?lang=<코드>` 로 들어오면 localStorage(`lang_pref`·`mg_lang`)와 쿠키 `mg_lang`(1년, melgene.com 아래면 `Domain=.melgene.com` 이라 melgene.com·miniapp.melgene.com 이 함께 씀)에 저장한다. 그 뒤로는 어느 앱·어느 언어 주소로 들어와도 같은 페이지의 그 언어 주소로 `location.replace`(쿼리·해시 유지). 한쪽 저장소만 있으면 다른 쪽을 채운다. `#nolang` 은 이번만 안 옮김. 봇·크롤러·자동화 브라우저는 옮기지 않는다. 옮겨 갈 페이지는 조회수·플레이를 세지 않는다.
+- **고른 언어가 없으면 방문자 지역 → 언어**: 기본 언어(en 루트) 페이지에서만 같은 페이지의 그 나라 언어 주소로(저장하지 않음). 나라는 Supabase RPC `client_country()`(`cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초) → 없으면 브라우저 언어의 지역 → 없거나 매핑 없는 나라면 영어. 나라→언어 표는 common.js `COUNTRY_LANG` / 스킬 4번(RU·BY·KZ·KG → ru).
 - 브랜드: en "Melgene Apps", ko "멜진 미니앱", ja "メルジン ミニアプリ", zh "Melgene 小应用", 그 밖 "Melgene Apps" (`G.brandOf`).
 
 ### 파일 위치
@@ -144,7 +145,7 @@ node tools/mock-supa.js 8799     # 로컬용 가짜 Supabase (운영 DB 대신)
 3. 사이트마다 `apps/<앱>/tools/i18n/id.js` 를 `en.js` 와 같은 키 구조로 만든다(OG 이미지 `og/id/`, 포털 `hub-core.js` 줄임 표기 `FORMATS`, `check-hub.js` 기대값, ladder·life 처럼 CSS 에 언어 목록이 있는 곳도). 직역 말고 현지 검색어·예시로(스킬 7번). 글꼴이 없는 문자는 사이트 CSS 의 언어별 글꼴 변수로.
 4. `node tools/gen-all.js --og` → 앱별 check → `./deploy.sh`.
 
-hreflang, 사이트맵, 언어 선택, 지역 자동 이동, 404 언어 폴더는 `LOCALES` 를 읽어 자동으로 늘어난다. 나라→언어 매핑은 `shared/common.js` 의 `COUNTRY_LANG` 에 추가한다. 번역 전에는 `en.js` 사본에 첫 줄 `// TODO-TRANSLATE` 를 두면 생성기는 돌고 check 스크립트는 그 언어 문구 문제를 (참고)로만 알린다(it·pt 가 지금 이 상태).
+hreflang, 사이트맵, 언어 선택, 지역 자동 이동, 404 언어 폴더는 `LOCALES` 를 읽어 자동으로 늘어난다. 나라→언어 매핑은 `shared/common.js` 의 `COUNTRY_LANG` 에 추가한다. 번역 전에는 `en.js` 사본에 첫 줄 `// TODO-TRANSLATE` 를 두면 생성기는 돌고 check 스크립트는 그 언어 문구 문제를 (참고)로만 알린다.
 
 ## 내 인생 애니메이션 (apps/life)
 

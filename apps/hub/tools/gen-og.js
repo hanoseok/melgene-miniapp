@@ -84,7 +84,7 @@ function card(lang, T) {
   </div>
   <div class="copy">
     <h1 id="t">${T.og.h1Html}</h1>
-    <p class="tag" id="g">${esc(T.og.tag)}</p>
+    <p class="tag" id="og-tag">${esc(T.og.tag)}</p>
   </div>
   <div class="shelf">${tiles}</div>
   <script>
@@ -92,7 +92,7 @@ function card(lang, T) {
       var h = document.getElementById('t'), s = 74;
       h.style.whiteSpace = 'nowrap';
       while (h.scrollWidth > 520 && s > 44) { s -= 2; h.style.fontSize = s + 'px'; }
-      var g = document.getElementById('g'), t = 30;
+      var g = document.getElementById('og-tag'), t = 30;
       while (g.scrollHeight > 44 && t > 20) { t -= 1; g.style.fontSize = t + 'px'; }
     })();
   </script>

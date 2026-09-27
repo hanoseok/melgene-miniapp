@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * 미니앱 포털(apps/hub) 검사 — 11개 언어.
+ * 미니앱 포털(apps/hub) 검사 — shared/i18n.js LOCALES 의 모든 언어(12개).
  *   1) 언어 파일 구조: en 과 같은 키·타입·배열 길이, 자리표시자({n} {q} {avg} {votes}), 금지 키(hero/about) 없음
  *   2) 브랜드: brand.word = Melgene, brand.badge = 공통 STRINGS.<lang>.brandBadge, siteName = G.brandOf(lang)
  *   3) SEO(스킬 7번): <title> = 현지 검색어 + " | " + 브랜드, 길이, 메타 설명 길이, h1 = 검색어, FAQ 4~6개
  *   4) 스포일러 금지: 큐레이션·FAQ 문구에 "A vs B" 식 질문 인용이 없는지
  *   5) hub-core: compact()(언어별 줄임 표기, 절대 부풀리지 않음) · sortApps(인기순 = 서버 score)
  *   6) 생성된 HTML: 언어 폴더·<html lang>, h1 1개, mg-ad 1개, JSON-LD = WebSite + ItemList + FAQPage,
- *      앱용 별점/공유/끝 화면 없음, 히어로·소개 섹션 없음, 브랜드 링크 = 같은 언어 포털 홈, 언어 select 11개, 글꼴 링크
+ *      앱용 별점/공유/끝 화면 없음, 히어로·소개 섹션 없음, 브랜드 링크 = 같은 언어 포털 홈, 언어 select 전부, 글꼴 링크
  *   7) 360px 폭 글자 길이 추정(정적) — 헤드라인 줄 수, 키커·버튼·배지 한 줄
  *   8) --layout: Chrome headless 로 실제 페이지를 360·375px 에서 열어 넘침·겹침·잘림을 잰다(네트워크 필요)
  *
@@ -112,7 +112,7 @@ LANGS.forEach((lang) => {
   const T = L10N[lang];
   const txt = [...T.curation.items.map((i) => `${i.kicker} ${i.headline} ${i.blurb}`), ...T.faq.map((x) => x.join(' '))].join('\n');
   ok(!/\bvs\.?\b|\bVS\b|対|대\s|versus/i.test(txt), `[${lang}] "A vs B" 식 질문 인용 의심`);
-  ok(!/16\s*(가지|種|种|past lives|vies|Leben|แบบ|kiếp|vidas)/i.test(txt), `[${lang}] 결과 개수·목록 언급 의심`);
+  ok(!/16\s*(가지|種|种|past lives|vies|Leben|แบบ|kiếp|vidas|типов|вариантов|результатов|жизней)/i.test(txt), `[${lang}] 결과 개수·목록 언급 의심`);
 });
 
 // ---------------------------------------------------------------- 5) hub-core
@@ -128,6 +128,7 @@ const EXPECT = {
   es: { 1234: '1234', 12345: '12 mil', 1234567: '1,2 M' },
   it: { 1234: '1234', 12345: '12.345', 1234567: '1,2 Mln' },
   pt: { 1234: '1.234', 12345: '12 mil', 1234567: '1,2 mi' },
+  ru: { 1234: '1\u00a0234', 9999: '9\u00a0999', 12345: '12\u00a0тыс.', 999999: '999\u00a0тыс.', 1234567: '1,2\u00a0млн', 123456789: '123\u00a0млн', 1234567890: '1,2\u00a0млрд' },
 };
 LANGS.forEach((lang) => ok(!!EXPECT[lang], `[${lang}] compact 기대값 표 없음`));
 Object.entries(EXPECT).forEach(([lang, table]) => {
@@ -220,7 +221,7 @@ LANGS.forEach((lang) => {
 ok(!fs.existsSync(path.join(SITE_DIR, 'en')), '예전 en/ 폴더가 남아 있다 (en 은 이제 루트)');
 
 // ---------------------------------------------------------------- 7) 360px 정적 길이 추정
-// 대략의 글자 폭(em): 한중일 1.0, 태국 0.62(결합 문자 0), 라틴 대문자 0.66, 소문자·숫자 0.54, 공백 0.28
+// 대략의 글자 폭(em): 한중일 1.0, 태국 0.62(결합 문자 0), 라틴·키릴 대문자 0.66, 소문자·숫자 0.54, 공백 0.28
 function em(str) {
   let w = 0;
   for (const ch of String(str)) {
@@ -228,7 +229,7 @@ function em(str) {
     else if (TH_MARK.test(ch)) w += 0;
     else if (/[฀-๿]/.test(ch)) w += 0.62;
     else if (/\s/.test(ch)) w += 0.28;
-    else if (/[A-ZÀ-ÞĐƠƯ]/.test(ch)) w += 0.66;
+    else if (/[A-ZÀ-ÞĐƠƯА-ЯЁ]/.test(ch)) w += 0.66;
     else w += 0.54;
   }
   return w;

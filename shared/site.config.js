@@ -30,7 +30,7 @@ window.SITE_CONFIG = {
       category: 'create',
       added: '2026-09-26',
       path: 'https://life.example.com/',
-      title: { ko: '내 인생 애니메이션', en: 'My Life, Animated', ja: 'わたしの人生アニメ', zh: '我的人生动画', fr: 'Ma vie en animation', de: 'Mein Leben als Animation', th: 'แอนิเมชันชีวิตฉัน', vi: 'Cuộc đời tôi thành hoạt hình', es: 'Mi vida animada', it: 'Animazione della mia vita', pt: 'Animação da minha vida' },
+      title: { ko: '내 인생 애니메이션', en: 'My Life, Animated', ja: 'わたしの人生アニメ', zh: '我的人生动画', fr: 'Ma vie en animation', de: 'Mein Leben als Animation', th: 'แอนิเมชันชีวิตฉัน', vi: 'Cuộc đời tôi thành hoạt hình', es: 'Mi vida animada', it: 'Animazione della mia vita', pt: 'Animação da minha vida', ru: 'Анимация моей жизни' },
       desc: {
         ko: '태어난 날부터 오늘까지, 펜으로 그려지는 1분 인생 만화.',
         en: 'Your life from birth to today, drawn line by line in one minute.',
@@ -43,6 +43,7 @@ window.SITE_CONFIG = {
         es: 'Tu vida desde que naciste hasta hoy, dibujada trazo a trazo en un minuto.',
         it: 'La tua vita dalla nascita a oggi, disegnata tratto dopo tratto in un minuto.',
         pt: 'Sua vida do nascimento até hoje, desenhada traço a traço em um minuto.',
+        ru: 'Твоя жизнь от рождения до сегодня — линия за линией, за одну минуту.',
       },
     },
     {
@@ -51,7 +52,7 @@ window.SITE_CONFIG = {
       category: 'test',
       added: '2026-09-26',
       path: 'https://past-life.example.com/',
-      title: { ko: '나의 전생 테스트', en: 'Past Life Test', ja: '前世診断テスト', zh: '前世测试', fr: 'Test de vie antérieure', de: 'Früheres-Leben-Test', th: 'ทดสอบชาติที่แล้ว', vi: 'Trắc nghiệm kiếp trước', es: 'Test de vidas pasadas', it: 'Test vita precedente', pt: 'Teste de vida passada' },
+      title: { ko: '나의 전생 테스트', en: 'Past Life Test', ja: '前世診断テスト', zh: '前世测试', fr: 'Test de vie antérieure', de: 'Früheres-Leben-Test', th: 'ทดสอบชาติที่แล้ว', vi: 'Trắc nghiệm kiếp trước', es: 'Test de vidas pasadas', it: 'Test vita precedente', pt: 'Teste de vida passada', ru: 'Кем я был в прошлой жизни' },
       desc: {
         ko: '12문항, 2분이면 끝. 당신은 전생에 누구였을까?',
         en: '12 questions, 2 minutes. Who were you in a past life?',
@@ -64,6 +65,7 @@ window.SITE_CONFIG = {
         es: '12 preguntas, 2 minutos. ¿Quién fuiste en una vida pasada?',
         it: '12 domande, 2 minuti. Chi eri in una vita precedente?',
         pt: '12 perguntas, 2 minutos. Quem você foi em uma vida passada?',
+        ru: '12 вопросов, 2 минуты — и ты узнаешь свою прошлую жизнь.',
       },
     },
     {
@@ -72,7 +74,7 @@ window.SITE_CONFIG = {
       category: 'vote',
       added: '2026-09-26',
       path: 'https://ladder.example.com/',
-      title: { ko: '사다리타기', en: 'Ladder Game', ja: 'あみだくじ', zh: '鬼脚图抽签', fr: 'Jeu de l’échelle', de: 'Leiterspiel', th: 'เกมบันไดสุ่ม', vi: 'Trò chơi bậc thang', es: 'Juego de la escalera', it: 'Gioco della scala', pt: 'Jogo da escada' },
+      title: { ko: '사다리타기', en: 'Ladder Game', ja: 'あみだくじ', zh: '鬼脚图抽签', fr: 'Jeu de l’échelle', de: 'Leiterspiel', th: 'เกมบันไดสุ่ม', vi: 'Trò chơi bậc thang', es: 'Juego de la escalera', it: 'Gioco della scala', pt: 'Jogo da escada', ru: 'Жеребьёвка' },
       desc: {
         ko: '점심 메뉴부터 내기까지, 공정한 온라인 사다리타기.',
         en: 'Lunch picks, coffee runs, chores — a fair online random picker.',
@@ -85,6 +87,7 @@ window.SITE_CONFIG = {
         es: 'Almuerzo, quién paga el café, tareas: un sorteo justo en línea.',
         it: 'Pranzo, chi paga il caffè, faccende: un sorteggio equo online.',
         pt: 'Almoço, quem paga o café, tarefas: um sorteio online justo.',
+        ru: 'Обед, кто платит за кофе, дежурства — честная жеребьёвка онлайн.',
       },
     },
     {
@@ -93,7 +96,7 @@ window.SITE_CONFIG = {
       category: 'test',
       added: '2026-09-27',
       path: 'https://balance.example.com/',
-      title: { ko: '밸런스 게임', en: 'Would You Rather', ja: '究極の二択', zh: '二选一', fr: 'Tu préfères ?', de: 'Würdest du lieber?', th: 'จะเลือกอะไร?', vi: 'Bạn chọn bên nào?', es: '¿Qué prefieres?', it: 'Preferiresti?', pt: 'O que você prefere?' },
+      title: { ko: '밸런스 게임', en: 'Would You Rather', ja: '究極の二択', zh: '二选一', fr: 'Tu préfères ?', de: 'Würdest du lieber?', th: 'จะเลือกอะไร?', vi: 'Bạn chọn bên nào?', es: '¿Qué prefieres?', it: 'Preferiresti?', pt: 'O que você prefere?', ru: 'Что бы ты выбрал?' },
       desc: {
         ko: '둘 중 하나만 고른다면? 다른 사람들은 몇 %가 골랐는지 바로 확인.',
         en: 'Pick one of two — then see what percent of everyone chose the same.',
@@ -106,6 +109,7 @@ window.SITE_CONFIG = {
         es: 'Elige una de dos y mira qué porcentaje eligió lo mismo.',
         it: 'Scegli una delle due e scopri che percentuale ha fatto la tua stessa scelta.',
         pt: 'Escolha uma de duas opções e veja quantos por cento escolheram igual a você.',
+        ru: 'Выбери одно из двух — и узнай, сколько процентов людей выбрали то же самое.',
       },
     },
     {
@@ -114,7 +118,7 @@ window.SITE_CONFIG = {
       category: 'game',
       added: '2026-09-27',
       path: 'https://reaction.example.com/',
-      title: { ko: '반응속도 테스트', en: 'Reaction Time Test', ja: '反応速度テスト', zh: '反应速度测试', fr: 'Test de réflexes', de: 'Reaktionstest', th: 'ทดสอบความไวในการตอบสนอง', vi: 'Kiểm tra tốc độ phản xạ', es: 'Test de reflejos', it: 'Test di reazione', pt: 'Teste de reação' },
+      title: { ko: '반응속도 테스트', en: 'Reaction Time Test', ja: '反応速度テスト', zh: '反应速度测试', fr: 'Test de réflexes', de: 'Reaktionstest', th: 'ทดสอบความไวในการตอบสนอง', vi: 'Kiểm tra tốc độ phản xạ', es: 'Test de reflejos', it: 'Test di reazione', pt: 'Teste de reação', ru: 'Тест на реакцию' },
       desc: {
         ko: '초록색이 되면 탭! 내 반응속도는 전체에서 상위 몇 %?',
         en: 'Tap when it turns green. How fast are you compared to everyone?',
@@ -127,6 +131,7 @@ window.SITE_CONFIG = {
         es: 'Toca cuando se ponga verde. ¿Qué tan rápido eres comparado con todos?',
         it: 'Tocca quando diventa verde. Quanto sei veloce rispetto agli altri?',
         pt: 'Toque quando ficar verde. Você é mais rápido que os outros?',
+        ru: 'Нажми, когда станет зелёным. Насколько ты быстрее остальных?',
       },
     },
     {
@@ -135,7 +140,7 @@ window.SITE_CONFIG = {
       category: 'vote',
       added: '2026-09-27',
       path: 'https://roulette.example.com/',
-      title: { ko: '돌림판', en: 'Spin the Wheel', ja: 'ルーレット', zh: '转盘抽签', fr: 'Roue de la fortune', de: 'Glücksrad', th: 'วงล้อสุ่ม', vi: 'Vòng quay may mắn', es: 'Ruleta', it: 'Ruota della fortuna', pt: 'Roleta aleatória' },
+      title: { ko: '돌림판', en: 'Spin the Wheel', ja: 'ルーレット', zh: '转盘抽签', fr: 'Roue de la fortune', de: 'Glücksrad', th: 'วงล้อสุ่ม', vi: 'Vòng quay may mắn', es: 'Ruleta', it: 'Ruota della fortuna', pt: 'Roleta aleatória', ru: 'Колесо фортуны' },
       desc: {
         ko: '점심 메뉴, 당번, 벌칙까지. 항목만 적고 돌리면 끝.',
         en: 'Lunch, chores, dares — type your options and spin.',
@@ -148,6 +153,7 @@ window.SITE_CONFIG = {
         es: 'Almuerzo, tareas, retos: escribe tus opciones y gira.',
         it: 'Pranzo, turni, penitenze: scrivi le opzioni e gira.',
         pt: 'Almoço, tarefas, desafios: escreva as opções e gire.',
+        ru: 'Обед, дежурства, фанты — впиши варианты и крути.',
       },
     },
     {
@@ -156,7 +162,7 @@ window.SITE_CONFIG = {
       category: 'test',
       added: '2026-09-27',
       path: 'https://monster.example.com/',
-      title: { ko: '할로윈 몬스터 테스트', en: 'Which Monster Are You?', ja: 'モンスター診断', zh: '万圣节怪物测试', fr: 'Quel monstre es-tu ?', de: 'Welches Monster bist du?', th: 'คุณคือปีศาจฮาโลวีนตัวไหน?', vi: 'Bạn là quái vật nào?', es: '¿Qué monstruo eres?', it: 'Che mostro sei?', pt: 'Que monstro você é?' },
+      title: { ko: '할로윈 몬스터 테스트', en: 'Which Monster Are You?', ja: 'モンスター診断', zh: '万圣节怪物测试', fr: 'Quel monstre es-tu ?', de: 'Welches Monster bist du?', th: 'คุณคือปีศาจฮาโลวีนตัวไหน?', vi: 'Bạn là quái vật nào?', es: '¿Qué monstruo eres?', it: 'Che mostro sei?', pt: 'Que monstro você é?', ru: 'Какой ты монстр?' },
       desc: {
         ko: '할로윈 밤 10문항, 1분이면 끝. 나를 닮은 몬스터는 누구?',
         en: '10 spooky-cute questions for Halloween night. Which monster is your twin?',
@@ -169,6 +175,7 @@ window.SITE_CONFIG = {
         es: '10 preguntas tiernamente terroríficas para Halloween. ¿Qué monstruo se parece a ti?',
         it: '10 domande tra brividi e tenerezza per la notte di Halloween. Quale mostro ti somiglia?',
         pt: '10 perguntas fofas e assustadoras para a noite de Halloween. Qual monstro combina com você?',
+        ru: 'Тест на Хэллоуин: 10 жутко милых вопросов за минуту. Какой монстр — твой двойник?',
       },
     },
   ],

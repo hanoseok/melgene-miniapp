@@ -136,7 +136,7 @@ module.exports = {
       ],
       [
         '5. Cookie và bộ nhớ trình duyệt',
-        'Các thiết lập như ngôn ngữ, danh mục và cách sắp xếp bạn dùng gần nhất, cùng các đánh giá bạn đã gửi chỉ được lưu trong trình duyệt của bạn (localStorage). Bạn có thể xóa hoặc chặn cookie và dữ liệu trang web bất cứ lúc nào trong phần cài đặt trình duyệt.',
+        'Các thiết lập như ngôn ngữ, danh mục và cách sắp xếp bạn dùng gần nhất, cùng các đánh giá bạn đã gửi chỉ được lưu trong trình duyệt của bạn (localStorage và một cookie ghi nhớ ngôn ngữ). Bạn có thể xóa hoặc chặn cookie và dữ liệu trang web bất cứ lúc nào trong phần cài đặt trình duyệt.',
       ],
       ['6. Liên hệ', 'Nếu có câu hỏi về chính sách quyền riêng tư này, vui lòng liên hệ đơn vị vận hành trang web.'],
       ['7. Ngày hiệu lực', 'Chính sách này có hiệu lực từ ngày 26 tháng 9 năm 2026.'],

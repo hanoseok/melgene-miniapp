@@ -2,7 +2,7 @@
  * 컨셉: "코발트 코트" — 스포츠 중계 그래픽 + 체육관 바닥. 측정 화면은 경기장처럼 라인(경계선·하프라인·센터서클)이
  * 그려진 코발트 판이고, 신호가 오면 판 전체가 빨강(대기) → 초록(탭) → 노랑(옐로카드 = 부정 출발)으로 바뀐다.
  * 빨강은 어둡게, 초록은 아주 밝게 잡아 색각 이상이 있어도 밝기 차이로 신호를 알 수 있게 했다.
- * 숫자는 Archivo 콘덴스드 블랙(탭룰러 숫자), 제목은 Black Han Sans(ko) / Dela Gothic One(ja) / Archivo(en).
+ * 숫자는 Archivo 콘덴스드 블랙(탭룰러 숫자), 제목은 Black Han Sans(ko) / Dela Gothic One(ja) / Sofia Sans Condensed(ru, 키릴) / Archivo(en).
  * ladder(마리골드 코믹), past-life(밤·금빛), life(흑백 잉크)와 겹치지 않는 방향.
  */
 
@@ -179,7 +179,8 @@ body.rx-body {
   border-radius: 50%;
   pointer-events: none;
 }
-.rx-pad span { display: block; overflow-wrap: anywhere; }
+/* font-family: inherit — shared/base.css 의 언어별(zh·th·vi·ru) 글꼴 규칙이 span 에 바로 걸려 버튼의 제목 글꼴 상속을 끊는다 */
+.rx-pad span { display: block; overflow-wrap: anywhere; font-family: inherit; }
 .rx-pad {
   position: relative;
   z-index: 1;

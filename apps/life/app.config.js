@@ -1,5 +1,5 @@
 // life 미니앱 등록 정보 — tools/gen-sites.js 가 모아 shared/site.config.js 의 SITE_CONFIG.SITES 를 만든다.
-// title/desc: 11개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
+// title/desc: 12개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
 // path 는 자리표시자 주소(deploy-prep.sh 가 https://miniapp.melgene.com/life/ 로 바꾼다).
 module.exports = {
   id: 'life',
@@ -20,6 +20,7 @@ module.exports = {
     es: 'Mi vida animada',
     it: 'Animazione della mia vita',
     pt: 'Animação da minha vida',
+    ru: 'Анимация моей жизни',
   },
   desc: {
     ko: '태어난 날부터 오늘까지, 펜으로 그려지는 1분 인생 만화.',
@@ -33,5 +34,6 @@ module.exports = {
     es: 'Tu vida desde que naciste hasta hoy, dibujada trazo a trazo en un minuto.',
     it: 'La tua vita dalla nascita a oggi, disegnata tratto dopo tratto in un minuto.',
     pt: 'Sua vida do nascimento até hoje, desenhada traço a traço em um minuto.',
+    ru: 'Твоя жизнь от рождения до сегодня — линия за линией, за одну минуту.',
   },
 };

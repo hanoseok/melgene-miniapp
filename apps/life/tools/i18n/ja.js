@@ -80,6 +80,7 @@ module.exports = {
       kinder: { label: '幼稚園', line: '黄色い帽子で、はじめての登園' },
       school: { label: '入学', line: 'ランドセルで校門をくぐった' },
       friend: { label: 'はじめての親友', line: '一生ものの友だちに出会った' },
+      dacha: { label: 'ダーチャの夏', line: '菜園のある田舎の家で過ごした夏休み' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: '思春期', line: 'なにもかも気になって、不器用だった' },
       love: { label: '初恋', line: '胸がはじめて大きく鳴った' },
       exam: { label: '受験', line: '長い受験の冬を越えた' },

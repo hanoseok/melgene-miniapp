@@ -44,12 +44,14 @@
 }
 /* Jua에는 가나가 없으므로 일본어 페이지는 둥근 고딕(M PLUS Rounded 1c)으로 같은 톤을 낸다.
    중국어(간체)·태국어·베트남어도 각각 글자를 지원하는 둥글고 통통한 글꼴로 맞춘다.
-   Jua 는 라틴 확장 글자(é ã õ ç à è ì ò ù …)가 모자라 fr·de·es·it·pt 는 Fredoka. */
+   Jua 는 라틴 확장 글자(é ã õ ç à è ì ò ù …)가 모자라 fr·de·es·it·pt 는 Fredoka.
+   Jua·Fredoka 모두 키릴 문자가 없어 ru 는 같은 코믹 손글씨 톤의 Balsamiq Sans(cyrillic 포함). */
 html:lang(ja) { --font-display: 'M PLUS Rounded 1c', var(--font-sans); }
 html:lang(zh) { --font-display: 'ZCOOL KuaiLe', var(--font-sans); }
 html:lang(th) { --font-display: 'Mali', var(--font-sans); }
 html:lang(vi) { --font-display: 'Baloo 2', var(--font-sans); }
 html:lang(fr), html:lang(de), html:lang(es), html:lang(it), html:lang(pt) { --font-display: 'Fredoka', var(--font-sans); }
+html:lang(ru) { --font-display: 'Balsamiq Sans', var(--font-sans); }
 
 html { background: var(--sun); }
 
@@ -139,6 +141,8 @@ body.ldr-body {
   margin: 0 0 12px;
 }
 .ldr-setup h1 em {
+  /* base.css 의 :lang(zh|th|vi|ru) 글꼴 규칙이 em 에도 걸려 제목 글꼴 상속이 끊기므로 다시 물려받는다 */
+  font-family: inherit;
   font-style: normal;
   color: var(--pop-deep);
   display: inline-block;

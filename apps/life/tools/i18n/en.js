@@ -81,6 +81,7 @@ module.exports = {
       kinder: { label: 'Kindergarten', line: 'A tiny backpack, a big first day' },
       school: { label: 'Starting school', line: 'Walked through the school gates' },
       friend: { label: 'First best friend', line: 'Met a friend for life' },
+      dacha: { label: 'Dacha summers', line: 'Summers at the dacha: apples, a river, mosquitoes' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: 'Teenage years', line: 'Curious about everything, sure of nothing' },
       love: { label: 'First love', line: 'My heart skipped for the first time' },
       exam: { label: 'Big exams', line: 'Survived the longest exam season' },

@@ -62,6 +62,11 @@ const FONTS = {
     display: "'Fredoka', sans-serif",
     body: "'Pretendard', -apple-system, sans-serif",
   },
+  ru: {
+    css: 'https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap', // Jua·Fredoka 에 키릴 문자 없음
+    display: "'Balsamiq Sans', sans-serif",
+    body: "'Pretendard', -apple-system, 'Helvetica Neue', 'Segoe UI', Roboto, 'Noto Sans', sans-serif",
+  },
   default: {
     css: 'https://fonts.googleapis.com/css2?family=Jua&display=swap',
     display: "'Jua', sans-serif",

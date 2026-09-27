@@ -344,7 +344,7 @@
 
   // ---------------------------------------------------------------
   // 줄바꿈
-  //   띄어쓰기가 있는 언어(ko, en, fr, de, es, vi): 띄어쓰기 단위
+  //   띄어쓰기가 있는 언어(ko, en, fr, de, es, vi, ru): 띄어쓰기 단위 (홀로 선 대시 —/– 는 앞 단어에 붙는다)
   //   일본어·중국어: 글자 단위 + 간단한 금칙(닫는 문장부호는 줄 앞에 오지 않고, 여는 괄호는 줄 끝에 남지 않는다)
   //   타이어(띄어쓰기 없음): Intl.Segmenter 단어 단위 (없으면 글자 묶음 단위)
   //   한 단어가 한 줄보다 길면 글자 묶음(grapheme) 단위로 자른다 — 타이 모음·성조, 베트남어 결합 부호, 이모지를 쪼개지 않는다.
@@ -400,9 +400,12 @@
     var out = [];
     str = String(str);
     if (str.normalize) str = str.normalize('NFC'); // 베트남어를 결합 부호로 입력해도 한 글자로
-    str.split(/(\s+)/).forEach(function (part) {
+    // 줄바꿈 없는 공백(U+00A0, U+202F)은 단어를 잇는다 — ru 한 글자 전치사(в, с, и …)·대시 앞, fr 문장부호 앞
+    str.split(/([^\S\u00a0\u202f]+)/).forEach(function (part) {
       if (!part) return;
-      if (/^\s+$/.test(part)) { if (out.length) out[out.length - 1] += ' '; return; }
+      if (/^\s+$/.test(part) && !/[\u00a0\u202f]/.test(part)) { if (out.length) out[out.length - 1] += ' '; return; }
+      // 떨어져 있는 대시(ru «… — …», de/fr « – »)는 앞 단어에 붙인다 — 줄 머리에 대시가 오지 않게
+      if (/^[\u2013\u2014]$/.test(part) && out.length) { out[out.length - 1] += part; return; }
       if (CJK_RE.test(part) && part.length > 1) {
         clusters(part).forEach(function (ch) { out.push(ch); });
       } else if (THAI_RE.test(part) && part.length > 1) {
@@ -887,6 +890,53 @@
       B.cloud('fx', p(-250, -470)[0], p(-250, -470)[1], 150 * S);
       B.hatch('hatch', [[k[0], k[1] - 70 * S], [k[0] + 52 * S, k[1]], [k[0], k[1]]], { angle: 1.2, max: 6 });
     },
+    // 다차(ru): 텃밭 딸린 시골집에서 보낸 여름 — 나무집 + 사과나무(빨간 사과 하나) + 이랑과 새싹 + 물뿌리개 든 아이 + 모기
+    dacha: function (B, c) {
+      var p = M(c), S = c.S;
+      ground(B, c.cx, c.gy, S, 400);
+      var h0 = p(-370, -180);
+      B.box('draw', h0[0], h0[1], 180 * S, 180 * S, { w: 5.2 });
+      B.poly('draw', [p(-392, -176), p(-280, -292), p(-168, -176)], { w: 5.6 });
+      var w0 = p(-318, -142);
+      B.box('draw', w0[0], w0[1], 76 * S, 64 * S, { w: 4, ov: 3 });
+      B.line('draw', [p(-280, -140), p(-281, -80)], { w: 3.2, doubled: false });
+      B.line('draw', [p(-316, -111), p(-244, -110)], { w: 3.2, doubled: false });
+      B.hatch('hatch', [p(-372, -180), p(-280, -278), p(-188, -180)], { angle: -0.7, max: 10 });
+      // 사과나무
+      B.line('draw', [p(-100, 2), p(-104, -110), p(-96, -196)], { w: 6.2 });
+      B.line('draw', [p(-102, -122), p(-58, -164)], { w: 4.2 });
+      var t = p(-100, -270);
+      B.circle('draw', t[0], t[1], 100 * S, { ry: 84 * S, w: 5 });
+      B.circle('draw', t[0] + 36 * S, t[1] + 26 * S, 13 * S, { w: 4, color: 'accent' });
+      B.circle('draw', t[0] - 44 * S, t[1] - 18 * S, 12 * S, { w: 3.8 });
+      B.circle('draw', t[0] + 2 * S, t[1] - 46 * S, 11 * S, { w: 3.8 });
+      B.hatch('hatch', ellipsePoly(t[0] - 30 * S, t[1] + 30 * S, 56 * S, 34 * S, 14), { angle: 0.9, gap: 11, max: 6 });
+      // 이랑과 새싹
+      for (var i = 0; i < 3; i++) {
+        var bx = 10 + i * 64;
+        B.line('draw', [p(bx - 26, 0), p(bx, -18), p(bx + 26, 0)], { w: 4, doubled: false });
+        B.line('draw', [p(bx, -18), p(bx + 1, -44)], { w: 3.2, doubled: false });
+        B.circle('draw', p(bx - 9, -48)[0], p(bx - 9, -48)[1], 9 * S, { ry: 5 * S, w: 3, doubled: false });
+        B.circle('draw', p(bx + 10, -50)[0], p(bx + 10, -50)[1], 9 * S, { ry: 5 * S, w: 3, doubled: false });
+      }
+      // 물뿌리개를 든 아이
+      var f = figure(B, c.cx + 300 * S, c.gy, c.age, S, { pose: 'hold', dir: -1 });
+      var cx0 = f.handF[0] - 70 * S, cy0 = f.handF[1] - 10 * S;
+      B.box('draw', cx0, cy0, 66 * S, 50 * S, { w: 4.4, ov: 3 });
+      B.line('draw', [[cx0 + 66 * S, cy0 + 8 * S], [cx0 + 82 * S, cy0 - 18 * S], [cx0 + 50 * S, cy0 - 14 * S]], { w: 3.6, doubled: false });
+      B.line('draw', [[cx0 + 4 * S, cy0 + 34 * S], [cx0 - 46 * S, cy0 + 6 * S]], { w: 4.2 });
+      B.dashed('fx', [[cx0 - 52 * S, cy0 + 16 * S], [cx0 - 70 * S, cy0 + 56 * S], [cx0 - 82 * S, cy0 + 96 * S]], { w: 2.6, dash: 9, gapL: 9 });
+      B.dashed('fx', [[cx0 - 40 * S, cy0 + 20 * S], [cx0 - 52 * S, cy0 + 60 * S], [cx0 - 58 * S, cy0 + 100 * S]], { w: 2.6, dash: 9, gapL: 9 });
+      // 해 + 모기 한 마리
+      var su = p(250, -470);
+      B.circle('draw', su[0], su[1], 34 * S, { w: 4.4 });
+      B.ticks('fx', su[0], su[1], 48 * S, 68 * S, -3.1, 0.2, 6, { w: 3 });
+      var mq = [f.head[0] - 70 * S, f.head[1] - 60 * S];
+      B.line('draw', [[mq[0] - 10 * S, mq[1] + 4 * S], [mq[0] + 12 * S, mq[1] - 3 * S]], { w: 3.2, doubled: false });
+      B.circle('draw', mq[0] - 2 * S, mq[1] - 12 * S, 8 * S, { ry: 11 * S, w: 2.4, doubled: false });
+      B.circle('draw', mq[0] + 8 * S, mq[1] - 12 * S, 8 * S, { ry: 11 * S, w: 2.4, doubled: false });
+      B.dashed('fx', [[mq[0] + 16 * S, mq[1] - 2 * S], [mq[0] + 50 * S, mq[1] - 30 * S], [mq[0] + 80 * S, mq[1] + 6 * S], [mq[0] + 60 * S, mq[1] + 30 * S]], { w: 2.2, dash: 8, gapL: 8 });
+    },
     teen: function (B, c) {
       var p = M(c), S = c.S;
       ground(B, c.cx, c.gy, S, 300);
@@ -1338,6 +1388,7 @@
       if (isMarkCp(c)) return;
       if (c >= 0x1100 && c <= 0xd7af || c >= 0x3000 && c <= 0x9fff || c >= 0xff00) u += 0.92;
       else if (c >= 0x0e00 && c <= 0x0e7f) u += 0.54;
+      else if (c >= 0x0400 && c <= 0x04ff) u += ch !== ch.toLowerCase() ? 0.66 : 0.52; // 키릴(ru): Caveat 실측 라틴의 약 1.15배
       else if ((c >= 0x00c0 && c <= 0x024f) || (c >= 0x1e00 && c <= 0x1eff)) u += ch !== ch.toLowerCase() ? 0.56 : 0.46;
       else if (/[A-Z]/.test(ch)) u += 0.56;
       else if (/[a-z0-9]/.test(ch)) u += 0.46;

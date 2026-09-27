@@ -26,17 +26,19 @@
 
   // age: 보통 그 일이 일어나는 나이(해 기준). langs 가 있으면 그 언어에서만 칩으로 보인다
   // (공유 링크로 다른 언어 페이지에서 열어도 문구는 모든 언어에 있다).
-  //   military: 징병이 인생의 한 장면인 곳만 — ko 군대, th เกณฑ์ทหาร(21살 추첨), vi nghĩa vụ quân sự
-  //   gapyear : ko 를 뺀 전부 — en gap year, ja 留学・ワーホリ, zh 出国留学, fr/es Erasmus, de Auslandsjahr, th Work and Travel, vi du học
+  //   military: 징병이 인생의 한 장면인 곳만 — ko 군대, th เกณฑ์ทหาร(21살 추첨), vi nghĩa vụ quân sự, ru армия(проводы в армию)
+  //   gapyear : ko·ru 를 뺀 전부 — en gap year, ja 留学・ワーホリ, zh 出国留学, fr/es Erasmus, de Auslandsjahr, th Work and Travel, vi du học
+  //   dacha   : ru 만 — 여름방학마다 할머니 다차(텃밭 딸린 시골집)에서 보낸 어린 시절
   var MOMENTS = [
     { id: 'steps', stage: 'early', age: 1 },
     { id: 'kinder', stage: 'early', age: 5 },
     { id: 'school', stage: 'early', age: 7 },
     { id: 'friend', stage: 'early', age: 8 },
+    { id: 'dacha', stage: 'early', age: 10, langs: ['ru'] },
     { id: 'teen', stage: 'school', age: 14 },
     { id: 'love', stage: 'school', age: 16 },
     { id: 'exam', stage: 'school', age: 18 },
-    { id: 'military', stage: 'youth', age: 21, langs: ['ko', 'th', 'vi'] },
+    { id: 'military', stage: 'youth', age: 21, langs: ['ko', 'th', 'vi', 'ru'] },
     { id: 'gapyear', stage: 'youth', age: 19, langs: ['en', 'ja', 'zh', 'fr', 'de', 'th', 'vi', 'es', 'it', 'pt'] },
     { id: 'college', stage: 'youth', age: 19 },
     { id: 'parttime', stage: 'youth', age: 18 },
@@ -277,9 +279,26 @@
     return Math.max(4.6, Math.min(7, 30 / Math.max(1, n)));
   }
 
+  // 복수형: ui.plural[key] = { one, few, many, other } (Intl.PluralRules 범주 — ru: 1 год · 2 года · 5 лет · 21 год).
+  // 표가 없는 언어·키는 ui[key] 그대로.
+  var prCache = {};
+  function pluralCat(lang, n) {
+    try {
+      if (typeof Intl === 'undefined' || !Intl.PluralRules) return 'other';
+      var pr = prCache[lang] || (prCache[lang] = new Intl.PluralRules(lang || 'en'));
+      return pr.select(Number(n));
+    } catch (e) { return 'other'; }
+  }
+  function plural(ui, key, n) {
+    var t = ui.plural && ui.plural[key];
+    if (!t) return ui[key];
+    var c = pluralCat(ui.lang, n);
+    return t[c] != null ? t[c] : (t.other != null ? t.other : ui[key]);
+  }
+
   function ageText(ui, n) {
     if (n === 0 && ui.ageZero) return ui.ageZero;
-    return fmt(n === 1 && ui.ageOne ? ui.ageOne : ui.ageTpl, { n: n });
+    return fmt(n === 1 && ui.ageOne ? ui.ageOne : plural(ui, 'ageTpl', n), { n: n });
   }
 
   // ---------------------------------------------------------------
@@ -327,7 +346,7 @@
       scenes.push({
         key: 'end', motif: 'end', year: input.now.y, age: N,
         title1: fmt(name ? ui.endTitle : ui.endTitleNoName, { name: who }),
-        title2: N === 0 ? ui.endTitleZero : fmt(N === 1 && ui.endTitleOne ? ui.endTitleOne : ui.endTitle2, { n: N }),
+        title2: N === 0 ? ui.endTitleZero : fmt(N === 1 && ui.endTitleOne ? ui.endTitleOne : plural(ui, 'endTitle2', N), { n: N }),
         closing: closings[Math.floor(rnd() * closings.length)],
         tbc: ui.toBeContinued || '',
         dur: DUR.end
@@ -354,6 +373,7 @@
 
   // 텍스트 폭 어림(em): 한글·가나·한자 1, 라틴 대문자 0.62, 소문자 0.5, 숫자 0.55, 공백/구두점 0.3.
   // 악센트 붙은 라틴 글자(é, ß, ơ, ế …)는 밑글자와 같게, 결합 부호(타이 모음·성조, U+0300~)는 0, 타이 글자 0.56.
+  // 키릴 문자(ru)는 라틴보다 15% 남짓 넓다(실측: 시스템 고딕·Caveat) — 대문자 0.68, 소문자 0.58.
   // 손글씨 글꼴 기준이라 조금 넉넉하게 잡는다. check-life.js 와 캔버스 없는 환경의 측정에 쓴다.
   function isMark(c) {
     return (c >= 0x0300 && c <= 0x036f) || c === 0x0e31 || (c >= 0x0e34 && c <= 0x0e3a) || (c >= 0x0e47 && c <= 0x0e4e) ||
@@ -367,6 +387,7 @@
       if (isMark(c)) return;
       if ((c >= 0x1100 && c <= 0x11ff) || (c >= 0x3000 && c <= 0x9fff) || (c >= 0xac00 && c <= 0xd7af) || (c >= 0xff00 && c <= 0xffef)) u += 1;
       else if (c >= 0x0e00 && c <= 0x0e7f) u += 0.56;
+      else if (c >= 0x0400 && c <= 0x04ff) u += ch !== ch.toLowerCase() ? 0.68 : 0.58;
       else if (isLatinExt(c)) u += ch !== ch.toLowerCase() ? 0.62 : 0.5;
       else if (c > 0x2000) u += 1; // 이모지·기호
       else if (/[A-Z]/.test(ch)) u += 0.62;
@@ -406,6 +427,8 @@
     seedOf: seedOf,
     estimateYears: estimateYears,
     momentDuration: momentDuration,
+    plural: plural,
+    ageText: ageText,
     planFilm: planFilm,
     textUnits: textUnits
   };

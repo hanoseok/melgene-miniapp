@@ -8,14 +8,14 @@
 
 | 파일 | 역할 |
 |---|---|
-| `app.config.js` | 등록 정보(이모지·카테고리·등록일·11개 언어 제목/설명) → `tools/gen-sites.js` 가 SITES 로 모은다 |
+| `app.config.js` | 등록 정보(이모지·카테고리·등록일·12개 언어 제목/설명) → `tools/gen-sites.js` 가 SITES 로 모은다 |
 | `balance-core.js` | 팩·문항·공유 인코딩 (UMD) |
 | `balance.js` | 팩 고르기 → 질문 카드 → 결과 |
 | `style.css` | 스타일 |
 | `index.html`, `privacy.html`, `<lang>/`, `sitemap.xml` | **생성물** — 손으로 고치지 않는다 |
-| `og/`, `favicon.svg` | OG 이미지(11개 언어), 아이콘 |
+| `og/`, `favicon.svg` | OG 이미지(12개 언어), 아이콘 |
 | `shared` | `../../shared` 심볼릭 링크 (배포 때 실제 파일로 복사) |
-| `tools/i18n/<lang>.js` | 모든 문구 (11개 언어, 키 구조 동일) |
+| `tools/i18n/<lang>.js` | 모든 문구 (12개 언어, 키 구조 동일) |
 | `tools/gen-i18n.js` | 페이지·사이트맵 생성 (`tools/gen-all.js` 가 자동 탐색) |
 | `tools/gen-og.js` | OG 이미지 (Chrome headless, `tools/lib/og-shot.js`) |
 | `tools/check-*.js` | 검사 (`tools/check-all.js` 가 자동 탐색) |
@@ -31,5 +31,5 @@ node tools/check-all.js balance     # 이 앱 검사만
 node tools/gen-i18n.js
 node tools/gen-og.js               # OG 이미지 (언어 지정: node tools/gen-og.js ja ko)
 node tools/check-balance.js
-node tools/check-fit.js            # 11개 언어 360×640 넘침 (예: de,th 375 667)
+node tools/check-fit.js            # 12개 언어 360×640 넘침 (예: de,th 375 667)
 ```

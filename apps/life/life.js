@@ -31,7 +31,8 @@
   function labelOf(btn) { var sp = btn.querySelector('span'); return (sp || btn).textContent; }
   function track(ev, p) { try { if (window.track) window.track(ev, p || {}); } catch (e) { /* noop */ } }
   function toast(msg) { if (window.toast) window.toast(msg); }
-  function ageText(n) { return n === 0 && UI.ageZero ? UI.ageZero : fmt(UI.ageTpl, { n: n }); }
+  function ageText(n) { return CORE.ageText(UI, n); } // 0살·1살 특별 문구, 복수형 표(ui.plural, ru)까지 life-core.js 와 같게
+  function pl(key, n) { return CORE.plural(UI, key, n); }
   function mmss(sec) { sec = Math.max(0, Math.round(sec)); return Math.floor(sec / 60) + ':' + ('0' + (sec % 60)).slice(-2); }
   function bytes(n) { return n > 1048576 ? (n / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(n / 1024)) + ' KB'; }
 
@@ -208,7 +209,7 @@
 
   function renderCount() {
     var n = selCount();
-    els.count.textContent = fmt(UI.count, { n: n });
+    els.count.textContent = fmt(pl('count', n), { n: n });
     els.count.classList.remove('is-warn');
   }
 
@@ -240,7 +241,7 @@
     if (!inp) { els.playMeta.textContent = ''; return; }
     var n = CORE.momentCount(inp);
     var total = CORE.planFilm(inp, UI).total;
-    els.playMeta.textContent = fmt(UI.summary, { n: n + 2, s: Math.round(total) });
+    els.playMeta.textContent = fmt(pl('summary', n + 2), { n: n + 2, s: Math.round(total) });
   }
 
   function renderAll() {
@@ -953,7 +954,7 @@
     if (!el || !supaOn() || !UI.sharedCount) return;
     window.supa.count('life').then(function (n) {
       if (typeof n !== 'number' || n < 20) return; // 너무 적은 숫자는 보여주지 않는다
-      el.textContent = fmt(UI.sharedCount, { n: n.toLocaleString(LANG) });
+      el.textContent = fmt(pl('sharedCount', n), { n: n.toLocaleString(LANG) });
       el.hidden = false;
     });
   }

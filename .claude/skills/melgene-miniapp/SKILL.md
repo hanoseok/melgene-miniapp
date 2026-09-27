@@ -1,6 +1,6 @@
 ---
 name: melgene-miniapp
-description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들거나 고칠 때 반드시 따르는 전체 규칙. 스포일러 금지, 시작 화면은 티징만, FAQ는 끝 화면에만(포털 예외), 공통 끝 화면(data-mg-end)·타이틀 바, 모바일 480px, 11개 언어(지역 자동 이동), 광고 위치, 진짜 숫자, SEO(현지 검색어), 포털 구성(오늘의 미니앱 짧게 → 모든 미니앱 → 광고 → FAQ), 새 앱 만드는 절차. apps/<앱>·apps/hub 를 만들거나 수정하는 모든 작업(에이전트 포함) 전에 읽는다. 배포·광고·통계·Search Console 은 melgene-ops.
+description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들거나 고칠 때 반드시 따르는 전체 규칙. 스포일러 금지, 시작 화면은 티징만, FAQ는 끝 화면에만(포털 예외), 공통 끝 화면(data-mg-end)·타이틀 바, 모바일 480px, 12개 언어(지역 자동 이동), 광고 위치, 진짜 숫자, SEO(현지 검색어), 포털 구성(오늘의 미니앱 짧게 → 모든 미니앱 → 광고 → FAQ), 새 앱 만드는 절차. apps/<앱>·apps/hub 를 만들거나 수정하는 모든 작업(에이전트 포함) 전에 읽는다. 배포·광고·통계·Search Console 은 melgene-ops.
 ---
 
 # Melgene Apps 미니앱 규칙
@@ -49,7 +49,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 1. 앱 결과 (앱마다 다름)
 2. ★ 별점 + ♥ 하트
 3. 광고
-4. 공유: 링크 복사 · X · Instagram · TikTok · Facebook · 메신저(언어별: ko 카카오톡 / ja·th LINE / 그 밖 WhatsApp)
+4. 공유: 링크 복사 · X · Instagram · TikTok · Facebook · 메신저(언어별: ko 카카오톡 / ja·th LINE / ru Telegram / 그 밖 WhatsApp)
 5. 자주 묻는 질문 (접이식, `MG_FAQ`)
 6. 다시 하기
 7. 다른 미니앱 링크
@@ -63,10 +63,11 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - **맨 위 타이틀 바**: 모든 앱 페이지의 제일 위에는 공통 `G.topBar(lang, rel)`(tools/lib/i18n-gen.js)를 둔다. 왼쪽 "Melgene + 배지"를 누르면 같은 언어의 포털 홈으로 가고, 오른쪽은 언어 선택 `<select>`. 앱 이름은 그 아래 앱 화면에서 보여준다. 앱마다 따로 헤더·언어 전환을 만들지 않는다.
 - **모바일이 기본**: 데스크톱에서도 가운데 `--app-width`(480px) 한 줄 레이아웃. 여러 칸 데스크톱 레이아웃 금지. 고정 요소(모달·전체 화면)도 이 폭 안에.
 - 브랜드: en "Melgene Apps", ko "멜진 미니앱", ja "メルジン ミニアプリ", zh "Melgene 小应用", 그 밖 "Melgene Apps". 워드마크 = "Melgene" + 언어별 배지. "오늘의 테스트" 금지.
-- **11개 언어**: en(루트, 기본) · ja · zh · ko · fr · de · th · vi · es · it · pt(브라질 포르투갈어, og:locale pt_BR). 모든 문구는 `apps/<앱>/tools/i18n/<lang>.js` 에만 둔다(코드·템플릿에 문구 금지). 언어 전환은 공통 `<select>`. 번역은 직역이 아니라 그 나라 사람이 쓰는 말·예시로. 첫 줄이 `// TODO-TRANSLATE` 인 언어 파일은 en 사본(번역 대기) — check 스크립트가 그 언어의 문구 문제를 (참고)로만 알린다. 번역을 넣으면 그 줄을 지운다.
-- **언어는 방문자 지역을 따른다**(`shared/common.js` 맨 앞, 모든 앱·포털 공통): 기본 언어(en 루트) 페이지에서만, 방문자가 언어를 직접 고른 적이 없을 때(`localStorage` `lang_pref`/`mg_lang` 없음)만, 크롤러·자동화 브라우저(봇 UA 정규식·`HeadlessChrome`·`navigator.webdriver`)가 아닐 때만 같은 페이지의 그 나라 언어 주소로 `location.replace`(쿼리·해시 유지, 주소는 언어 `<select>`/hreflang 에서). 나라 = Supabase RPC `client_country()`(Cloudflare `cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초 제한) → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 매핑 없는 나라면 영어 그대로. 매핑: KR ko · JP ja · CN TW HK MO SG zh · FR MC + 프랑스어권 아프리카 fr (BE·LU 는 브라우저가 de 면 de) · DE AT LI de (CH 는 브라우저가 fr/it 면 그 언어) · TH th · VN vi · 스페인어권 es · IT SM VA it · PT BR AO MZ CV GW ST TL pt. 언어 `<select>` 로 고르면 기억해 다시 옮기지 않는다. `?lang=<코드>` = 고른 것으로 기억, `#nolang` = 이번만 안 옮김. 예전 "○○어 페이지도 있어요" 배너는 없앴다. 로컬 headless 검사는 `lang_pref` 를 넣거나 기본 headless UA(봇 판정)로 돌린다.
+- **12개 언어**: en(루트, 기본) · ja · zh · ko · fr · de · th · vi · es · it · pt(브라질 포르투갈어, og:locale pt_BR) · ru(러시아어, og:locale ru_RU — 게임·테스트는 «ты», 포털 FAQ·개인정보는 «вы», 따옴표 «», 복수형 one/few/many/other, 키릴 문자를 지원하는 글꼴만). 모든 문구는 `apps/<앱>/tools/i18n/<lang>.js` 에만 둔다(코드·템플릿에 문구 금지). 언어 전환은 공통 `<select>`. 번역은 직역이 아니라 그 나라 사람이 쓰는 말·예시로. 첫 줄이 `// TODO-TRANSLATE` 인 언어 파일은 en 사본(번역 대기) — check 스크립트가 그 언어의 문구 문제를 (참고)로만 알린다. 번역을 넣으면 그 줄을 지운다.
+- **고른 언어를 기억해서 어디서나 쓴다**(`shared/common.js` 맨 앞, 모든 앱·포털 공통, 사용자 지시 2026-09-28): 언어 `<select>` 로 고르면(또는 `?lang=<코드>`) **localStorage(`lang_pref`·`mg_lang`) + 쿠키 `mg_lang`(1년, melgene.com 아래면 `Domain=.melgene.com` — melgene.com·miniapp.melgene.com 공유)** 에 저장한다. 그 뒤로는 어느 앱의 어느 언어 주소로 들어와도 같은 페이지의 고른 언어 주소로 `location.replace`(쿼리·해시 유지). 쿠키와 저장소 중 한쪽만 있으면 서로 채운다. `#nolang` = 이번만 안 옮김. 크롤러·자동화 브라우저(봇 UA·`HeadlessChrome`·`navigator.webdriver`)는 절대 옮기지 않는다. 옮겨 갈 페이지는 두 번 세지 않는다(판단이 끝난 뒤 조회·플레이 기록).
+- **고른 언어가 없으면 방문자 지역을 따른다**: 기본 언어(en 루트) 페이지에서만 같은 페이지의 그 나라 언어 주소로 옮긴다(저장하지 않음). 나라 = Supabase RPC `client_country()`(Cloudflare `cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초 제한) → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 매핑 없는 나라면 영어 그대로. 매핑: KR ko · JP ja · CN TW HK MO SG zh · FR MC + 프랑스어권 아프리카 fr (BE·LU 는 브라우저가 de 면 de) · DE AT LI de (CH 는 브라우저가 fr/it 면 그 언어) · TH th · VN vi · 스페인어권 es · IT SM VA it · PT BR AO MZ CV GW ST TL pt · RU BY KZ KG ru. 로컬 headless 검사는 `lang_pref` 를 그 언어로 넣고 쿠키를 지우거나, `#nolang`, 또는 기본 headless UA(봇 판정)로 돌린다.
 - 포털 카테고리: 게임 · 심리테스트 · 만들기 · 투표 (id: game · test · create · vote). 돌림판·사다리타기처럼 여럿 중 하나를 정하는 도구는 **투표(vote)**. 필요할 때만 늘린다.
-- 새 앱 등록 = `apps/<id>/app.config.js`(11개 언어 제목·설명, category, added) — 중앙 파일은 고치지 않는다. `node tools/gen-all.js` 가 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역, 손으로 고치지 않음)를 다시 쓴다. 등록 14일 동안 포털에 NEW 배지.
+- 새 앱 등록 = `apps/<id>/app.config.js`(12개 언어 제목·설명, category, added) — 중앙 파일은 고치지 않는다. `node tools/gen-all.js` 가 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역, 손으로 고치지 않음)를 다시 쓴다. 등록 14일 동안 포털에 NEW 배지.
 
 ## 5. 숫자는 진짜만
 
@@ -80,13 +81,13 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - 위치: 앱은 진행 중 화면(퀴즈·질문 화면)에 최대 1개 + 끝 화면(공통 컴포넌트가 이미 포함). 시작 화면에는 없음. **포털은 "모든 미니앱" 아래·FAQ 위에 1개.**
 - 광고 코드(`<head>` 자동 광고 스크립트·계정 메타)와 ads.txt 는 배포 때 deploy-prep 이 넣는다 — 원본에 직접 넣지 않는다.
 
-## 7. 검색(SEO) — 11개 언어로 Google 검색이 잘 되게
+## 7. 검색(SEO) — 12개 언어로 Google 검색이 잘 되게
 
 - `<title>` 은 **그 나라 사람이 실제로 검색하는 말**(예: 사다리타기 / あみだくじ / ladder game, 밸런스 게임 / 究極の選択 / would you rather, 전생 테스트 / 前世診断)을 앞에 두고 ` | ` + 브랜드(`G.brandOf(lang)`). 번역은 음차가 아니라 현지 검색어로.
 - 메타 설명·OG 도 같은 검색어를 자연스럽게 한두 번. 무료·설치 없음·1분 같은 사실만.
 - 페이지마다 보이는 `<h1>` 하나에 검색어를 담는다. 숨긴 텍스트·키워드 나열·시작 화면 SEO 글 금지(2번 규칙 그대로).
 - 구조화 데이터: 앱은 `G.appLd(lang, { siteRoot, rel, name, description, category })`(WebApplication + BreadcrumbList). 별점(aggregateRating)·FAQPage 는 앱 페이지에 넣지 않는다.
-- 모든 페이지 hreflang 11개 + x-default, 자기 canonical, og:locale(+alternate), `<html lang>`, 사이트맵(11개 언어 + lastmod). 지역 자동 이동은 봇을 옮기지 않으므로 Google 은 언어별 주소를 각각 색인한다.
+- 모든 페이지 hreflang 12개 + x-default, 자기 canonical, og:locale(+alternate), `<html lang>`, 사이트맵(12개 언어 + lastmod). 지역 자동 이동은 봇을 옮기지 않으므로 Google 은 언어별 주소를 각각 색인한다.
 - **포털은 예외**: 포털은 앱이 아니므로 맨 아래 "자주 묻는 질문"을 보이게 두고(소개 글은 따로 두지 않고 FAQ로 합친다) FAQPage + WebSite + ItemList JSON-LD 를 넣을 수 있다. 포털에 카테고리 설명 섹션·히어로 문구는 두지 않는다. 포털 순서: 타이틀 바 → 오늘의 미니앱(위아래 짧게: 카드 약 260px, 헤드라인·소개 각 2줄) → 모든 미니앱(카테고리 칩) → 광고 → 자주 묻는 질문. 자세한 건 references/portal.md.
 - 현지 검색어 표·Search Console 은 references/seo.md.
 

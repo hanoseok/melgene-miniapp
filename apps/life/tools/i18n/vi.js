@@ -81,6 +81,7 @@ module.exports = {
       kinder: { label: 'Đi mẫu giáo', line: 'Cặp sách nhỏ xíu, ngày đầu tới lớp' },
       school: { label: 'Vào lớp 1', line: 'Ngày đầu tiên bước qua cổng trường' },
       friend: { label: 'Bạn thân đầu tiên', line: 'Gặp người bạn thân cho cả cuộc đời' },
+      dacha: { label: 'Mùa hè ở nhà vườn', line: 'Mùa hè ở nhà vườn: táo, dòng sông và muỗi' }, // ru 에서만 칩으로 보인다(공유 링크용 문구)
       teen: { label: 'Tuổi dậy thì', line: 'Tò mò mọi thứ, chẳng chắc điều gì' },
       love: { label: 'Mối tình đầu', line: 'Lần đầu tim đập loạn nhịp' },
       exam: { label: 'Thi đại học', line: 'Vượt qua mùa thi dài nhất đời' },

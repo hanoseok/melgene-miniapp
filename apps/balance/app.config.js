@@ -1,5 +1,5 @@
 // balance 미니앱 등록 정보 — tools/gen-sites.js 가 모아 shared/site.config.js 의 SITE_CONFIG.SITES 를 만든다.
-// title/desc: 11개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
+// title/desc: 12개 언어(shared/i18n.js LOCALES). category: game | test | create | vote. added: 등록일(14일간 포털 NEW).
 // path 는 자리표시자 주소(deploy-prep.sh 가 https://miniapp.melgene.com/balance/ 로 바꾼다).
 module.exports = {
   id: 'balance',
@@ -20,6 +20,7 @@ module.exports = {
     es: '¿Qué prefieres?',
     it: 'Preferiresti?',
     pt: 'O que você prefere?',
+    ru: 'Что бы ты выбрал?',
   },
   desc: {
     ko: '둘 중 하나만 고른다면? 다른 사람들은 몇 %가 골랐는지 바로 확인.',
@@ -33,5 +34,6 @@ module.exports = {
     es: 'Elige una de dos y mira qué porcentaje eligió lo mismo.',
     it: 'Scegli una delle due e scopri che percentuale ha fatto la tua stessa scelta.',
     pt: 'Escolha uma de duas opções e veja quantos por cento escolheram igual a você.',
+    ru: 'Выбери одно из двух — и узнай, сколько процентов людей выбрали то же самое.',
   },
 };
