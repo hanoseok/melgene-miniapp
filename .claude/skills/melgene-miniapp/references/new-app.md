@@ -9,16 +9,16 @@
 apps/<id>/
 ├── app.config.js  등록 정보 (아래 4번) — 포털·다른 미니앱 목록(SITES)에 들어감
 ├── README.md      짧게: 무엇인지, 파일, 생성·검사 명령 (다른 앱 README 형식 그대로)
-├── index.html, privacy.html, <lang>/index.html …   ← 생성물 (손으로 고치지 않음)
+├── index.html, privacy.html, <lang>/index.html, _l/<lang>/… ← 생성물 (손으로 고치지 않음, _l = 사람에게 보이는 언어 사본)
 ├── <id>-core.js   언어 무관 로직 (UMD: 브라우저 + Node 검사 공용)
 ├── <id>.js        화면 동작 (문구는 PAGE_I18N/ui 에서만)
 ├── style.css      사이트 색·글꼴 (공통 컴포넌트는 --mg-* 변수로만 맞춤)
 ├── og/ , favicon.svg, sitemap.xml
 ├── shared -> ../../shared   (심볼릭 링크)
 └── tools/
-    ├── i18n/{en,ja,zh,ko,fr,de,th,vi,es,it,pt}.js   모든 문구 (키 구조 동일)
+    ├── i18n/{en,ja,zh,ko,fr,de,th,vi,es,it,pt,ru}.js   모든 문구 (키 구조 동일)
     ├── gen-i18n.js    페이지 생성 (tools/gen-all.js 가 자동 탐색)
-    ├── gen-og.js      OG 이미지 11장 (tools/lib/og-shot.js)
+    ├── gen-og.js      OG 이미지 12장 (tools/lib/og-shot.js)
     └── check-<id>.js  로직·언어 파일·생성 HTML 검사 (tools/check-all.js 가 자동 탐색, cwd = apps/<id>)
 ```
 
@@ -27,9 +27,9 @@ id 는 `^[a-z0-9-]{1,32}$`. 주소는 원본에서 `https://<id>.example.com/` �
 ## 2. 생성기 (tools/gen-i18n.js) 필수 요소
 
 - `const G = require('../../../tools/lib/i18n-gen.js'); const L = G.loadSiteLocales(SITE_DIR);` — 12개 파일이 없으면 실패한다.
-- `<html lang>`, `<title>` = 현지 검색어 | `G.brandOf(lang)`, 메타 설명, og(+`G.ogLocaleTags`), canonical, `G.hreflangTags(siteRoot, rel)`.
+- `<html lang>`, `<title>` = 현지 검색어 | `G.brandOf(lang)`, 메타 설명, og(+`G.ogLocaleTags`), canonical, `G.hreflangTags(siteRoot, rel)` — `<head>` 안 맨 앞(언어 로더 `G.pageLoader` 가 여기 들어 있다).
 - `G.appLd(lang, { siteRoot, rel, name, description, category })` (game|test|create|vote).
-- 맨 위 `G.topBar(lang, rel)`. (지역 언어 자동 이동은 common.js 가 hreflang·언어 선택으로 알아서 한다 — 앱에서 할 일 없음)
+- 맨 위 `G.topBar(lang, rel)`. (언어 적용·지역 자동 판단은 로더와 common.js 가 알아서 한다 — 앱에서 할 일 없음. 앱 JS 에서 언어별 주소(`/ko/` 등)를 만들지 않는다: 링크는 생성기 상대 경로, 공유 주소는 `window.mgCleanUrl()`)
 - 시작 화면 = 티징(+어려운 게임만 짧은 방법). 진행 중 화면에 `mg-ad` 최대 1개.
 - 결과 아래 `<div data-mg-end="<id>"></div>`, `G.scriptJson('MG_FAQ', T.faq)` (3~5개 `{q,a}`).
 - 스크립트 순서: `shared/site.config.js` → `shared/i18n.js` → `shared/common.js` → `shared/supa.js` → 앱 JS.
@@ -41,11 +41,12 @@ id 는 `^[a-z0-9-]{1,32}$`. 주소는 원본에서 `https://<id>.example.com/` �
 - 한 판이 시작될 때(사용자가 시작한 순간) `track('start')` 한 번 — 나라별 시작/완료 통계(`play_report`).
 - 한 판이 끝날 때 `track('done')` 한 번 (포털 참여 수·통계). 플레이 수는 `common.js` 가 진입 시 자동(`play_app`, 30초 중복 제외).
 - 서버 숫자(선택률·분포 등)는 `window.supa.*` (vote/pollResults, submitScore/scoreDistribution 등). 실패하면 숨긴다.
-- 공유 링크 상태는 `#d=`(UTF-8 base64url) 또는 Supabase 짧은 링크 `?s=`.
+- 공유 링크 상태는 `#d=`(UTF-8 base64url) 또는 Supabase 짧은 링크 `?s=`. 주소에 언어를 넣지 않는다(받는 사람은 자기 언어로 본다).
+- 생성기는 `MG_I18N_MODE=variant` 로 한 번 더 돌 때 `_l/<lang>/…` 을 만든다 — `G.fileOf`·`G.relHref` 를 쓰면 저절로 맞다(파일 경로를 직접 조립하지 않는다).
 
 ## 4. 등록
 
-- `apps/<id>/app.config.js` = `module.exports = { id, emoji, category, added: 'YYYY-MM-DD', path: 'https://<id>.example.com/', title: {11개}, desc: {11개} }` (같은 날 여러 개면 `order: 1, 2 …`). 제목은 앱 페이지의 검색어와 같은 이름. 다른 앱의 app.config.js 를 복사해 고친다.
+- `apps/<id>/app.config.js` = `module.exports = { id, emoji, category, added: 'YYYY-MM-DD', path: 'https://<id>.example.com/', title: {12개}, desc: {12개} }` (같은 날 여러 개면 `order: 1, 2 …`). 제목은 앱 페이지의 검색어와 같은 이름. 다른 앱의 app.config.js 를 복사해 고친다.
 - `node tools/gen-all.js` 가 먼저 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역)를 다시 쓴다 — id≠폴더, path 모양, 빠진 언어가 있으면 실패. deploy-prep 은 SITES 가 어긋나면(`gen-sites.js --check`) 멈춘다.
 - 포털 큐레이션에 넣으려면 `apps/hub/tools/i18n/<lang>.js` 의 `curation.items` 에 12개 언어로(2줄 규칙, portal.md).
 - `deploy.env` 는 고칠 것이 없다(miniapp.melgene.com 배포 단위에 함께 들어감 — hanoseok/melgene-miniapp 의 gh-pages). 예전 서브도메인 리다이렉트가 필요할 때만 `REPO_<id>`.

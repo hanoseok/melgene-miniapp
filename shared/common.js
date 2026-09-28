@@ -158,21 +158,6 @@
       .then(function (cc) { finish(typeof cc === 'string' ? cc.toUpperCase() : null); })
       .catch(function () { if (!done) { done = true; cb(null); } });
   }
-  // 같은 페이지의 다른 언어 주소 (언어 선택의 상대 주소 → 없으면 hreflang 링크)
-  function altUrl(lang) {
-    var opt = document.querySelector('.lang-switch option[data-hreflang="' + lang + '"]');
-    var href = opt && opt.value;
-    if (!href) {
-      var link = document.querySelector('link[rel="alternate"][hreflang="' + lang + '"]');
-      href = link && link.getAttribute('href');
-    }
-    if (!href) return null;
-    var u;
-    try { u = new URL(href, window.location.href); } catch (e) { return null; }
-    if (!u.search) u.search = window.location.search;
-    if (!u.hash) u.hash = window.location.hash;
-    return u.href === window.location.href ? null : u.href;
-  }
   // 판단이 끝날 때까지 조회수·플레이 기록(initStats)을 미룬다 — 옮겨 갈 페이지를 두 번 세지 않게.
   var geoWait = [];
   var geoSettled = false;
@@ -182,34 +167,19 @@
     geoWait.splice(0).forEach(function (fn) { try { fn(); } catch (e) { /* noop */ } });
   }
   function afterGeo(fn) { if (geoSettled) fn(); else geoWait.push(fn); }
-  // 같은 페이지의 그 언어 주소로 (없거나 이미 그 언어면 false)
-  function goLang(lang, dropLangParam) {
-    if (!lang || lang === LANG) return false;
-    var url = altUrl(lang);
-    if (!url) return false;
-    if (dropLangParam) {
-      try { var u = new URL(url); u.searchParams.delete('lang'); url = u.href; } catch (e) { /* noop */ }
-    }
-    window.location.replace(url);
-    return true;
-  }
+  // 주소에는 언어를 넣지 않는다: 언어 결정·화면 교체는 <head> 로더(window.MG_LANG, tools/lib/i18n-gen.js pageLoader)가 한다.
+  // 여기서는 고른 언어가 없을 때만 방문자 지역으로 정해 저장하고, 같은 주소를 다시 불러 로더가 그 언어로 그리게 한다.
+  var ML = window.MG_LANG || null;
+  function cleanHere() { return ML && ML.clean ? ML.clean() : window.location.href; }
+  window.mgCleanUrl = function (href) { return ML && ML.toClean ? ML.toClean(href || window.location.href) : (href || window.location.href); };
   function regionRedirect() {
     if (/^#nolang\b/.test(window.location.hash)) return geoDone();
-    var q = null;
-    try { q = new URLSearchParams(window.location.search).get('lang'); } catch (e) { q = null; }
-    if (q != null && knownLang(q)) { // ?lang=<코드>: 직접 고른 것으로 기억하고 그 언어로
-      savePref(q);
-      if (!goLang(q, true)) geoDone();
-      return;
-    }
     if (isBot()) return geoDone();
-    var pref = getPref();
-    if (pref) { if (!goLang(pref)) geoDone(); return; } // 고른 언어가 있으면 어느 페이지든 그 언어로
-    if (LANG !== DEFAULT_LANG) return geoDone(); // 지역 판단은 기본 언어(en 루트) 페이지에서만
+    if (getPref()) return geoDone(); // 고른 언어가 있으면 로더가 이미 그 언어로 그렸다
+    if (LANG !== DEFAULT_LANG || (ML && ML.variant)) return geoDone(); // 지역 판단은 언어 없는 주소의 기본 언어 화면에서만
     serverCountry(function (cc) {
       var lang = cc ? langForCountry(cc) : langForCountry(navCountry());
-      var url = lang && lang !== DEFAULT_LANG ? altUrl(lang) : null;
-      if (url) { window.location.replace(url); return; }
+      if (lang && lang !== DEFAULT_LANG) { savePref(lang); window.location.replace(cleanHere()); return; }
       geoDone();
     });
   }
@@ -223,7 +193,7 @@
   function localizeSite(s, lang) {
     lang = lang || LANG;
     var href = (s.paths && s.paths[lang]) ||
-      (I18N.localePath ? I18N.localePath(s.path, lang) : s.path);
+      s.path; // 주소에 언어를 넣지 않는다 — 언어는 쿠키/localStorage 로 로더가 정한다
     return { id: s.id, emoji: s.emoji, title: pick(s.title, lang), desc: pick(s.desc, lang), href: href };
   }
   window.localizeSite = localizeSite;
@@ -477,7 +447,7 @@
   window.renderMoreTests = renderMoreTests;
 
   // ---------------------------------------------------------------
-  // 6) 언어 전환 (.lang-switch). 고르면 그 선택을 기억한다(lang_pref) — 그 뒤로는 지역 자동 이동을 하지 않는다.
+  // 6) 언어 전환 (.lang-switch). 고르면 쿠키 mg_lang + localStorage 에 저장하고 같은 주소를 다시 불러온다.
   // ---------------------------------------------------------------
   function initLangSwitch() {
     Array.prototype.forEach.call(document.querySelectorAll('.lang-switch select'), function (sel) {
@@ -486,12 +456,11 @@
         if (!opt) return;
         var code = opt.getAttribute('data-hreflang');
         savePref(code);
-        // 공유 링크(#d=..., ?s=...)처럼 주소에 상태가 있으면 다른 언어 페이지로도 그대로 넘긴다
-        var url = opt.value;
-        if (window.location.search && url.indexOf('?') === -1) url += window.location.search;
-        if (window.location.hash && window.location.hash.length > 1 && url.indexOf('#') === -1) url += window.location.hash;
         if (window.track) window.track('lang_' + code);
-        window.location.href = url;
+        // 주소에는 언어가 없다: 저장(쿠키+localStorage)한 뒤 같은 주소를 다시 불러오면 로더가 그 언어로 그린다.
+        // 공유 상태(?s=, #d=)는 주소에 그대로 남는다.
+        var url = cleanHere().replace(/#nolang$/, '');
+        if (url === window.location.href) window.location.reload(); else window.location.href = url;
       });
     });
   }
@@ -572,7 +541,7 @@
       return {
         title: v.title || document.title,
         text: v.text != null ? v.text : (desc ? desc.getAttribute('content') : ''),
-        url: v.url || window.location.href || (canon ? canon.href : '')
+        url: window.mgCleanUrl(v.url || window.location.href || (canon ? canon.href : ''))
       };
     });
   }

@@ -30,7 +30,9 @@
 - `G.appLd` — WebApplication(무료 Offer, inLanguage, applicationCategory) + BreadcrumbList(포털 → 앱). aggregateRating 금지(숫자는 서버 실제 값만, 정적 HTML 에 굳히지 않음). FAQPage 는 앱 페이지 금지(포털만 허용).
 - `G.sitemapXml` — 모든 언어 URL + xhtml:link + lastmod. 배포 시 deploy-prep 이 `sitemap-index.xml`(모든 사이트맵)과 robots.txt 를 만든다.
 - 영어 루트 전환 전 주소(`/<앱>/en/…`)는 배포 404 페이지가 새 주소로 넘긴다. 모르는 주소에 언어 폴더가 있으면(`/<앱>/it/…`) 그 언어 첫 화면으로.
-- 방문자 지역 자동 이동(스킬 4번)은 봇·크롤러를 옮기지 않는다 → 언어별 주소가 각각 색인된다. en 루트는 x-default.
+- **사람이 보는 주소에는 언어가 없다**(스킬 4번): 언어 폴더(`/<앱>/ko/…`)는 검색엔진용 착지 페이지 — hreflang·사이트맵·canonical 은 폴더 주소 그대로, 봇·크롤러는 옮기지 않으므로 언어별로 색인된다. 사람은 폴더 주소로 들어오면 그 언어를 저장하고 언어 없는 주소로 넘어간다(검색 유입 1회 이동). en 루트는 x-default.
+- 숨은 사본 `/<앱>/_l/<lang>/…` 은 `noindex` + canonical 폴더 주소 + robots.txt `Disallow: /_l/`·`/*/_l/`(deploy-prep) — 색인되면 안 된다. Search Console 에서 `_l` 주소가 보이면 robots·noindex 부터 확인.
+- 링크 미리보기(OG)는 스크래퍼에 쿠키가 없어 언어 없는 주소 = 영어 미리보기. 공유 링크는 언어 없는 주소(`mgCleanUrl`)라서 받는 사람은 자기 쿠키/지역 언어로 본다.
 
 ## Search Console
 

@@ -425,10 +425,14 @@
     return null;
   }
 
-  // 사이트 루트 URL(끝 슬래시 포함) → 해당 언어 루트 URL
+  // 사이트 루트 URL(끝 슬래시 포함) → 해당 언어 루트 URL.
+  // 사람에게 보이는 주소에는 언어를 넣지 않는다: 브라우저와 숨은 변형 생성(MG_I18N_MODE=variant)에서는 base 그대로.
+  // 검색엔진용 언어 폴더 페이지를 만들 때(Node, 보통 생성)만 언어 폴더 주소를 준다.
   function localePath(base, code) {
     var loc = getLocale(code);
     if (!loc || !loc.dir) return base;
+    var node = typeof process !== 'undefined' && process.env && typeof window === 'undefined';
+    if (!node || process.env.MG_I18N_MODE === 'variant') return base;
     return base.replace(/\/?$/, '/') + loc.dir + '/';
   }
 

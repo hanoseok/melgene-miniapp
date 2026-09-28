@@ -100,7 +100,12 @@ function checkPage(siteName, siteDir, file, placeholders) {
   pages++;
   const html = fs.readFileSync(file, 'utf8');
   const relToSite = path.relative(siteDir, file).split(path.sep);
-  const expectedLang = (relToSite.length > 1 && DIR_TO_LANG[relToSite[0]]) || I18N.DEFAULT_LOCALE;
+  // 숨은 변형 _l/<언어>/<rel>: 언어 없는 주소(<rel>)에 그려지므로 링크는 그 위치 기준, 언어는 폴더 이름
+  const isVariant = relToSite[0] === '_l' && relToSite.length > 2 && LANG_CODES.includes(relToSite[1]);
+  const servedFile = isVariant ? path.join(siteDir, ...relToSite.slice(2)) : file;
+  const expectedLang = isVariant ? relToSite[1] : ((relToSite.length > 1 && DIR_TO_LANG[relToSite[0]]) || I18N.DEFAULT_LOCALE);
+  if (isVariant && !isFile(servedFile)) err(file, `숨은 변형에 맞는 언어 없는 페이지가 없다: ${path.relative(siteDir, servedFile)}`);
+  if (isVariant && !/<meta name="robots" content="noindex">/.test(fs.readFileSync(file, 'utf8'))) err(file, '숨은 변형에 noindex 가 없다');
 
   const htmlLang = (/<html[^>]*\slang="([^"]+)"/i.exec(html) || [])[1];
   if (htmlLang !== expectedLang) err(file, `<html lang="${htmlLang}"> ≠ 폴더 기준 "${expectedLang}"`);
@@ -119,7 +124,7 @@ function checkPage(siteName, siteDir, file, placeholders) {
       links++;
       if (val.startsWith('/')) { err(file, `루트 절대경로는 하위 경로 배포에서 깨짐: ${val}`); return; }
       const clean = decodeURIComponent(val.split('#')[0].split('?')[0]);
-      const abs = path.resolve(path.dirname(file), clean);
+      const abs = path.resolve(path.dirname(servedFile), clean);
       const inside = path.relative(siteDir, abs);
       if (inside.startsWith('..') || path.isAbsolute(inside)) { err(file, `사이트 폴더 밖을 가리킴: ${val}`); return; }
       const target = clean.endsWith('/') || clean === '' ? path.join(abs, 'index.html') : resolveLocal(abs);

@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+# 숨은 언어 변형(_l/<언어>/)은 색인하지 않는다 — 검색엔진은 언어 폴더 페이지를 본다
+Disallow: /_l/
 
 Sitemap: https://example.com/sitemap.xml

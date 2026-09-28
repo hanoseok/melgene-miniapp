@@ -1,6 +1,6 @@
 ---
 name: melgene-miniapp
-description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들거나 고칠 때 반드시 따르는 전체 규칙. 스포일러 금지, 시작 화면은 티징만, FAQ는 끝 화면에만(포털 예외), 공통 끝 화면(data-mg-end)·타이틀 바, 모바일 480px, 12개 언어(지역 자동 이동), 광고 위치, 진짜 숫자, SEO(현지 검색어), 포털 구성(오늘의 미니앱 짧게 → 모든 미니앱 → 광고 → FAQ), 새 앱 만드는 절차. apps/<앱>·apps/hub 를 만들거나 수정하는 모든 작업(에이전트 포함) 전에 읽는다. 배포·광고·통계·Search Console 은 melgene-ops.
+description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들거나 고칠 때 반드시 따르는 전체 규칙. 스포일러 금지, 시작 화면은 티징만, FAQ는 끝 화면에만(포털 예외), 공통 끝 화면(data-mg-end)·타이틀 바, 모바일 480px, 12개 언어(언어 없는 주소 · 쿠키 > localStorage · 지역 자동 판단), 광고 위치, 진짜 숫자, SEO(현지 검색어), 포털 구성(오늘의 미니앱 짧게 → 모든 미니앱 → 광고 → FAQ), 새 앱 만드는 절차. apps/<앱>·apps/hub 를 만들거나 수정하는 모든 작업(에이전트 포함) 전에 읽는다. 배포·광고·통계·Search Console 은 melgene-ops.
 ---
 
 # Melgene Apps 미니앱 규칙
@@ -60,12 +60,14 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 
 ## 4. 화면·브랜드·언어
 
-- **맨 위 타이틀 바**: 모든 앱 페이지의 제일 위에는 공통 `G.topBar(lang, rel)`(tools/lib/i18n-gen.js)를 둔다. 왼쪽 "Melgene + 배지"를 누르면 같은 언어의 포털 홈으로 가고, 오른쪽은 언어 선택 `<select>`. 앱 이름은 그 아래 앱 화면에서 보여준다. 앱마다 따로 헤더·언어 전환을 만들지 않는다.
+- **맨 위 타이틀 바**: 모든 앱 페이지의 제일 위에는 공통 `G.topBar(lang, rel)`(tools/lib/i18n-gen.js)를 둔다. 왼쪽 "Melgene + 배지"를 누르면 포털 홈(언어 없는 주소, 고른 언어로 보임)으로 가고, 오른쪽은 언어 선택 `<select>`. 앱 이름은 그 아래 앱 화면에서 보여준다. 앱마다 따로 헤더·언어 전환을 만들지 않는다.
 - **모바일이 기본**: 데스크톱에서도 가운데 `--app-width`(480px) 한 줄 레이아웃. 여러 칸 데스크톱 레이아웃 금지. 고정 요소(모달·전체 화면)도 이 폭 안에.
 - 브랜드: en "Melgene Apps", ko "멜진 미니앱", ja "メルジン ミニアプリ", zh "Melgene 小应用", 그 밖 "Melgene Apps". 워드마크 = "Melgene" + 언어별 배지. "오늘의 테스트" 금지.
 - **12개 언어**: en(루트, 기본) · ja · zh · ko · fr · de · th · vi · es · it · pt(브라질 포르투갈어, og:locale pt_BR) · ru(러시아어, og:locale ru_RU — 게임·테스트는 «ты», 포털 FAQ·개인정보는 «вы», 따옴표 «», 복수형 one/few/many/other, 키릴 문자를 지원하는 글꼴만). 모든 문구는 `apps/<앱>/tools/i18n/<lang>.js` 에만 둔다(코드·템플릿에 문구 금지). 언어 전환은 공통 `<select>`. 번역은 직역이 아니라 그 나라 사람이 쓰는 말·예시로. 첫 줄이 `// TODO-TRANSLATE` 인 언어 파일은 en 사본(번역 대기) — check 스크립트가 그 언어의 문구 문제를 (참고)로만 알린다. 번역을 넣으면 그 줄을 지운다.
-- **고른 언어를 기억해서 어디서나 쓴다**(`shared/common.js` 맨 앞, 모든 앱·포털 공통, 사용자 지시 2026-09-28): 언어 `<select>` 로 고르면(또는 `?lang=<코드>`) **localStorage(`lang_pref`·`mg_lang`) + 쿠키 `mg_lang`(1년, melgene.com 아래면 `Domain=.melgene.com` — melgene.com·miniapp.melgene.com 공유)** 에 저장한다. 그 뒤로는 어느 앱의 어느 언어 주소로 들어와도 같은 페이지의 고른 언어 주소로 `location.replace`(쿼리·해시 유지). 쿠키와 저장소 중 한쪽만 있으면 서로 채운다. `#nolang` = 이번만 안 옮김. 크롤러·자동화 브라우저(봇 UA·`HeadlessChrome`·`navigator.webdriver`)는 절대 옮기지 않는다. 옮겨 갈 페이지는 두 번 세지 않는다(판단이 끝난 뒤 조회·플레이 기록).
-- **고른 언어가 없으면 방문자 지역을 따른다**: 기본 언어(en 루트) 페이지에서만 같은 페이지의 그 나라 언어 주소로 옮긴다(저장하지 않음). 나라 = Supabase RPC `client_country()`(Cloudflare `cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초 제한) → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 매핑 없는 나라면 영어 그대로. 매핑: KR ko · JP ja · CN TW HK MO SG zh · FR MC + 프랑스어권 아프리카 fr (BE·LU 는 브라우저가 de 면 de) · DE AT LI de (CH 는 브라우저가 fr/it 면 그 언어) · TH th · VN vi · 스페인어권 es · IT SM VA it · PT BR AO MZ CV GW ST TL pt · RU BY KZ KG ru. 로컬 headless 검사는 `lang_pref` 를 그 언어로 넣고 쿠키를 지우거나, `#nolang`, 또는 기본 headless UA(봇 판정)로 돌린다.
+- **보이는 주소에 언어를 넣지 않는다**(사용자 지시 2026-09-28: "/ko /jp /en 처럼 path 에 넣지 말고, localStorage 와 쿠키에만 써, 쿠키가 더 우선순위야"): 사람이 보는 주소는 언제나 `https://miniapp.melgene.com/<앱>/…`(언어 없음). 언어 = **쿠키 `mg_lang` → (없으면) localStorage `mg_lang`·`lang_pref` → (없으면) 지역 자동 판단 → en**. 쿠키는 1년·`SameSite=Lax`·https 면 `Secure`·melgene.com 아래면 `Domain=.melgene.com`(melgene.com·miniapp 공유). 저장은 쿠키와 localStorage 둘 다, 읽을 때 한쪽만 있으면 서로 채운다.
+- **어떻게 동작하나**(`tools/lib/i18n-gen.js` 의 `G.pageLoader(rel)` — `G.hreflangTags` 가 모든 페이지 `<head>` 맨 앞에 넣는다, 앱에서 할 일 없음): 언어 없는 주소(=en 페이지)에서 저장된 언어가 en 이 아니면 그 자리에서 숨은 언어 사본 `<앱>/_l/<lang>/<rel>` 을 받아 문서를 통째로 바꾼다(주소 그대로). 언어 폴더 주소(`/<앱>/ko/…`)나 `_l/…` 를 직접 열면 사람은 언어 없는 주소로 `location.replace`(쿼리·해시 유지, 저장된 언어가 없으면 그 폴더 언어를 저장). `?lang=<코드>` = 저장하고 주소에서 지운 뒤 적용. 언어 `<select>` 값 = 언어 코드 → 저장하고 같은 언어 없는 주소를 다시 연다. `#nolang` = 이번만 안 바꿈. 크롤러·자동화 브라우저(봇 UA·`HeadlessChrome`·`navigator.webdriver`)는 바꾸거나 옮기지 않는다. 공유·복사 링크는 언제나 언어 없는 주소(`window.mgCleanUrl`). 앱 코드에서 언어별 주소를 만들지 않는다 — 링크는 생성기의 상대 경로 그대로.
+- **언어 폴더와 숨은 사본은 생성물**: `apps/<앱>/<lang>/…` = 검색엔진용(hreflang·사이트맵·canonical, 사람은 곧바로 언어 없는 주소로 넘어감). `apps/<앱>/_l/<lang>/…` = 사람에게 보여 줄 사본(`noindex`, canonical 은 폴더 주소, 링크는 언어 없는 주소 기준 상대 경로, robots.txt `Disallow: /_l/`·`/*/_l/`). `node tools/gen-all.js` 가 앱마다 생성기를 두 번 돌린다(보통 + `MG_I18N_MODE=variant`) — 생성기를 직접 돌릴 때도 둘 다. 링크 검사(`check-links.js`)가 사본의 noindex·짝 페이지를 확인한다.
+- **고른 언어가 없으면 방문자 지역을 따른다**: 언어 없는 en 페이지에서만(`common.js`) 판단해서 그 언어를 저장하고 같은 주소를 다시 연다. 나라 = Supabase RPC `client_country()`(Cloudflare `cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초 제한) → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 매핑 없는 나라면 영어 그대로. 매핑: KR ko · JP ja · CN TW HK MO SG zh · FR MC + 프랑스어권 아프리카 fr (BE·LU 는 브라우저가 de 면 de) · DE AT LI de (CH 는 브라우저가 fr/it 면 그 언어) · TH th · VN vi · 스페인어권 es · IT SM VA it · PT BR AO MZ CV GW ST TL pt · RU BY KZ KG ru. 로컬 headless 검사는 쿠키 `mg_lang`(또는 `lang_pref`)을 그 언어로 넣거나, `#nolang`, 또는 기본 headless UA(봇 판정 — 언어 폴더 주소가 그대로 보임)로 돌린다.
 - 포털 카테고리: 게임 · 심리테스트 · 만들기 · 투표 (id: game · test · create · vote). 돌림판·사다리타기처럼 여럿 중 하나를 정하는 도구는 **투표(vote)**. 필요할 때만 늘린다.
 - 새 앱 등록 = `apps/<id>/app.config.js`(12개 언어 제목·설명, category, added) — 중앙 파일은 고치지 않는다. `node tools/gen-all.js` 가 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역, 손으로 고치지 않음)를 다시 쓴다. 등록 14일 동안 포털에 NEW 배지.
 
@@ -87,7 +89,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - 메타 설명·OG 도 같은 검색어를 자연스럽게 한두 번. 무료·설치 없음·1분 같은 사실만.
 - 페이지마다 보이는 `<h1>` 하나에 검색어를 담는다. 숨긴 텍스트·키워드 나열·시작 화면 SEO 글 금지(2번 규칙 그대로).
 - 구조화 데이터: 앱은 `G.appLd(lang, { siteRoot, rel, name, description, category })`(WebApplication + BreadcrumbList). 별점(aggregateRating)·FAQPage 는 앱 페이지에 넣지 않는다.
-- 모든 페이지 hreflang 12개 + x-default, 자기 canonical, og:locale(+alternate), `<html lang>`, 사이트맵(12개 언어 + lastmod). 지역 자동 이동은 봇을 옮기지 않으므로 Google 은 언어별 주소를 각각 색인한다.
+- 모든 페이지 hreflang 12개 + x-default, 자기 canonical, og:locale(+alternate), `<html lang>`, 사이트맵(12개 언어 + lastmod). 검색엔진은 언어 폴더 주소(`/<앱>/ko/…`)를 언어별로 색인한다(봇은 옮기지 않음) — 검색으로 들어온 사람은 한 번 넘어가 언어 없는 주소에서 그 언어로 본다. 링크 미리보기(OG)는 쿠키가 없는 스크래퍼가 읽으므로 언어 없는 주소는 영어 미리보기.
 - **포털은 예외**: 포털은 앱이 아니므로 맨 아래 "자주 묻는 질문"을 보이게 두고(소개 글은 따로 두지 않고 FAQ로 합친다) FAQPage + WebSite + ItemList JSON-LD 를 넣을 수 있다. 포털에 카테고리 설명 섹션·히어로 문구는 두지 않는다. 포털 순서: 타이틀 바 → 오늘의 미니앱(위아래 짧게: 카드 약 260px, 헤드라인·소개 각 2줄) → 모든 미니앱(카테고리 칩) → 광고 → 자주 묻는 질문. 자세한 건 references/portal.md.
 - 현지 검색어 표·Search Console 은 references/seo.md.
 
@@ -99,7 +101,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 
 ## 9. 사용자가 정한 것 (바꾸지 않는다)
 
-- 브랜드는 "Melgene Apps / 멜진 미니앱" 계열, "오늘의 테스트"·"Melgene MiniApp" 금지. 주소는 `https://miniapp.melgene.com/<앱>/`.
+- 브랜드는 "Melgene Apps / 멜진 미니앱" 계열, "오늘의 테스트"·"Melgene MiniApp" 금지. 주소는 `https://miniapp.melgene.com/<앱>/` — 보이는 주소에 언어 경로 금지, 언어는 쿠키 > localStorage 에만(4번 절).
 - 카테고리는 게임·심리테스트·만들기·투표(game·test·create·vote)만(필요할 때만 추가). 돌림판·사다리류 = 투표. 새 앱은 NEW.
 - 매일(예약 실행마다) 새 앱을 하나 만들고, 카테고리를 순서대로 돌린다(0번 절).
 - 하트·플레이 30초 중복 제외(앱+IP), 인기도 = 하트×10 + 별점 합 + 플레이.

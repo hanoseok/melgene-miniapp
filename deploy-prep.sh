@@ -189,6 +189,9 @@ finish_root "$M" "$MINIAPP_SUB.${CUSTOM_DOMAIN:-}" miniapp
 {
   echo "User-agent: *"
   echo "Allow: /"
+  # 숨은 언어 변형(_l/<언어>/, 로더가 받아 그리는 사람용 화면)은 색인하지 않는다 — 검색엔진은 언어 폴더 페이지를 본다
+  echo "Disallow: /_l/"
+  echo "Disallow: /*/_l/"
   echo "Sitemap: $PORTAL_URL/sitemap-index.xml"
   echo "Sitemap: $PORTAL_URL/sitemap.xml"
   for name in "${SITE_NAMES[@]}"; do echo "Sitemap: $(url_of "$name")/sitemap.xml"; done

@@ -27,7 +27,8 @@ node tools/check-links.js dist        # 배포 빌드 검사(선택)
 
 ## 2. 라이브 확인
 
-- `curl` 로 주소·광고 코드 확인: 96개 = 8개 사이트(포털 + 앱 7개) × 12개 언어(`/`, `/<앱>/`, 각 `ja/ zh/ ko/ fr/ de/ th/ vi/ es/ it/ pt/ ru/`). curl 은 브라우저가 아니라 지역 자동 이동(common.js)과 무관하다. 각 페이지에 `adsbygoogle.js?client=ca-pub-6807370217216401` 와 `google-adsense-account` 가 있어야 한다.
+- `curl` 로 주소·광고 코드 확인: 사이트 수(포털 + 앱) × 12개 언어 — 언어 없는 주소(`/`, `/<앱>/`), 검색엔진용 언어 폴더(`ja/ zh/ ko/ fr/ de/ th/ vi/ es/ it/ pt/ ru/`), 사람에게 보이는 숨은 사본(`/_l/<lang>/`, `/<앱>/_l/<lang>/` — `noindex` 있어야 함). curl 은 쿠키·JS 가 없으니 언어 적용(로더)과 무관하다. 각 페이지에 `adsbygoogle.js?client=ca-pub-6807370217216401` 와 `google-adsense-account` 가 있어야 한다. robots.txt 에 `Disallow: /_l/`·`/*/_l/`.
+- 언어 동작 확인(브라우저): 쿠키 `mg_lang=ko` 로 `/<앱>/` → 주소 그대로 한국어, 언어 `<select>` → 주소 그대로 바뀜 + 쿠키·localStorage 저장, `/<앱>/ko/?x#y` → `/<앱>/?x#y`, `?lang=ru` → 주소에서 지워지고 러시아어. 공유 링크에 언어 경로가 없어야 한다.
 - 브라우저 동작(광고 자리·끝 화면·IntersectionObserver)은 **화면에 보이는 탭**에서 본다. Claude in Chrome 탭이 백그라운드(`document.visibilityState === 'hidden'`)면 IntersectionObserver·rAF 가 멈춰 광고 자리가 비어 보인다 — 버그 아님. 앱 안 브라우저(Claude 브라우저)는 visible.
 - 회사망: 셸의 `https_proxy` 를 그대로 따른다(바꾸거나 우회하지 않는다 — 이 환경의 정책 훅이 프록시 설정 변경을 금지한다. 2026-09-27 사용자가 "시간 초과면 프록시를 빼고 다시"를 요청했으나 정책 때문에 적용하지 않음). **HTTPS 프록시가 시간 초과(curl 000/28)일 때 대신 쓰는 길**: ① 배포는 deploy.sh 가 알아서 SSH 푸시(`git@github.com`, 프록시 안 탐) ② 라이브 확인은 앱 안 브라우저(Claude 브라우저 `mcp__Claude_Browser__*`)로 주소를 열고 같은 출처 `fetch` 로 여러 주소를 한 번에 확인 ③ 원격 반영은 `git ls-remote git@github.com:hanoseok/<repo>.git` 로 HEAD 확인(miniapp: `git ls-remote git@github.com:hanoseok/melgene-miniapp.git gh-pages`) ④ 그래도 안 되면 몇 분 뒤 다시. Chrome 이 Menlo 보안 게이트웨이로 가면 SSO 로그인을 요구한다 — 비밀번호를 넣지 않는다.
 - `node tools/live-check.js <URL…>` (headless, Supabase·실제 광고 요청은 막고 "시도했는지"만 봄 → 운영 숫자 오염 없음).

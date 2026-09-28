@@ -112,12 +112,20 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 
 ## 다국어 (i18n)
 
-12개 언어: **en(루트 `/`, 기본·x-default)**, ja `/ja/`, zh `/zh/`, ko `/ko/`, fr `/fr/`, de `/de/`, th `/th/`, vi `/vi/`, es `/es/`, it `/it/`, pt `/pt/`(브라질 포르투갈어, og:locale pt_BR), ru `/ru/`(러시아어, og:locale ru_RU, 메신저 공유는 Telegram). 모든 사이트가 같은 구조다(2026-09-27 에 ko 루트 → en 루트로 전환, 예전 `/<앱>/en/…` 주소는 deploy-prep 이 만드는 404 페이지가 새 주소로 넘긴다).
+12개 언어: en(기본·x-default) · ja · zh · ko · fr · de · th · vi · es · it · pt(브라질 포르투갈어, og:locale pt_BR) · ru(러시아어, og:locale ru_RU, 메신저 공유는 Telegram).
 
-- 각 언어 페이지는 실제 정적 HTML: `<html lang>`, 현지 검색어로 시작하는 title(`검색어 | 브랜드`), 설명, og(+`og:locale`/alternate), canonical, hreflang 11개 + x-default, 앱은 `G.appLd`(WebApplication + BreadcrumbList). 사이트맵은 모든 언어 URL + `xhtml:link`.
-- 맨 위 공통 타이틀 바(`G.topBar`): 왼쪽 "Melgene + 언어별 배지" → 같은 언어 포털 홈, 오른쪽 언어 `<select>`(쿼리·해시 유지).
-- **고른 언어 기억·적용**(`shared/common.js` 맨 앞): 언어 `<select>` 로 고르거나 `?lang=<코드>` 로 들어오면 localStorage(`lang_pref`·`mg_lang`)와 쿠키 `mg_lang`(1년, melgene.com 아래면 `Domain=.melgene.com` 이라 melgene.com·miniapp.melgene.com 이 함께 씀)에 저장한다. 그 뒤로는 어느 앱·어느 언어 주소로 들어와도 같은 페이지의 그 언어 주소로 `location.replace`(쿼리·해시 유지). 한쪽 저장소만 있으면 다른 쪽을 채운다. `#nolang` 은 이번만 안 옮김. 봇·크롤러·자동화 브라우저는 옮기지 않는다. 옮겨 갈 페이지는 조회수·플레이를 세지 않는다.
-- **고른 언어가 없으면 방문자 지역 → 언어**: 기본 언어(en 루트) 페이지에서만 같은 페이지의 그 나라 언어 주소로(저장하지 않음). 나라는 Supabase RPC `client_country()`(`cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초) → 없으면 브라우저 언어의 지역 → 없거나 매핑 없는 나라면 영어. 나라→언어 표는 common.js `COUNTRY_LANG` / 스킬 4번(RU·BY·KZ·KG → ru).
+**사람이 보는 주소에는 언어가 없다**(2026-09-28 사용자 결정): 언제나 `https://miniapp.melgene.com/<앱>/…`. 언어는 **쿠키 `mg_lang`(우선) → localStorage(`mg_lang`·`lang_pref`) → 지역 자동 판단 → en** 으로만 정한다.
+
+- 생성물 세 가지(모두 `node tools/gen-all.js` 가 만든다 — 앱마다 생성기를 보통 한 번 + `MG_I18N_MODE=variant` 한 번):
+  - `apps/<앱>/index.html` 등 = 언어 없는 주소(영어 내용).
+  - `apps/<앱>/<lang>/…` = 검색엔진용 언어 폴더(hreflang·사이트맵·canonical). 사람이 열면 그 언어를 저장하고 언어 없는 주소로 넘어간다.
+  - `apps/<앱>/_l/<lang>/…` = 사람에게 보여 줄 언어 사본(`noindex`, robots.txt `Disallow: /_l/`, 링크는 언어 없는 주소 기준).
+- 모든 페이지 `<head>` 맨 앞의 언어 로더(`G.pageLoader`, `G.hreflangTags` 안): 언어 없는 주소에서 저장된 언어가 en 이 아니면 `_l/<lang>/<같은 페이지>` 를 받아 문서를 바꾼다(주소 그대로). `?lang=<코드>` = 저장하고 주소에서 지움. `#nolang` = 이번만 안 바꿈. 봇·크롤러·자동화 브라우저는 건드리지 않는다.
+- 각 언어 페이지는 실제 정적 HTML: `<html lang>`, 현지 검색어로 시작하는 title(`검색어 | 브랜드`), 설명, og(+`og:locale`/alternate), canonical, hreflang 12개 + x-default, 앱은 `G.appLd`(WebApplication + BreadcrumbList). 사이트맵은 모든 언어 폴더 URL + `xhtml:link`.
+- 맨 위 공통 타이틀 바(`G.topBar`): 왼쪽 "Melgene + 언어별 배지" → 포털 홈, 오른쪽 언어 `<select>`(값 = 언어 코드 → 쿠키·localStorage 저장 후 같은 주소 다시 열기).
+- 쿠키 `mg_lang`: 1년, `SameSite=Lax`, https 면 `Secure`, melgene.com 아래면 `Domain=.melgene.com`(melgene.com·miniapp.melgene.com 공유). 쿠키와 localStorage 중 한쪽만 있으면 서로 채운다. 공유·복사 링크는 언제나 언어 없는 주소(`window.mgCleanUrl`).
+- **고른 언어가 없으면 방문자 지역 → 언어**(`shared/common.js`, 언어 없는 en 페이지에서만): 판단한 언어를 저장하고 같은 주소를 다시 연다. 나라는 Supabase RPC `client_country()`(`cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초) → 없으면 브라우저 언어의 지역 → 없거나 매핑 없는 나라면 영어. 나라→언어 표는 common.js `COUNTRY_LANG` / 스킬 4번(RU·BY·KZ·KG → ru).
+- 알고 쓰는 점: 링크 미리보기(OG)는 쿠키가 없는 스크래퍼가 읽어서 언어 없는 주소는 영어 미리보기. 검색으로 언어 폴더에 들어온 사람은 한 번 넘어간다. 예전 `/<앱>/en/…` 주소는 deploy-prep 의 404 페이지가 새 주소로 넘긴다.
 - 브랜드: en "Melgene Apps", ko "멜진 미니앱", ja "メルジン ミニアプリ", zh "Melgene 小应用", 그 밖 "Melgene Apps" (`G.brandOf`).
 
 ### 파일 위치
