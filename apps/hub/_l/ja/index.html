@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -136,6 +136,13 @@
       "url": "https://pumpkin.example.com/",
       "name": "かぼちゃランタン作り",
       "description": "目・鼻・口を選んで自分だけのジャックオーランタンを作ろう。ろうそくを灯して画像保存、友だちにも送れる。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://food-cup.example.com/",
+      "name": "食べ物トーナメント",
+      "description": "2つの料理から食べたい方を選んで1回戦から決勝まで。最後に残る好きな食べ物と、みんなの本当の選択率がわかる。"
     }
   ]
 }
@@ -211,6 +218,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="food-cup">
+        <a class="cur-card" href="https://food-cup.example.com/" style="--h:151;--h2:177">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">究極の二択</span></span>
+            <h3 class="cur-headline">最後に残る好きな食べ物は？</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">食べたい方を選び続けて、決勝まで勝ち抜こう。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">食べ物トーナメント</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="pumpkin">
         <a class="cur-card" href="https://pumpkin.example.com/" style="--h:150;--h2:176">
           <span class="cur-art">
@@ -291,29 +314,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="roulette">
-        <a class="cur-card" href="https://roulette.example.com/" style="--h:26;--h2:8">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ランチの悩みに</span></span>
-            <h3 class="cur-headline">今日なに食べる？ルーレットにおまかせ</h3>
-            <span class="cur-giant" aria-hidden="true">🎡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">項目を書いて回すだけ。当番決めや罰ゲームにも使えます。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ルーレット</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">8件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">9件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>人気順</option><option value="rating">評価順</option><option value="newest">新着順</option></select>
@@ -388,6 +395,13 @@
         <a class="tile-link" href="https://pumpkin.example.com/" title="目・鼻・口を選んで自分だけのジャックオーランタンを作ろう。ろうそくを灯して画像保存、友だちにも送れる。" style="--h:150;--h2:176">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">かぼちゃランタン作り</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/" title="2つの料理から食べたい方を選んで1回戦から決勝まで。最後に残る好きな食べ物と、みんなの本当の選択率がわかる。" style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">食べ物トーナメント</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

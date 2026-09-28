@@ -23,6 +23,12 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Pick your favorite',
+        headline: 'Which food takes the crown?',
+        blurb: 'Two dishes at a time: tap the one you’d rather eat, all the way to the final.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'Make it yourself',
         headline: 'Carve your own glowing jack-o’-lantern',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: 'One-minute challenge',
         headline: 'Tap the instant it turns green',
         blurb: 'See where your reaction time ranks. One round is all it takes.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Lunch, decided',
-        headline: 'Can’t decide? Let the wheel pick',
-        blurb: 'Type your options and spin. Handy for chores, dares and who buys the coffee.',
       },
     ],
   },

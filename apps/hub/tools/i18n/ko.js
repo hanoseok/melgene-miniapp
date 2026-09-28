@@ -23,6 +23,12 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'food-cup',
+        kicker: '둘 중 하나만',
+        headline: '끝까지 남는 내 최애 음식은?',
+        blurb: '두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지 가요.',
+      },
+      {
         id: 'pumpkin',
         kicker: '직접 만들기',
         headline: '촛불 켜진 나만의 잭오랜턴',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: '1분 컷 도전',
         headline: '초록색이 되는 순간, 바로 탭!',
         blurb: '내 반응속도가 전체에서 상위 몇 %인지 바로 알려 줘요. 한 판이면 끝나요.',
-      },
-      {
-        id: 'roulette',
-        kicker: '점심 고민 끝',
-        headline: '오늘 뭐 먹지? 돌림판이 정해 줄게요',
-        blurb: '메뉴만 적고 돌리면 끝. 당번 정하기, 벌칙 뽑기에도 써요.',
       },
     ],
   },

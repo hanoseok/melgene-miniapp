@@ -25,6 +25,12 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Chỉ chọn một',
+        headline: 'Món nào sẽ lên ngôi?',
+        blurb: 'Mỗi lượt hai món: chọn món muốn ăn hơn cho đến trận chung kết.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'Tự tay làm',
         headline: 'Khắc đèn bí ngô phát sáng của bạn',
@@ -53,12 +59,6 @@ module.exports = {
         kicker: 'Thử thách 1 phút',
         headline: 'Chạm ngay khi màn hình chuyển xanh!',
         blurb: 'Biết ngay phản xạ của bạn xếp hạng thế nào so với mọi người. Chỉ cần một lượt.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Hết đau đầu chọn món',
-        headline: 'Trưa nay ăn gì? Để vòng quay quyết định',
-        blurb: 'Nhập các lựa chọn rồi quay. Dùng để chia việc hay chọn hình phạt cũng tiện.',
       },
     ],
   },

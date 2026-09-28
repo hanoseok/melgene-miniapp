@@ -20,6 +20,12 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Scegli il tuo preferito',
+        headline: 'Quale piatto vince la corona?',
+        blurb: 'Due piatti alla volta: tocca quello che preferisci, fino alla finale.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'Fai da te',
         headline: 'Intaglia la tua zucca luminosa',
@@ -48,12 +54,6 @@ module.exports = {
         kicker: 'Sfida di un minuto',
         headline: 'Tocca appena diventa verde',
         blurb: 'Scopri a che punto sono i tuoi riflessi. Basta un turno.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Basta indecisioni',
-        headline: 'Non sai cosa scegliere? Decide la ruota',
-        blurb: 'Scrivi le opzioni e gira: comodo per faccende, sfide e chi paga il caffè.',
       },
     ],
   },

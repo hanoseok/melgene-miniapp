@@ -27,6 +27,7 @@ Trend Web Chalenge/
     ├── balance/    밸런스 게임 (심리테스트)
     ├── monster/    할로윈 몬스터 테스트 (심리테스트)
     ├── pumpkin/    할로윈 호박 꾸미기·잭오랜턴 만들기 (만들기)
+    ├── food-cup/   음식 월드컵·최애 음식 토너먼트 (투표)
     ├── ladder/     사다리타기 (게임)
     ├── reaction/   반응속도 테스트 (게임)
     └── roulette/   돌림판 (게임)
@@ -107,6 +108,7 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | roulette | apps/roulette | 2~16항목 가중치 돌림판, 공유 링크 | `check-roulette.js` |
 | monster | apps/monster | 할로윈 몬스터 테스트: 10문항 → 결과 12종(결과별 공유 페이지 r/<id>.html, 같은 결과 비율은 poll 실제 값) | `check-monster.js`, `check-flow.js` |
 | pumpkin | apps/pumpkin | 할로윈 호박 꾸미기: 모양·색·눈·코·입·꼭지·장식 + 촛불·밤하늘 → 완성 잭오랜턴, 이미지 저장(PNG), `#d=` 공유 링크 | `check-pumpkin.js` (+ `flow-test.js`) |
+| food-cup | apps/food-cup | 음식 월드컵: 음식 16개 시드 셔플 대진 → 16강·8강·4강·결승 15번 고르기 → 우승 음식 + 나의 4강, 대결별·우승 실제 선택률(poll `food-cup`, 합계 10/20 이상일 때만) | `check-food-cup.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

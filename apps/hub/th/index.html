@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -136,6 +136,13 @@
       "url": "https://pumpkin.example.com/th/",
       "name": "แกะสลักฟักทองฮาโลวีน",
       "description": "เลือกตา จมูก ปาก จุดเทียน แล้วสร้างฟักทองแจ็คโอแลนเทิร์นของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://food-cup.example.com/th/",
+      "name": "ทัวร์นาเมนต์อาหาร",
+      "description": "เลือกเมนูที่อยากกินมากกว่าทีละสองจาน ตั้งแต่รอบ 16 ทีมจนถึงรอบชิง แล้วดูว่าคนอื่นเลือกอะไรจริง ๆ"
     }
   ]
 }
@@ -211,6 +218,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="food-cup">
+        <a class="cur-card" href="https://food-cup.example.com/th/" style="--h:151;--h2:177">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เลือกได้แค่จานเดียว</span></span>
+            <h3 class="cur-headline">เมนูไหนจะได้แชมป์ในใจคุณ?</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">เลือกจานที่อยากกินมากกว่าทีละคู่ ไปจนถึงรอบชิง</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ทัวร์นาเมนต์อาหาร</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="pumpkin">
         <a class="cur-card" href="https://pumpkin.example.com/th/" style="--h:150;--h2:176">
           <span class="cur-art">
@@ -291,29 +314,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="roulette">
-        <a class="cur-card" href="https://roulette.example.com/th/" style="--h:26;--h2:8">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เลิกลังเลเรื่องมื้อเที่ยง</span></span>
-            <h3 class="cur-headline">กินอะไรดี ให้วงล้อช่วยเลือก</h3>
-            <span class="cur-giant" aria-hidden="true">🎡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">พิมพ์ตัวเลือกแล้วหมุนได้เลย ใช้จับเวรหรือสุ่มบทลงโทษก็ได้</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">วงล้อสุ่ม</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">8 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">9 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option><option value="newest">มาใหม่</option></select>
@@ -388,6 +395,13 @@
         <a class="tile-link" href="https://pumpkin.example.com/th/" title="เลือกตา จมูก ปาก จุดเทียน แล้วสร้างฟักทองแจ็คโอแลนเทิร์นของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้" style="--h:150;--h2:176">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">แกะสลักฟักทองฮาโลวีน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/th/" title="เลือกเมนูที่อยากกินมากกว่าทีละสองจาน ตั้งแต่รอบ 16 ทีมจนถึงรอบชิง แล้วดูว่าคนอื่นเลือกอะไรจริง ๆ" style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทัวร์นาเมนต์อาหาร</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

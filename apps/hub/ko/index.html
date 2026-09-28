@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -135,6 +135,13 @@
       "url": "https://pumpkin.example.com/ko/",
       "name": "할로윈 호박 꾸미기",
       "description": "눈·코·입을 골라 나만의 잭오랜턴을 만들고 촛불을 켜 보세요. 이미지로 저장하고 친구에게 보내기."
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://food-cup.example.com/ko/",
+      "name": "음식 월드컵",
+      "description": "두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지. 끝까지 남는 내 최애 음식과 다른 사람들의 실제 선택률을 확인해요."
     }
   ]
 }
@@ -210,6 +217,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="food-cup">
+        <a class="cur-card" href="https://food-cup.example.com/ko/" style="--h:151;--h2:177">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">둘 중 하나만</span></span>
+            <h3 class="cur-headline">끝까지 남는 내 최애 음식은?</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지 가요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">음식 월드컵</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="pumpkin">
         <a class="cur-card" href="https://pumpkin.example.com/ko/" style="--h:150;--h2:176">
           <span class="cur-art">
@@ -290,29 +313,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="roulette">
-        <a class="cur-card" href="https://roulette.example.com/ko/" style="--h:26;--h2:8">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">점심 고민 끝</span></span>
-            <h3 class="cur-headline">오늘 뭐 먹지? 돌림판이 정해 줄게요</h3>
-            <span class="cur-giant" aria-hidden="true">🎡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">메뉴만 적고 돌리면 끝. 당번 정하기, 벌칙 뽑기에도 써요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">돌림판</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">8개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">9개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>인기순</option><option value="rating">평점순</option><option value="newest">최신순</option></select>
@@ -387,6 +394,13 @@
         <a class="tile-link" href="https://pumpkin.example.com/ko/" title="눈·코·입을 골라 나만의 잭오랜턴을 만들고 촛불을 켜 보세요. 이미지로 저장하고 친구에게 보내기." style="--h:150;--h2:176">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">할로윈 호박 꾸미기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/ko/" title="두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지. 끝까지 남는 내 최애 음식과 다른 사람들의 실제 선택률을 확인해요." style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">음식 월드컵</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

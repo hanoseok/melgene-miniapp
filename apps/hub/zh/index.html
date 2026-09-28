@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -135,6 +135,13 @@
       "url": "https://pumpkin.example.com/zh/",
       "name": "万圣节南瓜灯制作",
       "description": "挑选眼睛、鼻子和嘴巴，点亮蜡烛，做一盏专属南瓜灯。可以存成图片，也能发给朋友。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://food-cup.example.com/zh/",
+      "name": "美食世界杯",
+      "description": "两道菜选一道更想吃的，从16强一路选到决赛，看看你的本命美食和大家的真实选择比例。"
     }
   ]
 }
@@ -210,6 +217,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="food-cup">
+        <a class="cur-card" href="https://food-cup.example.com/zh/" style="--h:151;--h2:177">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">二选一</span></span>
+            <h3 class="cur-headline">笑到最后的本命美食是？</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">两道菜选一道更想吃的，从16强一路选到决赛。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">美食世界杯</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="pumpkin">
         <a class="cur-card" href="https://pumpkin.example.com/zh/" style="--h:150;--h2:176">
           <span class="cur-art">
@@ -290,29 +313,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="roulette">
-        <a class="cur-card" href="https://roulette.example.com/zh/" style="--h:26;--h2:8">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难症救星</span></span>
-            <h3 class="cur-headline">中午吃什么？交给转盘吧</h3>
-            <span class="cur-giant" aria-hidden="true">🎡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">写好选项转一转就行，排值日、抽惩罚也能用。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">转盘抽签</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">8个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">9个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>最热门</option><option value="rating">评分最高</option><option value="newest">最新上线</option></select>
@@ -387,6 +394,13 @@
         <a class="tile-link" href="https://pumpkin.example.com/zh/" title="挑选眼睛、鼻子和嘴巴，点亮蜡烛，做一盏专属南瓜灯。可以存成图片，也能发给朋友。" style="--h:150;--h2:176">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">万圣节南瓜灯制作</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/zh/" title="两道菜选一道更想吃的，从16强一路选到决赛，看看你的本命美食和大家的真实选择比例。" style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">美食世界杯</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

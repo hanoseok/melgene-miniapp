@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -135,6 +135,13 @@
       "url": "https://pumpkin.example.com/pt/",
       "name": "Esculpir abóbora de Halloween",
       "description": "Escolha olhos, nariz e boca, acenda a vela e esculpa sua própria abóbora de Halloween. Salve como imagem ou mande para um amigo."
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "url": "https://food-cup.example.com/pt/",
+      "name": "Torneio de comida",
+      "description": "Dois pratos por disputa: toque no que você prefere comer, das oitavas à final, e veja o que os outros escolheram de verdade."
     }
   ]
 }
@@ -210,6 +217,22 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="food-cup">
+        <a class="cur-card" href="https://food-cup.example.com/pt/" style="--h:151;--h2:177">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Escolha seu favorito</span></span>
+            <h3 class="cur-headline">Qual comida leva a coroa?</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Dois pratos por vez: toque no que você prefere comer até a final.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Torneio de comida</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="pumpkin">
         <a class="cur-card" href="https://pumpkin.example.com/pt/" style="--h:150;--h2:176">
           <span class="cur-art">
@@ -290,29 +313,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="roulette">
-        <a class="cur-card" href="https://roulette.example.com/pt/" style="--h:26;--h2:8">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎡</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Chega de indecisão</span></span>
-            <h3 class="cur-headline">Não sabe o que escolher? A roleta decide</h3>
-            <span class="cur-giant" aria-hidden="true">🎡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Digite as opções e gire: ótimo pra tarefas e desafios do dia a dia.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Roleta aleatória</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">8 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">9 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Populares</option><option value="rating">Bem avaliados</option><option value="newest">Novidades</option></select>
@@ -387,6 +394,13 @@
         <a class="tile-link" href="https://pumpkin.example.com/pt/" title="Escolha olhos, nariz e boca, acenda a vela e esculpa sua própria abóbora de Halloween. Salve como imagem ou mande para um amigo." style="--h:150;--h2:176">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span>
           <span class="tile-name">Esculpir abóbora de Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/pt/" title="Dois pratos por disputa: toque no que você prefere comer, das oitavas à final, e veja o que os outros escolheram de verdade." style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Torneio de comida</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

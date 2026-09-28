@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Entweder-oder',
+        headline: 'Welches Essen holt die Krone?',
+        blurb: 'Immer zwei Gerichte: Tippe auf das, was du lieber isst – bis zum Finale.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'Selbst gestalten',
         headline: 'Schnitz deinen leuchtenden Kürbis',
@@ -49,12 +55,6 @@ module.exports = {
         kicker: 'Challenge für eine Minute',
         headline: 'Tippe, sobald es grün wird',
         blurb: 'Finde heraus, wie schnell du im Vergleich zu allen anderen bist. Eine Runde genügt.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Nie mehr grübeln',
-        headline: 'Unentschlossen? Lass das Glücksrad entscheiden',
-        blurb: 'Optionen eintippen und drehen. Praktisch auch für den Putzplan und Mutproben.',
       },
     ],
   },

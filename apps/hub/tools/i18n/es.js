@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Elige tu favorito',
+        headline: '¿Qué comida se lleva la corona?',
+        blurb: 'Dos platos cada vez: toca el que prefieres comer hasta la final.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'Hazlo tú',
         headline: 'Talla tu calabaza que brilla',
@@ -49,12 +55,6 @@ module.exports = {
         kicker: 'Reto de un minuto',
         headline: 'Toca en cuanto se ponga verde',
         blurb: 'Descubre en qué puesto quedan tus reflejos. Basta con una ronda.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Se acabaron las dudas',
-        headline: '¿Qué comemos hoy? Que decida la ruleta',
-        blurb: 'Escribe tus opciones y gira. También sirve para repartir tareas y elegir retos.',
       },
     ],
   },

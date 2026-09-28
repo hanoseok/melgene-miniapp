@@ -1,0 +1,277 @@
+/* apps/food-cup/style.css — 음식 월드컵: 크림색 식당 체크 식탁보 + 토마토 빨강 + 머스터드 노랑, 경기장 전광판 느낌.
+ * 두툼한 둥근 카드 + 어긋난 그림자(offset shadow), 빨강/노랑 VS 배지.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display, --font-name 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --cream: #fff5e1;
+  --cream-2: #ffe9c2;
+  --tomato: #e8412c;
+  --tomato-2: #c92f1d;
+  --mustard: #ffc226;
+  --mustard-2: #f0a800;
+  --ink: #2b1810;
+  --ink-dim: rgba(43, 24, 16, 0.78);
+  --ink-faint: rgba(43, 24, 16, 0.55);
+  --board: #2b1810;
+  --line: #2b1810;
+  --shadow: 5px 5px 0 var(--ink);
+
+  --font-display: 'Unbounded', var(--font-sans);
+  --display-weight: 800;
+  --font-name: 'Oswald', var(--font-display);
+  --name-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--tomato);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--mustard-2);
+  --mg-star-off: rgba(43, 24, 16, 0.18);
+  --mg-heart-bg: #fff;
+  --mg-heart-border: var(--tomato);
+  --mg-heart-fg: var(--tomato);
+  --mg-heart-on: var(--tomato);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(43, 24, 16, 0.25);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(43, 24, 16, 0.2);
+  --mg-end-retry-bg: var(--tomato);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: var(--cream);
+}
+
+html { background: var(--cream); }
+body.fc-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  /* 식당 체크 식탁보 (아주 옅게) */
+  background-color: var(--cream);
+  background-image:
+    linear-gradient(45deg, rgba(232, 65, 44, 0.055) 25%, transparent 25%, transparent 75%, rgba(232, 65, 44, 0.055) 75%),
+    linear-gradient(45deg, rgba(232, 65, 44, 0.055) 25%, transparent 25%, transparent 75%, rgba(232, 65, 44, 0.055) 75%);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.fc-h1, .fc-kicker, .fc-h1-main, .fc-h1-main em, .fc-badge, .fc-btn, .fc-round, .fc-vs, .fc-hint, .fc-stat,
+.fc-eyebrow, .fc-champ-name, .fc-four-title, .fc-facts, .fc-doc h1, .fc-hero-plate {
+  font-family: var(--font-display);
+}
+.fc-name, .fc-chip-name { font-family: var(--font-name); }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.fc-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.fc-screen { padding-top: 12px; }
+
+.fc-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 3px solid var(--line); border-radius: 18px;
+  font-size: 18px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.fc-btn-primary { background: var(--tomato); color: #fff; box-shadow: var(--shadow); }
+.fc-btn:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
+.fc-btn:focus-visible, .fc-card:focus-visible { outline: 3px solid var(--mustard-2); outline-offset: 3px; }
+
+/* VS 배지 (시작 티저 · 경기) */
+.fc-vs {
+  display: grid; place-items: center;
+  width: 54px; height: 54px; border-radius: 50%;
+  background: var(--mustard); color: var(--tomato-2);
+  border: 3px solid var(--line); box-shadow: 3px 3px 0 var(--ink);
+  font-size: 17px; font-weight: 800; line-height: 1; letter-spacing: -0.02em;
+  transform: rotate(-8deg);
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.fc-start { text-align: center; padding-top: 16px; }
+.fc-badge {
+  display: inline-block; margin: 0 0 14px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--mustard);
+  font-size: 13px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.fc-hero {
+  position: relative; display: flex; align-items: center; justify-content: center; gap: 10px;
+  height: 150px; margin: 4px auto 6px;
+}
+.fc-hero-plate {
+  display: grid; place-items: center;
+  width: 108px; height: 108px; border-radius: 50%;
+  background: #fff; border: 3px solid var(--line); box-shadow: var(--shadow);
+  font-size: 44px; font-weight: 800; color: var(--tomato);
+  background-image: radial-gradient(circle, #fff 52%, var(--cream-2) 53%, var(--cream-2) 60%, #fff 61%);
+}
+.fc-hero-plate.is-l { transform: rotate(-6deg); animation: fc-wobble 2.8s ease-in-out infinite; }
+.fc-hero-plate.is-r { transform: rotate(6deg); animation: fc-wobble 2.8s ease-in-out -1.4s infinite; }
+.fc-hero-vs { position: relative; z-index: 1; margin: 0 -18px; }
+.fc-hero-cup { position: absolute; top: -4px; left: 50%; transform: translateX(-50%); font-size: 34px; line-height: 1; filter: drop-shadow(2px 2px 0 rgba(43, 24, 16, 0.35)); }
+@keyframes fc-wobble { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
+.fc-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.fc-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px;
+  background: var(--tomato); color: #fff; border-radius: 8px;
+  font-size: 15px; letter-spacing: 0.02em; transform: rotate(-2deg);
+}
+.fc-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; }
+.fc-h1-main em {
+  font-style: normal; color: var(--tomato);
+  text-decoration: underline; text-decoration-color: var(--mustard); text-decoration-thickness: 0.22em; text-underline-offset: -0.02em; text-decoration-skip-ink: none;
+}
+.fc-hook { margin: 0 auto 18px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.fc-facts { margin: 14px 0 0; font-size: 12.5px; font-weight: 600; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 경기 화면 ---------------- */
+.fc-board {
+  padding: 10px 14px 12px; border-radius: 16px;
+  background: var(--board); color: var(--mustard);
+  border: 3px solid var(--line); box-shadow: 4px 4px 0 var(--tomato);
+}
+.fc-round {
+  margin: 0 0 8px; text-align: center;
+  font-size: 16px; font-weight: 800; line-height: 1.3; letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 10px rgba(255, 194, 38, 0.45);
+}
+.fc-round[data-round="f"] { color: #fff; text-shadow: 0 0 12px rgba(255, 255, 255, 0.5); }
+.fc-progress { height: 10px; border-radius: 999px; background: rgba(255, 245, 225, 0.16); overflow: hidden; }
+.fc-progress-bar {
+  display: block; height: 100%; width: 0; border-radius: inherit;
+  background: repeating-linear-gradient(-45deg, var(--mustard), var(--mustard) 8px, var(--mustard-2) 8px, var(--mustard-2) 16px);
+  transition: width 0.3s ease;
+}
+.fc-hint { margin: 14px 0 12px; text-align: center; font-size: 14px; font-weight: 600; color: var(--ink-dim); }
+
+.fc-arena { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: stretch; }
+.fc-arena-vs { position: absolute; left: 50%; top: 42%; z-index: 2; margin: -27px 0 0 -27px; pointer-events: none; }
+.fc-card {
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 12px;
+  min-width: 0; min-height: 224px; padding: 18px 10px 16px;
+  background: #fff; color: var(--ink);
+  border: 3px solid var(--line); border-radius: 26px; box-shadow: var(--shadow);
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, opacity 0.2s ease, filter 0.2s ease;
+}
+.fc-card:disabled { cursor: default; }
+.fc-card:hover:not(:disabled) { transform: translate(-1px, -2px); box-shadow: 6px 7px 0 var(--ink); }
+.fc-card:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
+.fc-plate {
+  display: grid; place-items: center;
+  width: 108px; height: 108px; border-radius: 50%; flex: 0 0 auto;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0 50%, transparent 51%), var(--plate, var(--cream-2));
+  border: 3px solid var(--line);
+}
+.fc-emoji { font-size: 60px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.fc-name {
+  display: block; max-width: 100%;
+  font-size: 20px; font-weight: var(--name-weight); line-height: 1.2; text-align: center;
+  overflow-wrap: break-word; letter-spacing: 0.01em;
+}
+.fc-card.is-win { background: var(--mustard); transform: translate(0, -4px) scale(1.03); box-shadow: 7px 8px 0 var(--ink); }
+.fc-card.is-lose { opacity: 0.35; filter: grayscale(0.7); transform: scale(0.95); }
+.fc-arena.is-picked .fc-arena-vs { opacity: 0; transition: opacity 0.15s ease; }
+.fc-arena.is-enter .fc-card { animation: fc-in 0.28s ease-out both; }
+.fc-arena.is-enter #card-b { animation-delay: 0.05s; }
+@keyframes fc-in { from { opacity: 0; transform: translateY(10px) scale(0.97); } to { opacity: 1; transform: none; } }
+.fc-card.is-win .fc-emoji { animation: fc-pop 0.4s ease; }
+@keyframes fc-pop { 0% { transform: scale(1); } 45% { transform: scale(1.22) rotate(-6deg); } 100% { transform: scale(1.08); } }
+
+.fc-stat {
+  min-height: 2.9em; margin: 14px 0 0; text-align: center;
+  font-size: 15px; font-weight: 800; line-height: 1.35; color: var(--tomato-2);
+  opacity: 0; transition: opacity 0.2s ease;
+}
+.fc-stat.is-on { opacity: 1; }
+.fc-play .mg-ad { margin-top: 12px; }
+
+/* ---------------- 끝 화면 ---------------- */
+.fc-champ {
+  margin-top: 6px; padding: 20px 16px 18px; text-align: center;
+  background: #fff; border: 3px solid var(--line); border-radius: 28px; box-shadow: 6px 6px 0 var(--tomato);
+}
+.fc-eyebrow {
+  display: inline-block; margin: 0 0 14px; padding: 5px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--mustard);
+  font-size: 14px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.fc-champ-plate {
+  display: grid; place-items: center;
+  width: 164px; height: 164px; margin: 0 auto; border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0 50%, transparent 51%), var(--plate, var(--cream-2));
+  border: 4px solid var(--line); box-shadow: var(--shadow);
+  animation: fc-crown 0.6s ease-out both;
+}
+@keyframes fc-crown { from { transform: scale(0.6) rotate(-12deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.fc-champ-emoji { font-size: 96px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.fc-champ-name { margin: 16px 0 6px; font-size: 32px; line-height: 1.2; font-weight: var(--display-weight); color: var(--tomato); overflow-wrap: break-word; }
+.fc-champ-stat { margin: 0 auto; max-width: 320px; font-size: 15px; font-weight: 600; line-height: 1.45; color: var(--ink-dim); }
+.fc-champ-stat.is-first { color: var(--ink-faint); font-size: 14px; }
+.fc-four-title { margin: 20px 0 10px; font-size: 14px; font-weight: 800; line-height: 1.3; color: var(--ink); letter-spacing: 0.03em; }
+.fc-four { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.fc-chip {
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 6px; min-width: 0;
+  padding: 10px 8px; border-radius: 16px;
+  background: var(--cream); border: 2px solid var(--line); text-align: center;
+}
+.fc-chip.is-champ { background: var(--mustard); }
+.fc-chip-emoji {
+  display: grid; place-items: center; flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--plate, #fff); border: 2px solid var(--line);
+  font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.fc-chip-name { max-width: 100%; font-size: 15px; font-weight: var(--name-weight); line-height: 1.2; overflow-wrap: break-word; }
+
+/* ---------------- 개인정보 ---------------- */
+.fc-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.fc-doc h1 { font-size: 24px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.fc-doc h2 { font-size: 17px; color: var(--tomato-2); margin: 22px 0 6px; }
+.fc-doc a { text-decoration: underline; }
+
+.site-footer { color: var(--ink-faint); }
+.site-footer a { color: var(--ink-dim); }
+
+/* 언어별 조정 */
+html:lang(th) .fc-body { line-height: 1.75; }
+html:lang(th) :is(.fc-h1-main, .fc-champ-name, .fc-name, .fc-chip-name, .fc-round, .fc-btn, .fc-kicker, .fc-badge, .fc-eyebrow, .fc-stat) { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) :is(.fc-h1-main, .fc-champ-name, .fc-name, .fc-round) { line-height: 1.35; }
+html:is(:lang(ko), :lang(ja), :lang(zh)) .fc-name { font-size: 21px; }
+html:is(:lang(ko), :lang(ja), :lang(zh)) .fc-h1-main { font-size: 34px; }
+html:lang(ja) :is(.fc-h1-main, .fc-hook, .fc-champ-stat) { word-break: auto-phrase; }
+
+@media (max-width: 374px) {
+  .fc-h1-main { font-size: 28px; }
+  html:is(:lang(ko), :lang(ja), :lang(zh)) .fc-h1-main { font-size: 30px; }
+  .fc-arena { gap: 12px; }
+  .fc-card { min-height: 210px; padding: 16px 8px 14px; }
+  .fc-plate { width: 96px; height: 96px; }
+  .fc-emoji { font-size: 54px; }
+  .fc-name { font-size: 18px; }
+  .fc-champ-name { font-size: 28px; }
+  .fc-round { font-size: 15px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fc-hero-plate.is-l, .fc-hero-plate.is-r, .fc-champ-plate, .fc-arena.is-enter .fc-card, .fc-card.is-win .fc-emoji { animation: none !important; }
+  .fc-card, .fc-btn, .fc-progress-bar, .fc-stat, .fc-arena.is-picked .fc-arena-vs { transition: none !important; }
+  .fc-card.is-win, .fc-card.is-lose { transform: none; }
+}

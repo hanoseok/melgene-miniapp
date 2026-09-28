@@ -26,6 +26,12 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'food-cup',
+        kicker: '二选一',
+        headline: '笑到最后的本命美食是？',
+        blurb: '两道菜选一道更想吃的，从16强一路选到决赛。',
+      },
+      {
         id: 'pumpkin',
         kicker: '动手做',
         headline: '雕一盏会发光的南瓜灯',
@@ -54,12 +60,6 @@ module.exports = {
         kicker: '1分钟挑战',
         headline: '变绿的一瞬间，立刻点！',
         blurb: '马上知道你的反应速度在所有玩家里排前百分之几，玩一局就够了。',
-      },
-      {
-        id: 'roulette',
-        kicker: '选择困难症救星',
-        headline: '中午吃什么？交给转盘吧',
-        blurb: '写好选项转一转就行，排值日、抽惩罚也能用。',
       },
     ],
   },

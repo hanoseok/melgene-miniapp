@@ -23,6 +23,12 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'food-cup',
+        kicker: '究極の二択',
+        headline: '最後に残る好きな食べ物は？',
+        blurb: '食べたい方を選び続けて、決勝まで勝ち抜こう。',
+      },
+      {
         id: 'pumpkin',
         kicker: '自分で作る',
         headline: '光るジャックオーランタンを作ろう',
@@ -51,12 +57,6 @@ module.exports = {
         kicker: '1分でチャレンジ',
         headline: '緑になった瞬間、すぐタップ！',
         blurb: 'あなたの反応速度が全体で上位何％かすぐにわかります。1回遊ぶだけでOK。',
-      },
-      {
-        id: 'roulette',
-        kicker: 'ランチの悩みに',
-        headline: '今日なに食べる？ルーレットにおまかせ',
-        blurb: '項目を書いて回すだけ。当番決めや罰ゲームにも使えます。',
       },
     ],
   },

@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'food-cup',
+        kicker: 'Choisis ton camp',
+        headline: 'Quel plat aura la couronne ?',
+        blurb: 'Deux plats à la fois : touche celui que tu préfères, jusqu’à la finale.',
+      },
+      {
         id: 'pumpkin',
         kicker: 'À faire soi-même',
         headline: 'Sculpte ta citrouille qui s’illumine',
@@ -49,12 +55,6 @@ module.exports = {
         kicker: 'Défi d’une minute',
         headline: 'Touchez dès que ça passe au vert',
         blurb: 'Découvrez où se classent vos réflexes. Une seule partie suffit.',
-      },
-      {
-        id: 'roulette',
-        kicker: 'Fini d’hésiter',
-        headline: 'On mange quoi ? La roue décide',
-        blurb: 'Écrivez vos options et lancez la roue. Parfait aussi pour les gages.',
       },
     ],
   },
