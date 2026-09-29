@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 9,
+  "numberOfItems": 11,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -142,6 +142,20 @@
       "url": "https://food-cup.example.com/pt/",
       "name": "Torneio de comida",
       "description": "Dois pratos por disputa: toque no que você prefere comer, das oitavas à final, e veja o que os outros escolheram de verdade."
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://candy-catch.example.com/pt/",
+      "name": "Pegar doces de Halloween",
+      "description": "Chovem doces do céu: mova seu balde de abóbora para pegar, desvie de aranhas e fantasmas e faça combos em 50 segundos."
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "url": "https://aura.example.com/pt/",
+      "name": "Teste da aura",
+      "description": "12 momentos do dia a dia, uns 2 minutos. Qual é a cor da sua aura?"
     }
   ]
 }
@@ -217,6 +231,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="candy-catch">
+        <a class="cur-card" href="https://candy-catch.example.com/pt/" style="--h:193;--h2:175">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Jogo de Halloween de 1 min</span></span>
+            <h3 class="cur-headline">Pegue os doces que caem!</h3>
+            <span class="cur-giant" aria-hidden="true">🍬</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Desvie das aranhas, junte os doces e bata seu recorde.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Pegar doces de Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="aura">
+        <a class="cur-card" href="https://aura.example.com/pt/" style="--h:241;--h2:223">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Teste de personalidade</span></span>
+            <h3 class="cur-headline">Qual é a cor da sua aura?</h3>
+            <span class="cur-giant" aria-hidden="true">🔮</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Algumas situações do dia a dia revelam a sua cor.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Teste da aura</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="food-cup">
         <a class="cur-card" href="https://food-cup.example.com/pt/" style="--h:151;--h2:177">
           <span class="cur-art">
@@ -281,45 +327,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="balance">
-        <a class="cur-card" href="https://balance.example.com/pt/" style="--h:182;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Ótimo entre amigos</span></span>
-            <h3 class="cur-headline">Escolha um lado e veja como todo mundo votou</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dilemas do dia a dia com resultado ao vivo. Perfeito pro grupo do zap.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">O que você prefere?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="reaction">
-        <a class="cur-card" href="https://reaction.example.com/pt/" style="--h:125;--h2:151">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Desafio de um minuto</span></span>
-            <h3 class="cur-headline">Toque assim que ficar verde</h3>
-            <span class="cur-giant" aria-hidden="true">⚡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Veja onde seu reflexo fica no ranking. Uma rodada já diz tudo.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Teste de reação</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">9 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">11 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Populares</option><option value="rating">Bem avaliados</option><option value="newest">Novidades</option></select>
@@ -401,6 +415,20 @@
         <a class="tile-link" href="https://food-cup.example.com/pt/" title="Dois pratos por disputa: toque no que você prefere comer, das oitavas à final, e veja o que os outros escolheram de verdade." style="--h:151;--h2:177">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NOVO</span></span>
           <span class="tile-name">Torneio de comida</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="candy-catch" data-cat="game">
+        <a class="tile-link" href="https://candy-catch.example.com/pt/" title="Chovem doces do céu: mova seu balde de abóbora para pegar, desvie de aranhas e fantasmas e faça combos em 50 segundos." style="--h:193;--h2:175">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Pegar doces de Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="aura" data-cat="test">
+        <a class="tile-link" href="https://aura.example.com/pt/" title="12 momentos do dia a dia, uns 2 minutos. Qual é a cor da sua aura?" style="--h:241;--h2:223">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Teste da aura</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

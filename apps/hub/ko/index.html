@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 9,
+  "numberOfItems": 11,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -142,6 +142,20 @@
       "url": "https://food-cup.example.com/ko/",
       "name": "음식 월드컵",
       "description": "두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지. 끝까지 남는 내 최애 음식과 다른 사람들의 실제 선택률을 확인해요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "url": "https://candy-catch.example.com/ko/",
+      "name": "할로윈 사탕 받기 게임",
+      "description": "하늘에서 쏟아지는 사탕을 호박 바구니로 받아요. 거미와 유령은 피하고 콤보로 점수를 올리는 50초 아케이드 게임."
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "url": "https://aura.example.com/ko/",
+      "name": "오라 컬러 테스트",
+      "description": "일상 속 12가지 순간으로 알아보는 나의 오라 색깔. 2분이면 끝나요."
     }
   ]
 }
@@ -217,6 +231,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="candy-catch">
+        <a class="cur-card" href="https://candy-catch.example.com/ko/" style="--h:193;--h2:175">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">1분 할로윈 게임</span></span>
+            <h3 class="cur-headline">떨어지는 사탕을 바구니로 쏙!</h3>
+            <span class="cur-giant" aria-hidden="true">🍬</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">거미는 피하고 사탕만 모아 최고 점수에 도전해요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">할로윈 사탕 받기 게임</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="aura">
+        <a class="cur-card" href="https://aura.example.com/ko/" style="--h:241;--h2:223">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">오늘의 심리테스트</span></span>
+            <h3 class="cur-headline">지금 나를 감싼 오라는 무슨 색?</h3>
+            <span class="cur-giant" aria-hidden="true">🔮</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">몇 가지 상황 질문으로 내 오라 컬러를 알아봐요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">오라 컬러 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="food-cup">
         <a class="cur-card" href="https://food-cup.example.com/ko/" style="--h:151;--h2:177">
           <span class="cur-art">
@@ -281,45 +327,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="balance">
-        <a class="cur-card" href="https://balance.example.com/ko/" style="--h:182;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">친구랑 하기 좋은</span></span>
-            <h3 class="cur-headline">둘 중 하나만 고른다면, 뭘 고를 거예요?</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">고르는 순간 다른 사람들의 선택 비율이 바로 보여요. 단톡방에 던지기 좋은 질문만 모았어요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">밸런스 게임</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="reaction">
-        <a class="cur-card" href="https://reaction.example.com/ko/" style="--h:125;--h2:151">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">1분 컷 도전</span></span>
-            <h3 class="cur-headline">초록색이 되는 순간, 바로 탭!</h3>
-            <span class="cur-giant" aria-hidden="true">⚡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">내 반응속도가 전체에서 상위 몇 %인지 바로 알려 줘요. 한 판이면 끝나요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">반응속도 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">9개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">11개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>인기순</option><option value="rating">평점순</option><option value="newest">최신순</option></select>
@@ -401,6 +415,20 @@
         <a class="tile-link" href="https://food-cup.example.com/ko/" title="두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지. 끝까지 남는 내 최애 음식과 다른 사람들의 실제 선택률을 확인해요." style="--h:151;--h2:177">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">음식 월드컵</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="candy-catch" data-cat="game">
+        <a class="tile-link" href="https://candy-catch.example.com/ko/" title="하늘에서 쏟아지는 사탕을 호박 바구니로 받아요. 거미와 유령은 피하고 콤보로 점수를 올리는 50초 아케이드 게임." style="--h:193;--h2:175">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">할로윈 사탕 받기 게임</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="aura" data-cat="test">
+        <a class="tile-link" href="https://aura.example.com/ko/" title="일상 속 12가지 순간으로 알아보는 나의 오라 색깔. 2분이면 끝나요." style="--h:241;--h2:223">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">오라 컬러 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

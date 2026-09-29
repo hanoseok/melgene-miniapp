@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'candy-catch',
+        kicker: '1分钟万圣节游戏',
+        headline: '接住从天而降的糖果！',
+        blurb: '躲开蜘蛛，只收糖果，挑战最高分。',
+      },
+      {
+        id: 'aura',
+        kicker: '今日心理测试',
+        headline: '你的气场是什么颜色？',
+        blurb: '回答几个日常情境题，测出你的灵气颜色。',
+      },
+      {
         id: 'food-cup',
         kicker: '二选一',
         headline: '笑到最后的本命美食是？',
@@ -48,18 +60,6 @@ module.exports = {
         kicker: '编辑推荐',
         headline: '把你的人生画成1分钟漫画',
         blurb: '选好出生年份和几个难忘的瞬间，就能看着钢笔一笔一画，把你的人生画成动画。',
-      },
-      {
-        id: 'balance',
-        kicker: '和朋友一起玩',
-        headline: '二选一，再看看大家都怎么选',
-        blurb: '选完立刻看到其他人的选择比例，最适合丢进群聊一起玩。',
-      },
-      {
-        id: 'reaction',
-        kicker: '1分钟挑战',
-        headline: '变绿的一瞬间，立刻点！',
-        blurb: '马上知道你的反应速度在所有玩家里排前百分之几，玩一局就够了。',
       },
     ],
   },

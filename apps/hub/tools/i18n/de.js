@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'candy-catch',
+        kicker: '1-Minuten-Halloween-Spiel',
+        headline: 'Fang die fallenden Süßigkeiten!',
+        blurb: 'Weich den Spinnen aus, sammle Süßes und hol dir den Highscore.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Welche Farbe hat deine Aura?',
+        blurb: 'Ein paar Alltagssituationen verraten deine Aurafarbe.',
+      },
+      {
         id: 'food-cup',
         kicker: 'Entweder-oder',
         headline: 'Welches Essen holt die Krone?',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Tipp der Redaktion',
         headline: 'Dein Leben als Comic in einer Minute',
         blurb: 'Geburtsjahr und Momente wählen – dein Leben entsteht Strich für Strich.',
-      },
-      {
-        id: 'balance',
-        kicker: 'Am besten mit Freunden',
-        headline: 'Entscheide dich – und sieh, was die anderen wählen',
-        blurb: 'Knifflige Alltagsfragen mit Live-Ergebnis. Wie gemacht für den Gruppenchat.',
-      },
-      {
-        id: 'reaction',
-        kicker: 'Challenge für eine Minute',
-        headline: 'Tippe, sobald es grün wird',
-        blurb: 'Finde heraus, wie schnell du im Vergleich zu allen anderen bist. Eine Runde genügt.',
       },
     ],
   },

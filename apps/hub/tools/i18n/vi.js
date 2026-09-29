@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'candy-catch',
+        kicker: 'Game Halloween 1 phút',
+        headline: 'Hứng kẹo đang rơi xuống!',
+        blurb: 'Né nhện, chỉ gom kẹo và thử phá kỷ lục điểm.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Trắc nghiệm hôm nay',
+        headline: 'Hào quang của bạn màu gì?',
+        blurb: 'Vài tình huống quen thuộc sẽ cho biết màu aura của bạn.',
+      },
+      {
         id: 'food-cup',
         kicker: 'Chỉ chọn một',
         headline: 'Món nào sẽ lên ngôi?',
@@ -47,18 +59,6 @@ module.exports = {
         kicker: 'Biên tập viên chọn',
         headline: 'Cuộc đời bạn thành truyện tranh 1 phút',
         blurb: 'Chọn năm sinh và vài khoảnh khắc, rồi xem cuộc đời bạn được vẽ từng nét.',
-      },
-      {
-        id: 'balance',
-        kicker: 'Chơi cùng bạn bè',
-        headline: 'Chọn một phe, rồi xem mọi người chọn gì',
-        blurb: 'Câu hỏi khó chọn, xem ngay mọi người chọn gì. Hợp thả vào nhóm chat.',
-      },
-      {
-        id: 'reaction',
-        kicker: 'Thử thách 1 phút',
-        headline: 'Chạm ngay khi màn hình chuyển xanh!',
-        blurb: 'Biết ngay phản xạ của bạn xếp hạng thế nào so với mọi người. Chỉ cần một lượt.',
       },
     ],
   },

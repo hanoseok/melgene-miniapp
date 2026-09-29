@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'candy-catch',
+        kicker: 'Jeu d’Halloween en 1 min',
+        headline: 'Attrape les bonbons qui tombent !',
+        blurb: 'Évite les araignées, ramasse les douceurs et vise le meilleur score.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Test de personnalité',
+        headline: 'De quelle couleur est ton aura ?',
+        blurb: 'Quelques situations du quotidien révèlent ta couleur.',
+      },
+      {
         id: 'food-cup',
         kicker: 'Choisis ton camp',
         headline: 'Quel plat aura la couronne ?',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Coup de cœur',
         headline: 'Votre vie racontée en BD d’une minute',
         blurb: 'Choisissez quelques moments forts et regardez-les se dessiner à l’encre.',
-      },
-      {
-        id: 'balance',
-        kicker: 'À faire entre amis',
-        headline: 'Choisissez un camp, découvrez l’avis de tous',
-        blurb: 'Dilemmes du quotidien et votes en direct. Idéal pour le groupe d’amis.',
-      },
-      {
-        id: 'reaction',
-        kicker: 'Défi d’une minute',
-        headline: 'Touchez dès que ça passe au vert',
-        blurb: 'Découvrez où se classent vos réflexes. Une seule partie suffit.',
       },
     ],
   },

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'candy-catch',
+        kicker: 'Gioco di Halloween da 1 min',
+        headline: 'Acchiappa le caramelle che cadono!',
+        blurb: 'Schiva i ragni, raccogli i dolci e punta al record.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Test di personalità',
+        headline: 'Di che colore è la tua aura?',
+        blurb: 'Qualche situazione di tutti i giorni svela il tuo colore.',
+      },
+      {
         id: 'food-cup',
         kicker: 'Scegli il tuo preferito',
         headline: 'Quale piatto vince la corona?',
@@ -42,18 +54,6 @@ module.exports = {
         kicker: 'Scelta della redazione',
         headline: 'La tua vita in un fumetto di un minuto',
         blurb: 'Scegli un anno e qualche momento, poi guardali prendere forma a china.',
-      },
-      {
-        id: 'balance',
-        kicker: 'Ideale con gli amici',
-        headline: 'Scegli un lato, scopri il voto degli altri',
-        blurb: 'Dilemmi quotidiani con risultati live, ideali per la chat di gruppo.',
-      },
-      {
-        id: 'reaction',
-        kicker: 'Sfida di un minuto',
-        headline: 'Tocca appena diventa verde',
-        blurb: 'Scopri a che punto sono i tuoi riflessi. Basta un turno.',
       },
     ],
   },

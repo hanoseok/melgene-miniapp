@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'candy-catch',
+        kicker: '1-minute Halloween game',
+        headline: 'Catch the falling candy!',
+        blurb: 'Dodge the spooky stuff, grab the sweets and chase a high score.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Personality quiz',
+        headline: 'What color is your aura?',
+        blurb: 'A few everyday situations reveal the color around you.',
+      },
+      {
         id: 'food-cup',
         kicker: 'Pick your favorite',
         headline: 'Which food takes the crown?',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: 'Editor’s pick',
         headline: 'Your life story, drawn as a one-minute comic',
         blurb: 'Pick a birth year and a few moments, then watch them drawn line by line.',
-      },
-      {
-        id: 'balance',
-        kicker: 'Best with friends',
-        headline: 'Pick a side, then see how everyone else voted',
-        blurb: 'Tough little dilemmas with live results. Made for the group chat.',
-      },
-      {
-        id: 'reaction',
-        kicker: 'One-minute challenge',
-        headline: 'Tap the instant it turns green',
-        blurb: 'See where your reaction time ranks. One round is all it takes.',
       },
     ],
   },
