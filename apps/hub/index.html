@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "All mini apps",
   "inLanguage": "en",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -156,6 +156,20 @@
       "url": "https://aura.example.com/",
       "name": "Aura Color Test",
       "description": "12 everyday moments, about 2 minutes. What color is the glow your energy gives off?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/",
+      "name": "Ghost Maker",
+      "description": "Pick a body, eyes, mouth and a hat and make your own cute floating ghost. Save it as an image or send it to a friend."
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/",
+      "name": "Random Team Generator",
+      "description": "Paste names, pick teams or people per team, and shuffle into fair teams. Captains apart, same result in a share link."
     }
   ]
 }
@@ -231,6 +245,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Make it yourself</span></span>
+            <h3 class="cur-headline">Build your own little ghost</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Pick a shape, a face and a hat, then save it or send it.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Ghost Maker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Split into teams</span></span>
+            <h3 class="cur-headline">Fair random teams in one tap</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Type the names, pick how many teams and shuffle.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Random Team Generator</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -295,45 +341,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Halloween special</span></span>
-            <h3 class="cur-headline">Which Halloween monster are you?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Ten quick questions on a spooky night reveal your monster.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Which Monster Are You?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Editor’s pick</span></span>
-            <h3 class="cur-headline">Your life story, drawn as a one-minute comic</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Pick a birth year and a few moments, then watch them drawn line by line.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">My Life, Animated</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Show pick 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Show pick 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Show pick 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Show pick 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Show pick 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Show pick 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">11 apps</span></h2>
+      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">13 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sort by</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Popular</option><option value="rating">Top rated</option><option value="newest">Newest</option></select>
@@ -429,6 +443,20 @@
         <a class="tile-link" href="https://aura.example.com/" title="12 everyday moments, about 2 minutes. What color is the glow your energy gives off?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">Aura Color Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/" title="Pick a body, eyes, mouth and a hat and make your own cute floating ghost. Save it as an image or send it to a friend." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Ghost Maker</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/" title="Paste names, pick teams or people per team, and shuffle into fair teams. Captains apart, same result in a share link." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Random Team Generator</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

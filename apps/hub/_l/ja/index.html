@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -157,6 +157,20 @@
       "url": "https://aura.example.com/",
       "name": "オーラ診断",
       "description": "日常の12のシーンで、あなたのオーラカラーを診断。約2分でわかります。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/",
+      "name": "おばけメーカー",
+      "description": "からだ・目・口・帽子を選んで、ふわふわ浮かぶ自分だけのおばけを作ろう。画像保存も、友だちに送るのもOK。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/",
+      "name": "チーム分け",
+      "description": "名前を貼るだけで、チーム数か人数で公平にチーム分け。リーダーは別々のチームに、結果はリンクでそのまま共有。"
     }
   ]
 }
@@ -232,6 +246,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">自分で作る</span></span>
+            <h3 class="cur-headline">自分だけのおばけを作ろう</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">形や顔、帽子を選んで保存・シェア。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">おばけメーカー</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">チーム分け</span></span>
+            <h3 class="cur-headline">ワンタップで公平にチーム分け</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">名前を入れてチーム数を選ぶだけ。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">チーム分け</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -296,45 +342,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ハロウィン特集</span></span>
-            <h3 class="cur-headline">あなたに似たモンスターは？</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">10問の質問であなたのモンスターを診断。友だちと比べよう！</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">モンスター診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">きょうのおすすめ</span></span>
-            <h3 class="cur-headline">あなたの人生を、1分のマンガに</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">生まれた年と思い出の場面を選ぶだけ。一筆ずつ描かれる人生アニメに。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">わたしの人生アニメ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">11件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">13件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>人気順</option><option value="rating">評価順</option><option value="newest">新着順</option></select>
@@ -430,6 +444,20 @@
         <a class="tile-link" href="https://aura.example.com/" title="日常の12のシーンで、あなたのオーラカラーを診断。約2分でわかります。" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">オーラ診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/" title="からだ・目・口・帽子を選んで、ふわふわ浮かぶ自分だけのおばけを作ろう。画像保存も、友だちに送るのもOK。" style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">おばけメーカー</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/" title="名前を貼るだけで、チーム数か人数で公平にチーム分け。リーダーは別々のチームに、結果はリンクでそのまま共有。" style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">チーム分け</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

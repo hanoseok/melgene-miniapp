@@ -1,0 +1,256 @@
+/* apps/team/style.css — 랜덤 팀 나누기: 체육관 마룻바닥 크림 + 남색 잉크 + 팀마다 선명한 색(유니폼 띠).
+ * 두툼한 둥근 카드 + 어긋난 그림자, 팀 상자 위쪽 색 띠(--team, team-core.js TEAMS 색).
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #f7f2e7;
+  --paper-2: #efe6d2;
+  --ink: #1d2a5b;
+  --ink-dim: rgba(29, 42, 91, 0.78);
+  --ink-faint: rgba(29, 42, 91, 0.55);
+  --accent: #ff5a36;
+  --accent-2: #e2401d;
+  --lime: #c8f04a;
+  --line: #1d2a5b;
+  --shadow: 4px 4px 0 var(--ink);
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--accent);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  /* 공통 끝 화면 */
+  --mg-star-on: #f0a800;
+  --mg-star-off: rgba(29, 42, 91, 0.18);
+  --mg-heart-bg: #fff;
+  --mg-heart-border: var(--accent);
+  --mg-heart-fg: var(--accent);
+  --mg-heart-on: var(--accent);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(29, 42, 91, 0.22);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(29, 42, 91, 0.18);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.tm-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  /* 체육관 마룻바닥 (아주 옅은 판자 줄) */
+  background-color: var(--paper);
+  background-image: repeating-linear-gradient(90deg, rgba(29, 42, 91, 0.035) 0 1px, transparent 1px 64px);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.tm-h1, .tm-kicker, .tm-h1-main, .tm-h1-main em, .tm-badge, .tm-btn, .tm-h2, .tm-label, .tm-seg-btn, .tm-step,
+.tm-step-num, .tm-preview, .tm-team-name, .tm-team-count, .tm-mini, .tm-facts, .tm-doc h1, .tm-deck-label, .tm-count {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.tm-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.tm-screen { padding-top: 12px; }
+
+.tm-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px; margin: 14px 0 0;
+  padding: 12px 18px;
+  border: 3px solid var(--line); border-radius: 16px;
+  font-size: 18px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.2s;
+}
+.tm-btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+.tm-btn-secondary { background: #fff; color: var(--ink); box-shadow: var(--shadow); }
+.tm-btn:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.tm-btn:disabled { opacity: 0.45; cursor: default; }
+.tm-btn:focus-visible, .tm-mini:focus-visible, .tm-seg-btn:focus-visible, .tm-step:focus-visible, .tm-names:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+}
+
+.tm-mini {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  min-height: 38px; padding: 6px 12px;
+  border: 2px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink);
+  font-size: 14px; font-weight: 800; line-height: 1.2;
+  cursor: pointer;
+}
+.tm-mini:disabled { opacity: 0.45; cursor: default; }
+.tm-mini-accent { background: var(--lime); }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.tm-start { text-align: center; padding-top: 16px; }
+.tm-badge {
+  display: inline-block; margin: 0 0 12px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--lime);
+  font-size: 13px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.tm-hero { position: relative; display: flex; justify-content: center; align-items: flex-end; gap: 10px; height: 150px; margin: 6px auto 4px; }
+.tm-hero-box {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 5px;
+  width: 88px; padding: 30px 10px 12px;
+  background: #fff; border: 3px solid var(--line); border-radius: 16px; box-shadow: var(--shadow);
+  animation: tm-bob 2.6s ease-in-out infinite;
+}
+.tm-hero-box::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 22px; background: var(--team); border-radius: 12px 12px 0 0; border-bottom: 3px solid var(--line); }
+.tm-hero-box i { display: block; width: 100%; height: 14px; border-radius: 6px; background: var(--paper-2); }
+.tm-hero-box i:first-of-type { background: color-mix(in srgb, var(--team) 28%, #fff); }
+.tm-hero-emoji { position: absolute; top: -18px; font-size: 30px; line-height: 1; z-index: 1; }
+.tm-hero-box.is-0 { transform: rotate(-6deg); }
+.tm-hero-box.is-1 { margin-bottom: 14px; animation-delay: -0.9s; }
+.tm-hero-box.is-2 { transform: rotate(6deg); animation-delay: -1.7s; }
+.tm-hero-dice { position: absolute; right: calc(50% - 150px); top: 0; font-size: 30px; transform: rotate(18deg); }
+@keyframes tm-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
+.tm-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.tm-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px;
+  background: var(--accent); color: #fff; border-radius: 8px;
+  font-size: 15px; transform: rotate(-2deg);
+}
+.tm-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; }
+.tm-h1-main em {
+  font-style: normal; color: var(--accent-2);
+  background: linear-gradient(transparent 62%, var(--lime) 62%, var(--lime) 92%, transparent 92%);
+  padding: 0 2px;
+}
+.tm-hook { margin: 0 auto 6px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.tm-facts { margin: 14px 0 0; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); }
+
+/* ---------------- 입력 화면 ---------------- */
+.tm-h2 { margin: 4px 0 12px; font-size: 24px; font-weight: var(--display-weight); line-height: 1.25; }
+.tm-card { padding: 16px; background: #fff; border: 3px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+.tm-label { display: block; margin: 0 0 2px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.35; }
+.tm-card .tm-label:not(:first-child) { margin-top: 16px; }
+.tm-hint { margin: 0 0 8px; font-size: 13px; line-height: 1.45; color: var(--ink-faint); }
+.tm-names {
+  display: block; width: 100%; min-height: 172px; max-height: 44vh; resize: vertical;
+  padding: 10px 12px; box-sizing: border-box;
+  border: 2px solid rgba(29, 42, 91, 0.35); border-radius: 12px; background: var(--paper);
+  color: var(--ink); font: inherit; font-size: 16px; line-height: 1.5;
+}
+.tm-names-bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.tm-count { font-size: 15px; font-weight: var(--display-weight); color: var(--ink); }
+.tm-names-tools { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+.tm-warn { margin: 8px 0 0; font-size: 13px; font-weight: 700; color: var(--accent-2); }
+.tm-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin-top: 6px; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; }
+.tm-seg-btn {
+  min-height: 44px; padding: 6px 8px; border: 0; background: #fff; color: var(--ink);
+  font-size: 14px; font-weight: 800; line-height: 1.2; cursor: pointer;
+}
+.tm-seg-btn + .tm-seg-btn { border-left: 2px solid var(--line); }
+.tm-seg-btn[aria-checked="true"] { background: var(--ink); color: #fff; }
+.tm-stepper { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 12px 0 2px; }
+.tm-step {
+  width: 48px; height: 48px; border-radius: 50%;
+  border: 3px solid var(--line); background: var(--lime); color: var(--ink);
+  font-size: 24px; font-weight: 900; line-height: 1; cursor: pointer; box-shadow: 2px 2px 0 var(--ink);
+}
+.tm-step:disabled { opacity: 0.35; cursor: default; }
+.tm-step-num { min-width: 56px; text-align: center; font-size: 36px; font-weight: 900; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tm-preview { margin: 4px 0 0; text-align: center; font-size: 14px; font-weight: 800; color: var(--ink-dim); }
+.tm-check { position: relative; display: flex; align-items: flex-start; gap: 10px; margin-top: 16px; cursor: pointer; }
+.tm-check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.tm-check-box {
+  flex: 0 0 auto; width: 24px; height: 24px; margin-top: 1px;
+  border: 2.5px solid var(--line); border-radius: 7px; background: #fff;
+  display: grid; place-items: center;
+}
+.tm-check input:checked + .tm-check-box { background: var(--ink); }
+.tm-check input:checked + .tm-check-box::after { content: '★'; color: var(--lime); font-size: 14px; line-height: 1; }
+.tm-check input:focus-visible + .tm-check-box { outline: 3px solid var(--accent); outline-offset: 2px; }
+.tm-check-text { font-size: 15px; font-weight: 700; line-height: 1.4; }
+.tm-leaders-note { margin: 4px 0 0 34px; }
+.tm-input .mg-ad { margin-top: 18px; }
+
+/* ---------------- 결과 ---------------- */
+.tm-shared-note {
+  margin: 0 0 10px; padding: 8px 12px; border-radius: 12px;
+  background: var(--lime); border: 2px solid var(--line);
+  font-size: 14px; font-weight: 700; line-height: 1.4;
+}
+.tm-deck {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  height: 56px; margin: 0 auto 12px;
+}
+.tm-deck-dice { font-size: 36px; line-height: 1; animation: tm-roll 0.5s linear infinite; }
+.tm-deck-label { font-size: 16px; font-weight: 900; }
+@keyframes tm-roll { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+.tm-teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+.tm-team {
+  min-width: 0;
+  background: #fff; border: 3px solid var(--line); border-radius: 16px; box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.tm-team-head {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; /* 긴 한 단어 이름(ru 등)은 인원 배지가 다음 줄로 */
+  margin: 0; padding: 8px 10px;
+  background: var(--team); color: #fff; border-bottom: 3px solid var(--line);
+  font-size: 15px; line-height: 1.25;
+}
+.tm-team-emoji { flex: 0 0 auto; font-size: 20px; line-height: 1; filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.25)); }
+.tm-team-name { flex: 1 1 auto; font-weight: var(--display-weight); text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25); }
+.tm-team-count {
+  flex: 0 0 auto; margin-left: auto; min-width: 26px; padding: 1px 7px; border-radius: 999px;
+  background: #fff; color: var(--ink); border: 2px solid var(--line);
+  font-size: 13px; font-weight: 900; text-align: center; font-variant-numeric: tabular-nums;
+}
+.tm-members { list-style: none; margin: 0; padding: 8px; display: flex; flex-direction: column; gap: 6px; }
+.tm-chip {
+  display: flex; align-items: center; gap: 5px;
+  padding: 6px 10px; border-radius: 10px;
+  background: color-mix(in srgb, var(--team) 12%, #fff); border: 2px solid color-mix(in srgb, var(--team) 45%, #fff);
+  font-size: 15px; font-weight: 700; line-height: 1.3;
+  will-change: transform;
+}
+.tm-chip-name { min-width: 0; overflow-wrap: anywhere; }
+.tm-chip.is-lead { background: var(--team); border-color: var(--line); color: #fff; }
+.tm-star { flex: 0 0 auto; color: #ffe066; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35); }
+.tm-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 18px 0 0; }
+.tm-result.is-shuffling .tm-actions, .tm-result.is-shuffling .tm-btn { opacity: 0.45; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.tm-doc { padding: 28px 0 36px; line-height: 1.8; font-size: 14.5px; color: var(--ink-dim); }
+.tm-doc h1 { font-size: 24px; font-weight: var(--display-weight); color: var(--ink); margin-bottom: 20px; }
+.tm-doc h2 { font-size: 16px; font-weight: 800; color: var(--ink); margin: 26px 0 8px; }
+.tm-doc a { color: var(--accent-2); text-decoration: underline; }
+
+.site-footer { margin-top: 28px; }
+
+/* 언어별 */
+html:lang(th) .tm-h1-main, html:lang(th) .tm-h2, html:lang(th) .tm-team-head { line-height: 1.45; letter-spacing: 0; }
+html:lang(vi) .tm-h1-main { line-height: 1.3; }
+html:lang(ja) .tm-h1-main, html:lang(ja) .tm-hook { word-break: auto-phrase; }
+
+@media (max-width: 374px) {
+  .tm-h1-main { font-size: 28px; }
+  .tm-teams { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .tm-chip { font-size: 14px; padding: 5px 8px; }
+  .tm-team-head { font-size: 14px; padding: 7px 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tm-hero-box, .tm-deck-dice { animation: none; }
+  .tm-btn { transition: none; }
+}

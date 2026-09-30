@@ -30,6 +30,8 @@ Trend Web Chalenge/
     ├── food-cup/   음식 월드컵·최애 음식 토너먼트 (투표)
     ├── candy-catch/ 할로윈 사탕 받기 게임 (게임)
     ├── aura/       오라 컬러 테스트 (심리테스트)
+    ├── ghost/      나만의 유령 만들기 (만들기)
+    ├── team/       랜덤 팀 나누기 (투표)
     ├── ladder/     사다리타기 (게임)
     ├── reaction/   반응속도 테스트 (게임)
     └── roulette/   돌림판 (게임)
@@ -113,6 +115,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | food-cup | apps/food-cup | 음식 월드컵: 음식 16개 시드 셔플 대진 → 16강·8강·4강·결승 15번 고르기 → 우승 음식 + 나의 4강, 대결별·우승 실제 선택률(poll `food-cup`, 합계 10/20 이상일 때만) | `check-food-cup.js` (+ `flow-test.js`) |
 | candy-catch | apps/candy-catch | 할로윈 사탕 받기: 50초 동안 호박 바구니를 좌우로 끌어 사탕(10~50점) 받기, 거미·유령 피하기(목숨 3), 콤보 배수, 속도 상승 → 점수·최고 기록·실제 백분위(submit_score, 데이터 있을 때만) | `check-candy-catch.js` (+ `flow-test.js`) |
 | aura | apps/aura | 오라 컬러 테스트: 상황 질문 12개 × 4지선다 → 오라 8종(r/<id>.html, 단짝·상극은 링크 없음), 같은 오라 실제 비율(poll `aura`, 20명 이상일 때만) | `check-aura.js` (+ `flow-test.js`) |
+| ghost | apps/ghost | 나만의 유령 만들기: 몸 5·색 6·눈 10·입 10·볼 4·모자 8·소품 6·배경 4 + 이름 → 이미지 저장(PNG) + `#d=` 공유 링크 | `check-ghost.js` (+ `flow-test.js`) |
+| team | apps/team | 랜덤 팀 나누기: 이름 최대 60명, 팀 수 또는 팀당 인원, 주장(*) 팀마다 분산, crypto 섞기 → 동물 팀 이름·텍스트 복사·`#d=` 같은 결과 공유 링크 | `check-team.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

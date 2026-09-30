@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'ghost',
+        kicker: '직접 만들기',
+        headline: '나만의 꼬마 유령 만들기',
+        blurb: '모양·표정·모자를 골라 완성하고 저장하거나 보내기.',
+      },
+      {
+        id: 'team',
+        kicker: '팀 나누기',
+        headline: '한 번에 공평하게 랜덤 조 편성',
+        blurb: '이름을 넣고 팀 수를 고른 뒤 섞기만 하면 끝.',
+      },
+      {
         id: 'candy-catch',
         kicker: '1분 할로윈 게임',
         headline: '떨어지는 사탕을 바구니로 쏙!',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: '직접 만들기',
         headline: '촛불 켜진 나만의 잭오랜턴',
         blurb: '눈·코·입을 골라 촛불을 켜고, 이미지로 저장해 보내요.',
-      },
-      {
-        id: 'monster',
-        kicker: '할로윈 특집',
-        headline: '나를 닮은 할로윈 몬스터는?',
-        blurb: '으스스한 밤, 10가지 질문으로 내 몬스터를 찾아요. 친구와 비교해 봐요!',
-      },
-      {
-        id: 'life',
-        kicker: '오늘의 추천',
-        headline: '내 인생을 1분짜리 만화로 그려 드려요',
-        blurb: '태어난 해와 기억에 남는 장면만 고르면, 한 획씩 그려지는 인생 만화가 완성돼요.',
       },
     ],
   },

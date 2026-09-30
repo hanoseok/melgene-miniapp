@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -156,6 +156,20 @@
       "url": "https://aura.example.com/de/",
       "name": "Aura-Farben-Test",
       "description": "12 Alltagsmomente, etwa 2 Minuten. Welche Farbe hat deine Aura?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/de/",
+      "name": "Gespenst erstellen",
+      "description": "Form, Augen, Mund und Hut aussuchen und dein eigenes süßes Schwebe-Gespenst gestalten. Als Bild speichern oder Freunden schicken."
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/de/",
+      "name": "Zufällige Teams",
+      "description": "Namen einfügen, Anzahl der Teams oder Personen pro Team wählen, mischen. Kapitäne getrennt, Ergebnis per Link teilen."
     }
   ]
 }
@@ -231,6 +245,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/de/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Selbst gestalten</span></span>
+            <h3 class="cur-headline">Bastle dein eigenes kleines Gespenst</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Form, Gesicht und Hut wählen, dann speichern oder teilen.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Gespenst erstellen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/de/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Teams einteilen</span></span>
+            <h3 class="cur-headline">Faire Zufallsteams mit einem Tipp</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Namen eingeben, Teamanzahl wählen und mischen.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Zufällige Teams</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/de/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -295,45 +341,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/de/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Halloween-Special</span></span>
-            <h3 class="cur-headline">Welches Monster bist du?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Zehn schnelle Fragen verraten dein Halloween-Monster.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Welches Monster bist du?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/de/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Tipp der Redaktion</span></span>
-            <h3 class="cur-headline">Dein Leben als Comic in einer Minute</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Geburtsjahr und Momente wählen – dein Leben entsteht Strich für Strich.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Mein Leben als Animation</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">11 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">13 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Beliebt</option><option value="rating">Top bewertet</option><option value="newest">Neu</option></select>
@@ -429,6 +443,20 @@
         <a class="tile-link" href="https://aura.example.com/de/" title="12 Alltagsmomente, etwa 2 Minuten. Welche Farbe hat deine Aura?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEU</span></span>
           <span class="tile-name">Aura-Farben-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/de/" title="Form, Augen, Mund und Hut aussuchen und dein eigenes süßes Schwebe-Gespenst gestalten. Als Bild speichern oder Freunden schicken." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Gespenst erstellen</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/de/" title="Namen einfügen, Anzahl der Teams oder Personen pro Team wählen, mischen. Kapitäne getrennt, Ergebnis per Link teilen." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Zufällige Teams</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

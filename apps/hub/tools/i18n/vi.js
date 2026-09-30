@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Tự tay tạo',
+        headline: 'Tạo chú ma nhỏ của riêng bạn',
+        blurb: 'Chọn dáng, khuôn mặt, mũ rồi lưu hoặc gửi đi.',
+      },
+      {
+        id: 'team',
+        kicker: 'Chia đội',
+        headline: 'Chia đội ngẫu nhiên, công bằng',
+        blurb: 'Nhập tên, chọn số đội rồi bấm trộn.',
+      },
+      {
         id: 'candy-catch',
         kicker: 'Game Halloween 1 phút',
         headline: 'Hứng kẹo đang rơi xuống!',
@@ -47,18 +59,6 @@ module.exports = {
         kicker: 'Tự tay làm',
         headline: 'Khắc đèn bí ngô phát sáng của bạn',
         blurb: 'Chọn mắt, mũi, miệng, thắp nến rồi lưu ảnh hoặc gửi đi.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Đặc biệt Halloween',
-        headline: 'Bạn là quái vật Halloween nào?',
-        blurb: '10 câu hỏi trong đêm rùng rợn sẽ cho biết bạn là quái vật nào.',
-      },
-      {
-        id: 'life',
-        kicker: 'Biên tập viên chọn',
-        headline: 'Cuộc đời bạn thành truyện tranh 1 phút',
-        blurb: 'Chọn năm sinh và vài khoảnh khắc, rồi xem cuộc đời bạn được vẽ từng nét.',
       },
     ],
   },

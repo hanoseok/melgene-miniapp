@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'ghost',
+        kicker: '动手做',
+        headline: '做一只专属小幽灵',
+        blurb: '挑形状、表情和帽子，保存或发给朋友。',
+      },
+      {
+        id: 'team',
+        kicker: '随机分组',
+        headline: '一键公平随机分组',
+        blurb: '输入名字，选好组数，一点就分。',
+      },
+      {
         id: 'candy-catch',
         kicker: '1分钟万圣节游戏',
         headline: '接住从天而降的糖果！',
@@ -48,18 +60,6 @@ module.exports = {
         kicker: '动手做',
         headline: '雕一盏会发光的南瓜灯',
         blurb: '挑选眼睛、鼻子和嘴巴，点亮蜡烛，存图或发给朋友。',
-      },
-      {
-        id: 'monster',
-        kicker: '万圣节特辑',
-        headline: '你是哪种万圣节怪物？',
-        blurb: '回答10个小问题，测出你的怪物本色，和朋友比一比！',
-      },
-      {
-        id: 'life',
-        kicker: '编辑推荐',
-        headline: '把你的人生画成1分钟漫画',
-        blurb: '选好出生年份和几个难忘的瞬间，就能看着钢笔一笔一画，把你的人生画成动画。',
       },
     ],
   },

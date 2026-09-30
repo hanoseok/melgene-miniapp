@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -156,6 +156,20 @@
       "url": "https://aura.example.com/es/",
       "name": "Test de aura",
       "description": "12 momentos del día a día, unos 2 minutos. ¿De qué color es tu aura?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/es/",
+      "name": "Crea tu fantasma",
+      "description": "Elige forma, ojos, boca y sombrero y crea tu propio fantasmita tierno que flota. Guárdalo como imagen o mándaselo a un amigo."
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/es/",
+      "name": "Generador de equipos",
+      "description": "Pega los nombres, elige cuántos equipos o personas por equipo y mezcla. Capitanes separados, mismo resultado en un enlace."
     }
   ]
 }
@@ -231,6 +245,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/es/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Hazlo tú</span></span>
+            <h3 class="cur-headline">Crea tu propio fantasmita</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Elige forma, cara y sombrero, y guárdalo o compártelo.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Crea tu fantasma</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/es/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Hacer equipos</span></span>
+            <h3 class="cur-headline">Equipos al azar y justos en un toque</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Escribe los nombres, elige cuántos equipos y mezcla.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Generador de equipos</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/es/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -295,45 +341,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/es/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Especial Halloween</span></span>
-            <h3 class="cur-headline">¿Qué monstruo de Halloween eres?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Diez preguntas en una noche de miedo revelan tu monstruo.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">¿Qué monstruo eres?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/es/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Nuestra favorita</span></span>
-            <h3 class="cur-headline">Tu vida, dibujada como un cómic de un minuto</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Elige tu año y unos momentos clave, y míralos dibujarse a tinta.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Mi vida animada</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">11 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">13 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Populares</option><option value="rating">Mejor valoradas</option><option value="newest">Más nuevas</option></select>
@@ -429,6 +443,20 @@
         <a class="tile-link" href="https://aura.example.com/es/" title="12 momentos del día a día, unos 2 minutos. ¿De qué color es tu aura?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NUEVO</span></span>
           <span class="tile-name">Test de aura</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/es/" title="Elige forma, ojos, boca y sombrero y crea tu propio fantasmita tierno que flota. Guárdalo como imagen o mándaselo a un amigo." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Crea tu fantasma</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/es/" title="Pega los nombres, elige cuántos equipos o personas por equipo y mezcla. Capitanes separados, mismo resultado en un enlace." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Generador de equipos</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

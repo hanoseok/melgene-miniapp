@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -158,6 +158,20 @@
       "url": "https://aura.example.com/",
       "name": "Тест на цвет ауры",
       "description": "12 житейских ситуаций, пара минут. Какого цвета твоя аура?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/",
+      "name": "Создай привидение",
+      "description": "Выбери форму, глаза, рот и шляпу и создай своё милое парящее привидение. Сохрани картинку или отправь другу."
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/",
+      "name": "Разделить на команды",
+      "description": "Вставь имена, выбери число команд или людей в команде — и перемешай. Капитаны порознь, результат по ссылке."
     }
   ]
 }
@@ -233,6 +247,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Сделай сам</span></span>
+            <h3 class="cur-headline">Создай своё маленькое привидение</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Выбери форму, мордочку и шляпу, сохрани или отправь.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Создай привидение</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Деление на команды</span></span>
+            <h3 class="cur-headline">Честные случайные команды в одно касание</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Впиши имена, выбери число команд и перемешай.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Разделить на команды</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -297,45 +343,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Спецвыпуск к Хэллоуину</span></span>
-            <h3 class="cur-headline">Какой ты монстр на Хэллоуин?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Десять быстрых вопросов покажут, какой монстр прячется в тебе.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Какой ты монстр?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Выбор редакции</span></span>
-            <h3 class="cur-headline">Вся твоя жизнь — в комиксе на минуту</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Укажи год рождения и пару важных моментов — они нарисуются на глазах.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Анимация моей жизни</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 11</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 13</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Популярные</option><option value="rating">По рейтингу</option><option value="newest">Новые</option></select>
@@ -431,6 +445,20 @@
         <a class="tile-link" href="https://aura.example.com/" title="12 житейских ситуаций, пара минут. Какого цвета твоя аура?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">Тест на цвет ауры</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/" title="Выбери форму, глаза, рот и шляпу и создай своё милое парящее привидение. Сохрани картинку или отправь другу." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Создай привидение</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/" title="Вставь имена, выбери число команд или людей в команде — и перемешай. Капитаны порознь, результат по ссылке." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Разделить на команды</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Make it yourself',
+        headline: 'Build your own little ghost',
+        blurb: 'Pick a shape, a face and a hat, then save it or send it.',
+      },
+      {
+        id: 'team',
+        kicker: 'Split into teams',
+        headline: 'Fair random teams in one tap',
+        blurb: 'Type the names, pick how many teams and shuffle.',
+      },
+      {
         id: 'candy-catch',
         kicker: '1-minute Halloween game',
         headline: 'Catch the falling candy!',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: 'Make it yourself',
         headline: 'Carve your own glowing jack-o’-lantern',
         blurb: 'Pick eyes, nose and mouth, light the candle, then save it or send it.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Halloween special',
-        headline: 'Which Halloween monster are you?',
-        blurb: 'Ten quick questions on a spooky night reveal your monster.',
-      },
-      {
-        id: 'life',
-        kicker: 'Editor’s pick',
-        headline: 'Your life story, drawn as a one-minute comic',
-        blurb: 'Pick a birth year and a few moments, then watch them drawn line by line.',
       },
     ],
   },

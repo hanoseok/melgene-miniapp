@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Hazlo tú',
+        headline: 'Crea tu propio fantasmita',
+        blurb: 'Elige forma, cara y sombrero, y guárdalo o compártelo.',
+      },
+      {
+        id: 'team',
+        kicker: 'Hacer equipos',
+        headline: 'Equipos al azar y justos en un toque',
+        blurb: 'Escribe los nombres, elige cuántos equipos y mezcla.',
+      },
+      {
         id: 'candy-catch',
         kicker: 'Juego de Halloween de 1 min',
         headline: '¡Atrapa los dulces que caen!',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Hazlo tú',
         headline: 'Talla tu calabaza que brilla',
         blurb: 'Elige ojos, nariz y boca, enciende la vela y guarda la imagen.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Especial Halloween',
-        headline: '¿Qué monstruo de Halloween eres?',
-        blurb: 'Diez preguntas en una noche de miedo revelan tu monstruo.',
-      },
-      {
-        id: 'life',
-        kicker: 'Nuestra favorita',
-        headline: 'Tu vida, dibujada como un cómic de un minuto',
-        blurb: 'Elige tu año y unos momentos clave, y míralos dibujarse a tinta.',
       },
     ],
   },

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Crealo tu',
+        headline: 'Crea il tuo piccolo fantasma',
+        blurb: 'Scegli forma, faccia e cappello, poi salvalo o invialo.',
+      },
+      {
+        id: 'team',
+        kicker: 'Fare squadre',
+        headline: 'Squadre casuali ed eque in un tocco',
+        blurb: 'Scrivi i nomi, scegli quante squadre e mescola.',
+      },
+      {
         id: 'candy-catch',
         kicker: 'Gioco di Halloween da 1 min',
         headline: 'Acchiappa le caramelle che cadono!',
@@ -42,18 +54,6 @@ module.exports = {
         kicker: 'Fai da te',
         headline: 'Intaglia la tua zucca luminosa',
         blurb: 'Occhi, naso e bocca, accendi la candela e salva l’immagine.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Speciale Halloween',
-        headline: 'Che mostro di Halloween sei?',
-        blurb: 'Dieci domande veloci in una notte da brividi rivelano il tuo mostro.',
-      },
-      {
-        id: 'life',
-        kicker: 'Scelta della redazione',
-        headline: 'La tua vita in un fumetto di un minuto',
-        blurb: 'Scegli un anno e qualche momento, poi guardali prendere forma a china.',
       },
     ],
   },

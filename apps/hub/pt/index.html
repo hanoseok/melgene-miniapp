@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 11,
+  "numberOfItems": 13,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -156,6 +156,20 @@
       "url": "https://aura.example.com/pt/",
       "name": "Teste da aura",
       "description": "12 momentos do dia a dia, uns 2 minutos. Qual é a cor da sua aura?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "url": "https://ghost.example.com/pt/",
+      "name": "Crie seu fantasminha",
+      "description": "Escolha formato, olhos, boca e chapéu e crie seu fantasminha fofo que flutua. Salve como imagem ou mande para um amigo."
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "url": "https://team.example.com/pt/",
+      "name": "Sorteador de times",
+      "description": "Cole os nomes, escolha quantos times ou pessoas por time e sorteie. Capitães separados, mesmo resultado num link."
     }
   ]
 }
@@ -231,6 +245,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ghost">
+        <a class="cur-card" href="https://ghost.example.com/pt/" style="--h:217;--h2:199">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Faça você mesmo</span></span>
+            <h3 class="cur-headline">Crie seu próprio fantasminha</h3>
+            <span class="cur-giant" aria-hidden="true">👻</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Escolha forma, carinha e chapéu, depois salve ou mande.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Crie seu fantasminha</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="team">
+        <a class="cur-card" href="https://team.example.com/pt/" style="--h:347;--h2:329">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Sortear times</span></span>
+            <h3 class="cur-headline">Times aleatórios e justos num toque</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Digite os nomes, escolha quantos times e sorteie.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sorteador de times</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="candy-catch">
         <a class="cur-card" href="https://candy-catch.example.com/pt/" style="--h:193;--h2:175">
           <span class="cur-art">
@@ -295,45 +341,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="monster">
-        <a class="cur-card" href="https://monster.example.com/pt/" style="--h:308;--h2:290">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Especial de Halloween</span></span>
-            <h3 class="cur-headline">Que monstro do Halloween você é?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dez perguntas rápidas numa noite assombrada revelam seu monstro.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Que monstro você é?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="life">
-        <a class="cur-card" href="https://life.example.com/pt/" style="--h:232;--h2:214">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Escolha da casa</span></span>
-            <h3 class="cur-headline">Sua vida contada em um quadrinho de um minuto</h3>
-            <span class="cur-giant" aria-hidden="true">🎞️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Escolha um ano de nascimento e alguns momentos e veja tudo ganhar traço.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Animação da minha vida</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">11 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">13 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Populares</option><option value="rating">Bem avaliados</option><option value="newest">Novidades</option></select>
@@ -429,6 +443,20 @@
         <a class="tile-link" href="https://aura.example.com/pt/" title="12 momentos do dia a dia, uns 2 minutos. Qual é a cor da sua aura?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NOVO</span></span>
           <span class="tile-name">Teste da aura</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/pt/" title="Escolha formato, olhos, boca e chapéu e crie seu fantasminha fofo que flutua. Salve como imagem ou mande para um amigo." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Crie seu fantasminha</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/pt/" title="Cole os nomes, escolha quantos times ou pessoas por time e sorteie. Capitães separados, mesmo resultado num link." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Sorteador de times</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

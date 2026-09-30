@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'ghost',
+        kicker: 'À toi de créer',
+        headline: 'Crée ton propre petit fantôme',
+        blurb: 'Choisis une forme, un visage, un chapeau, puis enregistre-le.',
+      },
+      {
+        id: 'team',
+        kicker: 'Faire des équipes',
+        headline: 'Des équipes au hasard, équitables',
+        blurb: 'Tape les prénoms, choisis le nombre d’équipes et mélange.',
+      },
+      {
         id: 'candy-catch',
         kicker: 'Jeu d’Halloween en 1 min',
         headline: 'Attrape les bonbons qui tombent !',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'À faire soi-même',
         headline: 'Sculpte ta citrouille qui s’illumine',
         blurb: 'Yeux, nez, bouche, bougie : garde l’image ou envoie-la.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Spécial Halloween',
-        headline: 'Quel monstre d’Halloween es-tu ?',
-        blurb: 'Dix questions pour une nuit qui fait peur, et ton monstre se révèle.',
-      },
-      {
-        id: 'life',
-        kicker: 'Coup de cœur',
-        headline: 'Votre vie racontée en BD d’une minute',
-        blurb: 'Choisissez quelques moments forts et regardez-les se dessiner à l’encre.',
       },
     ],
   },

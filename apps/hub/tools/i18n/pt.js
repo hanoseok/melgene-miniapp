@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Faça você mesmo',
+        headline: 'Crie seu próprio fantasminha',
+        blurb: 'Escolha forma, carinha e chapéu, depois salve ou mande.',
+      },
+      {
+        id: 'team',
+        kicker: 'Sortear times',
+        headline: 'Times aleatórios e justos num toque',
+        blurb: 'Digite os nomes, escolha quantos times e sorteie.',
+      },
+      {
         id: 'candy-catch',
         kicker: 'Jogo de Halloween de 1 min',
         headline: 'Pegue os doces que caem!',
@@ -42,18 +54,6 @@ module.exports = {
         kicker: 'Faça você mesmo',
         headline: 'Esculpa sua abóbora que brilha',
         blurb: 'Escolha olhos, nariz e boca, acenda a vela e salve a imagem.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Especial de Halloween',
-        headline: 'Que monstro do Halloween você é?',
-        blurb: 'Dez perguntas rápidas numa noite assombrada revelam seu monstro.',
-      },
-      {
-        id: 'life',
-        kicker: 'Escolha da casa',
-        headline: 'Sua vida contada em um quadrinho de um minuto',
-        blurb: 'Escolha um ano de nascimento e alguns momentos e veja tudo ganhar traço.',
       },
     ],
   },

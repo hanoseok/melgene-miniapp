@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'ghost',
+        kicker: 'Selbst gestalten',
+        headline: 'Bastle dein eigenes kleines Gespenst',
+        blurb: 'Form, Gesicht und Hut wählen, dann speichern oder teilen.',
+      },
+      {
+        id: 'team',
+        kicker: 'Teams einteilen',
+        headline: 'Faire Zufallsteams mit einem Tipp',
+        blurb: 'Namen eingeben, Teamanzahl wählen und mischen.',
+      },
+      {
         id: 'candy-catch',
         kicker: '1-Minuten-Halloween-Spiel',
         headline: 'Fang die fallenden Süßigkeiten!',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Selbst gestalten',
         headline: 'Schnitz deinen leuchtenden Kürbis',
         blurb: 'Augen, Nase, Mund wählen, Kerze an, als Bild speichern.',
-      },
-      {
-        id: 'monster',
-        kicker: 'Halloween-Special',
-        headline: 'Welches Monster bist du?',
-        blurb: 'Zehn schnelle Fragen verraten dein Halloween-Monster.',
-      },
-      {
-        id: 'life',
-        kicker: 'Tipp der Redaktion',
-        headline: 'Dein Leben als Comic in einer Minute',
-        blurb: 'Geburtsjahr und Momente wählen – dein Leben entsteht Strich für Strich.',
       },
     ],
   },
