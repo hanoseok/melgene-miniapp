@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://costume.example.com/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/vampire.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/vampire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/vampire.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/witch.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/witch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/witch.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/ghost.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/ghost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/ghost.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/zombie.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/zombie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/zombie.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/blackcat.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/blackcat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/blackcat.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/mummy.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/mummy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/mummy.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/pumpkin.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/pumpkin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/pumpkin.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ja/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/zh/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ko/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/fr/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/de/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/th/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/vi/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/es/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/it/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/pt/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+  <url>
+    <loc>https://costume.example.com/ru/r/skeleton.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://costume.example.com/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://costume.example.com/ja/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://costume.example.com/zh/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://costume.example.com/ko/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://costume.example.com/fr/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://costume.example.com/de/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://costume.example.com/th/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://costume.example.com/vi/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://costume.example.com/es/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://costume.example.com/it/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://costume.example.com/pt/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://costume.example.com/ru/r/skeleton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://costume.example.com/r/skeleton.html"/>
+  </url>
+</urlset>

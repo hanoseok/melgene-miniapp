@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'merge',
+        kicker: 'Quick game',
+        headline: 'Drop, match, merge, grow',
+        blurb: 'Two of a kind merge into something bigger. Don\'t overflow the jar!',
+      },
+      {
+        id: 'costume',
+        kicker: 'Personality quiz',
+        headline: 'Who will you be this Halloween?',
+        blurb: 'Answer a few situations and get the costume that fits you.',
+      },
+      {
         id: 'ghost',
         kicker: 'Make it yourself',
         headline: 'Build your own little ghost',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: 'Personality quiz',
         headline: 'What color is your aura?',
         blurb: 'A few everyday situations reveal the color around you.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Pick your favorite',
-        headline: 'Which food takes the crown?',
-        blurb: 'Two dishes at a time: tap the one you’d rather eat, all the way to the final.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'Make it yourself',
-        headline: 'Carve your own glowing jack-o’-lantern',
-        blurb: 'Pick eyes, nose and mouth, light the candle, then save it or send it.',
       },
     ],
   },

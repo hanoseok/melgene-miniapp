@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'merge',
+        kicker: '小游戏',
+        headline: '相同的碰一起，越合越大',
+        blurb: '两个一样的相碰就会合成更大的，别让罐子溢出！',
+      },
+      {
+        id: 'costume',
+        kicker: '性格测试',
+        headline: '今年万圣节你该扮成谁？',
+        blurb: '回答几个情景题，找到最适合你的装扮。',
+      },
+      {
         id: 'ghost',
         kicker: '动手做',
         headline: '做一只专属小幽灵',
@@ -48,18 +60,6 @@ module.exports = {
         kicker: '今日心理测试',
         headline: '你的气场是什么颜色？',
         blurb: '回答几个日常情境题，测出你的灵气颜色。',
-      },
-      {
-        id: 'food-cup',
-        kicker: '二选一',
-        headline: '笑到最后的本命美食是？',
-        blurb: '两道菜选一道更想吃的，从16强一路选到决赛。',
-      },
-      {
-        id: 'pumpkin',
-        kicker: '动手做',
-        headline: '雕一盏会发光的南瓜灯',
-        blurb: '挑选眼睛、鼻子和嘴巴，点亮蜡烛，存图或发给朋友。',
       },
     ],
   },

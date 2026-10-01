@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'merge',
+        kicker: 'Game nhanh',
+        headline: 'Thả, ghép, lớn dần',
+        blurb: 'Hai vật giống nhau chạm vào sẽ ghép thành vật lớn hơn. Đừng để tràn hũ!',
+      },
+      {
+        id: 'costume',
+        kicker: 'Trắc nghiệm tính cách',
+        headline: 'Halloween này hóa trang thành gì?',
+        blurb: 'Trả lời vài tình huống để biết bộ trang phục hợp với bạn.',
+      },
+      {
         id: 'ghost',
         kicker: 'Tự tay tạo',
         headline: 'Tạo chú ma nhỏ của riêng bạn',
@@ -47,18 +59,6 @@ module.exports = {
         kicker: 'Trắc nghiệm hôm nay',
         headline: 'Hào quang của bạn màu gì?',
         blurb: 'Vài tình huống quen thuộc sẽ cho biết màu aura của bạn.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Chỉ chọn một',
-        headline: 'Món nào sẽ lên ngôi?',
-        blurb: 'Mỗi lượt hai món: chọn món muốn ăn hơn cho đến trận chung kết.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'Tự tay làm',
-        headline: 'Khắc đèn bí ngô phát sáng của bạn',
-        blurb: 'Chọn mắt, mũi, miệng, thắp nến rồi lưu ảnh hoặc gửi đi.',
       },
     ],
   },

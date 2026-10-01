@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'merge',
+        kicker: '1分ゲーム',
+        headline: '同じものをくっつけて育てよう',
+        blurb: '同じ2つが触れると大きく進化。あふれたら終わり！',
+      },
+      {
+        id: 'costume',
+        kicker: '性格診断',
+        headline: '今年のハロウィン、何になる？',
+        blurb: 'いくつかの場面に答えるとぴったりの仮装がわかる。',
+      },
+      {
         id: 'ghost',
         kicker: '自分で作る',
         headline: '自分だけのおばけを作ろう',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: '今日の診断',
         headline: 'あなたのオーラは何色？',
         blurb: 'いくつかの場面の質問で、あなたのオーラカラーがわかる。',
-      },
-      {
-        id: 'food-cup',
-        kicker: '究極の二択',
-        headline: '最後に残る好きな食べ物は？',
-        blurb: '食べたい方を選び続けて、決勝まで勝ち抜こう。',
-      },
-      {
-        id: 'pumpkin',
-        kicker: '自分で作る',
-        headline: '光るジャックオーランタンを作ろう',
-        blurb: '目・鼻・口を選んでろうそくを灯そう。画像で保存も。',
       },
     ],
   },

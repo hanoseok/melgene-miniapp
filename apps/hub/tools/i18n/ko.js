@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'merge',
+        kicker: '한 판 게임',
+        headline: '같은 것끼리 합쳐 키우기',
+        blurb: '똑같은 두 개가 닿으면 더 큰 것으로! 병이 넘치기 전에.',
+      },
+      {
+        id: 'costume',
+        kicker: '심리테스트',
+        headline: '올해 할로윈엔 뭐로 변신?',
+        blurb: '몇 가지 상황에 답하면 나에게 딱 맞는 코스튬이 나와요.',
+      },
+      {
         id: 'ghost',
         kicker: '직접 만들기',
         headline: '나만의 꼬마 유령 만들기',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: '오늘의 심리테스트',
         headline: '지금 나를 감싼 오라는 무슨 색?',
         blurb: '몇 가지 상황 질문으로 내 오라 컬러를 알아봐요.',
-      },
-      {
-        id: 'food-cup',
-        kicker: '둘 중 하나만',
-        headline: '끝까지 남는 내 최애 음식은?',
-        blurb: '두 음식 중 더 먹고 싶은 걸 골라 16강부터 결승까지 가요.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: '직접 만들기',
-        headline: '촛불 켜진 나만의 잭오랜턴',
-        blurb: '눈·코·입을 골라 촛불을 켜고, 이미지로 저장해 보내요.',
       },
     ],
   },

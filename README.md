@@ -32,6 +32,8 @@ Trend Web Chalenge/
     ├── aura/       오라 컬러 테스트 (심리테스트)
     ├── ghost/      나만의 유령 만들기 (만들기)
     ├── team/       랜덤 팀 나누기 (투표)
+    ├── merge/      수박 게임 할로윈 머지 (게임)
+    ├── costume/    할로윈 코스튬 추천 테스트 (심리테스트)
     ├── ladder/     사다리타기 (게임)
     ├── reaction/   반응속도 테스트 (게임)
     └── roulette/   돌림판 (게임)
@@ -117,6 +119,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | aura | apps/aura | 오라 컬러 테스트: 상황 질문 12개 × 4지선다 → 오라 8종(r/<id>.html, 단짝·상극은 링크 없음), 같은 오라 실제 비율(poll `aura`, 20명 이상일 때만) | `check-aura.js` (+ `flow-test.js`) |
 | ghost | apps/ghost | 나만의 유령 만들기: 몸 5·색 6·눈 10·입 10·볼 4·모자 8·소품 6·배경 4 + 이름 → 이미지 저장(PNG) + `#d=` 공유 링크 | `check-ghost.js` (+ `flow-test.js`) |
 | team | apps/team | 랜덤 팀 나누기: 이름 최대 60명, 팀 수 또는 팀당 인원, 주장(*) 팀마다 분산, crypto 섞기 → 동물 팀 이름·텍스트 복사·`#d=` 같은 결과 공유 링크 | `check-team.js` (+ `flow-test.js`) |
+| merge | apps/merge | 수박 게임(머지) 할로윈판: 11단계 조각(캔디콘→…→잭오랜턴), 원 물리 엔진(240스텝/초), 다음 조각 미리보기, 선 위 2초면 끝, 최고 기록 + 실제 상위 %(submit_score) | `check-merge.js` (+ `flow-test.js`) |
+| costume | apps/costume | 할로윈 코스튬 추천 테스트: 12문항 × 4지선다 → 코스튬 8종 결과 페이지 r/<id>.html(전수 계산 11.3~13.7%), 단짝·라이벌 링크 없음, "같은 코스튬 N%"(poll costume, 20명 이상) | `check-costume.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

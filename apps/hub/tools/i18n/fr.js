@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'merge',
+        kicker: 'Jeu rapide',
+        headline: 'Lâche, fusionne, grandis',
+        blurb: 'Deux objets identiques fusionnent en plus gros. Ne déborde pas !',
+      },
+      {
+        id: 'costume',
+        kicker: 'Test de personnalité',
+        headline: 'En quoi te déguiser cette année ?',
+        blurb: 'Réponds à quelques situations et découvre ton costume idéal.',
+      },
+      {
         id: 'ghost',
         kicker: 'À toi de créer',
         headline: 'Crée ton propre petit fantôme',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Test de personnalité',
         headline: 'De quelle couleur est ton aura ?',
         blurb: 'Quelques situations du quotidien révèlent ta couleur.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Choisis ton camp',
-        headline: 'Quel plat aura la couronne ?',
-        blurb: 'Deux plats à la fois : touche celui que tu préfères, jusqu’à la finale.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'À faire soi-même',
-        headline: 'Sculpte ta citrouille qui s’illumine',
-        blurb: 'Yeux, nez, bouche, bougie : garde l’image ou envoie-la.',
       },
     ],
   },

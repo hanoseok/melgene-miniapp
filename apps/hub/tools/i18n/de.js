@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'merge',
+        kicker: 'Schnelles Spiel',
+        headline: 'Fallen lassen, verschmelzen, wachsen',
+        blurb: 'Zwei gleiche verschmelzen zu etwas Größerem. Nicht überlaufen lassen!',
+      },
+      {
+        id: 'costume',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Als was gehst du dieses Halloween?',
+        blurb: 'Beantworte ein paar Situationen und finde dein Kostüm.',
+      },
+      {
         id: 'ghost',
         kicker: 'Selbst gestalten',
         headline: 'Bastle dein eigenes kleines Gespenst',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Persönlichkeitstest',
         headline: 'Welche Farbe hat deine Aura?',
         blurb: 'Ein paar Alltagssituationen verraten deine Aurafarbe.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Entweder-oder',
-        headline: 'Welches Essen holt die Krone?',
-        blurb: 'Immer zwei Gerichte: Tippe auf das, was du lieber isst – bis zum Finale.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'Selbst gestalten',
-        headline: 'Schnitz deinen leuchtenden Kürbis',
-        blurb: 'Augen, Nase, Mund wählen, Kerze an, als Bild speichern.',
       },
     ],
   },

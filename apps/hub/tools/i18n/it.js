@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'merge',
+        kicker: 'Gioco veloce',
+        headline: 'Lascia cadere, unisci, cresci',
+        blurb: 'Due uguali si fondono in uno più grande. Non farlo traboccare!',
+      },
+      {
+        id: 'costume',
+        kicker: 'Test di personalità',
+        headline: 'Da cosa ti travesti ad Halloween?',
+        blurb: 'Rispondi a poche situazioni e scopri il costume giusto per te.',
+      },
+      {
         id: 'ghost',
         kicker: 'Crealo tu',
         headline: 'Crea il tuo piccolo fantasma',
@@ -42,18 +54,6 @@ module.exports = {
         kicker: 'Test di personalità',
         headline: 'Di che colore è la tua aura?',
         blurb: 'Qualche situazione di tutti i giorni svela il tuo colore.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Scegli il tuo preferito',
-        headline: 'Quale piatto vince la corona?',
-        blurb: 'Due piatti alla volta: tocca quello che preferisci, fino alla finale.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'Fai da te',
-        headline: 'Intaglia la tua zucca luminosa',
-        blurb: 'Occhi, naso e bocca, accendi la candela e salva l’immagine.',
       },
     ],
   },

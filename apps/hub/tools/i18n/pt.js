@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'merge',
+        kicker: 'Jogo rápido',
+        headline: 'Solte, junte e cresça',
+        blurb: 'Dois iguais se fundem em algo maior. Não deixe o pote transbordar!',
+      },
+      {
+        id: 'costume',
+        kicker: 'Teste de personalidade',
+        headline: 'Qual fantasia usar neste Halloween?',
+        blurb: 'Responda a algumas situações e descubra a fantasia ideal.',
+      },
+      {
         id: 'ghost',
         kicker: 'Faça você mesmo',
         headline: 'Crie seu próprio fantasminha',
@@ -42,18 +54,6 @@ module.exports = {
         kicker: 'Teste de personalidade',
         headline: 'Qual é a cor da sua aura?',
         blurb: 'Algumas situações do dia a dia revelam a sua cor.',
-      },
-      {
-        id: 'food-cup',
-        kicker: 'Escolha seu favorito',
-        headline: 'Qual comida leva a coroa?',
-        blurb: 'Dois pratos por vez: toque no que você prefere comer até a final.',
-      },
-      {
-        id: 'pumpkin',
-        kicker: 'Faça você mesmo',
-        headline: 'Esculpa sua abóbora que brilha',
-        blurb: 'Escolha olhos, nariz e boca, acenda a vela e salve a imagem.',
       },
     ],
   },

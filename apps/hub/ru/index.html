@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 13,
+  "numberOfItems": 15,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -171,6 +171,20 @@
       "url": "https://team.example.com/ru/",
       "name": "Разделить на команды",
       "description": "Вставь имена, выбери число команд или людей в команде — и перемешай. Капитаны порознь, результат по ссылке."
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "url": "https://merge.example.com/ru/",
+      "name": "Арбузная игра на Хэллоуин",
+      "description": "Бросай сладости в банку и соединяй одинаковые в более крупные. Не переходи черту и вырасти гигантский фонарь Джека."
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "url": "https://costume.example.com/ru/",
+      "name": "Тест: какой костюм на Хэллоуин",
+      "description": "12 моментов с вечеринки, пара минут. Узнай, какой костюм на Хэллоуин подходит твоему характеру, — с идеями, как сделать его самому."
     }
   ]
 }
@@ -246,6 +260,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="merge">
+        <a class="cur-card" href="https://merge.example.com/ru/" style="--h:218;--h2:200">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Быстрая игра</span></span>
+            <h3 class="cur-headline">Бросай, соединяй, расти</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Два одинаковых сливаются в одно побольше. Не переполни банку!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Арбузная игра на Хэллоуин</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="costume">
+        <a class="cur-card" href="https://costume.example.com/ru/" style="--h:48;--h2:30">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Тест на характер</span></span>
+            <h3 class="cur-headline">Кем нарядиться на Хэллоуин?</h3>
+            <span class="cur-giant" aria-hidden="true">🎭</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Ответь на пару ситуаций и узнай свой идеальный костюм.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Тест: какой костюм на Хэллоуин</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="ghost">
         <a class="cur-card" href="https://ghost.example.com/ru/" style="--h:217;--h2:199">
           <span class="cur-art">
@@ -310,45 +356,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="food-cup">
-        <a class="cur-card" href="https://food-cup.example.com/ru/" style="--h:151;--h2:177">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Выбери любимое</span></span>
-            <h3 class="cur-headline">Какое блюдо получит корону?</h3>
-            <span class="cur-giant" aria-hidden="true">🍽️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Каждый раз два блюда: выбирай, что съел бы охотнее, до самого финала.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Битва блюд</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="pumpkin">
-        <a class="cur-card" href="https://pumpkin.example.com/ru/" style="--h:150;--h2:176">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Сделай сам</span></span>
-            <h3 class="cur-headline">Вырежи свою светящуюся тыкву</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Глаза, нос, рот, свеча — сохрани картинку или отправь.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Вырезать тыкву на Хэллоуин</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 13</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 15</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="popular" selected>Популярные</option><option value="rating">По рейтингу</option><option value="newest">Новые</option></select>
@@ -458,6 +472,20 @@
         <a class="tile-link" href="https://team.example.com/ru/" title="Вставь имена, выбери число команд или людей в команде — и перемешай. Капитаны порознь, результат по ссылке." style="--h:347;--h2:329">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
           <span class="tile-name">Разделить на команды</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="merge" data-cat="game">
+        <a class="tile-link" href="https://merge.example.com/ru/" title="Бросай сладости в банку и соединяй одинаковые в более крупные. Не переходи черту и вырасти гигантский фонарь Джека." style="--h:218;--h2:200">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Арбузная игра на Хэллоуин</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="costume" data-cat="test">
+        <a class="tile-link" href="https://costume.example.com/ru/" title="12 моментов с вечеринки, пара минут. Узнай, какой костюм на Хэллоуин подходит твоему характеру, — с идеями, как сделать его самому." style="--h:48;--h2:30">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тест: какой костюм на Хэллоуин</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
