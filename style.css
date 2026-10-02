@@ -1,0 +1,829 @@
+/* apps/hub/style.css — 미니앱 포털 (브랜드 이름은 언어 파일의 siteName / brand).
+ * 방향: 앱 스토어처럼 조용한 크롬(차가운 밝은 회색 + 잉크 네이비 + 코발트) 위에서
+ * 앱 아이콘(앱 id 로 정해지는 OKLCH 그라데이션 스쿼클)만 색을 가진다.
+ * 순서: 머리글(브랜드 + 언어) → 작은 h1 한 줄 → 오늘의 미니앱 캐러셀(앱 색 아트 + 비스듬한 거대 이모지)
+ *   → 광고 → 홈 화면식 아이콘 격자 → 자주 묻는 질문. 장식은 큐레이션 카드와 아이콘에만 쓰고 나머지는 조용하게.
+ * 글꼴: --font-sans(본문) / --font-display(카드 헤드라인·섹션 제목)는 언어 파일 typography 가 정한다
+ *   (라틴 = Gabarito, 러시아어 = Onest(Gabarito 에 키릴 문자가 없다), 태국어 = Prompt, 베트남어 = Plus Jakarta Sans, 한중일 = 본문 글꼴).
+ * 모든 화면이 모바일 레이아웃: 데스크톱에서도 --app-width(480px, shared/base.css) 한 줄을 가운데에 두고
+ * 배경만 꽉 채운다. 화면 폭(vw·min-width)이 아니라 이 칸의 폭(cqi)으로만 크기를 정한다.
+ */
+
+:root {
+  --bg: #f3f5fa;
+  --surface: #ffffff;
+  --surface-2: #eceff6;
+  --ink: #151b2e;
+  --ink-2: #5e6780;
+  --ink-3: #8b94aa;
+  --line: #e2e6ef;
+  --accent: #3355ff;
+  --accent-ink: #ffffff;
+  --accent-soft: #e8edff;
+  --badge: #ff3b5c;
+  --star: #ffae1a;
+  --live: #12b76a;
+  --sk-a: #e8ecf3;
+  --sk-b: #f6f8fb;
+  --shadow-1: 0 1px 2px rgba(21, 27, 46, 0.04), 0 6px 18px -8px rgba(21, 27, 46, 0.1);
+  --shadow-2: 0 2px 6px rgba(21, 27, 46, 0.05), 0 24px 48px -22px rgba(21, 27, 46, 0.3);
+  /* 스크롤 트랙 안에서 잘리지 않을 만큼만 퍼지는 카드 그림자 */
+  --shadow-card: 0 1px 2px rgba(21, 27, 46, 0.05), 0 16px 26px -16px rgba(21, 27, 46, 0.3);
+  --font-display: 'Gabarito', var(--font-sans);
+  /* 머리글 배지 = 공통 타이틀 바(.mg-home-badge)와 같은 코발트/흰색 (다크 모드에서도 같다) */
+  --brand-badge-bg: #3355ff;
+  --brand-badge-fg: #ffffff;
+  --chev: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 9.5l6 6 6-6' fill='none' stroke='%235e6780' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --globe: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235e6780' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z'/%3E%3C/svg%3E");
+  --gutter: 16px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1320;
+    --surface: #181d2d;
+    --surface-2: #222840;
+    --ink: #eef1fa;
+    --ink-2: #a4acc3;
+    --ink-3: #737c96;
+    --line: #272e44;
+    --accent: #7d95ff;
+    --accent-ink: #0f1320;
+    --accent-soft: rgba(125, 149, 255, 0.16);
+    --sk-a: #1f2538;
+    --sk-b: #2a3148;
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px -8px rgba(0, 0, 0, 0.5);
+    --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.3), 0 28px 56px -24px rgba(0, 0, 0, 0.85);
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.35), 0 18px 28px -18px rgba(0, 0, 0, 0.85);
+    --toast-bg: rgba(238, 241, 250, 0.96);
+    --toast-fg: #151b2e;
+    --chev: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 9.5l6 6 6-6' fill='none' stroke='%23a4acc3' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    --globe: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a4acc3' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z'/%3E%3C/svg%3E");
+    color-scheme: dark;
+  }
+}
+
+[hidden] { display: none !important; }
+
+/* ---------------------------------------------------------------
+   언어별 줄바꿈·자간
+   --------------------------------------------------------------- */
+/* 한국어는 어절 단위로 줄바꿈 ("만화"가 "만/화"로 갈라지지 않게) */
+html:lang(ko) body { word-break: keep-all; overflow-wrap: break-word; }
+/* 일본어는 문절 단위로 (지원 브라우저만). 중국어는 글자 단위 기본 줄바꿈 + 문장부호 금칙(line-break: strict) */
+html:lang(ja) :is(.page-h1, .cur-headline, .cur-blurb, .tile-name, .apps-empty p, .faq-item summary) { word-break: auto-phrase; }
+html:is(:lang(zh), :lang(ja)) body { line-break: strict; }
+/* 긴 합성어(독일어·프랑스어·러시아어 등)는 하이픈으로 나누고, 그래도 넘치면 단어 안에서 줄바꿈 */
+body.hub { overflow-wrap: break-word; }
+html:is(:lang(de), :lang(fr), :lang(es), :lang(en), :lang(ru)) .tile-name { hyphens: auto; }
+html:lang(de) :is(.cur-headline, .cur-blurb, .faq-item summary, .faq-item p) { hyphens: auto; }
+/* 태국어: 윗·아랫 성조 기호가 겹치거나 잘리지 않게 줄 간격을 넉넉히, 자간은 0 (음수 자간은 결합 문자를 뭉갠다) */
+html:lang(th) :is(.cur-head h2, .browse-head h2, .faq h2, .cur-headline, .cur-kicker, .page-h1, .brand-sub, .chip, .cur-cta, .cur-name) { letter-spacing: 0; }
+html:lang(th) .cur-headline { line-height: 1.42; }
+html:lang(th) .tile-name { line-height: 1.5; }
+html:lang(th) .cur-blurb { line-height: 1.7; min-height: calc(1.7em * 2); }
+/* 베트남어: 대문자 위 성조 기호(Ứ, Ở …)가 윗줄에 닿지 않게 */
+html:lang(vi) .cur-headline { line-height: 1.3; }
+html:lang(vi) .tile-name { line-height: 1.4; }
+/* 중국어 제목은 자간을 덜 좁힌다 */
+html:lang(zh) :is(.cur-headline, .cur-head h2, .browse-head h2, .faq h2) { letter-spacing: -0.01em; }
+
+html { background: var(--bg); }
+body.hub {
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+}
+.hub :focus-visible {
+  outline: 2.5px solid var(--accent);
+  outline-offset: 2px;
+}
+.hub .brand:focus-visible { border-radius: 10px; }
+
+.hub-wrap {
+  container-type: inline-size;
+  max-width: var(--app-width, 480px);
+  margin: 0 auto;
+  padding: 0 var(--gutter) env(safe-area-inset-bottom);
+}
+
+/* ---------------------------------------------------------------
+   헤더: 워드마크 "Melgene" + 언어별 배지(Apps / 미니앱 / ミニアプリ / 小应用) + 언어 전환 <select>
+   앱 페이지의 공통 타이틀 바(G.topBar: 코발트 그라데이션 마크 + "Melgene" + 코발트 배지)와 같은 모양을
+   포털은 한 단계 크게 쓴다. 언어 전환은 공통 G.langSwitcher 가 그린다.
+   --------------------------------------------------------------- */
+.hub-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0 4px;
+}
+.brand { display: inline-flex; align-items: center; gap: 9px; min-width: 0; min-height: 40px; flex-shrink: 1; }
+.brand-mark { width: 30px; height: 30px; flex-shrink: 0; }
+.brand-word {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Gabarito', var(--font-sans);
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+}
+.brand-sub {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 7px;
+  border-radius: 7px;
+  background: var(--brand-badge-bg);
+  color: var(--brand-badge-fg);
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1;
+}
+/* 한중일 배지(미니앱 / ミニアプリ / 小应用): 그 언어 글꼴로, 굵기를 한 단계 낮추고 글자 사이를 붙여 작은 크기에서도 또렷하게 */
+html:is(:lang(ko), :lang(ja), :lang(zh)) .brand-sub {
+  height: 21px;
+  padding: 0 7px 0.5px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+/* 언어 전환 <select> (공통 G.langSwitcher). 지구본은 이모지 대신 잉크색 SVG 배경으로 그린다. */
+.hub-top .lang-switch { flex-shrink: 0; margin: 0; padding: 0; max-width: none; }
+.hub-top .lang-globe { display: none; }
+.hub-top .lang-links a { color: var(--ink-2); }
+.hub-top select {
+  -webkit-appearance: none;
+  appearance: none;
+  width: auto;
+  max-width: 140px;
+  height: 36px;
+  padding: 0 28px 0 32px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--globe) no-repeat 11px center / 15px, var(--chev) no-repeat right 10px center / 12px, var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  /* 고른 언어 이름 폭만큼만 (지원 브라우저). 나머지는 가장 긴 언어 이름 폭 → max-width 로 제한 */
+  field-sizing: content;
+  min-width: 96px;
+}
+.hub-top select:hover { border-color: color-mix(in srgb, var(--ink-3) 60%, var(--line)); }
+
+/* ---------------------------------------------------------------
+   작은 h1 한 줄 (브랜드 + 현지 검색어) — 히어로 문구 대신, 보이는 그대로의 한 줄 설명
+   --------------------------------------------------------------- */
+.page-h1 {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--ink-3);
+  text-wrap: pretty;
+}
+.page-h1-brand { color: var(--ink-2); font-weight: 800; }
+.page-h1-sep { color: var(--ink-3); opacity: 0.8; }
+
+/* 오늘의 미니앱 제목 아래 누적 참여 한 줄 ("지금까지 N명이 참여했어요") — 실제 값이 0보다 클 때만 */
+.hub-total {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: -4px 0 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+.hub-total strong { color: var(--ink); font-weight: 800; }
+.hub-total.is-in { animation: total-in 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) 0.15s both; }
+@keyframes total-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+.total-n { font-family: 'Gabarito', var(--font-sans); font-weight: 800; font-variant-numeric: tabular-nums; font-size: 1.08em; }
+.live-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--live);
+  flex-shrink: 0;
+  animation: live 2.4s ease-out infinite;
+}
+@keyframes live {
+  0% { box-shadow: 0 0 0 0 rgba(18, 183, 106, 0.45); }
+  70%, 100% { box-shadow: 0 0 0 7px rgba(18, 183, 106, 0); }
+}
+
+/* ---------------------------------------------------------------
+   앱 아이콘 — id 로 정해지는 색상각(--h, --h2)으로 그라데이션 스쿼클
+   --------------------------------------------------------------- */
+.app-icon {
+  --s: 60px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: var(--s);
+  height: var(--s);
+  flex-shrink: 0;
+  border-radius: 27%;
+  overflow: hidden;
+  background: linear-gradient(150deg, hsl(var(--h) 90% 80%), hsl(var(--h2, var(--h)) 78% 56%));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 -3px 8px rgba(0, 0, 0, 0.08), 0 8px 16px -10px rgba(21, 27, 46, 0.45);
+}
+@supports (color: oklch(0 0 0)) {
+  .app-icon {
+    background: linear-gradient(150deg, oklch(0.91 0.11 calc(var(--h) + 18)), oklch(0.7 0.17 var(--h2, var(--h))));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 -3px 8px rgba(0, 0, 0, 0.08),
+      0 8px 16px -10px oklch(0.45 0.16 var(--h2, var(--h)) / 0.7);
+  }
+}
+@supports (corner-shape: squircle) {
+  .app-icon { border-radius: 38%; corner-shape: squircle; }
+}
+.app-icon::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 75% at 28% 0%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 58%);
+  pointer-events: none;
+}
+.app-emoji {
+  position: relative;
+  font-size: calc(var(--s) * 0.54);
+  line-height: 1;
+  filter: drop-shadow(0 3px 4px rgba(21, 27, 46, 0.2));
+}
+.app-icon-wrap { position: relative; display: inline-flex; flex-shrink: 0; }
+/* 홈 화면 알림 배지처럼 아이콘 모서리에 */
+.app-badge {
+  position: absolute;
+  top: -5px;
+  right: -7px;
+  padding: 2.5px 4.5px 3px;
+  border-radius: 999px;
+  background: var(--badge);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  box-shadow: 0 0 0 2px var(--surface);
+}
+
+/* ---------------------------------------------------------------
+   스켈레톤 (summary 기다리는 동안)
+   --------------------------------------------------------------- */
+.sk {
+  display: inline-block;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--sk-a) 0%, var(--sk-b) 50%, var(--sk-a) 100%) 0 0 / 200% 100%;
+  animation: sk 1.4s ease-in-out infinite;
+}
+.sk-num { width: 96px; height: 11px; }
+.sk-tiny { width: 36px; height: 8px; border-radius: 4px; }
+@keyframes sk {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+.no-js :is(.tile-meta, .cur-stats, .cur-dots, .cur-arrows, .tools, .sort) { display: none; }
+
+/* ---------------------------------------------------------------
+   큐레이션 캐러셀 ("소개시켜줄 미니앱")
+   --------------------------------------------------------------- */
+.cur { margin-top: 22px; }
+.cur-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.cur-head h2,
+.browse-head h2,
+.faq h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+.cur-arrows { display: none; gap: 8px; }
+/* 스와이프가 어려운 마우스 사용자에게만 화살표 (레이아웃은 그대로) */
+@media (hover: hover) and (pointer: fine) { .cur-arrows { display: flex; } }
+.cur-arrow {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+.cur-arrow svg { width: 18px; height: 18px; }
+.cur-arrow:hover:not(:disabled) { background: var(--surface-2); }
+.cur-arrow:disabled { opacity: 0.35; box-shadow: none; cursor: default; }
+
+.cur-track {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 4px var(--gutter) 22px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 var(--gutter);
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  /* 칸 가장자리에서 옆 카드가 잘리는 선을 부드럽게 (휴대폰에서는 화면 끝, 데스크톱에서는 가운데 칸 끝) */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+}
+.cur-track::-webkit-scrollbar { display: none; }
+.cur-item { display: flex; flex: 0 0 86%; scroll-snap-align: start; }
+
+.cur-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+  color: var(--ink);
+  transition: transform 0.18s ease;
+}
+.cur-card:active { transform: scale(0.985); }
+.cur-card:focus-visible { outline-offset: 3px; border-radius: 24px; }
+.cur-art {
+  position: relative;
+  display: block;
+  height: 148px; /* 오늘의 미니앱은 위아래를 짧게 (사용자 요청) */
+  padding: 16px 18px 0;
+  overflow: hidden;
+  background: linear-gradient(155deg, hsl(var(--h, 230) 85% 93%), hsl(var(--h2, 212) 70% 80%));
+}
+@supports (color: oklch(0 0 0)) {
+  .cur-art {
+    background:
+      radial-gradient(90% 110% at 90% 100%, oklch(0.97 0.05 calc(var(--h) + 18) / 0.85), transparent 60%),
+      linear-gradient(160deg, oklch(0.95 0.045 calc(var(--h) + 18)), oklch(0.82 0.12 var(--h2, var(--h))));
+  }
+}
+.cur-top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cur-top .app-icon {
+  --s: 32px;
+  box-shadow: 0 0 0 2.5px rgba(255, 255, 255, 0.9), 0 6px 14px -6px rgba(21, 27, 46, 0.35);
+}
+.cur-top .app-badge { top: -6px; right: -9px; }
+.cur-kicker {
+  display: block;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: hsl(var(--h2, 212) 60% 34%);
+}
+@supports (color: oklch(0 0 0)) {
+  .cur-kicker { color: oklch(0.44 0.13 var(--h2, var(--h))); }
+}
+.cur-headline {
+  position: relative;
+  z-index: 1;
+  margin: 10px 0 0;
+  max-width: 13em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  font-family: var(--font-display);
+  color: #151b2e;
+}
+.cur-giant {
+  position: absolute;
+  right: -8px;
+  bottom: -24px;
+  z-index: 0;
+  font-size: 104px;
+  line-height: 1;
+  transform: rotate(-12deg);
+  filter: drop-shadow(0 18px 22px rgba(21, 27, 46, 0.22));
+  user-select: none;
+}
+.cur-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  padding: 12px 16px 14px;
+}
+.cur-blurb {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(1.5em * 2);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.cur-foot { display: flex; align-items: center; gap: 12px; margin-top: auto; }
+.cur-app { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.cur-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.cur-stats { display: flex; min-height: 17px; font-size: 12.5px; color: var(--ink-2); }
+.cur-stats-vis { display: flex; flex-wrap: wrap; gap: 0 10px; }
+.c-star { font-family: var(--font-display); font-weight: 700; color: var(--ink); }
+.c-star::before, .t-star::before { content: '★'; color: var(--star); margin-right: 3px; font-family: var(--font-sans); }
+.cur-cta {
+  flex-shrink: 0;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  transition: filter 0.15s ease;
+}
+html:lang(th) .cur-cta { line-height: 1.45; padding-top: 8px; padding-bottom: 8px; }
+@media (hover: hover) { .cur-card:hover .cur-cta { filter: brightness(1.08); } }
+
+@media (prefers-color-scheme: dark) {
+  .cur-art { background: linear-gradient(155deg, hsl(var(--h, 230) 45% 30%), hsl(var(--h2, 212) 50% 20%)); }
+  @supports (color: oklch(0 0 0)) {
+    .cur-art {
+      background:
+        radial-gradient(90% 110% at 90% 100%, oklch(0.55 0.13 calc(var(--h) + 18) / 0.5), transparent 60%),
+        linear-gradient(160deg, oklch(0.42 0.1 calc(var(--h) + 18)), oklch(0.28 0.09 var(--h2, var(--h))));
+    }
+    .cur-kicker { color: oklch(0.86 0.09 calc(var(--h) + 18)); }
+  }
+  .cur-headline { color: #f4f6fc; }
+}
+
+.cur-dots { display: flex; justify-content: center; gap: 0; margin-top: -12px; }
+.cur-dot {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.cur-dot::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--ink-3);
+  opacity: 0.45;
+  transition: width 0.25s ease, opacity 0.25s ease, background-color 0.25s ease;
+}
+.cur-dot[aria-current="true"]::before { width: 18px; opacity: 1; background: var(--ink); }
+.cur-dot:focus-visible { border-radius: 999px; }
+
+
+/* ---------------------------------------------------------------
+   모든 미니앱: 제목·정렬 / 검색·카테고리 / 홈 화면 아이콘 격자
+   --------------------------------------------------------------- */
+.browse { margin-top: 30px; }
+.browse-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  margin-bottom: 12px;
+}
+.browse-head h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; min-width: 0; }
+.browse-count { font-size: 13px; font-weight: 700; letter-spacing: 0; color: var(--ink-3); white-space: nowrap; }
+.sort { flex-shrink: 0; margin-left: auto; }
+.sort-select {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 34px;
+  padding: 0 28px 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--chev) no-repeat right 10px center / 11px, var(--surface);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sort-select:hover { color: var(--ink); }
+
+.tools {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "search" "chips";
+  margin-bottom: 14px;
+}
+.search { grid-area: search; position: relative; }
+.search-ico {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  width: 17px;
+  height: 17px;
+  transform: translateY(-50%);
+  color: var(--ink-3);
+  pointer-events: none;
+}
+.search-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 14px 0 40px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.search-input::placeholder { color: var(--ink-3); }
+.search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.search-input::-webkit-search-cancel-button { cursor: pointer; }
+
+.chips {
+  grid-area: chips;
+  display: flex;
+  gap: 6px;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 2px var(--gutter);
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-padding: 0 var(--gutter);
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex-shrink: 0;
+  height: 34px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.chip:hover { color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+
+/* 아이콘들이 놓이는 판 (iOS 앱 보관함 폴더처럼) */
+.shelf {
+  padding: 22px 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow-1);
+}
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px 4px;
+}
+
+.tile-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 2px 6px;
+  border-radius: 18px;
+  text-align: center;
+}
+.tile-link .app-icon {
+  --s: 60px;
+  --s: clamp(54px, 15.6cqi, 66px);
+  transition: transform 0.14s ease, box-shadow 0.2s ease;
+}
+.tile-link:active .app-icon { transform: scale(0.93); }
+@media (hover: hover) { .tile-link:hover .app-icon { transform: translateY(-2px); } }
+.tile-link:focus-visible { outline-offset: 0; }
+.tile-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 0 2px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+.tile-meta { display: flex; justify-content: center; min-height: 13px; margin-top: -3px; }
+.tile-meta-vis {
+  display: flex;
+  gap: 6px;
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.t-star::before { margin-right: 2px; }
+.t-plays { display: inline-flex; align-items: center; gap: 2px; }
+.t-plays::before,
+.c-plays::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  background: currentColor;
+  opacity: 0.8;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='7.5' r='4.5'/%3E%3Cpath d='M3.5 21c0-4.4 3.8-7.5 8.5-7.5s8.5 3.1 8.5 7.5z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='7.5' r='4.5'/%3E%3Cpath d='M3.5 21c0-4.4 3.8-7.5 8.5-7.5s8.5 3.1 8.5 7.5z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.c-plays { display: inline-flex; align-items: center; gap: 4px; }
+.c-plays::before { width: 11px; height: 11px; }
+.tile .app-badge { top: -4px; right: -6px; }
+
+/* 필터를 바꿨을 때만 짧게 */
+.grid.is-swap > .tile { animation: swap-in 0.22s ease both; }
+@keyframes swap-in { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: none; } }
+
+.apps-empty {
+  padding: 18px 12px 16px;
+  text-align: center;
+  color: var(--ink-2);
+  font-size: 14.5px;
+}
+.apps-empty p { margin: 0 auto; max-width: 34ch; }
+.btn-ghost {
+  margin-top: 14px;
+  height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------
+   자주 묻는 질문 (포털 맨 아래, 보이는 FAQ)
+   --------------------------------------------------------------- */
+.faq { margin-top: 48px; }
+.faq-list {
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  overflow: hidden;
+}
+.faq-item + .faq-item { border-top: 1px solid var(--line); }
+.faq-item summary {
+  position: relative;
+  padding: 17px 48px 17px 18px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--ink-3);
+  border-bottom: 2px solid var(--ink-3);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+.faq-item[open] summary::after { transform: translateY(-25%) rotate(-135deg); }
+.faq-item summary:focus-visible { outline-offset: -3px; }
+.faq-item p {
+  margin: 0;
+  padding: 0 18px 18px;
+  max-width: 68ch;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink-2);
+}
+
+/* ---------------------------------------------------------------
+   푸터 · 개인정보처리방침
+   --------------------------------------------------------------- */
+.hub-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 18px;
+  padding: 44px 0 28px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+.hub-footer a { text-decoration: underline; text-underline-offset: 3px; }
+.hub-footer a:hover { color: var(--ink); }
+
+.doc {
+  max-width: 720px;
+  padding: 28px 0 8px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-2);
+}
+.doc h1 { margin: 0 0 20px; font-size: 28px; line-height: 1.3; font-weight: 800; letter-spacing: -0.03em; color: var(--ink); }
+.doc h2 { margin: 30px 0 8px; font-size: 17px; font-weight: 800; color: var(--ink); }
+.doc p { margin: 0; }
+.doc a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot,
+  .hub-total.is-in,
+  .sk,
+  .grid.is-swap > .tile { animation: none; }
+  .chip, .search-input, .cur-card, .cur-cta, .cur-arrow, .cur-dot::before, .tile-link .app-icon { transition: none; }
+  .cur-track { scroll-behavior: auto; }
+}
+
+/* 하트(인기도) 숫자 */
+.t-hearts, .c-hearts { display: inline-flex; align-items: center; gap: 2px; font-weight: 700; }
+.t-hearts::before, .c-hearts::before { content: '♥'; color: #ff3b5c; margin-right: 1px; font-family: var(--font-sans); }
+.c-hearts { gap: 3px; color: var(--ink); }
+
+/* ---------------------------------------------------------------
+   좁은 폰(칸 폭 380px 미만): 머리글 브랜드가 언어 select(~125px)와 나란히, 카테고리 칩 네 개가 한 줄에.
+   기본 규칙보다 뒤에 있어야 이긴다(컨테이너 쿼리는 우선순위를 올리지 않는다).
+   --------------------------------------------------------------- */
+@container (max-width: 379px) {
+  .brand { gap: 7px; }
+  .brand-mark { width: 28px; height: 28px; }
+  .brand-word { font-size: 21px; gap: 5px; }
+  .brand-sub { padding: 0 6px; }
+  html:is(:lang(ko), :lang(ja), :lang(zh)) .brand-sub { font-size: 11.5px; }
+  .hub-top select { max-width: 124px; padding-right: 26px; }
+  .hub-top { gap: 8px; }
+  /* 카테고리 칩 네 개가 360px 한 줄에 들어가게 조금 촘촘히 (넘치면 가로로 밀린다) */
+  .chips { gap: 5px; }
+  .chip { padding: 0 12px; font-size: 13px; }
+}

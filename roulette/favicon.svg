@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<rect width="100" height="100" rx="24" fill="#FFE9F0"/>
+<circle cx="50" cy="54" r="43" fill="#F4B63F"/><circle cx="50" cy="54" r="43" fill="none" stroke="#B7741A" stroke-width="2"/>
+<path d="M50 54L57.15 18.72A36 36 0 0 1 80.01 34.11Z" fill="#FF4D7D"/><path d="M50 54L80.01 34.11A36 36 0 0 1 85.28 61.15Z" fill="#FF9F43"/><path d="M50 54L85.28 61.15A36 36 0 0 1 69.89 84.01Z" fill="#FFD84D"/><path d="M50 54L69.89 84.01A36 36 0 0 1 42.85 89.28Z" fill="#3ED6B0"/><path d="M50 54L42.85 89.28A36 36 0 0 1 19.99 73.89Z" fill="#4DB8FF"/><path d="M50 54L19.99 73.89A36 36 0 0 1 14.72 46.85Z" fill="#9C6BFF"/><path d="M50 54L14.72 46.85A36 36 0 0 1 30.11 23.99Z" fill="#FF85C8"/><path d="M50 54L30.11 23.99A36 36 0 0 1 57.15 18.72Z" fill="#A6E35A"/>
+<circle cx="50" cy="54" r="36" fill="none" stroke="rgba(70,14,40,.25)" stroke-width="1"/>
+<circle cx="50" cy="54" r="9" fill="#E8285A" stroke="#F4B63F" stroke-width="3"/>
+<path d="M50 26 C46 18 40 12 40 7 A10 10 0 0 1 60 7 C60 12 54 18 50 26Z" fill="#E8285A" stroke="#F4B63F" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

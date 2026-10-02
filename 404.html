@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<title>Redirecting…</title>
+<noscript><meta http-equiv="refresh" content="0; url=https://miniapp.melgene.com/"></noscript>
+<script>(function () {
+  var base = 'https://miniapp.melgene.com', known = ["aura","balance","candy-catch","costume","food-cup","ghost","ladder","life","merge","monster","past-life","pumpkin","reaction","roulette","team"], langs = ["ja","zh","ko","fr","de","th","vi","es","it","pt","ru"];
+  var p = location.pathname, tail = location.search + location.hash;
+  var m = p.match(/^\/(?:([a-z0-9-]+)\/)?en(?:\/(.*))?$/);
+  if (m && (!m[1] || known.indexOf(m[1]) >= 0)) { location.replace(base + '/' + (m[1] ? m[1] + '/' : '') + (m[2] || '') + tail); return; }
+  var seg = p.split('/'), s = seg[1];
+  if (known.indexOf(s) >= 0 && base !== location.origin) { location.replace(base + p + tail); return; }
+  var app = known.indexOf(s) >= 0 ? s + '/' : '';
+  var lg = app ? seg[2] : seg[1];
+  location.replace(base + '/' + app + (langs.indexOf(lg) >= 0 ? lg + '/' : '') + tail);
+})();</script>
+</head><body><a href="https://miniapp.melgene.com/">https://miniapp.melgene.com/</a></body></html>

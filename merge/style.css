@@ -1,0 +1,247 @@
+/* apps/merge/style.css — 수박 게임 할로윈 머지: 마녀의 보랏빛 밤 + 호박 주황 + 슬라임 라임, 유리병 같은 게임 칸, 두툼한 아케이드 글꼴.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 클래스 앞머리는 sk-(공통 컴포넌트의 mg- 와 겹치지 않게). 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --night-0: #0f0820;
+  --night-1: #1a0f2e;
+  --night-2: #3a2266;
+  --slime: #b8ff5c;
+  --slime-2: #86e02a;
+  --pumpkin: #ff8a1f;
+  --pumpkin-2: #d96a00;
+  --candy: #ff5fa2;
+  --candy-2: #ff8cc0;
+  --moon: #fff4c7;
+  --danger: #ff4d5e;
+  --ink: #fff6ea;
+  --ink-dim: rgba(255, 246, 234, 0.78);
+  --ink-faint: rgba(255, 246, 234, 0.52);
+  --dark: #1b1026;
+  --card: rgba(255, 255, 255, 0.07);
+  --line: rgba(255, 138, 31, 0.4);
+
+  --font-display: 'Lilita One', var(--font-sans);
+  --display-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--pumpkin);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(255, 246, 234, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 138, 31, 0.45);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd23f;
+  --mg-star-off: rgba(255, 246, 234, 0.2);
+  --mg-heart-bg: rgba(255, 95, 162, 0.1);
+  --mg-heart-border: rgba(255, 95, 162, 0.45);
+  --mg-heart-fg: var(--candy-2);
+  --mg-heart-on: var(--candy);
+  --mg-share-bg: rgba(255, 246, 234, 0.06);
+  --mg-share-border: rgba(255, 246, 234, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 246, 234, 0.05);
+  --mg-faq-border: rgba(255, 138, 31, 0.28);
+  --mg-end-retry-bg: var(--pumpkin);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(58, 34, 102, 0.97);
+}
+
+html { background: var(--night-0); }
+body.sk-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 120% 60% at 50% -12%, var(--night-2), var(--night-1) 50%, var(--night-0) 84%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.sk-h1, .sk-kicker, .sk-h1-main, .sk-h1-main em, .sk-badge, .sk-btn, .sk-how-txt, .sk-facts,
+.sk-hud-label, .sk-hud-val, .sk-full-title, .sk-paused-title,
+.sk-eyebrow, .sk-score-big, .sk-points, .sk-newbest, .sk-best, .sk-stat dt, .sk-stat-name, .sk-stat-num, .sk-top, .sk-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.sk-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.sk-screen { padding-top: 12px; }
+
+.sk-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.sk-btn-primary { background: var(--pumpkin); color: var(--dark); box-shadow: 0 5px 0 var(--pumpkin-2), 0 10px 26px rgba(255, 138, 31, 0.25); }
+.sk-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--pumpkin-2); }
+.sk-field:focus-visible { outline: none; border-color: rgba(184, 255, 92, 0.75); }
+.sk-btn:focus-visible, .sk-pause:focus-visible { outline: 3px solid var(--slime); outline-offset: 3px; }
+.sk-btn-sm { width: auto; min-height: 50px; padding: 10px 28px; font-size: 18px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.sk-start { text-align: center; padding-top: 14px; }
+.sk-badge {
+  display: inline-block; margin: 0 0 10px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 138, 31, 0.15); color: #ffb366;
+  border: 1.5px solid rgba(255, 138, 31, 0.5);
+  font-size: 13px; line-height: 1.35;
+}
+.sk-hero { position: relative; height: 150px; margin: 0 auto 4px; max-width: 300px; }
+.sk-hero-moon {
+  position: absolute; right: 18px; top: 4px; width: 44px; height: 44px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffbe6, var(--moon) 55%, #f2d98a);
+  box-shadow: 0 0 30px rgba(255, 244, 199, 0.45);
+}
+.sk-hero-jar { position: absolute; left: 50%; bottom: 0; width: 150px; height: auto; margin-left: -75px; filter: drop-shadow(0 6px 14px rgba(255, 138, 31, 0.3)); }
+.sk-hero-drop {
+  position: absolute; left: 50%; top: 0; margin-left: -6px; font-size: 28px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: sk-drop 2.2s cubic-bezier(.55, 0, 1, .45) infinite;
+}
+@keyframes sk-drop {
+  0% { transform: translateY(-4px); opacity: 0; }
+  15% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { transform: translateY(64px); opacity: 0; }
+}
+.sk-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.sk-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--slime); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.sk-h1-main { display: block; font-size: 34px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.35); }
+.sk-h1-main em { font-style: normal; color: var(--pumpkin); }
+.sk-hook { margin: 0 auto 16px; max-width: 390px; font-size: 16px; color: var(--ink-dim); }
+.sk-how {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin: 0 0 18px; padding: 0; list-style: none;
+}
+.sk-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px;
+  background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.sk-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.sk-how-txt { font-size: 13.5px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.sk-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.sk-play { padding-top: 6px; }
+.sk-hud {
+  display: grid; grid-template-columns: 1.2fr 1fr 0.9fr auto; gap: 6px; align-items: stretch;
+  margin: 0 auto 6px;
+}
+.sk-hud-box {
+  position: relative; display: flex; flex-direction: column; justify-content: center; min-width: 0;
+  padding: 4px 8px 5px; border-radius: 12px; background: rgba(255, 255, 255, 0.07); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.sk-hud-label { font-size: 11px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sk-hud-val { font-size: 22px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sk-hud-score .sk-hud-val { color: var(--slime); }
+.sk-hud-next { align-items: center; }
+.sk-hud-next .sk-hud-label { max-width: 100%; }
+.sk-next { display: block; width: 26px; height: 26px; margin-top: 1px; }
+.sk-pause {
+  display: grid; place-items: center; width: 44px; min-height: 44px; padding: 0;
+  border-radius: 12px; border: 1.5px solid rgba(255, 246, 234, 0.2); background: rgba(255, 255, 255, 0.07); cursor: pointer;
+}
+.sk-pause span { display: block; width: 14px; height: 16px; border-left: 5px solid var(--ink); border-right: 5px solid var(--ink); }
+.sk-chain { display: block; width: 100%; height: 30px; margin: 0 auto 6px; }
+
+.sk-field {
+  position: relative; margin: 0 auto; width: 100%; aspect-ratio: 2 / 3; max-width: 448px;
+  border-radius: 10px 10px 26px 26px; overflow: hidden; outline: none;
+  touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  border: 3px solid rgba(255, 246, 234, 0.42); border-top-color: rgba(255, 246, 234, 0.12);
+  background:
+    radial-gradient(ellipse 70% 40% at 50% 100%, rgba(184, 255, 92, 0.1), transparent 70%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 0 3%, transparent 7%, transparent 93%, rgba(255, 255, 255, 0.05) 97%),
+    linear-gradient(180deg, rgba(58, 34, 102, 0.55) 0%, rgba(32, 18, 60, 0.85) 40%, #160c28 100%);
+  box-shadow: inset 0 -30px 50px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+.sk-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
+.sk-overlay {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  text-align: center; padding: 16px;
+}
+.sk-full { background: rgba(15, 8, 32, 0.45); pointer-events: none; }
+.sk-full-title {
+  margin: 0; padding: 6px 18px; border-radius: 14px; font-size: 30px; line-height: 1.2;
+  background: var(--danger); color: #fff; border: 3px solid var(--dark); transform: rotate(-3deg);
+}
+.sk-paused { background: rgba(15, 8, 32, 0.72); }
+.sk-paused-title { margin: 0; font-size: 34px; line-height: 1.2; color: var(--ink); }
+
+/* ---------------- 끝 화면: 점수 카드 ---------------- */
+.sk-end { padding-top: 10px; }
+.sk-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(58, 34, 102, 0.92), rgba(26, 15, 46, 0.96));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.sk-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--danger); color: #fff; font-size: 16px; line-height: 1.35;
+}
+.sk-score-line { margin: 4px 0 0; line-height: 1; }
+.sk-score-big { font-size: 68px; line-height: 1.05; color: var(--slime); font-variant-numeric: tabular-nums; text-shadow: 0 4px 0 var(--dark); }
+.sk-points { font-size: 20px; color: var(--ink-dim); }
+.sk-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--slime); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.sk-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.sk-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.sk-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12); }
+.sk-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.sk-stat dd { margin: 4px 0 0; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.sk-stat-ico { display: block; width: 40px; height: 40px; }
+.sk-stat-name { font-size: 15px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.sk-stat-num { font-size: 26px; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
+.sk-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(184, 255, 92, 0.08); border: 1.5px dashed rgba(184, 255, 92, 0.4); }
+.sk-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.sk-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--slime); }
+.sk-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.sk-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .sk-h1-main, html:lang(th) .sk-kicker, html:lang(th) .sk-how-txt, html:lang(th) .sk-btn, html:lang(th) .sk-hook { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .sk-hud-label, html:lang(th) .sk-stat dt, html:lang(th) .sk-stat-name { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .sk-h1-main, html:lang(vi) .sk-kicker { line-height: 1.3; }
+html:lang(ja) .sk-h1-main, html:lang(zh) .sk-h1-main, html:lang(ko) .sk-h1-main { font-size: 32px; line-height: 1.25; }
+html:lang(ja) .sk-how-txt, html:lang(zh) .sk-how-txt, html:lang(ko) .sk-how-txt { font-size: 13px; }
+html:lang(ru) .sk-h1-main, html:lang(vi) .sk-h1-main { font-size: 31px; }
+html:lang(ru) .sk-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.sk-doc { padding: 16px 0 8px; }
+.sk-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.sk-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--pumpkin); }
+.sk-doc p { color: var(--ink-dim); font-size: 15px; }
+.sk-doc a, .site-footer a { color: #ffb366; }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .sk-hero-drop { animation: none; top: 18px; }
+  .sk-btn { transition: none; }
+}
+@media (max-width: 359px) {
+  .sk-h1-main { font-size: 29px; }
+  .sk-hud-val { font-size: 19px; }
+}

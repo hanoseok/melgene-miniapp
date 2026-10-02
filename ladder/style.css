@@ -1,0 +1,461 @@
+/* apps/ladder/style.css — 사다리타기 전용 스타일
+ * 컨셉: 따뜻한 마리골드 옐로 + 진한 잉크 아웃라인 + 선명한 플레이어 컬러의 "보드게임/코믹" 룩.
+ * past-life(밤/금빛 신비)·hub(담백한 화이트/코랄)와는 완전히 다른 방향 — 밝고 통통 튀는 대비.
+ */
+
+:root {
+  --sun: #ffc93c;
+  --sun-deep: #ffb100;
+  --sun-soft: #ffe28a;
+  --cream: #fff8e8;
+  --ink: #221e14;
+  --ink-dim: rgba(34, 30, 20, 0.64);
+  --ink-faint: rgba(34, 30, 20, 0.42);
+  --line: rgba(34, 30, 20, 0.16);
+  --pop: #ff5d5d;
+  --pop-deep: #e8433f;
+  --violet: #7c5cff;
+  --good: #2fbf71;
+  --card-shadow: 5px 5px 0 var(--ink);
+  --card-shadow-sm: 3px 3px 0 var(--ink);
+  --font-display: 'Jua', var(--font-sans);
+
+  /* 공통 컴포넌트(맨 위 타이틀 바·끝 화면·공유·FAQ) 색을 사다리타기 톤에 맞춘다 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--ink);
+  --mg-top-badge-fg: var(--sun);
+  --lang-bg: var(--cream);
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  --mg-star-on: var(--sun-deep);
+  --mg-star-off: rgba(34, 30, 20, 0.18);
+  --mg-heart-bg: rgba(255, 93, 93, 0.1);
+  --mg-heart-border: rgba(255, 93, 93, 0.4);
+  --mg-heart-fg: var(--pop-deep);
+  --mg-heart-on: var(--pop-deep);
+  --mg-share-bg: var(--cream);
+  --mg-share-border: var(--ink);
+  --mg-share-primary-bg: var(--ink);
+  --mg-share-primary-fg: var(--cream);
+  --mg-faq-bg: var(--cream);
+  --mg-faq-border: var(--ink);
+  --mg-end-retry-bg: var(--pop);
+  --mg-end-retry-fg: #fff3ea;
+}
+/* Jua에는 가나가 없으므로 일본어 페이지는 둥근 고딕(M PLUS Rounded 1c)으로 같은 톤을 낸다.
+   중국어(간체)·태국어·베트남어도 각각 글자를 지원하는 둥글고 통통한 글꼴로 맞춘다.
+   Jua 는 라틴 확장 글자(é ã õ ç à è ì ò ù …)가 모자라 fr·de·es·it·pt 는 Fredoka.
+   Jua·Fredoka 모두 키릴 문자가 없어 ru 는 같은 코믹 손글씨 톤의 Balsamiq Sans(cyrillic 포함). */
+html:lang(ja) { --font-display: 'M PLUS Rounded 1c', var(--font-sans); }
+html:lang(zh) { --font-display: 'ZCOOL KuaiLe', var(--font-sans); }
+html:lang(th) { --font-display: 'Mali', var(--font-sans); }
+html:lang(vi) { --font-display: 'Baloo 2', var(--font-sans); }
+html:lang(fr), html:lang(de), html:lang(es), html:lang(it), html:lang(pt) { --font-display: 'Fredoka', var(--font-sans); }
+html:lang(ru) { --font-display: 'Balsamiq Sans', var(--font-sans); }
+
+html { background: var(--sun); }
+
+body.ldr-body {
+  background:
+    radial-gradient(60% 50% at 15% 0%, rgba(255, 255, 255, 0.5), transparent 60%),
+    linear-gradient(180deg, var(--sun-soft), var(--sun) 30%, var(--sun-deep) 100%);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+.ldr-shell {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px 8px;
+}
+
+/* ---------------- 공통 버튼: 통통 튀는 코믹 아웃라인 ---------------- */
+.ldr-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 18px;
+  border: 3px solid var(--ink);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.ldr-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+.ldr-btn-primary { background: var(--pop); color: #fff3ea; }
+.ldr-btn-secondary { background: var(--cream); color: var(--ink); margin: 18px 0 4px; }
+
+.ldr-mini-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 2.5px solid var(--ink);
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--card-shadow-sm);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+}
+.ldr-mini-btn:active { transform: translate(2px, 2px); box-shadow: 0 0 0 var(--ink); }
+.ldr-mini-btn-accent { background: var(--violet); color: #fff; }
+
+/* ---------------- 설정 화면 ---------------- */
+.ldr-setup { padding-top: 40px; display: none; }
+.ldr-setup.active { display: block; }
+
+.ldr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--cream);
+  border: 2.5px solid var(--ink);
+  font-size: 12.5px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  box-shadow: var(--card-shadow-sm);
+}
+
+.ldr-setup h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.32;
+  margin: 0 0 12px;
+}
+.ldr-setup h1 em {
+  /* base.css 의 :lang(zh|th|vi|ru) 글꼴 규칙이 em 에도 걸려 제목 글꼴 상속이 끊기므로 다시 물려받는다 */
+  font-family: inherit;
+  font-style: normal;
+  color: var(--pop-deep);
+  display: inline-block;
+  animation: ldr-wiggle 2.6s ease-in-out infinite;
+}
+@keyframes ldr-wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.ldr-hook {
+  font-size: 14.5px;
+  color: var(--ink-dim);
+  line-height: 1.7;
+  margin: 0 0 22px;
+  max-width: 320px;
+}
+
+.ldr-card {
+  background: var(--cream);
+  border: 3px solid var(--ink);
+  border-radius: 24px;
+  padding: 22px 18px 20px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 20px;
+}
+
+.ldr-field-label {
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: var(--ink-dim);
+  margin: 18px 0 10px;
+}
+.ldr-card > .ldr-field-label:first-child { margin-top: 0; }
+.ldr-field-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 18px 0 10px;
+}
+.ldr-field-label-row .ldr-field-label { margin: 0; }
+
+/* 인원 스테퍼 */
+.ldr-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #fff;
+  border: 2.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 10px;
+}
+.ldr-step-btn {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 2.5px solid var(--ink);
+  background: var(--sun);
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.12s ease;
+}
+.ldr-step-btn:active { transform: scale(0.9); }
+.ldr-step-num {
+  font-family: var(--font-display);
+  font-size: 26px;
+  min-width: 48px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 프리셋 */
+.ldr-presets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.ldr-preset-btn {
+  padding: 11px 8px;
+  border-radius: 14px;
+  border: 2.5px solid var(--ink);
+  background: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--ink);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+.ldr-preset-btn:active { transform: translate(2px, 2px); box-shadow: 0 0 0 var(--ink); }
+.ldr-preset-btn.active { background: var(--sun-soft); }
+
+/* 이름/결과 편집 리스트 */
+.ldr-edit-list { display: flex; flex-direction: column; gap: 8px; }
+.ldr-edit-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ldr-edit-dot {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  flex-shrink: 0;
+}
+.ldr-edit-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 2px solid var(--ink);
+  background: #fff;
+  color: var(--ink);
+  font-size: 14.5px;
+  font-family: inherit;
+}
+.ldr-edit-row input:focus { outline: 2px solid var(--violet); outline-offset: 1px; }
+
+/* ---------------- 플레이 화면 ---------------- */
+.ldr-play { display: none; padding-top: 24px; }
+.ldr-play.active { display: block; }
+
+.ldr-play-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.ldr-play-toolbar .ldr-mini-btn { flex: 1; justify-content: center; }
+
+.ldr-board {
+  background: var(--cream);
+  border: 3px solid var(--ink);
+  border-radius: 24px;
+  padding: 16px 10px 14px;
+  box-shadow: var(--card-shadow);
+}
+
+.ldr-row { display: flex; width: 100%; }
+.ldr-row > * { flex: 1 1 0; min-width: 0; display: flex; justify-content: center; }
+
+.ldr-player-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  min-width: 0;
+  background: none;
+  border: none;
+  padding: 4px 2px 8px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.ldr-player-avatar {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  border: 2.5px solid var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: #fff;
+  transition: transform 0.15s cubic-bezier(.34,1.56,.64,1);
+}
+.ldr-player-chip:active .ldr-player-avatar { transform: scale(0.85); }
+.ldr-player-chip.revealed .ldr-player-avatar { box-shadow: 0 0 0 3px rgba(255,255,255,0.6) inset; }
+.ldr-player-name {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--ink);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.ldr-canvas-wrap { width: 100%; margin: 2px 0; }
+#ladder-canvas { display: block; width: 100%; }
+
+.ldr-result-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 6px 3px;
+  border-radius: 10px;
+  border: 2.5px dashed var(--ink-faint);
+  background: rgba(34,30,20,0.04);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.25;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+/* 일본어는 띄어쓰기가 없어 keep-all 이면 줄바꿈이 안 된다 */
+html:lang(ja) .ldr-result-chip { word-break: normal; }
+.ldr-result-chip.revealed {
+  border-style: solid;
+  border-color: var(--ink);
+  color: var(--ink);
+  background: #fff;
+  animation: ldr-pop 0.42s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes ldr-pop {
+  0% { transform: scale(0.4); opacity: 0.3; }
+  60% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.ldr-hint {
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--ink-dim);
+  margin: 12px 0 0;
+}
+
+.ldr-results-section { display: none; }
+.ldr-results-section.show { display: block; animation: ldr-fade-up 0.4s ease; }
+@keyframes ldr-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.ldr-section-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--ink);
+  margin: 30px 0 12px;
+}
+.ldr-results-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.ldr-results-table tr {
+  background: var(--cream);
+}
+.ldr-results-table td {
+  border-top: 2.5px solid var(--ink);
+  border-bottom: 2.5px solid var(--ink);
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.ldr-results-table td:first-child {
+  border-left: 2.5px solid var(--ink);
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ldr-results-table td:last-child {
+  border-right: 2.5px solid var(--ink);
+  border-radius: 0 12px 12px 0;
+  text-align: right;
+  color: var(--pop-deep);
+}
+.ldr-results-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  flex-shrink: 0;
+}
+
+/* ---------------- 공통 컴포넌트를 사다리타기 톤에 맞추는 최소 오버라이드 ----------------
+   색은 위쪽 --mg-* 변수로 대부분 맞춘다. 여기서는 잉크 아웃라인/오프셋 섀도 같은
+   보드게임 질감만 얹는다(구조·동작은 shared/common.js·base.css 그대로). */
+.ldr-body .more-test-card {
+  background: var(--cream);
+  border: 2.5px solid var(--ink);
+  box-shadow: var(--card-shadow-sm);
+}
+.ldr-body .mg-share-btn {
+  border-width: 2px;
+  border-radius: 14px;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+.ldr-body .mg-share-native,
+.ldr-body .mg-share-kakao { box-shadow: none; }
+.ldr-body .mg-faq {
+  border-width: 2px;
+  border-radius: 14px;
+}
+.ldr-body .mg-end-retry {
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: var(--card-shadow);
+  font-family: var(--font-display);
+  font-weight: 400;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.ldr-body .mg-end-retry:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.ldr-body .site-footer { opacity: 0.62; }
+.ldr-body .site-footer a { color: var(--ink); }
+
+/* ---------------- 반응형 세이프가드 ---------------- */
+@media (max-width: 359px) {
+  .ldr-setup h1 { font-size: 27px; }
+  .ldr-player-name { font-size: 9.5px; }
+  .ldr-result-chip { font-size: 9px; }
+}
+
+/* ---------------- 모션 감소 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
