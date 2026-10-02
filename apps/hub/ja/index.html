@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 15,
+  "numberOfItems": 17,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -184,6 +184,20 @@
       "url": "https://costume.example.com/ja/",
       "name": "ハロウィン仮装診断",
       "description": "パーティーの12シーンで、今年のあなたにぴったりの仮装を診断。手作りのコツ付き、約2分。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "url": "https://invite.example.com/ja/",
+      "name": "ハロウィン招待状メーカー",
+      "description": "パーティー名・日時・場所・ひとことを入れて、おばけ・かぼちゃ・コウモリ・魔女のテーマで招待状を作ろう。画像保存、リンク共有、テキストコピーもOK。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "url": "https://lunch.example.com/ja/",
+      "name": "今日のご飯 何食べる",
+      "description": "朝・昼・夜・夜食と気分を選んでスロットを回すだけ。食べたくないメニューは除外して、もう一度回せます。"
     }
   ]
 }
@@ -259,6 +273,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="invite">
+        <a class="cur-card" href="https://invite.example.com/ja/" style="--h:11;--h2:353">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">自分で作る</span></span>
+            <h3 class="cur-headline">ハロウィンパーティーの招待状を作ろう</h3>
+            <span class="cur-giant" aria-hidden="true">💌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">パーティーの情報を入れてテーマを選び、保存・シェア。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ハロウィン招待状メーカー</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lunch">
+        <a class="cur-card" href="https://lunch.example.com/ja/" style="--h:322;--h2:304">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">迷ったら</span></span>
+            <h3 class="cur-headline">今日のごはんをスロットで決めよう</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">食事と気分を選べば、スロットが決めてくれる。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">今日のご飯 何食べる</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="merge">
         <a class="cur-card" href="https://merge.example.com/ja/" style="--h:218;--h2:200">
           <span class="cur-art">
@@ -323,45 +369,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="candy-catch">
-        <a class="cur-card" href="https://candy-catch.example.com/ja/" style="--h:193;--h2:175">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">1分ハロウィンゲーム</span></span>
-            <h3 class="cur-headline">落ちてくるお菓子をキャッチ！</h3>
-            <span class="cur-giant" aria-hidden="true">🍬</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">クモはよけて、お菓子だけ集めてハイスコアに挑戦。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ハロウィン お菓子キャッチ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="aura">
-        <a class="cur-card" href="https://aura.example.com/ja/" style="--h:241;--h2:223">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">今日の診断</span></span>
-            <h3 class="cur-headline">あなたのオーラは何色？</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">いくつかの場面の質問で、あなたのオーラカラーがわかる。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">オーラ診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">15件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">17件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -383,6 +397,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="invite" data-cat="create">
+        <a class="tile-link" href="https://invite.example.com/ja/" title="パーティー名・日時・場所・ひとことを入れて、おばけ・かぼちゃ・コウモリ・魔女のテーマで招待状を作ろう。画像保存、リンク共有、テキストコピーもOK。" style="--h:11;--h2:353">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ハロウィン招待状メーカー</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lunch" data-cat="vote">
+        <a class="tile-link" href="https://lunch.example.com/ja/" title="朝・昼・夜・夜食と気分を選んでスロットを回すだけ。食べたくないメニューは除外して、もう一度回せます。" style="--h:322;--h2:304">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">今日のご飯 何食べる</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="merge" data-cat="game">
         <a class="tile-link" href="https://merge.example.com/ja/" title="お菓子をビンに落として、同じもの同士をくっつけると大きく進化。線を越えないように巨大ジャック・オー・ランタンを目指そう。" style="--h:218;--h2:200">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>

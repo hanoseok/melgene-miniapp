@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'invite',
+        kicker: '직접 만들기',
+        headline: '할로윈 파티 초대장 만들기',
+        blurb: '파티 정보를 적고 테마를 골라 저장하거나 보내요.',
+      },
+      {
+        id: 'lunch',
+        kicker: '뭐 먹을지 고민?',
+        headline: '오늘 메뉴, 슬롯으로 돌려요',
+        blurb: '식사와 기분을 고르면 슬롯머신이 정해 줘요.',
+      },
+      {
         id: 'merge',
         kicker: '한 판 게임',
         headline: '같은 것끼리 합쳐 키우기',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: '팀 나누기',
         headline: '한 번에 공평하게 랜덤 조 편성',
         blurb: '이름을 넣고 팀 수를 고른 뒤 섞기만 하면 끝.',
-      },
-      {
-        id: 'candy-catch',
-        kicker: '1분 할로윈 게임',
-        headline: '떨어지는 사탕을 바구니로 쏙!',
-        blurb: '거미는 피하고 사탕만 모아 최고 점수에 도전해요.',
-      },
-      {
-        id: 'aura',
-        kicker: '오늘의 심리테스트',
-        headline: '지금 나를 감싼 오라는 무슨 색?',
-        blurb: '몇 가지 상황 질문으로 내 오라 컬러를 알아봐요.',
       },
     ],
   },

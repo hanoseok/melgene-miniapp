@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'invite',
+        kicker: 'Selbst gestalten',
+        headline: 'Halloween-Einladung gestalten',
+        blurb: 'Party-Infos eintragen, Motiv wählen, speichern oder teilen.',
+      },
+      {
+        id: 'lunch',
+        kicker: 'Keine Ahnung, was essen?',
+        headline: 'Dreh den Slot für dein Essen',
+        blurb: 'Mahlzeit und Stimmung wählen, der Slot entscheidet.',
+      },
+      {
         id: 'merge',
         kicker: 'Schnelles Spiel',
         headline: 'Fallen lassen, verschmelzen, wachsen',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Teams einteilen',
         headline: 'Faire Zufallsteams mit einem Tipp',
         blurb: 'Namen eingeben, Teamanzahl wählen und mischen.',
-      },
-      {
-        id: 'candy-catch',
-        kicker: '1-Minuten-Halloween-Spiel',
-        headline: 'Fang die fallenden Süßigkeiten!',
-        blurb: 'Weich den Spinnen aus, sammle Süßes und hol dir den Highscore.',
-      },
-      {
-        id: 'aura',
-        kicker: 'Persönlichkeitstest',
-        headline: 'Welche Farbe hat deine Aura?',
-        blurb: 'Ein paar Alltagssituationen verraten deine Aurafarbe.',
       },
     ],
   },

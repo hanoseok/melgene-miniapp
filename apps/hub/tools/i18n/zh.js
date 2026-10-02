@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'invite',
+        kicker: '自己动手做',
+        headline: '制作万圣节派对邀请函',
+        blurb: '填好派对信息、选个主题，就能保存或分享。',
+      },
+      {
+        id: 'lunch',
+        kicker: '选择困难？',
+        headline: '今天吃什么，转一转老虎机',
+        blurb: '选好餐点和心情，让老虎机帮你决定。',
+      },
+      {
         id: 'merge',
         kicker: '小游戏',
         headline: '相同的碰一起，越合越大',
@@ -48,18 +60,6 @@ module.exports = {
         kicker: '随机分组',
         headline: '一键公平随机分组',
         blurb: '输入名字，选好组数，一点就分。',
-      },
-      {
-        id: 'candy-catch',
-        kicker: '1分钟万圣节游戏',
-        headline: '接住从天而降的糖果！',
-        blurb: '躲开蜘蛛，只收糖果，挑战最高分。',
-      },
-      {
-        id: 'aura',
-        kicker: '今日心理测试',
-        headline: '你的气场是什么颜色？',
-        blurb: '回答几个日常情境题，测出你的灵气颜色。',
       },
     ],
   },

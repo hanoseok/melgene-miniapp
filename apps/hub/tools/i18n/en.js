@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'invite',
+        kicker: 'Make it yourself',
+        headline: 'Make a Halloween party invitation',
+        blurb: 'Add the party details, pick a theme, then save or share it.',
+      },
+      {
+        id: 'lunch',
+        kicker: 'Can\'t decide?',
+        headline: 'Spin the reel for today\'s meal',
+        blurb: 'Pick a meal and a mood and let the slot machine choose.',
+      },
+      {
         id: 'merge',
         kicker: 'Quick game',
         headline: 'Drop, match, merge, grow',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: 'Split into teams',
         headline: 'Fair random teams in one tap',
         blurb: 'Type the names, pick how many teams and shuffle.',
-      },
-      {
-        id: 'candy-catch',
-        kicker: '1-minute Halloween game',
-        headline: 'Catch the falling candy!',
-        blurb: 'Dodge the spooky stuff, grab the sweets and chase a high score.',
-      },
-      {
-        id: 'aura',
-        kicker: 'Personality quiz',
-        headline: 'What color is your aura?',
-        blurb: 'A few everyday situations reveal the color around you.',
       },
     ],
   },

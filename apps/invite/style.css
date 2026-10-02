@@ -1,0 +1,199 @@
+/* apps/invite/style.css — 할로윈 파티 초대장 만들기: 밤보라 + 호박 주황 + 촛불 노랑.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 초대장 그림은 canvas(invite.js) — 둥둥 떠다니는 시작 화면 이모지(.iv-hero)는 prefers-reduced-motion 이면 멈춘다.
+ */
+:root {
+  --night-0: #0b0616;
+  --night-1: #1c0b33;
+  --night-2: #3a1a63;
+  --orange: #ff9a3c;
+  --orange-2: #ff6a1f;
+  --candle: #ffe08a;
+  --lav: #d8c2ff;
+  --ink: #fbf3ff;
+  --ink-dim: rgba(251, 243, 255, 0.78);
+  --ink-faint: rgba(251, 243, 255, 0.48);
+  --line: rgba(255, 154, 60, 0.4);
+  --on-orange: #2a1000;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--orange);
+  --mg-top-badge-fg: var(--on-orange);
+  --lang-bg: rgba(251, 243, 255, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 154, 60, 0.45);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd98a;
+  --mg-star-off: rgba(251, 243, 255, 0.2);
+  --mg-heart-bg: rgba(255, 128, 170, 0.1);
+  --mg-heart-border: rgba(255, 128, 170, 0.42);
+  --mg-heart-fg: #ffa3c2;
+  --mg-heart-on: #ff6f9c;
+  --mg-share-bg: rgba(251, 243, 255, 0.06);
+  --mg-share-border: rgba(251, 243, 255, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(251, 243, 255, 0.05);
+  --mg-faq-border: rgba(255, 154, 60, 0.28);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--candle), var(--orange));
+  --mg-end-retry-fg: var(--on-orange);
+  --toast-bg: rgba(58, 26, 99, 0.96);
+}
+
+html { background: var(--night-0); }
+body.iv-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 45%, var(--night-0) 80%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.iv-h1, .iv-kicker, .iv-h1-main, .iv-h1-main em, .iv-badge, .iv-btn, .iv-edit-title, .iv-theme,
+.iv-eyebrow, .iv-label, .iv-doc h1 {
+  font-family: var(--font-display);
+}
+.iv-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.iv-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.iv-screen { padding-top: 12px; }
+
+.iv-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px;
+  padding: 12px 18px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.iv-btn-primary {
+  background: linear-gradient(135deg, var(--candle), var(--orange) 55%, var(--orange-2));
+  color: var(--on-orange);
+  box-shadow: 0 10px 28px -8px rgba(255, 106, 31, 0.65), inset 0 -4px 0 rgba(120, 40, 0, 0.22);
+}
+.iv-btn-soft {
+  background: rgba(251, 243, 255, 0.08);
+  color: var(--ink);
+  border: 1.5px solid rgba(255, 154, 60, 0.45);
+}
+.iv-btn-sm { min-height: 50px; font-size: 16px; padding: 10px 12px; }
+.iv-btn:active { transform: scale(0.97); }
+.iv-btn:disabled { opacity: 0.6; cursor: progress; }
+.iv-btn:focus-visible, .iv-theme:focus-visible, .iv-input:focus-visible {
+  outline: 3px solid var(--candle); outline-offset: 3px;
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.iv-start { text-align: center; padding-top: 18px; }
+.iv-badge {
+  display: inline-block; margin: 0 0 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 154, 60, 0.16); border: 1px solid var(--line);
+  color: var(--candle); font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.iv-hero {
+  position: relative; width: 220px; height: 200px; margin: 0 auto;
+  border-radius: 36px;
+  background: radial-gradient(circle at 50% 45%, rgba(255, 154, 60, 0.3), transparent 68%);
+}
+.iv-hero span { position: absolute; line-height: 1; }
+.iv-hero-env { left: 50%; top: 50%; font-size: 112px; transform: translate(-50%, -50%); animation: iv-bob 3.4s ease-in-out infinite; }
+.iv-hero-bat { left: 10px; top: 14px; font-size: 44px; animation: iv-bob 2.8s ease-in-out infinite -0.8s; }
+.iv-hero-pumpkin { right: 8px; top: 26px; font-size: 48px; animation: iv-bob 3.1s ease-in-out infinite -1.4s; }
+.iv-hero-ghost { right: 30px; bottom: 6px; font-size: 52px; animation: iv-bob 3.6s ease-in-out infinite -2s; }
+@keyframes iv-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+.iv-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.iv-kicker { display: block; margin-bottom: 6px; font-size: 15px; letter-spacing: 0.03em; color: var(--candle); }
+.iv-h1-main { display: block; font-size: 40px; color: var(--ink); text-shadow: 0 4px 0 rgba(11, 6, 22, 0.6); }
+.iv-h1-main em { font-style: normal; color: var(--orange); text-shadow: 0 0 22px rgba(255, 154, 60, 0.55), 0 4px 0 rgba(11, 6, 22, 0.6); }
+.iv-hook { margin: 0 auto 20px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+
+/* ---------------- 편집기 ---------------- */
+.iv-edit-title { margin: 0 0 10px; font-size: 22px; line-height: 1.3; text-align: center; font-weight: var(--display-weight); color: var(--candle); }
+.iv-themes {
+  display: flex; gap: 8px; margin: 0 -16px 12px; padding: 2px 16px 6px;
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.iv-themes::-webkit-scrollbar { display: none; }
+.iv-theme {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  min-width: 72px; min-height: 64px; padding: 8px 12px;
+  border-radius: 18px; border: 2px solid rgba(251, 243, 255, 0.14);
+  background: rgba(11, 6, 22, 0.5); color: var(--ink-dim);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.iv-theme-emoji { font-size: 28px; line-height: 1.1; }
+.iv-theme.is-on { border-color: var(--orange); background: rgba(255, 154, 60, 0.18); color: var(--ink); box-shadow: 0 0 0 3px rgba(255, 154, 60, 0.25); }
+
+.iv-preview { width: 100%; max-width: 270px; margin: 0 auto 16px; }
+.iv-canvas {
+  display: block; width: 100%; height: auto; aspect-ratio: 1080 / 1500;
+  border-radius: 18px; background: var(--night-1);
+  box-shadow: 0 22px 44px -22px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 154, 60, 0.3);
+}
+
+.iv-field { display: block; margin-bottom: 12px; min-width: 0; }
+.iv-label { display: block; margin: 0 0 5px 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--candle); }
+.iv-input {
+  box-sizing: border-box; width: 100%; min-width: 0; min-height: 52px; padding: 12px 10px 12px 14px;
+  border-radius: 16px; border: 1.5px solid rgba(255, 154, 60, 0.4);
+  background: rgba(11, 6, 22, 0.55); color: var(--ink);
+  font: inherit; font-size: 17px; color-scheme: dark;
+}
+.iv-input::placeholder { color: var(--ink-faint); }
+.iv-input:focus { outline: none; border-color: var(--candle); box-shadow: 0 0 0 3px rgba(255, 224, 138, 0.25); }
+.iv-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+.iv-edit #done-btn { margin-top: 6px; }
+.iv-edit .mg-ad { margin-top: 20px; }
+
+/* ---------------- 끝 화면 ---------------- */
+.iv-card {
+  margin-top: 6px; padding: 18px 16px 16px;
+  border-radius: 28px; text-align: center;
+  background: radial-gradient(120% 60% at 50% 0%, rgba(255, 154, 60, 0.2), transparent 70%), linear-gradient(180deg, rgba(58, 26, 99, 0.88), rgba(28, 11, 51, 0.94));
+  border: 1.5px solid rgba(255, 154, 60, 0.45);
+  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.8);
+}
+.iv-eyebrow { margin: 0 0 12px; font-size: 16px; font-weight: var(--display-weight); line-height: 1.35; color: var(--candle); }
+.iv-end-canvas { max-width: 300px; margin: 0 auto 14px; }
+.iv-end-actions { display: grid; gap: 10px; }
+.iv-save-status { min-height: 1.4em; margin: 8px 0 0; font-size: 13.5px; color: var(--ink-dim); }
+.iv-save-status.is-bad { color: #ffa3c2; }
+
+/* ---------------- 개인정보 ---------------- */
+.iv-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.iv-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.25; }
+.iv-doc h2 { font-size: 17px; color: var(--candle); margin: 22px 0 6px; }
+.iv-doc a { text-decoration: underline; }
+
+.site-footer { color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .iv-body { line-height: 1.75; }
+html:lang(th) :is(.iv-h1-main, .iv-edit-title, .iv-theme, .iv-btn, .iv-label, .iv-eyebrow) { line-height: 1.45; letter-spacing: 0; }
+html:lang(th) .iv-kicker { letter-spacing: 0; }
+html:lang(vi) :is(.iv-h1-main) { line-height: 1.3; }
+
+@media (max-width: 374px) {
+  .iv-h1-main { font-size: 34px; }
+  .iv-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .iv-hero span { animation: none !important; }
+  .iv-btn { transition: none; }
+}

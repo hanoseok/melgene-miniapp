@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'invite',
+        kicker: 'Hazlo tú',
+        headline: 'Crea tu invitación de Halloween',
+        blurb: 'Pon los datos de la fiesta, elige un tema y guárdala o envíala.',
+      },
+      {
+        id: 'lunch',
+        kicker: '¿No sabes qué comer?',
+        headline: 'Gira la tragaperras y decide',
+        blurb: 'Elige comida y ánimo y deja que la máquina decida.',
+      },
+      {
         id: 'merge',
         kicker: 'Juego rápido',
         headline: 'Suelta, combina y crece',
@@ -43,18 +55,6 @@ module.exports = {
         kicker: 'Hacer equipos',
         headline: 'Equipos al azar y justos en un toque',
         blurb: 'Escribe los nombres, elige cuántos equipos y mezcla.',
-      },
-      {
-        id: 'candy-catch',
-        kicker: 'Juego de Halloween de 1 min',
-        headline: '¡Atrapa los dulces que caen!',
-        blurb: 'Esquiva las arañas, junta dulces y busca el récord.',
-      },
-      {
-        id: 'aura',
-        kicker: 'Test de personalidad',
-        headline: '¿De qué color es tu aura?',
-        blurb: 'Unas cuantas situaciones cotidianas revelan tu color.',
       },
     ],
   },

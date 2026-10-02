@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://invite.example.com/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/ja/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/zh/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/ko/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/fr/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/de/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/th/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/vi/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/es/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/it/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/pt/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+  <url>
+    <loc>https://invite.example.com/ru/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invite.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://invite.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://invite.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://invite.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invite.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invite.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://invite.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://invite.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invite.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://invite.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://invite.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://invite.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invite.example.com/"/>
+  </url>
+</urlset>

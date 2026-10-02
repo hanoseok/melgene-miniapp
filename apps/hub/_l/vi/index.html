@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 15,
+  "numberOfItems": 17,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -186,6 +186,20 @@
       "url": "https://costume.example.com/",
       "name": "Test hóa trang Halloween",
       "description": "12 khoảnh khắc trong bữa tiệc, khoảng 2 phút. Tìm bộ hóa trang Halloween hợp tính cách bạn, kèm mẹo tự làm."
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "url": "https://invite.example.com/",
+      "name": "Tạo thiệp mời tiệc Halloween",
+      "description": "Nhập tên tiệc, ngày, giờ, địa điểm và lời nhắn, chọn chủ đề ma, bí ngô, dơi hoặc phù thủy. Lưu thành ảnh, chia sẻ link hoặc sao chép nội dung."
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "url": "https://lunch.example.com/",
+      "name": "Hôm nay ăn gì",
+      "description": "Chọn bữa và tâm trạng rồi quay cuộn máy xèng để ra món ăn. Món không thích thì loại ra và quay lại."
     }
   ]
 }
@@ -261,6 +275,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="invite">
+        <a class="cur-card" href="https://invite.example.com/" style="--h:11;--h2:353">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tự tay làm</span></span>
+            <h3 class="cur-headline">Làm thiệp mời tiệc Halloween</h3>
+            <span class="cur-giant" aria-hidden="true">💌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Điền thông tin tiệc, chọn chủ đề rồi lưu hoặc chia sẻ.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tạo thiệp mời tiệc Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lunch">
+        <a class="cur-card" href="https://lunch.example.com/" style="--h:322;--h2:304">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Chưa biết ăn gì?</span></span>
+            <h3 class="cur-headline">Quay slot chọn bữa hôm nay</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Chọn bữa và tâm trạng, để máy slot quyết định.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Hôm nay ăn gì</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="merge">
         <a class="cur-card" href="https://merge.example.com/" style="--h:218;--h2:200">
           <span class="cur-art">
@@ -325,45 +371,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="candy-catch">
-        <a class="cur-card" href="https://candy-catch.example.com/" style="--h:193;--h2:175">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Game Halloween 1 phút</span></span>
-            <h3 class="cur-headline">Hứng kẹo đang rơi xuống!</h3>
-            <span class="cur-giant" aria-hidden="true">🍬</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Né nhện, chỉ gom kẹo và thử phá kỷ lục điểm.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Hứng kẹo Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="aura">
-        <a class="cur-card" href="https://aura.example.com/" style="--h:241;--h2:223">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm hôm nay</span></span>
-            <h3 class="cur-headline">Hào quang của bạn màu gì?</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Vài tình huống quen thuộc sẽ cho biết màu aura của bạn.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test màu aura</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">15 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">17 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -385,6 +399,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="invite" data-cat="create">
+        <a class="tile-link" href="https://invite.example.com/" title="Nhập tên tiệc, ngày, giờ, địa điểm và lời nhắn, chọn chủ đề ma, bí ngô, dơi hoặc phù thủy. Lưu thành ảnh, chia sẻ link hoặc sao chép nội dung." style="--h:11;--h2:353">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tạo thiệp mời tiệc Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lunch" data-cat="vote">
+        <a class="tile-link" href="https://lunch.example.com/" title="Chọn bữa và tâm trạng rồi quay cuộn máy xèng để ra món ăn. Món không thích thì loại ra và quay lại." style="--h:322;--h2:304">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Hôm nay ăn gì</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="merge" data-cat="game">
         <a class="tile-link" href="https://merge.example.com/" title="Thả kẹo vào hũ, hai món giống nhau chạm vào sẽ gộp thành món lớn hơn. Đừng để tràn vạch và nuôi đèn bí ngô khổng lồ." style="--h:218;--h2:200">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>

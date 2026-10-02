@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'invite',
+        kicker: 'Tự tay làm',
+        headline: 'Làm thiệp mời tiệc Halloween',
+        blurb: 'Điền thông tin tiệc, chọn chủ đề rồi lưu hoặc chia sẻ.',
+      },
+      {
+        id: 'lunch',
+        kicker: 'Chưa biết ăn gì?',
+        headline: 'Quay slot chọn bữa hôm nay',
+        blurb: 'Chọn bữa và tâm trạng, để máy slot quyết định.',
+      },
+      {
         id: 'merge',
         kicker: 'Game nhanh',
         headline: 'Thả, ghép, lớn dần',
@@ -47,18 +59,6 @@ module.exports = {
         kicker: 'Chia đội',
         headline: 'Chia đội ngẫu nhiên, công bằng',
         blurb: 'Nhập tên, chọn số đội rồi bấm trộn.',
-      },
-      {
-        id: 'candy-catch',
-        kicker: 'Game Halloween 1 phút',
-        headline: 'Hứng kẹo đang rơi xuống!',
-        blurb: 'Né nhện, chỉ gom kẹo và thử phá kỷ lục điểm.',
-      },
-      {
-        id: 'aura',
-        kicker: 'Trắc nghiệm hôm nay',
-        headline: 'Hào quang của bạn màu gì?',
-        blurb: 'Vài tình huống quen thuộc sẽ cho biết màu aura của bạn.',
       },
     ],
   },

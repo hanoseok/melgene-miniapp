@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "All mini apps",
   "inLanguage": "en",
-  "numberOfItems": 15,
+  "numberOfItems": 17,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -184,6 +184,20 @@
       "url": "https://costume.example.com/",
       "name": "Halloween Costume Quiz",
       "description": "12 party moments, about 2 minutes. Find the Halloween costume that fits your personality — with easy DIY tips."
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "url": "https://invite.example.com/",
+      "name": "Party Invitation Maker",
+      "description": "Add the party name, date, time, place and a note, pick a ghost, pumpkin, bat or witch theme and make a spooky invitation. Save the image, share a link or copy the text."
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "url": "https://lunch.example.com/",
+      "name": "What Should I Eat?",
+      "description": "Pick a meal and a mood, spin the slot-machine reels and get a dish to eat. Skip what you don’t like and spin again."
     }
   ]
 }
@@ -259,6 +273,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="invite">
+        <a class="cur-card" href="https://invite.example.com/" style="--h:11;--h2:353">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Make it yourself</span></span>
+            <h3 class="cur-headline">Make a Halloween party invitation</h3>
+            <span class="cur-giant" aria-hidden="true">💌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Add the party details, pick a theme, then save or share it.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Party Invitation Maker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lunch">
+        <a class="cur-card" href="https://lunch.example.com/" style="--h:322;--h2:304">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Can't decide?</span></span>
+            <h3 class="cur-headline">Spin the reel for today's meal</h3>
+            <span class="cur-giant" aria-hidden="true">🍽️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Pick a meal and a mood and let the slot machine choose.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">What Should I Eat?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="merge">
         <a class="cur-card" href="https://merge.example.com/" style="--h:218;--h2:200">
           <span class="cur-art">
@@ -323,45 +369,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="candy-catch">
-        <a class="cur-card" href="https://candy-catch.example.com/" style="--h:193;--h2:175">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">1-minute Halloween game</span></span>
-            <h3 class="cur-headline">Catch the falling candy!</h3>
-            <span class="cur-giant" aria-hidden="true">🍬</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dodge the spooky stuff, grab the sweets and chase a high score.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Halloween Candy Catch</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="aura">
-        <a class="cur-card" href="https://aura.example.com/" style="--h:241;--h2:223">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Personality quiz</span></span>
-            <h3 class="cur-headline">What color is your aura?</h3>
-            <span class="cur-giant" aria-hidden="true">🔮</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">A few everyday situations reveal the color around you.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Aura Color Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Show pick 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Show pick 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Show pick 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Show pick 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Show pick 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Show pick 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">15 apps</span></h2>
+      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">17 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sort by</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Newest</option><option value="popular">Popular</option><option value="rating">Top rated</option></select>
@@ -383,6 +397,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="invite" data-cat="create">
+        <a class="tile-link" href="https://invite.example.com/" title="Add the party name, date, time, place and a note, pick a ghost, pumpkin, bat or witch theme and make a spooky invitation. Save the image, share a link or copy the text." style="--h:11;--h2:353">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Party Invitation Maker</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lunch" data-cat="vote">
+        <a class="tile-link" href="https://lunch.example.com/" title="Pick a meal and a mood, spin the slot-machine reels and get a dish to eat. Skip what you don’t like and spin again." style="--h:322;--h2:304">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">What Should I Eat?</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="merge" data-cat="game">
         <a class="tile-link" href="https://merge.example.com/" title="Drop treats into the jar and merge matching pairs into bigger ones. Keep the pile under the line and grow a giant jack-o’-lantern." style="--h:218;--h2:200">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>

@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'invite',
+        kicker: '自分で作る',
+        headline: 'ハロウィンパーティーの招待状を作ろう',
+        blurb: 'パーティーの情報を入れてテーマを選び、保存・シェア。',
+      },
+      {
+        id: 'lunch',
+        kicker: '迷ったら',
+        headline: '今日のごはんをスロットで決めよう',
+        blurb: '食事と気分を選べば、スロットが決めてくれる。',
+      },
+      {
         id: 'merge',
         kicker: '1分ゲーム',
         headline: '同じものをくっつけて育てよう',
@@ -45,18 +57,6 @@ module.exports = {
         kicker: 'チーム分け',
         headline: 'ワンタップで公平にチーム分け',
         blurb: '名前を入れてチーム数を選ぶだけ。',
-      },
-      {
-        id: 'candy-catch',
-        kicker: '1分ハロウィンゲーム',
-        headline: '落ちてくるお菓子をキャッチ！',
-        blurb: 'クモはよけて、お菓子だけ集めてハイスコアに挑戦。',
-      },
-      {
-        id: 'aura',
-        kicker: '今日の診断',
-        headline: 'あなたのオーラは何色？',
-        blurb: 'いくつかの場面の質問で、あなたのオーラカラーがわかる。',
       },
     ],
   },
