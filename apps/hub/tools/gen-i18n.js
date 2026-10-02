@@ -225,10 +225,12 @@ function renderIndex(lang) {
     .filter((c) => counts[c] > 0)
     .map((c) => `        <button type="button" class="chip" data-cat="${c}" aria-pressed="${c === 'all'}">${esc(T.ui.cats[c])}</button>`)
     .join('\n');
-  const sortOpts = ['popular', 'rating', 'newest']
-    .map((s) => `<option value="${s}"${s === 'popular' ? ' selected' : ''}>${esc(T.ui.sorts[s])}</option>`)
+  // 기본 정렬 = 최신순 (사용자 지시 2026-10-02) — 처음 그리는 아이콘 순서도 최신순
+  const sortOpts = ['newest', 'popular', 'rating']
+    .map((s) => `<option value="${s}"${s === 'newest' ? ' selected' : ''}>${esc(T.ui.sorts[s])}</option>`)
     .join('');
-  const tiles = apps.map((a) => tileHtml(a, T, today)).join('\n');
+  const newestFirst = apps.map((a, i) => [a, i]).sort((x, y) => y[0].added.localeCompare(x[0].added) || x[1] - y[1]).map((x) => x[0]);
+  const tiles = newestFirst.map((a) => tileHtml(a, T, today)).join('\n');
   const faq = T.faq.map(([q, a]) => `      <details class="faq-item"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n');
 
   const countText = apps.length === 1 ? T.ui.countOne : G.fmt(T.ui.count, { n: apps.length });

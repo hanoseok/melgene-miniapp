@@ -12,8 +12,8 @@
  *      FAQ 3~5개(일반 텍스트, "무료인가요?"·인기순/랭킹 류 금지), 한국어가 아닌 파일에 한글 없음, 글꼴(ru 키릴·vi 베트남어 지원),
  *      제목(= app.config 제목·h1 검색어 포함)·설명 길이, h1 모양, 360px 폭 예산(버튼·배지·방법 3칸·HUD 이름표·끝 화면 문구).
  *   3) 생성된 HTML(언어 폴더 + 숨은 변형 _l/): title("검색어 | 브랜드") / h1 하나 / hreflang 12개 + x-default / canonical / og:image /
- *      타이틀 바 / appLd(GameApplication) / FAQPage·aggregateRating 없음 / Supabase 값 없음 / 시작 화면에 mg-ad·FAQ 없음 /
- *      게임 화면에도 mg-ad 없음(페이지 전체 0개 — 끝 화면 광고는 공통 컴포넌트) / 끝 화면: 결과 카드 → data-mg-end="candy-catch" 순서 /
+ *      타이틀 바 / appLd(GameApplication) / FAQPage·aggregateRating 없음 / Supabase 값 없음 / 시작 화면 맨 끝 mg-ad-start 1개·FAQ 없음 /
+ *      게임 화면에 mg-ad 없음(시작 화면 것 말고 페이지 전체 0개 — 끝 화면 광고는 공통 컴포넌트) / 끝 화면: 결과 카드 → data-mg-end="candy-catch" 순서 /
  *      FAQ 는 MG_FAQ 로만 / 스크립트 순서 / 숨은 변형 noindex.
  *   4) sitemap.xml URL 수, OG 이미지(언어별 default.png) 1200×630 PNG, app.config.js.
  *
@@ -450,9 +450,10 @@ function checkHtml() {
       if (!start || !playS || !end) { bad(`${tag} 시작/게임/끝 화면 중 없는 것이 있음`); return; }
       if (!/<section id="screen-play"[^>]*hidden/.test(html) || !/<section id="screen-end"[^>]*hidden/.test(html)) bad(`${tag} 게임·끝 화면은 처음에 hidden`);
       if (/<section id="screen-start"[^>]*hidden/.test(html)) bad(`${tag} 시작 화면이 hidden`);
-      if (/mg-ad/.test(start)) bad(`${tag} 시작 화면에 mg-ad`);
+      if ((start.match(/class="mg-ad\b/g) || []).length !== 1 || !/<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>$/.test(start)) bad(`${tag} 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나여야 함 (규칙 2026-10-02)`);
+      if ((html.match(/class="mg-ad mg-ad-start"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad-start 는 시작 화면의 1개뿐`);
       if (/mg-ad/.test(playS)) bad(`${tag} 게임 화면에 mg-ad (액션 게임은 진행 중 광고 없음)`);
-      if ((html.match(/class="mg-ad"/g) || []).length !== 0) bad(`${tag} 페이지에 mg-ad 가 있음 (끝 화면 광고는 공통 컴포넌트가 넣는다)`);
+      if ((html.match(/class="mg-ad"/g) || []).length !== 0) bad(`${tag} 시작 화면 mg-ad-start 말고 따로 둔 mg-ad 가 있음 (끝 화면 광고는 공통 컴포넌트가 넣는다)`);
       if (/data-mg-end|mg-faq|<details|cc-result/.test(start)) bad(`${tag} 시작 화면에 끝 화면/FAQ/결과`);
       if (!/<h1 class="cc-h1">/.test(start)) bad(`${tag} h1 이 시작 화면에 없음`);
       if (!start.includes(`<span class="cc-kicker">${G.esc(T.start.h1Kicker)}</span>`)) bad(`${tag} h1 에 검색어(h1Kicker)가 없음`);
@@ -523,4 +524,4 @@ console.log(`\n언어 파일 ${G.LOCALES.length}개 · 생성 HTML ${pages}개(�
 warns.forEach((w) => console.log('  (참고) ' + w));
 problems.forEach((p) => console.error('  ✗ ' + p));
 if (problems.length) { console.error(`\n결과: 실패 — 문제 ${problems.length}건`); process.exit(1); }
-console.log('\n결과: 통과 — 게임 로직(재현·점수·콤보·목숨·난이도·공정함)·서버 점수 분포(bucket·백분위), 언어 파일 12개(키·번역·자리표시자·FAQ·글꼴·제목·360px 폭), 생성 HTML(SEO·타이틀 바·시작 화면 티징·광고 없음·끝 화면 순서·FAQPage 없음), OG 이미지 모두 OK');
+console.log('\n결과: 통과 — 게임 로직(재현·점수·콤보·목숨·난이도·공정함)·서버 점수 분포(bucket·백분위), 언어 파일 12개(키·번역·자리표시자·FAQ·글꼴·제목·360px 폭), 생성 HTML(SEO·타이틀 바·시작 화면 티징·시작 화면 맨 끝 광고 1개·게임 중 광고 없음·끝 화면 순서·FAQPage 없음), OG 이미지 모두 OK');

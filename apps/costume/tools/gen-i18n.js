@@ -146,6 +146,7 @@ ${G.topBar(lang, rel, { suggest: true })}
     <p class="cs-hook">${esc(S.hook)}</p>
     <p class="cs-meta"><span>${esc(S.metaTime)}</span><span>${esc(S.metaCount)}</span></p>
     <button id="start-btn" class="cs-btn cs-btn-primary" type="button">${esc(S.start)}</button>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 질문 (진행 중 화면의 광고 1자리) -->

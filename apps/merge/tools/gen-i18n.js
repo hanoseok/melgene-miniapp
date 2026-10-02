@@ -160,6 +160,7 @@ ${G.topBar(lang, rel, { suggest: true })}
     </ul>
     <button id="start-btn" class="sk-btn sk-btn-primary" type="button">${esc(S.start)}</button>
     <p class="sk-facts">${esc(S.facts)}</p>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 게임 화면: HUD + 단계 사슬 + 병 캔버스 (광고 없음) -->

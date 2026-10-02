@@ -10,7 +10,7 @@
  *      사람 수 복수형(Intl.PluralRules 범주 모두), FAQ 3~5개(공정성 언급, "무료인가요?" 류 금지), 한국어가 아닌 파일에 한글 없음,
  *      제목(= app.config 제목 포함)·설명 길이, fr 물음표 앞 좁은 공백, ru 키릴 글꼴.
  *   3) 생성된 HTML(언어 폴더 + 숨은 변형 _l/): title("검색어 | 브랜드") / h1 하나(검색어) / hreflang 12개 + x-default / canonical / og:image /
- *      타이틀 바 / appLd(vote) / FAQPage 없음 / Supabase 값 없음 / 시작 화면 티징(광고·FAQ·입력 없음) / mg-ad 페이지 전체 1개 = 입력 화면 섞기 버튼 아래 /
+ *      타이틀 바 / appLd(vote) / FAQPage 없음 / Supabase 값 없음 / 시작 화면 티징(FAQ·입력 없음, 맨 끝 mg-ad-start 1개) / 그 밖 mg-ad 페이지 전체 1개 = 입력 화면 섞기 버튼 아래 /
  *      결과: 팀 카드(#teams) → data-mg-end="team" 순서, FAQ 는 MG_FAQ 로만, 스크립트 순서.
  *   4) sitemap.xml URL 수, OG 이미지(언어별 default.png) 1200×630 PNG, app.config.js.
  *
@@ -344,14 +344,15 @@ function checkHtml() {
       if (!start || !input || !result) { bad(`${tag} 시작/입력/결과 화면 중 없는 것이 있음`); return; }
       if (!/<section id="screen-input"[^>]*hidden/.test(html) || !/<section id="screen-result"[^>]*hidden/.test(html)) bad(`${tag} 입력·결과 화면은 처음에 hidden`);
       if (/<section id="screen-start"[^>]*hidden/.test(html)) bad(`${tag} 시작 화면이 hidden`);
-      if (/mg-ad/.test(start)) bad(`${tag} 시작 화면에 mg-ad`);
+      if ((start.match(/class="mg-ad\b/g) || []).length !== 1 || !/<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>$/.test(start)) bad(`${tag} 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나여야 함 (규칙 2026-10-02)`);
+      if ((html.match(/class="mg-ad mg-ad-start"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad-start 는 시작 화면의 1개뿐`);
       if (/data-mg-end|mg-faq|<details|<textarea|tm-team"|tm-chip/.test(start)) bad(`${tag} 시작 화면에 끝 화면/FAQ/입력/팀 카드`);
       if (!/<h1 class="tm-h1">/.test(start)) bad(`${tag} h1 이 시작 화면에 없음`);
       if (!start.includes(G.esc(T.start.h1Kicker))) bad(`${tag} h1 에 검색어 없음`);
       if (!/id="start-btn"/.test(start)) bad(`${tag} 시작 버튼 없음`);
       if (T.sample.some((n) => len(n) > 1 && start.includes(n))) bad(`${tag} 시작 화면에 예시 이름`);
       if (T.faq.some((q) => html.replace(/<script>window\.MG_FAQ[\s\S]*?<\/script>/, '').includes(G.esc(q.q)))) bad(`${tag} FAQ 문구가 MG_FAQ 밖(HTML)에 있음`);
-      if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad 는 입력 화면의 1개뿐 (끝 화면 광고는 공통 컴포넌트)`);
+      if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad(시작 화면 mg-ad-start 제외)는 입력 화면의 1개뿐 (끝 화면 광고는 공통 컴포넌트)`);
       if ((input.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 입력 화면 mg-ad 는 1개`);
       if (input.indexOf('class="mg-ad"') < input.indexOf('id="shuffle-btn"')) bad(`${tag} 입력 화면 광고는 섞기 버튼 아래`);
       ['names', 'people-count', 'sample-btn', 'clear-btn', 'mode-teams', 'mode-size', 'step-minus', 'step-num', 'step-plus', 'preview', 'leaders', 'shuffle-btn'].forEach((id) => { if (!input.includes(`id="${id}"`)) bad(`${tag} 입력 화면에 #${id} 없음`); });
@@ -418,4 +419,4 @@ const ogs = checkOg();
 console.log(`\n무작위 팀 나누기 ${trials}판 · 공정성(4명·5명·6명·주장 모드 각 30000판, cryptoInt 70000회) · 언어 파일 ${G.LOCALES.length}개 · 생성 HTML ${pages}개(언어 폴더 + _l) · OG 이미지 ${ogs}장 검사`);
 problems.forEach((p) => console.error('  ✗ ' + p));
 if (problems.length) { console.error(`\n결과: 실패 — 문제 ${problems.length}건`); process.exit(1); }
-console.log('\n결과: 통과 — 이름 읽기·팀 수 범위·팀 나누기(모두 한 번·인원 차 ≤ 1·주장 고르게)·공정성(crypto)·공유 링크 왕복/거부, 언어 파일 12개(키·자리표시자·복수형·팀 이름·예시 이름·FAQ·제목), 생성 HTML(SEO·타이틀 바·시작 화면 티징·광고 위치·끝 화면), OG 이미지 모두 OK');
+console.log('\n결과: 통과 — 이름 읽기·팀 수 범위·팀 나누기(모두 한 번·인원 차 ≤ 1·주장 고르게)·공정성(crypto)·공유 링크 왕복/거부, 언어 파일 12개(키·자리표시자·복수형·팀 이름·예시 이름·FAQ·제목), 생성 HTML(SEO·타이틀 바·시작 화면 티징·광고 위치(시작 화면 맨 끝 1개 포함)·끝 화면), OG 이미지 모두 OK');

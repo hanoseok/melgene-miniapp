@@ -216,6 +216,7 @@ ${pens}
         <span class="lf-playbar-meta" id="play-meta"></span>
       </div>
     </form>
+    <div class="mg-ad mg-ad-start"></div>
   </div>
 
   <!-- 재생 + 끝 화면 -->

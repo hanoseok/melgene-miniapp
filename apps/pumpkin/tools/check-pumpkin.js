@@ -7,7 +7,7 @@
  *   2) 언어 파일 12개: en.js 와 키 구조가 같은지, // TODO-TRANSLATE 없음, 자리표시자, FAQ 3~5개(일반 텍스트, "무료인가요?" 류 금지),
  *      한국어가 아닌 파일에 한글 없음, 글꼴(ru 키릴·vi 베트남어 지원 제목 글꼴), 제목·설명 길이, h1 모양, 360px 폭 예산.
  *   3) 생성된 HTML: title("검색어 | 브랜드") / h1 하나 / hreflang 12개 + x-default / canonical / og:image / 타이틀 바 / appLd(create) /
- *      FAQPage 없음 / 시작 화면에 mg-ad·FAQ·끝 화면·부품 버튼 없음 / 편집기 화면 mg-ad 1개(페이지 전체 1개) /
+ *      FAQPage 없음 / 시작 화면 맨 끝 mg-ad-start 1개·FAQ·끝 화면·부품 버튼 없음 / 편집기 화면 mg-ad 1개(그 밖 페이지 전체 0개) /
  *      끝 화면: 결과 카드 → data-mg-end="pumpkin" 순서, MG_FAQ·PAGE_I18N, 스크립트 순서.
  *   4) sitemap.xml URL 수, OG 이미지(언어별 default.png) 1200×630 PNG.
  *
@@ -307,14 +307,15 @@ function checkHtml() {
     if (!start || !edit || !end) { bad(`${tag} 시작/편집기/끝 화면 중 없는 것이 있음`); return; }
     if (!/<section id="screen-edit"[^>]*hidden/.test(html) || !/<section id="screen-end"[^>]*hidden/.test(html)) bad(`${tag} 편집기·끝 화면은 처음에 hidden`);
     if (/<section id="screen-start"[^>]*hidden/.test(html)) bad(`${tag} 시작 화면이 hidden`);
-    if (/mg-ad/.test(start)) bad(`${tag} 시작 화면에 mg-ad`);
+    if ((start.match(/class="mg-ad\b/g) || []).length !== 1 || !/<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>$/.test(start)) bad(`${tag} 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나여야 함 (규칙 2026-10-02)`);
+    if ((html.match(/class="mg-ad mg-ad-start"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad-start 는 시작 화면의 1개뿐`);
     if (/data-mg-end|mg-faq|more-test|pk-opt|pk-tab|<details/.test(start)) bad(`${tag} 시작 화면에 끝 화면/FAQ/부품 목록`);
     if (!/<h1 class="pk-h1">/.test(start)) bad(`${tag} h1 이 시작 화면에 없음`);
     if (!/id="start-btn"/.test(start)) bad(`${tag} 시작 버튼 없음`);
     const startText = start.replace(/<svg[\s\S]*?<\/svg>/g, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
     if (T.faq.some((q) => startText.includes(G.esc(q.q)))) bad(`${tag} 시작 화면에 FAQ 문구`);
     if ((edit.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 편집기 화면 mg-ad 는 1개`);
-    if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad 는 편집기의 1개뿐 (끝 화면 광고는 공통 컴포넌트)`);
+    if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad(시작 화면 mg-ad-start 제외)는 편집기의 1개뿐 (끝 화면 광고는 공통 컴포넌트)`);
     if (edit.indexOf('class="mg-ad"') < edit.indexOf('id="done-btn"')) bad(`${tag} 편집기 광고는 편집기 아래`);
     if ((edit.match(/class="pk-tab[ "]/g) || []).length !== CORE.PARTS.length) bad(`${tag} 편집기 탭 ${CORE.PARTS.length}개가 아님`);
     ['preview', 'glow-btn', 'night-btn', 'options', 'name-input', 'random-btn', 'done-btn'].forEach((id) => { if (!edit.includes(`id="${id}"`)) bad(`${tag} 편집기에 #${id} 없음`); });
@@ -360,4 +361,4 @@ console.log(`\n언어 파일 ${G.LOCALES.length}개 · 생성 HTML ${pages}개 �
 warns.forEach((w) => console.log('  (참고) ' + w));
 problems.forEach((p) => console.error('  ✗ ' + p));
 if (problems.length) { console.error(`\n결과: 실패 — 문제 ${problems.length}건`); process.exit(1); }
-console.log('\n결과: 통과 — 부품·무작위·#d= 왕복·SVG, 언어 파일 12개(키·번역·FAQ·글꼴·제목 길이·폭 예산), 생성 HTML(SEO·타이틀 바·시작 화면 티징·광고 위치·끝 화면), OG 이미지 모두 OK');
+console.log('\n결과: 통과 — 부품·무작위·#d= 왕복·SVG, 언어 파일 12개(키·번역·FAQ·글꼴·제목 길이·폭 예산), 생성 HTML(SEO·타이틀 바·시작 화면 티징·광고 위치(시작 화면 맨 끝 1개 포함)·끝 화면), OG 이미지 모두 OK');

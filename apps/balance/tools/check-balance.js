@@ -361,9 +361,11 @@ LANGS.forEach((lang) => {
   const graph = lds.flatMap((o) => o['@graph'] || [o]);
   ok(graph.some((o) => o['@type'] === 'WebApplication' && o.name === T.app.name && o.inLanguage === lang) && graph.some((o) => o['@type'] === 'BreadcrumbList'), `[${lang}] JSON-LD(WebApplication + BreadcrumbList) 없음`);
   ok(!html.includes('FAQPage') && !html.includes('aggregateRating'), `[${lang}] FAQPage / aggregateRating JSON-LD 가 있음`);
-  // 광고: 질문 화면에만 하나 (시작 화면·끝 화면에는 앱이 따로 두지 않는다 — 끝 화면은 공통 컴포넌트가 포함)
+  // 광고: 시작 화면(팩 고르기) 맨 아래 하나(mg-ad-start, 규칙 2026-10-02) + 질문 화면 하나 (끝 화면은 공통 컴포넌트가 포함)
   const play = body.slice(body.indexOf('id="screen-play"'), body.indexOf('id="screen-end"'));
   ok((html.match(/class="mg-ad"/g) || []).length === 1 && play.includes('class="mg-ad"'), `[${lang}] <div class="mg-ad"> 는 질문 화면에 정확히 하나`);
+  const home = body.slice(body.indexOf('id="screen-home"'), body.indexOf('id="screen-play"'));
+  ok((html.match(/class="mg-ad mg-ad-start"/g) || []).length === 1 && (home.match(/mg-ad/g) || []).length === 2 && /<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>/.test(home), `[${lang}] 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나`);
   ok(!/ad-slot|ad-placeholder|adsbygoogle/.test(html), `[${lang}] 예전 광고 자리/자리표시자가 있음`);
   ok(/<style>:root \{[^<]*--display-weight[^<]*\}<\/style>/.test(html) && html.indexOf('<style>:root {') > html.indexOf('style.css"'), `[${lang}] 언어별 글꼴 변수(<style>:root)가 없거나 style.css 보다 앞에 있음`);
   const cls = (/<html lang="[^"]+"(?: class="([^"]*)")?>/.exec(html) || [])[1] || '';

@@ -366,7 +366,7 @@
       <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">15 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
-        <select id="hub-sort" class="sort-select"><option value="popular" selected>Phổ biến</option><option value="rating">Đánh giá cao</option><option value="newest">Mới nhất</option></select>
+        <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
       </label>
     </div>
     <div class="tools">
@@ -385,24 +385,59 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
-      <li class="tile" data-id="life" data-cat="create">
-        <a class="tile-link" href="https://life.example.com/" title="Cuộc đời bạn từ lúc chào đời đến hôm nay, vẽ từng nét trong một phút." style="--h:232;--h2:214">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Cuộc đời tôi thành hoạt hình</span>
+      <li class="tile" data-id="merge" data-cat="game">
+        <a class="tile-link" href="https://merge.example.com/" title="Thả kẹo vào hũ, hai món giống nhau chạm vào sẽ gộp thành món lớn hơn. Đừng để tràn vạch và nuôi đèn bí ngô khổng lồ." style="--h:218;--h2:200">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Game dưa hấu Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="past-life" data-cat="test">
-        <a class="tile-link" href="https://past-life.example.com/" title="12 câu hỏi, 2 phút. Kiếp trước bạn là ai?" style="--h:303;--h2:285">
+      <li class="tile" data-id="costume" data-cat="test">
+        <a class="tile-link" href="https://costume.example.com/" title="12 khoảnh khắc trong bữa tiệc, khoảng 2 phút. Tìm bộ hóa trang Halloween hợp tính cách bạn, kèm mẹo tự làm." style="--h:48;--h2:30">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Test hóa trang Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/" title="Chọn dáng, mắt, miệng và mũ để tạo chú ma nhỏ dễ thương bay lơ lửng của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè." style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tạo con ma Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/" title="Dán danh sách tên, chọn số đội hoặc số người mỗi đội rồi chia ngẫu nhiên công bằng. Đội trưởng tách riêng, chia sẻ bằng link." style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Chia đội ngẫu nhiên</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="candy-catch" data-cat="game">
+        <a class="tile-link" href="https://candy-catch.example.com/" title="Kẹo rơi từ trên trời: kéo xô bí ngô để hứng, né nhện và ma, nối combo để ghi điểm trong 50 giây." style="--h:193;--h2:175">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Hứng kẹo Halloween</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="aura" data-cat="test">
+        <a class="tile-link" href="https://aura.example.com/" title="12 khoảnh khắc thường ngày, khoảng 2 phút. Hào quang của bạn có màu gì?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Trắc nghiệm kiếp trước</span>
+          <span class="tile-name">Test màu aura</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="ladder" data-cat="vote">
-        <a class="tile-link" href="https://ladder.example.com/" title="Từ chọn món trưa đến ai khao cà phê — bốc thăm trực tuyến công bằng." style="--h:82;--h2:64">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪜</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Trò chơi bậc thang</span>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/" title="Mỗi lượt hai món: chạm vào món bạn muốn ăn hơn, từ vòng 1/8 đến chung kết, rồi xem mọi người thật sự đã chọn gì." style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Giải đấu món ăn</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="pumpkin" data-cat="create">
+        <a class="tile-link" href="https://pumpkin.example.com/" title="Chọn mắt, mũi, miệng, thắp nến và khắc chiếc đèn bí ngô của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè." style="--h:150;--h2:176">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Khắc bí ngô Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
@@ -434,59 +469,24 @@
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="pumpkin" data-cat="create">
-        <a class="tile-link" href="https://pumpkin.example.com/" title="Chọn mắt, mũi, miệng, thắp nến và khắc chiếc đèn bí ngô của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè." style="--h:150;--h2:176">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Khắc bí ngô Halloween</span>
+      <li class="tile" data-id="life" data-cat="create">
+        <a class="tile-link" href="https://life.example.com/" title="Cuộc đời bạn từ lúc chào đời đến hôm nay, vẽ từng nét trong một phút." style="--h:232;--h2:214">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Cuộc đời tôi thành hoạt hình</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="food-cup" data-cat="vote">
-        <a class="tile-link" href="https://food-cup.example.com/" title="Mỗi lượt hai món: chạm vào món bạn muốn ăn hơn, từ vòng 1/8 đến chung kết, rồi xem mọi người thật sự đã chọn gì." style="--h:151;--h2:177">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Giải đấu món ăn</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="candy-catch" data-cat="game">
-        <a class="tile-link" href="https://candy-catch.example.com/" title="Kẹo rơi từ trên trời: kéo xô bí ngô để hứng, né nhện và ma, nối combo để ghi điểm trong 50 giây." style="--h:193;--h2:175">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Hứng kẹo Halloween</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="aura" data-cat="test">
-        <a class="tile-link" href="https://aura.example.com/" title="12 khoảnh khắc thường ngày, khoảng 2 phút. Hào quang của bạn có màu gì?" style="--h:241;--h2:223">
+      <li class="tile" data-id="past-life" data-cat="test">
+        <a class="tile-link" href="https://past-life.example.com/" title="12 câu hỏi, 2 phút. Kiếp trước bạn là ai?" style="--h:303;--h2:285">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Test màu aura</span>
+          <span class="tile-name">Trắc nghiệm kiếp trước</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="ghost" data-cat="create">
-        <a class="tile-link" href="https://ghost.example.com/" title="Chọn dáng, mắt, miệng và mũ để tạo chú ma nhỏ dễ thương bay lơ lửng của riêng bạn. Lưu thành ảnh hoặc gửi cho bạn bè." style="--h:217;--h2:199">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Tạo con ma Halloween</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="team" data-cat="vote">
-        <a class="tile-link" href="https://team.example.com/" title="Dán danh sách tên, chọn số đội hoặc số người mỗi đội rồi chia ngẫu nhiên công bằng. Đội trưởng tách riêng, chia sẻ bằng link." style="--h:347;--h2:329">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Chia đội ngẫu nhiên</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="merge" data-cat="game">
-        <a class="tile-link" href="https://merge.example.com/" title="Thả kẹo vào hũ, hai món giống nhau chạm vào sẽ gộp thành món lớn hơn. Đừng để tràn vạch và nuôi đèn bí ngô khổng lồ." style="--h:218;--h2:200">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Game dưa hấu Halloween</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="costume" data-cat="test">
-        <a class="tile-link" href="https://costume.example.com/" title="12 khoảnh khắc trong bữa tiệc, khoảng 2 phút. Tìm bộ hóa trang Halloween hợp tính cách bạn, kèm mẹo tự làm." style="--h:48;--h2:30">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">Test hóa trang Halloween</span>
+      <li class="tile" data-id="ladder" data-cat="vote">
+        <a class="tile-link" href="https://ladder.example.com/" title="Từ chọn món trưa đến ai khao cà phê — bốc thăm trực tuyến công bằng." style="--h:82;--h2:64">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪜</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Trò chơi bậc thang</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

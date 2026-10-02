@@ -9,7 +9,7 @@
  *      스포일러(메타·시작 화면·FAQ·기본 OG·app.config 제목/설명에 코스튬 이름·낱말·질문 인용 금지), 360px 폭 예산.
  *      // TODO-TRANSLATE 가 남은 파일은 (참고)로만.
  *   3) 생성된 HTML(언어 폴더 + 숨은 사본 _l/): title / h1 하나 / hreflang 13개 / canonical / 타이틀 바 / index 의 appLd /
- *      FAQPage JSON-LD 없음 / 시작 화면에 mg-ad·FAQ·끝 화면 없음 / 질문 화면 mg-ad 1개(페이지 전체 1개) /
+ *      FAQPage JSON-LD 없음 / 시작 화면 맨 끝 mg-ad-start 1개·FAQ·끝 화면 없음 / 질문 화면 mg-ad 1개(그 밖 페이지 전체 0개) /
  *      index 에 결과 문구 없음 / 결과 페이지 = 자기 결과 + 코스튬 팁 + 찰떡 단짝·라이벌(div, 링크 아님) + data-mg-end + MG_FAQ,
  *      다른 결과 페이지로 가는 href 0개(모든 href 를 실제 경로로 풀어서 확인), 따로 둔 mg-ad 없음.
  *      style.css 에서 단짝·라이벌 카드에 cursor:pointer·hover 가 없는지.
@@ -298,11 +298,12 @@ function checkHtml() {
       const start = section(html, 'screen-start');
       const quiz = section(html, 'screen-quiz');
       if (!start || !quiz) bad(`${tag} 시작/질문 화면 없음`);
-      if (/mg-ad/.test(start)) bad(`${tag} 시작 화면에 mg-ad`);
+      if ((start.match(/class="mg-ad\b/g) || []).length !== 1 || !/<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>$/.test(start)) bad(`${tag} 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나여야 함 (규칙 2026-10-02)`);
+      if ((html.match(/class="mg-ad mg-ad-start"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad-start 는 시작 화면의 1개뿐`);
       if (/data-mg-end|mg-faq|MG_FAQ|more-test/.test(start)) bad(`${tag} 시작 화면에 끝 화면/FAQ/다른 테스트`);
       if (/window\.MG_FAQ/.test(html)) bad(`${tag} index 에 MG_FAQ (FAQ 는 결과 페이지 끝 화면에만)`);
       if ((quiz.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 질문 화면 mg-ad 는 1개`);
-      if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad 는 질문 화면의 1개뿐이어야 함`);
+      if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad(시작 화면 mg-ad-start 제외)는 질문 화면의 1개뿐이어야 함`);
       if (!/id="start-btn"/.test(start)) bad(`${tag} 시작 버튼 없음`);
       const startText = start.replace(/<svg[\s\S]*?<\/svg>/g, '').replace(/<[^>]+>/g, ' ');
       CORE.ORDER.forEach((id) => {
@@ -370,4 +371,4 @@ console.log(`\n언어 파일 ${G.LOCALES.length}개 · 생성 HTML ${pages}개 �
 warns.forEach((w) => console.log('  (참고) ' + w));
 problems.forEach((p) => console.error('  ✗ ' + p));
 if (problems.length) { console.error(`\n결과: 실패 — 문제 ${problems.length}건`); process.exit(1); }
-console.log('\n결과: 통과 — 8종 모두 도달·분포 10%~15%, 언어 파일 구조·스포일러·FAQ·폭 예산, 생성 HTML(SEO·타이틀 바·끝 화면·광고 위치·결과 페이지 링크 0), OG 이미지 모두 OK');
+console.log('\n결과: 통과 — 8종 모두 도달·분포 10%~15%, 언어 파일 구조·스포일러·FAQ·폭 예산, 생성 HTML(SEO·타이틀 바·끝 화면·광고 위치(시작 화면 맨 끝 1개 포함)·결과 페이지 링크 0), OG 이미지 모두 OK');

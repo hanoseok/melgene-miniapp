@@ -202,6 +202,8 @@ button { font-family: inherit; }
 }
 .mg-ad:not([data-mg-ad-ready]) { margin: 0 auto; }
 .mg-ad:has(ins.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
+/* 시작 화면 맨 아래 광고(사용자 규칙 2026-10-02): 실제로 그려졌을 때만 위 간격 */
+.mg-ad-start[data-mg-ad-ready] { margin-top: 28px; }
 
 /* ---------------- 하트 버튼 (common.js heartButton) ---------------- */
 .mg-rating-row { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; }

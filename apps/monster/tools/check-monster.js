@@ -8,7 +8,7 @@
  *      스포일러(메타·OG 기본·시작 화면·FAQ 에 몬스터 이름/질문 인용 금지), 360px 폭 예산.
  *      // TODO-TRANSLATE 표시가 남은 파일은 (참고)로 알려 준다(실패 아님).
  *   3) 생성된 HTML: title / h1 하나 / hreflang 12개 / canonical / 타이틀 바 / index 의 appLd(WebApplication) /
- *      결과 페이지의 data-mg-end + MG_FAQ / FAQPage 없음 / 시작 화면에 mg-ad·질문·결과 없음 / 질문 화면 mg-ad 1개 /
+ *      결과 페이지의 data-mg-end + MG_FAQ / FAQPage 없음 / 시작 화면 맨 끝 mg-ad-start 1개·질문·결과 없음 / 질문 화면 mg-ad 1개 /
  *      index 에 결과 문구가 실려 있지 않은지 / 결과 페이지가 자기 결과 + 단짝·라이벌(보여주기만, 링크 없음)만 담는지.
  *   4) sitemap.xml URL 수, OG 이미지(언어 × (default + 12종)) 가 1200×630 PNG 인지.
  *
@@ -224,10 +224,11 @@ function checkHtml() {
     const start = section(html, 'screen-start');
     const quiz = section(html, 'screen-quiz');
     if (!start || !quiz) bad(`${tag} 시작/질문 화면 없음`);
-    if (/mg-ad/.test(start)) bad(`${tag} 시작 화면에 mg-ad`);
+    if ((start.match(/class="mg-ad\b/g) || []).length !== 1 || !/<div class="mg-ad mg-ad-start"><\/div>\s*<\/section>$/.test(start)) bad(`${tag} 시작 화면 맨 끝에 <div class="mg-ad mg-ad-start"> 가 정확히 하나여야 함 (규칙 2026-10-02)`);
+    if ((html.match(/class="mg-ad mg-ad-start"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad-start 는 시작 화면의 1개뿐`);
     if (/data-mg-end|mg-faq|more-test/.test(start)) bad(`${tag} 시작 화면에 끝 화면/FAQ/다른 테스트`);
     if ((quiz.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 질문 화면 mg-ad 는 1개`);
-    if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad 는 질문 화면의 1개뿐이어야 함`);
+    if ((html.match(/class="mg-ad"/g) || []).length !== 1) bad(`${tag} 페이지 전체 mg-ad(시작 화면 mg-ad-start 제외)는 질문 화면의 1개뿐이어야 함`);
     if (!/id="start-btn"/.test(start)) bad(`${tag} 시작 버튼 없음`);
     const startText = start.replace(/<svg[\s\S]*?<\/svg>/g, '').replace(/<[^>]+>/g, ' ');
     CORE.ORDER.forEach((id) => {
@@ -295,4 +296,4 @@ console.log(`\n언어 파일 ${G.LOCALES.length}개 · 생성 HTML ${pages}개 �
 warns.forEach((w) => console.log('  (참고) ' + w));
 problems.forEach((p) => console.error('  ✗ ' + p));
 if (problems.length) { console.error(`\n결과: 실패 — 문제 ${problems.length}건`); process.exit(1); }
-console.log('\n결과: 통과 — 12종 모두 도달·분포 3%~15%, 언어 파일 구조·스포일러·FAQ·폭 예산, 생성 HTML(SEO·타이틀 바·끝 화면·광고 위치), OG 이미지 모두 OK');
+console.log('\n결과: 통과 — 12종 모두 도달·분포 3%~15%, 언어 파일 구조·스포일러·FAQ·폭 예산, 생성 HTML(SEO·타이틀 바·끝 화면·광고 위치(시작 화면 맨 끝 1개 포함)), OG 이미지 모두 OK');

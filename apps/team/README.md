@@ -7,7 +7,7 @@
 - 공유 링크 `#d=`: `{ v:1, n: 이름(주장은 앞에 *), t: 팀별 사람 번호, a: 팀별 동물 번호 }` JSON → UTF-8 base64url. 서버 저장 없음. 받는 사람은 같은 팀을 자기 언어로 보고 "나도 팀 나누기" → 입력 화면. 공유 결과를 여는 것은 start/done 으로 세지 않는다.
 - 숫자: 서버 숫자 없음(보이는 숫자는 입력한 사람 수·팀 수뿐). 기록 = 섞기 누를 때 `track('start')`, 결과가 다 보일 때 `track('done')`.
 - 마지막 목록·방식·주장 설정은 localStorage `team_last_v1` 에만.
-- 광고: 입력 화면 섞기 버튼 아래 `mg-ad` 1자리(시작 화면 없음) + 끝 화면 공통 컴포넌트.
+- 광고: 시작 화면 맨 아래 `mg-ad-start` 1자리 + 입력 화면 섞기 버튼 아래 `mg-ad` 1자리 + 끝 화면 공통 컴포넌트.
 
 주소: 원본은 자리표시자 `https://team.example.com/`, 배포 때 `https://miniapp.melgene.com/team/`. 규칙은 `.claude/skills/melgene-miniapp/SKILL.md`.
 

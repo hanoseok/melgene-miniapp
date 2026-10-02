@@ -30,7 +30,7 @@ id 는 `^[a-z0-9-]{1,32}$`. 주소는 원본에서 `https://<id>.example.com/` �
 - `<html lang>`, `<title>` = 현지 검색어 | `G.brandOf(lang)`, 메타 설명, og(+`G.ogLocaleTags`), canonical, `G.hreflangTags(siteRoot, rel)` — `<head>` 안 맨 앞(언어 로더 `G.pageLoader` 가 여기 들어 있다).
 - `G.appLd(lang, { siteRoot, rel, name, description, category })` (game|test|create|vote).
 - 맨 위 `G.topBar(lang, rel)`. (언어 적용·지역 자동 판단은 로더와 common.js 가 알아서 한다 — 앱에서 할 일 없음. 앱 JS 에서 언어별 주소(`/ko/` 등)를 만들지 않는다: 링크는 생성기 상대 경로, 공유 주소는 `window.mgCleanUrl()`)
-- 시작 화면 = 티징(+어려운 게임만 짧은 방법). 진행 중 화면에 `mg-ad` 최대 1개.
+- 시작 화면 = 티징(+어려운 게임만 짧은 방법) + 맨 아래(시작 화면 컨테이너의 마지막 요소) `<div class="mg-ad mg-ad-start"></div>` 1개(SEO 글·FAQ·목록은 여전히 금지). 진행 중 화면에 `mg-ad` 최대 1개. check 스크립트에 "시작 화면 맨 끝 mg-ad-start 정확히 1개" 검사를 넣는다.
 - 결과 아래 `<div data-mg-end="<id>"></div>`, `G.scriptJson('MG_FAQ', T.faq)` (3~5개 `{q,a}`).
 - 스크립트 순서: `shared/site.config.js` → `shared/i18n.js` → `shared/common.js` → `shared/supa.js` → 앱 JS.
 - `G.sitemapXml(siteRoot, ['index.html', 'privacy.html', …])`.

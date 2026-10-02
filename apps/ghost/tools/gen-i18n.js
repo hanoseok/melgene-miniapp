@@ -140,6 +140,7 @@ ${G.topBar(lang, rel, { suggest: true })}
     <h1 class="gh-h1"><span class="gh-kicker">${esc(S.h1Kicker)}</span><span class="gh-h1-main">${S.h1Html}</span></h1>
     <p class="gh-hook">${esc(S.hook)}</p>
     <button id="start-btn" class="gh-btn gh-btn-primary" type="button">${esc(S.start)}</button>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 편집기 (진행 중 화면의 광고 1자리: 편집기 아래) -->

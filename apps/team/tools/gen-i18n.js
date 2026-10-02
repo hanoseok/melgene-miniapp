@@ -148,6 +148,7 @@ ${G.topBar(lang, rel)}
     <p class="tm-hook">${esc(S.hook)}</p>
     <button id="start-btn" class="tm-btn tm-btn-primary" type="button">${esc(S.start)}</button>
     <p class="tm-facts">${esc(S.facts)}</p>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 이름 입력 화면 (진행 중 화면의 광고 1자리: 섞기 버튼 아래) -->

@@ -127,6 +127,7 @@ ${G.topBar(lang, rel, { suggest: lang === G.DEFAULT_LOCALE })}
         <button type="button" id="start-btn" class="rx-pad"><span>${esc(H.start)}</span></button>
       </div>
       <p class="rx-keyhint">${esc(H.hintKey)}</p>
+      <div class="mg-ad mg-ad-start" data-no-tap></div>
     </div>
 
     <div class="rx-signal" aria-live="assertive" aria-atomic="true">

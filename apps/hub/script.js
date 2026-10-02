@@ -19,8 +19,8 @@
   if (!CORE || !grid) return;
 
   var CATS = CORE.CATS; // game → test → create
-  var SORTS = ['popular', 'rating', 'newest'];
-  var STORE_KEY = 'mg_hub_view';
+  var SORTS = ['newest', 'popular', 'rating'];
+  var STORE_KEY = 'mg_hub_view2'; // 2: 기본 정렬을 최신순으로 바꾸면서 예전 저장값(인기순) 무시
   var reduceMotion = false;
   try { reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { /* noop */ }
 
@@ -56,7 +56,7 @@
   // ---------------------------------------------------------------
   // 상태 (카테고리·정렬은 기억, 검색어는 기억하지 않음)
   // ---------------------------------------------------------------
-  var state = { cat: 'all', sort: 'popular', q: '' };
+  var state = { cat: 'all', sort: 'newest', q: '' };
   try {
     var saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
     if (saved && (saved.cat === 'all' || CATS.indexOf(saved.cat) >= 0)) state.cat = saved.cat;

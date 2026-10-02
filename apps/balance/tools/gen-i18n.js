@@ -159,6 +159,7 @@ ${G.topBar(lang, rel, { suggest: true })}
 ${random}
 ${tiles}
       </div>
+      <div class="mg-ad mg-ad-start"></div>
     </section>
 
     <!-- 질문 -->

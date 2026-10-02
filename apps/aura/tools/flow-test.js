@@ -131,12 +131,12 @@ async function runOne(lang, width, withVotes, report) {
   if ((await tab.eval('location.pathname')) !== new URL(base).pathname) say(`지역/언어 이동이 일어남 → ${await tab.eval('location.pathname')}`);
   await tab.eval(SPY);
   // 1) 시작 화면
-  const st = await tab.eval(`(() => ({ s: ${SHOWN}, visAds: [...document.querySelectorAll('.mg-ad')].filter((a) => a.offsetParent).length,
+  const st = await tab.eval(`(() => ({ s: ${SHOWN}, ad: (() => { const a = document.querySelectorAll('#screen-start .mg-ad'); return !(a.length === 1 && a[0].classList.contains('mg-ad-start') && document.getElementById('screen-start').lastElementChild === a[0] && !!a[0].offsetParent); })(), visAds: [...document.querySelectorAll('.mg-ad:not(.mg-ad-start)')].filter((a) => a.offsetParent).length,
     visFaq: [...document.querySelectorAll('.mg-faq, [data-mg-end]')].filter((a) => a.offsetParent).length,
     h1: document.querySelector('h1').textContent.trim(), text: document.getElementById('screen-start').innerText, lang: document.documentElement.lang }))()`);
   if (st.lang !== lang) say(`<html lang> = ${st.lang}`);
   if (!st.s.start || st.s.quiz || st.s.loading) say('시작 화면이 먼저 보이지 않음');
-  if (st.visAds || st.visFaq) say('시작 화면에 광고/FAQ/끝 화면이 보임');
+  if (st.ad || st.visAds || st.visFaq) say('시작 화면 광고가 맨 끝 mg-ad-start 1개가 아니거나 FAQ/끝 화면이 보임');
   if (!st.h1.includes(T.start.h1Kicker)) say(`h1 에 검색어 없음: ${st.h1}`);
   CORE.ORDER.forEach((id) => { if (st.text.includes(T.types[id].name)) say(`시작 화면에 결과 ${id}`); });
   let o = await tab.eval(OVERFLOW); if (o) say(`시작 화면 가로 넘침 ${o}px`);

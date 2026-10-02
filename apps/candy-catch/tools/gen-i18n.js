@@ -159,6 +159,7 @@ ${G.topBar(lang, rel, { suggest: true })}
     </ul>
     <button id="start-btn" class="cc-btn cc-btn-primary" type="button">${esc(S.start)}</button>
     <p class="cc-facts">${esc(S.facts)}</p>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 게임 화면: HUD + 캔버스 (광고 없음) -->

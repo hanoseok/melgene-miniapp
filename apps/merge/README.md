@@ -25,7 +25,7 @@
 | `tools/i18n/<lang>.js` | 모든 문구 (12개 언어, 키 구조 동일, `tiers` = 조각 이름 11개) |
 | `tools/gen-i18n.js` | 페이지·사이트맵 생성 (`tools/gen-all.js` 가 자동 탐색, 보통 + `MG_I18N_MODE=variant`) |
 | `tools/gen-og.js` | OG 이미지 (Chrome headless, `tools/lib/og-shot.js`) |
-| `tools/check-merge.js` | 로직(합치기·쌓임·잭오랜턴·끝 조건·재현·봇 28판: 끝남·NaN·벽 밖·겹침·점수 합·조각 수·실력)·bucket/백분위·언어 파일(키·자리표시자·FAQ·글꼴·제목·360px 폭)·생성 HTML(광고 0·FAQPage 없음·끝 화면 순서·공통 클래스 겹침)·OG 검사 (`tools/check-all.js` 가 자동 탐색) |
+| `tools/check-merge.js` | 로직(합치기·쌓임·잭오랜턴·끝 조건·재현·봇 28판: 끝남·NaN·벽 밖·겹침·점수 합·조각 수·실력)·bucket/백분위·언어 파일(키·자리표시자·FAQ·글꼴·제목·360px 폭)·생성 HTML(시작 화면 맨 끝 광고 1·그 밖 광고 0·FAQPage 없음·끝 화면 순서·공통 클래스 겹침)·OG 검사 (`tools/check-all.js` 가 자동 탐색) |
 | `tools/flow-test.js` | headless 전체 흐름 (python3 http.server + mock-supa 에 점수 분포를 심어 상위 % 확인, 빈 서버·움직임 줄이기 한 번씩, check-all 에는 안 들어감) |
 
 ## 생성 · 검사

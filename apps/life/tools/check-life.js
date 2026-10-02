@@ -377,7 +377,10 @@ function checkHtml() {
     const h1 = (/<h1[^>]*>([\s\S]*?)<\/h1>/.exec(html) || [])[1] || '';
     if (h1.replace(/<[^>]+>/g, '').toLowerCase().indexOf(SEARCH[lang]) === -1) fail(`html: [${lang}] h1 에 검색어 없음`);
     if (count(/data-mg-end="life"/g) !== 1) fail(`html: [${lang}] data-mg-end 가 1개가 아님`);
-    if (count(/class="mg-ad"/g) !== 0) fail(`html: [${lang}] 페이지에 따로 둔 mg-ad 가 있음(끝 화면 컴포넌트가 가짐, 시작 화면 금지)`);
+    if (count(/class="mg-ad"/g) !== 0) fail(`html: [${lang}] 시작 화면 광고(mg-ad-start) 말고 따로 둔 mg-ad 가 있음(끝 화면 광고는 공통 컴포넌트가 가짐)`);
+    // 시작 화면(screen-home) 맨 아래 광고 하나 (규칙 2026-10-02)
+    const home = html.slice(html.indexOf('id="screen-home"'), html.indexOf('id="screen-film"'));
+    if (count(/class="mg-ad mg-ad-start"/g) !== 1 || !/<\/form>\s*<div class="mg-ad mg-ad-start"><\/div>\s*<\/div>\s*(<!--[^>]*-->\s*)?<div id="screen-film"/.test(home + 'id="screen-film"')) fail(`html: [${lang}] 시작 화면 맨 끝(폼 다음)에 mg-ad-start 가 정확히 하나가 아님`);
     if (/FAQPage/.test(html)) fail(`html: [${lang}] FAQPage JSON-LD 가 있음`);
     if (/lf-seo|lf-faq|id="more-tests"|data-mg-rating|data-mg-social|id="link-btn"/.test(html)) fail(`html: [${lang}] 없어야 할 섹션/버튼(SEO 글·FAQ·다른 테스트·자체 별점/공유)이 남아 있음`);
     if (!/window\.MG_FAQ = \[\{"q":/.test(html)) fail(`html: [${lang}] MG_FAQ 가 없음`);

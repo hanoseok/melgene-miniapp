@@ -166,11 +166,11 @@ async function runOne(lang, width, mode, report) {
   if ((await tab.eval('location.pathname')) !== new URL(base).pathname) say(`지역/언어 이동이 일어남 → ${await tab.eval('location.pathname')}`);
   await tab.eval(SPY);
   // 1) 시작 화면
-  const st = await tab.eval(`(() => ({ s: ${SHOWN}, ad: !!document.querySelector('#screen-start .mg-ad'), faq: !!document.querySelector('#screen-start .mg-faq, #screen-start [data-mg-end]'),
-    visAds: [...document.querySelectorAll('.mg-ad')].filter((a) => a.offsetParent).length, visFaq: [...document.querySelectorAll('.mg-faq')].filter((a) => a.offsetParent).length,
+  const st = await tab.eval(`(() => ({ s: ${SHOWN}, ad: (() => { const a = document.querySelectorAll('#screen-start .mg-ad'); return !(a.length === 1 && a[0].classList.contains('mg-ad-start') && document.getElementById('screen-start').lastElementChild === a[0] && !!a[0].offsetParent); })(), faq: !!document.querySelector('#screen-start .mg-faq, #screen-start [data-mg-end]'),
+    visAds: [...document.querySelectorAll('.mg-ad:not(.mg-ad-start)')].filter((a) => a.offsetParent).length, visFaq: [...document.querySelectorAll('.mg-faq')].filter((a) => a.offsetParent).length,
     h1: document.querySelector('h1').textContent.trim(), how: document.querySelectorAll('#screen-start .cc-how li').length, btnBottom: document.getElementById('start-btn').getBoundingClientRect().bottom }))()`);
   if (!st.s.start || st.s.play || st.s.end) say('시작 화면이 먼저 보이지 않음');
-  if (st.ad || st.faq || st.visAds || st.visFaq) say('시작 화면에 광고/FAQ가 보임');
+  if (st.ad || st.faq || st.visAds || st.visFaq) say('시작 화면 광고가 맨 끝 mg-ad-start 1개가 아니거나 FAQ가 보임');
   if (!st.h1.includes(T.start.h1Kicker)) say(`h1 에 검색어 없음: ${st.h1}`);
   if (st.how !== 3) say(`짧은 방법 ${st.how}칸`);
   if (width < 768 && st.btnBottom > 760 + 120) say(`시작 버튼이 첫 화면에서 너무 아래 (${Math.round(st.btnBottom)}px)`);

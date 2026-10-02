@@ -143,9 +143,9 @@ async function main() {
         await tab.goto(base);
         // 시작 화면
         const st = await tab.eval(`(() => ({ start: !document.getElementById('screen-start').hidden, quiz: !document.getElementById('screen-quiz').hidden,
-          adInStart: !!document.querySelector('#screen-start .mg-ad'), faq: !!document.querySelector('.mg-faq, [data-mg-end]'), h1: document.querySelector('h1').textContent.trim() }))()`);
+          adInStart: (() => { const a = document.querySelectorAll('#screen-start .mg-ad'); return !(a.length === 1 && a[0].classList.contains('mg-ad-start') && document.getElementById('screen-start').lastElementChild === a[0] && !!a[0].offsetParent); })(), faq: !!document.querySelector('.mg-faq, [data-mg-end]'), h1: document.querySelector('h1').textContent.trim() }))()`);
         if (!st.start || st.quiz) report(tag, '시작 화면이 먼저 보이지 않음');
-        if (st.adInStart || st.faq) report(tag, '시작 화면에 광고/FAQ/끝 화면');
+        if (st.adInStart || st.faq) report(tag, '시작 화면 광고가 맨 끝 mg-ad-start 1개가 아니거나 FAQ/끝 화면이 있음');
         const o1 = await tab.eval(OVERFLOW); if (o1) report(tag, `시작 화면 가로 넘침 ${o1}px`);
         (await tab.eval(BROKEN_WORDS + `('.mon-h1, .mon-badge, .mon-btn, .mon-hook')`)).forEach((w) => report(tag, `시작 화면 단어 잘림 "${w}"`));
         // track('done') 횟수는 이동 뒤에도 보이게 sessionStorage 에 센다

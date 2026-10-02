@@ -425,7 +425,11 @@
     var host = hostEl || document.getElementById('more-tests');
     if (!host) return;
     var wrap = hostEl ? host : (host.closest('.more-tests-section') || host);
-    var sites = (CFG.SITES || []).filter(function (s) { return s.id !== currentId; });
+    // 최신순(added 가 늦은 앱 먼저, 같은 날은 SITES 순서) — 사용자 지시 2026-10-02
+    var all = CFG.SITES || [];
+    var sites = all.filter(function (s) { return s.id !== currentId; }).sort(function (a, b) {
+      return String(b.added || '').localeCompare(String(a.added || '')) || all.indexOf(a) - all.indexOf(b);
+    });
     if (!sites.length) { wrap.style.display = 'none'; return; }
 
     host.innerHTML = '';

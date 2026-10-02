@@ -366,7 +366,7 @@
       <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">15 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
-        <select id="hub-sort" class="sort-select"><option value="popular" selected>ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option><option value="newest">มาใหม่</option></select>
+        <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
       </label>
     </div>
     <div class="tools">
@@ -385,24 +385,59 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
-      <li class="tile" data-id="life" data-cat="create">
-        <a class="tile-link" href="https://life.example.com/" title="ชีวิตคุณตั้งแต่เกิดจนถึงวันนี้ วาดทีละเส้นในหนึ่งนาที" style="--h:232;--h2:214">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">แอนิเมชันชีวิตฉัน</span>
+      <li class="tile" data-id="merge" data-cat="game">
+        <a class="tile-link" href="https://merge.example.com/" title="ปล่อยขนมลงขวดโหล ของเหมือนกันชนกันจะรวมร่างเป็นชิ้นใหญ่ขึ้น อย่าให้ล้นเส้น แล้วไปให้ถึงฟักทองยักษ์" style="--h:218;--h2:200">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมแตงโม ฮาโลวีน</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="past-life" data-cat="test">
-        <a class="tile-link" href="https://past-life.example.com/" title="12 ข้อ 2 นาทีจบ ชาติที่แล้วคุณเป็นใคร?" style="--h:303;--h2:285">
+      <li class="tile" data-id="costume" data-cat="test">
+        <a class="tile-link" href="https://costume.example.com/" title="12 สถานการณ์ในปาร์ตี้ 2 นาทีรู้ผล ปีนี้ชุดฮาโลวีนแบบไหนเข้ากับนิสัยคุณที่สุด พร้อมทริคทำเอง" style="--h:48;--h2:30">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทดสอบชุดฮาโลวีน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ghost" data-cat="create">
+        <a class="tile-link" href="https://ghost.example.com/" title="เลือกรูปร่าง ตา ปาก และหมวก สร้างผีน้อยน่ารักที่ลอยไปมาของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้" style="--h:217;--h2:199">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">สร้างผีน้อยฮาโลวีน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="team" data-cat="vote">
+        <a class="tile-link" href="https://team.example.com/" title="วางรายชื่อแล้วสุ่มแบ่งทีมอย่างยุติธรรมตามจำนวนทีมหรือจำนวนคนต่อทีม หัวหน้าแยกคนละทีม แชร์ผลเดิมด้วยลิงก์" style="--h:347;--h2:329">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">สุ่มแบ่งทีม</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="candy-catch" data-cat="game">
+        <a class="tile-link" href="https://candy-catch.example.com/" title="ขนมร่วงลงมาจากฟ้า เลื่อนถังฟักทองไปรับ หลบแมงมุมกับผี แล้วทำคอมโบเก็บแต้มใน 50 วินาที" style="--h:193;--h2:175">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมรับขนมฮาโลวีน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="aura" data-cat="test">
+        <a class="tile-link" href="https://aura.example.com/" title="12 สถานการณ์ในชีวิตประจำวัน 2 นาทีรู้ผล ออร่าของคุณสีอะไร?" style="--h:241;--h2:223">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">ทดสอบชาติที่แล้ว</span>
+          <span class="tile-name">ทดสอบสีออร่า</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="ladder" data-cat="vote">
-        <a class="tile-link" href="https://ladder.example.com/" title="ตั้งแต่เลือกเมนูมื้อเที่ยงถึงใครเลี้ยงกาแฟ สุ่มแบบยุติธรรมออนไลน์" style="--h:82;--h2:64">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪜</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">เกมบันไดสุ่ม</span>
+      <li class="tile" data-id="food-cup" data-cat="vote">
+        <a class="tile-link" href="https://food-cup.example.com/" title="เลือกเมนูที่อยากกินมากกว่าทีละสองจาน ตั้งแต่รอบ 16 ทีมจนถึงรอบชิง แล้วดูว่าคนอื่นเลือกอะไรจริง ๆ" style="--h:151;--h2:177">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทัวร์นาเมนต์อาหาร</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="pumpkin" data-cat="create">
+        <a class="tile-link" href="https://pumpkin.example.com/" title="เลือกตา จมูก ปาก จุดเทียน แล้วสร้างฟักทองแจ็คโอแลนเทิร์นของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้" style="--h:150;--h2:176">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แกะสลักฟักทองฮาโลวีน</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
@@ -434,59 +469,24 @@
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="pumpkin" data-cat="create">
-        <a class="tile-link" href="https://pumpkin.example.com/" title="เลือกตา จมูก ปาก จุดเทียน แล้วสร้างฟักทองแจ็คโอแลนเทิร์นของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้" style="--h:150;--h2:176">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">แกะสลักฟักทองฮาโลวีน</span>
+      <li class="tile" data-id="life" data-cat="create">
+        <a class="tile-link" href="https://life.example.com/" title="ชีวิตคุณตั้งแต่เกิดจนถึงวันนี้ วาดทีละเส้นในหนึ่งนาที" style="--h:232;--h2:214">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎞️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แอนิเมชันชีวิตฉัน</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="food-cup" data-cat="vote">
-        <a class="tile-link" href="https://food-cup.example.com/" title="เลือกเมนูที่อยากกินมากกว่าทีละสองจาน ตั้งแต่รอบ 16 ทีมจนถึงรอบชิง แล้วดูว่าคนอื่นเลือกอะไรจริง ๆ" style="--h:151;--h2:177">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">ทัวร์นาเมนต์อาหาร</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="candy-catch" data-cat="game">
-        <a class="tile-link" href="https://candy-catch.example.com/" title="ขนมร่วงลงมาจากฟ้า เลื่อนถังฟักทองไปรับ หลบแมงมุมกับผี แล้วทำคอมโบเก็บแต้มใน 50 วินาที" style="--h:193;--h2:175">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍬</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">เกมรับขนมฮาโลวีน</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="aura" data-cat="test">
-        <a class="tile-link" href="https://aura.example.com/" title="12 สถานการณ์ในชีวิตประจำวัน 2 นาทีรู้ผล ออร่าของคุณสีอะไร?" style="--h:241;--h2:223">
+      <li class="tile" data-id="past-life" data-cat="test">
+        <a class="tile-link" href="https://past-life.example.com/" title="12 ข้อ 2 นาทีจบ ชาติที่แล้วคุณเป็นใคร?" style="--h:303;--h2:285">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔮</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">ทดสอบสีออร่า</span>
+          <span class="tile-name">ทดสอบชาติที่แล้ว</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
-      <li class="tile" data-id="ghost" data-cat="create">
-        <a class="tile-link" href="https://ghost.example.com/" title="เลือกรูปร่าง ตา ปาก และหมวก สร้างผีน้อยน่ารักที่ลอยไปมาของคุณเอง บันทึกเป็นรูปหรือส่งให้เพื่อนได้" style="--h:217;--h2:199">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">สร้างผีน้อยฮาโลวีน</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="team" data-cat="vote">
-        <a class="tile-link" href="https://team.example.com/" title="วางรายชื่อแล้วสุ่มแบ่งทีมอย่างยุติธรรมตามจำนวนทีมหรือจำนวนคนต่อทีม หัวหน้าแยกคนละทีม แชร์ผลเดิมด้วยลิงก์" style="--h:347;--h2:329">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">สุ่มแบ่งทีม</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="merge" data-cat="game">
-        <a class="tile-link" href="https://merge.example.com/" title="ปล่อยขนมลงขวดโหล ของเหมือนกันชนกันจะรวมร่างเป็นชิ้นใหญ่ขึ้น อย่าให้ล้นเส้น แล้วไปให้ถึงฟักทองยักษ์" style="--h:218;--h2:200">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">เกมแตงโม ฮาโลวีน</span>
-          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
-        </a>
-      </li>
-      <li class="tile" data-id="costume" data-cat="test">
-        <a class="tile-link" href="https://costume.example.com/" title="12 สถานการณ์ในปาร์ตี้ 2 นาทีรู้ผล ปีนี้ชุดฮาโลวีนแบบไหนเข้ากับนิสัยคุณที่สุด พร้อมทริคทำเอง" style="--h:48;--h2:30">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
-          <span class="tile-name">ทดสอบชุดฮาโลวีน</span>
+      <li class="tile" data-id="ladder" data-cat="vote">
+        <a class="tile-link" href="https://ladder.example.com/" title="ตั้งแต่เลือกเมนูมื้อเที่ยงถึงใครเลี้ยงกาแฟ สุ่มแบบยุติธรรมออนไลน์" style="--h:82;--h2:64">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪜</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมบันไดสุ่ม</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>

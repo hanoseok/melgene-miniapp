@@ -162,11 +162,11 @@ async function runOne(lang, width, report, opts = {}) {
   const info = { anim: 0 };
 
   // 1) 시작 화면 (티징만)
-  const st = await tab.eval(`(() => ({ s: ${SHOWN}, visAds: [...document.querySelectorAll('.mg-ad')].filter((a) => a.offsetParent).length,
+  const st = await tab.eval(`(() => ({ s: ${SHOWN}, ad: (() => { const a = document.querySelectorAll('#screen-start .mg-ad'); return !(a.length === 1 && a[0].classList.contains('mg-ad-start') && document.getElementById('screen-start').lastElementChild === a[0] && !!a[0].offsetParent); })(), visAds: [...document.querySelectorAll('.mg-ad:not(.mg-ad-start)')].filter((a) => a.offsetParent).length,
     visFaq: [...document.querySelectorAll('.mg-faq, .mg-end-faq')].filter((a) => a.offsetParent).length, h1: document.querySelector('h1').textContent.trim(),
     input: !!document.querySelector('#screen-start textarea') }))()`);
   if (!st.s.start || st.s.input || st.s.result) say('시작 화면이 먼저 보이지 않음');
-  if (st.visAds || st.visFaq || st.input) say('시작 화면에 광고/FAQ/입력이 보임');
+  if (st.ad || st.visAds || st.visFaq || st.input) say('시작 화면 광고가 맨 끝 mg-ad-start 1개가 아니거나 FAQ/입력이 보임');
   if (!st.h1.includes(T.start.h1Kicker)) say(`h1 에 검색어 없음: ${st.h1}`);
   let o = await tab.eval(OVERFLOW); if (o) say(`시작 화면 가로 넘침 ${o}px`);
   (await tab.eval(TEXT_FIT + `('.tm-h1, .tm-badge, .tm-btn, .tm-hook, .tm-facts')`)).forEach((w) => say(`시작 화면 ${w}`));

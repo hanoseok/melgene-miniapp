@@ -100,6 +100,7 @@ ${presets}
 
       <button type="button" id="build-btn" class="ldr-btn ldr-btn-primary">${esc(S.build)}</button>
     </div>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 플레이 화면 -->

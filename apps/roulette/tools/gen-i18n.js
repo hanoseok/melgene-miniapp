@@ -176,6 +176,8 @@ ${themes}
         </div>
       </fieldset>
     </section>
+    <!-- 첫 화면 맨 아래 광고(규칙 2026-10-02). 첫 스핀 뒤 기록(끝 화면, 광고 포함)이 보이면 style.css 가 숨긴다 -->
+    <div class="mg-ad mg-ad-start"></div>
   </main>
 
   <footer class="site-footer">

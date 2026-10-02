@@ -227,6 +227,9 @@ function checkHtml() {
     const idx = order.map((s) => html.indexOf(s));
     ok(idx.every((v, i) => v > 0 && (i === 0 || v > idx[i - 1])), `[${code}] 스크립트 순서`, JSON.stringify(idx));
     ok(!/ad-slot|adsbygoogle|data-ad-/.test(html), `[${code}] 광고 자리 없음`);
+    // 시작(대기) 화면 맨 아래 광고 하나 (규칙 2026-10-02) — 측정 중에는 .rx-idle 째 숨는다. 페이지 전체 mg-ad 는 이 1개뿐(끝 화면은 공통 컴포넌트)
+    const idle = html.slice(html.indexOf('<div class="rx-idle">'), html.indexOf('<div class="rx-signal"'));
+    ok((html.match(/class="mg-ad\b/g) || []).length === 1 && /<div class="mg-ad mg-ad-start" data-no-tap><\/div>\s*<\/div>\s*$/.test(idle), `[${code}] 시작 화면(.rx-idle) 맨 끝에 mg-ad-start 하나(페이지 전체 1개)`);
     ok(html.includes('class="mg-top"'), `[${code}] 맨 위 타이틀 바(G.topBar) 있음`);
     ok(html.includes('data-mg-end="reaction"'), `[${code}] 공통 끝 화면(data-mg-end) 자리`);
     ok(!/id="share-btn"|id="again-btn"|id="more-tests"|class="rx-faq"|class="rx-seo"|class="rx-top"|FAQPage/.test(html),

@@ -153,6 +153,7 @@ ${G.topBar(lang, rel, { suggest: true })}
     <p class="fc-hook">${esc(S.hook)}</p>
     <button id="start-btn" class="fc-btn fc-btn-primary" type="button">${esc(S.start)}</button>
     <p class="fc-facts">${esc(S.facts)}</p>
+    <div class="mg-ad mg-ad-start"></div>
   </section>
 
   <!-- 경기 화면 (진행 중 화면의 광고 1자리: 카드 아래) -->
