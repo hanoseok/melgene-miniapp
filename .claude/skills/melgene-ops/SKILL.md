@@ -7,7 +7,15 @@ description: Melgene Apps(멜진 미니앱) 운영 절차 — 배포(deploy.sh, 
 
 프로젝트: `/Users/hanoseok/SynologyDrive/Home Drive/AGENTS/Trend Web Chalenge` = GitHub **`hanoseok/melgene-miniapp`** (소스 `main`, SSH `git@github.com:hanoseok/melgene-miniapp.git`). 미니앱마다 `apps/<id>/` 모듈. 시작할 때 README.md·LOG.md(맨 아래 최근 기록)를 읽고, 끝날 때 LOG.md 에 한 줄 남긴다. 사용자에게는 한국어로 말한다.
 
-## 1. 배포
+## 0. 현재 배포 방식 — Cloudflare Pages (2026-10-03 이후, 아래 GitHub Pages 절차는 계정 정지로 중단)
+
+- GitHub 계정 hanoseok 정지로 호스팅을 **Cloudflare Pages**(hanoseok@gmail.com, Free)로 옮겼다. 프로젝트 `melgene-hub`(melgene.com)·`melgene-miniapp`(miniapp.melgene.com), Spaceship 네임서버 = Cloudflare. **배포 = `./deploy-cf.sh`**(deploy-prep → `wrangler pages deploy`, 사전: 한 번 `npx wrangler login`). 에이전트 환경에서 Cloudflare API(api.cloudflare.com)가 프록시에 막히면 사용자 터미널에서 실행하게 한다 — 막히지 않을 때(curl 이 400/200 을 돌려줄 때)는 에이전트가 직접 실행.
+- 옛 서브도메인 ladder/life/past-life/www.melgene.com = 프록시 A 레코드(192.0.2.1) + Cloudflare Redirect Rules(301 → miniapp.melgene.com/<앱>/, www → melgene.com).
+- Cloudflare Pages 는 `/x.html` 을 `/x` 로 308 리다이렉트한다 — 언어 로더(pageLoader)가 확장자 없는 주소도 처리해야 한다(고쳐 둠).
+- 라이브 확인은 hanoseok Chrome 프로필(claude-in-chrome) 또는 앱 안 브라우저. DNS 를 바꾼 직후 로컬에서 옛 값이 보이면 리졸버 캐시(공용 DNS 는 dns.google/resolve 로 확인).
+- 커스텀 도메인은 존이 활성(네임서버 전파)된 뒤에 Pages 에 추가한다(그 전에 추가하면 저장되지 않음).
+
+## 1. 배포 (예전 GitHub Pages 방식 — 계정 복구 전까지 사용 안 함)
 
 ```bash
 node tools/gen-all.js                 # SITES(apps/*/app.config.js) + 생성 + 링크 검사
