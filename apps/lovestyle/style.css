@@ -1,0 +1,314 @@
+/* apps/lovestyle/style.css — 연애 유형 테스트: 밝은 벚꽃 분홍 + 떠다니는 하트, 결과 페이지는 그 유형 색(--c-*)으로 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --blush-0: #fffafc;
+  --blush-1: #fff0f5;
+  --blush-2: #ffd9e6;
+  --rose: #ff5c8a;
+  --rose-deep: #d63a6b;
+  --ink: #3b1f2e;
+  --ink-dim: rgba(59, 31, 46, 0.78);
+  --ink-faint: rgba(59, 31, 46, 0.5);
+  --card: rgba(255, 255, 255, 0.72);
+  --line: rgba(255, 92, 138, 0.28);
+  /* 유형 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #ff5c8a;
+  --c-deep: #a3134a;
+  --c-ink: #ffe3ec;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: linear-gradient(135deg, #ff8fb4, #ff5c8a);
+  --mg-top-badge-fg: #ffffff;
+  --lang-bg: rgba(255, 255, 255, 0.8);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 92, 138, 0.35);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffb703;
+  --mg-star-off: rgba(59, 31, 46, 0.16);
+  --mg-heart-bg: rgba(255, 92, 138, 0.08);
+  --mg-heart-border: rgba(255, 92, 138, 0.4);
+  --mg-heart-fg: #e0457b;
+  --mg-heart-on: #ff3d71;
+  --mg-share-bg: rgba(255, 255, 255, 0.8);
+  --mg-share-border: rgba(59, 31, 46, 0.12);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 255, 255, 0.75);
+  --mg-faq-border: rgba(255, 92, 138, 0.22);
+  --mg-end-retry-bg: linear-gradient(120deg, #ff8fb4, #ff5c8a);
+  --mg-end-retry-fg: #ffffff;
+  --toast-bg: rgba(59, 31, 46, 0.94);
+}
+
+html { background: var(--blush-0); }
+body.ls-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--blush-2), var(--blush-1) 50%, var(--blush-0) 85%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.ls-result-page {
+  background:
+    radial-gradient(ellipse 120% 55% at 50% -8%, color-mix(in srgb, var(--c-main) 30%, var(--blush-1)), transparent 72%) fixed,
+    radial-gradient(ellipse 130% 70% at 50% -10%, var(--blush-2), var(--blush-1) 50%, var(--blush-0) 85%) fixed;
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ls-h1, .ls-kicker, .ls-h1-main, .ls-h1-main em, .ls-badge, .ls-btn, .ls-q-text, .ls-q-num, .ls-result-name, .ls-eyebrow, .ls-vibe, .ls-sub,
+.ls-pair-name, .ls-pair-label, .ls-loading-text, .ls-cta strong, .ls-doc h1, .ls-progress-num {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 떠다니는 하트 (고정 배경, 가로 넘침 없음) ---------------- */
+.ls-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.ls-float { position: absolute; font-size: 22px; line-height: 1; color: #ff8fb4; opacity: 0.28; animation: ls-drift 16s ease-in-out infinite; }
+.ls-float-1 { top: 16%; left: 6%; }
+.ls-float-2 { top: 48%; right: 6%; font-size: 18px; animation-delay: -6s; animation-duration: 19s; }
+.ls-float-3 { top: 80%; left: 12%; font-size: 15px; animation-delay: -11s; animation-duration: 22s; }
+@keyframes ls-drift {
+  0%, 100% { transform: translate(0, 0) rotate(-8deg); }
+  50% { transform: translate(12px, -18px) rotate(8deg); }
+}
+
+.mg-top, .ls-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ls-shell {
+  max-width: var(--app-width);
+  margin: 0 auto;
+  padding: 8px 16px 0;
+}
+.ls-screen { padding-top: 12px; }
+
+.ls-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.ls-btn-primary {
+  background: linear-gradient(120deg, #ff8fb4, #ff5c8a 60%, #f0386f);
+  color: #ffffff;
+  box-shadow: 0 12px 28px -10px rgba(255, 92, 138, 0.8), inset 0 -4px 0 rgba(120, 10, 50, 0.16);
+}
+.ls-btn:active { transform: scale(0.97); }
+.ls-btn:focus-visible, .ls-choice:focus-visible, .ls-back:focus-visible { outline: 3px solid var(--rose); outline-offset: 3px; }
+
+/* ---------------- 캐릭터 그림 (후광 + 이모지 + 하트) ---------------- */
+.ls-hero { position: relative; display: grid; place-items: center; width: 190px; height: 190px; margin: 4px auto 0; }
+.ls-halo {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle, var(--h-ink) 0%, color-mix(in srgb, var(--h-main) 40%, transparent) 58%, transparent 71%);
+  animation: ls-breathe 4.5s ease-in-out infinite;
+}
+.ls-emo {
+  position: relative; font-size: 104px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: ls-bob 3s ease-in-out infinite;
+}
+.ls-q {
+  position: absolute; right: 18px; top: 16px; width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--rose-deep); color: #fff; font: 900 28px/1 'Nunito', sans-serif;
+  box-shadow: 0 6px 14px -6px rgba(163, 19, 74, 0.7);
+  animation: ls-bob 2.4s ease-in-out infinite reverse;
+}
+.ls-heart { position: absolute; color: var(--h-main); font-size: 20px; line-height: 1; opacity: 0.85; animation: ls-pop 3.2s ease-in-out infinite; }
+.ls-heart-1 { left: 14px; top: 34px; }
+.ls-heart-2 { right: 10px; bottom: 44px; font-size: 16px; animation-delay: -1.1s; }
+.ls-heart-3 { left: 30px; bottom: 18px; font-size: 13px; animation-delay: -2.2s; }
+@keyframes ls-breathe { 0%, 100% { transform: scale(0.94); opacity: 0.85; } 50% { transform: scale(1.04); opacity: 1; } }
+@keyframes ls-bob { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-6px) rotate(3deg); } }
+@keyframes ls-pop { 0%, 100% { transform: scale(0.8); opacity: 0.35; } 50% { transform: scale(1.1); opacity: 0.95; } }
+.ls-hero-loading { width: 170px; height: 170px; margin-bottom: 14px; }
+.ls-hero-loading .ls-emo { font-size: 92px; animation-duration: 0.9s; }
+.ls-hero-result { width: 200px; height: 200px; margin: 0 auto 2px; }
+.ls-hero-result .ls-emo { font-size: 112px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.ls-start { text-align: center; padding-top: 16px; }
+.ls-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 92, 138, 0.1); border: 1px solid var(--line);
+  color: var(--rose-deep); font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.ls-h1 { margin: 4px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ls-kicker { display: block; margin-bottom: 8px; font-size: 15px; letter-spacing: 0.03em; color: var(--rose-deep); }
+.ls-h1-main { display: block; font-size: 36px; line-height: 1.22; color: var(--ink); }
+.ls-h1-main em {
+  font-style: normal;
+  background: linear-gradient(100deg, #ff5c8a, #ff7eb6 45%, #9d8cff);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.ls-hook { margin: 0 auto 14px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.ls-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; font-size: 13.5px; color: var(--ink-dim); }
+.ls-meta span { padding: 4px 12px; border-radius: 999px; background: var(--card); border: 1px solid rgba(255, 92, 138, 0.14); }
+
+/* ---------------- 질문 ---------------- */
+.ls-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.ls-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1px solid rgba(59, 31, 46, 0.14); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.ls-progress { flex: 1; height: 10px; border-radius: 999px; background: rgba(255, 92, 138, 0.14); overflow: hidden; }
+.ls-progress-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, #ff8fb4, #ff5c8a, #9d8cff); transition: width 0.3s ease; }
+.ls-progress-num { flex: 0 0 auto; font-size: 14px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.ls-q-card {
+  padding: 20px 16px 16px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 240, 245, 0.9));
+  border: 1px solid rgba(255, 92, 138, 0.18);
+  box-shadow: 0 20px 40px -26px rgba(163, 19, 74, 0.45);
+  animation: ls-in 0.28s ease;
+}
+@keyframes ls-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.ls-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.ls-q-emoji { font-size: 28px; line-height: 1; }
+.ls-q-num { font-size: 15px; color: var(--rose-deep); font-weight: var(--display-weight); }
+.ls-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.ls-choices { display: flex; flex-direction: column; gap: 10px; }
+.ls-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(59, 31, 46, 0.12);
+  border-radius: 16px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .ls-choice:hover { border-color: #ff8fb4; background: #fff5f8; } }
+.ls-choice:active { transform: scale(0.985); }
+.ls-choice.is-picked { border-color: var(--rose); background: #ffe6ee; box-shadow: 0 0 0 3px rgba(255, 92, 138, 0.2); }
+.ls-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 마음 읽는 중 ---------------- */
+.ls-loading { text-align: center; padding: 40px 0 40px; }
+.ls-loading-text { margin: 0 0 4px; font-size: 22px; font-weight: var(--display-weight); }
+.ls-loading-sub { margin: 0; font-size: 14px; color: var(--ink-faint); }
+
+/* ---------------- 결과 ---------------- */
+.ls-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #ff8fb4, #ff5c8a);
+  color: #ffffff;
+  box-shadow: 0 10px 24px -12px rgba(255, 92, 138, 0.9);
+}
+.ls-cta-text { flex: 1; display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
+.ls-cta strong { font-size: 16px; font-weight: var(--display-weight); }
+.ls-cta-text span { font-size: 13.5px; opacity: 0.9; }
+.ls-cta-arrow { font-size: 22px; font-weight: 800; }
+
+.ls-card {
+  position: relative;
+  margin-top: 10px;
+  padding: 16px 18px 20px;
+  border-radius: 28px;
+  text-align: center;
+  background:
+    radial-gradient(120% 55% at 50% 0%, color-mix(in srgb, var(--c-main) 22%, transparent), transparent 70%),
+    linear-gradient(180deg, #ffffff, #fffafc);
+  border: 1.5px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  box-shadow: 0 24px 50px -28px color-mix(in srgb, var(--c-deep) 70%, transparent);
+}
+.ls-result-title { margin: 0; line-height: 1.2; }
+.ls-eyebrow { display: block; font-size: 15px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 6px; }
+.ls-result-name {
+  display: block; font-size: 34px; font-weight: var(--display-weight); line-height: 1.2;
+  color: var(--c-deep);
+  overflow-wrap: break-word;
+}
+.ls-vibe { margin: 10px 0 0; font-size: 17px; line-height: 1.45; font-weight: var(--display-weight); color: var(--ink); }
+.ls-same {
+  display: inline-block; margin: 12px 0 0; padding: 5px 14px; border-radius: 999px;
+  background: var(--c-ink); border: 1px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  color: var(--c-deep); font-size: 13.5px; font-weight: 700;
+}
+.ls-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.ls-sub { margin: 16px 0 8px; font-size: 16px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; }
+.ls-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.ls-chips li {
+  padding: 6px 12px; border-radius: 999px;
+  background: var(--c-ink); border: 1px solid color-mix(in srgb, var(--c-main) 40%, transparent);
+  color: var(--c-deep); font-size: 14px; font-weight: 700; line-height: 1.35;
+}
+.ls-tips { margin-top: 4px; text-align: left; }
+.ls-tips ol {
+  margin: 0; padding: 12px 14px 12px 36px; border-radius: 16px;
+  background: var(--c-ink); border-left: 4px solid var(--c-main);
+  font-size: 15px; line-height: 1.6;
+}
+.ls-tips li + li { margin-top: 6px; }
+.ls-tips li::marker { color: var(--c-deep); font-weight: 800; }
+
+/* 찰떡궁합·앙숙: 보여주기만 (링크 아님, 누를 수 있어 보이는 모양 없음) */
+.ls-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.ls-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  min-width: 0; padding: 12px 8px 14px;
+  border-radius: 20px; text-align: center;
+  background: var(--card); border: 1px solid rgba(59, 31, 46, 0.1);
+  cursor: default;
+}
+.ls-pair-label { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.ls-pair-art { display: grid; place-items: center; width: 64px; height: 64px; }
+.ls-mini {
+  display: grid; place-items: center; width: 60px; height: 60px; border-radius: 50%;
+  background: color-mix(in srgb, var(--h-main) 22%, #ffffff);
+  font-size: 36px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.ls-pair-name { font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--c-deep); overflow-wrap: break-word; max-width: 100%; }
+
+/* ---------------- 개인정보 ---------------- */
+.ls-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.ls-doc h1 { font-size: 26px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.ls-doc h2 { font-size: 17px; color: var(--rose-deep); margin: 22px 0 6px; }
+.ls-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .ls-body { line-height: 1.75; }
+html:lang(th) :is(.ls-h1-main, .ls-result-name, .ls-q-text, .ls-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .ls-kicker { letter-spacing: 0; }
+html:lang(vi) :is(.ls-h1-main, .ls-result-name, .ls-q-text) { line-height: 1.4; }
+html:lang(ru) .ls-doc h1 { line-height: 1.25; }
+html:lang(ja) :is(.ls-h1-main, .ls-result-name, .ls-q-text, .ls-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.ls-h1-main, .ls-result-name, .ls-q-text, .ls-vibe, .ls-hook, .ls-desc, .ls-tips li) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .ls-h1-main { font-size: 31px; }
+  .ls-result-name { font-size: 29px; }
+  .ls-q-text { font-size: 19px; }
+  .ls-hero-result { width: 176px; height: 176px; }
+  .ls-hero-result .ls-emo { font-size: 98px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ls-float, .ls-halo, .ls-emo, .ls-q, .ls-heart, .ls-q-card { animation: none !important; }
+  .ls-progress-fill, .ls-btn, .ls-choice { transition: none; }
+}

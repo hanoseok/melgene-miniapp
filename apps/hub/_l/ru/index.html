@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -200,6 +200,20 @@
       "url": "https://lunch.example.com/",
       "name": "Что съесть сегодня?",
       "description": "Выбери приём пищи и настроение, крути барабаны и узнай, что съесть. Не нравится блюдо — убери и крути снова."
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/",
+      "name": "Игра 2048",
+      "description": "Сдвигай плитки, соединяй одинаковые числа и дойди до 2048. Классическая головоломка в хэллоуинском стиле."
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/",
+      "name": "Тест на тип любви",
+      "description": "10 ситуаций из отношений, 2–3 минуты. Узнай, какой ты в любви на самом деле и кто тебе подходит больше всех."
     }
   ]
 }
@@ -377,7 +391,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 17</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 19</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -399,6 +413,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/" title="Сдвигай плитки, соединяй одинаковые числа и дойди до 2048. Классическая головоломка в хэллоуинском стиле." style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Игра 2048</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/" title="10 ситуаций из отношений, 2–3 минуты. Узнай, какой ты в любви на самом деле и кто тебе подходит больше всех." style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тест на тип любви</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/" title="Впиши название вечеринки, дату, время, место и пару слов, выбери тему — привидение, тыква, летучая мышь или ведьма. Сохрани картинку, поделись ссылкой или скопируй текст." style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>

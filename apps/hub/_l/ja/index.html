@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -199,6 +199,20 @@
       "url": "https://lunch.example.com/",
       "name": "今日のご飯 何食べる",
       "description": "朝・昼・夜・夜食と気分を選んでスロットを回すだけ。食べたくないメニューは除外して、もう一度回せます。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/",
+      "name": "2048 ゲーム",
+      "description": "スライドして同じ数字を合体、2048を目指そう。スワイプでも矢印キーでも遊べるハロウィン版の数字パズル。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/",
+      "name": "恋愛タイプ診断",
+      "description": "片思いからデート、ちょっとしたケンカまで。10の場面で分かるあなたの恋愛タイプ。約2〜3分。"
     }
   ]
 }
@@ -376,7 +390,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">17件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">19件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -398,6 +412,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/" title="スライドして同じ数字を合体、2048を目指そう。スワイプでも矢印キーでも遊べるハロウィン版の数字パズル。" style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2048 ゲーム</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/" title="片思いからデート、ちょっとしたケンカまで。10の場面で分かるあなたの恋愛タイプ。約2〜3分。" style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">恋愛タイプ診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/" title="パーティー名・日時・場所・ひとことを入れて、おばけ・かぼちゃ・コウモリ・魔女のテーマで招待状を作ろう。画像保存、リンク共有、テキストコピーもOK。" style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>

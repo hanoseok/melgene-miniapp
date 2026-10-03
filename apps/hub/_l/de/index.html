@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -199,6 +199,20 @@
       "url": "https://lunch.example.com/",
       "name": "Was esse ich heute?",
       "description": "Mahlzeit und Stimmung wählen, die Walzen drehen und ein Gericht bekommen. Unliebsames überspringen und neu drehen."
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/",
+      "name": "2048 Spiel",
+      "description": "Kacheln schieben, gleiche Zahlen verschmelzen und die 2048 knacken. Das Zahlenrätsel-Kultspiel als Halloween-Edition."
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/",
+      "name": "Liebestyp-Test",
+      "description": "10 kleine Dating-Momente, 2–3 Minuten. Finde heraus, welcher Liebestyp du wirklich bist – und wer am besten zu dir passt."
     }
   ]
 }
@@ -376,7 +390,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">17 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">19 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -398,6 +412,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/" title="Kacheln schieben, gleiche Zahlen verschmelzen und die 2048 knacken. Das Zahlenrätsel-Kultspiel als Halloween-Edition." style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">2048 Spiel</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/" title="10 kleine Dating-Momente, 2–3 Minuten. Finde heraus, welcher Liebestyp du wirklich bist – und wer am besten zu dir passt." style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Liebestyp-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/" title="Partyname, Datum, Uhrzeit, Ort und eine Nachricht eintragen, Gespenst-, Kürbis-, Fledermaus- oder Hexen-Motiv wählen. Als Bild speichern, Link teilen oder Text kopieren." style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEU</span></span>

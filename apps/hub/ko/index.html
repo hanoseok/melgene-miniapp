@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -198,6 +198,20 @@
       "url": "https://lunch.example.com/ko/",
       "name": "오늘 뭐 먹지",
       "description": "아침·점심·저녁·야식과 기분만 고르고 슬롯머신 릴을 돌려 메뉴를 뽑아요. 마음에 안 드는 메뉴는 제외하고 다시 뽑기."
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/ko/",
+      "name": "2048 게임",
+      "description": "밀어서 같은 숫자끼리 합치고 2048까지! 스와이프·방향키로 하는 할로윈판 숫자 퍼즐."
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/ko/",
+      "name": "연애 유형 테스트",
+      "description": "썸부터 데이트, 사소한 다툼까지 10가지 순간으로 알아보는 나의 연애 스타일. 2~3분이면 끝나요."
     }
   ]
 }
@@ -375,7 +389,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">17개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">19개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -397,6 +411,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/ko/" title="밀어서 같은 숫자끼리 합치고 2048까지! 스와이프·방향키로 하는 할로윈판 숫자 퍼즐." style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2048 게임</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/ko/" title="썸부터 데이트, 사소한 다툼까지 10가지 순간으로 알아보는 나의 연애 스타일. 2~3분이면 끝나요." style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">연애 유형 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/ko/" title="파티 이름·날짜·시간·장소·한마디를 넣고 유령·호박·박쥐·마녀 테마를 골라 오싹한 초대장을 만들어 보세요. 이미지 저장, 링크 공유, 텍스트 복사." style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>

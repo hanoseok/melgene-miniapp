@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -199,6 +199,20 @@
       "url": "https://lunch.example.com/th/",
       "name": "วันนี้กินอะไรดี",
       "description": "เลือกมื้อและอารมณ์ แล้วหมุนสล็อตเพื่อสุ่มเมนูอาหาร ไม่อยากกินอะไรก็ตัดออกแล้วหมุนใหม่ได้"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/th/",
+      "name": "เกม 2048",
+      "description": "ปัดแผ่นตัวเลข รวมเลขเดียวกัน แล้วไปให้ถึง 2048 เกมตัวเลขสุดคลาสสิกฉบับฮาโลวีน เล่นด้วยการปัดหรือปุ่มลูกศร"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/th/",
+      "name": "ทดสอบสไตล์ความรัก",
+      "description": "10 สถานการณ์ความรักเล็ก ๆ ใช้เวลา 2–3 นาที รู้เลยว่าเวลามีความรักคุณเป็นแฟนแบบไหน พร้อมคู่ที่เข้ากันที่สุด"
     }
   ]
 }
@@ -376,7 +390,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">17 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">19 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -398,6 +412,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/th/" title="ปัดแผ่นตัวเลข รวมเลขเดียวกัน แล้วไปให้ถึง 2048 เกมตัวเลขสุดคลาสสิกฉบับฮาโลวีน เล่นด้วยการปัดหรือปุ่มลูกศร" style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกม 2048</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/th/" title="10 สถานการณ์ความรักเล็ก ๆ ใช้เวลา 2–3 นาที รู้เลยว่าเวลามีความรักคุณเป็นแฟนแบบไหน พร้อมคู่ที่เข้ากันที่สุด" style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทดสอบสไตล์ความรัก</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/th/" title="ใส่ชื่องาน วันที่ เวลา สถานที่ และข้อความ เลือกธีมผี ฟักทอง ค้างคาว หรือแม่มด บันทึกเป็นรูป แชร์ลิงก์ หรือคัดลอกข้อความได้" style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>

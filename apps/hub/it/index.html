@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 17,
+  "numberOfItems": 19,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -198,6 +198,20 @@
       "url": "https://lunch.example.com/it/",
       "name": "Cosa mangio oggi?",
       "description": "Scegli il pasto e l’umore, fai girare i rulli e scopri cosa mangiare. Escludi ciò che non ti va e rigira."
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "url": "https://game2048.example.com/it/",
+      "name": "Gioco 2048",
+      "description": "Fai scorrere le tessere, unisci i numeri uguali e arriva a 2048. Il rompicapo classico in versione Halloween."
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "url": "https://lovestyle.example.com/it/",
+      "name": "Test dell’amore",
+      "description": "10 piccoli momenti di coppia, 2-3 minuti. Scopri che tipo di partner sei davvero e chi è la tua anima affine."
     }
   ]
 }
@@ -375,7 +389,7 @@
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">17 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">19 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -397,6 +411,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="game2048" data-cat="game">
+        <a class="tile-link" href="https://game2048.example.com/it/" title="Fai scorrere le tessere, unisci i numeri uguali e arriva a 2048. Il rompicapo classico in versione Halloween." style="--h:254;--h2:236">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Gioco 2048</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lovestyle" data-cat="test">
+        <a class="tile-link" href="https://lovestyle.example.com/it/" title="10 piccoli momenti di coppia, 2-3 minuti. Scopri che tipo di partner sei davvero e chi è la tua anima affine." style="--h:303;--h2:285">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Test dell’amore</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/it/" title="Scrivi nome della festa, data, ora, luogo e un messaggio, scegli un tema fantasma, zucca, pipistrello o strega. Salva l’immagine, condividi il link o copia il testo." style="--h:11;--h2:353">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NUOVO</span></span>
