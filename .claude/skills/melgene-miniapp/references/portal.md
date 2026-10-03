@@ -37,3 +37,5 @@
 ## 확인
 
 `node apps/hub/tools/gen-i18n.js && node apps/hub/tools/check-hub.js --layout` (구조·브랜드·SEO·스포일러·순서 + 12개 언어 360/375 실측: 넘침, 헤드라인·소개 2줄, 머리글 겹침). 포털 OG 는 SITES 이름을 쓰므로 이름을 바꾸면 `node apps/hub/tools/gen-og.js`.
+
+- **모든 미니앱 격자 높이(사용자 지시 2026-10-03)**: 한 화면에는 앱 16개(4줄)까지만 보이고 나머지는 격자 안쪽 스크롤. `script.js` `fitGrid()` 가 16번째 타일 아래까지를 `max-height` 로 잡고 `.grid.is-scroll`(overflow-y:auto). 타일 아래 숫자는 하트·별점이 있어도 **플레이 유저 수를 함께** 보여 준다.

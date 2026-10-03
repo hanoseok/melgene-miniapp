@@ -115,10 +115,10 @@
     var m = el('span', 'tile-meta');
     var vis = el('span', 'tile-meta-vis');
     vis.setAttribute('aria-hidden', 'true');
-    // 아이콘 아래는 자리가 좁다: 하트·별점 우선, 둘 다 없으면 참여 수
+    // 아이콘 아래는 자리가 좁다: 하트·별점이 있어도 플레이 유저 수를 함께 보여 준다(사용자 지시 2026-10-03)
     if (st.hearts > 0) vis.appendChild(el('span', 't-hearts', CORE.compact(st.hearts, LANG)));
     if (st.avg != null) vis.appendChild(el('span', 't-star', avg1(st.avg)));
-    if (!(st.hearts > 0) && st.avg == null && st.plays > 0) vis.appendChild(el('span', 't-plays', CORE.compact(st.plays, LANG)));
+    if (st.plays > 0) vis.appendChild(el('span', 't-plays', CORE.compact(st.plays, LANG)));
     m.appendChild(vis);
     m.appendChild(el('span', 'visually-hidden', srText(st)));
     return m;
@@ -149,6 +149,20 @@
   var searchEl = document.getElementById('hub-q');
   var resetBtn = document.getElementById('hub-reset');
 
+  // 한 화면에는 앱 16개(4줄)까지만 보이고, 그 뒤는 격자 안쪽 스크롤로 본다.
+  var MAX_VISIBLE = 16;
+  function fitGrid() {
+    grid.style.maxHeight = '';
+    grid.classList.remove('is-scroll');
+    var tiles = grid.children;
+    if (grid.hidden || tiles.length <= MAX_VISIBLE) return;
+    var gridTop = grid.getBoundingClientRect().top;
+    var last = tiles[MAX_VISIBLE - 1].getBoundingClientRect();
+    grid.style.maxHeight = Math.ceil(last.bottom - gridTop + 4) + 'px';
+    grid.classList.add('is-scroll');
+  }
+  window.addEventListener('resize', fitGrid);
+
   function renderGrid(animate) {
     var shown = CORE.sortApps(apps.filter(function (a) {
       return (state.cat === 'all' || a.category === state.cat) && CORE.matches(a, state.q);
@@ -159,6 +173,7 @@
     grid.appendChild(frag);
     grid.classList.toggle('is-loading', loading);
     grid.hidden = !shown.length;
+    fitGrid();
     if (animate && !reduceMotion) {
       grid.classList.remove('is-swap');
       void grid.offsetWidth; // 애니메이션 다시 시작

@@ -69,7 +69,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - **어떻게 동작하나**(`tools/lib/i18n-gen.js` 의 `G.pageLoader(rel)` — `G.hreflangTags` 가 모든 페이지 `<head>` 맨 앞에 넣는다, 앱에서 할 일 없음): 언어 없는 주소(=en 페이지)에서 저장된 언어가 en 이 아니면 그 자리에서 숨은 언어 사본 `<앱>/_l/<lang>/<rel>` 을 받아 문서를 통째로 바꾼다(주소 그대로). 언어 폴더 주소(`/<앱>/ko/…`)나 `_l/…` 를 직접 열면 사람은 언어 없는 주소로 `location.replace`(쿼리·해시 유지, 저장된 언어가 없으면 그 폴더 언어를 저장). `?lang=<코드>` = 저장하고 주소에서 지운 뒤 적용. 언어 `<select>` 값 = 언어 코드 → 저장하고 같은 언어 없는 주소를 다시 연다. `#nolang` = 이번만 안 바꿈. 크롤러·자동화 브라우저(봇 UA·`HeadlessChrome`·`navigator.webdriver`)는 바꾸거나 옮기지 않는다. 공유·복사 링크는 언제나 언어 없는 주소(`window.mgCleanUrl`). 앱 코드에서 언어별 주소를 만들지 않는다 — 링크는 생성기의 상대 경로 그대로.
 - **언어 폴더와 숨은 사본은 생성물**: `apps/<앱>/<lang>/…` = 검색엔진용(hreflang·사이트맵·canonical, 사람은 곧바로 언어 없는 주소로 넘어감). `apps/<앱>/_l/<lang>/…` = 사람에게 보여 줄 사본(`noindex`, canonical 은 폴더 주소, 링크는 언어 없는 주소 기준 상대 경로, robots.txt `Disallow: /_l/`·`/*/_l/`). `node tools/gen-all.js` 가 앱마다 생성기를 두 번 돌린다(보통 + `MG_I18N_MODE=variant`) — 생성기를 직접 돌릴 때도 둘 다. 링크 검사(`check-links.js`)가 사본의 noindex·짝 페이지를 확인한다.
 - **고른 언어가 없으면 방문자 지역을 따른다**: 언어 없는 en 페이지에서만(`common.js`) 판단해서 그 언어를 저장하고 같은 주소를 다시 연다. 나라 = Supabase RPC `client_country()`(Cloudflare `cf-ipcountry`, 저장 안 함, sessionStorage `mg_cc` 캐시, 1.2초 제한) → 모르면 브라우저 언어의 지역(ko-KR → KR) → 그래도 모르거나 매핑 없는 나라면 영어 그대로. 매핑: KR ko · JP ja · CN TW HK MO SG zh · FR MC + 프랑스어권 아프리카 fr (BE·LU 는 브라우저가 de 면 de) · DE AT LI de (CH 는 브라우저가 fr/it 면 그 언어) · TH th · VN vi · 스페인어권 es · IT SM VA it · PT BR AO MZ CV GW ST TL pt · RU BY KZ KG ru. 로컬 headless 검사는 쿠키 `mg_lang`(또는 `lang_pref`)을 그 언어로 넣거나, `#nolang`, 또는 기본 headless UA(봇 판정 — 언어 폴더 주소가 그대로 보임)로 돌린다.
-- 포털 카테고리: 게임 · 심리테스트 · 만들기 · 투표 (id: game · test · create · vote). 돌림판·사다리타기처럼 여럿 중 하나를 정하는 도구는 **투표(vote)**. 필요할 때만 늘린다.
+- 포털 카테고리: 게임 · 심리테스트 · 만들기 · 투표 (id: game · test · create · vote). 돌림판·사다리타기처럼 여럿 중 하나를 정하는 도구는 **투표(vote)**. 새 카테고리는 필요하면 더 만들어도 된다(사용자 지시 2026-10-03; 추가하면 12개 언어 이름·칩·check 를 함께 갱신).
 - 새 앱 등록 = `apps/<id>/app.config.js`(12개 언어 제목·설명, category, added) — 중앙 파일은 고치지 않는다. `node tools/gen-all.js` 가 `tools/gen-sites.js` 로 `shared/site.config.js` 의 SITES(생성 구역, 손으로 고치지 않음)를 다시 쓴다. 등록 14일 동안 포털에 NEW 배지.
 
 ## 5. 숫자는 진짜만
@@ -103,7 +103,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 ## 9. 사용자가 정한 것 (바꾸지 않는다)
 
 - 브랜드는 "Melgene Apps / 멜진 미니앱" 계열, "오늘의 테스트"·"Melgene MiniApp" 금지. 주소는 `https://miniapp.melgene.com/<앱>/` — 보이는 주소에 언어 경로 금지, 언어는 쿠키 > localStorage 에만(4번 절).
-- 카테고리는 게임·심리테스트·만들기·투표(game·test·create·vote)만(필요할 때만 추가). 돌림판·사다리류 = 투표. 새 앱은 NEW.
+- 카테고리는 게임·심리테스트·만들기·투표(game·test·create·vote)만(새 카테고리는 더 만들어도 됨, 사용자 지시 2026-10-03). 돌림판·사다리류 = 투표. 새 앱은 NEW.
 - 매일(예약 실행마다) 새 앱을 두 개 만들고, 카테고리를 순서대로 돌린다(0번 절).
 - 하트·플레이 30초 중복 제외(앱+IP), 인기도 = 하트×10 + 별점 합 + 플레이.
 - 끝 화면 7단 순서, 공유 6개(링크 복사·X·Instagram·TikTok·Facebook·언어별 메신저), 3×2 배치.
