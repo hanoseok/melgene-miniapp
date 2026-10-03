@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 수박 게임 할로윈 머지 실제 흐름 검사 (Chrome headless + CDP, 의존성 없음). check-all 에는 들어가지 않는다(느림).
+ * 할로윈 수박게임 실제 흐름 검사 (Chrome headless + CDP, 의존성 없음). check-all 에는 들어가지 않는다(느림).
  * 사이트는 이 스크립트가 직접 띄운다: python3 -m http.server (apps/merge) + tools/mock-supa.js
  *   (운영 DB 안 씀 — localStorage.mg_supa_url 로 모의 서버, lang_pref·mg_lang 로 지역 이동 막음)
  * 모의 서버에 점수 분포를 미리 심는다(다른 사람 40명) → 끝 화면 상위 %가 Node 의 MERGE_CORE.percentile 과 같은지 본다.
@@ -336,7 +336,7 @@ async function main() {
     for (let i = 0; i < 80; i++) { try { if ((await fetch(`http://127.0.0.1:${CDP_PORT}/json/version`)).ok) break; } catch (e) { /* 기다림 */ } await sleep(150); }
     for (let i = 0; i < 40; i++) { try { await mockRpc('__reset'); break; } catch (e) { await sleep(100); } }
     for (let i = 0; i < 40; i++) { try { if ((await fetch(`http://127.0.0.1:${HTTP_PORT}/index.html`)).ok) break; } catch (e) { /* 기다림 */ } await sleep(150); }
-    console.log(`\n=== 수박 게임 할로윈 머지 흐름 검사 (${LANGS.join(', ')} × ${WIDTHS.join(', ')}px) — python3 http.server :${HTTP_PORT} + mock-supa :${MOCK_PORT} ===`);
+    console.log(`\n=== 할로윈 수박게임 흐름 검사 (${LANGS.join(', ')} × ${WIDTHS.join(', ')}px) — python3 http.server :${HTTP_PORT} + mock-supa :${MOCK_PORT} ===`);
     const plan = [];
     LANGS.forEach((lang) => WIDTHS.forEach((w) => plan.push([lang, w, 'normal'])));
     plan.push([LANGS[0], 375, 'empty']);                       // 빈 서버: 상위 % 숨김

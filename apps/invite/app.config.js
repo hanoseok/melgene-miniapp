@@ -9,7 +9,7 @@ module.exports = {
   order: 1, // 같은 날(added) 등록한 앱 사이의 순서 (없으면 뒤로)
   path: 'https://invite.example.com/',
   title: {
-    ko: '할로윈 파티 초대장 만들기',
+    ko: '할로윈 파티 초대장',
     en: 'Party Invitation Maker',
     ja: 'ハロウィン招待状メーカー',
     zh: '万圣节派对邀请函制作',

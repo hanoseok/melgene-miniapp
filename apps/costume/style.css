@@ -1,4 +1,4 @@
-/* apps/costume/style.css — 할로윈 코스튬 추천 테스트: 보랏빛 할로윈 밤 + 호박 주황, 결과 페이지는 그 코스튬 색(--c-*)으로 물든다.
+/* apps/costume/style.css — 할로윈 코스튬 추천: 보랏빛 할로윈 밤 + 호박 주황, 결과 페이지는 그 코스튬 색(--c-*)으로 물든다.
  * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
  * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
  */

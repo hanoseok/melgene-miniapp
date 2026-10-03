@@ -1,5 +1,5 @@
 /* apps/costume/costume-core.js
- * 할로윈 코스튬 추천 테스트 — 언어와 무관한 로직: 코스튬 8종(id·이모지·색·찰떡 단짝/라이벌) + 12문항의 채점 가중치 + 채점 함수 + 서버 비율 인코딩.
+ * 할로윈 코스튬 추천 — 언어와 무관한 로직: 코스튬 8종(id·이모지·색·찰떡 단짝/라이벌) + 12문항의 채점 가중치 + 채점 함수 + 서버 비율 인코딩.
  * 문구(질문·보기·결과 설명·코스튬 팁)는 tools/i18n/<lang>.js 에만 있다. QUESTIONS[i].choices[j] 순서가
  * 각 언어 파일의 questions[i].choices[j] 와 1:1로 대응한다 → 모든 언어가 같은 가중치로 채점된다.
  * 브라우저(<script src="costume-core.js"> → window.COSTUME_CORE)와 Node(tools/*.js 에서 require) 공용(UMD).

@@ -53,7 +53,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 4. 공유: 링크 복사 · X · Instagram · TikTok · Facebook · 메신저(언어별: ko 카카오톡 / ja·th LINE / ru Telegram / 그 밖 WhatsApp)
 5. 자주 묻는 질문 (접이식, `MG_FAQ`)
 6. 다시 하기
-7. 다른 미니앱 링크
+7. 다른 미니앱 링크 — **무작위 5개만**(`renderMoreTests`, 사용자 지시 2026-10-04; 예전 최신순 전체 목록은 폐지)
 
 구현: 결과 바로 아래에 `<div data-mg-end="<앱 id>"></div>` 하나만 둔다(`shared/common.js` 가 2~7을 그린다). 앱은 `window.setShareData({ title, text, url } | fn)` 과 `window.setRetry(fn | url | { label, action })` 만 등록한다. 앱 자체 공유 버튼·다시 하기 버튼·별점·다른 테스트 목록을 따로 만들지 않는다.
 
@@ -109,3 +109,5 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - 끝 화면 7단 순서, 공유 6개(링크 복사·X·Instagram·TikTok·Facebook·언어별 메신저), 3×2 배치.
 - FAQ 에 "정말 무료인가요?"·"인기순·하트·별점 계산" 류를 넣지 않는다.
 - 사용자에게는 한국어로 말한다.
+
+- 앱 이름(ko)은 짧게: `할로윈 수박게임` · `할로윈 코스튬 추천` · `할로윈 파티 초대장`처럼 "~ 테스트/~ 만들기/~ 머지" 군더더기를 뺀다(사용자 지시 2026-10-04).

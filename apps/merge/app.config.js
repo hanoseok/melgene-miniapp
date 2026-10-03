@@ -10,7 +10,7 @@ module.exports = {
   order: 1, // 같은 날(added) 등록한 앱 사이의 순서 (없으면 뒤로)
   path: 'https://merge.example.com/',
   title: {
-    ko: '수박 게임 할로윈 머지',
+    ko: '할로윈 수박게임',
     en: 'Suika Game Halloween',
     ja: 'スイカゲーム ハロウィン',
     zh: '合成大西瓜 万圣节版',

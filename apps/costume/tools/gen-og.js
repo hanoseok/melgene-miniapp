@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 할로윈 코스튬 추천 테스트 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
+ * 할로윈 코스튬 추천 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
  *   en(기본, 사이트 루트): og/default.png, og/<id>.png
  *   그 밖:                og/<언어 dir>/default.png, og/<언어 dir>/<id>.png      → 12개 언어 × 9장 = 108장
  * 기본 이미지는 결과를 인용하지 않는다(정체불명 옷걸이 + 물음표 + 앱 이름 + 짧은 설명). 글꼴은 언어 파일 fonts 그대로(네트워크 필요).

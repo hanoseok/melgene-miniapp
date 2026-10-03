@@ -425,11 +425,13 @@
     var host = hostEl || document.getElementById('more-tests');
     if (!host) return;
     var wrap = hostEl ? host : (host.closest('.more-tests-section') || host);
-    // 최신순(added 가 늦은 앱 먼저, 같은 날은 SITES 순서) — 사용자 지시 2026-10-02
-    var all = CFG.SITES || [];
-    var sites = all.filter(function (s) { return s.id !== currentId; }).sort(function (a, b) {
-      return String(b.added || '').localeCompare(String(a.added || '')) || all.indexOf(a) - all.indexOf(b);
-    });
+    // 무작위 5개만 보여 준다 — 사용자 지시 2026-10-04 (예전: 최신순 전체, 2026-10-02)
+    var sites = (CFG.SITES || []).filter(function (s) { return s.id !== currentId; });
+    for (var i = sites.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = sites[i]; sites[i] = sites[j]; sites[j] = t;
+    }
+    sites = sites.slice(0, 5);
     if (!sites.length) { wrap.style.display = 'none'; return; }
 
     host.innerHTML = '';

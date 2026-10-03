@@ -1,4 +1,4 @@
-/* apps/invite/invite-core.js — 할로윈 파티 초대장 만들기 핵심 로직 (언어 무관, UMD)
+/* apps/invite/invite-core.js — 할로윈 파티 초대장 핵심 로직 (언어 무관, UMD)
  * 브라우저(<script src="invite-core.js">)와 Node(tools/check-invite.js)가 같은 코드를 쓴다.
  *
  * 초대장 = { t 테마, n 파티 이름, d 날짜 'YYYY-MM-DD'(없으면 ''), h 시간 'HH:MM'(없으면 ''), p 장소, m 한마디 }

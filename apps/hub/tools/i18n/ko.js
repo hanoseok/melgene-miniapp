@@ -25,7 +25,7 @@ module.exports = {
       {
         id: 'invite',
         kicker: '직접 만들기',
-        headline: '할로윈 파티 초대장 만들기',
+        headline: '할로윈 파티 초대장',
         blurb: '파티 정보를 적고 테마를 골라 저장하거나 보내요.',
       },
       {

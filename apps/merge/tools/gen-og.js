@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 수박 게임 할로윈 머지 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
+ * 할로윈 수박게임 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
  *   en(기본, 사이트 루트): og/default.png
  *   그 밖:                og/<언어 dir>/default.png
  * 그림은 시작 화면 티저와 같은 보랏빛 밤 + 유리병 안에 쌓인 조각들(잭오랜턴·호박·유령…) + 점선. 글꼴은 언어 파일 fonts 그대로(네트워크 필요).

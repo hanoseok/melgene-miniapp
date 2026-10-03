@@ -10,7 +10,7 @@ module.exports = {
   order: 2, // 같은 날(added) 등록한 앱 사이의 순서 (없으면 뒤로)
   path: 'https://costume.example.com/',
   title: {
-    ko: '할로윈 코스튬 추천 테스트',
+    ko: '할로윈 코스튬 추천',
     en: 'Halloween Costume Quiz',
     ja: 'ハロウィン仮装診断',
     zh: '万圣节装扮测试',

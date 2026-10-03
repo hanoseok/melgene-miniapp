@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 할로윈 파티 초대장 만들기 실제 흐름 검사 (Chrome headless + CDP, 의존성 없음). check-all 에는 들어가지 않는다(느림).
+ * 할로윈 파티 초대장 실제 흐름 검사 (Chrome headless + CDP, 의존성 없음). check-all 에는 들어가지 않는다(느림).
  * 사이트는 이 스크립트가 직접 띄운다: python3 -m http.server :8771 (apps/invite) + tools/mock-supa.js :8772
  *   (운영 DB 안 씀 — localStorage.mg_supa_url 로 모의 서버, lang_pref 로 지역 이동 막음, 다운로드는 막아 둠)
  * 언어 × 화면 폭마다:
@@ -122,7 +122,7 @@ async function main() {
     for (let i = 0; i < 80; i++) { try { if ((await fetch(`http://127.0.0.1:${CDP_PORT}/json/version`)).ok) break; } catch (e) { /* 기다림 */ } await sleep(150); }
     for (let i = 0; i < 40; i++) { try { await mockRpc('__reset'); break; } catch (e) { await sleep(100); } }
     for (let i = 0; i < 40; i++) { try { if ((await fetch(`http://127.0.0.1:${HTTP_PORT}/index.html`)).ok) break; } catch (e) { /* 기다림 */ } await sleep(150); }
-    console.log(`\n=== 할로윈 파티 초대장 만들기 흐름 검사 (${LANGS.join(', ')} × ${WIDTHS.join(', ')}px) — python3 http.server :${HTTP_PORT} + mock-supa :${MOCK_PORT} ===`);
+    console.log(`\n=== 할로윈 파티 초대장 흐름 검사 (${LANGS.join(', ')} × ${WIDTHS.join(', ')}px) — python3 http.server :${HTTP_PORT} + mock-supa :${MOCK_PORT} ===`);
     for (const lang of LANGS) {
       const T = L10N[lang];
       for (const width of WIDTHS) {

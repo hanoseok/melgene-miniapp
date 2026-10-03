@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 할로윈 코스튬 추천 테스트의 정적 페이지를 언어별로 생성한다 (12개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
+ * 할로윈 코스튬 추천의 정적 페이지를 언어별로 생성한다 (12개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
  *   index.html, <dir>/index.html          — 시작(티징만) → 질문 12개 → 옷장 뒤지는 중 → r/<id>.html 로 이동
  *   r/<id>.html, <dir>/r/<id>.html         — 결과 8종 (그 결과 하나 + 코스튬 팁 + 찰떡 단짝·라이벌 한 쌍, 보여주기만) + 공통 끝 화면
  *   privacy.html, <dir>/privacy.html

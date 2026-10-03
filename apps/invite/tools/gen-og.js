@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 할로윈 파티 초대장 만들기 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
+ * 할로윈 파티 초대장 OG 이미지(1200x630 PNG)를 언어별로 Chrome headless 로 만든다 (tools/lib/og-shot.js).
  *   en(기본, 사이트 루트): og/default.png
  *   그 밖:                og/<언어 dir>/default.png
  * 그림은 CSS·이모지로 그린 예시 초대장(테마 유령, 실제 날짜 없음). 글꼴은 언어 파일 fonts 그대로(네트워크 필요).

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 할로윈 파티 초대장 만들기 정적 페이지를 언어별로 생성한다 (12개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
+ * 할로윈 파티 초대장 정적 페이지를 언어별로 생성한다 (12개 언어: shared/i18n.js 의 LOCALES, en 이 루트).
  *   index.html, <dir>/index.html   — 시작(티징만) → 편집기(테마·파티 이름·날짜·시간·장소·한마디 + canvas 미리보기) → 끝 화면(초대장 이미지 + 저장·텍스트 복사 + 공통 끝 화면)
  *   privacy.html, <dir>/privacy.html
  *   sitemap.xml (index × 12개 언어, xhtml:link hreflang + lastmod)

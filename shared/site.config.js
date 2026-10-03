@@ -316,7 +316,7 @@ window.SITE_CONFIG = {
       category: 'game',
       added: '2026-10-02',
       path: 'https://merge.example.com/',
-      title: { ko: '수박 게임 할로윈 머지', en: 'Suika Game Halloween', ja: 'スイカゲーム ハロウィン', zh: '合成大西瓜 万圣节版', fr: 'Jeu de la pastèque – Halloween', de: 'Suika Game Halloween', th: 'เกมแตงโม ฮาโลวีน', vi: 'Game dưa hấu Halloween', es: 'Juego de la sandía – Halloween', it: 'Gioco dell’anguria', pt: 'Jogo da melancia – Halloween', ru: 'Арбузная игра на Хэллоуин' },
+      title: { ko: '할로윈 수박게임', en: 'Suika Game Halloween', ja: 'スイカゲーム ハロウィン', zh: '合成大西瓜 万圣节版', fr: 'Jeu de la pastèque – Halloween', de: 'Suika Game Halloween', th: 'เกมแตงโม ฮาโลวีน', vi: 'Game dưa hấu Halloween', es: 'Juego de la sandía – Halloween', it: 'Gioco dell’anguria', pt: 'Jogo da melancia – Halloween', ru: 'Арбузная игра на Хэллоуин' },
       desc: {
         ko: '사탕을 병에 떨어뜨려 같은 것끼리 합치면 더 큰 것으로! 선을 넘기지 않고 거대 잭오랜턴까지 키워 보는 할로윈 수박 게임.',
         en: 'Drop treats into the jar and merge matching pairs into bigger ones. Keep the pile under the line and grow a giant jack-o’-lantern.',
@@ -338,7 +338,7 @@ window.SITE_CONFIG = {
       category: 'test',
       added: '2026-10-02',
       path: 'https://costume.example.com/',
-      title: { ko: '할로윈 코스튬 추천 테스트', en: 'Halloween Costume Quiz', ja: 'ハロウィン仮装診断', zh: '万圣节装扮测试', fr: 'Quiz déguisement', de: 'Halloween-Kostüm-Test', th: 'ทดสอบชุดฮาโลวีน', vi: 'Test hóa trang Halloween', es: 'Test de disfraz de Halloween', it: 'Test costume di Halloween', pt: 'Teste de fantasia de Halloween', ru: 'Тест: какой костюм на Хэллоуин' },
+      title: { ko: '할로윈 코스튬 추천', en: 'Halloween Costume Quiz', ja: 'ハロウィン仮装診断', zh: '万圣节装扮测试', fr: 'Quiz déguisement', de: 'Halloween-Kostüm-Test', th: 'ทดสอบชุดฮาโลวีน', vi: 'Test hóa trang Halloween', es: 'Test de disfraz de Halloween', it: 'Test costume di Halloween', pt: 'Teste de fantasia de Halloween', ru: 'Тест: какой костюм на Хэллоуин' },
       desc: {
         ko: '파티 속 12가지 순간으로 찾는 올해 나의 할로윈 코스튬. 만드는 팁까지 2분이면 끝!',
         en: '12 party moments, about 2 minutes. Find the Halloween costume that fits your personality — with easy DIY tips.',
@@ -360,7 +360,7 @@ window.SITE_CONFIG = {
       category: 'create',
       added: '2026-10-03',
       path: 'https://invite.example.com/',
-      title: { ko: '할로윈 파티 초대장 만들기', en: 'Party Invitation Maker', ja: 'ハロウィン招待状メーカー', zh: '万圣节派对邀请函制作', fr: 'Invitation Halloween', de: 'Halloween-Einladung', th: 'สร้างการ์ดเชิญปาร์ตี้ฮาโลวีน', vi: 'Tạo thiệp mời tiệc Halloween', es: 'Invitación de fiesta de Halloween', it: 'Invito per festa di Halloween', pt: 'Convite de festa de Halloween', ru: 'Приглашение на Хэллоуин' },
+      title: { ko: '할로윈 파티 초대장', en: 'Party Invitation Maker', ja: 'ハロウィン招待状メーカー', zh: '万圣节派对邀请函制作', fr: 'Invitation Halloween', de: 'Halloween-Einladung', th: 'สร้างการ์ดเชิญปาร์ตี้ฮาโลวีน', vi: 'Tạo thiệp mời tiệc Halloween', es: 'Invitación de fiesta de Halloween', it: 'Invito per festa di Halloween', pt: 'Convite de festa de Halloween', ru: 'Приглашение на Хэллоуин' },
       desc: {
         ko: '파티 이름·날짜·시간·장소·한마디를 넣고 유령·호박·박쥐·마녀 테마를 골라 오싹한 초대장을 만들어 보세요. 이미지 저장, 링크 공유, 텍스트 복사.',
         en: 'Add the party name, date, time, place and a note, pick a ghost, pumpkin, bat or witch theme and make a spooky invitation. Save the image, share a link or copy the text.',
