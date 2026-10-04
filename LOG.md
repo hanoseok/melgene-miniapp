@@ -71,3 +71,5 @@
 - 2026-10-04 (마무리): `./deploy-cf.sh` 로 직접 배포(Cloudflare API 가 이 환경에서 다시 열림) — 결과 페이지 언어 버그 수정·16개 격자·플레이 수 표시 라이브 확인(costume r/witch 한국어 유지, 격자 17개 중 16개 보임·안쪽 스크롤, 플레이 수 17개 타일). 옛 서브도메인 복구: ladder/life/past-life/www.melgene.com 프록시 A(192.0.2.1) + Redirect Rules 4개(301 → miniapp.melgene.com/<앱>/, www → melgene.com) 모두 확인. 스킬(melgene-ops §0)·README 배포 방식 갱신. 남은 일(사용자): GitHub 계정 정지 이의 제기, Search Console 소유 확인·사이트맵 재제출(회사망 SSO).
 - 2026-10-04 (새 앱 2개): game2048(2048 게임, game, order 1) + lovestyle(연애 유형 테스트, test, order 2) 추가 — 12개 언어, check-all 22/22 통과, gen-all 링크 검사 PASS. 카테고리 순환: game+test → 다음 create+vote.
 - 2026-10-04 (IndexNow): 키 파일 배포(deploy-prep finish_root, deploy.env INDEXNOW_KEY) + 새 주소 제출 202. PROMO_LOG 기록.
+- 2026-10-04 (오늘의 미니앱: 최근 10개 중 무작위 6개): 포털 캐러셀을 최신 10개(최신순) 중 무작위 6개로 — 페이지를 열 때마다 다시 섞음(`script.js` shuffleCuration, Fisher-Yates). 생성기는 10장 모두 그리고 7~10번째 `hidden`(JS 없으면 최신 6개), 문구 없는 최신 앱은 생성 실패. 12개 언어에 lovestyle·game2048·aura·candy-catch 큐레이션 문구 추가. check-hub: 최신 10개 문구 필수·카드/hidden/점 개수·--layout 10장 전부 실측. portal.md 갱신.
+- 2026-10-04 (NEW 배지): 등록 후 5일간만 표시(사용자 지시; hub-core isNew 기본 5일, 문서 갱신).

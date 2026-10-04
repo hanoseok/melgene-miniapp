@@ -5,7 +5,7 @@
  *   sitemap.xml (모든 언어 URL + xhtml:link hreflang)
  *
  * 페이지 순서(스킬 7번 포털 예외): 머리글(브랜드 + 언어 select) → 작은 <h1>(브랜드 + 현지 검색어)
- *   → 오늘의 미니앱 캐러셀(curation.items, 누적 참여 한 줄) → 모든 미니앱 아이콘 격자 → 광고(mg-ad 1개)
+ *   → 오늘의 미니앱 캐러셀(최신 10개 중 무작위 6개, curation.items 문구, 누적 참여 한 줄) → 모든 미니앱 아이콘 격자 → 광고(mg-ad 1개)
  *   (카테고리 칩·검색·정렬) → 자주 묻는 질문(보이는 FAQ + FAQPage JSON-LD) → 푸터. 히어로 문구·소개 섹션은 없다.
  * 캐러셀과 격자는 **정적으로 미리 그린다**(검색엔진·JS 없는 환경용). 브라우저에서는 script.js 가 참여 수·별점·하트
  * (supa.summary, 실제 데이터가 있을 때만), 캐러셀 점/화살표, 카테고리/검색/정렬을 붙인다.
@@ -123,23 +123,31 @@ function tileHtml(app, T, today) {
       </li>`;
 }
 
-// 큐레이션 카드들 (tools/i18n/<lang>.js 의 curation.items). SITES 에 없는 id 는 건너뛴다. 최대 6개.
+// 최신순(added 늦은 앱 먼저, 같은 날은 SITES 순서) — "모든 미니앱" 격자 기본 정렬·hub-core sortApps('newest') 와 같다
+function newestFirst(apps) {
+  return apps.map((a, i) => [a, i]).sort((x, y) => y[0].added.localeCompare(x[0].added) || x[1] - y[1]).map((x) => x[0]);
+}
+
+// 오늘의 미니앱: 최신 CUR_POOL(10)개를 모두 그리고, CUR_SHOW(6)번째 뒤는 hidden (JS 없으면 최신 6개).
+// 브라우저에서는 script.js 가 10개 중 무작위 6개를 골라 순서를 섞는다(사용자 지시 2026-10-04).
+// 문구는 tools/i18n/<lang>.js 의 curation.items 에서 id 로 찾는다 — 최신 10개 중 문구가 없으면 생성 실패.
+const CUR_POOL = 10;
+const CUR_SHOW = 6;
 function curationHtml(lang, T, apps, today) {
   const C = T.curation;
   if (!C || !Array.isArray(C.items)) return '';
-  const byId = new Map(apps.map((a) => [a.id, a]));
-  const items = C.items
-    .filter((it) => {
-      if (byId.has(it.id)) return true;
-      console.warn(`[${lang}] curation: SITES 에 없는 id 라서 건너뜀 → ${it.id}`);
-      return false;
-    })
-    .slice(0, 6);
+  const copy = new Map(C.items.map((it) => [it.id, it]));
+  const pool = newestFirst(apps).slice(0, CUR_POOL);
+  const missing = pool.filter((a) => !copy.has(a.id)).map((a) => a.id);
+  if (missing.length) {
+    throw new Error(`[${lang}] curation.items 에 최신 ${CUR_POOL}개 앱 문구가 없음 → ${missing.join(', ')} (apps/hub/tools/i18n/${lang}.js 에 { id, kicker, headline, blurb } 추가)`);
+  }
+  const items = pool.map((a) => copy.get(a.id));
   if (!items.length) return '';
 
-  const cards = items.map((it) => {
-    const a = byId.get(it.id);
-    return `      <li class="cur-item" data-id="${esc(a.id)}">
+  const cards = items.map((it, i) => {
+    const a = pool[i];
+    return `      <li class="cur-item" data-id="${esc(a.id)}"${i >= CUR_SHOW ? ' hidden' : ''}>
         <a class="cur-card" href="${esc(a.href)}" style="${CORE.hueStyle(a.id)}">
           <span class="cur-art">
             <span class="cur-top">${iconHtml(a, T, today)}<span class="cur-kicker">${esc(it.kicker)}</span></span>
@@ -157,6 +165,7 @@ function curationHtml(lang, T, apps, today) {
       </li>`;
   }).join('\n');
   const dots = items
+    .slice(0, CUR_SHOW)
     .map((it, i) => `<button type="button" class="cur-dot" data-i="${i}" aria-label="${esc(G.fmt(T.ui.goTo, { n: i + 1 }))}"${i === 0 ? ' aria-current="true"' : ''}></button>`)
     .join('');
   const chev = (d) => `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${d}" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
@@ -229,8 +238,7 @@ function renderIndex(lang) {
   const sortOpts = ['newest', 'popular', 'rating']
     .map((s) => `<option value="${s}"${s === 'newest' ? ' selected' : ''}>${esc(T.ui.sorts[s])}</option>`)
     .join('');
-  const newestFirst = apps.map((a, i) => [a, i]).sort((x, y) => y[0].added.localeCompare(x[0].added) || x[1] - y[1]).map((x) => x[0]);
-  const tiles = newestFirst.map((a) => tileHtml(a, T, today)).join('\n');
+  const tiles = newestFirst(apps).map((a) => tileHtml(a, T, today)).join('\n');
   const faq = T.faq.map(([q, a]) => `      <details class="faq-item"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n');
 
   const countText = apps.length === 1 ? T.ui.countOne : G.fmt(T.ui.count, { n: apps.length });

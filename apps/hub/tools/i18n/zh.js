@@ -21,7 +21,7 @@ module.exports = {
   homeAria: 'Melgene 小应用首页',
   // 页眉下方的小号 <h1>：品牌名 + 真实搜索词
   h1: '免费小游戏·心理测试',
-  // 今日小应用（轮播）。id 为 SITE_CONFIG.SITES 的 id（不存在的会跳过），3–6 个。
+  // 今日小应用（轮播）。id 为 SITE_CONFIG.SITES 的 id。页面从 SITES 最新 10 个里随机显示 6 个，这 10 个都要在这里有文案。
   curation: {
     h2: '今日小应用',
     items: [
@@ -60,6 +60,30 @@ module.exports = {
         kicker: '随机分组',
         headline: '一键公平随机分组',
         blurb: '输入名字，选好组数，一点就分。',
+      },
+      {
+        id: 'lovestyle',
+        kicker: '性格测试',
+        headline: '你是哪种恋人？',
+        blurb: '从暧昧到约会，10个小瞬间看出你的恋爱风格。',
+      },
+      {
+        id: 'game2048',
+        kicker: '益智游戏',
+        headline: '滑动合并，冲向2048',
+        blurb: '相同数字合在一起，经典数字拼图万圣节版。',
+      },
+      {
+        id: 'aura',
+        kicker: '性格测试',
+        headline: '你的气场是什么颜色？',
+        blurb: '回答几个日常小瞬间，看看你散发的气场颜色。',
+      },
+      {
+        id: 'candy-catch',
+        kicker: '小游戏',
+        headline: '接住天上掉下的糖果',
+        blurb: '移动南瓜桶接糖果，躲开吓人的东西。',
       },
     ],
   },

@@ -56,6 +56,30 @@ module.exports = {
         headline: 'Faire Zufallsteams mit einem Tipp',
         blurb: 'Namen eingeben, Teamanzahl wählen und mischen.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Wie tickst du in der Liebe?',
+        blurb: 'Zehn kleine Momente zu zweit zeigen, wie du liebst.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Denkspiel',
+        headline: 'Schieben, verbinden, 2048 schaffen',
+        blurb: 'Gleiche Zahlen verschmelzen. Das Kult-Puzzle als Halloween-Edition.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Welche Farbe hat deine Aura?',
+        blurb: 'Beantworte ein paar Alltagsmomente und entdecke dein Leuchten.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Schnelles Spiel',
+        headline: 'Fang die fallenden Süßigkeiten',
+        blurb: 'Schieb deinen Kürbiseimer und weich allem Gruseligen aus.',
+      },
     ],
   },
   browse: {

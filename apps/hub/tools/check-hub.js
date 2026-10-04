@@ -27,6 +27,9 @@ const sandbox = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(SITE_DIR, '..', '..', 'shared', 'site.config.js'), 'utf8'), sandbox);
 const SITES = sandbox.window.SITE_CONFIG.SITES || [];
 const SITE_IDS = new Set(SITES.map((s) => s.id));
+// 오늘의 미니앱 후보 = 최신순(added 늦은 앱 먼저, 같은 날은 SITES 순서) 10개 — 화면에는 그중 무작위 6개
+const CUR_POOL = 10, CUR_SHOW = 6;
+const CUR_IDS = SITES.map((s, i) => [s, i]).sort((x, y) => (y[0].added || '').localeCompare(x[0].added || '') || x[1] - y[1]).slice(0, CUR_POOL).map((x) => x[0].id);
 
 const errors = [];
 const warns = [];
@@ -54,8 +57,8 @@ LANGS.forEach((lang) => {
   Object.keys(sh).forEach((k) => { if (!OPTIONAL.has(k)) ok(ref[k] !== undefined, `[${lang}] en 에 없는 키: ${k}`); });
   ['hero', 'about', 'meta.descriptionTpl'].forEach((k) => ok(!k.split('.').reduce((o, x) => (o ? o[x] : undefined), T), `[${lang}] 없어야 하는 키(스킬 7번 포털): ${k}`));
   ok(T.privacy.sections.length === L10N.en.privacy.sections.length, `[${lang}] privacy.sections 개수 ${T.privacy.sections.length}`);
-  ok(T.curation.items.length >= 3 && T.curation.items.length <= 6, `[${lang}] curation.items 3~6개`);
   const ids = T.curation.items.map((i) => i.id);
+  CUR_IDS.forEach((id) => ok(ids.includes(id), `[${lang}] curation.items 에 최신 ${CUR_POOL}개 앱 문구 없음: ${id}`));
   ok(new Set(ids).size === ids.length, `[${lang}] curation id 중복`);
   ids.forEach((id) => ok(SITE_IDS.has(id), `[${lang}] curation id 가 SITES 에 없음: ${id}`));
   ['all', ...CORE.CATS].forEach((c) => ok(!!T.ui.cats[c], `[${lang}] ui.cats.${c} 없음`));
@@ -210,6 +213,10 @@ LANGS.forEach((lang) => {
   ok((html.match(/class="mg-ad"/g) || []).length === 1, `[${lang}] index: mg-ad 는 정확히 1개`);
   const types = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => JSON.parse(m[1])['@type']);
   ok(types.join(',') === 'WebSite,ItemList,FAQPage', `[${lang}] index JSON-LD = ${types.join(',')} (기대 WebSite,ItemList,FAQPage)`);
+  const curIds = [...html.matchAll(/<li class="cur-item" data-id="([^"]+)"( hidden)?>/g)];
+  ok(curIds.map((m) => m[1]).join(',') === CUR_IDS.join(','), `[${lang}] index: 오늘의 미니앱 카드 = 최신 ${CUR_POOL}개(최신순)가 아니다: ${curIds.map((m) => m[1]).join(',')}`);
+  ok(curIds.every((m, i) => !!m[2] === i >= CUR_SHOW), `[${lang}] index: 오늘의 미니앱 7번째부터만 hidden 이어야 한다`);
+  ok((html.match(/class="cur-dot"/g) || []).length === Math.min(CUR_SHOW, CUR_IDS.length), `[${lang}] index: 오늘의 미니앱 점 개수 ≠ ${CUR_SHOW}`);
   ok((html.match(/<details class="faq-item">/g) || []).length === T.faq.length, `[${lang}] index: 보이는 FAQ 개수 ≠ faq`);
   ok(html.indexOf('id="cur-h"') < html.indexOf('id="browse-h"') && html.indexOf('id="hub-grid"') < html.indexOf('class="mg-ad"') && html.indexOf('class="mg-ad"') < html.indexOf('id="faq-h"'),
     `[${lang}] index: 순서가 오늘의 미니앱 → 모든 미니앱 → 광고 → FAQ 가 아니다`);
@@ -243,7 +250,7 @@ function linesAt(str, px, width) {
 }
 LANGS.forEach((lang) => {
   const T = L10N[lang];
-  T.curation.items.forEach((it) => {
+  T.curation.items.filter((it) => CUR_IDS.includes(it.id)).forEach((it) => {
     warn(linesAt(it.headline, 20, 250) <= 2, `[${lang}] 헤드라인이 360px 카드에서 2줄을 넘을 듯: ${it.headline}`);
     ok(em(it.kicker) * 13 <= 190, `[${lang}] 키커가 한 줄에 안 들어갈 듯: ${it.kicker}`);
     warn(linesAt(it.blurb, 13.5, 262) <= 2, `[${lang}] 소개가 2줄을 넘어 말줄임될 듯: ${it.blurb}`);
@@ -300,6 +307,9 @@ async function layoutPass() {
     const bh = document.querySelector('.browse-head'); if (bh && bh.scrollWidth > bh.clientWidth + 1) bad.push('모든 미니앱 제목 줄 넘침');
     document.querySelectorAll('.faq-item summary, .chip, .page-h1').forEach((n) => { if (n.scrollWidth > n.clientWidth + 1) bad.push('넘침: ' + n.className + ' ' + n.textContent.slice(0, 30)); });
     const h1 = document.querySelector('.page-h1'); if (h1 && r(h1).height > 13 * 1.45 * 3 + 2) bad.push('h1 이 3줄 넘음');
+    const curN = document.querySelectorAll('.cur-item').length, curVis = document.querySelectorAll('.cur-item:not([hidden])').length, dotN = document.querySelectorAll('.cur-dot').length;
+    if (window.__allCards) { if (curN !== ${CUR_IDS.length}) bad.push('오늘의 미니앱 카드 ' + curN + '장 (기대 ${CUR_IDS.length})'); }
+    else if (curN !== ${Math.min(6, CUR_IDS.length)} || curVis !== curN || dotN !== curN) bad.push('오늘의 미니앱: JS 후 카드 ' + curN + '장·보임 ' + curVis + '·점 ' + dotN + ' (기대 ${Math.min(6, CUR_IDS.length)})');
     const chips = document.querySelector('.chips'); const chipOverflow = chips ? chips.scrollWidth - chips.clientWidth : 0;
     return { bad, chipOverflow, headerGap: brand && sel ? Math.round(r(sel).left - r(brand).right) : null };
   })()`;
@@ -316,6 +326,14 @@ async function layoutPass() {
       v.bad.forEach((b) => (/경고/.test(b) ? warns : errors).push(`[${lang}@${width}] ${b}`));
       checks++;
       results.push(`${lang}@${width}: 머리글 여유 ${v.headerGap}px, 칩 넘침 ${v.chipOverflow}px`);
+      // 화면에는 무작위 6장만 남으므로, 생성된 10장 전부(7~10번째 hidden 포함)를 같은 페이지에 다시 넣고 잰다
+      const track = (read(G.fileOf(lang, 'index.html')) || '').match(/<ul class="cur-track" id="cur-track">([\s\S]*?)<\/ul>/);
+      if (!track) { errors.push(`[${lang}@${width}] cur-track 없음`); continue; }
+      const res2 = await send('Runtime.evaluate', { expression: `document.getElementById('cur-track').innerHTML = ${JSON.stringify(track[1])}; document.querySelectorAll('.cur-item[hidden]').forEach((e) => { e.hidden = false; }); window.__allCards = true; ` + MEASURE, awaitPromise: true, returnByValue: true });
+      const v2 = res2.result && res2.result.result && res2.result.result.value;
+      if (!v2) { errors.push(`[${lang}@${width} 카드 10장] 측정 실패`); continue; }
+      v2.bad.forEach((b) => (/경고/.test(b) ? warns : errors).push(`[${lang}@${width} 카드 10장] ${b}`));
+      checks++;
     }
   }
   exc.forEach((e) => errors.push('--layout: 페이지 JS 예외 ' + e));

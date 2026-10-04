@@ -60,6 +60,30 @@ module.exports = {
         headline: 'Chia đội ngẫu nhiên, công bằng',
         blurb: 'Nhập tên, chọn số đội rồi bấm trộn.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Trắc nghiệm tính cách',
+        headline: 'Bạn là kiểu người yêu nào?',
+        blurb: '10 khoảnh khắc nhỏ khi yêu cho thấy phong cách yêu của bạn.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Game giải đố',
+        headline: 'Trượt, ghép, chạm mốc 2048',
+        blurb: 'Ghép các số giống nhau. Trò xếp số kinh điển, bản Halloween.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Trắc nghiệm tính cách',
+        headline: 'Aura của bạn màu gì?',
+        blurb: 'Trả lời vài khoảnh khắc thường ngày để biết màu aura của bạn.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Game nhanh',
+        headline: 'Hứng kẹo rơi từ trên trời',
+        blurb: 'Di chuyển xô bí ngô để hứng kẹo, né những thứ đáng sợ.',
+      },
     ],
   },
   browse: {

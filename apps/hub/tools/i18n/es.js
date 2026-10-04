@@ -56,6 +56,30 @@ module.exports = {
         headline: 'Equipos al azar y justos en un toque',
         blurb: 'Escribe los nombres, elige cuántos equipos y mezcla.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Test de personalidad',
+        headline: '¿Qué tipo de pareja eres?',
+        blurb: 'Diez pequeños momentos en pareja para descubrir cómo amas.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Juego de lógica',
+        headline: 'Desliza, combina y llega a 2048',
+        blurb: 'Une números iguales. El puzle clásico, edición Halloween.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Test de personalidad',
+        headline: '¿De qué color es tu aura?',
+        blurb: 'Responde a unos momentos cotidianos y descubre tu brillo.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Juego rápido',
+        headline: 'Atrapa los dulces que caen',
+        blurb: 'Mueve tu cubo de calabaza y esquiva todo lo que da miedo.',
+      },
     ],
   },
   browse: {

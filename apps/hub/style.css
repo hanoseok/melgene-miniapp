@@ -361,6 +361,8 @@ html:is(:lang(ko), :lang(ja), :lang(zh)) .brand-sub {
 }
 .cur-track::-webkit-scrollbar { display: none; }
 .cur-item { display: flex; flex: 0 0 86%; scroll-snap-align: start; }
+/* 최신 10개 중 7~10번째는 hidden 으로 그려진다(JS 없으면 최신 6개). script.js 가 무작위 6개만 남긴다. */
+.cur-item[hidden] { display: none; }
 
 .cur-card {
   position: relative;

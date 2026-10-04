@@ -55,6 +55,30 @@ module.exports = {
         headline: 'Times aleatórios e justos num toque',
         blurb: 'Digite os nomes, escolha quantos times e sorteie.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Teste de personalidade',
+        headline: 'Como você é no amor?',
+        blurb: 'Dez pequenos momentos a dois revelam o seu jeito de amar.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Quebra-cabeça',
+        headline: 'Deslize, junte e chegue a 2048',
+        blurb: 'Junte números iguais. O clássico dos números, versão Halloween.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Teste de personalidade',
+        headline: 'Qual é a cor da sua aura?',
+        blurb: 'Responda a alguns momentos do dia a dia e descubra seu brilho.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Jogo rápido',
+        headline: 'Pegue os doces que caem do céu',
+        blurb: 'Mova seu balde de abóbora e desvie do que dá medo.',
+      },
     ],
   },
   browse: {

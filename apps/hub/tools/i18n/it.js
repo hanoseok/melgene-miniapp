@@ -55,6 +55,30 @@ module.exports = {
         headline: 'Squadre casuali ed eque in un tocco',
         blurb: 'Scrivi i nomi, scegli quante squadre e mescola.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Test di personalità',
+        headline: 'Che tipo di partner sei?',
+        blurb: 'Dieci piccoli momenti di coppia per scoprire come ami.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Rompicapo',
+        headline: 'Scorri, unisci, arriva a 2048',
+        blurb: 'Unisci i numeri uguali. Il puzzle classico in versione Halloween.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Test di personalità',
+        headline: 'Di che colore è la tua aura?',
+        blurb: 'Rispondi a qualche momento quotidiano e scopri la tua luce.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Gioco veloce',
+        headline: 'Acchiappa le caramelle che cadono',
+        blurb: 'Muovi il secchiello a zucca e schiva ciò che fa paura.',
+      },
     ],
   },
   browse: {

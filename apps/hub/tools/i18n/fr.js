@@ -56,6 +56,30 @@ module.exports = {
         headline: 'Des équipes au hasard, équitables',
         blurb: 'Tape les prénoms, choisis le nombre d’équipes et mélange.',
       },
+      {
+        id: 'lovestyle',
+        kicker: 'Test de personnalité',
+        headline: 'Quel genre de partenaire es-tu ?',
+        blurb: 'Dix petits moments à deux pour découvrir ta façon d’aimer.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Jeu de réflexion',
+        headline: 'Glisse, fusionne, atteins 2048',
+        blurb: 'Assemble les nombres identiques. Le puzzle culte, version Halloween.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Test de personnalité',
+        headline: 'De quelle couleur est ton aura ?',
+        blurb: 'Réponds à quelques moments du quotidien et découvre ton aura.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Jeu rapide',
+        headline: 'Attrape les bonbons qui tombent',
+        blurb: 'Bouge ton seau citrouille et esquive tout ce qui fait peur.',
+      },
     ],
   },
   browse: {

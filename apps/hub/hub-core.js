@@ -7,7 +7,7 @@
  *                        de 12.345·1,2 Mio. / vi 12 N·1,2 Tr / es 12 mil / it 12.345·1,2 Mln / pt 12 mil·1,2 mi /
  *                        ru 12 тыс.·1,2 млн).
  *                        절대 올려서 표시하지 않는다(내림).
- *   isNew(added, today)  추가된 지 14일 안이면 true (미래 날짜도 true)
+ *   isNew(added, today)  추가된 지 5일 안이면 true (미래 날짜도 true)
  *   sortApps(apps, stats, mode)   popular | rating | newest
  */
 (function (root, factory) {
@@ -102,7 +102,7 @@
     if (isNaN(a)) return false;
     var t = today instanceof Date ? today : new Date();
     var t0 = new Date(t.getFullYear(), t.getMonth(), t.getDate()).getTime();
-    return (t0 - a) / 86400000 < (days || 14);
+    return (t0 - a) / 86400000 < (days || 5);
   }
 
   // stats: { <id>: { plays, avg, votes, hearts } } 또는 null(모름). 모르면 설정 순서를 그대로 쓴다.

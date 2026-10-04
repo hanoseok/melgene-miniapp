@@ -126,7 +126,7 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | invite | apps/invite | 할로윈 파티 초대장: 5개 테마 canvas 초대장(1080×1500), PNG 저장·텍스트 복사·`#d=` 링크 공유(공유로 연 결과는 start/done 안 셈) | `check-invite.js` (+ `flow-test.js`) |
 | lunch | apps/lunch | 오늘 뭐 먹지 메뉴 뽑기: 끼니 4종 × 기분 태그 4개, 언어별 현지 메뉴 35개+, 슬롯 릴(결과는 crypto 로 먼저 결정), 이거 제외·다시 뽑기 | `check-lunch.js` (+ `flow-test.js`) |
 
-새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 14일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
+새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 
 ## 다국어 (i18n)
 

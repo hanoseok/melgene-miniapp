@@ -1,6 +1,6 @@
 /* apps/hub/script.js — 미니앱 포털.
  * 생성기가 정적으로 그려 둔 두 부분에 동작을 붙인다.
- *   1) 큐레이션 캐러셀: 실제 참여 수·별점 채우기, 점/화살표, 스와이프 위치 표시
+ *   1) 큐레이션 캐러셀: 최신 10개 중 무작위 6개 고르기, 실제 참여 수·별점 채우기, 점/화살표, 스와이프 위치 표시
  *   2) 홈 화면식 아이콘 격자: 카테고리·검색·정렬로 다시 그리기(아이콘 아래 ★·참여 수)
  *   + 누적 참여 알약("지금까지 N명이 참여했어요", 0이면 숨김)
  * 로드 순서: site.config.js → i18n.js → PAGE_I18N(인라인) → common.js → supa.js → hub-core.js → 이 파일.
@@ -220,6 +220,36 @@
   }
 
   // ---------------------------------------------------------------
+  // 오늘의 미니앱 = 최신 10개 중 무작위 6개, 불러올 때마다 다시 섞는다(사용자 지시 2026-10-04).
+  // 생성기가 10장을 모두 그려 두고 7~10번째는 hidden. 여기서 6장을 골라 그 순서로 앞에 놓고 나머지는 지운다.
+  // 카드가 이미 DOM 에 있고 이 파일은 body 끝에서 바로 실행되므로 화면이 그려지기 전에 끝난다.
+  // ---------------------------------------------------------------
+  var CUR_SHOW = 6;
+  function shuffleCuration() {
+    var track = document.getElementById('cur-track');
+    if (!track) return;
+    var pool = Array.prototype.slice.call(track.querySelectorAll('.cur-item'));
+    for (var i = pool.length - 1; i > 0; i--) { // Fisher-Yates
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+    }
+    var chosen = pool.slice(0, CUR_SHOW);
+    pool.slice(CUR_SHOW).forEach(function (it) { it.parentNode.removeChild(it); });
+    chosen.forEach(function (it) { it.hidden = false; track.appendChild(it); });
+    var dotsBox = document.querySelector('.cur-dots');
+    if (!dotsBox) return;
+    dotsBox.innerHTML = '';
+    chosen.forEach(function (it, k) {
+      var d = el('button', 'cur-dot');
+      d.type = 'button';
+      d.setAttribute('data-i', String(k));
+      d.setAttribute('aria-label', fmt(UI.goTo, { n: k + 1 }));
+      if (k === 0) d.setAttribute('aria-current', 'true');
+      dotsBox.appendChild(d);
+    });
+  }
+
+  // ---------------------------------------------------------------
   // 캐러셀: scroll-snap 이 스와이프를 맡고, 여기서는 점·화살표·현재 위치만 맞춘다
   // ---------------------------------------------------------------
   function initCarousel() {
@@ -352,6 +382,7 @@
     paint();
   }
 
+  shuffleCuration();
   initCarousel();
   renderGrid(false); // 저장된 탭/정렬을 바로 반영 (스켈레톤 상태)
   hydrateCuration();

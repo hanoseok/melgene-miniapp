@@ -18,7 +18,7 @@ module.exports = {
   homeAria: 'Melgene Apps home',
   // Small visible <h1> under the header: brand + the search term people actually type.
   h1: 'Free mini games & personality tests',
-  // "Today's Mini Apps" carousel. id = SITE_CONFIG.SITES id (unknown ids are skipped), 3–6 items.
+  // "Today's Mini Apps" carousel. id = SITE_CONFIG.SITES id, one entry per app; the page shows 6 random of the 10 newest SITES apps, so every one of those 10 needs an entry here.
   curation: {
     h2: 'Today’s Mini Apps',
     items: [
@@ -57,6 +57,30 @@ module.exports = {
         kicker: 'Split into teams',
         headline: 'Fair random teams in one tap',
         blurb: 'Type the names, pick how many teams and shuffle.',
+      },
+      {
+        id: 'lovestyle',
+        kicker: 'Personality quiz',
+        headline: 'What kind of partner are you?',
+        blurb: 'Ten little dating moments, two minutes. See how you love.',
+      },
+      {
+        id: 'game2048',
+        kicker: 'Puzzle game',
+        headline: 'Slide, merge, reach 2048',
+        blurb: 'Swipe the tiles and combine matching numbers. Halloween edition.',
+      },
+      {
+        id: 'aura',
+        kicker: 'Personality quiz',
+        headline: 'What color is your aura?',
+        blurb: 'Answer a few everyday moments and see the glow you give off.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: 'Quick game',
+        headline: 'Catch the falling candy',
+        blurb: 'Slide your pumpkin bucket, dodge the spooky stuff, chain combos.',
       },
     ],
   },

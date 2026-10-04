@@ -18,7 +18,7 @@ module.exports = {
   homeAria: '멜진 미니앱 홈',
   // 머리글 아래 작은 <h1>: 브랜드 + 실제 검색어
   h1: '무료 미니게임·심리테스트',
-  // 오늘의 미니앱 캐러셀. id 는 SITE_CONFIG.SITES 의 id (없는 id 는 건너뜀), 3~6개.
+  // 오늘의 미니앱 캐러셀. id 는 SITE_CONFIG.SITES 의 id, 앱별 문구. 화면에는 SITES 최신 10개 중 무작위 6개가 나오므로 그 10개 모두 여기에 있어야 한다.
   curation: {
     h2: '오늘의 미니앱',
     items: [
@@ -57,6 +57,30 @@ module.exports = {
         kicker: '팀 나누기',
         headline: '한 번에 공평하게 랜덤 조 편성',
         blurb: '이름을 넣고 팀 수를 고른 뒤 섞기만 하면 끝.',
+      },
+      {
+        id: 'lovestyle',
+        kicker: '심리테스트',
+        headline: '나는 어떤 연인일까?',
+        blurb: '썸부터 데이트까지, 10가지 순간으로 보는 내 연애 스타일.',
+      },
+      {
+        id: 'game2048',
+        kicker: '퍼즐 게임',
+        headline: '밀고 합쳐서 2048까지',
+        blurb: '같은 숫자끼리 합치는 숫자 퍼즐, 할로윈 버전이에요.',
+      },
+      {
+        id: 'aura',
+        kicker: '심리테스트',
+        headline: '내 오라는 무슨 색일까?',
+        blurb: '일상 속 몇 가지 순간에 답하면 나의 오라 색이 보여요.',
+      },
+      {
+        id: 'candy-catch',
+        kicker: '한 판 게임',
+        headline: '쏟아지는 사탕을 받아라',
+        blurb: '호박 바구니를 움직여 사탕을 받고, 무서운 건 피해요.',
       },
     ],
   },
