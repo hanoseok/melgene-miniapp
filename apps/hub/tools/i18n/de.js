@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'nickname',
+        kicker: 'Selbst gestalten',
+        headline: 'Ein Nickname, der zu dir passt',
+        blurb: 'Stimmung wählen und mit einem Tipp einen Nickname erhalten.',
+      },
+      {
+        id: 'coinflip',
+        kicker: 'Unentschlossen?',
+        headline: 'Münzwurf und Würfel',
+        blurb: 'Münze werfen oder bis zu drei Würfel, immer fair.',
+      },
+      {
         id: 'invite',
         kicker: 'Selbst gestalten',
         headline: 'Halloween-Einladung gestalten',

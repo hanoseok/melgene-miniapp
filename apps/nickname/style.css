@@ -1,0 +1,191 @@
+/* apps/nickname/style.css — 닉네임 생성기: 연보라 바탕 + 진한 남보라 잉크 + 보라·핑크·라임 포인트, 이름표 스티커.
+ * 두툼한 둥근 카드 + 어긋난 그림자. 모바일 한 줄(--app-width 480px).
+ * 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #f3ecff;
+  --paper-2: #e4d6ff;
+  --ink: #2b1b4d;
+  --ink-dim: rgba(43, 27, 77, 0.8);
+  --ink-faint: rgba(43, 27, 77, 0.6);
+  --accent: #7c4dff;
+  --accent-2: #5a2fd6;
+  --pink: #ff5fa2;
+  --lime: #c6f432;
+  --line: #2b1b4d;
+  --shadow: 4px 4px 0 var(--ink);
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--accent);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  /* 공통 끝 화면 */
+  --mg-star-on: #f0a800;
+  --mg-star-off: rgba(43, 27, 77, 0.18);
+  --mg-heart-bg: #fff;
+  --mg-heart-border: var(--pink);
+  --mg-heart-fg: var(--pink);
+  --mg-heart-on: var(--pink);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(43, 27, 77, 0.22);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(43, 27, 77, 0.18);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.nk-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--paper);
+  background-image: radial-gradient(rgba(124, 77, 255, 0.16) 2px, transparent 2.5px);
+  background-size: 26px 26px;
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.nk-h1, .nk-kicker, .nk-h1-main, .nk-h1-main em, .nk-badge, .nk-btn, .nk-h2, .nk-label, .nk-seg-btn, .nk-chip,
+.nk-mini, .nk-facts, .nk-doc h1, .nk-count, .nk-nick, .nk-nick-mood, .nk-input {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.nk-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.nk-screen { padding-top: 12px; }
+
+.nk-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px; margin: 14px 0 0;
+  padding: 12px 18px;
+  border: 3px solid var(--line); border-radius: 16px;
+  font-size: 18px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.2s;
+}
+.nk-btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+.nk-btn:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.nk-btn:disabled { opacity: 0.45; cursor: default; }
+.nk-btn:focus-visible, .nk-mini:focus-visible, .nk-seg-btn:focus-visible, .nk-chip:focus-visible, .nk-input:focus-visible {
+  outline: 3px solid var(--pink); outline-offset: 2px;
+}
+
+.nk-mini {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  min-height: 42px; padding: 6px 14px;
+  border: 2px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink);
+  font-size: 14.5px; font-weight: 800; line-height: 1.2;
+  cursor: pointer;
+}
+.nk-mini:disabled { opacity: 0.45; cursor: default; }
+.nk-mini-accent { background: var(--lime); }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.nk-start { text-align: center; padding-top: 16px; }
+.nk-badge {
+  display: inline-block; margin: 0 0 12px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--lime);
+  font-size: 13px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.nk-hero { position: relative; width: 250px; margin: 14px auto 8px; padding: 0 0 16px; background: #fff; border: 3px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); transform: rotate(-3deg); animation: nk-sway 3.2s ease-in-out infinite; overflow: hidden; }
+.nk-hero-top { height: 34px; background: var(--accent); border-bottom: 3px solid var(--line); display: flex; align-items: center; justify-content: center; }
+.nk-hero-hole { width: 54px; height: 12px; border-radius: 999px; background: var(--paper); border: 3px solid var(--line); }
+.nk-hero-body { display: grid; gap: 8px; padding: 14px 20px 0; }
+.nk-hero-line { display: block; height: 14px; border-radius: 999px; background: var(--paper-2); }
+.nk-hero-line:nth-child(1) { width: 62%; margin: 0 auto; background: var(--pink); }
+.nk-hero-line:nth-child(2) { width: 100%; height: 30px; background: var(--lime); border: 3px solid var(--line); display: grid; place-items: center; font-size: 17px; line-height: 1; }
+.nk-hero-line:nth-child(3) { width: 44%; margin: 0 auto; }
+@keyframes nk-sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(2deg); } }
+.nk-h1 { margin: 16px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.nk-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px;
+  background: var(--accent); color: #fff; border-radius: 8px;
+  font-size: 15px; transform: rotate(-2deg);
+}
+.nk-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; }
+.nk-h1-main em {
+  font-style: normal; color: var(--accent-2);
+  background: linear-gradient(transparent 62%, var(--lime) 62%, var(--lime) 92%, transparent 92%);
+  padding: 0 2px;
+}
+.nk-hook { margin: 0 auto 6px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.nk-facts { margin: 14px 0 0; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); }
+
+/* ---------------- 고르기 화면 ---------------- */
+.nk-h2 { margin: 4px 0 12px; font-size: 24px; font-weight: var(--display-weight); line-height: 1.25; }
+.nk-card { padding: 16px; background: #fff; border: 3px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+.nk-label { display: block; margin: 0 0 2px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.35; }
+.nk-card .nk-label:not(:first-child) { margin-top: 16px; }
+.nk-hint { margin: 0 0 8px; font-size: 13px; line-height: 1.45; color: var(--ink-faint); }
+.nk-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; }
+.nk-seg-btn, .nk-chip {
+  min-height: 46px; padding: 6px 8px; border: 2.5px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink);
+  font-size: 15px; font-weight: 800; line-height: 1.2; cursor: pointer;
+}
+.nk-seg-btn[aria-checked="true"] { background: var(--ink); color: #fff; }
+.nk-seg-btn:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.nk-chip { width: 100%; margin-top: 4px; }
+.nk-chip[aria-pressed="true"] { background: var(--lime); box-shadow: 2px 2px 0 var(--ink); }
+.nk-input {
+  display: block; width: 100%; min-height: 48px; margin-top: 6px; padding: 8px 12px;
+  border: 2.5px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink);
+  font-size: 17px; font-weight: 800;
+}
+.nk-input::placeholder { color: var(--ink-faint); font-weight: 700; }
+.nk-meta { margin-top: 14px; }
+.nk-count { font-size: 14.5px; font-weight: var(--display-weight); color: var(--accent-2); }
+.nk-make .mg-ad { margin-top: 18px; }
+
+/* ---------------- 결과 ---------------- */
+.nk-res { margin: 6px 0 0; padding: 22px 16px 20px; text-align: center; background: #fff; border: 3px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); }
+.nk-nick-mood { display: inline-block; margin: 0 0 14px; padding: 4px 14px; border-radius: 999px; background: var(--pink); color: #fff; border: 2px solid var(--line); font-size: 14px; font-weight: 800; }
+.nk-nick { margin: 0; padding: 18px 10px; min-height: 76px; display: flex; align-items: center; justify-content: center; border-radius: 14px; background: var(--paper); border: 3px dashed var(--accent); font-size: 32px; font-weight: var(--display-weight); line-height: 1.25; overflow-wrap: anywhere; word-break: break-word; user-select: all; }
+.nk-nick.is-spinning { color: var(--ink-faint); filter: blur(0.5px); }
+.nk-nick.is-final { color: var(--ink); animation: nk-pop 0.45s cubic-bezier(0.2, 1.4, 0.4, 1); }
+@keyframes nk-pop { from { transform: scale(0.7); opacity: 0.4; } to { transform: scale(1); opacity: 1; } }
+.nk-copy { margin-top: 16px; }
+.nk-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 14px 0 0; }
+.nk-actions .nk-mini { flex: 1 1 140px; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.nk-doc { padding: 28px 0 36px; line-height: 1.8; font-size: 14.5px; color: var(--ink-dim); }
+.nk-doc h1 { font-size: 24px; font-weight: var(--display-weight); color: var(--ink); margin-bottom: 20px; }
+.nk-doc h2 { font-size: 16px; font-weight: 800; color: var(--ink); margin: 26px 0 8px; }
+.nk-doc a { color: var(--accent-2); text-decoration: underline; }
+
+.site-footer { margin-top: 28px; }
+
+/* 언어별 */
+html:lang(th) .nk-h1-main, html:lang(th) .nk-h2, html:lang(th) .nk-nick { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .nk-h1-main, html:lang(vi) .nk-nick { line-height: 1.35; }
+html:lang(ja) .nk-h1-main, html:lang(ja) .nk-hook { word-break: auto-phrase; }
+
+@media (max-width: 374px) {
+  .nk-h1-main { font-size: 28px; }
+  .nk-nick { font-size: 27px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nk-hero, .nk-nick.is-final { animation: none; }
+  .nk-btn { transition: none; }
+}

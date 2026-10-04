@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'nickname',
+        kicker: 'À créer',
+        headline: 'Un pseudo qui te ressemble',
+        blurb: 'Choisis une ambiance et obtiens un pseudo en un clic.',
+      },
+      {
+        id: 'coinflip',
+        kicker: 'Indécis ?',
+        headline: 'Pile ou face, ou un dé',
+        blurb: 'Une pièce ou jusqu\'à trois dés, toujours équitable.',
+      },
+      {
         id: 'invite',
         kicker: 'À faire soi-même',
         headline: 'Crée ton invitation Halloween',

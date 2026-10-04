@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'nickname',
+        kicker: '动手做',
+        headline: '找到适合你的昵称',
+        blurb: '选个风格,一键生成独一无二的昵称。',
+      },
+      {
+        id: 'coinflip',
+        kicker: '选择困难?',
+        headline: '抛硬币和掷骰子',
+        blurb: '抛硬币或掷骰子,每次都公平,帮你拿主意。',
+      },
+      {
         id: 'invite',
         kicker: '自己动手做',
         headline: '制作万圣节派对邀请函',

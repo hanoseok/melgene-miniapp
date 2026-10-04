@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'nickname',
+        kicker: 'つくってみよう',
+        headline: 'あなたに似合うニックネーム',
+        blurb: '雰囲気を選ぶだけ。ぴったりの名前をすぐ作れます。',
+      },
+      {
+        id: 'coinflip',
+        kicker: '決められない?',
+        headline: 'コイントスとサイコロ',
+        blurb: 'コインもサイコロも公平。迷ったらここで決めよう。',
+      },
+      {
         id: 'invite',
         kicker: '自分で作る',
         headline: 'ハロウィンパーティーの招待状を作ろう',

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'nickname',
+        kicker: 'Crealo tu',
+        headline: 'Un nickname che ti somiglia',
+        blurb: 'Scegli lo stile e ottieni un nickname nuovo con un tocco.',
+      },
+      {
+        id: 'coinflip',
+        kicker: 'Indeciso?',
+        headline: 'Testa o croce, o un dado',
+        blurb: 'Lancia una moneta o fino a tre dadi, sempre equo.',
+      },
+      {
         id: 'invite',
         kicker: 'Fallo tu',
         headline: 'Crea l’invito per la festa di Halloween',

@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'nickname',
+        kicker: '직접 만들기',
+        headline: '나에게 어울리는 닉네임',
+        blurb: '분위기만 고르면 딱 맞는 닉네임을 바로 만들어 드려요.',
+      },
+      {
+        id: 'coinflip',
+        kicker: '고르기 힘들 땐',
+        headline: '앞? 뒤? 동전 던지기',
+        blurb: '동전도 주사위도 공정하게, 고민은 여기서 끝내요.',
+      },
+      {
         id: 'invite',
         kicker: '직접 만들기',
         headline: '할로윈 파티 초대장',

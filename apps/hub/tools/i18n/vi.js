@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'nickname',
+        kicker: 'Tự tạo',
+        headline: 'Nickname hợp với bạn',
+        blurb: 'Chọn phong cách là có ngay nickname mới chỉ với một chạm.',
+      },
+      {
+        id: 'coinflip',
+        kicker: 'Khó chọn?',
+        headline: 'Tung đồng xu, đổ xúc xắc',
+        blurb: 'Tung đồng xu hoặc đổ tối đa 3 xúc xắc, luôn công bằng.',
+      },
+      {
         id: 'invite',
         kicker: 'Tự tay làm',
         headline: 'Làm thiệp mời tiệc Halloween',

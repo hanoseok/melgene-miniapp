@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'nickname',
+        kicker: 'Make it yourself',
+        headline: 'Find a nickname that fits you',
+        blurb: 'Pick a vibe and get a fresh nickname in one tap.',
+      },
+      {
+        id: 'coinflip',
+        kicker: 'Can\'t decide?',
+        headline: 'Heads or tails? Roll the dice',
+        blurb: 'Flip a coin or roll up to three dice, fair every time.',
+      },
+      {
         id: 'invite',
         kicker: 'Make it yourself',
         headline: 'Make a Halloween party invitation',

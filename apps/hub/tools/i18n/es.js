@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'nickname',
+        kicker: 'Hazlo tú',
+        headline: 'Un apodo que va contigo',
+        blurb: 'Elige un estilo y consigue un apodo nuevo con un toque.',
+      },
+      {
+        id: 'coinflip',
+        kicker: '¿Indeciso?',
+        headline: 'Cara o cruz, o un dado',
+        blurb: 'Lanza una moneda o hasta tres dados, siempre al azar.',
+      },
+      {
         id: 'invite',
         kicker: 'Hazlo tú',
         headline: 'Crea tu invitación de Halloween',

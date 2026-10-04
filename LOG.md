@@ -73,3 +73,4 @@
 - 2026-10-04 (IndexNow): 키 파일 배포(deploy-prep finish_root, deploy.env INDEXNOW_KEY) + 새 주소 제출 202. PROMO_LOG 기록.
 - 2026-10-04 (오늘의 미니앱: 최근 10개 중 무작위 6개): 포털 캐러셀을 최신 10개(최신순) 중 무작위 6개로 — 페이지를 열 때마다 다시 섞음(`script.js` shuffleCuration, Fisher-Yates). 생성기는 10장 모두 그리고 7~10번째 `hidden`(JS 없으면 최신 6개), 문구 없는 최신 앱은 생성 실패. 12개 언어에 lovestyle·game2048·aura·candy-catch 큐레이션 문구 추가. check-hub: 최신 10개 문구 필수·카드/hidden/점 개수·--layout 10장 전부 실측. portal.md 갱신.
 - 2026-10-04 (NEW 배지): 등록 후 5일간만 표시(사용자 지시; hub-core isNew 기본 5일, 문서 갱신).
+- 2026-10-05 (새 앱 2개): nickname(닉네임 생성기, create, order 1) + coinflip(동전 던지기·주사위, vote, order 2) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가, gen-all 링크 PASS·check-all 24/24 통과. 카테고리 순환: create+vote → 다음 game+test.
