@@ -11,3 +11,4 @@
 - **한국어(디스콰이엇·클리앙)**: "광고 수익형 미니앱 사이트를 만들고 있어요 — 할로윈 수박게임, 할로윈 코스튬 추천, 할로윈 파티 초대장, 오늘 뭐 먹지 등 설치·가입 없이 1~2분. 12개 언어 지원. https://melgene.com — 써 보시고 불편한 점 알려 주세요."
 - **English (r/SideProject 주간 스레드·r/WebGames)**: "I'm building Melgene Apps: free mini games, personality tests and tools that run in the browser (no sign-up, 12 languages). Latest: a Halloween Suika-style merge game and a party invitation maker. https://melgene.com — feedback welcome."
 - 지킬 것(melgene-ops §8): 채널 규칙 먼저 읽기, 같은 글 복붙 금지, 채널별 간격, 가짜 후기·숫자 금지.
+| 2026-10-04 | IndexNow (api.indexnow.org → Bing·Naver·Yandex 등) | 키 파일(도메인 루트/<키>.txt, deploy.env INDEXNOW_KEY)을 배포하고 miniapp.melgene.com 34개 주소(포털·신규 game2048·lovestyle 12개 언어 포함)와 melgene.com 포털 제출 | 로그인 없이 검색 노출을 앞당기려고(사용자 요청) | 둘 다 HTTP 202 접수 |

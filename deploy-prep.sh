@@ -116,6 +116,7 @@ finish_root() {
   files="GSC_FILES_${unit}"
   for f in ${!files:-}; do printf 'google-site-verification: %s' "$f" > "$root/$f"; done
   printf '%s\n' "$ADS_TXT" > "$root/ads.txt"
+  [[ -n "${INDEXNOW_KEY:-}" ]] && printf '%s' "$INDEXNOW_KEY" > "$root/${INDEXNOW_KEY}.txt"
   [[ -n "${CUSTOM_DOMAIN:-}" ]] && printf '%s\n' "$host" > "$root/CNAME"
   return 0
 }
