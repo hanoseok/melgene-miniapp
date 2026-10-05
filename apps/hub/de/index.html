@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 21,
+  "numberOfItems": 23,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -226,6 +226,20 @@
       "url": "https://coinflip.example.com/de/",
       "name": "Münzwurf",
       "description": "Kopf oder Zahl? Münze werfen und entscheiden, beide Seiten selbst benennen oder ein bis drei Würfel rollen."
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "url": "https://mole.example.com/de/",
+      "name": "Hau den Maulwurf",
+      "description": "Tippe die Maulwürfe an, weiche den Bomben aus und hol dir in 30 Sekunden den Highscore."
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "url": "https://animal.example.com/de/",
+      "name": "Welches Tier bist du?",
+      "description": "8 Alltagsmomente, 2–3 Minuten. Finde das Tier, das zu deiner Persönlichkeit passt – und dein perfektes Match."
     }
   ]
 }
@@ -301,6 +315,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="mole">
+        <a class="cur-card" href="https://mole.example.com/de/" style="--h:17;--h2:359">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Reaktionsspiel</span></span>
+            <h3 class="cur-headline">Maulwürfe hauen, Bomben meiden</h3>
+            <span class="cur-giant" aria-hidden="true">🔨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Antippen, bevor sie weg sind. 30 Sekunden, ein Titel.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Hau den Maulwurf</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="animal">
+        <a class="cur-card" href="https://animal.example.com/de/" style="--h:166;--h2:148">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Persönlichkeitstest</span></span>
+            <h3 class="cur-headline">Welches Tier bist du?</h3>
+            <span class="cur-giant" aria-hidden="true">🦊</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Acht Alltagsmomente, zwei Minuten. Triff deine wilde Seite.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Welches Tier bist du?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="nickname">
         <a class="cur-card" href="https://nickname.example.com/de/" style="--h:254;--h2:236">
           <span class="cur-art">
@@ -365,7 +411,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="invite">
+      <li class="cur-item" data-id="invite" hidden>
         <a class="cur-card" href="https://invite.example.com/de/" style="--h:11;--h2:353">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Selbst gestalten</span></span>
@@ -381,7 +427,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lunch">
+      <li class="cur-item" data-id="lunch" hidden>
         <a class="cur-card" href="https://lunch.example.com/de/" style="--h:322;--h2:304">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Keine Ahnung, was essen?</span></span>
@@ -429,45 +475,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="ghost" hidden>
-        <a class="cur-card" href="https://ghost.example.com/de/" style="--h:217;--h2:199">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Selbst gestalten</span></span>
-            <h3 class="cur-headline">Bastle dein eigenes kleines Gespenst</h3>
-            <span class="cur-giant" aria-hidden="true">👻</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Form, Gesicht und Hut wählen, dann speichern oder teilen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Gespenst erstellen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="team" hidden>
-        <a class="cur-card" href="https://team.example.com/de/" style="--h:347;--h2:329">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Teams einteilen</span></span>
-            <h3 class="cur-headline">Faire Zufallsteams mit einem Tipp</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Namen eingeben, Teamanzahl wählen und mischen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Zufällige Teams</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">21 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">23 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -489,6 +503,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="mole" data-cat="game">
+        <a class="tile-link" href="https://mole.example.com/de/" title="Tippe die Maulwürfe an, weiche den Bomben aus und hol dir in 30 Sekunden den Highscore." style="--h:17;--h2:359">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Hau den Maulwurf</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="animal" data-cat="test">
+        <a class="tile-link" href="https://animal.example.com/de/" title="8 Alltagsmomente, 2–3 Minuten. Finde das Tier, das zu deiner Persönlichkeit passt – und dein perfektes Match." style="--h:166;--h2:148">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Welches Tier bist du?</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/de/" title="Stimmung wählen, auf Wunsch den Namen dazugeben und einen einzigartigen Nickname bekommen. Neu würfeln, bis er passt." style="--h:254;--h2:236">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEU</span></span>
@@ -547,14 +575,14 @@
       </li>
       <li class="tile" data-id="ghost" data-cat="create">
         <a class="tile-link" href="https://ghost.example.com/de/" title="Form, Augen, Mund und Hut aussuchen und dein eigenes süßes Schwebe-Gespenst gestalten. Als Bild speichern oder Freunden schicken." style="--h:217;--h2:199">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span></span>
           <span class="tile-name">Gespenst erstellen</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="team" data-cat="vote">
         <a class="tile-link" href="https://team.example.com/de/" title="Namen einfügen, Anzahl der Teams oder Personen pro Team wählen, mischen. Kapitäne getrennt, Ergebnis per Link teilen." style="--h:347;--h2:329">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">Zufällige Teams</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

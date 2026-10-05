@@ -23,6 +23,12 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'mole',
+        kicker: '순발력 게임',
+        headline: '두더지는 톡, 폭탄은 피하기',
+        blurb: '숨기 전에 톡톡 잡으세요. 30초 안에 등급이 정해져요.',
+      },
+      {
         id: 'nickname',
         kicker: '직접 만들기',
         headline: '나에게 어울리는 닉네임',
@@ -75,6 +81,12 @@ module.exports = {
         kicker: '심리테스트',
         headline: '나는 어떤 연인일까?',
         blurb: '썸부터 데이트까지, 10가지 순간으로 보는 내 연애 스타일.',
+      },
+      {
+        id: 'animal',
+        kicker: '심리테스트',
+        headline: '나와 닮은 동물은?',
+        blurb: '일상 속 8가지 순간으로 찾는 내 안의 동물.',
       },
       {
         id: 'game2048',

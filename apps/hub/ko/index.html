@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 21,
+  "numberOfItems": 23,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -226,6 +226,20 @@
       "url": "https://coinflip.example.com/ko/",
       "name": "동전 던지기",
       "description": "앞면이냐 뒷면이냐, 동전을 던져 바로 정해요. 두 선택지 이름을 바꿀 수 있고 주사위도 1~3개 굴릴 수 있어요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "url": "https://mole.example.com/ko/",
+      "name": "두더지 잡기",
+      "description": "구멍에서 튀어나오는 두더지를 톡톡! 폭탄은 피하고 30초 안에 최고 점수에 도전하세요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "url": "https://animal.example.com/ko/",
+      "name": "나와 닮은 동물 테스트",
+      "description": "약속 취소, 한밤중 전화, 낯선 파티까지 8가지 순간으로 알아보는 나와 닮은 동물. 2~3분이면 끝나요."
     }
   ]
 }
@@ -301,6 +315,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="mole">
+        <a class="cur-card" href="https://mole.example.com/ko/" style="--h:17;--h2:359">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">순발력 게임</span></span>
+            <h3 class="cur-headline">두더지는 톡, 폭탄은 피하기</h3>
+            <span class="cur-giant" aria-hidden="true">🔨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">숨기 전에 톡톡 잡으세요. 30초 안에 등급이 정해져요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">두더지 잡기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="animal">
+        <a class="cur-card" href="https://animal.example.com/ko/" style="--h:166;--h2:148">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">심리테스트</span></span>
+            <h3 class="cur-headline">나와 닮은 동물은?</h3>
+            <span class="cur-giant" aria-hidden="true">🦊</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">일상 속 8가지 순간으로 찾는 내 안의 동물.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">나와 닮은 동물 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="nickname">
         <a class="cur-card" href="https://nickname.example.com/ko/" style="--h:254;--h2:236">
           <span class="cur-art">
@@ -365,7 +411,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="invite">
+      <li class="cur-item" data-id="invite" hidden>
         <a class="cur-card" href="https://invite.example.com/ko/" style="--h:11;--h2:353">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">직접 만들기</span></span>
@@ -381,7 +427,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lunch">
+      <li class="cur-item" data-id="lunch" hidden>
         <a class="cur-card" href="https://lunch.example.com/ko/" style="--h:322;--h2:304">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">뭐 먹을지 고민?</span></span>
@@ -429,45 +475,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="ghost" hidden>
-        <a class="cur-card" href="https://ghost.example.com/ko/" style="--h:217;--h2:199">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">직접 만들기</span></span>
-            <h3 class="cur-headline">나만의 꼬마 유령 만들기</h3>
-            <span class="cur-giant" aria-hidden="true">👻</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">모양·표정·모자를 골라 완성하고 저장하거나 보내기.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">나만의 유령 만들기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="team" hidden>
-        <a class="cur-card" href="https://team.example.com/ko/" style="--h:347;--h2:329">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">팀 나누기</span></span>
-            <h3 class="cur-headline">한 번에 공평하게 랜덤 조 편성</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">이름을 넣고 팀 수를 고른 뒤 섞기만 하면 끝.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">랜덤 팀 나누기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">21개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">23개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -489,6 +503,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="mole" data-cat="game">
+        <a class="tile-link" href="https://mole.example.com/ko/" title="구멍에서 튀어나오는 두더지를 톡톡! 폭탄은 피하고 30초 안에 최고 점수에 도전하세요." style="--h:17;--h2:359">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">두더지 잡기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="animal" data-cat="test">
+        <a class="tile-link" href="https://animal.example.com/ko/" title="약속 취소, 한밤중 전화, 낯선 파티까지 8가지 순간으로 알아보는 나와 닮은 동물. 2~3분이면 끝나요." style="--h:166;--h2:148">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">나와 닮은 동물 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/ko/" title="귀여운·멋진·웃긴·몽환적인 분위기를 고르고 이름을 넣으면 나만의 닉네임이 뚝딱. 마음에 들 때까지 다시 뽑아요." style="--h:254;--h2:236">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span>
@@ -547,14 +575,14 @@
       </li>
       <li class="tile" data-id="ghost" data-cat="create">
         <a class="tile-link" href="https://ghost.example.com/ko/" title="몸 모양·눈·입·모자를 골라 둥실둥실 떠다니는 나만의 귀여운 유령을 만들어 보세요. 이미지로 저장하고 친구에게 보내기." style="--h:217;--h2:199">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span></span>
           <span class="tile-name">나만의 유령 만들기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="team" data-cat="vote">
         <a class="tile-link" href="https://team.example.com/ko/" title="이름만 붙여 넣으면 팀 수나 팀당 인원대로 공정하게 조 편성. 주장은 서로 다른 팀으로, 결과는 링크로 그대로 공유." style="--h:347;--h2:329">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">랜덤 팀 나누기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

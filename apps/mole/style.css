@@ -1,0 +1,308 @@
+/* apps/mole/style.css — 두더지 잡기: 흙빛 밤 + 잔디 판 + 말랑한 갈색 두더지, 두툼한 아케이드 글꼴.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 클래스 앞머리는 tf-(공통 컴포넌트의 mg- 와 겹치지 않게). 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --soil-0: #22150c;
+  --soil-1: #3a2414;
+  --soil-2: #5a3a20;
+  --grass: #6cc84a;
+  --grass-2: #3b8a38;
+  --grass-3: #2a5a26;
+  --sun: #ffd23f;
+  --mole: #8a5a3a;
+  --candy: #ff8fa8;
+  --danger: #ff4d5e;
+  --ink: #fff6ea;
+  --ink-dim: rgba(255, 246, 234, 0.78);
+  --ink-faint: rgba(255, 246, 234, 0.52);
+  --dark: #2a1a10;
+  --card: rgba(255, 255, 255, 0.07);
+  --line: rgba(108, 200, 74, 0.45);
+
+  --font-display: 'Lilita One', var(--font-sans);
+  --display-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--grass);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(255, 246, 234, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(108, 200, 74, 0.5);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd23f;
+  --mg-star-off: rgba(255, 246, 234, 0.2);
+  --mg-heart-bg: rgba(255, 143, 168, 0.1);
+  --mg-heart-border: rgba(255, 143, 168, 0.45);
+  --mg-heart-fg: #ffa9bd;
+  --mg-heart-on: var(--candy);
+  --mg-share-bg: rgba(255, 246, 234, 0.06);
+  --mg-share-border: rgba(255, 246, 234, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 246, 234, 0.05);
+  --mg-faq-border: rgba(108, 200, 74, 0.3);
+  --mg-end-retry-bg: var(--grass);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(58, 36, 20, 0.97);
+}
+
+html { background: var(--soil-0); }
+body.tf-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 120% 60% at 50% -12%, var(--soil-2), var(--soil-1) 50%, var(--soil-0) 84%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼·숫자 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.tf-h1, .tf-kicker, .tf-h1-main, .tf-h1-main em, .tf-badge, .tf-btn, .tf-how-txt, .tf-facts,
+.tf-hud-label, .tf-hud-val, .tf-fx, .tf-overlay-title,
+.tf-eyebrow, .tf-tier, .tf-score-big, .tf-points, .tf-newbest, .tf-best, .tf-stat dt, .tf-stat-num, .tf-top, .tf-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.tf-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.tf-screen { padding-top: 12px; }
+
+.tf-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.tf-btn-primary { background: var(--grass); color: var(--dark); box-shadow: 0 5px 0 var(--grass-2), 0 10px 26px rgba(108, 200, 74, 0.25); }
+.tf-btn-primary:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--grass-2); }
+.tf-btn:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.tf-start { text-align: center; padding-top: 14px; }
+.tf-badge {
+  display: inline-block; margin: 0 0 10px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(108, 200, 74, 0.15); color: #a6ea7c;
+  border: 1.5px solid rgba(108, 200, 74, 0.5);
+  font-size: 13px; line-height: 1.35;
+}
+.tf-hero { position: relative; height: 140px; margin: 0 auto 4px; max-width: 300px; }
+.tf-hero-sun {
+  position: absolute; right: 14px; top: 2px; width: 42px; height: 42px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff7c9, var(--sun) 55%, #f0b22a);
+  box-shadow: 0 0 30px rgba(255, 210, 63, 0.45);
+}
+.tf-hero-lawn {
+  position: absolute; left: 50%; bottom: 4px; width: 264px; height: 100px; margin-left: -132px;
+  display: flex; justify-content: space-around; align-items: flex-end; padding: 0 10px 12px;
+  border-radius: 18px; background: linear-gradient(170deg, var(--grass), var(--grass-2)); border: 3px solid var(--grass-3);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+.tf-hh { position: relative; width: 62px; height: 70px; overflow: hidden; }
+.tf-hh::before { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 28px; border-radius: 50%; background: radial-gradient(ellipse at 50% 30%, #3a2210, #170c05); }
+.tf-hh::after { content: ''; position: absolute; left: -2px; right: -2px; bottom: 0; height: 10px; border-radius: 0 0 50% 50%; background: var(--grass-2); z-index: 3; }
+.tf-hm {
+  position: absolute; left: 11px; bottom: 6px; width: 40px; height: 38px; border-radius: 50% 50% 42% 42%; background: var(--mole);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.18); z-index: 2; transform: translateY(46px);
+  animation: tf-pop 3s ease-in-out infinite;
+}
+.tf-hm::before { content: ''; position: absolute; left: 10px; top: 12px; width: 5px; height: 5px; border-radius: 50%; background: #1b1026; box-shadow: 15px 0 0 #1b1026; }
+.tf-hm::after { content: ''; position: absolute; left: 14px; top: 20px; width: 12px; height: 8px; border-radius: 50%; background: var(--candy); }
+.tf-hh2 .tf-hm { animation-delay: -1s; }
+.tf-hb { position: absolute; left: 12px; bottom: 6px; font-size: 36px; line-height: 1; z-index: 2; transform: translateY(46px); animation: tf-pop 3s ease-in-out infinite -2s; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+@keyframes tf-pop { 0%, 55%, 100% { transform: translateY(46px); } 12%, 36% { transform: translateY(0); } }
+.tf-hero-ham {
+  position: absolute; left: 50%; top: 4px; margin-left: -88px; font-size: 40px; line-height: 1; transform-origin: 80% 90%;
+  animation: tf-hero-ham 3s ease-in-out infinite; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
+@keyframes tf-hero-ham { 0%, 20% { transform: rotate(-40deg); } 30% { transform: rotate(20deg); } 45%, 100% { transform: rotate(-40deg); } }
+
+.tf-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.tf-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--sun); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.tf-h1-main { display: block; font-size: 34px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.35); }
+.tf-h1-main em { font-style: normal; color: var(--grass); }
+.tf-hook { margin: 0 auto 16px; max-width: 390px; font-size: 16px; color: var(--ink-dim); }
+.tf-how {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin: 0 0 18px; padding: 0; list-style: none;
+}
+.tf-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px;
+  background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.tf-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.tf-how-txt { font-size: 13.5px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.tf-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.tf-play { padding-top: 6px; }
+.tf-hud { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 auto 8px; max-width: 448px; }
+.tf-hud-box {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0;
+  padding: 5px 8px 6px; border-radius: 12px; background: rgba(255, 255, 255, 0.07); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.tf-hud-label { font-size: 12px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.tf-hud-val { font-size: 26px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tf-hud-score .tf-hud-val { color: var(--grass); }
+.tf-hud-time .tf-hud-val { color: var(--sun); }
+.tf-hud-time.tf-low .tf-hud-val { color: var(--danger); }
+.tf-bar { height: 8px; max-width: 448px; margin: 0 auto 12px; border-radius: 999px; background: rgba(255, 246, 234, 0.12); overflow: hidden; }
+.tf-bar-fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--sun), var(--grass)); transform-origin: left center; }
+
+.tf-board {
+  position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+  margin: 0 auto; width: 100%; max-width: 448px; padding: 12px;
+  border-radius: 22px; overflow: hidden;
+  touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  background: linear-gradient(170deg, var(--grass), var(--grass-2));
+  border: 3px solid var(--grass-3);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), inset 0 0 40px rgba(0, 0, 0, 0.18);
+}
+.tf-shake { animation: tf-shake 0.32s ease-out; }
+@keyframes tf-shake { 0%, 100% { transform: translate(0); } 20% { transform: translate(-5px, 2px); } 40% { transform: translate(5px, -2px); } 60% { transform: translate(-3px, 1px); } 80% { transform: translate(3px, -1px); } }
+
+.tf-hole {
+  position: relative; display: block; aspect-ratio: 1 / 1; min-width: 0; padding: 0; margin: 0;
+  border: 0; background: none; font: inherit; color: inherit; cursor: pointer; container-type: inline-size;
+  touch-action: manipulation; -webkit-tap-highlight-color: transparent; outline: none;
+}
+.tf-hole:focus-visible { box-shadow: 0 0 0 3px var(--sun); border-radius: 18px; }
+.tf-dirt {
+  position: absolute; left: 4%; right: 4%; top: 52%; height: 42%; border-radius: 50%;
+  background: radial-gradient(ellipse at 50% 28%, #3a2210, #170c05); box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.tf-clip { position: absolute; left: 0; right: 0; top: 0; height: 72%; overflow: hidden; }
+.tf-crit {
+  position: absolute; left: 17%; bottom: 0; width: 66%; aspect-ratio: 1 / 0.95;
+  border-radius: 50% 50% 42% 42%; background: var(--mole);
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.18);
+  transform: translateY(108%); transition: transform 0.11s ease-out;
+}
+.tf-eyes { position: absolute; left: 27%; right: 27%; top: 31%; height: 13%; }
+.tf-eyes::before, .tf-eyes::after { content: ''; position: absolute; top: 0; height: 100%; aspect-ratio: 1; border-radius: 50%; background: #1b1026; }
+.tf-eyes::before { left: 0; }
+.tf-eyes::after { right: 0; }
+.tf-nose { position: absolute; left: 50%; top: 50%; width: 26%; height: 18%; margin-left: -13%; border-radius: 50%; background: var(--candy); }
+.tf-bomb {
+  display: none; position: absolute; inset: 0; align-items: center; justify-content: center; font-size: 48px; font-size: 54cqw; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.tf-hole[data-kind="gold"] .tf-crit { background: #ffc93c; box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.14), 0 0 16px rgba(255, 210, 63, 0.85); }
+.tf-hole[data-kind="gold"] .tf-nose { background: #ff8a5c; }
+.tf-hole[data-kind="bomb"] .tf-crit { background: none; box-shadow: none; }
+.tf-hole[data-kind="bomb"] .tf-eyes, .tf-hole[data-kind="bomb"] .tf-nose { display: none; }
+.tf-hole[data-kind="bomb"] .tf-bomb { display: flex; }
+.tf-hole[data-state="up"] .tf-crit { transform: translateY(0); }
+.tf-hole[data-state="hit"] .tf-crit { transform: translateY(30%) scaleY(0.72); transition-duration: 0.06s; filter: brightness(1.25); }
+.tf-hole[data-state="boom"] .tf-crit { transform: translateY(0) scale(1.3); opacity: 0; transition: transform 0.18s ease-out, opacity 0.18s ease-out; }
+.tf-hole[data-state="boom"]::after {
+  content: '💥'; position: absolute; left: 0; right: 0; top: 6%; text-align: center; font-size: 56px; font-size: 56cqw; line-height: 1; z-index: 3; pointer-events: none;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; animation: tf-boom 0.42s ease-out both;
+}
+@keyframes tf-boom { 0% { transform: scale(0.4); opacity: 1; } 60% { transform: scale(1); opacity: 1; } 100% { transform: scale(1.1); opacity: 0; } }
+
+.tf-ham {
+  position: absolute; left: 36%; top: -4%; z-index: 4; font-size: 40px; font-size: 42cqw; line-height: 1; opacity: 0; pointer-events: none; transform-origin: 85% 90%;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
+.tf-swing .tf-ham { animation: tf-swing 0.24s ease-out; }
+@keyframes tf-swing { 0% { opacity: 1; transform: rotate(-55deg); } 55% { opacity: 1; transform: rotate(15deg); } 100% { opacity: 0; transform: rotate(15deg); } }
+
+.tf-fx { position: absolute; left: 0; right: 0; top: 4%; z-index: 5; text-align: center; font-size: 26px; font-size: 24cqw; line-height: 1.1; opacity: 0; pointer-events: none; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55); }
+.tf-fx-up { color: #e4ffb8; animation: tf-float 0.65s ease-out both; }
+.tf-fx-gold { color: var(--sun); animation: tf-float 0.65s ease-out both; }
+.tf-fx-down { color: var(--danger); animation: tf-float 0.65s ease-out both; }
+@keyframes tf-float { 0% { opacity: 1; transform: translateY(12px) scale(0.8); } 20% { opacity: 1; transform: translateY(0) scale(1.15); } 100% { opacity: 0; transform: translateY(-30px) scale(1); } }
+
+.tf-overlay {
+  position: absolute; inset: 0; z-index: 6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  text-align: center; padding: 16px;
+}
+.tf-over { background: rgba(34, 21, 12, 0.55); pointer-events: none; animation: tf-fade 0.3s ease-out; }
+@keyframes tf-fade { from { opacity: 0; } to { opacity: 1; } }
+.tf-overlay-title {
+  margin: 0 0 4px; padding: 6px 18px; border-radius: 14px; font-size: 30px; line-height: 1.25;
+  border: 3px solid var(--dark); transform: rotate(-3deg); background: var(--sun); color: var(--dark);
+}
+
+/* ---------------- 끝 화면: 점수·등급 카드 ---------------- */
+.tf-end { padding-top: 10px; }
+.tf-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(90, 58, 32, 0.92), rgba(34, 21, 12, 0.96));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.tf-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 8px; padding: 4px 14px; border-radius: 999px;
+  background: var(--sun); color: var(--dark); font-size: 16px; line-height: 1.35;
+}
+.tf-tier-line { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 0; line-height: 1.2; }
+.tf-tier-emoji { font-size: 40px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.tf-tier { min-width: 0; font-size: 26px; line-height: 1.2; color: var(--sun); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.4); }
+.tf-score-line { margin: 10px 0 0; line-height: 1; }
+.tf-score-big { font-size: 68px; line-height: 1.05; color: var(--grass); font-variant-numeric: tabular-nums; text-shadow: 0 4px 0 var(--dark); }
+.tf-points { font-size: 20px; color: var(--ink-dim); }
+.tf-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--grass); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.tf-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.tf-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.tf-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12); }
+.tf-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.tf-stat dd { margin: 6px 0 0; }
+.tf-stat-num { font-size: 30px; line-height: 1.45; color: var(--ink); font-variant-numeric: tabular-nums; }
+.tf-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(108, 200, 74, 0.08); border: 1.5px dashed rgba(108, 200, 74, 0.45); }
+.tf-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.tf-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--grass); }
+.tf-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.tf-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .tf-h1-main, html:lang(th) .tf-kicker, html:lang(th) .tf-how-txt, html:lang(th) .tf-btn, html:lang(th) .tf-hook, html:lang(th) .tf-overlay-title, html:lang(th) .tf-tier { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .tf-hud-label, html:lang(th) .tf-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .tf-h1-main, html:lang(vi) .tf-kicker, html:lang(vi) .tf-tier { line-height: 1.3; }
+html:lang(ja) .tf-h1-main, html:lang(zh) .tf-h1-main, html:lang(ko) .tf-h1-main { font-size: 32px; line-height: 1.25; }
+html:lang(ja) .tf-how-txt, html:lang(zh) .tf-how-txt, html:lang(ko) .tf-how-txt { font-size: 13px; }
+html:lang(ru) .tf-h1-main, html:lang(vi) .tf-h1-main { font-size: 31px; }
+html:lang(ru) .tf-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.tf-doc { padding: 16px 0 8px; }
+.tf-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.tf-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--grass); }
+.tf-doc p { color: var(--ink-dim); font-size: 15px; }
+.tf-doc a, .site-footer a { color: #a6ea7c; }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .tf-hm, .tf-hb, .tf-hero-ham { animation: none; }
+  .tf-hm, .tf-hb { transform: translateY(0); }
+  .tf-hero-ham { transform: rotate(-20deg); }
+  .tf-crit { transition: none; }
+  .tf-shake, .tf-swing .tf-ham, .tf-over { animation: none; }
+  .tf-fx-up, .tf-fx-gold, .tf-fx-down { animation: none; opacity: 1; }
+  .tf-hole[data-state="boom"]::after { animation: none; }
+  .tf-btn { transition: none; }
+}
+@media (max-width: 359px) {
+  .tf-h1-main { font-size: 29px; }
+  .tf-hud-val { font-size: 22px; }
+}

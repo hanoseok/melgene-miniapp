@@ -25,6 +25,12 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'mole',
+        kicker: 'Game phản xạ',
+        headline: 'Đập chuột chũi, né bom',
+        blurb: 'Chạm trước khi chúng chui xuống. 30 giây, một danh hiệu.',
+      },
+      {
         id: 'nickname',
         kicker: 'Tự tạo',
         headline: 'Nickname hợp với bạn',
@@ -77,6 +83,12 @@ module.exports = {
         kicker: 'Trắc nghiệm tính cách',
         headline: 'Bạn là kiểu người yêu nào?',
         blurb: '10 khoảnh khắc nhỏ khi yêu cho thấy phong cách yêu của bạn.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Trắc nghiệm tính cách',
+        headline: 'Bạn là con vật nào?',
+        blurb: 'Tám khoảnh khắc đời thường, hai phút. Gặp phần hoang dã của bạn.',
       },
       {
         id: 'game2048',

@@ -23,6 +23,12 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'mole',
+        kicker: '反射神経ゲーム',
+        headline: 'もぐらを叩け、爆弾はよけろ',
+        blurb: '隠れる前にタップ。30秒で称号が決まる。',
+      },
+      {
         id: 'nickname',
         kicker: 'つくってみよう',
         headline: 'あなたに似合うニックネーム',
@@ -75,6 +81,12 @@ module.exports = {
         kicker: '恋愛診断',
         headline: 'あなたはどんな恋人タイプ？',
         blurb: '片思いからデートまで、10の場面で恋愛スタイルを診断。',
+      },
+      {
+        id: 'animal',
+        kicker: '恋愛診断',
+        headline: '私に似ている動物は？',
+        blurb: '日常の8つの場面で、あなたの野生を発見。',
       },
       {
         id: 'game2048',

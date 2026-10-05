@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'mole',
+        kicker: 'Juego de reflejos',
+        headline: 'Golpea topos, esquiva bombas',
+        blurb: 'Tócalos antes de que se escondan. 30 segundos, un título.',
+      },
+      {
         id: 'nickname',
         kicker: 'Hazlo tú',
         headline: 'Un apodo que va contigo',
@@ -73,6 +79,12 @@ module.exports = {
         kicker: 'Test de personalidad',
         headline: '¿Qué tipo de pareja eres?',
         blurb: 'Diez pequeños momentos en pareja para descubrir cómo amas.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Test de personalidad',
+        headline: '¿Qué animal eres?',
+        blurb: 'Ocho momentos cotidianos, dos minutos. Conoce tu lado salvaje.',
       },
       {
         id: 'game2048',

@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'mole',
+        kicker: 'Jeu de réflexes',
+        headline: 'Tape les taupes, évite les bombes',
+        blurb: 'Tape-les avant qu’elles se cachent. 30 secondes, un titre.',
+      },
+      {
         id: 'nickname',
         kicker: 'À créer',
         headline: 'Un pseudo qui te ressemble',
@@ -73,6 +79,12 @@ module.exports = {
         kicker: 'Test de personnalité',
         headline: 'Quel genre de partenaire es-tu ?',
         blurb: 'Dix petits moments à deux pour découvrir ta façon d’aimer.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Test de personnalité',
+        headline: 'Quel animal es-tu ?',
+        blurb: 'Huit moments du quotidien, deux minutes. Rencontre ton côté sauvage.',
       },
       {
         id: 'game2048',

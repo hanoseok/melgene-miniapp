@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://animal.example.com/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/wolf.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/wolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/wolf.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/owl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/owl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/owl.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/otter.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/otter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/otter.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/lion.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/lion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/lion.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/panda.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/panda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/panda.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/eagle.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/eagle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/eagle.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/sloth.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/sloth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/sloth.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ja/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/zh/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ko/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/fr/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/de/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/th/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/vi/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/es/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/it/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/pt/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+  <url>
+    <loc>https://animal.example.com/ru/r/deer.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://animal.example.com/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://animal.example.com/ja/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://animal.example.com/zh/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://animal.example.com/ko/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://animal.example.com/fr/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://animal.example.com/de/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://animal.example.com/th/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://animal.example.com/vi/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://animal.example.com/es/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://animal.example.com/it/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://animal.example.com/pt/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://animal.example.com/ru/r/deer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://animal.example.com/r/deer.html"/>
+  </url>
+</urlset>

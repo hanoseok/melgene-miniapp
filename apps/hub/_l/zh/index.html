@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 21,
+  "numberOfItems": 23,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -227,6 +227,20 @@
       "url": "https://coinflip.example.com/",
       "name": "抛硬币",
       "description": "正面还是反面，抛一枚硬币马上决定。两面的名字可以自己改，也可以掷1到3个骰子。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "url": "https://mole.example.com/",
+      "name": "打地鼠",
+      "description": "地鼠从洞里冒头就快点一下，遇到炸弹别碰，30秒内冲高分、拿称号。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "url": "https://animal.example.com/",
+      "name": "你是什么动物测试",
+      "description": "从临时放鸽子到半夜来电，8个日常小场景，2~3分钟测出和你最像的动物。"
     }
   ]
 }
@@ -302,6 +316,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="mole">
+        <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">反应游戏</span></span>
+            <h3 class="cur-headline">打地鼠，躲炸弹</h3>
+            <span class="cur-giant" aria-hidden="true">🔨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">趁地鼠躲起来前点中它，30秒定出称号。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">打地鼠</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="animal">
+        <a class="cur-card" href="https://animal.example.com/" style="--h:166;--h2:148">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">性格测试</span></span>
+            <h3 class="cur-headline">你是什么动物？</h3>
+            <span class="cur-giant" aria-hidden="true">🦊</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">8个日常小场景，遇见你内心的小野兽。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">你是什么动物测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="nickname">
         <a class="cur-card" href="https://nickname.example.com/" style="--h:254;--h2:236">
           <span class="cur-art">
@@ -366,7 +412,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="invite">
+      <li class="cur-item" data-id="invite" hidden>
         <a class="cur-card" href="https://invite.example.com/" style="--h:11;--h2:353">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">自己动手做</span></span>
@@ -382,7 +428,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lunch">
+      <li class="cur-item" data-id="lunch" hidden>
         <a class="cur-card" href="https://lunch.example.com/" style="--h:322;--h2:304">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难？</span></span>
@@ -430,45 +476,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="ghost" hidden>
-        <a class="cur-card" href="https://ghost.example.com/" style="--h:217;--h2:199">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">动手做</span></span>
-            <h3 class="cur-headline">做一只专属小幽灵</h3>
-            <span class="cur-giant" aria-hidden="true">👻</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">挑形状、表情和帽子，保存或发给朋友。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">万圣节小幽灵制作</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="team" hidden>
-        <a class="cur-card" href="https://team.example.com/" style="--h:347;--h2:329">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">随机分组</span></span>
-            <h3 class="cur-headline">一键公平随机分组</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">输入名字，选好组数，一点就分。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">随机分组</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">21个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">23个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -490,6 +504,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="mole" data-cat="game">
+        <a class="tile-link" href="https://mole.example.com/" title="地鼠从洞里冒头就快点一下，遇到炸弹别碰，30秒内冲高分、拿称号。" style="--h:17;--h2:359">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">打地鼠</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="animal" data-cat="test">
+        <a class="tile-link" href="https://animal.example.com/" title="从临时放鸽子到半夜来电，8个日常小场景，2~3分钟测出和你最像的动物。" style="--h:166;--h2:148">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">你是什么动物测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/" title="选一种风格，再输入名字，就能得到专属昵称。不满意可以反复重抽，满意后一键复制。" style="--h:254;--h2:236">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span>
@@ -548,14 +576,14 @@
       </li>
       <li class="tile" data-id="ghost" data-cat="create">
         <a class="tile-link" href="https://ghost.example.com/" title="挑选身体、眼睛、嘴巴和帽子，捏一只轻飘飘的专属小幽灵。可以存成图片，也能发给朋友。" style="--h:217;--h2:199">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👻</span></span></span>
           <span class="tile-name">万圣节小幽灵制作</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="team" data-cat="vote">
         <a class="tile-link" href="https://team.example.com/" title="粘贴名单，按组数或每组人数公平随机分组。组长分到不同组，结果用链接原样分享。" style="--h:347;--h2:329">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">随机分组</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

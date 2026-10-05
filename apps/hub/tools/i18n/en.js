@@ -23,6 +23,12 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'mole',
+        kicker: 'Reflex game',
+        headline: 'Whack the moles, dodge the bombs',
+        blurb: 'Tap the moles before they hide. 30 seconds, one rank.',
+      },
+      {
         id: 'nickname',
         kicker: 'Make it yourself',
         headline: 'Find a nickname that fits you',
@@ -75,6 +81,12 @@ module.exports = {
         kicker: 'Personality quiz',
         headline: 'What kind of partner are you?',
         blurb: 'Ten little dating moments, two minutes. See how you love.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Personality quiz',
+        headline: 'Which animal are you?',
+        blurb: 'Eight everyday moments, two minutes. Meet your wild side.',
       },
       {
         id: 'game2048',

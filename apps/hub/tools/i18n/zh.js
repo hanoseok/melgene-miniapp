@@ -26,6 +26,12 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'mole',
+        kicker: '反应游戏',
+        headline: '打地鼠，躲炸弹',
+        blurb: '趁地鼠躲起来前点中它，30秒定出称号。',
+      },
+      {
         id: 'nickname',
         kicker: '动手做',
         headline: '找到适合你的昵称',
@@ -78,6 +84,12 @@ module.exports = {
         kicker: '性格测试',
         headline: '你是哪种恋人？',
         blurb: '从暧昧到约会，10个小瞬间看出你的恋爱风格。',
+      },
+      {
+        id: 'animal',
+        kicker: '性格测试',
+        headline: '你是什么动物？',
+        blurb: '8个日常小场景，遇见你内心的小野兽。',
       },
       {
         id: 'game2048',

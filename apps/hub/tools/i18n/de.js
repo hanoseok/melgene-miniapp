@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'mole',
+        kicker: 'Reaktionsspiel',
+        headline: 'Maulwürfe hauen, Bomben meiden',
+        blurb: 'Antippen, bevor sie weg sind. 30 Sekunden, ein Titel.',
+      },
+      {
         id: 'nickname',
         kicker: 'Selbst gestalten',
         headline: 'Ein Nickname, der zu dir passt',
@@ -73,6 +79,12 @@ module.exports = {
         kicker: 'Persönlichkeitstest',
         headline: 'Wie tickst du in der Liebe?',
         blurb: 'Zehn kleine Momente zu zweit zeigen, wie du liebst.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Welches Tier bist du?',
+        blurb: 'Acht Alltagsmomente, zwei Minuten. Triff deine wilde Seite.',
       },
       {
         id: 'game2048',

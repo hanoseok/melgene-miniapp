@@ -20,6 +20,12 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'mole',
+        kicker: 'Jogo de reflexos',
+        headline: 'Acerte as toupeiras, fuja das bombas',
+        blurb: 'Toque antes que se escondam. 30 segundos, um título.',
+      },
+      {
         id: 'nickname',
         kicker: 'Faça você',
         headline: 'Um nickname a sua cara',
@@ -72,6 +78,12 @@ module.exports = {
         kicker: 'Teste de personalidade',
         headline: 'Como você é no amor?',
         blurb: 'Dez pequenos momentos a dois revelam o seu jeito de amar.',
+      },
+      {
+        id: 'animal',
+        kicker: 'Teste de personalidade',
+        headline: 'Que animal você é?',
+        blurb: 'Oito momentos do dia a dia, dois minutos. Conheça seu lado selvagem.',
       },
       {
         id: 'game2048',
