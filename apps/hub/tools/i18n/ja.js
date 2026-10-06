@@ -23,6 +23,12 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'つくってみよう',
+        headline: 'いつもの文字をおしゃれに',
+        blurb: '文字を入れるだけでおしゃれなフォントに。タップでコピーできます。',
+      },
+      {
         id: 'mole',
         kicker: '反射神経ゲーム',
         headline: 'もぐらを叩け、爆弾はよけろ',
@@ -39,6 +45,12 @@ module.exports = {
         kicker: '決められない?',
         headline: 'コイントスとサイコロ',
         blurb: 'コインもサイコロも公平。迷ったらここで決めよう。',
+      },
+      {
+        id: 'lotto',
+        kicker: '運試ししたい?',
+        headline: 'ロト番号ジェネレーター',
+        blurb: 'ゲームを選んでボールを引こう。お楽しみ用です。',
       },
       {
         id: 'invite',

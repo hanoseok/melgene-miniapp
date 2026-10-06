@@ -1,0 +1,105 @@
+/* Fancy Text Generator — English (site root /, default + x-default)
+ * Conversion logic lives in fancytext-core.js; this file holds every visible string for this language.
+ * names: label per style id (15 fonts + 10 decorations). make.sample = demo text shown (dimmed) while the box is empty.
+ * Keys ending in Html are inserted as raw HTML (only <br> and <em>); privacy.sections bodies are HTML too.
+ * Start screen = teaser only (no FAQ). FAQ appears only in the shared end screen.
+ */
+module.exports = {
+  fonts: {
+    css: "https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap",
+    display: "'Nunito'",
+    displayWeight: 900,
+    sans: "",
+    wordBreak: "normal",
+    hyphens: "manual",
+  },
+  meta: {
+    title: "Fancy Text Generator – Cool Fonts to Copy & Paste",
+    description: "Turn plain text into bold, script, bubble, upside-down and 20+ more fancy text styles. Type, tap a style, copy and paste it into Instagram, TikTok, Discord or your bio. Free, no sign-up.",
+    ogTitle: "Fancy Text Generator ✨ Cool Fonts to Copy & Paste",
+    ogDescription: "Type anything, tap a style and paste it anywhere.",
+  },
+  siteName: "Fancy Text Generator",
+  privacyLink: "Privacy Policy",
+  start: {
+    badge: "✨ Plain text is boring",
+    h1Kicker: "Fancy Text Generator",
+    h1Html: "Make your text<br><em>stand out</em>",
+    hook: "Type anything and see it in dozens of stylish looks. Tap one to copy, then paste it anywhere.",
+    facts: "Bold, script, bubble, upside down · works with any language · tap to copy",
+    start: "Style my text →",
+  },
+  make: {
+    title: "Type your text",
+    inputLabel: "Your text",
+    placeholder: "Type or paste here…",
+    clear: "Clear",
+    fontsHeading: "Fancy fonts",
+    decoHeading: "Decorations",
+    tapHint: "Tap a style to copy it",
+    latinNote: "Fancy fonts change Latin letters and numbers, so here are decorations that work with any text.",
+    needText: "Type something first",
+    sample: "Hello World",
+  },
+  result: {
+    copied: "Copied!",
+    copyFail: "Couldn’t copy. Select the text and copy it by hand.",
+    again: "Try another text",
+    shareTitle: "Fancy Text Generator",
+    shareText: "Turn plain text into fancy text in one tap ✨",
+  },
+  names: {
+    bold: "Bold",
+    italic: "Italic",
+    boldItalic: "Bold italic",
+    script: "Script",
+    boldScript: "Bold script",
+    fraktur: "Fraktur",
+    doubleStruck: "Double-struck",
+    mono: "Monospace",
+    circled: "Bubble",
+    circledBlack: "Dark bubble",
+    squared: "Squared",
+    squaredBlack: "Dark squares",
+    smallCaps: "Small caps",
+    upsideDown: "Upside down",
+    wide: "Wide",
+    strike: "Strikethrough",
+    underline: "Underline",
+    wavy: "Wavy",
+    spaced: "Spaced out",
+    stars: "Stars",
+    ornate: "Ornate",
+    flower: "Flowers",
+    heart: "Hearts",
+    bracket: "Brackets",
+    sparkle: "Sparkle",
+  },
+  og: {
+    brand: "✨ Fancy Text Generator",
+    kicker: "Type · tap · copy",
+    title: "Make your text stand out",
+    desc: "Bold, script, bubble, upside down and more",
+  },
+  faq: [{
+      q: "How do I use the fancy text generator?",
+      a: "Type or paste your text, then tap any style in the list. It is copied right away, so you can paste it into a bio, caption, chat or username.",
+    }, {
+      q: "Why do some characters show up as empty boxes?",
+      a: "These styles are Unicode symbols, not real fonts. A few older phones, apps or fonts don’t have every symbol and show a box instead. Try another style or another app.",
+    }, {
+      q: "Why didn’t my Korean, Japanese, Chinese, Thai or Russian text change?",
+      a: "Fancy fonts only exist for Latin letters and numbers. For other writing systems you still get decorations such as strikethrough, underline, wavy, spaced out and star or flower frames.",
+    }, {
+      q: "Is my text saved anywhere?",
+      a: "No. Everything is converted inside your browser and nothing you type is sent or stored.",
+    }],
+  privacy: {
+    title: "Privacy Policy | Fancy Text Generator",
+    description: "Privacy Policy for Fancy Text Generator: the text you type stays in your browser, cookies, advertising and statistics.",
+    h1: "Privacy Policy",
+    introHtml: "Fancy Text Generator (the \"Service\") respects your privacy and processes only the minimum information described below.",
+    sections: [["1. Information we collect", "The Service works without an account or login. The text you type is processed only in your browser and are not sent to our server. Some information may be collected automatically while you use the Service, as described below."], ["2. Cookies and similar technologies", "The Service may use cookies and your browser’s local storage to remember your language, to show ads and to understand how the Service is used. You can refuse or delete them in your browser settings; some features may not work as expected if you do."], ["3. Advertising (Google AdSense)", "The Service shows ads through Google AdSense. Google and its partners may use cookies to serve ads based on your previous visits to this and other websites. You can learn more and change your preferences in <a href=\"https://adssettings.google.com/\" target=\"_blank\" rel=\"noopener\">Google Ad Settings</a>."], ["4. Statistics", "To improve the Service we may use Google Analytics (GA4) and our own aggregate counters that keep only daily totals per language (page views, styles copied, star ratings). None of this identifies you personally."], ["5. Contact", "If you have any questions about this Privacy Policy, please contact the site operator."], ["6. Effective date", "This policy is effective as of October 7, 2026."]],
+    back: "← Back to Fancy Text Generator",
+  },
+};

@@ -23,6 +23,12 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'Make it yourself',
+        headline: 'Make your text stand out',
+        blurb: 'Turn plain text into fancy fonts and copy it in one tap.',
+      },
+      {
         id: 'mole',
         kicker: 'Reflex game',
         headline: 'Whack the moles, dodge the bombs',
@@ -39,6 +45,12 @@ module.exports = {
         kicker: 'Can\'t decide?',
         headline: 'Heads or tails? Roll the dice',
         blurb: 'Flip a coin or roll up to three dice, fair every time.',
+      },
+      {
+        id: 'lotto',
+        kicker: 'Feeling lucky?',
+        headline: 'Lucky numbers for fun',
+        blurb: 'Pick a game and draw up to five sets of balls.',
       },
       {
         id: 'invite',

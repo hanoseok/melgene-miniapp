@@ -1,0 +1,184 @@
+/* apps/fancytext/style.css — 멋진 글꼴 변환기: 크림 바탕 + 짙은 남색 잉크 + 핑크·하늘·노랑 포인트, 반짝이는 스티커 카드.
+ * 두툼한 둥근 카드 + 어긋난 그림자. 모바일 한 줄(--app-width 480px).
+ * 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #fff6e5;
+  --paper-2: #ffe7b8;
+  --ink: #1b1b3a;
+  --ink-dim: rgba(27, 27, 58, 0.8);
+  --ink-faint: rgba(27, 27, 58, 0.6);
+  --accent: #ff4f9a;
+  --accent-2: #c9156f;
+  --sky: #34d3e8;
+  --sun: #ffd23f;
+  --line: #1b1b3a;
+  --shadow: 4px 4px 0 var(--ink);
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--accent);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  /* 공통 끝 화면 */
+  --mg-star-on: #f0a800;
+  --mg-star-off: rgba(27, 27, 58, 0.18);
+  --mg-heart-bg: #fff;
+  --mg-heart-border: var(--accent);
+  --mg-heart-fg: var(--accent);
+  --mg-heart-on: var(--accent);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(27, 27, 58, 0.22);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(27, 27, 58, 0.18);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.ft-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--paper);
+  background-image: radial-gradient(rgba(255, 79, 154, 0.16) 2px, transparent 2.5px);
+  background-size: 26px 26px;
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ft-h1, .ft-kicker, .ft-h1-main, .ft-h1-main em, .ft-badge, .ft-btn, .ft-h2, .ft-h3, .ft-label, .ft-mini, .ft-facts,
+.ft-doc h1, .ft-count, .ft-name, .ft-tap, .ft-note {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ft-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.ft-screen { padding-top: 12px; }
+
+.ft-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px; margin: 14px 0 0;
+  padding: 12px 18px;
+  border: 3px solid var(--line); border-radius: 16px;
+  font-size: 18px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.2s;
+}
+.ft-btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+.ft-btn:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.ft-btn:disabled { opacity: 0.45; cursor: default; }
+.ft-btn:focus-visible, .ft-mini:focus-visible, .ft-row:focus-visible, .ft-input:focus-visible {
+  outline: 3px solid var(--sky); outline-offset: 2px;
+}
+
+.ft-mini {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  min-height: 36px; padding: 4px 14px;
+  border: 2px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink);
+  font-size: 14px; font-weight: 800; line-height: 1.2;
+  cursor: pointer;
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.ft-start { text-align: center; padding-top: 16px; }
+.ft-badge {
+  display: inline-block; margin: 0 0 12px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--sun);
+  font-size: 13px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.ft-hero { display: grid; gap: 10px; width: 250px; margin: 14px auto 8px; transform: rotate(-3deg); animation: ft-sway 3.2s ease-in-out infinite; }
+.ft-hero-row { display: block; padding: 8px 14px; background: #fff; border: 3px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); font-family: 'Segoe UI Symbol', 'Apple Symbols', 'Noto Sans Math', 'Noto Sans Symbols 2', system-ui, sans-serif; font-size: 26px; line-height: 1.3; color: var(--ink); }
+.ft-hero-a { background: var(--sun); }
+.ft-hero-b { background: #fff; }
+.ft-hero-c { background: var(--sky); transform: translateX(8px); }
+@keyframes ft-sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(2deg); } }
+.ft-h1 { margin: 16px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ft-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px;
+  background: var(--accent); color: #fff; border-radius: 8px;
+  font-size: 15px; transform: rotate(-2deg);
+}
+.ft-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; }
+.ft-h1-main em {
+  font-style: normal; color: var(--accent-2);
+  background: linear-gradient(transparent 62%, var(--sun) 62%, var(--sun) 92%, transparent 92%);
+  padding: 0 2px;
+}
+.ft-hook { margin: 0 auto 6px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.ft-facts { margin: 14px 0 0; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); }
+
+/* ---------------- 입력 화면 ---------------- */
+.ft-h2 { margin: 4px 0 12px; font-size: 24px; font-weight: var(--display-weight); line-height: 1.25; }
+.ft-card { padding: 16px; background: #fff; border: 3px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+.ft-label { display: block; margin: 0 0 2px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.35; }
+.ft-input {
+  display: block; width: 100%; min-height: 84px; margin-top: 6px; padding: 10px 12px; resize: vertical;
+  border: 2.5px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink);
+  font-family: var(--font-sans); font-size: 18px; font-weight: 700; line-height: 1.45;
+}
+.ft-input::placeholder { color: var(--ink-faint); font-weight: 700; }
+.ft-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 10px; }
+.ft-count { font-size: 13.5px; font-weight: var(--display-weight); color: var(--ink-faint); }
+.ft-note { margin: 12px 0 0; padding: 10px 12px; border: 2px dashed var(--accent); border-radius: 12px; background: #fff; font-size: 13.5px; line-height: 1.5; color: var(--ink-dim); }
+.ft-tap { margin: 16px 0 0; font-size: 13.5px; font-weight: 800; color: var(--accent-2); text-align: center; }
+.ft-h3 { margin: 14px 0 8px; font-size: 17px; font-weight: var(--display-weight); line-height: 1.3; }
+.ft-list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.ft-row {
+  display: block; width: 100%; padding: 8px 12px 10px; text-align: left;
+  border: 2.5px solid var(--line); border-radius: 14px; background: #fff; color: var(--ink);
+  cursor: pointer; transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.ft-row:active { transform: translate(2px, 2px); }
+.ft-row.is-preview { opacity: 0.6; }
+.ft-row.is-copied { background: var(--sun); box-shadow: 3px 3px 0 var(--ink); }
+.ft-name { display: block; font-size: 12px; font-weight: 800; line-height: 1.3; color: var(--ink-faint); }
+.ft-out {
+  display: block; margin-top: 2px; font-family: 'Segoe UI Symbol', 'Apple Symbols', 'Noto Sans Math', 'Noto Sans Symbols 2', var(--font-sans);
+  font-size: 20px; font-weight: 400; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;
+}
+.ft-make .mg-ad { margin-top: 22px; }
+.ft-make.is-done .mg-ad { display: none; }
+.ft-end { margin-top: 22px; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.ft-doc { padding: 28px 0 36px; line-height: 1.8; font-size: 14.5px; color: var(--ink-dim); }
+.ft-doc h1 { font-size: 24px; font-weight: var(--display-weight); color: var(--ink); margin-bottom: 20px; }
+.ft-doc h2 { font-size: 16px; font-weight: 800; color: var(--ink); margin: 26px 0 8px; }
+.ft-doc a { color: var(--accent-2); text-decoration: underline; }
+
+.site-footer { margin-top: 28px; }
+
+/* 언어별 */
+html:lang(th) .ft-h1-main, html:lang(th) .ft-h2 { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .ft-name, html:lang(th) .ft-label { line-height: 1.5; }
+html:lang(vi) .ft-h1-main { line-height: 1.35; }
+html:lang(ja) .ft-h1-main, html:lang(ja) .ft-hook { word-break: auto-phrase; }
+
+@media (max-width: 374px) {
+  .ft-h1-main { font-size: 28px; }
+  .ft-out { font-size: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ft-hero { animation: none; }
+  .ft-btn, .ft-row { transition: none; }
+}

@@ -78,3 +78,5 @@
 - 2026-10-06 (새 앱 2개): mole(두더지 잡기, game, order 1) + animal(나와 닮은 동물 테스트, test, order 2) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가, gen-all 링크 PASS·check-all 통과(hub 경고 1: animal ru 소개 2줄 초과). 카테고리 순환: game+test → 다음 create+vote.
 - 2026-10-06 (배포 보류): Cloudflare 인증 서버 접근 불가(토큰 만료, 프록시 차단)로 deploy-cf.sh 실패 — dist 준비됨(nickname·coinflip·mole·animal 4개 미배포). 사용자 터미널에서 npx wrangler login 후 ./deploy-cf.sh 필요.
 - 2026-10-06 (배포 완료): wrangler 로그인을 hanoseok Chrome 으로 직접 승인 후 ./deploy-cf.sh 성공 — mole·animal·nickname·coinflip 라이브 200, 포털에 노출 확인.
+- 2026-10-07 (새 앱 lotto): 로또 번호 생성기(lotto, vote, order 2) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가.
+- 2026-10-07 (새 앱 fancytext): 글꼴 변환기(fancytext, create, order 1) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가. gen-all 링크 PASS. 카테고리 순환: create+vote → 다음 game+test.

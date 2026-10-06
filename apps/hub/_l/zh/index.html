@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 23,
+  "numberOfItems": 25,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -241,6 +241,20 @@
       "url": "https://animal.example.com/",
       "name": "你是什么动物测试",
       "description": "从临时放鸽子到半夜来电，8个日常小场景，2~3分钟测出和你最像的动物。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "url": "https://fancytext.example.com/",
+      "name": "花式字体生成器",
+      "description": "输入文字，一键变成粗体、手写体、圆圈字、颠倒等花式字体，点一下即可复制，中文也能加装饰。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "url": "https://lotto.example.com/",
+      "name": "彩票号码生成器",
+      "description": "韩国乐透6/45、欧洲式、美国强力球或自定义范围，随手摇一组幸运号码。可固定或排除号码，一次最多5注，附彩球滚动动画，仅供娱乐。"
     }
   ]
 }
@@ -316,6 +330,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="fancytext">
+        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">动手做</span></span>
+            <h3 class="cur-headline">让文字变成花式字体</h3>
+            <span class="cur-giant" aria-hidden="true">✨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">输入文字就能变成花式字体，点一下即可复制。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">花式字体生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lotto">
+        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">试试手气?</span></span>
+            <h3 class="cur-headline">彩票号码生成器</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">选好玩法摇出幸运号码,仅供娱乐。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">彩票号码生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="mole">
         <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
           <span class="cur-art">
@@ -380,7 +426,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="game2048">
+      <li class="cur-item" data-id="game2048" hidden>
         <a class="cur-card" href="https://game2048.example.com/" style="--h:254;--h2:236">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">益智游戏</span></span>
@@ -396,7 +442,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lovestyle">
+      <li class="cur-item" data-id="lovestyle" hidden>
         <a class="cur-card" href="https://lovestyle.example.com/" style="--h:303;--h2:285">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">性格测试</span></span>
@@ -444,45 +490,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="merge" hidden>
-        <a class="cur-card" href="https://merge.example.com/" style="--h:218;--h2:200">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">小游戏</span></span>
-            <h3 class="cur-headline">相同的碰一起，越合越大</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">两个一样的相碰就会合成更大的，别让罐子溢出！</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">合成大西瓜 万圣节版</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="costume" hidden>
-        <a class="cur-card" href="https://costume.example.com/" style="--h:48;--h2:30">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">性格测试</span></span>
-            <h3 class="cur-headline">今年万圣节你该扮成谁？</h3>
-            <span class="cur-giant" aria-hidden="true">🎭</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">回答几个情景题，找到最适合你的装扮。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">万圣节装扮测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">23个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">25个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -504,6 +518,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="fancytext" data-cat="create">
+        <a class="tile-link" href="https://fancytext.example.com/" title="输入文字，一键变成粗体、手写体、圆圈字、颠倒等花式字体，点一下即可复制，中文也能加装饰。" style="--h:324;--h2:306">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">花式字体生成器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lotto" data-cat="vote">
+        <a class="tile-link" href="https://lotto.example.com/" title="韩国乐透6/45、欧洲式、美国强力球或自定义范围，随手摇一组幸运号码。可固定或排除号码，一次最多5注，附彩球滚动动画，仅供娱乐。" style="--h:88;--h2:70">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">彩票号码生成器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/" title="地鼠从洞里冒头就快点一下，遇到炸弹别碰，30秒内冲高分、拿称号。" style="--h:17;--h2:359">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
@@ -562,14 +590,14 @@
       </li>
       <li class="tile" data-id="merge" data-cat="game">
         <a class="tile-link" href="https://merge.example.com/" title="把糖果丢进罐子，两个一样的碰在一起就合成更大的！别让它们越过红线，一路合成巨型南瓜灯。" style="--h:218;--h2:200">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span>
           <span class="tile-name">合成大西瓜 万圣节版</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="costume" data-cat="test">
         <a class="tile-link" href="https://costume.example.com/" title="12个派对小场景，2分钟测出今年最适合你的万圣节装扮，附简单DIY小贴士。" style="--h:48;--h2:30">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span></span>
           <span class="tile-name">万圣节装扮测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

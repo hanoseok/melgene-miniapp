@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'Selbst gestalten',
+        headline: 'Gib deinem Text mehr Stil',
+        blurb: 'Verwandle Text in coole Schriftarten und kopiere ihn mit einem Tipp.',
+      },
+      {
         id: 'mole',
         kicker: 'Reaktionsspiel',
         headline: 'Maulwürfe hauen, Bomben meiden',
@@ -37,6 +43,12 @@ module.exports = {
         kicker: 'Unentschlossen?',
         headline: 'Münzwurf und Würfel',
         blurb: 'Münze werfen oder bis zu drei Würfel, immer fair.',
+      },
+      {
+        id: 'lotto',
+        kicker: 'Glück gehabt?',
+        headline: 'Lottozahlen zum Spaß',
+        blurb: 'Spiel wählen und bis zu fünf Tipps ziehen.',
       },
       {
         id: 'invite',

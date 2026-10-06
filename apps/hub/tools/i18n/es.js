@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'Hazlo tú',
+        headline: 'Dale estilo a tus letras',
+        blurb: 'Convierte tu texto en letras bonitas y cópialo con un toque.',
+      },
+      {
         id: 'mole',
         kicker: 'Juego de reflejos',
         headline: 'Golpea topos, esquiva bombas',
@@ -37,6 +43,12 @@ module.exports = {
         kicker: '¿Indeciso?',
         headline: 'Cara o cruz, o un dado',
         blurb: 'Lanza una moneda o hasta tres dados, siempre al azar.',
+      },
+      {
+        id: 'lotto',
+        kicker: '¿Probamos suerte?',
+        headline: 'Números de lotería al azar',
+        blurb: 'Elige un juego y saca hasta cinco apuestas.',
       },
       {
         id: 'invite',

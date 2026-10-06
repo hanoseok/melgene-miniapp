@@ -21,6 +21,12 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'À créer',
+        headline: 'Donne du style à ton texte',
+        blurb: 'Transforme ton texte en polices stylées et copie-le en un clic.',
+      },
+      {
         id: 'mole',
         kicker: 'Jeu de réflexes',
         headline: 'Tape les taupes, évite les bombes',
@@ -37,6 +43,12 @@ module.exports = {
         kicker: 'Indécis ?',
         headline: 'Pile ou face, ou un dé',
         blurb: 'Une pièce ou jusqu\'à trois dés, toujours équitable.',
+      },
+      {
+        id: 'lotto',
+        kicker: 'Un coup de chance ?',
+        headline: 'Numéros de loto au hasard',
+        blurb: 'Choisis un jeu et tire jusqu\'à cinq grilles.',
       },
       {
         id: 'invite',

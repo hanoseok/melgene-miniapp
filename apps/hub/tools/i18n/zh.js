@@ -26,6 +26,12 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'fancytext',
+        kicker: '动手做',
+        headline: '让文字变成花式字体',
+        blurb: '输入文字就能变成花式字体，点一下即可复制。',
+      },
+      {
         id: 'mole',
         kicker: '反应游戏',
         headline: '打地鼠，躲炸弹',
@@ -42,6 +48,12 @@ module.exports = {
         kicker: '选择困难?',
         headline: '抛硬币和掷骰子',
         blurb: '抛硬币或掷骰子,每次都公平,帮你拿主意。',
+      },
+      {
+        id: 'lotto',
+        kicker: '试试手气?',
+        headline: '彩票号码生成器',
+        blurb: '选好玩法摇出幸运号码,仅供娱乐。',
       },
       {
         id: 'invite',

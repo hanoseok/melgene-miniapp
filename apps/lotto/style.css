@@ -1,0 +1,206 @@
+/* apps/lotto/style.css — 로또 번호 생성기: 남색 잉크 + 따뜻한 크림 바탕 + 한국 로또 공 색(노랑·파랑·빨강·회색·초록) + 빨강 버튼.
+ * 두툼한 둥근 카드 + 어긋난 그림자. 모바일 한 줄(--app-width 480px).
+ * 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #fff6e3;
+  --ink: #1b2a49;
+  --ink-dim: rgba(27, 42, 73, 0.8);
+  --ink-faint: rgba(27, 42, 73, 0.6);
+  --accent: #e8453c;
+  --accent-2: #c2281f;
+  --gold: #f5b82e;
+  --gold-2: #c98a0b;
+  --line: #1b2a49;
+  --shadow: 4px 4px 0 var(--ink);
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--accent);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: var(--ink);
+  --mg-star-on: #f0a800;
+  --mg-star-off: rgba(27, 42, 73, 0.18);
+  --mg-heart-bg: #fff;
+  --mg-heart-border: var(--accent);
+  --mg-heart-fg: var(--accent);
+  --mg-heart-on: var(--accent);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(27, 42, 73, 0.22);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(27, 42, 73, 0.18);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.lt-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--paper);
+  background-image: radial-gradient(rgba(27, 42, 73, 0.08) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+[hidden] { display: none !important; }
+
+.lt-h1, .lt-kicker, .lt-h1-main, .lt-h1-main em, .lt-badge, .lt-btn, .lt-h2, .lt-label, .lt-chip, .lt-seg-btn,
+.lt-mini, .lt-facts, .lt-doc h1, .lt-ball, .lt-game-name, .lt-input, .lt-field-name {
+  font-family: var(--font-display);
+}
+
+.lt-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.lt-screen { padding-top: 12px; }
+
+.lt-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px; margin: 14px 0 0; padding: 12px 18px;
+  border: 3px solid var(--line); border-radius: 16px;
+  font-size: 18px; font-weight: var(--display-weight); line-height: 1.25;
+  cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.2s;
+}
+.lt-btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+.lt-btn:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.lt-btn:disabled { opacity: 0.55; cursor: default; }
+.lt-btn:focus-visible, .lt-mini:focus-visible, .lt-seg-btn:focus-visible, .lt-chip:focus-visible, .lt-input:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+}
+.lt-mini {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  min-height: 42px; padding: 6px 14px; border: 2px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink); font-size: 15px; font-weight: 800; line-height: 1.2; cursor: pointer;
+}
+.lt-mini-accent { background: var(--gold); }
+
+/* 공 색 (한국 로또 구간: 1~10 노랑 · 11~20 파랑 · 21~30 빨강 · 31~40 회색 · 41~ 초록) */
+:root { --c0: #f2b705; --c1: #3fa7e0; --c2: #ec5a54; --c3: #8f9aa6; --c4: #59b53a; }
+
+.lt-ball {
+  --bc: var(--c0);
+  position: relative; display: inline-grid; place-items: center; flex: none;
+  width: var(--b, 44px); height: var(--b, 44px); border-radius: 50%;
+  background: radial-gradient(circle at 34% 28%, rgba(255, 255, 255, 0.85) 0 9%, rgba(255, 255, 255, 0) 30%), radial-gradient(circle at 50% 55%, var(--bc), color-mix(in srgb, var(--bc) 72%, #000));
+  border: 2.5px solid var(--line); box-shadow: 2px 3px 0 var(--ink);
+  color: #fff; font-size: calc(var(--b, 44px) * 0.44); font-weight: var(--display-weight); line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45); font-variant-numeric: tabular-nums;
+}
+.lt-ball[data-c="0"] { --bc: var(--c0); color: #3a2a00; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+.lt-ball[data-c="1"] { --bc: var(--c1); }
+.lt-ball[data-c="2"] { --bc: var(--c2); }
+.lt-ball[data-c="3"] { --bc: var(--c3); }
+.lt-ball[data-c="4"] { --bc: var(--c4); }
+.lt-ball.is-extra { --bc: var(--ink); color: var(--gold); text-shadow: none; border-color: var(--gold); box-shadow: 2px 3px 0 var(--ink), 0 0 0 2px var(--ink); }
+.lt-ball.is-extra[data-x="us"] { --bc: #c2281f; color: #fff; border-color: #fff; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.lt-start { text-align: center; padding-top: 16px; }
+.lt-badge {
+  display: inline-block; margin: 0 0 12px; padding: 6px 14px; border-radius: 999px;
+  background: var(--ink); color: var(--gold); font-size: 13px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.lt-hero { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 14px 0 6px; --b: 52px; }
+.lt-hero-ball { animation: lt-bob 2.4s ease-in-out infinite; animation-delay: calc(var(--n, 0) * -0.4s); }
+.lt-hero-ball:nth-child(2) { --n: 1; } .lt-hero-ball:nth-child(3) { --n: 2; } .lt-hero-ball:nth-child(4) { --n: 3; } .lt-hero-ball:nth-child(5) { --n: 4; }
+@keyframes lt-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -9px; } }
+.lt-h1 { margin: 16px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.lt-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 10px; background: var(--accent); color: #fff;
+  border-radius: 8px; font-size: 15px; transform: rotate(-2deg);
+}
+.lt-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; }
+.lt-h1-main em {
+  font-style: normal; color: var(--accent-2);
+  background: linear-gradient(transparent 62%, var(--gold) 62%, var(--gold) 92%, transparent 92%); padding: 0 2px;
+}
+.lt-hook { margin: 0 auto 6px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.lt-facts { margin: 14px 0 0; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); }
+
+/* ---------------- 도구 화면 ---------------- */
+.lt-h2 { margin: 4px 0 12px; font-size: 24px; font-weight: var(--display-weight); line-height: 1.25; }
+.lt-card { margin: 0 0 12px; padding: 14px 16px; background: #fff; border: 3px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+.lt-label { display: block; margin: 0 0 8px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.35; }
+.lt-hint { display: block; margin: 6px 0 0; font-size: 13px; line-height: 1.45; color: var(--ink-faint); }
+.lt-presets { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.lt-chip {
+  min-height: 48px; padding: 6px 8px; border: 2.5px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink);
+  font-size: 15px; font-weight: var(--display-weight); line-height: 1.2; cursor: pointer; overflow-wrap: anywhere;
+}
+.lt-chip[aria-checked="true"], .lt-seg-btn[aria-checked="true"] { background: var(--ink); color: #fff; }
+.lt-seg { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.lt-seg-btn {
+  min-height: 46px; padding: 6px 4px; border: 2.5px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink);
+  font-size: 17px; font-weight: 800; line-height: 1.2; cursor: pointer;
+}
+.lt-custom { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.lt-field { display: block; min-width: 0; }
+.lt-field-wide { margin: 0 0 12px; }
+.lt-field-wide:last-of-type { margin-bottom: 0; }
+.lt-field-name { display: block; font-size: 14px; font-weight: var(--display-weight); line-height: 1.35; }
+.lt-input {
+  display: block; width: 100%; min-width: 0; min-height: 46px; margin-top: 6px; padding: 6px 10px; border: 2.5px solid var(--line); border-radius: 12px;
+  background: #fff; color: var(--ink); font-size: 16px; font-weight: 800; text-align: center;
+}
+.lt-input-left { text-align: left; }
+.lt-error { margin: 12px 0 0; padding: 8px 12px; border-radius: 10px; background: #ffe3df; color: var(--accent-2); font-size: 13.5px; font-weight: 800; line-height: 1.4; }
+
+/* 추첨기 */
+.lt-machine { position: relative; width: 176px; height: 176px; margin: 8px auto 0; border-radius: 50%; border: 4px solid var(--line); background: radial-gradient(circle at 35% 28%, #fff, #dbe9f7 70%); box-shadow: var(--shadow), inset 0 -10px 0 rgba(27, 42, 73, 0.08); overflow: hidden; --b: 34px; }
+.lt-m-ball { position: absolute; left: calc(50% - var(--b) / 2 + 52px * cos(calc(var(--i) * 40deg))); top: calc(50% - var(--b) / 2 + 52px * sin(calc(var(--i) * 40deg))); animation: lt-idle 3.2s ease-in-out infinite; animation-delay: calc(var(--i) * -0.35s); }
+@keyframes lt-idle { 0%, 100% { translate: 0 0; } 50% { translate: 6px -8px; } }
+.lt-machine.is-drawing .lt-m-ball { animation: lt-tumble 0.34s linear infinite; animation-delay: calc(var(--i) * -0.07s); }
+@keyframes lt-tumble { 0% { translate: -26px 10px; rotate: 0deg; } 25% { translate: 18px -30px; } 50% { translate: 30px 16px; rotate: 180deg; } 75% { translate: -20px -22px; } 100% { translate: -26px 10px; rotate: 360deg; } }
+.lt-tool .lt-btn { margin-top: 16px; }
+.lt-note { margin: 12px 0 0; font-size: 12.5px; line-height: 1.5; font-weight: 700; color: var(--ink-faint); text-align: center; }
+.lt-tool .mg-ad { margin-top: 18px; }
+
+/* ---------------- 결과 ---------------- */
+.lt-games { display: grid; gap: 12px; margin: 6px 0 0; }
+.lt-game { padding: 12px 14px 16px; background: #fff; border: 3px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); }
+.lt-game-name { margin: 0 0 10px; font-size: 14px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-faint); }
+.lt-balls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; min-height: var(--b, 44px); }
+.lt-plus { font-size: 18px; font-weight: 900; color: var(--ink-faint); padding: 0 1px; }
+.lt-balls .lt-ball { animation: lt-pop 0.5s cubic-bezier(0.2, 1.4, 0.4, 1) both; animation-delay: calc(var(--k, 0) * 0.28s); }
+@keyframes lt-pop { from { transform: translateY(-40px) scale(0.2) rotate(-90deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.lt-extra-name { margin: 8px 0 0; font-size: 12.5px; font-weight: 800; color: var(--ink-faint); }
+.lt-note-res { margin-top: 14px; }
+.lt-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 16px 0 0; }
+.lt-actions .lt-mini { flex: 1 1 140px; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.lt-doc { padding: 28px 0 36px; line-height: 1.8; font-size: 14.5px; color: var(--ink-dim); }
+.lt-doc h1 { font-size: 24px; font-weight: var(--display-weight); color: var(--ink); margin-bottom: 20px; }
+.lt-doc h2 { font-size: 16px; font-weight: 800; color: var(--ink); margin: 26px 0 8px; }
+.lt-doc a { color: var(--accent-2); text-decoration: underline; }
+.site-footer { margin-top: 28px; }
+
+/* 언어별 */
+html:lang(th) .lt-h1-main, html:lang(th) .lt-h2 { line-height: 1.45; letter-spacing: 0; }
+html:lang(th) .lt-chip, html:lang(th) .lt-field-name { line-height: 1.4; }
+html:lang(vi) .lt-h1-main { line-height: 1.3; }
+html:lang(ja) .lt-h1-main, html:lang(ja) .lt-hook { word-break: auto-phrase; }
+
+@media (max-width: 374px) {
+  .lt-h1-main { font-size: 28px; }
+  .lt-hero { --b: 44px; gap: 6px; }
+  .lt-chip { font-size: 14px; }
+  .lt-custom { gap: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lt-hero-ball, .lt-m-ball, .lt-machine.is-drawing .lt-m-ball, .lt-balls .lt-ball { animation: none; }
+  .lt-btn { transition: none; }
+}

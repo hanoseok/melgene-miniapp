@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 23,
+  "numberOfItems": 25,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -241,6 +241,20 @@
       "url": "https://animal.example.com/",
       "name": "¿Qué animal eres?",
       "description": "8 momentos cotidianos, 2 o 3 minutos. Descubre qué animal se parece a tu personalidad y con quién haces match."
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "url": "https://fancytext.example.com/",
+      "name": "Generador de letras",
+      "description": "Escribe tu texto y míralo en negrita, cursiva, burbujas, al revés y más. Toca un estilo para copiarlo y pégalo donde quieras."
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "url": "https://lotto.example.com/",
+      "name": "Generador de lotería",
+      "description": "Saca números del 6/45 coreano, estilo Euro, Powerball de EE. UU. o tu rango. Fija o descarta números, hasta cinco apuestas."
     }
   ]
 }
@@ -316,6 +330,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="fancytext">
+        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Hazlo tú</span></span>
+            <h3 class="cur-headline">Dale estilo a tus letras</h3>
+            <span class="cur-giant" aria-hidden="true">✨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Convierte tu texto en letras bonitas y cópialo con un toque.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Generador de letras</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lotto">
+        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¿Probamos suerte?</span></span>
+            <h3 class="cur-headline">Números de lotería al azar</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Elige un juego y saca hasta cinco apuestas.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Generador de lotería</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="mole">
         <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
           <span class="cur-art">
@@ -380,7 +426,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="game2048">
+      <li class="cur-item" data-id="game2048" hidden>
         <a class="cur-card" href="https://game2048.example.com/" style="--h:254;--h2:236">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Juego de lógica</span></span>
@@ -396,7 +442,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lovestyle">
+      <li class="cur-item" data-id="lovestyle" hidden>
         <a class="cur-card" href="https://lovestyle.example.com/" style="--h:303;--h2:285">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de personalidad</span></span>
@@ -444,45 +490,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="merge" hidden>
-        <a class="cur-card" href="https://merge.example.com/" style="--h:218;--h2:200">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Juego rápido</span></span>
-            <h3 class="cur-headline">Suelta, combina y crece</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dos iguales se fusionan en algo más grande. ¡Que no se desborde el frasco!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Juego de la sandía – Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="costume" hidden>
-        <a class="cur-card" href="https://costume.example.com/" style="--h:48;--h2:30">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de personalidad</span></span>
-            <h3 class="cur-headline">¿De qué te disfrazas este Halloween?</h3>
-            <span class="cur-giant" aria-hidden="true">🎭</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Responde unas situaciones y descubre tu disfraz ideal.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test de disfraz de Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">23 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">25 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -504,6 +518,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="fancytext" data-cat="create">
+        <a class="tile-link" href="https://fancytext.example.com/" title="Escribe tu texto y míralo en negrita, cursiva, burbujas, al revés y más. Toca un estilo para copiarlo y pégalo donde quieras." style="--h:324;--h2:306">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Generador de letras</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lotto" data-cat="vote">
+        <a class="tile-link" href="https://lotto.example.com/" title="Saca números del 6/45 coreano, estilo Euro, Powerball de EE. UU. o tu rango. Fija o descarta números, hasta cinco apuestas." style="--h:88;--h2:70">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Generador de lotería</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/" title="Toca los topos que asoman por los agujeros, esquiva las bombas y bate tu récord en 30 segundos." style="--h:17;--h2:359">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NUEVO</span></span>
@@ -562,14 +590,14 @@
       </li>
       <li class="tile" data-id="merge" data-cat="game">
         <a class="tile-link" href="https://merge.example.com/" title="Suelta dulces en el frasco y fusiona las parejas iguales en algo más grande. No pases la línea y llega a la calabaza gigante." style="--h:218;--h2:200">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span>
           <span class="tile-name">Juego de la sandía – Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="costume" data-cat="test">
         <a class="tile-link" href="https://costume.example.com/" title="12 momentos de fiesta, unos 2 minutos. Descubre el disfraz de Halloween que va con tu personalidad, con trucos para hacerlo tú." style="--h:48;--h2:30">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎭</span></span></span>
           <span class="tile-name">Test de disfraz de Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -23,6 +23,12 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'fancytext',
+        kicker: '직접 만들기',
+        headline: '내 글씨를 멋지게 바꾸기',
+        blurb: '글만 쓰면 멋진 글꼴로 바뀌고, 누르면 바로 복사돼요.',
+      },
+      {
         id: 'mole',
         kicker: '순발력 게임',
         headline: '두더지는 톡, 폭탄은 피하기',
@@ -39,6 +45,12 @@ module.exports = {
         kicker: '고르기 힘들 땐',
         headline: '앞? 뒤? 동전 던지기',
         blurb: '동전도 주사위도 공정하게, 고민은 여기서 끝내요.',
+      },
+      {
+        id: 'lotto',
+        kicker: '오늘 운 좋은 날?',
+        headline: '로또 번호 생성기',
+        blurb: '게임을 고르면 공이 굴러 나와요. 재미로만 즐겨요.',
       },
       {
         id: 'invite',

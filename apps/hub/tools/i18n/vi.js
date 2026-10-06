@@ -25,6 +25,12 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'fancytext',
+        kicker: 'Tự tạo',
+        headline: 'Cho chữ của bạn nổi bật',
+        blurb: 'Biến chữ thường thành kiểu chữ đẹp, chạm một cái là sao chép.',
+      },
+      {
         id: 'mole',
         kicker: 'Game phản xạ',
         headline: 'Đập chuột chũi, né bom',
@@ -41,6 +47,12 @@ module.exports = {
         kicker: 'Khó chọn?',
         headline: 'Tung đồng xu, đổ xúc xắc',
         blurb: 'Tung đồng xu hoặc đổ tối đa 3 xúc xắc, luôn công bằng.',
+      },
+      {
+        id: 'lotto',
+        kicker: 'Thử vận may?',
+        headline: 'Tạo số xổ số cho vui',
+        blurb: 'Chọn trò chơi và quay tối đa năm bộ số.',
       },
       {
         id: 'invite',
