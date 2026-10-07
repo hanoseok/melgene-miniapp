@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'brick',
+        kicker: 'Arcade-Klassiker',
+        headline: 'Ein Ball gegen die Neon-Mauer',
+        blurb: 'Mit dem Schläger zurücklenken, alles abräumen. 3 Leben, immer schneller.',
+      },
+      {
+        id: 'mentalage',
+        kicker: 'Persönlichkeitstest',
+        headline: 'Wie alt ist dein Kopf?',
+        blurb: '12 Alltagsfragen, zwei Minuten. Dein mentales Alter aufs Jahr genau.',
+      },
+      {
         id: 'fancytext',
         kicker: 'Selbst gestalten',
         headline: 'Gib deinem Text mehr Stil',

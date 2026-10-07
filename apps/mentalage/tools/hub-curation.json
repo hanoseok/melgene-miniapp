@@ -1,0 +1,62 @@
+{
+  "en": {
+    "kicker": "Personality quiz",
+    "headline": "How old is your mind?",
+    "blurb": "12 everyday questions, 2 minutes. Your mental age as a number."
+  },
+  "ko": {
+    "kicker": "심리테스트",
+    "headline": "내 마음은 몇 살일까?",
+    "blurb": "일상 질문 12개로 숫자로 알아보는 내 정신연령."
+  },
+  "ja": {
+    "kicker": "心理テスト",
+    "headline": "あなたの心は何歳？",
+    "blurb": "日常の12問で、精神年齢を数字で診断。"
+  },
+  "zh": {
+    "kicker": "心理测试",
+    "headline": "你的心到底几岁？",
+    "blurb": "12道日常小题，用数字测出你的心理年龄。"
+  },
+  "fr": {
+    "kicker": "Test de personnalité",
+    "headline": "Quel âge a ton esprit ?",
+    "blurb": "12 questions du quotidien, 2 minutes. Ton âge mental au chiffre près."
+  },
+  "de": {
+    "kicker": "Persönlichkeitstest",
+    "headline": "Wie alt ist dein Kopf?",
+    "blurb": "12 Alltagsfragen, zwei Minuten. Dein mentales Alter aufs Jahr genau."
+  },
+  "th": {
+    "kicker": "แบบทดสอบนิสัย",
+    "headline": "ใจคุณอายุเท่าไหร่?",
+    "blurb": "คำถามชีวิตประจำวัน 12 ข้อ รู้อายุใจเป็นตัวเลข"
+  },
+  "vi": {
+    "kicker": "Trắc nghiệm tính cách",
+    "headline": "Tâm hồn bạn bao nhiêu tuổi?",
+    "blurb": "12 câu hỏi đời thường, hai phút. Biết tuổi tâm lý bằng con số."
+  },
+  "es": {
+    "kicker": "Test de personalidad",
+    "headline": "¿Cuántos años tiene tu mente?",
+    "blurb": "12 preguntas cotidianas, 2 minutos. Tu edad mental en número."
+  },
+  "it": {
+    "kicker": "Test di personalità",
+    "headline": "Quanti anni ha la tua testa?",
+    "blurb": "12 domande quotidiane, due minuti. La tua età mentale in numero."
+  },
+  "pt": {
+    "kicker": "Teste de personalidade",
+    "headline": "Quantos anos tem sua mente?",
+    "blurb": "12 perguntas do dia a dia, 2 minutos. Sua idade mental em número."
+  },
+  "ru": {
+    "kicker": "Тест на характер",
+    "headline": "Сколько лет твоей душе?",
+    "blurb": "12 житейских вопросов, 2 минуты. Возраст души в цифрах."
+  }
+}

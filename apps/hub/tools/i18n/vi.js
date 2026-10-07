@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'brick',
+        kicker: 'Game thùng cổ điển',
+        headline: 'Một quả bóng, cả bức tường neon',
+        blurb: 'Đỡ bóng bằng thanh trượt, phá sạch gạch. 3 mạng, càng chơi càng nhanh.',
+      },
+      {
+        id: 'mentalage',
+        kicker: 'Trắc nghiệm tính cách',
+        headline: 'Tâm hồn bạn bao nhiêu tuổi?',
+        blurb: '12 câu hỏi đời thường, hai phút. Biết tuổi tâm lý bằng con số.',
+      },
+      {
         id: 'fancytext',
         kicker: 'Tự tạo',
         headline: 'Cho chữ của bạn nổi bật',

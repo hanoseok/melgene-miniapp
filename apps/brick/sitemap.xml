@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://brick.example.com/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/ja/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/zh/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/ko/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/fr/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/de/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/th/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/vi/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/es/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/it/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/pt/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brick.example.com/ru/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brick.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brick.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brick.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brick.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brick.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brick.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brick.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brick.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brick.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brick.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brick.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brick.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brick.example.com/"/>
+  </url>
+</urlset>

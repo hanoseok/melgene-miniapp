@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'brick',
+        kicker: '추억의 오락실',
+        headline: '공 하나로 네온 벽돌 와르르',
+        blurb: '패들로 튕겨 벽돌을 깨세요. 목숨 3개, 단계마다 빨라져요.',
+      },
+      {
+        id: 'mentalage',
+        kicker: '심리테스트',
+        headline: '내 마음은 몇 살일까?',
+        blurb: '일상 질문 12개로 숫자로 알아보는 내 정신연령.',
+      },
+      {
         id: 'fancytext',
         kicker: '직접 만들기',
         headline: '내 글씨를 멋지게 바꾸기',

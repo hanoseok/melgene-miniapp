@@ -1,0 +1,14 @@
+{
+  "ko": { "kicker": "추억의 오락실", "headline": "공 하나로 네온 벽돌 와르르", "blurb": "패들로 튕겨 벽돌을 깨세요. 목숨 3개, 단계마다 빨라져요." },
+  "en": { "kicker": "Arcade classic", "headline": "One ball, a wall of neon bricks", "blurb": "Bounce it off your paddle and clear the wall. 3 lives, faster stages." },
+  "ja": { "kicker": "レトロアーケード", "headline": "ボールひとつでネオンの壁を崩せ", "blurb": "パドルで打ち返して全部消そう。ライフは3つ。" },
+  "zh": { "kicker": "街机经典", "headline": "一个球，砸碎整面霓虹墙", "blurb": "用挡板弹球打砖块，三条命，越打越快。" },
+  "fr": { "kicker": "Classique d’arcade", "headline": "Une balle contre un mur néon", "blurb": "Renvoie-la avec ta raquette et casse tout. 3 vies, ça accélère." },
+  "de": { "kicker": "Arcade-Klassiker", "headline": "Ein Ball gegen die Neon-Mauer", "blurb": "Mit dem Schläger zurücklenken, alles abräumen. 3 Leben, immer schneller." },
+  "th": { "kicker": "เกมตู้คลาสสิก", "headline": "ลูกเดียวทุบกำแพงนีออน", "blurb": "ใช้ไม้ตีเด้งลูกทุบบล็อกให้หมด มี 3 ชีวิต ยิ่งเล่นยิ่งเร็ว" },
+  "vi": { "kicker": "Game thùng cổ điển", "headline": "Một quả bóng, cả bức tường neon", "blurb": "Đỡ bóng bằng thanh trượt, phá sạch gạch. 3 mạng, càng chơi càng nhanh." },
+  "es": { "kicker": "Clásico de arcade", "headline": "Una pelota contra un muro neón", "blurb": "Rebótala con tu paleta y rompe todo. 3 vidas, cada vez más rápido." },
+  "it": { "kicker": "Classico arcade", "headline": "Una palla contro un muro al neon", "blurb": "Rimandala con la racchetta e spacca tutto. 3 vite, sempre più veloce." },
+  "pt": { "kicker": "Clássico de fliperama", "headline": "Uma bola contra o muro neon", "blurb": "Rebata com a raquete e derrube tudo. 3 vidas, cada vez mais rápido." },
+  "ru": { "kicker": "Аркадная классика", "headline": "Один мяч против неоновой стены", "blurb": "Отбивай платформой и разбей всё. 3 жизни, и всё быстрее." }
+}

@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'brick',
+        kicker: 'レトロアーケード',
+        headline: 'ボールひとつでネオンの壁を崩せ',
+        blurb: 'パドルで打ち返して全部消そう。ライフは3つ。',
+      },
+      {
+        id: 'mentalage',
+        kicker: '心理テスト',
+        headline: 'あなたの心は何歳？',
+        blurb: '日常の12問で、精神年齢を数字で診断。',
+      },
+      {
         id: 'fancytext',
         kicker: 'つくってみよう',
         headline: 'いつもの文字をおしゃれに',

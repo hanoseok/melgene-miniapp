@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'brick',
+        kicker: 'Classique d’arcade',
+        headline: 'Une balle contre un mur néon',
+        blurb: 'Renvoie-la avec ta raquette et casse tout. 3 vies, ça accélère.',
+      },
+      {
+        id: 'mentalage',
+        kicker: 'Test de personnalité',
+        headline: 'Quel âge a ton esprit ?',
+        blurb: '12 questions du quotidien, 2 minutes. Ton âge mental au chiffre près.',
+      },
+      {
         id: 'fancytext',
         kicker: 'À créer',
         headline: 'Donne du style à ton texte',

@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'brick',
+        kicker: 'Arcade classic',
+        headline: 'One ball, a wall of neon bricks',
+        blurb: 'Bounce it off your paddle and clear the wall. 3 lives, faster stages.',
+      },
+      {
+        id: 'mentalage',
+        kicker: 'Personality quiz',
+        headline: 'How old is your mind?',
+        blurb: '12 everyday questions, 2 minutes. Your mental age as a number.',
+      },
+      {
         id: 'fancytext',
         kicker: 'Make it yourself',
         headline: 'Make your text stand out',

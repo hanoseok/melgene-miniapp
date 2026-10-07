@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'brick',
+        kicker: '街机经典',
+        headline: '一个球，砸碎整面霓虹墙',
+        blurb: '用挡板弹球打砖块，三条命，越打越快。',
+      },
+      {
+        id: 'mentalage',
+        kicker: '心理测试',
+        headline: '你的心到底几岁？',
+        blurb: '12道日常小题，用数字测出你的心理年龄。',
+      },
+      {
         id: 'fancytext',
         kicker: '动手做',
         headline: '让文字变成花式字体',

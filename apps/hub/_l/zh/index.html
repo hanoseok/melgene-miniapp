@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 25,
+  "numberOfItems": 27,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -255,6 +255,20 @@
       "url": "https://lotto.example.com/",
       "name": "彩票号码生成器",
       "description": "韩国乐透6/45、欧洲式、美国强力球或自定义范围，随手摇一组幸运号码。可固定或排除号码，一次最多5注，附彩球滚动动画，仅供娱乐。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "url": "https://brick.example.com/",
+      "name": "打砖块",
+      "description": "用挡板把球弹回去，砸碎一排排霓虹砖块。三条命，关卡越来越快，你能闯几关？"
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "url": "https://mentalage.example.com/",
+      "name": "心理年龄测试",
+      "description": "周末早晨、群聊、下雨的假日……12道日常小题，2~3分钟测出你的心理年龄。"
     }
   ]
 }
@@ -330,6 +344,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="brick">
+        <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">街机经典</span></span>
+            <h3 class="cur-headline">一个球，砸碎整面霓虹墙</h3>
+            <span class="cur-giant" aria-hidden="true">🧱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">用挡板弹球打砖块，三条命，越打越快。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">打砖块</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mentalage">
+        <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理测试</span></span>
+            <h3 class="cur-headline">你的心到底几岁？</h3>
+            <span class="cur-giant" aria-hidden="true">🧠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12道日常小题，用数字测出你的心理年龄。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">心理年龄测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="fancytext">
         <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
           <span class="cur-art">
@@ -394,7 +440,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname">
+      <li class="cur-item" data-id="nickname" hidden>
         <a class="cur-card" href="https://nickname.example.com/" style="--h:254;--h2:236">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">动手做</span></span>
@@ -410,7 +456,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="coinflip">
+      <li class="cur-item" data-id="coinflip" hidden>
         <a class="cur-card" href="https://coinflip.example.com/" style="--h:96;--h2:78">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难?</span></span>
@@ -458,45 +504,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="invite" hidden>
-        <a class="cur-card" href="https://invite.example.com/" style="--h:11;--h2:353">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">自己动手做</span></span>
-            <h3 class="cur-headline">制作万圣节派对邀请函</h3>
-            <span class="cur-giant" aria-hidden="true">💌</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">填好派对信息、选个主题，就能保存或分享。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">万圣节派对邀请函制作</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lunch" hidden>
-        <a class="cur-card" href="https://lunch.example.com/" style="--h:322;--h2:304">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难？</span></span>
-            <h3 class="cur-headline">今天吃什么，转一转老虎机</h3>
-            <span class="cur-giant" aria-hidden="true">🍽️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">选好餐点和心情，让老虎机帮你决定。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">今天吃什么</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">25个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">27个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -518,6 +532,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="brick" data-cat="game">
+        <a class="tile-link" href="https://brick.example.com/" title="用挡板把球弹回去，砸碎一排排霓虹砖块。三条命，关卡越来越快，你能闯几关？" style="--h:243;--h2:225">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">打砖块</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mentalage" data-cat="test">
+        <a class="tile-link" href="https://mentalage.example.com/" title="周末早晨、群聊、下雨的假日……12道日常小题，2~3分钟测出你的心理年龄。" style="--h:270;--h2:252">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">心理年龄测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="输入文字，一键变成粗体、手写体、圆圈字、颠倒等花式字体，点一下即可复制，中文也能加装饰。" style="--h:324;--h2:306">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
@@ -576,14 +604,14 @@
       </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/" title="填写派对名称、日期、时间、地点和留言，选择幽灵、南瓜、蝙蝠或女巫主题，做一张惊悚邀请函。可存图片、分享链接或复制文字。" style="--h:11;--h2:353">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span></span>
           <span class="tile-name">万圣节派对邀请函制作</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lunch" data-cat="vote">
         <a class="tile-link" href="https://lunch.example.com/" title="选好早餐、午餐、晚餐或宵夜和心情，转动老虎机就能抽到今天吃什么。不想吃的可以排除后重抽。" style="--h:322;--h2:304">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span></span>
           <span class="tile-name">今天吃什么</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'brick',
+        kicker: 'Clásico de arcade',
+        headline: 'Una pelota contra un muro neón',
+        blurb: 'Rebótala con tu paleta y rompe todo. 3 vidas, cada vez más rápido.',
+      },
+      {
+        id: 'mentalage',
+        kicker: 'Test de personalidad',
+        headline: '¿Cuántos años tiene tu mente?',
+        blurb: '12 preguntas cotidianas, 2 minutos. Tu edad mental en número.',
+      },
+      {
         id: 'fancytext',
         kicker: 'Hazlo tú',
         headline: 'Dale estilo a tus letras',

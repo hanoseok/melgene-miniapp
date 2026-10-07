@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 25,
+  "numberOfItems": 27,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -255,6 +255,20 @@
       "url": "https://lotto.example.com/",
       "name": "Générateur de loto",
       "description": "Tire des numéros pour le 6/45 coréen, façon Euro, Powerball US ou ta plage. Fixe ou exclus des numéros, jusqu’à cinq grilles."
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "url": "https://brick.example.com/",
+      "name": "Casse-briques",
+      "description": "Renvoie la balle avec ta raquette et casse les briques néon. Trois vies, des niveaux de plus en plus rapides."
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "url": "https://mentalage.example.com/",
+      "name": "Test d’âge mental",
+      "description": "12 petites questions du quotidien, 2 à 3 minutes. Découvre l’âge réel de ton esprit, au chiffre près."
     }
   ]
 }
@@ -330,6 +344,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="brick">
+        <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Classique d’arcade</span></span>
+            <h3 class="cur-headline">Une balle contre un mur néon</h3>
+            <span class="cur-giant" aria-hidden="true">🧱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Renvoie-la avec ta raquette et casse tout. 3 vies, ça accélère.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Casse-briques</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mentalage">
+        <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
+            <h3 class="cur-headline">Quel âge a ton esprit ?</h3>
+            <span class="cur-giant" aria-hidden="true">🧠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 questions du quotidien, 2 minutes. Ton âge mental au chiffre près.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test d’âge mental</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="fancytext">
         <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
           <span class="cur-art">
@@ -394,7 +440,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname">
+      <li class="cur-item" data-id="nickname" hidden>
         <a class="cur-card" href="https://nickname.example.com/" style="--h:254;--h2:236">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">À créer</span></span>
@@ -410,7 +456,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="coinflip">
+      <li class="cur-item" data-id="coinflip" hidden>
         <a class="cur-card" href="https://coinflip.example.com/" style="--h:96;--h2:78">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Indécis ?</span></span>
@@ -458,45 +504,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="invite" hidden>
-        <a class="cur-card" href="https://invite.example.com/" style="--h:11;--h2:353">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">À faire soi-même</span></span>
-            <h3 class="cur-headline">Crée ton invitation Halloween</h3>
-            <span class="cur-giant" aria-hidden="true">💌</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Ajoute les infos, choisis un thème, puis enregistre ou partage.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Invitation Halloween</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lunch" hidden>
-        <a class="cur-card" href="https://lunch.example.com/" style="--h:322;--h2:304">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Pas d’idée ?</span></span>
-            <h3 class="cur-headline">Fais tourner les rouleaux du repas</h3>
-            <span class="cur-giant" aria-hidden="true">🍽️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Choisis un repas et une humeur, le jackpot tranche.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">On mange quoi ?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">25 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">27 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -518,6 +532,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="brick" data-cat="game">
+        <a class="tile-link" href="https://brick.example.com/" title="Renvoie la balle avec ta raquette et casse les briques néon. Trois vies, des niveaux de plus en plus rapides." style="--h:243;--h2:225">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Casse-briques</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mentalage" data-cat="test">
+        <a class="tile-link" href="https://mentalage.example.com/" title="12 petites questions du quotidien, 2 à 3 minutes. Découvre l’âge réel de ton esprit, au chiffre près." style="--h:270;--h2:252">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Test d’âge mental</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="Écris ton texte et vois-le en gras, cursive, bulles, à l’envers et plus. Touche un style pour le copier et le coller partout." style="--h:324;--h2:306">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
@@ -576,14 +604,14 @@
       </li>
       <li class="tile" data-id="invite" data-cat="create">
         <a class="tile-link" href="https://invite.example.com/" title="Ajoute le nom de la fête, la date, l’heure, le lieu et un mot, choisis un thème fantôme, citrouille, chauve-souris ou sorcière. Enregistre l’image, partage le lien ou copie le texte." style="--h:11;--h2:353">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💌</span></span></span>
           <span class="tile-name">Invitation Halloween</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lunch" data-cat="vote">
         <a class="tile-link" href="https://lunch.example.com/" title="Choisis le repas et l’humeur, fais tourner les rouleaux et découvre quoi manger. Écarte un plat et relance." style="--h:322;--h2:304">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍽️</span></span></span>
           <span class="tile-name">On mange quoi ?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
