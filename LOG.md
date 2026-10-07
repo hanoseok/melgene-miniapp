@@ -81,3 +81,4 @@
 - 2026-10-07 (새 앱 lotto): 로또 번호 생성기(lotto, vote, order 2) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가.
 - 2026-10-07 (새 앱 fancytext): 글꼴 변환기(fancytext, create, order 1) 추가 — 12개 언어, 포털 큐레이션 12개 언어 문구 추가. gen-all 링크 PASS. 카테고리 순환: create+vote → 다음 game+test.
 - 2026-10-07 (배포 보류): Cloudflare 토큰 만료 + 인증 서버(dash/api.cloudflare.com) 프록시 차단(curl 000)으로 deploy-cf.sh 실패, wrangler login 도 응답 없음 — fancytext·lotto 미배포(dist 준비됨, 소스 커밋 590e8cf). 사용자 터미널에서 npx wrangler login 후 ./deploy-cf.sh 필요. check-all 27/28(hub: animal ru 소개 2줄 초과, 기존).
+- 2026-10-07 (배포 완료): ./deploy-cf.sh 재시도 성공 — fancytext·lotto 라이브 200, 포털 카드·광고 코드·sitemap 포함 확인. (/og/ 폴더 404 는 정상, 이미지 파일만 존재.) 소스 push 는 GitHub 정지로 불가(로컬 커밋만).
