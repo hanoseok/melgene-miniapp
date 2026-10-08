@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 27,
+  "numberOfItems": 29,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -270,6 +270,20 @@
       "url": "https://mentalage.example.com/",
       "name": "ทดสอบอายุทางจิตใจ",
       "description": "คำถามชีวิตประจำวัน 12 ข้อ ใช้เวลา 2–3 นาที รู้เลยว่าใจคุณอายุเท่าไหร่กันแน่"
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "url": "https://hangul-name.example.com/",
+      "name": "ชื่อภาษาเกาหลี",
+      "description": "พิมพ์ชื่อแล้วดูชื่อเป็นอักษรเกาหลี (ฮันกึล) พร้อมคำอ่านทีละพยางค์ บันทึกเป็นการ์ดชื่อสวย ๆ ได้"
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "url": "https://dice.example.com/",
+      "name": "ทอยลูกเต๋า",
+      "description": "ทอยลูกเต๋าได้ครั้งละ 1-6 ลูก ทั้งลูกเต๋าหกหน้าและ d4 d8 d10 d12 d20 สำหรับบอร์ดเกม พร้อมผลรวมและประวัติ 10 ครั้งล่าสุด"
     }
   ]
 }
@@ -345,6 +359,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hangul-name">
+        <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">วันฮันกึล</span></span>
+            <h3 class="cur-headline">ชื่อคุณเป็นภาษาเกาหลี</h3>
+            <span class="cur-giant" aria-hidden="true">🔤</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">พิมพ์ชื่อแล้วรับการ์ดชื่อภาษาเกาหลีไปเลย</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ชื่อภาษาเกาหลี</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="dice">
+        <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ตัวช่วยบอร์ดเกม</span></span>
+            <h3 class="cur-headline">ทอยลูกเต๋าในเบราว์เซอร์</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">สูงสุด 6 ลูก d4 ถึง d20 สุ่มยุติธรรม</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ทอยลูกเต๋า</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="brick">
         <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
           <span class="cur-art">
@@ -409,7 +455,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole">
+      <li class="cur-item" data-id="mole" hidden>
         <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เกมรีเฟล็กซ์</span></span>
@@ -425,7 +471,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="animal">
+      <li class="cur-item" data-id="animal" hidden>
         <a class="cur-card" href="https://animal.example.com/" style="--h:166;--h2:148">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">แบบทดสอบนิสัย</span></span>
@@ -473,45 +519,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="game2048" hidden>
-        <a class="cur-card" href="https://game2048.example.com/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span><span class="cur-kicker">เกมพัซเซิล</span></span>
-            <h3 class="cur-headline">เลื่อน รวม ไปให้ถึง 2048</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">รวมเลขที่เหมือนกัน พัซเซิลตัวเลขสุดคลาสสิก ฉบับฮาโลวีน</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">เกม 2048</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lovestyle" hidden>
-        <a class="cur-card" href="https://lovestyle.example.com/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span></span><span class="cur-kicker">แบบทดสอบนิสัย</span></span>
-            <h3 class="cur-headline">คุณเป็นแฟนแบบไหน?</h3>
-            <span class="cur-giant" aria-hidden="true">💘</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">10 โมเมนต์เล็กๆ ตอนคบกัน บอกสไตล์ความรักของคุณ</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ทดสอบสไตล์ความรัก</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">27 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">29 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -533,6 +547,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hangul-name" data-cat="create">
+        <a class="tile-link" href="https://hangul-name.example.com/" title="พิมพ์ชื่อแล้วดูชื่อเป็นอักษรเกาหลี (ฮันกึล) พร้อมคำอ่านทีละพยางค์ บันทึกเป็นการ์ดชื่อสวย ๆ ได้" style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ชื่อภาษาเกาหลี</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="dice" data-cat="vote">
+        <a class="tile-link" href="https://dice.example.com/" title="ทอยลูกเต๋าได้ครั้งละ 1-6 ลูก ทั้งลูกเต๋าหกหน้าและ d4 d8 d10 d12 d20 สำหรับบอร์ดเกม พร้อมผลรวมและประวัติ 10 ครั้งล่าสุด" style="--h:73;--h2:55">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทอยลูกเต๋า</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/" title="ใช้ไม้ตีลูกบอลเด้งกลับไปทุบบล็อกสีนีออน มี 3 ชีวิต ด่านยิ่งเร็วขึ้น ไปได้ถึงด่านไหน?" style="--h:243;--h2:225">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>

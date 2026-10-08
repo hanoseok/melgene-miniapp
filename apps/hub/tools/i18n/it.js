@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "Giornata dell’hangul",
+        headline: "Il tuo nome scritto in coreano",
+        blurb: "Scrivi il nome e ottienilo in hangul su una card.",
+      },
+      {
+        id: 'dice',
+        kicker: "Per i giochi da tavolo",
+        headline: "Lancia i dadi nel browser",
+        blurb: "Fino a sei dadi, dal d4 al d20. Lanci equi.",
+      },
+      {
         id: 'brick',
         kicker: 'Classico arcade',
         headline: 'Una palla contro un muro al neon',

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 27,
+  "numberOfItems": 29,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -268,6 +268,20 @@
       "url": "https://mentalage.example.com/pt/",
       "name": "Teste de idade mental",
       "description": "12 perguntas leves do dia a dia, 2 a 3 minutos. Descubra quantos anos sua mente tem de verdade."
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "url": "https://hangul-name.example.com/pt/",
+      "name": "Seu nome em coreano",
+      "description": "Digite seu nome e veja-o em coreano (hangul), sílaba por sílaba com a pronúncia. Salve como um cartão bonito."
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "url": "https://dice.example.com/pt/",
+      "name": "Rolar dados",
+      "description": "Role de um a seis dados: o d6 clássico ou d4, d8, d10, d12 e d20 para RPG de mesa, com o total e suas 10 últimas rolagens."
     }
   ]
 }
@@ -343,6 +357,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hangul-name">
+        <a class="cur-card" href="https://hangul-name.example.com/pt/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Dia do hangul</span></span>
+            <h3 class="cur-headline">Seu nome escrito em coreano</h3>
+            <span class="cur-giant" aria-hidden="true">🔤</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Digite seu nome e receba em hangul num cartão.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Seu nome em coreano</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="dice">
+        <a class="cur-card" href="https://dice.example.com/pt/" style="--h:73;--h2:55">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Para jogos de tabuleiro</span></span>
+            <h3 class="cur-headline">Role os dados no navegador</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Até seis dados, do d4 ao d20. Rolagens justas.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Rolar dados</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="brick">
         <a class="cur-card" href="https://brick.example.com/pt/" style="--h:243;--h2:225">
           <span class="cur-art">
@@ -407,7 +453,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole">
+      <li class="cur-item" data-id="mole" hidden>
         <a class="cur-card" href="https://mole.example.com/pt/" style="--h:17;--h2:359">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Jogo de reflexos</span></span>
@@ -423,7 +469,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="animal">
+      <li class="cur-item" data-id="animal" hidden>
         <a class="cur-card" href="https://animal.example.com/pt/" style="--h:166;--h2:148">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Teste de personalidade</span></span>
@@ -471,45 +517,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="game2048" hidden>
-        <a class="cur-card" href="https://game2048.example.com/pt/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span><span class="cur-kicker">Quebra-cabeça</span></span>
-            <h3 class="cur-headline">Deslize, junte e chegue a 2048</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Junte números iguais. O clássico dos números, versão Halloween.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Jogo 2048</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lovestyle" hidden>
-        <a class="cur-card" href="https://lovestyle.example.com/pt/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span></span><span class="cur-kicker">Teste de personalidade</span></span>
-            <h3 class="cur-headline">Como você é no amor?</h3>
-            <span class="cur-giant" aria-hidden="true">💘</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dez pequenos momentos a dois revelam o seu jeito de amar.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Teste do amor</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">27 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">29 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novidades</option><option value="popular">Populares</option><option value="rating">Bem avaliados</option></select>
@@ -531,6 +545,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hangul-name" data-cat="create">
+        <a class="tile-link" href="https://hangul-name.example.com/pt/" title="Digite seu nome e veja-o em coreano (hangul), sílaba por sílaba com a pronúncia. Salve como um cartão bonito." style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Seu nome em coreano</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="dice" data-cat="vote">
+        <a class="tile-link" href="https://dice.example.com/pt/" title="Role de um a seis dados: o d6 clássico ou d4, d8, d10, d12 e d20 para RPG de mesa, com o total e suas 10 últimas rolagens." style="--h:73;--h2:55">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Rolar dados</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/pt/" title="Rebata a bola com a raquete e quebre os tijolos neon. Três vidas e fases cada vez mais rápidas." style="--h:243;--h2:225">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NOVO</span></span>

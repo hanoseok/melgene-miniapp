@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "Hangul Day special",
+        headline: "See your name written in Korean",
+        blurb: "Type your name and get it in Hangul on a card you can save.",
+      },
+      {
+        id: 'dice',
+        kicker: "Tabletop helper",
+        headline: "Roll the dice right in your browser",
+        blurb: "Up to six dice, from d4 to d20. Fair rolls with a satisfying tumble.",
+      },
+      {
         id: 'brick',
         kicker: 'Arcade classic',
         headline: 'One ball, a wall of neon bricks',

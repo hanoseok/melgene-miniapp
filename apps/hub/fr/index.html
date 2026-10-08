@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 27,
+  "numberOfItems": 29,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -268,6 +268,20 @@
       "url": "https://mentalage.example.com/fr/",
       "name": "Test d’âge mental",
       "description": "12 petites questions du quotidien, 2 à 3 minutes. Découvre l’âge réel de ton esprit, au chiffre près."
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "url": "https://hangul-name.example.com/fr/",
+      "name": "Ton prénom en coréen",
+      "description": "Écris ton prénom et vois-le en hangeul, syllabe par syllabe avec la prononciation. Enregistre-le en jolie carte."
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "url": "https://dice.example.com/fr/",
+      "name": "Lancer de dés",
+      "description": "Lance de un à six dés : le d6 classique ou les d4, d8, d10, d12 et d20 du jeu de rôle, avec le total et tes 10 derniers lancers."
     }
   ]
 }
@@ -343,6 +357,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hangul-name">
+        <a class="cur-card" href="https://hangul-name.example.com/fr/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Spécial Jour du hangeul</span></span>
+            <h3 class="cur-headline">Ton prénom écrit en coréen</h3>
+            <span class="cur-giant" aria-hidden="true">🔤</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Tape ton prénom et récupère-le en hangeul sur une jolie carte.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Ton prénom en coréen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="dice">
+        <a class="cur-card" href="https://dice.example.com/fr/" style="--h:73;--h2:55">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Pour les jeux de société</span></span>
+            <h3 class="cur-headline">Lance les dés dans ton navigateur</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Jusqu’à six dés, du d4 au d20. Des tirages équitables.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Lancer de dés</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="brick">
         <a class="cur-card" href="https://brick.example.com/fr/" style="--h:243;--h2:225">
           <span class="cur-art">
@@ -407,7 +453,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole">
+      <li class="cur-item" data-id="mole" hidden>
         <a class="cur-card" href="https://mole.example.com/fr/" style="--h:17;--h2:359">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Jeu de réflexes</span></span>
@@ -423,7 +469,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="animal">
+      <li class="cur-item" data-id="animal" hidden>
         <a class="cur-card" href="https://animal.example.com/fr/" style="--h:166;--h2:148">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
@@ -471,45 +517,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="game2048" hidden>
-        <a class="cur-card" href="https://game2048.example.com/fr/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span><span class="cur-kicker">Jeu de réflexion</span></span>
-            <h3 class="cur-headline">Glisse, fusionne, atteins 2048</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Assemble les nombres identiques. Le puzzle culte, version Halloween.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Jeu 2048</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lovestyle" hidden>
-        <a class="cur-card" href="https://lovestyle.example.com/fr/" style="--h:303;--h2:285">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💘</span></span></span><span class="cur-kicker">Test de personnalité</span></span>
-            <h3 class="cur-headline">Quel genre de partenaire es-tu ?</h3>
-            <span class="cur-giant" aria-hidden="true">💘</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dix petits moments à deux pour découvrir ta façon d’aimer.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test amoureux</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">27 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">29 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -531,6 +545,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hangul-name" data-cat="create">
+        <a class="tile-link" href="https://hangul-name.example.com/fr/" title="Écris ton prénom et vois-le en hangeul, syllabe par syllabe avec la prononciation. Enregistre-le en jolie carte." style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Ton prénom en coréen</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="dice" data-cat="vote">
+        <a class="tile-link" href="https://dice.example.com/fr/" title="Lance de un à six dés : le d6 classique ou les d4, d8, d10, d12 et d20 du jeu de rôle, avec le total et tes 10 derniers lancers." style="--h:73;--h2:55">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Lancer de dés</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/fr/" title="Renvoie la balle avec ta raquette et casse les briques néon. Trois vies, des niveaux de plus en plus rapides." style="--h:243;--h2:225">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>

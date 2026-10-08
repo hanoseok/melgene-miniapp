@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>在线掷骰子：骰子模拟器用法、历史与概率</title>
+<meta name="description" content="在线掷骰子怎么用？从一个d6到六个d20都能掷。本文介绍骰子的简史、数字骰子为什么公平、多面骰的知识，以及可以和朋友一起玩的骰子游戏。">
+<link rel="canonical" href="https://dice.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://dice.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://dice.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://dice.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://dice.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://dice.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://dice.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://dice.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://dice.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://dice.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://dice.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://dice.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://dice.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://dice.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="在线掷骰子：骰子模拟器用法、历史与概率">
+<meta property="og:description" content="在线掷骰子怎么用？从一个d6到六个d20都能掷。本文介绍骰子的简史、数字骰子为什么公平、多面骰的知识，以及可以和朋友一起玩的骰子游戏。">
+<meta property="og:image" content="https://dice.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dice.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://dice.example.com/zh/guide.html#article","headline":"在线掷骰子：怎么用、一点历史和好玩的骰子游戏","description":"在线掷骰子怎么用？从一个d6到六个d20都能掷。本文介绍骰子的简史、数字骰子为什么公平、多面骰的知识，以及可以和朋友一起玩的骰子游戏。","inLanguage":"zh","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://dice.example.com/zh/guide.html","url":"https://dice.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"掷骰子","url":"https://dice.example.com/zh/"},"image":"https://dice.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"掷骰子","item":"https://dice.example.com/zh/"},{"@type":"ListItem","position":3,"name":"在线掷骰子：怎么用、一点历史和好玩的骰子游戏","item":"https://dice.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/zh/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">掷骰子</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/zh/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">掷骰子</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🎲</span>掷骰子</p>
+    <h1>在线掷骰子：怎么用、一点历史和好玩的骰子游戏</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">更新于 2026年10月9日</time></p>
+    <p class="mg-art-intro">骰子是世界上最古老的游戏工具之一，至今仍在帮人解决争执、开启桌游，甚至推动整场跑团冒险。本文会介绍在线掷骰子的用法，解释为什么结果是公平的，带你快速回顾骰子五千年的历史，最后再分享几个简单的骰子游戏和一点可以和朋友一起验证的概率知识。</p>
+    <section>
+      <h2>在线掷骰子怎么用</h2>
+      <p>所有操作都在一个页面上完成。先选择要掷几个骰子，1到6个都可以。再选择骰子种类：最经典的六面骰，或者桌面角色扮演游戏里常用的d4、d8、d10、d12和d20。点一下大大的掷骰按钮，或者按键盘上的空格键，骰子就会在骰盘上滚起来。</p>
+      <p>骰子停下后，每个骰子都会显示点数，下方会出现总和。每次结果也会加入最近10次的记录列表，刚才掷出了什么，不用拿笔记也能马上查看。这个列表只存在于当前打开的页面里，刷新后就会消失。</p>
+      <ul>
+        <li>选择骰子数量，1到6个。</li>
+        <li>选择骰子种类：d4、d6、d8、d10、d12或d20。</li>
+        <li>点击掷骰按钮，或按空格键。</li>
+        <li>查看每个骰子的点数和总和，想掷几次就掷几次。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>为什么数字骰子是公平的</h2>
+      <p>每个结果都在动画开始之前，从浏览器的加密级随机数生成器中取出，这和安全功能所用的是同一类随机源。滚动的骰子只是把已经确定的数字展示出来，所以无论你什么时候、用什么方式点击，都不会影响结果。</p>
+      <p>把随机数变成骰子点数时有一个不起眼的陷阱，这个工具专门避开了它。计算机生成的随机整数范围非常大，大约有40亿个可能的值。如果直接除以6取余数，因为40亿不是6的整数倍，有几个面就会多出一点点机会。所以这里使用了一种叫“拒绝采样”的方法：凡是落在多出来的那一小段里的随机数，一律扔掉重新抽。这样一来，每个骰子的每一面出现的概率都完全相同。</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>骰子简史</h2>
+      <p>几千年来，人们一直靠投掷东西来做决定。最早的游戏用具之一是羊或山羊脚踝上的小骨头，也就是“羊拐”（距骨），落下时会停在四个面中的一面。带点数的六面骰出现在古印度河流域的城市和美索不达米亚。在中国，骰子俗称“色子”，过去常用来行令、玩游戏，今天的《大富翁》等桌游也离不开它。</p>
+      <p>大约4,500年前美索不达米亚的棋盘游戏“乌尔王族局戏”，使用的是顶角带标记的小四面体骰子。玩家数朝上的标记点有几个，所以掷出2是最常见的结果。罗马人也非常喜欢骰子。除了立方体骰子，他们还掷一种叫“塔利”的四面骨骰，最好的一掷是每块骨头都露出不同的一面，被称为“维纳斯”。当时用骰子赌博风气太盛，罗马法律甚至试图限制节日以外的赌博。</p>
+    </section>
+    <section>
+      <h2>多面骰与桌面角色扮演游戏</h2>
+      <p>d4、d8、d12和d20的形状来自古希腊人研究过的正多面体，也就是柏拉图立体；d10则是一种特殊形状，每个面像风筝。它们在20世纪70年代随着《龙与地下城》出名，这款游戏用一整套多面骰来决定攻击、伤害和运气。记法很简单：d前面的数字是要掷几个骰子，d后面的数字是每个骰子有几个面。所以3d6表示掷三个六面骰再相加，d20表示一个二十面骰。</p>
+      <p>在很多跑团游戏里，d20决定一个行动能否成功，而d4、d8这样的小骰子决定匕首或长剑造成多少伤害。如果你的骰子少了一个，或者和朋友在线上跑团，这个工具都能顶上。</p>
+    </section>
+    <section>
+      <h2>可以用骰子玩的游戏</h2>
+      <p>玩骰子不一定需要棋盘。下面几个经典玩法，只要有这个工具和纸笔就够了。</p>
+      <ul>
+        <li>五骰扑克：五个d6最多掷三次，喜欢的骰子可以留下，争取凑出三条、葫芦或顺子等组合，玩法和快艇骰子（Yacht、Yahtzee）一样。</li>
+        <li>猪（Pig）：一个骰子想掷几次就掷几次，把点数累加起来，但只要掷出1，这一轮的分数就全部作废。先到100分的人获胜。</li>
+        <li>点数大的先走：每人掷一个d20，决定任何游戏的先后顺序。</li>
+        <li>家务轮盘：给每项家务编上1到6的号码，让骰子来分配洗碗、倒垃圾还是去买菜。</li>
+        <li>故事骰子：从大家一起列的清单里，用d6各抽一个角色、地点和难题，再用抽到的结果讲一个小故事。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>一点概率：为什么7是幸运数字</h2>
+      <p>一个公平的骰子每一面的机会都相同，d6就是六分之一。但把两个骰子加在一起，情况就不一样了。一共有36种组合，其中6种的总和是7（1和6、2和5、3和4，以及它们反过来的组合），所以7出现的概率约为17%。总和2或12各只有一种组合，所以各自出现的概率不到3%。</p>
+      <p>这就是为什么很多桌游把最重要的格子或资源放在6、7、8上，也说明掷的骰子越多，总和越会往中间靠。掷三个骰子时，10和11是最常见的总和。你可以亲自试试：把两个骰子掷二十次，看看中间的总和比两端多出现多少次。不过，概率对单次结果只是参考，骰子还是留给游戏和轻松的小决定，重要的事情别交给它。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🎲</span>马上掷骰子</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">掷骰子</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

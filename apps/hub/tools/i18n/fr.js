@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "Spécial Jour du hangeul",
+        headline: "Ton prénom écrit en coréen",
+        blurb: "Tape ton prénom et récupère-le en hangeul sur une jolie carte.",
+      },
+      {
+        id: 'dice',
+        kicker: "Pour les jeux de société",
+        headline: "Lance les dés dans ton navigateur",
+        blurb: "Jusqu’à six dés, du d4 au d20. Des tirages équitables.",
+      },
+      {
         id: 'brick',
         kicker: 'Classique d’arcade',
         headline: 'Une balle contre un mur néon',

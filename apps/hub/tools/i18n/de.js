@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "Zum Hangeul-Tag",
+        headline: "Dein Name auf Koreanisch",
+        blurb: "Namen eintippen und als Hangeul-Karte speichern.",
+      },
+      {
+        id: 'dice',
+        kicker: "Für Brettspiele",
+        headline: "Würfeln direkt im Browser",
+        blurb: "Bis zu sechs Würfel, W4 bis W20. Fair und mit Schwung.",
+      },
+      {
         id: 'brick',
         kicker: 'Arcade-Klassiker',
         headline: 'Ein Ball gegen die Neon-Mauer',

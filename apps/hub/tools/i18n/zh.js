@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "韩文日特辑",
+        headline: "看看你的名字写成韩文",
+        blurb: "输入名字，得到可保存的韩文名字卡。",
+      },
+      {
+        id: 'dice',
+        kicker: "桌游好帮手",
+        headline: "在浏览器里掷骰子",
+        blurb: "最多6颗，d4到d20，公平又带感。",
+      },
+      {
         id: 'brick',
         kicker: '街机经典',
         headline: '一个球，砸碎整面霓虹墙',

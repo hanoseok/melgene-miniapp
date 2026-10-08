@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>サイコロを振る:使い方・歴史・確率ガイド</title>
+<meta name="description" content="オンラインでサイコロを振る方法を、d6を1個からd20を6個まで解説。サイコロの歴史、デジタルの出目が公平な理由、多面体ダイスや遊び方のアイデアも紹介します。">
+<link rel="canonical" href="https://dice.example.com/ja/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://dice.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://dice.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://dice.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://dice.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://dice.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://dice.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://dice.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://dice.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://dice.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://dice.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://dice.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://dice.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://dice.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="サイコロを振る:使い方・歴史・確率ガイド">
+<meta property="og:description" content="オンラインでサイコロを振る方法を、d6を1個からd20を6個まで解説。サイコロの歴史、デジタルの出目が公平な理由、多面体ダイスや遊び方のアイデアも紹介します。">
+<meta property="og:image" content="https://dice.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dice.example.com/ja/guide.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://dice.example.com/ja/guide.html#article","headline":"オンラインでサイコロを振る:使い方と歴史、みんなで遊べるゲーム","description":"オンラインでサイコロを振る方法を、d6を1個からd20を6個まで解説。サイコロの歴史、デジタルの出目が公平な理由、多面体ダイスや遊び方のアイデアも紹介します。","inLanguage":"ja","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"mainEntityOfPage":"https://dice.example.com/ja/guide.html","url":"https://dice.example.com/ja/guide.html","about":{"@type":"WebApplication","name":"サイコロ","url":"https://dice.example.com/ja/"},"image":"https://dice.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"サイコロ","item":"https://dice.example.com/ja/"},{"@type":"ListItem","position":3,"name":"オンラインでサイコロを振る:使い方と歴史、みんなで遊べるゲーム","item":"https://dice.example.com/ja/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ja/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><span class="mg-top-app">サイコロ</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ja/">メルジン ミニアプリ</a><span aria-hidden="true">›</span><a href="./">サイコロ</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🎲</span>サイコロ</p>
+    <h1>オンラインでサイコロを振る:使い方と歴史、みんなで遊べるゲーム</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">更新日 2026年10月9日</time></p>
+    <p class="mg-art-intro">サイコロは世界でいちばん古い遊び道具のひとつですが、今でも言い争いに決着をつけたり、ボードゲームを始めたり、TRPGのキャンペーン全体を動かしたりしています。このガイドでは、オンラインのサイコロの使い方と結果が公平な理由を説明し、5,000年にわたるサイコロの歴史をざっとたどってから、友だちと試せるかんたんなゲームと少しの確率の話で締めくくります。</p>
+    <section>
+      <h2>サイコロの使い方</h2>
+      <p>操作はすべてひとつの画面で完結します。まず振りたいサイコロの数を1〜6個から選びます。次にサイコロの種類を選びましょう。おなじみの6面の立方体のほか、TRPGで使うd4、d8、d10、d12、d20もあります。大きな「振る」ボタンを押すか、キーボードのスペースキーを押すと、サイコロがトレイの上を転がります。</p>
+      <p>止まると、それぞれのサイコロの出目と、その下に合計が表示されます。振った結果は直近10回の短いリストにも追加されるので、少し前に何が出たかをメモしなくても確認できます。このリストは開いているページの中だけにあり、再読み込みすると消えます。</p>
+      <ul>
+        <li>サイコロの数を1〜6個から選ぶ。</li>
+        <li>種類をd4、d6、d8、d10、d12、d20から選ぶ。</li>
+        <li>「振る」をタップするか、スペースキーを押す。</li>
+        <li>それぞれの出目と合計を確認し、好きなだけもう一度振る。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>デジタルのサイコロが公平な理由</h2>
+      <p>すべての結果は、アニメーションが始まる前に、ブラウザの暗号論的乱数生成器から取り出されます。セキュリティ機能に使われるのと同じ種類の乱数です。転がるサイコロは、すでに決まっている数字を見せるための演出にすぎないので、いつどう押したかで結果が変わることはありません。</p>
+      <p>乱数をサイコロの目に変えるときには、ちょっとした落とし穴があり、このツールはそれを避けています。コンピューターは約40億通りという非常に広い範囲の整数をランダムに作ります。これを単純に6で割った余りを使うと、40億はちょうど6の倍数ではないため、いくつかの面がわずかに出やすくなってしまいます。そこで「棄却サンプリング」という方法を使います。端数として余る小さな範囲に入った乱数は捨てて、引き直すのです。その結果、どのサイコロのどの面もまったく同じ確率で出ます。</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>サイコロの短い歴史</h2>
+      <p>人は何千年も前から、物を投げて物事を決めてきました。最も古い遊び道具のひとつがナックルボーン、つまり羊やヤギの小さなくるぶしの骨で、4つの面のどれかを上にして落ちます。点の付いた6面のサイコロは、古代インダス文明の都市やメソポタミアから見つかっています。日本でも古くから、サイコロを振ってマス目を進むすごろくが親しまれてきました。</p>
+      <p>約4,500年前の古代メソポタミアのボードゲーム「ウルのロイヤルゲーム」では、頂点に印の付いた小さな四面体のサイコロを使いました。印のある頂点がいくつ上を向いたかを数えるので、2がいちばん出やすい結果でした。ローマ人もサイコロが大好きでした。立方体のサイコロと一緒に、4面の骨のサイコロ「タリ」を投げ、すべての骨が違う面を見せる最高の目は「ウェヌス(ヴィーナス)」と呼ばれました。サイコロ賭博があまりに盛んだったため、ローマの法律は祭りの期間以外の賭博を制限しようとしたほどです。</p>
+    </section>
+    <section>
+      <h2>多面体ダイスとTRPG</h2>
+      <p>d4、d8、d12、d20は、古代ギリシャ人が研究した正多面体(プラトンの立体)をもとにした形で、d10は凧のような形の面を持つ特別な形です。これらは1970年代に「ダンジョンズ&amp;ドラゴンズ」で有名になりました。このゲームは攻撃、ダメージ、運を決めるのに多面体ダイスを一式すべて使いました。表記はかんたんで、dの前の数字が振る個数、dの後ろの数字がそれぞれの面の数です。つまり3d6は6面サイコロを3個振って合計すること、d20は20面サイコロ1個を意味します。</p>
+      <p>多くのTRPGでは、d20で行動が成功するかどうかを決め、d4やd8などの小さいサイコロで短剣や剣のダメージを決めます。セットのサイコロがひとつ足りないときや、友だちとオンラインで遊ぶときは、このツールが代わりになります。</p>
+    </section>
+    <section>
+      <h2>サイコロで遊べるゲームのアイデア</h2>
+      <p>サイコロで楽しむのに、ボードは必ずしも必要ありません。次の定番ゲームは、このツールと書くものさえあれば遊べます。</p>
+      <ul>
+        <li>5個のサイコロでポーカー風:d6を5個、最大3回まで振り、気に入ったサイコロは残しておきます。スリーカード、フルハウス、ストレートなどの役を狙いましょう。ヨットやヤッツィーと同じ考え方です。</li>
+        <li>ピッグ:サイコロ1個を好きなだけ振って点数を足していきますが、1が出たらその番の点数はすべて消えます。先に100点に届いた人の勝ちです。</li>
+        <li>大きい目から先攻:全員がd20を1個ずつ振って、どんなゲームでも順番を決めます。</li>
+        <li>家事ルーレット:家事ごとに1〜6の番号を付けて、皿洗い、ゴミ出し、買い出しをサイコロに決めてもらいます。</li>
+        <li>ストーリーダイス:みんなで作ったリストから、登場人物、場所、事件をd6で1つずつ選び、出た結果で短いお話を作ります。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>ちょっと確率の話:7がラッキーナンバーな理由</h2>
+      <p>公平なサイコロ1個なら、どの面にも同じチャンスがあります。d6なら6分の1です。ところが2個のサイコロを足すと話が変わります。組み合わせは全部で36通りあり、そのうち6通りが合計7になります(1と6、2と5、3と4、そしてその逆の組み合わせ)。そのため7は約17%の確率で出ます。合計2や12はそれぞれ1通りの組み合わせしかないので、出る確率は3%未満です。</p>
+      <p>だから多くのボードゲームでは、いちばん大事なマスや資源を6、7、8に置いています。サイコロの数を増やすほど、合計は真ん中に集まります。3個なら10と11がいちばん多く出る合計です。実際に試してみましょう。2個のサイコロを20回振って、真ん中の合計が両端と比べてどれだけ多く出るかを見てみてください。ただし、確率は1回ごとの結果を約束するものではありません。サイコロはゲームや気軽な決めごとに使い、大事なことには使わないようにしましょう。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🎲</span>さっそくサイコロを振る</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> メルジン ミニアプリ · <a href="./">サイコロ</a> · <a href="privacy.html">プライバシーポリシー</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

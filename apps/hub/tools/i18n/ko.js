@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "한글날 특집",
+        headline: "외국 이름을 한글로 써 보세요",
+        blurb: "영어 이름을 넣으면 한글 표기와 예쁜 카드가 나와요.",
+      },
+      {
+        id: 'dice',
+        kicker: "보드게임 도우미",
+        headline: "주사위가 없을 땐 여기서 굴려요",
+        blurb: "주사위 1~6개, d4부터 d20까지. 공정하게 데굴데굴.",
+      },
+      {
         id: 'brick',
         kicker: '추억의 오락실',
         headline: '공 하나로 네온 벽돌 와르르',

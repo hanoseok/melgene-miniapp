@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "Ngày chữ Hangul",
+        headline: "Tên bạn viết bằng tiếng Hàn",
+        blurb: "Nhập tên, nhận thẻ tên chữ Hangul để lưu lại.",
+      },
+      {
+        id: 'dice',
+        kicker: "Trợ thủ board game",
+        headline: "Tung xúc xắc ngay trên trình duyệt",
+        blurb: "Tối đa sáu viên, d4 đến d20. Ngẫu nhiên công bằng.",
+      },
+      {
         id: 'brick',
         kicker: 'Game thùng cổ điển',
         headline: 'Một quả bóng, cả bức tường neon',

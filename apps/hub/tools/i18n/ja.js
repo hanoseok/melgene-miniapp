@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'hangul-name',
+        kicker: "ハングルの日",
+        headline: "あなたの名前をハングルで",
+        blurb: "名前を入れるとハングル表記のカードに。",
+      },
+      {
+        id: 'dice',
+        kicker: "ボードゲームのお供",
+        headline: "ブラウザでサイコロを振ろう",
+        blurb: "最大6個、d4からd20まで公平に。",
+      },
+      {
         id: 'brick',
         kicker: 'レトロアーケード',
         headline: 'ボールひとつでネオンの壁を崩せ',
