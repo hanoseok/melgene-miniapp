@@ -211,4 +211,116 @@ module.exports = {
     ],
     back: '← Volver a Melgene Apps',
   },
+  // Pie de página de todas las páginas del portal (Quiénes somos · Guías · Términos · Privacidad · Contacto). Texto plano (se escapa).
+  footerNav: { about: 'Quiénes somos', guides: 'Guías', terms: 'Términos de uso', privacy: 'Privacidad', contact: 'Contacto' },
+  aboutPage: {
+    title: 'Quiénes somos | Melgene Apps',
+    description: 'Melgene Apps es un pequeño estudio independiente que crea minijuegos, tests de personalidad y herramientas creativas gratis para el navegador en 12 idiomas.',
+    h1: 'Sobre Melgene Apps',
+    lead: 'Melgene Apps es un pequeño estudio independiente que crea miniapps gratuitas que se abren en cualquier navegador: juegos rápidos, tests de personalidad para pasar el rato, pequeñas herramientas creativas y ayudas para las decisiones de cada día. Sin descargas, sin cuenta, y la mayoría dura más o menos un minuto.',
+    sections: [
+      {
+        h: 'Qué hacemos',
+        p: [
+          'Cada miniapp de Melgene hace una sola cosa, pero la hace bien. Algunas son juegos tipo arcade que terminas en un descanso, como golpea al topo, rompe ladrillos o un puzle de fusionar. Otras son tests de personalidad que convierten unas cuantas situaciones cotidianas en un resultado divertido para compartir. Y otras te ayudan a crear algo, como letras bonitas, una invitación de fiesta o un apodo, o a resolver una decisión pequeña con una ruleta, un juego de la escalera o lanzando una moneda.',
+          'Publicamos apps nuevas con frecuencia, muchas veces según la temporada o las fiestas, y seguimos mejorando las anteriores según cómo las usa la gente de verdad.',
+        ],
+      },
+      {
+        h: 'Por qué las hacemos',
+        p: ['Creemos que los mejores ratitos en internet deben ser rápidos, amables y gratis. Muchas webs de juegos o tests los esconden tras registros, ventanas emergentes e invitaciones a instalar una app. Nosotros buscamos lo contrario: tocas un enlace, la app se abre, juegas y, con un toque más, se la mandas a un amigo.'],
+      },
+      {
+        h: 'Cómo se crea y se prueba cada app',
+        p: ['Cada app empieza con un plan breve: para quién es, cuánto debe durar una partida y qué muestra la pantalla de resultado. Después la construimos como una página web ligera y la probamos antes de publicarla:'],
+        list: [
+          'En pantallas de móvil pequeñas (360 px de ancho), además de tabletas y navegadores de ordenador',
+          'En los 12 idiomas, comprobando que cada línea cabe y se lee con naturalidad',
+          'Con revisiones automáticas de enlaces rotos, traducciones que faltan y estructura de la página',
+          'Sin spoilers: la pantalla de inicio despierta la curiosidad, pero nunca revela preguntas ni resultados',
+        ],
+      },
+      {
+        h: 'Pensadas para el móvil, en 12 idiomas',
+        p: ['La mayoría juega desde el móvil, así que cada app se diseña primero para una pantalla estrecha. Melgene Apps está disponible en español, inglés, japonés, chino, coreano, francés, alemán, tailandés, vietnamita, italiano, portugués y ruso. Escribimos cada idioma pensando en sus lectores en lugar de traducir palabra por palabra, y usamos los nombres que la gente de cada país busca de verdad.'],
+      },
+      {
+        h: 'Respetuosas con tu privacidad',
+        p: ['Nunca necesitas una cuenta y nunca te pedimos tu nombre, tu correo ni tu teléfono. Lo que escribes en una app se procesa en tu propio navegador. Las partidas, los corazones y las valoraciones son solo totales anónimos por app. El sitio se mantiene con publicidad de Google AdSense; puedes leer los detalles en nuestra Política de privacidad.'],
+      },
+      {
+        h: 'Una nota sobre los tests de personalidad',
+        p: ['Nuestros tests de personalidad, de edad mental y otros cuestionarios parecidos están hechos para entretener. No son evaluaciones psicológicas, médicas ni profesionales, y ningún resultado debería usarse para tomar decisiones importantes sobre ti o sobre otra persona. Disfrútalos como tema de conversación y como un rato divertido.'],
+      },
+      {
+        h: 'Escríbenos',
+        p: ['Leemos todos los mensajes. Si encuentras un fallo, tienes una idea para una miniapp nueva o quieres hablar de colaborar, visita nuestra página de contacto o escribe a contact@melgene.com.'],
+      },
+    ],
+  },
+  contactPage: {
+    title: 'Contacto | Melgene Apps',
+    description: 'Contacta con Melgene Apps por correo para opiniones, avisos de fallos, propuestas de colaboración o solicitudes de privacidad. Solemos responder en pocos días hábiles.',
+    h1: 'Contacto',
+    lead: '¿Tienes preguntas, ideas o algún problema? Somos un equipo pequeño y leemos cada mensaje nosotros mismos.',
+    emailH: 'Correo electrónico',
+    emailNote: 'Solemos responder en pocos días hábiles.',
+    sections: [
+      {
+        h: 'Sobre qué puedes escribirnos',
+        p: ['Puedes escribirnos sobre cualquier cosa relacionada con Melgene Apps, por ejemplo:'],
+        list: [
+          'Opiniones e ideas para nuevos minijuegos, tests o herramientas',
+          'Avisos de fallos: una página que no carga, un botón que no responde o un texto cortado',
+          'Errores de traducción o frases que suenan raras en tu idioma',
+          'Propuestas de colaboración, licencias o prensa',
+          'Solicitudes de privacidad y preguntas sobre datos o cookies',
+        ],
+      },
+      {
+        h: 'Si nos avisas de un fallo',
+        p: ['Para arreglarlo rápido, indícanos el nombre de la miniapp, el idioma que usabas, tu dispositivo y navegador (por ejemplo, iPhone con Safari o Android con Chrome) y cuéntanos brevemente qué pasó. Una captura de pantalla ayuda mucho.'],
+      },
+      {
+        h: 'Tiempo de respuesta',
+        p: ['Solemos responder en pocos días hábiles; en épocas de vacaciones puede tardar algo más. Nunca te pediremos contraseñas ni datos de pago.'],
+      },
+    ],
+  },
+  termsPage: {
+    title: 'Términos de uso | Melgene Apps',
+    description: 'Términos de uso de Melgene Apps: minijuegos y tests gratis en el navegador, ofrecidos tal cual para entretener, normas de uso, enlaces para compartir y anuncios de terceros.',
+    h1: 'Términos de uso',
+    updated: 'Última actualización: 9 de octubre de 2026',
+    lead: 'Estos términos de uso se aplican a Melgene Apps (el «Servicio»), incluido el portal y todas las miniapps de nuestros sitios. Al usar el Servicio, aceptas estos términos. Si no estás de acuerdo, por favor no uses el Servicio.',
+    sections: [
+      { h: '1. El Servicio', p: ['Melgene Apps ofrece gratis minijuegos, tests de personalidad, herramientas creativas y ayudas para decidir que funcionan en tu navegador. No hace falta cuenta. Podemos añadir, cambiar o retirar apps y funciones en cualquier momento.'] },
+      { h: '2. Se ofrece tal cual', p: ['El Servicio se ofrece «tal cual» y «según disponibilidad», sin garantías de ningún tipo. Trabajamos para que funcione bien, pero no garantizamos que esté siempre disponible, libre de errores o que sirva para un fin concreto. En la medida en que lo permita la ley, no somos responsables de pérdidas o daños derivados de su uso.'] },
+      { h: '3. Solo para entretener', p: ['Los resultados de los tests de personalidad, de edad mental, de los sorteos aleatorios y de funciones similares son para divertirse. No son consejos científicos, psicológicos, médicos, financieros ni profesionales. Un resultado aleatorio, como unos números de lotería, no aumenta tus posibilidades de ganar nada.'] },
+      {
+        h: '4. Uso aceptable',
+        p: ['Al usar el Servicio, te comprometes a no:'],
+        list: [
+          'Usarlo para fines ilegales, dañinos o abusivos',
+          'Introducir contenido de odio, acoso, sexualmente explícito o que vulnere derechos de otras personas',
+          'Interrumpir o sobrecargar el Servicio, extraer datos de forma masiva o acceder sin autorización',
+          'Manipular partidas, corazones, valoraciones o anuncios, también con herramientas automáticas o clics no válidos',
+        ],
+      },
+      { h: '5. Lo que creas y compartes', p: ['Algunas apps te permiten escribir nombres o textos, crear una imagen o generar un enlace para compartir. Eres responsable de lo que introduces y compartes. Un enlace para compartir guarda solo la información necesaria para mostrar ese resultado y cualquiera que lo tenga puede abrirlo, así que no incluyas datos personales ni sensibles. Podemos eliminar los enlaces que incumplan estos términos.'] },
+      { h: '6. Publicidad y cookies', p: ['El Servicio es gratuito porque se financia con anuncios. Los anuncios los sirven terceros como Google AdSense, que pueden usar cookies y tecnologías similares para mostrarlos y medirlos, incluidos anuncios personalizados. No controlamos el contenido de los anuncios de terceros ni los sitios a los que enlazan. Puedes saber más y gestionar tus preferencias en nuestra Política de privacidad y en la configuración de anuncios de Google.'] },
+      { h: '7. Propiedad intelectual', p: ['El diseño, el código, los textos, las ilustraciones y demás materiales del Servicio pertenecen a Melgene Apps o a sus licenciantes y están protegidos por la ley. Puedes usar el Servicio con fines personales y no comerciales y compartir sus enlaces libremente. No copies, republiques ni vendas las apps o su contenido sin nuestro permiso.'] },
+      { h: '8. Cambios en estos términos', p: ['Podemos actualizar estos términos de uso de vez en cuando y, cuando lo hagamos, cambiaremos la fecha que aparece al principio de esta página. Si sigues usando el Servicio después de un cambio, aceptas los términos actualizados.'] },
+      { h: '9. Contacto', p: ['Si tienes dudas sobre estos términos, escribe a contact@melgene.com o usa nuestra página de contacto.'] },
+    ],
+  },
+  guidesPage: {
+    title: 'Guías y consejos de todas las miniapps | Melgene Apps',
+    description: 'Cómo se juega, consejos y curiosidades de los minijuegos, tests de personalidad y herramientas de Melgene. Lee una guía corta y entra directo a la app.',
+    h1: 'Guías y consejos',
+    lead: 'Cada guía explica cómo funciona una miniapp, cómo mejorar y algunas cosas que conviene saber antes de empezar. Sin spoilers: las preguntas y los resultados siguen siendo una sorpresa.',
+    read: 'Leer la guía',
+    play: 'Jugar',
+    empty: 'Las guías están en camino. ¡Vuelve pronto!',
+  },
 };

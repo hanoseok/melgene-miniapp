@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2048 Game: How to Play, Strategy Tips &amp; History</title>
+<meta name="description" content="Learn how to play 2048, why the corner strategy works, how scoring is calculated and where the game came from. Then play free in your browser.">
+<link rel="canonical" href="https://game2048.example.com/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://game2048.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://game2048.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://game2048.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://game2048.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://game2048.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://game2048.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://game2048.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://game2048.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://game2048.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://game2048.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://game2048.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://game2048.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://game2048.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="2048 Game: How to Play, Strategy Tips &amp; History">
+<meta property="og:description" content="Learn how to play 2048, why the corner strategy works, how scoring is calculated and where the game came from. Then play free in your browser.">
+<meta property="og:image" content="https://game2048.example.com/og/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://game2048.example.com/guide.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://game2048.example.com/guide.html#article","headline":"2048 Game: how to play and reach the 2048 tile","description":"Learn how to play 2048, why the corner strategy works, how scoring is calculated and where the game came from. Then play free in your browser.","inLanguage":"en","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/"},"mainEntityOfPage":"https://game2048.example.com/guide.html","url":"https://game2048.example.com/guide.html","about":{"@type":"WebApplication","name":"2048 Game","url":"https://game2048.example.com/"},"image":"https://game2048.example.com/og/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/"},{"@type":"ListItem","position":2,"name":"2048 Game","item":"https://game2048.example.com/"},{"@type":"ListItem","position":3,"name":"2048 Game: how to play and reach the 2048 tile","item":"https://game2048.example.com/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Melgene Apps home"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">2048 Game</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Language"><option value="en" data-hreflang="en" lang="en" selected>English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Language"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="es/guide.html" hreflang="es" lang="es">Español</a> <a href="it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">2048 Game</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>2048 Game</p>
+    <h1>2048 Game: how to play and reach the 2048 tile</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">Updated October 9, 2026</time></p>
+    <p class="mg-art-intro">2048 looks simple: slide numbered tiles around a four by four board and merge matching ones. It is also surprisingly deep. This guide covers the rules, the scoring, the strategy techniques that experienced players rely on, and the short history of one of the most copied puzzle games of the last decade.</p>
+    <section>
+      <h2>How to play</h2>
+      <p>The board is a four by four grid with a couple of numbered tiles on it. Swipe on the board, or press the arrow keys or W, A, S and D, and every tile slides as far as it can in that direction. When two tiles with the same number collide, they merge into one tile with double the value, so two 2s become a 4 and two 64s become a 128.</p>
+      <p>After every move that actually changes the board, a new tile appears in an empty square. Most of the time it is a 2, and roughly one time in ten it is a 4. If your swipe moves nothing, no tile is added. Your goal is to create a tile with the number 2048. When you do, you can keep going for a higher score or finish there.</p>
+      <ul>
+        <li>Swipe or use the keys to slide all tiles at once.</li>
+        <li>Equal neighbours merge into one tile with double the value.</li>
+        <li>A new 2 or 4 appears after each move that changes the board.</li>
+        <li>The game ends when the board is full and no neighbours match.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Rules worth knowing</h2>
+      <p>A tile can merge only once per move. If a row holds 2, 2, 2, 2, a swipe produces two 4s, not one 8, and the pair closest to the wall you swipe toward merges first. This detail matters when you plan a chain of merges.</p>
+      <p>There is no timer and no undo, so every move is permanent. Your score goes up by the value of each new tile you create, which means a merge into a 512 adds 512 points. Big merges are therefore worth much more than small ones. Your best score is saved in this browser, and when a game ends, your score can be compared anonymously with other players for a top percentage.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Strategy: keep your biggest tile in a corner</h2>
+      <p>The single most useful habit is to pick one corner and keep your largest tile there. Build a descending chain along the edge, with the biggest tile in the corner, the next biggest beside it and so on, like a snake. Because tiles in a chain are close in value, they merge into each other in sequence instead of getting stuck.</p>
+      <p>Choose two directions as your main moves, for example down and left if your corner is bottom left. Use a third direction only when you must, and try never to use the fourth, since that is the move that drags your big tile out of the corner. If you are forced to, check that the corner row is full first, so the tile cannot slip away.</p>
+      <ul>
+        <li>Pick a corner and leave your biggest tile there.</li>
+        <li>Prefer two main directions and use the third sparingly.</li>
+        <li>Fill the top row of your chain before building the next one.</li>
+        <li>Merge small tiles near the chain, not far from it.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Common mistakes</h2>
+      <p>Beginners often swipe in all four directions to chase easy merges. This scatters big tiles across the board and leaves small ones trapped between them. Another mistake is spending moves on tiny merges while a large tile has no partner nearby.</p>
+      <p>Look one or two moves ahead. Before each swipe, ask where the new tile might land and whether the move opens a row or locks one. When the board gets crowded, slow down: a single careless swipe can end the game, while patience can rescue a messy position.</p>
+    </section>
+    <section>
+      <h2>Where 2048 comes from</h2>
+      <p>2048 was created by the Italian developer Gabriele Cirulli in March 2014 as a weekend project. It was inspired by earlier games such as 1024 and Threes, and he released the code openly, which led to countless variations and clones. The number 2048 is two to the power of eleven, and in theory a four by four board can reach a tile of 131072.</p>
+      <p>This version adds a Halloween look, but the rules are the classic ones. Play a few games, try the corner strategy, and share your score with a friend to see who gets further.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>Play 2048 now</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">2048 Game</a> · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

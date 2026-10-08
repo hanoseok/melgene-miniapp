@@ -337,7 +337,7 @@ function checkHtml() {
   if (/cursor:\s*pointer|:hover/.test(pairCss)) bad('style.css: 단짝·라이벌 카드에 pointer/hover 모양이 있음');
   // sitemap
   const sm = read('sitemap.xml');
-  const urls = (sm.match(/<loc>/g) || []).length;
+  const urls = (sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length;
   const want = (1 + CORE.ORDER.length) * G.LOCALES.length;
   if (urls !== want) bad(`sitemap.xml URL ${urls} ≠ ${want}`);
   if (!sm.includes('https://costume.example.com/r/vampire.html') || !sm.includes('https://costume.example.com/ko/')) bad('sitemap.xml 주소가 이상함');

@@ -319,7 +319,8 @@
     window.supa.bump('pv', site);
     var src = trafficSource(document.referrer, window.location.hostname);
     if (src) window.supa.bump(src, site); // 밖에서 들어온 첫 페이지만 (검색/SNS/직접/기타)
-    if (site !== 'hub' && window.supa.play) window.supa.play(site); // 플레이 수 = 앱에 들어온 수 (30초 중복 제외)
+    // 플레이 수 = 앱에 들어온 수 (30초 중복 제외). 가이드 글(guide.html, <meta name="mg-no-play">)은 플레이가 아니다.
+    if (site !== 'hub' && window.supa.play && !document.querySelector('meta[name="mg-no-play"]')) window.supa.play(site);
     if (!window.MutationObserver) return;
     var seen = [];
     function check(el) {
@@ -681,10 +682,28 @@
   // 공유 내용: window.setShareData(...), 다시 하기: window.setRetry(fn | url | { label, action }).
   // ---------------------------------------------------------------
   var retryAction = null;
+  // 긴 글 가이드(guide.html)가 있는 앱: tools/gen-guides.js 가 <meta name="mg-guide" content="<상대 경로>guide.html"> 를 넣는다.
+  // 끝 화면 ④ 자주 묻는 질문 블록 맨 아래에 작은 링크 "📖 가이드 & 팁" 으로 보여 준다(순서 규칙 그대로 — FAQ 안).
+  function guideLink() {
+    var m = document.querySelector('meta[name="mg-guide"]');
+    var href = m && m.getAttribute('content');
+    if (!href) return null;
+    var a = document.createElement('a');
+    a.className = 'mg-end-guide';
+    a.href = href;
+    a.textContent = t('guideMore');
+    a.addEventListener('click', function () { if (window.track) window.track('guide_open'); });
+    return a;
+  }
   function faqBlock(items) {
     var sec = document.createElement('section');
     sec.className = 'mg-end-faq';
-    if (!items || !items.length) { sec.hidden = true; return sec; }
+    var guide = guideLink();
+    if (!items || !items.length) {
+      if (guide) sec.appendChild(guide);
+      else sec.hidden = true;
+      return sec;
+    }
     var h = document.createElement('p');
     h.className = 'mg-end-h';
     h.textContent = t('faqTitle');
@@ -702,6 +721,7 @@
       d.addEventListener('toggle', function () { if (d.open && window.track) window.track('faq_open'); });
       sec.appendChild(d);
     });
+    if (guide) sec.appendChild(guide);
     return sec;
   }
   window.setFaq = function (items) {

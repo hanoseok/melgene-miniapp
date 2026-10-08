@@ -26,6 +26,7 @@ const fs = require('fs');
 const siteDirs = fs.readdirSync(path.join(ROOT, 'apps'))
   .filter((d) => fs.statSync(path.join(ROOT, 'apps', d)).isDirectory())
   .sort((a, b) => (a === 'hub') - (b === 'hub') || a.localeCompare(b));
+const GUIDES = path.join(ROOT, 'tools/gen-guides.js');
 const pick = (d, names) => names.map((n) => path.join(ROOT, 'apps', d, 'tools', n)).find((f) => fs.existsSync(f));
 
 // 주소에 언어를 넣지 않는다: 생성기를 두 번 돌린다.
@@ -37,6 +38,11 @@ for (const d of siteDirs) {
   fs.rmSync(path.join(ROOT, 'apps', d, '_l'), { recursive: true, force: true }); // 지난 변형 정리
   run(gen);
   run(gen, [], { MG_I18N_MODE: 'variant' });
+  // 긴 글 가이드(apps/<앱>/tools/guide/<lang>.js 가 있을 때만): guide.html + 사이트맵 + 푸터 링크. 포털(guides.html)보다 먼저.
+  if (d !== 'hub') {
+    run(GUIDES, [d]);
+    run(GUIDES, [d], { MG_I18N_MODE: 'variant' });
+  }
 }
 
 if (process.argv.includes('--og')) {

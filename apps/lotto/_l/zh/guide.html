@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>彩票号码生成器使用指南：随机原理与组合数学</title>
+<meta name="description" content="彩票号码生成器怎么用、号码是否真的随机、彩票组合背后的数学，以及如何理性、负责任地用它来娱乐，并附实用的其他用法。">
+<link rel="canonical" href="https://lotto.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://lotto.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://lotto.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://lotto.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://lotto.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://lotto.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://lotto.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://lotto.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://lotto.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://lotto.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://lotto.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://lotto.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://lotto.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://lotto.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="彩票号码生成器使用指南：随机原理与组合数学">
+<meta property="og:description" content="彩票号码生成器怎么用、号码是否真的随机、彩票组合背后的数学，以及如何理性、负责任地用它来娱乐，并附实用的其他用法。">
+<meta property="og:image" content="https://lotto.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://lotto.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://lotto.example.com/zh/guide.html#article","headline":"彩票号码生成器：随机彩票号码是怎么来的","description":"彩票号码生成器怎么用、号码是否真的随机、彩票组合背后的数学，以及如何理性、负责任地用它来娱乐，并附实用的其他用法。","inLanguage":"zh","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://lotto.example.com/zh/guide.html","url":"https://lotto.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"彩票号码生成器","url":"https://lotto.example.com/zh/"},"image":"https://lotto.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"彩票号码生成器","item":"https://lotto.example.com/zh/"},{"@type":"ListItem","position":3,"name":"彩票号码生成器：随机彩票号码是怎么来的","item":"https://lotto.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">彩票号码生成器</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">彩票号码生成器</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🎱</span>彩票号码生成器</p>
+    <h1>彩票号码生成器：随机彩票号码是怎么来的</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">更新于 2026年10月9日</time></p>
+    <p class="mg-art-intro">彩票号码生成器可以为韩国乐透6/45、欧洲式玩法、美国强力球或你自定义的范围随机选号，并用屏幕上的摇奖机把彩球一颗颗滚出来。它只是为了娱乐。这篇指南介绍怎么使用、号码为什么在严格意义上是随机的、彩票组合背后的数学是什么样的、除了彩票之外的有趣用法，以及如何理性对待。</p>
+    <section>
+      <h2>生成器怎么用</h2>
+      <p>先选择玩法。韩国乐透6/45从1到45里抽6个号码；欧洲式玩法从1到50里抽5个号码，再从1到12里抽2个星号；美国强力球从1到69里抽5个号码，再从1到26里抽1个强力球。自定义玩法可以设置最大号码（最高100）和要抽的个数（最多10个）。然后选择要生成的注数，从1到5注。</p>
+      <p>抽号之前，你还可以填写要保留的号码和要排除的号码。保留的号码会出现在每一注里，其余号码围绕它们抽取；排除的号码绝不会出现。这两项设置只对主号码有效，不影响星号和强力球。按下抽号按钮后，系统先确定号码，然后彩球在摇奖机里翻滚并逐个滚出，最后每一注按从小到大排序显示。彩球颜色沿用韩国乐透熟悉的分段，复制按钮可以把结果存到剪贴板。</p>
+      <ul>
+        <li>选择韩国乐透6/45、欧洲式、美国强力球或自定义范围。</li>
+        <li>选择要抽的注数，1到5注。</li>
+        <li>需要的话，用逗号分隔填写要保留和要排除的号码。</li>
+        <li>按下抽号按钮，看彩球滚出来。</li>
+        <li>复制号码、再抽一次，或者回到设置。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>号码真的是随机的吗</h2>
+      <p>生成器使用浏览器内置的加密级随机源，和生成安全密钥用的是同一类随机数。从一个范围里抽一个整数听起来很简单，但粗糙的做法会偏向某些号码。例如，把一个很大的随机数除以45再取余数，较小的余数会稍微更常出现。为了避免这种情况，工具会丢弃少数会造成失衡的随机值并重新抽取，这种技术叫作拒绝采样。</p>
+      <p>之后再用部分洗牌的方法不重复地选号，让每一步中剩下的每个号码机会相同。彩球滚动的动画是在结果已经确定之后才播放的，对结果没有任何影响。所以每一个允许出现的号码概率都相同，也无法靠按按钮的时机或方式来操控结果。</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>彩票组合背后的数学</h2>
+      <p>彩票是一个计数问题。在6/45玩法里，6个号码的不同组合有8,145,060种。在5/50加2/12的玩法里，5个主号码有2,118,760种选法，2个星号有66种选法，合计139,838,160种组合。在5/69加1/26的玩法里，5个号码有11,238,513种选法，强力球有26种选择，共有292,201,338种组合。组合越多，一张彩票所代表的份量就越小。</p>
+      <p>每一种组合都同样可能出现，包括1、2、3、4、5、6。过去的结果不会影响将来的开奖，所以不存在热号或冷号，保留或排除号码也不会改变任何机会。真正有区别的，是有多少其他玩家选了同样的号码。很多人会选生日，因此全由小号码组成的组合在中奖时可能更常被多人分享奖金，但这说的是分奖，而不是中奖。</p>
+    </section>
+    <section>
+      <h2>生成器的用法</h2>
+      <p>一个公平、快速的随机选号工具，用处远不止彩票。自定义模式让它成了一个小工具箱，适合所有需要无偏差数字的场合。</p>
+      <ul>
+        <li>随手选幸运号码玩一玩，可以把生日或纪念日数字保留在每一注里。</li>
+        <li>给参与者编号，抽出一个号码，用来抽奖或决定赠品得主。</li>
+        <li>制作宾果式的号码组，或在聚会游戏里从1到100抽一个数字。</li>
+        <li>抽座位号或队伍号，决定谁先开始。</li>
+        <li>在课堂上通过比较多次抽取来讲解概率。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>理性娱乐与你的隐私</h2>
+      <p>这个工具不是彩票运营方，不能出售彩票，也无法预测或提高中奖机会。如果你要购买彩票，请把花费当作娱乐支出：事先定好预算，只向有牌照的运营方购买，遵守当地的最低年龄规定，一旦不再开心就停下来。如果赌博给你带来了困扰，请联系当地的援助服务。</p>
+      <p>你输入的号码和抽出的号码都在你的浏览器中处理，不会发送到我们的服务器，也不会保存你的任何投注内容。页面可能会记住语言等基本偏好。想保留结果，请使用复制按钮。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🎱</span>开始摇号</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">彩票号码生成器</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

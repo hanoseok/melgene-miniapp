@@ -213,4 +213,116 @@ module.exports = {
     ],
     back: '← Back to Melgene Apps',
   },
+  // Footer on every portal page (About · Guides · Terms · Privacy · Contact). Trust pages below are plain text (escaped).
+  footerNav: { about: 'About', guides: 'Guides', terms: 'Terms', privacy: 'Privacy', contact: 'Contact' },
+  aboutPage: {
+    title: 'About Us | Melgene Apps',
+    description: 'Melgene Apps is a small independent studio making free browser mini games, personality tests and creation tools in 12 languages. Here is how we build them.',
+    h1: 'About Melgene Apps',
+    lead: 'Melgene Apps is a small, independent studio that makes free mini apps you can open in any browser: quick games, light-hearted personality tests, little creation tools and helpers for everyday decisions. No download, no account, and most of them take about a minute.',
+    sections: [
+      {
+        h: 'What we make',
+        p: [
+          'Every mini app on Melgene does one thing well. Some are arcade-style games you can finish on a coffee break, like whack-a-mole, brick breaker or a merge puzzle. Some are personality tests that turn a handful of everyday situations into a playful result you can share. Others help you make something, such as a fancy text style, a party invitation or a nickname, or settle a small decision with a spinning wheel, a ladder game or a coin flip.',
+          'We add new apps regularly, often around seasons and holidays, and we keep improving the older ones based on how people actually use them.',
+        ],
+      },
+      {
+        h: 'Why we build them',
+        p: ['We think the best small moments online are quick, kind and free. Many sites that offer games or quizzes bury them under sign-ups, pop-ups and app-install prompts. Our goal is the opposite: you tap a link, the app opens, you play, and you can send it to a friend with one more tap.'],
+      },
+      {
+        h: 'How each app is made and tested',
+        p: ['Each app starts as a short plan that describes who it is for, how long a round should take and what the result screen shows. We then build it as a lightweight web page and test it before release:'],
+        list: [
+          'On small phone screens (360 px wide) as well as tablets and desktop browsers',
+          'In all 12 languages, checking that every line fits and reads naturally',
+          'With automated checks for broken links, missing translations and page structure',
+          'Without spoilers: start screens tease the idea but never reveal questions or results',
+        ],
+      },
+      {
+        h: 'Mobile first, in 12 languages',
+        p: ['Most people play on a phone, so every app is designed for a narrow screen first. Melgene Apps is available in English, Japanese, Chinese, Korean, French, German, Thai, Vietnamese, Spanish, Italian, Portuguese and Russian. We write each language for local readers instead of translating word for word, and we use the names people in each country actually search for.'],
+      },
+      {
+        h: 'Privacy-friendly by design',
+        p: ['You never need an account, and we never ask for your name, email address or phone number. What you type into an app is processed in your own browser. Play counts, hearts and ratings are anonymous totals per app. The site is supported by advertising from Google AdSense; you can read the details in our Privacy Policy.'],
+      },
+      {
+        h: 'A note on personality tests',
+        p: ['Our personality tests, mental age tests and similar quizzes are made for entertainment. They are not psychological, medical or professional assessments, and a result should never be used to make important decisions about yourself or anyone else. Enjoy them as a conversation starter and a bit of fun.'],
+      },
+      {
+        h: 'Get in touch',
+        p: ['We read every message. If you find a bug, have an idea for a new mini app or want to talk about a partnership, visit our Contact page or email contact@melgene.com.'],
+      },
+    ],
+  },
+  contactPage: {
+    title: 'Contact Us | Melgene Apps',
+    description: 'Contact Melgene Apps by email for feedback, bug reports, partnership inquiries or privacy requests. We usually reply within a few business days.',
+    h1: 'Contact us',
+    lead: 'Questions, ideas or problems? We are a small team and we read every message ourselves.',
+    emailH: 'Email',
+    emailNote: 'We usually reply within a few business days.',
+    sections: [
+      {
+        h: 'What you can contact us about',
+        p: ['Feel free to write to us about anything related to Melgene Apps, for example:'],
+        list: [
+          'Feedback and ideas for new mini games, tests or tools',
+          'Bug reports: something does not load, a button does not respond or text is cut off',
+          'Translation mistakes or wording that sounds unnatural in your language',
+          'Partnership, licensing or press inquiries',
+          'Privacy requests and questions about data or cookies',
+        ],
+      },
+      {
+        h: 'Reporting a bug',
+        p: ['To help us fix it quickly, please include the name of the mini app, the language you were using, your device and browser (for example, iPhone with Safari or Android with Chrome) and a short description of what happened. A screenshot helps a lot.'],
+      },
+      {
+        h: 'Response time',
+        p: ['We usually answer within a few business days; around holidays it may take a little longer. We will never ask you for passwords or payment details.'],
+      },
+    ],
+  },
+  termsPage: {
+    title: 'Terms of Use | Melgene Apps',
+    description: 'Terms of Use for Melgene Apps: free browser mini games and tests provided as is for entertainment, acceptable use, share links and third-party ads.',
+    h1: 'Terms of Use',
+    updated: 'Last updated: October 9, 2026',
+    lead: 'These Terms of Use apply to Melgene Apps (the “Service”), including the portal and every mini app on our sites. By using the Service, you agree to these terms. If you do not agree, please do not use the Service.',
+    sections: [
+      { h: '1. The Service', p: ['Melgene Apps offers free mini games, personality tests, creation tools and decision helpers that run in your web browser. No account is required. We may add, change or remove apps and features at any time.'] },
+      { h: '2. Provided as is', p: ['The Service is provided “as is” and “as available”, without warranties of any kind. We work hard to keep it running smoothly, but we do not guarantee that it will always be available, error-free or suitable for a particular purpose. To the extent permitted by law, we are not liable for any loss or damage resulting from your use of the Service.'] },
+      { h: '3. For entertainment only', p: ['Results from personality tests, mental age tests, random pickers and similar features are for fun. They are not scientific, psychological, medical, financial or professional advice. Random results, such as lottery numbers, do not improve your chances of winning anything.'] },
+      {
+        h: '4. Acceptable use',
+        p: ['When using the Service, you agree not to:'],
+        list: [
+          'Use it for anything unlawful, harmful or abusive',
+          'Enter content that is hateful, harassing, sexually explicit or that infringes anyone’s rights',
+          'Try to disrupt or overload the Service, scrape it at scale or gain unauthorized access to it',
+          'Manipulate play counts, hearts, ratings or ads, including with automated tools or invalid clicks',
+        ],
+      },
+      { h: '5. What you create and share', p: ['Some apps let you type names or text, create an image or generate a share link. You are responsible for what you enter and share. A share link stores only the information needed to show that result, and anyone with the link can open it, so please do not include personal or sensitive information. We may remove share links that break these terms.'] },
+      { h: '6. Advertising and cookies', p: ['The Service is free because it is supported by ads. Ads are provided by third parties such as Google AdSense, which may use cookies and similar technologies to show and measure ads, including personalized ads. We do not control the content of third-party ads or the sites they link to. You can learn more and manage your choices in our Privacy Policy and in Google Ad Settings.'] },
+      { h: '7. Intellectual property', p: ['The design, code, text, illustrations and other materials of the Service belong to Melgene Apps or its licensors and are protected by law. You may use the Service for personal, non-commercial purposes and share links to it freely. Please do not copy, republish or sell the apps or their content without our permission.'] },
+      { h: '8. Changes to these terms', p: ['We may update these Terms of Use from time to time. When we do, we will change the date at the top of this page. If you keep using the Service after an update, you accept the revised terms.'] },
+      { h: '9. Contact', p: ['If you have questions about these terms, please email contact@melgene.com or use our Contact page.'] },
+    ],
+  },
+  guidesPage: {
+    title: 'Guides & Tips for Every Mini App | Melgene Apps',
+    description: 'How to play, tips and background for Melgene mini games, personality tests and tools. Read a short guide, then jump straight into the app.',
+    h1: 'Guides & tips',
+    lead: 'Each guide explains how a mini app works, how to get better at it and a few things worth knowing before you start. No spoilers: questions and results stay a surprise.',
+    read: 'Read the guide',
+    play: 'Play',
+    empty: 'Guides are on their way. Check back soon!',
+  },
 };

@@ -481,7 +481,7 @@ function checkHtml() {
     });
   });
   const sm = read('sitemap.xml');
-  const urls = (sm.match(/<loc>/g) || []).length;
+  const urls = (sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length;
   if (urls !== G.LOCALES.length) bad(`sitemap.xml URL ${urls} ≠ ${G.LOCALES.length}`);
   if (!sm.includes('<loc>https://candy-catch.example.com/</loc>') || !sm.includes('<loc>https://candy-catch.example.com/ko/</loc>')) bad('sitemap.xml 주소가 이상함');
   if (/_l\//.test(sm)) bad('sitemap.xml 에 숨은 변형(_l) 주소');

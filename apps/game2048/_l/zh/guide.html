@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2048小游戏：玩法、通关技巧与来历</title>
+<meta name="description" content="了解2048的玩法、角落策略为什么有效、得分如何计算以及游戏的来历，读完马上就能在浏览器里免费开玩。">
+<link rel="canonical" href="https://game2048.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://game2048.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://game2048.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://game2048.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://game2048.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://game2048.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://game2048.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://game2048.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://game2048.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://game2048.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://game2048.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://game2048.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://game2048.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://game2048.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="2048小游戏：玩法、通关技巧与来历">
+<meta property="og:description" content="了解2048的玩法、角落策略为什么有效、得分如何计算以及游戏的来历，读完马上就能在浏览器里免费开玩。">
+<meta property="og:image" content="https://game2048.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://game2048.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://game2048.example.com/zh/guide.html#article","headline":"2048小游戏：玩法与合成2048的技巧","description":"了解2048的玩法、角落策略为什么有效、得分如何计算以及游戏的来历，读完马上就能在浏览器里免费开玩。","inLanguage":"zh","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://game2048.example.com/zh/guide.html","url":"https://game2048.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"2048 小游戏","url":"https://game2048.example.com/zh/"},"image":"https://game2048.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"2048 小游戏","item":"https://game2048.example.com/zh/"},{"@type":"ListItem","position":3,"name":"2048小游戏：玩法与合成2048的技巧","item":"https://game2048.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">2048 小游戏</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">2048 小游戏</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>2048 小游戏</p>
+    <h1>2048小游戏：玩法与合成2048的技巧</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">更新于 2026年10月9日</time></p>
+    <p class="mg-art-intro">2048看起来很简单：在4×4的棋盘上滑动数字方块，把相同的合并起来。但它出人意料地有深度。这篇指南介绍规则、得分方式、老玩家常用的策略，以及这个过去十年里被模仿最多的益智游戏之一的简短历史。</p>
+    <section>
+      <h2>玩法</h2>
+      <p>棋盘是4×4的格子，开局有几个数字方块。在棋盘上滑动，或按方向键（也可用W、A、S、D），所有方块都会朝那个方向尽可能地滑动。两个相同数字的方块相撞时，会合并成一个数值翻倍的方块，两个2变成4，两个64变成128。</p>
+      <p>每次真正改变了棋盘的移动之后，空格里会出现一个新方块，大多数是2，大约十次里有一次是4。如果这次滑动没有让任何方块移动，就不会出现新方块。目标是合成数字2048的方块。合成后，你可以继续冲更高的分数，也可以就此结束。</p>
+      <ul>
+        <li>滑动或按键，让所有方块同时移动。</li>
+        <li>相邻的相同数字会合并成数值翻倍的一个方块。</li>
+        <li>每次改变棋盘的移动之后，会出现一个新的2或4。</li>
+        <li>棋盘填满且相邻方块没有相同数字时，游戏结束。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>值得了解的规则</h2>
+      <p>一个方块在一次移动中只能合并一次。如果一行是2、2、2、2，滑动一次得到的是两个4，而不是一个8，而且靠近滑动方向那一侧墙的那一对会先合并。规划连续合并时，这个细节很重要。</p>
+      <p>游戏没有计时，也不能撤销，所以每一步都是定局。得分会加上每个新生成方块的数值，例如合成一个512，就加512分，所以大合并比小合并值钱得多。最高分保存在这个浏览器里，游戏结束时你的分数还会匿名与其他玩家比较，可能显示你的排名百分比。</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>策略：把最大的方块留在角落</h2>
+      <p>最有用的习惯，是选定一个角，把最大的方块一直放在那里。沿着边建立一条由大到小的链：最大的在角上，次大的紧挨着，依此类推，像一条蛇。链上的方块数值接近，所以能依次合并，不会卡住。</p>
+      <p>选两个方向作为主要操作，比如角在左下，就主要用向下和向左。第三个方向只在必须时才用，尽量别用第四个，因为那一步会把大方块从角落里拽出来。如果不得不用，先确认角落那一行已经排满，大方块就不会跑掉。</p>
+      <ul>
+        <li>选定一个角，让最大的方块待在那里。</li>
+        <li>主要用两个方向，少用第三个。</li>
+        <li>先排满链的这一行，再建下一行。</li>
+        <li>在链附近合并小方块，别离得太远。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>常见错误</h2>
+      <p>新手常常为了追逐容易的合并而四个方向都划。这样会让大方块散落在棋盘上，小方块被夹在中间动不了。另一个错误是：大方块旁边没有同伴时，还在把步数浪费在细小的合并上。</p>
+      <p>往前看一两步。每次滑动前，想想新方块可能出现在哪里，这一步是让某一行腾出空间还是被堵住。棋盘拥挤时要放慢：一次草率的滑动可能直接结束游戏，而耐心可以挽救混乱的局面。</p>
+    </section>
+    <section>
+      <h2>2048的来历</h2>
+      <p>2048由意大利开发者加布里埃莱·奇鲁利于2014年3月作为周末小项目做出来。它受到1024和Threes等早期游戏的启发，源代码公开后，催生了无数变体和仿制品。2048是2的11次方，理论上，4×4的棋盘最多能合出131072的方块。</p>
+      <p>这个版本换上了万圣节风格，规则仍是经典的。多玩几局，试试角落策略，再把分数发给朋友，看看谁走得更远。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>马上玩2048</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">2048 小游戏</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

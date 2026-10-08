@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * 미니앱 포털(apps/hub)의 정적 페이지를 언어별로 생성한다. 브랜드 이름은 공통 G.brandOf(lang) 과 언어 파일의 brand(워드마크 배지)에만 있다.
- *   <언어 폴더>/index.html, <언어 폴더>/privacy.html (shared/i18n.js 의 LOCALES 마다, 기본 언어는 루트)
+ *   <언어 폴더>/index.html, privacy.html, about.html, contact.html, terms.html, guides.html (shared/i18n.js 의 LOCALES 마다, 기본 언어는 루트)
+ *   — about/contact/terms/guides = AdSense 신뢰 페이지(사용자 승인 2026-10-09). guides.html = 가이드(guide.html)가 있는 앱 목록.
  *   sitemap.xml (모든 언어 URL + xhtml:link hreflang)
  *
  * 페이지 순서(스킬 7번 포털 예외): 머리글(브랜드 + 언어 select) → 작은 <h1>(브랜드 + 현지 검색어)
@@ -186,6 +187,140 @@ ${cards}
   </section>`;
 }
 
+// 푸터(포털 모든 페이지): © 브랜드 · 소개 · 가이드 · 이용약관 · 개인정보 · 문의 (AdSense 신뢰 페이지, 사용자 승인 2026-10-09)
+const FOOTER_PAGES = [['about.html', 'about'], ['guides.html', 'guides'], ['terms.html', 'terms'], ['privacy.html', 'privacy'], ['contact.html', 'contact']];
+function footerHtml(lang, rel, T) {
+  const from = G.fileOf(lang, rel);
+  const links = FOOTER_PAGES.map(([r, k]) => {
+    const cur = r === rel ? ' aria-current="page"' : '';
+    return `    <a href="${G.relHref(from, G.fileOf(lang, r))}"${cur}>${esc(T.footerNav[k])}</a>`;
+  }).join('\n');
+  return `  <footer class="hub-footer">
+    <span>© <span id="year">${new Date().getFullYear()}</span> ${esc(G.brandOf(lang))}</span>
+${links}
+  </footer>`;
+}
+
+const CONTACT_EMAIL = 'contact@melgene.com';
+
+// 글 섹션: [{ h, p: [...], list?: [...] }] — 모두 일반 텍스트(escape)
+function sectionsHtml(sections) {
+  return sections.map((s) => {
+    const ps = [].concat(s.p || []).map((t) => `    <p>${esc(t)}</p>`).join('\n');
+    const list = s.list && s.list.length ? `\n    <ul>\n${s.list.map((t) => `      <li>${esc(t)}</li>`).join('\n')}\n    </ul>` : '';
+    return `    <h2>${esc(s.h)}</h2>\n${ps}${list}`;
+  }).join('\n\n');
+}
+
+// 신뢰 페이지 공통 틀(소개·문의·이용약관·가이드 모음). privacy.html 과 같은 머리(hreflang·canonical·og·로더).
+function docPage(lang, rel, P, body, ld) {
+  const T = L10N[lang];
+  const file = G.fileOf(lang, rel);
+  const root = G.rootPrefix(file);
+  const url = G.publicUrl(SITE_ROOT, lang, rel);
+  const brand = G.brandOf(lang);
+  const graph = Object.assign({ '@context': 'https://schema.org', url, name: P.h1, description: P.description, inLanguage: lang,
+    isPartOf: { '@type': 'WebSite', name: brand, url: G.publicUrl(SITE_ROOT, lang, 'index.html') } }, ld || {});
+  return `<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>${esc(P.title)}</title>
+<meta name="description" content="${esc(P.description)}">
+<link rel="canonical" href="${url}">
+${G.hreflangTags(SITE_ROOT, rel)}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(brand)}">
+<meta property="og:title" content="${esc(P.title)}">
+<meta property="og:description" content="${esc(P.description)}">
+<meta property="og:image" content="${ogImage(lang)}">
+<meta property="og:url" content="${url}">
+${G.ogLocaleTags(lang)}
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="${PRETENDARD}">
+<link rel="stylesheet" href="${DISPLAY_FONT}">
+${typographyHead(lang, T)}
+<link rel="stylesheet" href="${root}shared/base.css">
+<link rel="stylesheet" href="${root}style.css">
+${jsonLd(graph)}
+</head>
+<body class="hub">
+<div class="hub-wrap">
+  ${header(lang, rel, T)}
+  <article class="doc">
+    <h1>${esc(P.h1)}</h1>
+${body}
+  </article>
+
+${footerHtml(lang, rel, T)}
+</div>
+<script src="${root}shared/site.config.js"></script>
+<script src="${root}shared/i18n.js"></script>
+<script src="${root}shared/common.js"></script>
+<script src="${root}shared/supa.js"></script>
+</body>
+</html>
+`;
+}
+
+function renderAbout(lang) {
+  const P = L10N[lang].aboutPage;
+  const body = `    <p class="doc-lead">${esc(P.lead)}</p>\n\n${sectionsHtml(P.sections)}`;
+  return docPage(lang, 'about.html', P, body, { '@type': 'AboutPage' });
+}
+
+function renderContact(lang) {
+  const P = L10N[lang].contactPage;
+  const body = `    <p class="doc-lead">${esc(P.lead)}</p>
+    <div class="doc-mail">
+      <p class="doc-mail-h">${esc(P.emailH)}</p>
+      <p><a class="doc-mail-a" href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p>
+      <p class="doc-mail-note">${esc(P.emailNote)}</p>
+    </div>
+
+${sectionsHtml(P.sections)}`;
+  return docPage(lang, 'contact.html', P, body, {
+    '@type': 'ContactPage',
+    mainEntity: { '@type': 'Organization', name: G.brandOf(lang), email: CONTACT_EMAIL, contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: CONTACT_EMAIL } },
+  });
+}
+
+function renderTerms(lang) {
+  const P = L10N[lang].termsPage;
+  const body = `    <p class="doc-meta">${esc(P.updated)}</p>\n    <p class="doc-lead">${esc(P.lead)}</p>\n\n${sectionsHtml(P.sections)}`;
+  return docPage(lang, 'terms.html', P, body, { '@type': 'WebPage' });
+}
+
+// 가이드가 있는 앱: apps/<id>/tools/guide/<lang>.js 12개 + 생성된 apps/<id>/guide.html (tools/gen-guides.js 가 앱 다음·포털 전에 만든다)
+function hasGuide(id) {
+  const dir = path.join(SITE_DIR, '..', id);
+  return G.LOCALES.every((l) => fs.existsSync(path.join(dir, 'tools', 'guide', `${l.code}.js`))) && fs.existsSync(path.join(dir, 'guide.html'));
+}
+
+function renderGuides(lang) {
+  const P = L10N[lang].guidesPage;
+  const apps = newestFirst(appsFor(lang)).filter((a) => hasGuide(a.id));
+  // 앱 주소(자리표시자 https://<id>.example.com/[<언어>/])에 guide.html — deploy-prep 이 미니앱 도메인으로 바꾸므로 melgene.com·miniapp 어디서든 같다
+  const guideHref = (a) => (/\/$/.test(a.href) ? a.href : a.href.replace(/[^/]*$/, '')) + 'guide.html';
+  const items = apps.map((a) => `      <li class="guide-item" style="${CORE.hueStyle(a.id)}">
+        <a class="guide-link" href="${esc(guideHref(a))}">
+          <span class="guide-emoji" aria-hidden="true">${a.emoji}</span>
+          <span class="guide-text"><span class="guide-name">${esc(a.title)}</span><span class="guide-desc">${esc(a.desc)}</span><span class="guide-read">${esc(P.read)} →</span></span>
+        </a>
+        <a class="guide-play" href="${esc(a.href)}">${esc(P.play)}</a>
+      </li>`).join('\n');
+  const list = apps.length ? `    <ul class="guide-list">\n${items}\n    </ul>` : `    <p class="doc-empty">${esc(P.empty)}</p>`;
+  const body = `    <p class="doc-lead">${esc(P.lead)}</p>\n${list}`;
+  return docPage(lang, 'guides.html', P, body, {
+    '@type': 'CollectionPage',
+    mainEntity: { '@type': 'ItemList', numberOfItems: apps.length, itemListElement: apps.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: guideHref(a), name: a.title })) },
+  });
+}
+
 function renderIndex(lang) {
   const T = L10N[lang];
   const B = T.browse;
@@ -328,10 +463,7 @@ ${faq}
     </div>
   </section>
 
-  <footer class="hub-footer">
-    <span>© <span id="year">${today.getFullYear()}</span> ${esc(brand)}</span>
-    <a href="privacy.html">${esc(T.privacyLink)}</a>
-  </footer>
+${footerHtml(lang, rel, T)}
 </div>
 
 <script src="${root}shared/site.config.js"></script>
@@ -390,9 +522,7 @@ ${typographyHead(lang, T)}
 ${sections}
   </article>
 
-  <footer class="hub-footer">
-    <a href="./">${esc(P.back)}</a>
-  </footer>
+${footerHtml(lang, rel, T)}
 </div>
 <script src="${root}shared/site.config.js"></script>
 <script src="${root}shared/i18n.js"></script>
@@ -403,16 +533,24 @@ ${sections}
 `;
 }
 
+const PAGES = ['index.html', 'privacy.html', 'about.html', 'contact.html', 'terms.html', 'guides.html'];
 function main() {
   let n = 0;
   G.LOCALES.forEach(({ code }) => {
     G.writeOut(SITE_DIR, G.fileOf(code, 'index.html'), renderIndex(code));
     G.writeOut(SITE_DIR, G.fileOf(code, 'privacy.html'), renderPrivacy(code));
-    n += 2;
+    G.writeOut(SITE_DIR, G.fileOf(code, 'about.html'), renderAbout(code));
+    G.writeOut(SITE_DIR, G.fileOf(code, 'contact.html'), renderContact(code));
+    G.writeOut(SITE_DIR, G.fileOf(code, 'terms.html'), renderTerms(code));
+    G.writeOut(SITE_DIR, G.fileOf(code, 'guides.html'), renderGuides(code));
+    n += 6;
   });
-  console.log(`생성 완료: 언어 ${G.LOCALES.length}개 × (index + privacy) = HTML ${n}개, 앱 카드 ${SITES.length}개`);
-  G.writeOut(SITE_DIR, 'sitemap.xml', G.sitemapXml(SITE_ROOT, ['index.html', 'privacy.html']));
-  console.log(`생성 완료: sitemap.xml (URL ${G.LOCALES.length * 2}개, hreflang 대체 링크 포함)`);
+  const guided = SITES.filter((s) => hasGuide(s.id)).length;
+  console.log(`생성 완료: 언어 ${G.LOCALES.length}개 × (index + privacy + about + contact + terms + guides) = HTML ${n}개, 앱 카드 ${SITES.length}개, 가이드 ${guided}개`);
+  if (G.MODE !== 'variant') {
+    G.writeOut(SITE_DIR, 'sitemap.xml', G.sitemapXml(SITE_ROOT, PAGES));
+    console.log(`생성 완료: sitemap.xml (URL ${G.LOCALES.length * PAGES.length}개, hreflang 대체 링크 포함)`);
+  }
 }
 
 main();

@@ -392,7 +392,7 @@ LANGS.forEach((lang) => {
   ok(!/renderMoreTests|window\.share\(|shareTwitterUrl|shareFacebookUrl/.test(jsCode), 'balance.js 에 앱 자체 공유/다른 테스트 코드가 남아 있음 (공통 끝 화면 사용)');
   ok(/setShareData/.test(jsCode) && /setRetry/.test(jsCode), 'balance.js 가 setShareData / setRetry 를 등록하지 않음');
   const sm = fs.readFileSync(path.join(SITE, 'sitemap.xml'), 'utf8');
-  ok((sm.match(/<url>/g) || []).length === G.LOCALES.length && /<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/.test(sm), 'sitemap.xml 에 12개 언어 URL + lastmod');
+  ok((sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length === G.LOCALES.length && /<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/.test(sm), 'sitemap.xml 에 12개 언어 URL + lastmod');
 }
 console.log(`  ${LANGS.length}개 언어 index·privacy · balance.js 가 쓰는 ui 키 ${usedUi.length}개`);
 

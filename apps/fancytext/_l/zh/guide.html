@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>花式字体生成器：原理、用法与使用注意事项</title>
+<meta name="description" content="把文字变成粗体、手写体、圆圈字和颠倒字。了解花式字体的原理、可能显示不出的原因，以及如何保证可读性。">
+<link rel="canonical" href="https://fancytext.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://fancytext.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://fancytext.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://fancytext.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://fancytext.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://fancytext.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://fancytext.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://fancytext.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://fancytext.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://fancytext.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://fancytext.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://fancytext.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://fancytext.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://fancytext.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="花式字体生成器：原理、用法与使用注意事项">
+<meta property="og:description" content="把文字变成粗体、手写体、圆圈字和颠倒字。了解花式字体的原理、可能显示不出的原因，以及如何保证可读性。">
+<meta property="og:image" content="https://fancytext.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://fancytext.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://fancytext.example.com/zh/guide.html#article","headline":"花式字体生成器：原理与使用技巧","description":"把文字变成粗体、手写体、圆圈字和颠倒字。了解花式字体的原理、可能显示不出的原因，以及如何保证可读性。","inLanguage":"zh","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://fancytext.example.com/zh/guide.html","url":"https://fancytext.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"花式字体生成器","url":"https://fancytext.example.com/zh/"},"image":"https://fancytext.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"花式字体生成器","item":"https://fancytext.example.com/zh/"},{"@type":"ListItem","position":3,"name":"花式字体生成器：原理与使用技巧","item":"https://fancytext.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">花式字体生成器</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">花式字体生成器</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">✨</span>花式字体生成器</p>
+    <h1>花式字体生成器：原理与使用技巧</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">更新于 2026年10月9日</time></p>
+    <p class="mg-art-intro">社交平台简介、游戏昵称和聊天里常见的特别字体，看上去像换了字体，其实原理不同。了解这一点，才能用得更好。这篇指南会介绍花式字体生成器的用法、局限，以及怎样让文字对所有人都保持易读。</p>
+    <section>
+      <h2>使用方法</h2>
+      <p>在输入框里输入或粘贴文字，下方会出现一列样式，每一行用不同的外观显示你的文字。点一下喜欢的那一行，就会直接复制到剪贴板，可以粘贴到个人简介、文案、聊天或昵称栏。输入框为空时，会用浅色显示示例文字，方便先预览样式。</p>
+      <p>字体样式共有15种，例如粗体、斜体、手写体、哥特体、双线体、等宽体、圆圈字、方块字、小型大写字母、颠倒和加宽。另外有10种适用于任何文字的装饰，包括删除线、下划线、波浪线、拉开字距，以及星星、花朵、爱心或括号做成的边框。文本最长120个字符。</p>
+      <ul>
+        <li>输入或粘贴文字。</li>
+        <li>浏览列表，找到喜欢的样式。</li>
+        <li>点击该行进行复制。</li>
+        <li>粘贴到需要显示的地方。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>为什么它们不是真正的字体</h2>
+      <p>真正的字体是改变普通字母绘制方式的文件。花式字体的原理不同：生成器把每个字母换成Unicode中的另一个字符。Unicode是让电脑显示所有文字系统的通用标准，其中有一块2001年加入的数学字母数字符号，提供了拉丁字母的粗体、斜体、手写体等版本，本来是为了书写公式。其他样式则借用了圆圈字母、方框字母，以及其他区块里外形相似的字符。</p>
+      <p>因为结果是由特殊字符构成的普通文本，所以不用安装任何东西，几乎可以粘贴到任何应用。颠倒样式也不是旋转，而是把每个字母换成看起来像倒过来的字符，并把字母顺序反过来。</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>需要了解的限制</h2>
+      <p>花式样式只适用于拉丁字母和数字，所以适合英语、法语、西班牙语等文本。带重音的字母是由基础字母加组合符号构成的。中文、日文、韩文、泰文和西里尔文无法使用字体样式，因此这些文字只会显示适用于任何字符的装饰效果。</p>
+      <p>显示效果还取决于设备。一些较旧的手机、应用和字体没有收录全部符号，会显示成空白方框，所以请在实际展示的地方测试。花式文字对软件来说也更难读取：读屏软件可能逐个念出数学符号名称，或者直接跳过，搜索工具也不会把这些字母当作普通单词。重要信息、链接、需要被搜索到的名字和长段落，请不要使用花式样式。</p>
+    </section>
+    <section>
+      <h2>花式字体的实用点子</h2>
+      <p>适度使用，可以增加个性。少量点缀通常比整段都用更好看，一两个词最合适。</p>
+      <ul>
+        <li>个人简介只把标题用粗体，其余保持普通文字。</li>
+        <li>在平台允许这些字符时，用于昵称或游戏名。</li>
+        <li>用装饰边框让文案或动态标题更醒目。</li>
+        <li>给Discord服务器名称、活动邀请或派对海报增添亮点。</li>
+        <li>在消息里用删除线做个小玩笑，比如划掉一个词再改成另一个词。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>隐私与分享</h2>
+      <p>所有转换都在浏览器中完成。你输入的文字不会发送到服务器，也不会被保存，所以可以放心试验，包括私人的草稿。关闭页面后内容就会消失。</p>
+      <p>把花式文字发给朋友时，请记得在对方设备上外观可能不同。重要消息最好同时发一份普通文字版本。如果觉得好用，可以用分享按钮告诉正在写简介的朋友。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">✨</span>生成花式字体</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">花式字体生成器</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

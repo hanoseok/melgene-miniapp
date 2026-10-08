@@ -1,0 +1,130 @@
+/* shared/article.css — 긴 글 가이드(apps/<앱>/guide.html, tools/gen-guides.js) 공통 스타일.
+   base.css 다음에 읽는다. 앱과 같은 480px 한 줄(--app-width), 밝은/어두운 화면은 --mg-art-* 토큰으로만 바꾼다.
+   글꼴은 base.css 의 --font-sans 와 :lang(ja/zh/th/vi) 규칙을 그대로 따른다. */
+
+:root {
+  --mg-art-bg: #f6f7fb;
+  --mg-art-card: #ffffff;
+  --mg-art-ink: #161a28;
+  --mg-art-ink-2: #3b4256;
+  --mg-art-muted: #6b7286;
+  --mg-art-line: rgba(22, 26, 40, 0.1);
+  --mg-art-accent: #3355ff;
+  --mg-art-accent-fg: #ffffff;
+  --mg-art-soft: rgba(51, 85, 255, 0.08);
+  --mg-top-fg: var(--mg-art-ink);
+  --lang-bg: var(--mg-art-card);
+  --lang-fg: var(--mg-art-ink);
+  --lang-border: var(--mg-art-line);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mg-art-bg: #0f1320;
+    --mg-art-card: #171c2c;
+    --mg-art-ink: #eef0f7;
+    --mg-art-ink-2: #c5cada;
+    --mg-art-muted: #9097ab;
+    --mg-art-line: rgba(238, 240, 247, 0.12);
+    --mg-art-accent: #7d8cff;
+    --mg-art-accent-fg: #0f1320;
+    --mg-art-soft: rgba(125, 140, 255, 0.12);
+  }
+}
+
+body.mg-art-body {
+  background: var(--mg-art-bg);
+  color: var(--mg-art-ink);
+  min-height: 100vh;
+}
+
+.mg-art-shell {
+  max-width: var(--app-width, 480px);
+  margin: 0 auto;
+  padding: 4px 16px 0;
+}
+
+.mg-art-crumbs {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: var(--mg-art-muted);
+  line-height: 1.5;
+}
+.mg-art-crumbs a { text-decoration: underline; text-underline-offset: 2px; }
+.mg-art-crumbs span[aria-hidden] { margin: 0 6px; }
+
+.mg-art {
+  margin-top: 14px;
+  padding: 24px 20px 28px;
+  background: var(--mg-art-card);
+  border: 1px solid var(--mg-art-line);
+  border-radius: var(--radius-lg, 20px);
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--mg-art-ink-2);
+  overflow-wrap: break-word;
+}
+.mg-art .mg-art-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--mg-art-soft);
+  color: var(--mg-art-accent);
+  font-size: 12.5px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.mg-art h1 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--mg-art-ink);
+}
+.mg-art .mg-art-meta { margin: 8px 0 0; font-size: 12.5px; color: var(--mg-art-muted); }
+.mg-art .mg-art-intro { margin: 18px 0 0; font-size: 17px; color: var(--mg-art-ink); }
+.mg-art section { margin-top: 28px; }
+.mg-art h2 {
+  margin: 0 0 8px;
+  font-size: 19px;
+  line-height: 1.4;
+  font-weight: 800;
+  color: var(--mg-art-ink);
+}
+.mg-art p { margin: 0 0 12px; }
+.mg-art p:last-child { margin-bottom: 0; }
+.mg-art ul { margin: 4px 0 12px; padding-left: 1.25em; }
+.mg-art li { margin: 0 0 6px; }
+.mg-art li::marker { color: var(--mg-art-accent); }
+.mg-art .mg-ad { margin: 28px -4px 0; }
+
+.mg-art .mg-art-cta-wrap { margin: 32px 0 0; text-align: center; }
+.mg-art-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 999px;
+  background: var(--mg-art-accent);
+  color: var(--mg-art-accent-fg);
+  font-size: 16.5px;
+  font-weight: 800;
+  line-height: 1.3;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(51, 85, 255, 0.25);
+}
+.mg-art-cta:hover { filter: brightness(1.06); }
+.mg-art-cta:focus-visible { outline: 3px solid var(--mg-art-ink); outline-offset: 3px; }
+
+.mg-art-body .site-footer { color: var(--mg-art-ink); }
+
+/* 일본어·중국어·태국어: 줄 간격만 조금 (글꼴은 base.css :lang) */
+.mg-art:lang(ja), .mg-art:lang(zh) { line-height: 1.85; }
+.mg-art:lang(th) { line-height: 1.9; }

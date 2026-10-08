@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2048 게임: 하는 법, 공략 팁, 유래 총정리</title>
+<meta name="description" content="2048 게임 하는 법, 모서리 전략이 통하는 이유, 점수 계산 방식과 게임의 유래까지 알려 드려요. 읽고 나서 바로 무료로 해 보세요.">
+<link rel="canonical" href="https://game2048.example.com/ko/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://game2048.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://game2048.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://game2048.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://game2048.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://game2048.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://game2048.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://game2048.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://game2048.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://game2048.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://game2048.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://game2048.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://game2048.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://game2048.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="멜진 미니앱">
+<meta property="og:title" content="2048 게임: 하는 법, 공략 팁, 유래 총정리">
+<meta property="og:description" content="2048 게임 하는 법, 모서리 전략이 통하는 이유, 점수 계산 방식과 게임의 유래까지 알려 드려요. 읽고 나서 바로 무료로 해 보세요.">
+<meta property="og:image" content="https://game2048.example.com/og/ko/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://game2048.example.com/ko/guide.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://game2048.example.com/ko/guide.html#article","headline":"2048 게임: 하는 법과 2048 타일 만드는 요령","description":"2048 게임 하는 법, 모서리 전략이 통하는 이유, 점수 계산 방식과 게임의 유래까지 알려 드려요. 읽고 나서 바로 무료로 해 보세요.","inLanguage":"ko","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"publisher":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"mainEntityOfPage":"https://game2048.example.com/ko/guide.html","url":"https://game2048.example.com/ko/guide.html","about":{"@type":"WebApplication","name":"2048 게임","url":"https://game2048.example.com/ko/"},"image":"https://game2048.example.com/og/ko/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"멜진 미니앱","item":"https://example.com/ko/"},{"@type":"ListItem","position":2,"name":"2048 게임","item":"https://game2048.example.com/ko/"},{"@type":"ListItem","position":3,"name":"2048 게임: 하는 법과 2048 타일 만드는 요령","item":"https://game2048.example.com/ko/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ko/" aria-label="멜진 미니앱 홈으로"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">미니앱</span></a><span class="mg-top-app">2048 게임</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="언어 선택"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko" selected>한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="언어 선택"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ko/">멜진 미니앱</a><span aria-hidden="true">›</span><a href="./">2048 게임</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>2048 게임</p>
+    <h1>2048 게임: 하는 법과 2048 타일 만드는 요령</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">업데이트 2026년 10월 9일</time></p>
+    <p class="mg-art-intro">2048은 4×4 판에서 숫자 타일을 밀어 같은 숫자끼리 합치는 단순한 게임이지만, 의외로 깊이가 있어요. 이 글에서는 규칙과 점수 방식, 고수들이 쓰는 공략 요령, 그리고 지난 10년간 가장 많이 따라 만들어진 퍼즐 게임 중 하나의 짧은 역사를 소개합니다.</p>
+    <section>
+      <h2>하는 방법</h2>
+      <p>판은 4×4 칸이고 처음에 숫자 타일이 몇 개 놓여 있어요. 판 위를 스와이프하거나 방향키(또는 W, A, S, D)를 누르면 모든 타일이 그 방향으로 갈 수 있는 데까지 미끄러집니다. 같은 숫자의 타일 둘이 만나면 두 배 값의 타일 하나로 합쳐져요. 2 두 개는 4가 되고, 64 두 개는 128이 됩니다.</p>
+      <p>판이 실제로 바뀐 움직임 뒤에는 빈칸에 새 타일이 나타납니다. 대부분은 2이고, 열 번에 한 번쯤은 4예요. 밀어도 아무것도 움직이지 않으면 타일이 생기지 않습니다. 목표는 2048 타일을 만드는 것입니다. 만든 뒤에는 더 높은 점수를 노리며 계속하거나 거기서 끝낼 수 있어요.</p>
+      <ul>
+        <li>스와이프나 키로 모든 타일을 한꺼번에 밀어요.</li>
+        <li>이웃한 같은 숫자는 두 배 값의 타일 하나로 합쳐져요.</li>
+        <li>판이 바뀐 움직임 뒤마다 새 2나 4가 나타나요.</li>
+        <li>판이 가득 차고 이웃끼리 같은 숫자가 없으면 끝나요.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>알아 두면 좋은 규칙</h2>
+      <p>한 번 움직일 때 한 타일은 한 번만 합쳐질 수 있습니다. 한 줄에 2, 2, 2, 2가 있으면 밀었을 때 8 하나가 아니라 4 두 개가 만들어지고, 미는 방향의 벽에 가까운 쌍이 먼저 합쳐져요. 연속 합치기를 계획할 때 중요한 부분입니다.</p>
+      <p>시간 제한도 되돌리기도 없어서 한 수 한 수가 확정입니다. 점수는 새로 만들어진 타일의 값만큼 올라가므로, 512가 만들어지는 합치기는 512점이 더해져요. 그래서 큰 합치기는 작은 합치기보다 훨씬 값집니다. 최고 기록은 이 브라우저에 저장되고, 게임이 끝나면 내 점수가 익명으로 다른 플레이어와 비교되어 상위 퍼센트가 나올 수 있어요.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>공략: 가장 큰 타일은 모서리에</h2>
+      <p>가장 쓸모 있는 습관은 모서리 하나를 정해서 가장 큰 타일을 거기에 계속 두는 것입니다. 가장자리를 따라 모서리에 가장 큰 타일, 그 옆에 다음으로 큰 타일 하는 식으로 뱀처럼 큰 순서대로 줄을 세우세요. 줄에 선 타일은 값이 비슷해서 막히지 않고 차례로 합쳐집니다.</p>
+      <p>주로 쓸 방향은 두 개로 정하세요. 모서리가 왼쪽 아래라면 아래와 왼쪽이에요. 세 번째 방향은 꼭 필요할 때만 쓰고, 네 번째는 가능하면 쓰지 마세요. 그 방향이 큰 타일을 모서리에서 끌어내는 수이기 때문입니다. 어쩔 수 없을 때는 모서리 줄이 가득 차 있어서 타일이 빠져나가지 않는지 먼저 확인하세요.</p>
+      <ul>
+        <li>모서리 하나를 정하고 가장 큰 타일을 거기에 두세요.</li>
+        <li>주 방향 두 개를 정하고 세 번째는 아껴 쓰세요.</li>
+        <li>다음 줄을 만들기 전에 지금 줄을 먼저 채우세요.</li>
+        <li>작은 타일은 줄 가까이에서 합치세요.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>자주 하는 실수</h2>
+      <p>초보자는 쉬운 합치기를 쫓아 네 방향을 다 누르곤 해요. 그러면 큰 타일이 판에 흩어지고 작은 타일이 사이에 갇힙니다. 큰 타일 근처에 짝이 없는데도 작은 합치기에 수를 쓰는 것도 흔한 실수예요.</p>
+      <p>한두 수 앞을 내다보세요. 밀기 전에 새 타일이 어디에 나올지, 이 수가 줄을 열어 줄지 막을지 생각해 보세요. 판이 붐비면 천천히 하세요. 성급한 한 번이 게임을 끝낼 수도 있지만, 차분하게 두면 엉망인 판도 살릴 수 있습니다.</p>
+    </section>
+    <section>
+      <h2>2048의 유래</h2>
+      <p>2048은 이탈리아 개발자 가브리엘레 치룰리가 2014년 3월에 주말 프로젝트로 만들었습니다. 1024와 Threes 같은 앞선 게임에서 영감을 받았고, 코드가 공개되면서 수많은 변형과 복제 게임이 나왔어요. 2048은 2의 11제곱이며, 이론상 4×4 판에서는 131072 타일까지 만들 수 있습니다.</p>
+      <p>이 버전은 할로윈 분위기이지만 규칙은 고전 그대로예요. 몇 판 해 보며 모서리 전략을 시험해 보고, 친구에게 점수를 보내 누가 더 멀리 가는지 겨뤄 보세요.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>2048 게임 하러 가기</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 멜진 미니앱 · <a href="./">2048 게임</a> · <a href="privacy.html">개인정보처리방침</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

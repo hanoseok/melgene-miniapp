@@ -45,6 +45,8 @@ Trend Web Chalenge/
 **앱 추가 = `apps/<id>/` 폴더 하나(+ app.config.js)** — 중앙에서 고칠 곳이 없다. `tools/gen-sites.js`(gen-all 이 맨 먼저 부름)가 `apps/*/app.config.js` 를 모아 `shared/site.config.js` 의 `SITES`(생성 구역)를 다시 쓰고, gen-all·check-all·deploy-prep 은 `apps/*` 를 자동 탐색한다. deploy-prep 은 SITES 가 app.config.js 와 어긋나면 멈춘다.
 HTML 페이지는 손으로 고치지 말고 `apps/<id>/tools/` 의 생성기로 만든다(아래 "다국어").
 
+**AdSense "가치가 낮은 콘텐츠" 대응(2026-10-09)**: 앱 시작 화면은 그대로 티징만 두고, 앱마다 긴 글 가이드 `apps/<id>/guide.html`(하는 법·팁·배경, 12개 언어, `tools/guide/<lang>.js` → `tools/gen-guides.js`)을 따로 둔다. 앱 푸터와 끝 화면 FAQ 아래에서 가이드로 링크된다. 포털에는 소개(about)·문의(contact, contact@melgene.com)·이용약관(terms)·가이드 모음(guides) 페이지와 푸터(© · 소개 · 가이드 · 이용약관 · 개인정보 · 문의)가 있다.
+
 ## 배포 (Cloudflare Pages — `./deploy-cf.sh`; 아래는 예전 GitHub Pages 방식)
 
 ```bash
@@ -154,6 +156,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | 포털·다른 미니앱 목록의 제목·설명·카테고리·등록일 | `apps/<id>/app.config.js` → (생성) `shared/site.config.js` 의 `SITES[]` |
 | 사이트별 문구(페이지, 결과, FAQ, 개인정보처리방침) | `apps/<site>/tools/i18n/<lang>.js` |
 | 생성기 공통 헬퍼(hreflang, 상대 링크, sitemap, topBar, appLd, brandOf) | `tools/lib/i18n-gen.js` |
+| 앱별 긴 글 가이드(guide.html) 글 | `apps/<id>/tools/guide/<lang>.js` → `tools/gen-guides.js` (스타일 `shared/article.css`) |
+| 포털 신뢰 페이지(소개·문의·이용약관·가이드 모음) 문구 | `apps/hub/tools/i18n/<lang>.js` 의 `aboutPage`·`contactPage`·`termsPage`·`guidesPage`·`footerNav` |
 | OG 이미지 스크린샷(Chrome headless) | `tools/lib/og-shot.js`, `apps/<site>/tools/gen-og.js` |
 
 ### 다시 생성 / 검증
@@ -162,7 +166,9 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 node tools/gen-all.js            # SITES(app.config.js) + 모든 앱 HTML + sitemap 재생성 → 링크 검사
 node tools/gen-all.js --og       # + OG 이미지 재생성 (Chrome)
 node tools/check-links.js        # apps/ 링크·hreflang·자리표시자 검사 (배포 빌드: ... dist)
-node tools/check-all.js [앱…]   # 모든(또는 지정) 앱의 apps/<앱>/tools/check-*.js (hub 는 --layout)
+node tools/check-all.js [앱…]   # 모든(또는 지정) 앱의 apps/<앱>/tools/check-*.js (hub 는 --layout) + tools/check-guides.js
+node tools/gen-guides.js [앱…]   # 가이드만 다시 (gen-all 이 앱마다 보통 + MG_I18N_MODE=variant 로 자동 실행)
+node tools/check-guides.js [앱…] # 가이드 글·guide.html·푸터 링크·포털 신뢰 페이지 검사
 node tools/mock-supa.js 8799     # 로컬용 가짜 Supabase (운영 DB 대신)
 ```
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://example.com/ja/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://example.com/zh/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -53,7 +53,7 @@
   </url>
   <url>
     <loc>https://example.com/ko/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://example.com/fr/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://example.com/de/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -104,7 +104,7 @@
   </url>
   <url>
     <loc>https://example.com/th/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -121,7 +121,7 @@
   </url>
   <url>
     <loc>https://example.com/vi/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -138,7 +138,7 @@
   </url>
   <url>
     <loc>https://example.com/es/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -155,7 +155,7 @@
   </url>
   <url>
     <loc>https://example.com/it/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -172,7 +172,7 @@
   </url>
   <url>
     <loc>https://example.com/pt/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -189,7 +189,7 @@
   </url>
   <url>
     <loc>https://example.com/ru/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/"/>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://example.com/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -223,7 +223,7 @@
   </url>
   <url>
     <loc>https://example.com/ja/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -240,7 +240,7 @@
   </url>
   <url>
     <loc>https://example.com/zh/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -257,7 +257,7 @@
   </url>
   <url>
     <loc>https://example.com/ko/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -274,7 +274,7 @@
   </url>
   <url>
     <loc>https://example.com/fr/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -291,7 +291,7 @@
   </url>
   <url>
     <loc>https://example.com/de/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://example.com/th/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -325,7 +325,7 @@
   </url>
   <url>
     <loc>https://example.com/vi/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -342,7 +342,7 @@
   </url>
   <url>
     <loc>https://example.com/es/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -359,7 +359,7 @@
   </url>
   <url>
     <loc>https://example.com/it/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -376,7 +376,7 @@
   </url>
   <url>
     <loc>https://example.com/pt/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -393,7 +393,7 @@
   </url>
   <url>
     <loc>https://example.com/ru/privacy.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/privacy.html"/>
@@ -407,5 +407,821 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ja/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ko/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/de/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/th/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/vi/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/es/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/it/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/pt/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ru/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/about.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ja/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ko/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/de/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/th/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/vi/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/es/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/it/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/pt/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ru/contact.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ja/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ko/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/de/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/th/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/vi/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/es/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/it/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/pt/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ru/terms.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ja/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ko/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/de/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/th/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/vi/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/es/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/it/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/pt/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
+  </url>
+  <url>
+    <loc>https://example.com/ru/guides.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://example.com/ja/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://example.com/ko/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://example.com/th/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://example.com/vi/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.com/it/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://example.com/pt/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/guides.html"/>
   </url>
 </urlset>

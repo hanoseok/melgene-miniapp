@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Игра 2048: как играть, стратегия и история</title>
+<meta name="description" content="Как играть в 2048, почему работает стратегия угла, как считаются очки и откуда взялась игра. А потом играй бесплатно прямо в браузере.">
+<link rel="canonical" href="https://game2048.example.com/ru/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://game2048.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://game2048.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://game2048.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://game2048.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://game2048.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://game2048.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://game2048.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://game2048.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://game2048.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://game2048.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://game2048.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://game2048.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://game2048.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Игра 2048: как играть, стратегия и история">
+<meta property="og:description" content="Как играть в 2048, почему работает стратегия угла, как считаются очки и откуда взялась игра. А потом играй бесплатно прямо в браузере.">
+<meta property="og:image" content="https://game2048.example.com/og/ru/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://game2048.example.com/ru/guide.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://game2048.example.com/ru/guide.html#article","headline":"Игра 2048: как играть и собрать плитку 2048","description":"Как играть в 2048, почему работает стратегия угла, как считаются очки и откуда взялась игра. А потом играй бесплатно прямо в браузере.","inLanguage":"ru","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/ru/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/ru/"},"mainEntityOfPage":"https://game2048.example.com/ru/guide.html","url":"https://game2048.example.com/ru/guide.html","about":{"@type":"WebApplication","name":"Игра 2048","url":"https://game2048.example.com/ru/"},"image":"https://game2048.example.com/og/ru/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/ru/"},{"@type":"ListItem","position":2,"name":"Игра 2048","item":"https://game2048.example.com/ru/"},{"@type":"ListItem","position":3,"name":"Игра 2048: как играть и собрать плитку 2048","item":"https://game2048.example.com/ru/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ru/" aria-label="Главная Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Игра 2048</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Язык"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru" selected>Русский</option></select></label><noscript><nav class="lang-links" aria-label="Язык"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ru/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Игра 2048</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>Игра 2048</p>
+    <h1>Игра 2048: как играть и собрать плитку 2048</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">Обновлено 9 октября 2026 г.</time></p>
+    <p class="mg-art-intro">2048 кажется простой: двигаешь плитки с числами по полю четыре на четыре и соединяешь одинаковые. Но у игры удивительная глубина. В статье разбираем правила, подсчёт очков, приёмы опытных игроков и короткую историю одной из самых копируемых головоломок последнего десятилетия.</p>
+    <section>
+      <h2>Как играть</h2>
+      <p>Поле — сетка четыре на четыре с парой плиток с числами. Проведи пальцем по полю или нажми стрелки (или W, A, S, D), и все плитки сдвинутся как можно дальше в этом направлении. Когда две плитки с одинаковым числом сталкиваются, они сливаются в одну с удвоенным значением: две двойки дают четвёрку, две 64 — 128.</p>
+      <p>После каждого хода, который действительно меняет поле, в свободной клетке появляется новая плитка. Чаще всего это 2, примерно один раз из десяти — 4. Если свайп ничего не сдвинул, новая плитка не добавляется. Цель — собрать плитку с числом 2048. Когда получится, можно продолжить ради большего счёта или закончить.</p>
+      <ul>
+        <li>Свайпай или нажимай клавиши, чтобы сдвинуть все плитки сразу.</li>
+        <li>Две одинаковые соседние плитки сливаются в одну с удвоенным значением.</li>
+        <li>После каждого хода, меняющего поле, появляется новая 2 или 4.</li>
+        <li>Игра заканчивается, когда поле заполнено и нет одинаковых соседей.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Правила, которые стоит знать</h2>
+      <p>Плитка может слиться только один раз за ход. Если в ряду 2, 2, 2, 2, один свайп даст две четвёрки, а не восьмёрку, и первой сольётся пара, ближайшая к стенке, в сторону которой ты двигаешь. Эта деталь важна, когда планируешь цепочку слияний.</p>
+      <p>Таймера и отмены хода нет, поэтому каждый ход окончателен. Очки растут на значение каждой новой созданной плитки, так что слияние в 512 приносит 512 очков. Крупные слияния стоят гораздо больше мелких. Лучший результат сохраняется в этом браузере, а по окончании партии твой счёт можно анонимно сравнить с другими игроками и показать процент.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Стратегия: держи самую большую плитку в углу</h2>
+      <p>Самая полезная привычка — выбрать один угол и держать там самую большую плитку. Выстраивай вдоль края убывающую цепочку: самая большая в углу, следующая рядом и так далее, как змейка. Поскольку значения плиток в цепочке близки, они сливаются по очереди, а не застревают.</p>
+      <p>Выбери два основных направления, например вниз и влево, если угол внизу слева. Третье используй только при необходимости, а четвёртое старайся не применять: именно этот ход вытаскивает большую плитку из угла. Если приходится, сначала проверь, что ряд в углу заполнен, чтобы плитка не уехала.</p>
+      <ul>
+        <li>Выбери угол и держи там самую большую плитку.</li>
+        <li>Предпочитай два основных направления, третье используй редко.</li>
+        <li>Заполни ряд цепочки, прежде чем строить следующий.</li>
+        <li>Сливай мелкие плитки рядом с цепочкой, а не вдали от неё.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Частые ошибки</h2>
+      <p>Новички часто двигают во все четыре стороны, гоняясь за лёгкими слияниями. Из-за этого крупные плитки разбросаны по полю, а мелкие оказываются зажаты между ними. Другая ошибка — тратить ходы на крошечные слияния, когда у большой плитки нет пары рядом.</p>
+      <p>Смотри на один-два хода вперёд. Перед каждым свайпом спроси себя, куда может упасть новая плитка и открывает ли ход ряд или закрывает. Когда поле тесное, не спеши: один небрежный свайп может закончить игру, а терпение способно спасти запутанную позицию.</p>
+    </section>
+    <section>
+      <h2>Откуда взялась 2048</h2>
+      <p>2048 создал итальянский разработчик Габриэле Чирулли в марте 2014 года как проект выходного дня. Его вдохновили более ранние игры вроде 1024 и Threes, а исходный код он опубликовал открыто, что породило бесчисленные вариации и клоны. Число 2048 — это два в одиннадцатой степени, и теоретически на поле четыре на четыре можно получить плитку 131072.</p>
+      <p>В этой версии добавлена хэллоуинская атмосфера, но правила классические. Сыграй несколько партий, попробуй стратегию угла и отправь счёт другу, чтобы узнать, кто зайдёт дальше.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>Играть в 2048</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Игра 2048</a> · <a href="privacy.html">Конфиденциальность</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

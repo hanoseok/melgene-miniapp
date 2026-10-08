@@ -10,7 +10,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 | 자세한 문서 | 언제 |
 |---|---|
 | [references/portal.md](references/portal.md) | 포털 화면 순서·오늘의 미니앱 카드 크기·포털 FAQ·정렬 |
-| [references/new-app.md](references/new-app.md) | 새 미니앱을 처음부터 만들 때 (폴더·생성기·등록·언어별 글꼴 주의·검사) |
+| [references/new-app.md](references/new-app.md) | 새 미니앱을 처음부터 만들 때 (폴더·생성기·등록·가이드 글·언어별 글꼴 주의·검사) |
 | [references/seo.md](references/seo.md) | 제목·설명·JSON-LD·현지 검색어 표·Search Console |
 | `.claude/skills/melgene-ops/SKILL.md` | 배포·라이브 확인·광고(AdSense)·통계(Supabase)·DB 변경 |
 
@@ -43,6 +43,15 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 - 끝 화면은 처음엔 숨어 있으므로 **FAQPage JSON-LD 는 넣지 않는다**(WebApplication / WebSite / ItemList 는 괜찮다).
 - **넣지 않는 질문**(포털 포함): "정말 무료인가요?" 류, "인기순·하트·별점은 어떻게 정해지나요?" 류 운영 설명. FAQ는 그 앱을 하는 데 필요한 질문만.
 
+## 2-2. 긴 글 가이드(guide.html)와 신뢰 페이지 — AdSense "가치가 낮은 콘텐츠" 대응
+
+- 배경: 2026-10 AdSense 가 melgene.com 을 "가치가 낮은 콘텐츠"(얇은 페이지, 소개·문의·약관 없음)로 거절했다. 사용자 승인(2026-10-09): **시작 화면은 계속 티징만**(2번 규칙 그대로) 두고, 글은 별도 페이지에 둔다.
+- **모든 앱에 긴 글 가이드 `apps/<id>/guide.html`** 이 있다(12개 언어). 새 앱을 만들 때 **같이 쓴다**: `apps/<id>/tools/guide/<lang>.js`(metaTitle·description·h1·updated·intro·sections 4~6개·cta, 일반 텍스트) → `node tools/gen-all.js` 가 `tools/gen-guides.js` 로 페이지·사이트맵·푸터 링크를 만든다. en 450단어 이상, 하는 법·팁·배경·원리. **스포일러 금지는 가이드에도 그대로**(질문·결과 목록·정답·결과 이름 모음 금지). 심리테스트 가이드는 재미용이라는 점을 밝힌다. 자세한 모양은 references/new-app.md 4-1번.
+- 가이드 페이지: 공통 타이틀 바 → 본문(h1·업데이트 날짜·소개·섹션) → 2번째 섹션 뒤 `mg-ad` 1개 → 앱으로 가는 CTA → 푸터. Article + BreadcrumbList JSON-LD, `shared/article.css`. 가이드 조회는 플레이 수로 세지 않는다.
+- 앱 푸터는 `© 앱 이름 · 개인정보처리방침 · 가이드`(가이드 링크는 gen-guides 가 넣는다). 끝 화면에는 ⑤ FAQ 블록 **맨 아래**에 작은 "📖 가이드 & 팁" 링크(`<meta name="mg-guide">` 가 있을 때만, common.js) — 3번 순서는 바뀌지 않는다.
+- 포털 신뢰 페이지: `about.html`(소개 — 누가·왜·어떻게 만들고 확인하는지, 심리테스트는 재미용), `contact.html`(contact@melgene.com, 답장은 영업일 며칠), `terms.html`(이용약관), `guides.html`(가이드가 있는 앱 목록, 자동). 문구는 `apps/hub/tools/i18n/<lang>.js` 의 `aboutPage`·`contactPage`·`termsPage`·`guidesPage`·`footerNav`. 포털 모든 페이지 푸터: © · 소개 · 가이드 · 이용약관 · 개인정보 · 문의. 신뢰 페이지에는 광고 자리를 두지 않는다.
+- 검사: `node tools/check-guides.js`(check-all 이 마지막에 자동) — 가이드가 없는 앱은 실패.
+
 ## 3. 공통 끝 화면 (모든 앱 동일)
 
 끝 화면 순서는 고정이다:
@@ -51,7 +60,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 2. ★ 별점 + ♥ 하트
 3. 광고
 4. 공유: 링크 복사 · X · Instagram · TikTok · Facebook · 메신저(언어별: ko 카카오톡 / ja·th LINE / ru Telegram / 그 밖 WhatsApp)
-5. 자주 묻는 질문 (접이식, `MG_FAQ`)
+5. 자주 묻는 질문 (접이식, `MG_FAQ`) — 맨 아래에 가이드가 있으면 작은 "📖 가이드 & 팁" 링크(2-2번)
 6. 다시 하기
 7. 다른 미니앱 링크 — **무작위 5개만**(`renderMoreTests`, 사용자 지시 2026-10-04; 예전 최신순 전체 목록은 폐지)
 
@@ -96,7 +105,7 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 
 ## 8. 끝내기 전 확인
 
-- `node tools/gen-all.js`(링크 검사 포함), `node tools/check-all.js`(모든 앱의 `tools/check-*.js`, 포털은 `--layout`), 360/375/1440 폭, en + 비라틴 언어 하나로 전체 흐름, 콘솔 오류 0.
+- `node tools/gen-all.js`(링크 검사 포함), `node tools/check-all.js`(모든 앱의 `tools/check-*.js`, 포털은 `--layout`, 마지막에 `tools/check-guides.js`), 360/375/1440 폭, en + 비라틴 언어 하나로 전체 흐름, 콘솔 오류 0.
 - 이 문서의 1·2번(스포일러·FAQ)을 어긴 곳이 없는지 생성된 HTML에서 한 번 더 찾는다.
 - 완성되면 바로 배포하고 알린다(melgene-ops). LOG.md 에 한 줄, 규칙이 바뀌었으면 이 스킬도 고친다.
 

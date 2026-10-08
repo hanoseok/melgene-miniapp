@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Juego 2048: cómo jugar, estrategia y origen</title>
+<meta name="description" content="Aprende a jugar al 2048, por qué funciona la estrategia de la esquina, cómo se calcula la puntuación y de dónde viene el juego. Luego juega gratis.">
+<link rel="canonical" href="https://game2048.example.com/es/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://game2048.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://game2048.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://game2048.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://game2048.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://game2048.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://game2048.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://game2048.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://game2048.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://game2048.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://game2048.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://game2048.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://game2048.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://game2048.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Juego 2048: cómo jugar, estrategia y origen">
+<meta property="og:description" content="Aprende a jugar al 2048, por qué funciona la estrategia de la esquina, cómo se calcula la puntuación y de dónde viene el juego. Luego juega gratis.">
+<meta property="og:image" content="https://game2048.example.com/og/es/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://game2048.example.com/es/guide.html">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-09">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://game2048.example.com/es/guide.html#article","headline":"Juego 2048: cómo jugar y llegar a la ficha 2048","description":"Aprende a jugar al 2048, por qué funciona la estrategia de la esquina, cómo se calcula la puntuación y de dónde viene el juego. Luego juega gratis.","inLanguage":"es","datePublished":"2026-10-09","dateModified":"2026-10-09","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"mainEntityOfPage":"https://game2048.example.com/es/guide.html","url":"https://game2048.example.com/es/guide.html","about":{"@type":"WebApplication","name":"Juego 2048","url":"https://game2048.example.com/es/"},"image":"https://game2048.example.com/og/es/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/es/"},{"@type":"ListItem","position":2,"name":"Juego 2048","item":"https://game2048.example.com/es/"},{"@type":"ListItem","position":3,"name":"Juego 2048: cómo jugar y llegar a la ficha 2048","item":"https://game2048.example.com/es/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Inicio de Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Juego 2048</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Idioma"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es" selected>Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Idioma"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Juego 2048</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>Juego 2048</p>
+    <h1>Juego 2048: cómo jugar y llegar a la ficha 2048</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-09">Actualizado: 9 de octubre de 2026</time></p>
+    <p class="mg-art-intro">El 2048 parece sencillo: deslizar fichas numeradas por un tablero de cuatro por cuatro y fusionar las iguales. Sin embargo, tiene una profundidad sorprendente. Esta guía explica las reglas, la puntuación, las técnicas de estrategia de los jugadores con experiencia y la breve historia de uno de los puzles más copiados de la última década.</p>
+    <section>
+      <h2>Cómo jugar</h2>
+      <p>El tablero es una cuadrícula de cuatro por cuatro con un par de fichas numeradas. Desliza el dedo sobre el tablero o pulsa las flechas (o W, A, S, D) y todas las fichas se deslizan lo más lejos posible en esa dirección. Cuando dos fichas con el mismo número chocan, se fusionan en una ficha con el doble de valor: dos 2 forman un 4 y dos 64 forman un 128.</p>
+      <p>Tras cada movimiento que realmente cambia el tablero, aparece una ficha nueva en una casilla vacía. Casi siempre es un 2 y, más o menos una de cada diez veces, un 4. Si tu deslizamiento no mueve nada, no se añade ficha. Tu objetivo es crear una ficha con el número 2048. Cuando lo consigas, puedes seguir para lograr más puntos o terminar ahí.</p>
+      <ul>
+        <li>Desliza o usa las teclas para mover todas las fichas a la vez.</li>
+        <li>Dos vecinas iguales se fusionan en una ficha con el doble de valor.</li>
+        <li>Aparece un 2 o un 4 nuevo tras cada movimiento que cambia el tablero.</li>
+        <li>La partida acaba cuando el tablero está lleno y ninguna vecina coincide.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Reglas que conviene conocer</h2>
+      <p>Una ficha solo puede fusionarse una vez por movimiento. Si una fila tiene 2, 2, 2, 2, un deslizamiento produce dos 4, no un 8, y la pareja más cercana a la pared hacia la que deslizas se fusiona primero. Este detalle importa cuando planificas una cadena de fusiones.</p>
+      <p>No hay cronómetro ni deshacer, así que cada movimiento es definitivo. Tu puntuación sube según el valor de cada ficha nueva que creas, de modo que una fusión que produce un 512 suma 512 puntos. Las fusiones grandes valen mucho más que las pequeñas. Tu mejor puntuación se guarda en este navegador y, al terminar una partida, tu resultado puede compararse de forma anónima con el de otros jugadores para mostrar un porcentaje.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Estrategia: mantén tu ficha mayor en una esquina</h2>
+      <p>El hábito más útil es elegir una esquina y conservar allí tu ficha más grande. Construye una cadena descendente por el borde, con la mayor en la esquina, la siguiente a su lado y así sucesivamente, como una serpiente. Como las fichas de la cadena tienen valores cercanos, se fusionan en orden en lugar de atascarse.</p>
+      <p>Elige dos direcciones principales, por ejemplo abajo e izquierda si tu esquina es la inferior izquierda. Usa una tercera solo cuando sea necesario e intenta no usar la cuarta, porque es el movimiento que arrastra tu ficha grande fuera de la esquina. Si no te queda otra, comprueba antes que la fila de la esquina esté llena para que la ficha no pueda escapar.</p>
+      <ul>
+        <li>Elige una esquina y deja allí tu ficha más grande.</li>
+        <li>Prefiere dos direcciones principales y usa la tercera con moderación.</li>
+        <li>Llena la fila de tu cadena antes de construir la siguiente.</li>
+        <li>Fusiona las fichas pequeñas cerca de la cadena, no lejos de ella.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Errores comunes</h2>
+      <p>Los principiantes suelen deslizar en las cuatro direcciones para perseguir fusiones fáciles. Eso dispersa las fichas grandes por el tablero y deja atrapadas a las pequeñas entre ellas. Otro error es gastar movimientos en fusiones diminutas mientras una ficha grande no tiene pareja cerca.</p>
+      <p>Mira uno o dos movimientos por delante. Antes de cada deslizamiento, pregúntate dónde podría caer la nueva ficha y si el movimiento abre una fila o la bloquea. Cuando el tablero se llena, ve más despacio: un solo gesto descuidado puede acabar la partida, mientras que la paciencia puede salvar una posición caótica.</p>
+    </section>
+    <section>
+      <h2>De dónde viene el 2048</h2>
+      <p>El 2048 fue creado por el desarrollador italiano Gabriele Cirulli en marzo de 2014 como proyecto de fin de semana. Se inspiró en juegos anteriores como 1024 y Threes, y publicó el código abiertamente, lo que dio lugar a incontables variantes y clones. El número 2048 es dos elevado a once y, en teoría, un tablero de cuatro por cuatro puede llegar a una ficha de 131072.</p>
+      <p>Esta versión añade un aire de Halloween, pero las reglas son las clásicas. Juega unas partidas, prueba la estrategia de la esquina y comparte tu puntuación con un amigo para ver quién llega más lejos.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>Jugar al 2048</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Juego 2048</a> · <a href="privacy.html">Política de privacidad</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

@@ -363,3 +363,16 @@ button { font-family: inherit; }
 .mg-faq[open] summary::after { transform: rotate(225deg); margin-top: -2px; }
 .mg-faq p { margin: 0; padding: 0 14px 14px; font-size: 13.5px; line-height: 1.65; opacity: 0.85; }
 @media (prefers-reduced-motion: reduce) { .mg-faq summary::after { transition: none; } }
+
+/* 끝 화면 ④ 맨 아래: 긴 글 가이드 링크 (meta mg-guide 가 있을 때만, common.js guideLink) */
+.mg-end-guide {
+  display: inline-block;
+  margin: 8px 0 2px;
+  padding: 6px 2px;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.85;
+}
+.mg-end-guide:hover { opacity: 1; }

@@ -215,4 +215,116 @@ module.exports = {
     ],
     back: '← Quay lại Melgene Apps',
   },
+  // Chân trang mọi trang cổng (Giới thiệu · Hướng dẫn · Điều khoản · Quyền riêng tư · Liên hệ). Văn bản thuần (được escape).
+  footerNav: { about: 'Giới thiệu', guides: 'Hướng dẫn', terms: 'Điều khoản sử dụng', privacy: 'Quyền riêng tư', contact: 'Liên hệ' },
+  aboutPage: {
+    title: 'Giới thiệu | Melgene Apps',
+    description: 'Melgene Apps là một studio độc lập nhỏ làm mini game, trắc nghiệm tính cách và công cụ sáng tạo miễn phí trên trình duyệt bằng 12 ngôn ngữ. Cách chúng tôi làm ra chúng.',
+    h1: 'Về Melgene Apps',
+    lead: 'Melgene Apps là một studio nhỏ, độc lập, chuyên làm các mini app miễn phí mở được trên mọi trình duyệt: game ngắn, trắc nghiệm tính cách vui vẻ, công cụ sáng tạo nho nhỏ và những trợ thủ giúp bạn quyết định chuyện thường ngày. Không cần tải về, không cần tài khoản, và phần lớn chỉ mất khoảng một phút.',
+    sections: [
+      {
+        h: 'Chúng tôi làm gì',
+        p: [
+          'Mỗi mini app của Melgene chỉ làm một việc, nhưng làm thật tốt. Có những game kiểu arcade chơi xong trong giờ giải lao như đập chuột chũi, phá gạch hay xếp hình hợp nhất. Có những bài trắc nghiệm tính cách biến vài tình huống quen thuộc thành một kết quả vui nhộn để chia sẻ. Lại có những app giúp bạn tạo ra thứ gì đó như chữ kiểu, thiệp mời tiệc, biệt danh, hoặc chốt một quyết định nhỏ bằng vòng quay, trò bốc thăm thang hay tung đồng xu.',
+          'Chúng tôi thường xuyên ra app mới, nhiều khi theo mùa và dịp lễ, đồng thời liên tục cải thiện các app cũ dựa trên cách mọi người thực sự sử dụng.',
+        ],
+      },
+      {
+        h: 'Vì sao chúng tôi làm',
+        p: ['Chúng tôi tin rằng những khoảnh khắc vui vẻ trên mạng nên nhanh, thân thiện và miễn phí. Nhiều trang game hay trắc nghiệm bắt bạn đăng ký, hiện pop-up và mời cài app trước. Chúng tôi muốn làm ngược lại: chạm vào liên kết, app mở ra, bạn chơi ngay, và chỉ thêm một chạm là gửi được cho bạn bè.'],
+      },
+      {
+        h: 'Mỗi app được làm và kiểm tra thế nào',
+        p: ['Mỗi app bắt đầu từ một bản kế hoạch ngắn: dành cho ai, một lượt chơi mất bao lâu và màn hình kết quả hiển thị gì. Sau đó chúng tôi làm thành một trang web nhẹ và kiểm tra trước khi phát hành:'],
+        list: [
+          'Trên màn hình điện thoại nhỏ (rộng 360px) cũng như máy tính bảng và trình duyệt máy tính',
+          'Đủ cả 12 ngôn ngữ, kiểm tra từng dòng có vừa màn hình và đọc tự nhiên không',
+          'Bằng các bước kiểm tra tự động về liên kết hỏng, bản dịch còn thiếu và cấu trúc trang',
+          'Không tiết lộ trước: màn hình bắt đầu chỉ gợi tò mò, không bao giờ để lộ câu hỏi hay kết quả',
+        ],
+      },
+      {
+        h: 'Ưu tiên di động, 12 ngôn ngữ',
+        p: ['Phần lớn mọi người chơi trên điện thoại, nên app nào cũng được thiết kế cho màn hình hẹp trước tiên. Melgene Apps có bằng tiếng Việt, Anh, Nhật, Trung, Hàn, Pháp, Đức, Thái, Tây Ban Nha, Ý, Bồ Đào Nha và Nga. Chúng tôi viết từng ngôn ngữ cho người đọc bản xứ thay vì dịch từng chữ, và dùng đúng tên gọi mà người ở mỗi nước thật sự tìm kiếm.'],
+      },
+      {
+        h: 'Tôn trọng quyền riêng tư ngay từ thiết kế',
+        p: ['Bạn không bao giờ cần tài khoản, và chúng tôi không hỏi tên, email hay số điện thoại của bạn. Những gì bạn nhập vào app được xử lý ngay trong trình duyệt của bạn. Lượt chơi, tim và đánh giá chỉ là con số tổng ẩn danh của từng app. Trang web được duy trì nhờ quảng cáo Google AdSense; chi tiết có trong Chính sách quyền riêng tư.'],
+      },
+      {
+        h: 'Lưu ý về trắc nghiệm tính cách',
+        p: ['Các bài trắc nghiệm tính cách, kiểm tra tuổi tâm hồn và những câu đố tương tự được làm ra để giải trí. Chúng không phải đánh giá tâm lý, y khoa hay chuyên môn, và bạn đừng dựa vào kết quả để đưa ra quyết định quan trọng về bản thân hay người khác. Hãy xem chúng như một chủ đề để trò chuyện và một chút niềm vui.'],
+      },
+      {
+        h: 'Liên hệ với chúng tôi',
+        p: ['Chúng tôi đọc mọi tin nhắn. Nếu bạn phát hiện lỗi, có ý tưởng cho mini app mới hoặc muốn bàn chuyện hợp tác, hãy vào trang Liên hệ hoặc gửi email tới contact@melgene.com.'],
+      },
+    ],
+  },
+  contactPage: {
+    title: 'Liên hệ | Melgene Apps',
+    description: 'Liên hệ Melgene Apps qua email để góp ý, báo lỗi, đề xuất hợp tác hoặc gửi yêu cầu về quyền riêng tư. Chúng tôi thường trả lời trong vài ngày làm việc.',
+    h1: 'Liên hệ',
+    lead: 'Bạn có câu hỏi, ý tưởng hay gặp trục trặc? Chúng tôi là một nhóm nhỏ và tự đọc từng tin nhắn.',
+    emailH: 'Email',
+    emailNote: 'Chúng tôi thường trả lời trong vài ngày làm việc.',
+    sections: [
+      {
+        h: 'Bạn có thể liên hệ về',
+        p: ['Cứ thoải mái viết cho chúng tôi về bất cứ điều gì liên quan đến Melgene Apps, ví dụ:'],
+        list: [
+          'Góp ý và ý tưởng cho mini game, trắc nghiệm hay công cụ mới',
+          'Báo lỗi: trang không tải, nút không bấm được hoặc chữ bị cắt',
+          'Lỗi dịch hoặc câu chữ nghe không tự nhiên trong ngôn ngữ của bạn',
+          'Đề xuất hợp tác, bản quyền hoặc báo chí',
+          'Yêu cầu về quyền riêng tư và câu hỏi về dữ liệu hay cookie',
+        ],
+      },
+      {
+        h: 'Khi báo lỗi',
+        p: ['Để chúng tôi sửa nhanh, hãy ghi tên mini app, ngôn ngữ bạn đang dùng, thiết bị và trình duyệt (ví dụ iPhone với Safari hoặc Android với Chrome) và mô tả ngắn chuyện gì đã xảy ra. Có ảnh chụp màn hình thì càng tốt.'],
+      },
+      {
+        h: 'Thời gian phản hồi',
+        p: ['Chúng tôi thường trả lời trong vài ngày làm việc; dịp lễ Tết có thể lâu hơn một chút. Chúng tôi sẽ không bao giờ hỏi mật khẩu hay thông tin thanh toán của bạn.'],
+      },
+    ],
+  },
+  termsPage: {
+    title: 'Điều khoản sử dụng | Melgene Apps',
+    description: 'Điều khoản sử dụng Melgene Apps: mini game và trắc nghiệm miễn phí trên trình duyệt được cung cấp nguyên trạng để giải trí, quy tắc sử dụng, liên kết chia sẻ và quảng cáo bên thứ ba.',
+    h1: 'Điều khoản sử dụng',
+    updated: 'Cập nhật lần cuối: ngày 9 tháng 10 năm 2026',
+    lead: 'Điều khoản sử dụng này áp dụng cho Melgene Apps (“Dịch vụ”), bao gồm cổng chính và mọi mini app trên trang của chúng tôi. Khi sử dụng Dịch vụ, bạn đồng ý với các điều khoản này. Nếu không đồng ý, vui lòng không sử dụng Dịch vụ.',
+    sections: [
+      { h: '1. Dịch vụ', p: ['Melgene Apps cung cấp miễn phí mini game, trắc nghiệm tính cách, công cụ sáng tạo và công cụ hỗ trợ quyết định chạy trên trình duyệt web. Không cần tài khoản. Chúng tôi có thể thêm, thay đổi hoặc gỡ bỏ app và tính năng bất cứ lúc nào.'] },
+      { h: '2. Cung cấp nguyên trạng', p: ['Dịch vụ được cung cấp “nguyên trạng” và “tùy theo khả năng sẵn có”, không kèm bất kỳ bảo đảm nào. Chúng tôi cố gắng để mọi thứ chạy ổn định, nhưng không bảo đảm Dịch vụ luôn sẵn sàng, không có lỗi hay phù hợp với một mục đích cụ thể. Trong phạm vi pháp luật cho phép, chúng tôi không chịu trách nhiệm về tổn thất hay thiệt hại phát sinh từ việc sử dụng Dịch vụ.'] },
+      { h: '3. Chỉ để giải trí', p: ['Kết quả của trắc nghiệm tính cách, kiểm tra tuổi tâm hồn, bốc thăm ngẫu nhiên và các tính năng tương tự chỉ để vui. Chúng không phải lời khuyên khoa học, tâm lý, y khoa, tài chính hay chuyên môn. Kết quả ngẫu nhiên như dãy số xổ số cũng không làm tăng cơ hội trúng thưởng.'] },
+      {
+        h: '4. Quy tắc sử dụng',
+        p: ['Khi dùng Dịch vụ, bạn đồng ý không:'],
+        list: [
+          'Dùng Dịch vụ cho mục đích trái pháp luật, gây hại hoặc lạm dụng',
+          'Nhập nội dung thù ghét, quấy rối, khiêu dâm hoặc xâm phạm quyền của người khác',
+          'Phá rối, gây quá tải, thu thập dữ liệu hàng loạt hoặc truy cập trái phép vào Dịch vụ',
+          'Thao túng lượt chơi, tim, đánh giá hay quảng cáo, kể cả bằng công cụ tự động hoặc nhấp chuột không hợp lệ',
+        ],
+      },
+      { h: '5. Nội dung bạn tạo và chia sẻ', p: ['Một số app cho phép bạn nhập tên hoặc chữ, tạo hình ảnh hay tạo liên kết chia sẻ. Bạn chịu trách nhiệm về những gì mình nhập và chia sẻ. Liên kết chia sẻ chỉ lưu thông tin cần thiết để hiển thị kết quả đó, và ai có liên kết cũng mở được, vì vậy đừng đưa thông tin cá nhân hay nhạy cảm vào. Chúng tôi có thể xóa liên kết vi phạm các điều khoản này.'] },
+      { h: '6. Quảng cáo và cookie', p: ['Dịch vụ miễn phí nhờ quảng cáo. Quảng cáo do bên thứ ba như Google AdSense cung cấp; họ có thể dùng cookie và công nghệ tương tự để hiển thị và đo lường quảng cáo, bao gồm quảng cáo cá nhân hóa. Chúng tôi không kiểm soát nội dung quảng cáo của bên thứ ba hay các trang mà quảng cáo dẫn tới. Bạn có thể tìm hiểu thêm và điều chỉnh lựa chọn trong Chính sách quyền riêng tư và phần Cài đặt quảng cáo của Google.'] },
+      { h: '7. Sở hữu trí tuệ', p: ['Thiết kế, mã nguồn, chữ viết, hình minh họa và các tài liệu khác của Dịch vụ thuộc về Melgene Apps hoặc bên cấp phép và được pháp luật bảo vệ. Bạn có thể dùng Dịch vụ cho mục đích cá nhân, phi thương mại và tự do chia sẻ liên kết. Vui lòng không sao chép, đăng lại hay bán app hoặc nội dung khi chưa được chúng tôi cho phép.'] },
+      { h: '8. Thay đổi điều khoản', p: ['Thỉnh thoảng chúng tôi có thể cập nhật Điều khoản sử dụng này và sẽ đổi ngày ở đầu trang khi cập nhật. Nếu bạn tiếp tục dùng Dịch vụ sau khi cập nhật, nghĩa là bạn chấp nhận điều khoản mới.'] },
+      { h: '9. Liên hệ', p: ['Nếu có câu hỏi về các điều khoản này, hãy gửi email tới contact@melgene.com hoặc dùng trang Liên hệ.'] },
+    ],
+  },
+  guidesPage: {
+    title: 'Hướng dẫn & mẹo cho mọi mini app | Melgene Apps',
+    description: 'Cách chơi, mẹo hay và chuyện thú vị về mini game, trắc nghiệm tính cách và công cụ của Melgene. Đọc hướng dẫn ngắn rồi vào app chơi ngay.',
+    h1: 'Hướng dẫn & mẹo',
+    lead: 'Mỗi bài hướng dẫn giải thích mini app hoạt động ra sao, làm thế nào để chơi giỏi hơn và vài điều nên biết trước khi bắt đầu. Không tiết lộ trước: câu hỏi và kết quả vẫn là bất ngờ.',
+    read: 'Đọc hướng dẫn',
+    play: 'Chơi',
+    empty: 'Các bài hướng dẫn sắp có. Bạn quay lại sau nhé!',
+  },
 };

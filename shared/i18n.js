@@ -62,7 +62,10 @@
       shareGuide: '링크를 복사했어요. {app}에 붙여넣어 공유하세요',
       brandBadge: '미니앱',
       homeAria: '멜진 미니앱 홈으로',
-      faqTitle: '자주 묻는 질문'
+      faqTitle: '자주 묻는 질문',
+      guideLink: '가이드',
+      guideMore: '📖 가이드 & 팁',
+      guideUpdated: '업데이트 {date}'
     },
     en: {
       copied: 'Link copied!',
@@ -95,7 +98,10 @@
       shareGuide: 'Link copied — paste it in {app} to share',
       brandBadge: 'Apps',
       homeAria: 'Melgene Apps home',
-      faqTitle: 'FAQ'
+      faqTitle: 'FAQ',
+      guideLink: 'Guide',
+      guideMore: '📖 Guide & tips',
+      guideUpdated: 'Updated {date}'
     },
     ja: {
       copied: 'リンクをコピーしました',
@@ -126,7 +132,10 @@
       shareGuide: 'リンクをコピーしました。{app}に貼り付けてシェアしてください',
       brandBadge: 'ミニアプリ',
       homeAria: 'メルジン ミニアプリのホームへ',
-      faqTitle: 'よくある質問'
+      faqTitle: 'よくある質問',
+      guideLink: 'ガイド',
+      guideMore: '📖 遊び方ガイド & コツ',
+      guideUpdated: '更新日 {date}'
     },
     zh: {
       copied: '链接已复制',
@@ -157,7 +166,10 @@
       shareGuide: '链接已复制，粘贴到{app}即可分享',
       brandBadge: '小应用',
       homeAria: '返回 Melgene 小应用首页',
-      faqTitle: '常见问题'
+      faqTitle: '常见问题',
+      guideLink: '攻略',
+      guideMore: '📖 玩法攻略与技巧',
+      guideUpdated: '更新于 {date}'
     },
     fr: {
       copied: 'Lien copié !',
@@ -189,7 +201,10 @@
       shareGuide: 'Lien copié — collez-le dans {app} pour partager',
       brandBadge: 'Apps',
       homeAria: 'Accueil Melgene Apps',
-      faqTitle: 'Questions fréquentes'
+      faqTitle: 'Questions fréquentes',
+      guideLink: 'Guide',
+      guideMore: '📖 Guide et astuces',
+      guideUpdated: 'Mis à jour le {date}'
     },
     de: {
       copied: 'Link kopiert!',
@@ -221,7 +236,10 @@
       shareGuide: 'Link kopiert – füge ihn in {app} ein, um zu teilen',
       brandBadge: 'Apps',
       homeAria: 'Zur Melgene-Apps-Startseite',
-      faqTitle: 'Häufige Fragen'
+      faqTitle: 'Häufige Fragen',
+      guideLink: 'Anleitung',
+      guideMore: '📖 Anleitung & Tipps',
+      guideUpdated: 'Aktualisiert am {date}'
     },
     th: {
       copied: 'คัดลอกลิงก์แล้ว',
@@ -252,7 +270,10 @@
       shareGuide: 'คัดลอกลิงก์แล้ว วางใน {app} เพื่อแชร์',
       brandBadge: 'Apps',
       homeAria: 'กลับหน้าแรก Melgene Apps',
-      faqTitle: 'คำถามที่พบบ่อย'
+      faqTitle: 'คำถามที่พบบ่อย',
+      guideLink: 'คู่มือ',
+      guideMore: '📖 คู่มือและเคล็ดลับ',
+      guideUpdated: 'อัปเดต {date}'
     },
     vi: {
       copied: 'Đã sao chép liên kết',
@@ -283,7 +304,10 @@
       shareGuide: 'Đã sao chép liên kết — dán vào {app} để chia sẻ',
       brandBadge: 'Apps',
       homeAria: 'Về trang chủ Melgene Apps',
-      faqTitle: 'Câu hỏi thường gặp'
+      faqTitle: 'Câu hỏi thường gặp',
+      guideLink: 'Hướng dẫn',
+      guideMore: '📖 Hướng dẫn & mẹo',
+      guideUpdated: 'Cập nhật {date}'
     },
     es: {
       copied: '¡Enlace copiado!',
@@ -316,7 +340,10 @@
       shareGuide: 'Enlace copiado: pégalo en {app} para compartir',
       brandBadge: 'Apps',
       homeAria: 'Inicio de Melgene Apps',
-      faqTitle: 'Preguntas frecuentes'
+      faqTitle: 'Preguntas frecuentes',
+      guideLink: 'Guía',
+      guideMore: '📖 Guía y consejos',
+      guideUpdated: 'Actualizado: {date}'
     },
     it: {
       copied: 'Link copiato!',
@@ -349,7 +376,10 @@
       shareGuide: 'Link copiato: incollalo su {app} per condividerlo',
       brandBadge: 'Apps',
       homeAria: 'Home di Melgene Apps',
-      faqTitle: 'Domande frequenti'
+      faqTitle: 'Domande frequenti',
+      guideLink: 'Guida',
+      guideMore: '📖 Guida e consigli',
+      guideUpdated: 'Aggiornato il {date}'
     },
     pt: {
       copied: 'Link copiado!',
@@ -382,7 +412,10 @@
       shareGuide: 'Link copiado! Cole no {app} para compartilhar',
       brandBadge: 'Apps',
       homeAria: 'Início do Melgene Apps',
-      faqTitle: 'Perguntas frequentes'
+      faqTitle: 'Perguntas frequentes',
+      guideLink: 'Guia',
+      guideMore: '📖 Guia e dicas',
+      guideUpdated: 'Atualizado em {date}'
     },
     ru: {
       copied: 'Ссылка скопирована!',
@@ -416,7 +449,10 @@
       shareGuide: 'Ссылка скопирована — вставьте её в {app}',
       brandBadge: 'Apps',
       homeAria: 'Главная Melgene Apps',
-      faqTitle: 'Частые вопросы'
+      faqTitle: 'Частые вопросы',
+      guideLink: 'Гайд',
+      guideMore: '📖 Гайд и советы',
+      guideUpdated: 'Обновлено {date}'
     }
   };
 

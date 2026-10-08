@@ -331,7 +331,7 @@ function checkHtml() {
     pages++;
   });
   const sm = read('sitemap.xml');
-  const urls = (sm.match(/<loc>/g) || []).length;
+  const urls = (sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length;
   if (urls !== G.LOCALES.length) bad(`sitemap.xml URL ${urls} ≠ ${G.LOCALES.length}`);
   if (!sm.includes('<loc>https://ghost.example.com/</loc>') || !sm.includes('<loc>https://ghost.example.com/ko/</loc>')) bad('sitemap.xml 주소가 이상함');
   // 둥실둥실은 큰 그림에만, 움직임 줄이기 설정이면 멈춤

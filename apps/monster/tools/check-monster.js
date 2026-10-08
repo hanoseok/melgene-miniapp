@@ -266,7 +266,7 @@ function checkHtml() {
   });
   // sitemap
   const sm = read('sitemap.xml');
-  const urls = (sm.match(/<loc>/g) || []).length;
+  const urls = (sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length;
   const want = (1 + CORE.ORDER.length) * G.LOCALES.length;
   if (urls !== want) bad(`sitemap.xml URL ${urls} ≠ ${want}`);
   if (!sm.includes('https://monster.example.com/r/vampire.html') || !sm.includes('https://monster.example.com/ko/')) bad('sitemap.xml 주소가 이상함');

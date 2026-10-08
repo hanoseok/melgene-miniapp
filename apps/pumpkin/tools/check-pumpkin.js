@@ -334,7 +334,7 @@ function checkHtml() {
     pages++;
   });
   const sm = read('sitemap.xml');
-  const urls = (sm.match(/<loc>/g) || []).length;
+  const urls = (sm.match(/<loc>(?![^<]*guide\.html)/g) || []).length;
   if (urls !== G.LOCALES.length) bad(`sitemap.xml URL ${urls} ≠ ${G.LOCALES.length}`);
   if (!sm.includes('<loc>https://pumpkin.example.com/</loc>') || !sm.includes('<loc>https://pumpkin.example.com/ko/</loc>')) bad('sitemap.xml 주소가 이상함');
   return pages;
