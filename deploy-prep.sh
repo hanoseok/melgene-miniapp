@@ -63,7 +63,15 @@ else
   MINIAPP_URL="https://$GH_OWNER.github.io/$REPO_miniapp"
 fi
 
-# 포털(apps/hub)의 대표 주소는 미니앱 도메인 루트다. 루트 도메인은 같은 포털을 보여 준다.
+# 대표 주소(PRIMARY_HOST, deploy.env):
+#   root    = 모든 것(포털 + /<앱>/)을 루트 도메인(melgene.com)에서 서빙, 미니앱 서브도메인은 같은 경로로 301
+#             (2026-10-09 AdSense "가치가 별로 없는 콘텐츠" 대응 — 심사 대상 melgene.com 이 canonical 을 남에게 넘기던 문제)
+#   miniapp = 예전 방식: 미니앱 서브도메인이 대표, 루트 도메인은 같은 포털(canonical 은 서브도메인)
+PRIMARY_HOST="${PRIMARY_HOST:-miniapp}"
+OLD_MINIAPP_URL="$MINIAPP_URL"
+if [[ "$PRIMARY_HOST" == "root" && -n "${CUSTOM_DOMAIN:-}" ]]; then
+  MINIAPP_URL="$HUB_URL"
+fi
 PORTAL_URL="$MINIAPP_URL"
 
 url_of() {
@@ -170,15 +178,38 @@ rm -rf "$DIST_DIR"
 mkdir -p "$DIST_DIR"
 : > "$DIST_DIR/UNITS"
 
-# 1) 루트 도메인 → 포털과 같은 내용 (canonical 은 미니앱 도메인)
-echo "==> hub -> dist/hub ($HUB_URL/, canonical $PORTAL_URL/)"
-build_site "$APPS_DIR/hub" "$DIST_DIR/hub"
-finish_root "$DIST_DIR/hub" "${CUSTOM_DOMAIN:-}" hub
-notfound_page "$PORTAL_URL" > "$DIST_DIR/hub/404.html"   # melgene.com/<앱>/… → 미니앱 주소로
-echo "hub $(repo_of hub)" >> "$DIST_DIR/UNITS"
+if [[ "$PRIMARY_HOST" == "root" && -n "${CUSTOM_DOMAIN:-}" ]]; then
+  # 1) 미니앱 서브도메인 → 루트 도메인 같은 경로로 301 (경로·쿼리 유지, 해시는 브라우저가 유지)
+  #    Cloudflare Pages advanced mode(_worker.js) — 정적 파일 없이 모든 요청을 넘긴다.
+  R="$DIST_DIR/miniapp"
+  mkdir -p "$R"
+  cat > "$R/_worker.js" <<JS
+export default {
+  async fetch(request) {
+    const u = new URL(request.url);
+    return Response.redirect('$HUB_URL' + u.pathname + u.search, 301);
+  },
+};
+JS
+  redirect_page "$HUB_URL" 1 > "$R/index.html"
+  echo "miniapp (cloudflare-redirect)" >> "$DIST_DIR/UNITS"
+  echo "==> $OLD_MINIAPP_URL/* -> $HUB_URL/* (301)"
+  M="$DIST_DIR/hub"
+  MAIN_UNIT=hub
+  MAIN_HOST="$CUSTOM_DOMAIN"
+else
+  # 1) 루트 도메인 → 포털과 같은 내용 (canonical 은 미니앱 도메인)
+  echo "==> hub -> dist/hub ($HUB_URL/, canonical $PORTAL_URL/)"
+  build_site "$APPS_DIR/hub" "$DIST_DIR/hub"
+  finish_root "$DIST_DIR/hub" "${CUSTOM_DOMAIN:-}" hub
+  notfound_page "$PORTAL_URL" > "$DIST_DIR/hub/404.html"   # melgene.com/<앱>/… → 미니앱 주소로
+  echo "hub $(repo_of hub)" >> "$DIST_DIR/UNITS"
+  M="$DIST_DIR/miniapp"
+  MAIN_UNIT=miniapp
+  MAIN_HOST="$MINIAPP_SUB.${CUSTOM_DOMAIN:-}"
+fi
 
-# 2) 미니앱 도메인: 루트 = 포털, /<사이트>/ = 각 미니앱
-M="$DIST_DIR/miniapp"
+# 2) 대표 도메인: 루트 = 포털, /<사이트>/ = 각 미니앱
 echo "==> portal -> dist/miniapp ($PORTAL_URL/)"
 build_site "$APPS_DIR/hub" "$M"
 for name in "${SITE_NAMES[@]}"; do
@@ -186,7 +217,7 @@ for name in "${SITE_NAMES[@]}"; do
   build_site "$APPS_DIR/$name" "$M/$name"
   rm -f "$M/$name/robots.txt" "$M/$name/ads.txt"   # 도메인 루트에만 둔다
 done
-finish_root "$M" "$MINIAPP_SUB.${CUSTOM_DOMAIN:-}" miniapp
+finish_root "$M" "$MAIN_HOST" "$MAIN_UNIT"
 {
   echo "User-agent: *"
   echo "Allow: /"
@@ -209,7 +240,9 @@ TODAY="$(date +%F)"
   echo '</sitemapindex>'
 } > "$M/sitemap-index.xml"
 notfound_page "$PORTAL_URL" > "$M/404.html"
-echo "miniapp $REPO_miniapp" >> "$DIST_DIR/UNITS"
+[[ "$MAIN_UNIT" == miniapp ]] && echo "miniapp $REPO_miniapp" >> "$DIST_DIR/UNITS"
+[[ "$MAIN_UNIT" == hub ]] && echo "hub (cloudflare)" >> "$DIST_DIR/UNITS"
+true
 
 # 3) 예전 서브도메인 → 새 주소로 리다이렉트 (경로·쿼리·해시 유지: 이미 공유된 링크 보호)
 if [[ -n "${CUSTOM_DOMAIN:-}" ]]; then

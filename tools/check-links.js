@@ -49,6 +49,8 @@ function distSites() {
   const out = [];
   fs.readdirSync(ROOT, { withFileTypes: true })
     .filter((d) => d.isDirectory() && !d.name.startsWith('.') && d.name !== 'legacy')
+    // 리다이렉트 전용 단위(Cloudflare _worker.js — PRIMARY_HOST=root 일 때 dist/miniapp)는 건너뜀
+    .filter((d) => !isFile(path.join(ROOT, d.name, '_worker.js')))
     .forEach((d) => {
       const dir = path.join(ROOT, d.name);
       const nested = fs.readdirSync(dir, { withFileTypes: true })

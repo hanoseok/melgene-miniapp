@@ -9,6 +9,8 @@ description: Melgene Apps(멜진 미니앱) 운영 절차 — 배포(deploy.sh, 
 
 ## 0. 현재 배포 방식 — Cloudflare Pages (2026-10-03 이후)
 
+- **대표 주소 = https://melgene.com/ (2026-10-09, 사용자 승인)**: 포털과 모든 앱(`/<앱>/`)·가이드·신뢰 페이지를 melgene.com(Cloudflare Pages `melgene-hub`)에서 서빙한다. miniapp.melgene.com(Cloudflare Pages `melgene-miniapp`)은 `_worker.js` 로 같은 경로·쿼리로 **301** 만 한다. 스위치 = deploy.env `PRIMARY_HOST=root`(deploy-prep). 이유: AdSense 심사 대상 melgene.com 의 모든 페이지 canonical 이 miniapp 으로 가 있어 "가치가 별로 없는 콘텐츠"로 보였음. 이 문서의 miniapp.melgene.com 주소는 melgene.com 으로 읽는다.
+
 - **GitHub Pages 로 절대 서빙하지 않는다**(사용자 지시 2026-10-09: "앞으로 절대 github pages 를 바로 서빙하지 않도록 한다"). `deploy.sh` 는 실행하면 바로 멈춘다. GitHub 은 소스 저장소(`git push origin main`)로만 쓴다. 저장소 Settings → Pages 를 켜지 않는다(melgene-miniapp 은 2026-10-09 Unpublish + Source None). 예전 리다이렉트 저장소(today-test·past-life·life-story·ladder)·miniapp 의 Pages 도 꺼야 할 대상(옛 서브도메인 리다이렉트는 Cloudflare 가 301 로 처리).
 
 - GitHub 계정 hanoseok 정지로 호스팅을 **Cloudflare Pages**(hanoseok@gmail.com, Free)로 옮겼다. 프로젝트 `melgene-hub`(melgene.com)·`melgene-miniapp`(miniapp.melgene.com), Spaceship 네임서버 = Cloudflare. **배포 = `./deploy-cf.sh`**(deploy-prep → `wrangler pages deploy`, 사전: 한 번 `npx wrangler login`). 에이전트 환경에서 Cloudflare API(api.cloudflare.com)가 프록시에 막히면 사용자 터미널에서 실행하게 한다 — 막히지 않을 때(curl 이 400/200 을 돌려줄 때)는 에이전트가 직접 실행.

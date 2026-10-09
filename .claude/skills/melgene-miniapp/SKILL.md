@@ -5,6 +5,8 @@ description: Melgene Apps(멜진 미니앱) 미니앱·포털을 새로 만들�
 
 # Melgene Apps 미니앱 규칙
 
+- **대표 주소 = https://melgene.com/ (2026-10-09, 사용자 승인)**: 포털과 모든 앱(`/<앱>/`)·가이드·신뢰 페이지를 melgene.com(Cloudflare Pages `melgene-hub`)에서 서빙한다. miniapp.melgene.com(Cloudflare Pages `melgene-miniapp`)은 `_worker.js` 로 같은 경로·쿼리로 **301** 만 한다. 스위치 = deploy.env `PRIMARY_HOST=root`(deploy-prep). 이유: AdSense 심사 대상 melgene.com 의 모든 페이지 canonical 이 miniapp 으로 가 있어 "가치가 별로 없는 콘텐츠"로 보였음. 이 문서의 miniapp.melgene.com 주소는 melgene.com 으로 읽는다.
+
 `/Users/hanoseok/SynologyDrive/Home Drive/AGENTS/Trend Web Chalenge`(= GitHub `hanoseok/melgene-miniapp`, main) 의 모든 미니앱(apps/*)과 포털(apps/hub)에 적용한다. 미니앱 하나 = 모듈 하나 = `apps/<id>/` 폴더 하나(`app.config.js` 등록 정보 · `README.md` · 자기 `tools/` · `shared -> ../../shared`). 새 앱을 만들 때, 기존 앱을 고칠 때, 에이전트에게 맡길 때 모두 이 규칙을 먼저 지킨다(에이전트에게는 이 파일 경로를 알려 준다).
 
 | 자세한 문서 | 언제 |
