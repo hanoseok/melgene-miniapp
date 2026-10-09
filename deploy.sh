@@ -11,6 +11,11 @@
 # 브랜치 배포 Pages는 저장소 루트의 CNAME 파일로 커스텀 도메인을 인식한다.
 set -euo pipefail
 
+# 사용 금지(사용자 지시 2026-10-09): "앞으로 절대 github pages 를 바로 서빙하지 않도록 한다."
+# 배포는 Cloudflare Pages(./deploy-cf.sh)만 쓴다. GitHub 은 소스(main) 저장소로만 쓴다.
+echo "!! deploy.sh(GitHub Pages 배포)는 쓰지 않는다. ./deploy-cf.sh 를 쓴다." >&2
+exit 1
+
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DIST_DIR="$ROOT_DIR/dist"
 source "$ROOT_DIR/deploy.env"
