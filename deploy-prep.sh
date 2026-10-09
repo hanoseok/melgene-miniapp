@@ -216,6 +216,10 @@ for name in "${SITE_NAMES[@]}"; do
   echo "==> $name -> dist/miniapp/$name ($(url_of "$name")/)"
   build_site "$APPS_DIR/$name" "$M/$name"
   rm -f "$M/$name/robots.txt" "$M/$name/ads.txt"   # 도메인 루트에만 둔다
+  # 앱마다 같은 틀의 개인정보 페이지(앱 30개 × 12개 언어)는 색인하지 않는다 — 얇은 중복 페이지가 색인의 1/3 을 차지하던 문제
+  # (AdSense "가치가 별로 없는 콘텐츠" 대응, 2026-10-09). 포털 privacy.html 은 그대로 색인.
+  find "$M/$name" -name privacy.html -exec grep -L 'name="robots"' {} + 2>/dev/null \
+    | while read -r f; do sed -i '' -e 's#<head>#<head><meta name="robots" content="noindex, follow">#' "$f"; done
 done
 finish_root "$M" "$MAIN_HOST" "$MAIN_UNIT"
 {
