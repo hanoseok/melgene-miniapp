@@ -1,0 +1,62 @@
+{
+  "en": {
+    "kicker": "Personality quiz",
+    "headline": "Which coffee are you?",
+    "blurb": "12 everyday questions, 2 minutes. Find your coffee match."
+  },
+  "ja": {
+    "kicker": "心理テスト",
+    "headline": "あなたはどのコーヒー？",
+    "blurb": "日常の12問、2分。性格に似たコーヒーを診断。"
+  },
+  "zh": {
+    "kicker": "心理测试",
+    "headline": "你是哪一杯咖啡？",
+    "blurb": "12道日常小题，2分钟，找到和你最像的咖啡。"
+  },
+  "ko": {
+    "kicker": "심리테스트",
+    "headline": "나는 어떤 커피일까?",
+    "blurb": "일상 질문 12개, 2분. 내 성격과 닮은 커피 찾기."
+  },
+  "fr": {
+    "kicker": "Test de personnalité",
+    "headline": "Quel café es-tu ?",
+    "blurb": "12 questions du quotidien, 2 minutes. Trouve le café qui te ressemble."
+  },
+  "de": {
+    "kicker": "Persönlichkeitstest",
+    "headline": "Welcher Kaffee bist du?",
+    "blurb": "12 Alltagsfragen, 2 Minuten. Finde deinen Kaffee."
+  },
+  "th": {
+    "kicker": "ทดสอบบุคลิก",
+    "headline": "คุณคือกาแฟอะไร?",
+    "blurb": "คำถามชีวิตประจำวัน 12 ข้อ 2 นาที หากาแฟที่ใช่ของคุณ"
+  },
+  "vi": {
+    "kicker": "Trắc nghiệm tính cách",
+    "headline": "Bạn là loại cà phê nào?",
+    "blurb": "12 câu hỏi đời thường, 2 phút. Tìm ly cà phê hợp với bạn."
+  },
+  "es": {
+    "kicker": "Test de personalidad",
+    "headline": "¿Qué café eres?",
+    "blurb": "12 preguntas cotidianas, 2 minutos. Encuentra tu café ideal."
+  },
+  "it": {
+    "kicker": "Test di personalità",
+    "headline": "Che caffè sei?",
+    "blurb": "12 domande quotidiane, 2 minuti. Trova il tuo caffè ideale."
+  },
+  "pt": {
+    "kicker": "Teste de personalidade",
+    "headline": "Que café você é?",
+    "blurb": "12 perguntas do dia a dia, 2 minutos. Ache o seu café ideal."
+  },
+  "ru": {
+    "kicker": "Тест личности",
+    "headline": "Какой ты кофе?",
+    "blurb": "12 житейских вопросов, 2 минуты. Найди свой кофе."
+  }
+}

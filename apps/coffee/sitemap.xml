@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://coffee.example.com/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/espresso.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/espresso.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/espresso.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/americano.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/americano.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/americano.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/latte.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/latte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/latte.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/cappuccino.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/cappuccino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/cappuccino.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/mocha.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/mocha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/mocha.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/coldbrew.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/coldbrew.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/coldbrew.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/flatwhite.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/flatwhite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/flatwhite.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/r/caramel.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/r/caramel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/r/caramel.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/de/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/th/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/es/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/it/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://coffee.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coffee.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://coffee.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://coffee.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://coffee.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coffee.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://coffee.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://coffee.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://coffee.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coffee.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://coffee.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://coffee.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://coffee.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coffee.example.com/guide.html"/>
+  </url>
+</urlset>

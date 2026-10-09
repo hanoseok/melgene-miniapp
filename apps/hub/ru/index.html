@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 29,
+  "numberOfItems": 31,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -283,6 +283,20 @@
       "url": "https://dice.example.com/ru/",
       "name": "Бросить кубик",
       "description": "Брось от одного до шести кубиков: обычный d6 или d4, d8, d10, d12 и d20 для настолок, с суммой и последними 10 бросками."
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "url": "https://sweeper.example.com/ru/",
+      "name": "Сапёр",
+      "description": "Читай цифры, обходи мины и очисти поле. Три уровня, безопасный первый ход и время, которое нужно побить."
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "url": "https://coffee.example.com/ru/",
+      "name": "Какой ты кофе?",
+      "description": "12 житейских вопросов, 2 минуты. Узнай, какой кофе похож на твой характер."
     }
   ]
 }
@@ -358,6 +372,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sweeper">
+        <a class="cur-card" href="https://sweeper.example.com/ru/" style="--h:185;--h2:167">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Классика логики</span></span>
+            <h3 class="cur-headline">Обойди мины, очисти поле</h3>
+            <span class="cur-giant" aria-hidden="true">💣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Читай цифры и ставь флажки. Первый ход безопасен.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Сапёр</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="coffee">
+        <a class="cur-card" href="https://coffee.example.com/ru/" style="--h:198;--h2:180">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Тест личности</span></span>
+            <h3 class="cur-headline">Какой ты кофе?</h3>
+            <span class="cur-giant" aria-hidden="true">☕</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 житейских вопросов, 2 минуты. Найди свой кофе.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Какой ты кофе?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hangul-name">
         <a class="cur-card" href="https://hangul-name.example.com/ru/" style="--h:313;--h2:295">
           <span class="cur-art">
@@ -422,7 +468,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext">
+      <li class="cur-item" data-id="fancytext" hidden>
         <a class="cur-card" href="https://fancytext.example.com/ru/" style="--h:324;--h2:306">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Создай сам</span></span>
@@ -438,7 +484,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lotto">
+      <li class="cur-item" data-id="lotto" hidden>
         <a class="cur-card" href="https://lotto.example.com/ru/" style="--h:88;--h2:70">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Повезёт сегодня?</span></span>
@@ -486,45 +532,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname" hidden>
-        <a class="cur-card" href="https://nickname.example.com/ru/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Создай сам</span></span>
-            <h3 class="cur-headline">Ник, который тебе подходит</h3>
-            <span class="cur-giant" aria-hidden="true">🏷️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Выбери настроение и получи новый ник в одно касание.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Генератор ников</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coinflip" hidden>
-        <a class="cur-card" href="https://coinflip.example.com/ru/" style="--h:96;--h2:78">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Не можешь выбрать?</span></span>
-            <h3 class="cur-headline">Орёл или решка, или кубик</h3>
-            <span class="cur-giant" aria-hidden="true">🪙</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Брось монету или до трёх кубиков — всегда честно.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Орёл и решка</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 29</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 31</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -546,6 +560,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sweeper" data-cat="game">
+        <a class="tile-link" href="https://sweeper.example.com/ru/" title="Читай цифры, обходи мины и очисти поле. Три уровня, безопасный первый ход и время, которое нужно побить." style="--h:185;--h2:167">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Сапёр</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="coffee" data-cat="test">
+        <a class="tile-link" href="https://coffee.example.com/ru/" title="12 житейских вопросов, 2 минуты. Узнай, какой кофе похож на твой характер." style="--h:198;--h2:180">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Какой ты кофе?</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hangul-name" data-cat="create">
         <a class="tile-link" href="https://hangul-name.example.com/ru/" title="Введи имя и посмотри, как оно пишется по-корейски (хангыль), с чтением каждого слога. Сохрани красивую карточку." style="--h:313;--h2:295">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
@@ -604,14 +632,14 @@
       </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/ru/" title="Выбери настроение, добавь своё имя, если хочешь, и получи ник, которого больше ни у кого нет. Не нравится — крути заново и копируй." style="--h:254;--h2:236">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span></span>
           <span class="tile-name">Генератор ников</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coinflip" data-cat="vote">
         <a class="tile-link" href="https://coinflip.example.com/ru/" title="Орёл или решка? Подбрось монетку и реши, назови обе стороны сам или брось от одного до трёх кубиков." style="--h:96;--h2:78">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span></span>
           <span class="tile-name">Орёл и решка</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

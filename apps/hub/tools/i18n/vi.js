@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'coffee',
+        kicker: "Trắc nghiệm tính cách",
+        headline: "Bạn là loại cà phê nào?",
+        blurb: "12 câu hỏi đời thường, 2 phút. Tìm ly cà phê hợp với bạn.",
+      },
+      {
+        id: 'sweeper',
+        kicker: "Giải đố kinh điển",
+        headline: "Né mìn, dọn sạch bảng",
+        blurb: "Nhìn số mà suy luận. Lần chạm đầu an toàn, chạy đua đồng hồ.",
+      },
+      {
         id: 'hangul-name',
         kicker: "Ngày chữ Hangul",
         headline: "Tên bạn viết bằng tiếng Hàn",

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 29,
+  "numberOfItems": 31,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -282,6 +282,20 @@
       "url": "https://dice.example.com/ja/",
       "name": "サイコロ",
       "description": "サイコロを1〜6個まとめて振れます。普通のd6からTRPG用のd4・d8・d10・d12・d20まで、合計と直近10回の履歴つき。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "url": "https://sweeper.example.com/ja/",
+      "name": "マインスイーパー",
+      "description": "数字を手がかりに地雷をよけて、盤面を全部開けよう。3レベル、最初の1手は必ず安全。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "url": "https://coffee.example.com/ja/",
+      "name": "コーヒー性格診断",
+      "description": "日常の12の質問、2分で完了。あなたの性格に似たコーヒーが見つかります。"
     }
   ]
 }
@@ -357,6 +371,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sweeper">
+        <a class="cur-card" href="https://sweeper.example.com/ja/" style="--h:185;--h2:167">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">定番パズル</span></span>
+            <h3 class="cur-headline">地雷をよけて盤面を全部開けろ</h3>
+            <span class="cur-giant" aria-hidden="true">💣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">数字から推理しよう。最初の1手は安全、タイムに挑戦！</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">マインスイーパー</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="coffee">
+        <a class="cur-card" href="https://coffee.example.com/ja/" style="--h:198;--h2:180">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理テスト</span></span>
+            <h3 class="cur-headline">あなたはどのコーヒー？</h3>
+            <span class="cur-giant" aria-hidden="true">☕</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">日常の12問、2分。性格に似たコーヒーを診断。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">コーヒー性格診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hangul-name">
         <a class="cur-card" href="https://hangul-name.example.com/ja/" style="--h:313;--h2:295">
           <span class="cur-art">
@@ -421,7 +467,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext">
+      <li class="cur-item" data-id="fancytext" hidden>
         <a class="cur-card" href="https://fancytext.example.com/ja/" style="--h:324;--h2:306">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">つくってみよう</span></span>
@@ -437,7 +483,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lotto">
+      <li class="cur-item" data-id="lotto" hidden>
         <a class="cur-card" href="https://lotto.example.com/ja/" style="--h:88;--h2:70">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">運試ししたい?</span></span>
@@ -485,45 +531,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname" hidden>
-        <a class="cur-card" href="https://nickname.example.com/ja/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">つくってみよう</span></span>
-            <h3 class="cur-headline">あなたに似合うニックネーム</h3>
-            <span class="cur-giant" aria-hidden="true">🏷️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">雰囲気を選ぶだけ。ぴったりの名前をすぐ作れます。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ニックネーム作成</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coinflip" hidden>
-        <a class="cur-card" href="https://coinflip.example.com/ja/" style="--h:96;--h2:78">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">決められない?</span></span>
-            <h3 class="cur-headline">コイントスとサイコロ</h3>
-            <span class="cur-giant" aria-hidden="true">🪙</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">コインもサイコロも公平。迷ったらここで決めよう。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">コイントス</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">29件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">31件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -545,6 +559,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sweeper" data-cat="game">
+        <a class="tile-link" href="https://sweeper.example.com/ja/" title="数字を手がかりに地雷をよけて、盤面を全部開けよう。3レベル、最初の1手は必ず安全。" style="--h:185;--h2:167">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">マインスイーパー</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="coffee" data-cat="test">
+        <a class="tile-link" href="https://coffee.example.com/ja/" title="日常の12の質問、2分で完了。あなたの性格に似たコーヒーが見つかります。" style="--h:198;--h2:180">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">コーヒー性格診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hangul-name" data-cat="create">
         <a class="tile-link" href="https://hangul-name.example.com/ja/" title="名前を入れるとハングル表記に変換。1文字ずつ読み方つきで、かわいい名前カードに保存・シェアできます。" style="--h:313;--h2:295">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
@@ -603,14 +631,14 @@
       </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/ja/" title="雰囲気を選んで名前を入れるだけで、自分だけのニックネームが完成。気に入るまで何度でも作れます。" style="--h:254;--h2:236">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span></span>
           <span class="tile-name">ニックネーム作成</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coinflip" data-cat="vote">
         <a class="tile-link" href="https://coinflip.example.com/ja/" title="コイントスで表か裏かをすぐ決められます。2つの選択肢の名前も変えられて、サイコロも1〜3個振れます。" style="--h:96;--h2:78">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span></span>
           <span class="tile-name">コイントス</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

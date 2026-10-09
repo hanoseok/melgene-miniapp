@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 29,
+  "numberOfItems": 31,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -283,6 +283,20 @@
       "url": "https://dice.example.com/th/",
       "name": "ทอยลูกเต๋า",
       "description": "ทอยลูกเต๋าได้ครั้งละ 1-6 ลูก ทั้งลูกเต๋าหกหน้าและ d4 d8 d10 d12 d20 สำหรับบอร์ดเกม พร้อมผลรวมและประวัติ 10 ครั้งล่าสุด"
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "url": "https://sweeper.example.com/th/",
+      "name": "เกมกู้ระเบิด",
+      "description": "ใช้ตัวเลขช่วยคิด หลบทุ่นระเบิดแล้วเปิดช่องให้หมดกระดาน มี 3 ระดับ แตะแรกปลอดภัย พร้อมเวลาให้ท้าทาย"
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "url": "https://coffee.example.com/th/",
+      "name": "ทดสอบ คุณคือกาแฟอะไร",
+      "description": "คำถามชีวิตประจำวัน 12 ข้อ ใช้เวลา 2 นาที รู้เลยว่ากาแฟแก้วไหนเหมือนคุณที่สุด"
     }
   ]
 }
@@ -358,6 +372,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sweeper">
+        <a class="cur-card" href="https://sweeper.example.com/th/" style="--h:185;--h2:167">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ปริศนาคลาสสิก</span></span>
+            <h3 class="cur-headline">หลบระเบิด เคลียร์ให้หมดสนาม</h3>
+            <span class="cur-giant" aria-hidden="true">💣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">ดูตัวเลขแล้วคิดวิเคราะห์ แตะแรกปลอดภัย ท้าทายเวลา</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">เกมกู้ระเบิด</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="coffee">
+        <a class="cur-card" href="https://coffee.example.com/th/" style="--h:198;--h2:180">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ทดสอบบุคลิก</span></span>
+            <h3 class="cur-headline">คุณคือกาแฟอะไร?</h3>
+            <span class="cur-giant" aria-hidden="true">☕</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">คำถามชีวิตประจำวัน 12 ข้อ 2 นาที หากาแฟที่ใช่ของคุณ</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ทดสอบ คุณคือกาแฟอะไร</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hangul-name">
         <a class="cur-card" href="https://hangul-name.example.com/th/" style="--h:313;--h2:295">
           <span class="cur-art">
@@ -422,7 +468,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext">
+      <li class="cur-item" data-id="fancytext" hidden>
         <a class="cur-card" href="https://fancytext.example.com/th/" style="--h:324;--h2:306">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">สร้างเอง</span></span>
@@ -438,7 +484,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lotto">
+      <li class="cur-item" data-id="lotto" hidden>
         <a class="cur-card" href="https://lotto.example.com/th/" style="--h:88;--h2:70">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">วันนี้โชคดีไหม?</span></span>
@@ -486,45 +532,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname" hidden>
-        <a class="cur-card" href="https://nickname.example.com/th/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">สร้างเอง</span></span>
-            <h3 class="cur-headline">ชื่อเล่นที่ใช่สำหรับคุณ</h3>
-            <span class="cur-giant" aria-hidden="true">🏷️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">เลือกแนวที่ชอบ แล้วได้ชื่อเล่นใหม่ในแตะเดียว</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ตั้งชื่อเล่น</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coinflip" hidden>
-        <a class="cur-card" href="https://coinflip.example.com/th/" style="--h:96;--h2:78">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ตัดสินใจไม่ถูก?</span></span>
-            <h3 class="cur-headline">โยนเหรียญ ทอยลูกเต๋า</h3>
-            <span class="cur-giant" aria-hidden="true">🪙</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">โยนเหรียญหรือทอยลูกเต๋าได้สูงสุด 3 ลูก ยุติธรรมทุกครั้ง</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">โยนเหรียญ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">29 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">31 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -546,6 +560,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sweeper" data-cat="game">
+        <a class="tile-link" href="https://sweeper.example.com/th/" title="ใช้ตัวเลขช่วยคิด หลบทุ่นระเบิดแล้วเปิดช่องให้หมดกระดาน มี 3 ระดับ แตะแรกปลอดภัย พร้อมเวลาให้ท้าทาย" style="--h:185;--h2:167">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมกู้ระเบิด</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="coffee" data-cat="test">
+        <a class="tile-link" href="https://coffee.example.com/th/" title="คำถามชีวิตประจำวัน 12 ข้อ ใช้เวลา 2 นาที รู้เลยว่ากาแฟแก้วไหนเหมือนคุณที่สุด" style="--h:198;--h2:180">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทดสอบ คุณคือกาแฟอะไร</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hangul-name" data-cat="create">
         <a class="tile-link" href="https://hangul-name.example.com/th/" title="พิมพ์ชื่อแล้วดูชื่อเป็นอักษรเกาหลี (ฮันกึล) พร้อมคำอ่านทีละพยางค์ บันทึกเป็นการ์ดชื่อสวย ๆ ได้" style="--h:313;--h2:295">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
@@ -604,14 +632,14 @@
       </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/th/" title="เลือกบรรยากาศ ใส่ชื่อของคุณได้ถ้าอยากใส่ แล้วรับชื่อเล่นสุดเก๋ ไม่ถูกใจก็สุ่มใหม่ได้ ก๊อปปี้ใช้ได้ทันที" style="--h:254;--h2:236">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span></span>
           <span class="tile-name">ตั้งชื่อเล่น</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coinflip" data-cat="vote">
         <a class="tile-link" href="https://coinflip.example.com/th/" title="หัวหรือก้อย โยนเหรียญตัดสินได้ทันที ตั้งชื่อสองด้านเองได้ และทอยลูกเต๋าได้ 1-3 ลูก" style="--h:96;--h2:78">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span></span>
           <span class="tile-name">โยนเหรียญ</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

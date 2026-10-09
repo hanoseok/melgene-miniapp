@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'coffee',
+        kicker: "心理测试",
+        headline: "你是哪一杯咖啡？",
+        blurb: "12道日常小题，2分钟，找到和你最像的咖啡。",
+      },
+      {
+        id: 'sweeper',
+        kicker: "经典益智",
+        headline: "避开地雷，清空雷区",
+        blurb: "看数字推理，第一下必定安全，挑战最快用时。",
+      },
+      {
         id: 'hangul-name',
         kicker: "韩文日特辑",
         headline: "看看你的名字写成韩文",

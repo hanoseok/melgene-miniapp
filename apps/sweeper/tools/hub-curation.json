@@ -1,0 +1,14 @@
+{
+  "ko": { "kicker": "추억의 퍼즐", "headline": "지뢰 피해 판을 싹 열어요", "blurb": "숫자를 보고 추리하세요. 첫 터치는 안전, 기록에 도전!" },
+  "en": { "kicker": "Puzzle classic", "headline": "Dodge the mines, clear the board", "blurb": "Read the numbers and flag the danger. First tap is safe." },
+  "ja": { "kicker": "定番パズル", "headline": "地雷をよけて盤面を全部開けろ", "blurb": "数字から推理しよう。最初の1手は安全、タイムに挑戦！" },
+  "zh": { "kicker": "经典益智", "headline": "避开地雷，清空雷区", "blurb": "看数字推理，第一下必定安全，挑战最快用时。" },
+  "fr": { "kicker": "Casse-tête culte", "headline": "Évitez les mines, videz la grille", "blurb": "Lisez les chiffres, posez les drapeaux. Premier clic sûr." },
+  "de": { "kicker": "Rätselklassiker", "headline": "Minen meiden, Feld räumen", "blurb": "Zahlen lesen, Flaggen setzen. Der erste Tipp ist sicher." },
+  "th": { "kicker": "ปริศนาคลาสสิก", "headline": "หลบระเบิด เคลียร์ให้หมดสนาม", "blurb": "ดูตัวเลขแล้วคิดวิเคราะห์ แตะแรกปลอดภัย ท้าทายเวลา" },
+  "vi": { "kicker": "Giải đố kinh điển", "headline": "Né mìn, dọn sạch bảng", "blurb": "Nhìn số mà suy luận. Lần chạm đầu an toàn, chạy đua đồng hồ." },
+  "es": { "kicker": "Clásico de lógica", "headline": "Esquiva las minas, despeja el tablero", "blurb": "Lee los números y marca el peligro. Primer toque seguro." },
+  "it": { "kicker": "Rompicapo classico", "headline": "Evita le mine, libera la griglia", "blurb": "Leggi i numeri e segna il pericolo. Primo tocco sicuro." },
+  "pt": { "kicker": "Clássico de lógica", "headline": "Fuja das minas, limpe o campo", "blurb": "Leia os números e marque o perigo. Primeiro toque seguro." },
+  "ru": { "kicker": "Классика логики", "headline": "Обойди мины, очисти поле", "blurb": "Читай цифры и ставь флажки. Первый ход безопасен." }
+}

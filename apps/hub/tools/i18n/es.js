@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'coffee',
+        kicker: "Test de personalidad",
+        headline: "¿Qué café eres?",
+        blurb: "12 preguntas cotidianas, 2 minutos. Encuentra tu café ideal.",
+      },
+      {
+        id: 'sweeper',
+        kicker: "Clásico de lógica",
+        headline: "Esquiva las minas, despeja el tablero",
+        blurb: "Lee los números y marca el peligro. Primer toque seguro.",
+      },
+      {
         id: 'hangul-name',
         kicker: "Día del hangul",
         headline: "Tu nombre escrito en coreano",

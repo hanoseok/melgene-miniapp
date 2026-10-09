@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 29,
+  "numberOfItems": 31,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -282,6 +282,20 @@
       "url": "https://dice.example.com/de/",
       "name": "Würfeln",
       "description": "Ein bis sechs Würfel auf einmal: klassischer W6 oder W4, W8, W10, W12 und W20 fürs Rollenspiel, mit Summe und den letzten 10 Würfen."
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "url": "https://sweeper.example.com/de/",
+      "name": "Minesweeper",
+      "description": "Zahlen lesen, Minen meiden, Feld räumen. Drei Stufen, ein sicherer erster Tipp und eine Bestzeit zum Knacken."
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "url": "https://coffee.example.com/de/",
+      "name": "Welcher Kaffee bist du?",
+      "description": "12 Alltagsfragen, 2 Minuten. Finde heraus, welcher Kaffee zu dir passt."
     }
   ]
 }
@@ -357,6 +371,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sweeper">
+        <a class="cur-card" href="https://sweeper.example.com/de/" style="--h:185;--h2:167">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Rätselklassiker</span></span>
+            <h3 class="cur-headline">Minen meiden, Feld räumen</h3>
+            <span class="cur-giant" aria-hidden="true">💣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Zahlen lesen, Flaggen setzen. Der erste Tipp ist sicher.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Minesweeper</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="coffee">
+        <a class="cur-card" href="https://coffee.example.com/de/" style="--h:198;--h2:180">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Persönlichkeitstest</span></span>
+            <h3 class="cur-headline">Welcher Kaffee bist du?</h3>
+            <span class="cur-giant" aria-hidden="true">☕</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 Alltagsfragen, 2 Minuten. Finde deinen Kaffee.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Welcher Kaffee bist du?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hangul-name">
         <a class="cur-card" href="https://hangul-name.example.com/de/" style="--h:313;--h2:295">
           <span class="cur-art">
@@ -421,7 +467,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext">
+      <li class="cur-item" data-id="fancytext" hidden>
         <a class="cur-card" href="https://fancytext.example.com/de/" style="--h:324;--h2:306">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Selbst gestalten</span></span>
@@ -437,7 +483,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lotto">
+      <li class="cur-item" data-id="lotto" hidden>
         <a class="cur-card" href="https://lotto.example.com/de/" style="--h:88;--h2:70">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Glück gehabt?</span></span>
@@ -485,45 +531,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nickname" hidden>
-        <a class="cur-card" href="https://nickname.example.com/de/" style="--h:254;--h2:236">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Selbst gestalten</span></span>
-            <h3 class="cur-headline">Ein Nickname, der zu dir passt</h3>
-            <span class="cur-giant" aria-hidden="true">🏷️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Stimmung wählen und mit einem Tipp einen Nickname erhalten.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Nickname Generator</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coinflip" hidden>
-        <a class="cur-card" href="https://coinflip.example.com/de/" style="--h:96;--h2:78">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Unentschlossen?</span></span>
-            <h3 class="cur-headline">Münzwurf und Würfel</h3>
-            <span class="cur-giant" aria-hidden="true">🪙</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Münze werfen oder bis zu drei Würfel, immer fair.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Münzwurf</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">29 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">31 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -545,6 +559,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sweeper" data-cat="game">
+        <a class="tile-link" href="https://sweeper.example.com/de/" title="Zahlen lesen, Minen meiden, Feld räumen. Drei Stufen, ein sicherer erster Tipp und eine Bestzeit zum Knacken." style="--h:185;--h2:167">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Minesweeper</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="coffee" data-cat="test">
+        <a class="tile-link" href="https://coffee.example.com/de/" title="12 Alltagsfragen, 2 Minuten. Finde heraus, welcher Kaffee zu dir passt." style="--h:198;--h2:180">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Welcher Kaffee bist du?</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hangul-name" data-cat="create">
         <a class="tile-link" href="https://hangul-name.example.com/de/" title="Gib deinen Namen ein und sieh ihn in koreanischer Schrift (Hangul) mit Aussprache. Als schöne Namenskarte speichern." style="--h:313;--h2:295">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEU</span></span>
@@ -603,14 +631,14 @@
       </li>
       <li class="tile" data-id="nickname" data-cat="create">
         <a class="tile-link" href="https://nickname.example.com/de/" title="Stimmung wählen, auf Wunsch den Namen dazugeben und einen einzigartigen Nickname bekommen. Neu würfeln, bis er passt." style="--h:254;--h2:236">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏷️</span></span></span>
           <span class="tile-name">Nickname Generator</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coinflip" data-cat="vote">
         <a class="tile-link" href="https://coinflip.example.com/de/" title="Kopf oder Zahl? Münze werfen und entscheiden, beide Seiten selbst benennen oder ein bis drei Würfel rollen." style="--h:96;--h2:78">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪙</span></span></span>
           <span class="tile-name">Münzwurf</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

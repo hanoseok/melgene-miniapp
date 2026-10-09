@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sweeper.example.com/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ja/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/zh/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ko/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/fr/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/de/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/th/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/vi/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/es/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/it/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/pt/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ru/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/de/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/th/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/es/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/it/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://sweeper.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sweeper.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sweeper.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sweeper.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sweeper.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sweeper.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sweeper.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://sweeper.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sweeper.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sweeper.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sweeper.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sweeper.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sweeper.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sweeper.example.com/guide.html"/>
+  </url>
+</urlset>

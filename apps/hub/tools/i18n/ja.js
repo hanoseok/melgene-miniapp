@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'coffee',
+        kicker: "心理テスト",
+        headline: "あなたはどのコーヒー？",
+        blurb: "日常の12問、2分。性格に似たコーヒーを診断。",
+      },
+      {
+        id: 'sweeper',
+        kicker: "定番パズル",
+        headline: "地雷をよけて盤面を全部開けろ",
+        blurb: "数字から推理しよう。最初の1手は安全、タイムに挑戦！",
+      },
+      {
         id: 'hangul-name',
         kicker: "ハングルの日",
         headline: "あなたの名前をハングルで",
