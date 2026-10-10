@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'qr',
+        kicker: "实用工具",
+        headline: "一键把链接变成二维码",
+        blurb: "网址、文字、Wi-Fi 都行，可存 PNG/SVG。",
+      },
+      {
+        id: 'randnum',
+        kicker: "公平抽签",
+        headline: "一键生成随机数",
+        blurb: "范围、个数随意，可不重复，抽奖好帮手。",
+      },
+      {
         id: 'coffee',
         kicker: "心理测试",
         headline: "你是哪一杯咖啡？",

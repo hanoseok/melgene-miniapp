@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 31,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -296,6 +296,20 @@
       "url": "https://coffee.example.com/zh/",
       "name": "咖啡性格测试",
       "description": "12道日常小题，2分钟测出和你性格最像的咖啡。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://qr.example.com/zh/",
+      "name": "二维码生成器",
+      "description": "把网址、文字、Wi-Fi、邮箱或电话号码马上变成二维码。可选颜色和尺寸，保存为PNG或SVG，内容不会上传服务器。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://randnum.example.com/zh/",
+      "name": "随机数生成器",
+      "description": "设定最小值和最大值，就能公平抽出1到1000个随机数。可选不重复、排除号码、排序，还能分享抽奖结果链接。"
     }
   ]
 }
@@ -371,6 +385,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="qr">
+        <a class="cur-card" href="https://qr.example.com/zh/" style="--h:1;--h2:343">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">实用工具</span></span>
+            <h3 class="cur-headline">一键把链接变成二维码</h3>
+            <span class="cur-giant" aria-hidden="true">🔳</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">网址、文字、Wi-Fi 都行，可存 PNG/SVG。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">二维码生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="randnum">
+        <a class="cur-card" href="https://randnum.example.com/zh/" style="--h:159;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">公平抽签</span></span>
+            <h3 class="cur-headline">一键生成随机数</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">范围、个数随意，可不重复，抽奖好帮手。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">随机数生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sweeper">
         <a class="cur-card" href="https://sweeper.example.com/zh/" style="--h:185;--h2:167">
           <span class="cur-art">
@@ -435,7 +481,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick">
+      <li class="cur-item" data-id="brick" hidden>
         <a class="cur-card" href="https://brick.example.com/zh/" style="--h:243;--h2:225">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">街机经典</span></span>
@@ -451,7 +497,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mentalage">
+      <li class="cur-item" data-id="mentalage" hidden>
         <a class="cur-card" href="https://mentalage.example.com/zh/" style="--h:270;--h2:252">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理测试</span></span>
@@ -499,45 +545,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole" hidden>
-        <a class="cur-card" href="https://mole.example.com/zh/" style="--h:17;--h2:359">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">反应游戏</span></span>
-            <h3 class="cur-headline">打地鼠，躲炸弹</h3>
-            <span class="cur-giant" aria-hidden="true">🔨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">趁地鼠躲起来前点中它，30秒定出称号。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">打地鼠</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="animal" hidden>
-        <a class="cur-card" href="https://animal.example.com/zh/" style="--h:166;--h2:148">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">性格测试</span></span>
-            <h3 class="cur-headline">你是什么动物？</h3>
-            <span class="cur-giant" aria-hidden="true">🦊</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">8个日常小场景，遇见你内心的小野兽。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">你是什么动物测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">31个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">33个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -559,6 +573,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="qr" data-cat="create">
+        <a class="tile-link" href="https://qr.example.com/zh/" title="把网址、文字、Wi-Fi、邮箱或电话号码马上变成二维码。可选颜色和尺寸，保存为PNG或SVG，内容不会上传服务器。" style="--h:1;--h2:343">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">二维码生成器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="randnum" data-cat="vote">
+        <a class="tile-link" href="https://randnum.example.com/zh/" title="设定最小值和最大值，就能公平抽出1到1000个随机数。可选不重复、排除号码、排序，还能分享抽奖结果链接。" style="--h:159;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">随机数生成器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/zh/" title="根据数字推理，避开地雷清空雷区。三种难度，第一下必定安全，还能挑战最快用时。" style="--h:185;--h2:167">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
@@ -617,14 +645,14 @@
       </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/zh/" title="地鼠从洞里冒头就快点一下，遇到炸弹别碰，30秒内冲高分、拿称号。" style="--h:17;--h2:359">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span></span>
           <span class="tile-name">打地鼠</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="animal" data-cat="test">
         <a class="tile-link" href="https://animal.example.com/zh/" title="从临时放鸽子到半夜来电，8个日常小场景，2~3分钟测出和你最像的动物。" style="--h:166;--h2:148">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span></span>
           <span class="tile-name">你是什么动物测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

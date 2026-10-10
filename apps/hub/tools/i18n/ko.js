@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'qr',
+        kicker: "간편 도구",
+        headline: "링크를 QR 코드로 바로 만들어요",
+        blurb: "링크·문자·와이파이까지. PNG·SVG로 저장, 서버 전송 없음.",
+      },
+      {
+        id: 'randnum',
+        kicker: "공정한 추첨",
+        headline: "버튼 한 번에 랜덤 숫자 뽑기",
+        blurb: "범위·개수 자유, 중복 없이도. 경품 추첨에 딱.",
+      },
+      {
         id: 'coffee',
         kicker: "심리테스트",
         headline: "나는 어떤 커피일까?",

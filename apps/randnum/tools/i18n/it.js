@@ -1,0 +1,120 @@
+/* Generatore di numeri casuali — italiano. Stessa struttura di chiavi di en.js (vedi commenti). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&display=swap',
+    display: "'Unbounded'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: 'Generatore di numeri casuali online',
+    description: 'Generatore di numeri casuali gratis: estrai uno o fino a 1.000 numeri tra qualsiasi minimo e massimo, con o senza ripetizioni. Escludi numeri, ordina, copia e condividi il link del risultato della tua estrazione.',
+    ogTitle: 'Generatore di numeri casuali 🔢',
+    ogDescription: 'Qualsiasi intervallo, fino a 1.000 numeri, anche senza ripetizioni. Estrazione equa con link al risultato da condividere.',
+  },
+  siteName: 'Numeri casuali',
+  privacyLink: 'Privacy',
+
+  hero: {
+    h1Kicker: 'Generatore di numeri casuali',
+    h1Html: 'Un numero o cento,<br>sempre <em>a caso</em>',
+    hook: 'Scegli l’intervallo e quanti numeri, poi estrai. Lotterie, giveaway, interrogazioni a sorpresa o turni di gioco.',
+  },
+
+  ui: {
+    presetsLabel: 'Intervalli rapidi',
+    minLabel: 'Da',
+    maxLabel: 'A',
+    countLabel: 'Quanti numeri?',
+    countDec: 'Uno in meno',
+    countInc: 'Uno in più',
+    dupLabel: 'Con ripetizioni',
+    sortLabel: 'Ordina',
+    more: 'Altre opzioni',
+    excludeLabel: 'Numeri da escludere',
+    excludePh: 'es. 4, 13, 20-25',
+    excludeHint: 'Separa con virgole o spazi. Scrivi 20-25 per saltare un intero tratto.',
+    titleLabel: 'Nome dell’estrazione (facoltativo)',
+    titlePh: 'es. Lotteria di classe',
+    draw: 'Estrai i numeri 🔢',
+    drawing: 'Estrazione…',
+    fair: 'Casualità crittografica senza distorsioni · nulla lascia il browser',
+  },
+
+  errors: {
+    minInvalid: 'Inserisci un numero intero in «Da».',
+    maxInvalid: 'Inserisci un numero intero in «A».',
+    outOfLimit: 'I numeri devono restare tra −1.000.000.000 e 1.000.000.000.',
+    minGtMax: '«Da» non può essere maggiore di «A».',
+    countInvalid: 'Estrai almeno un numero.',
+    countTooBig: 'Puoi estrarre fino a 1.000 numeri alla volta.',
+    notEnough: 'Ci sono solo {n} numeri diversi disponibili. Consenti le ripetizioni o estraine meno.',
+    allExcluded: 'Tutti i numeri di questo intervallo sono esclusi.',
+    excludeBad: 'Impossibile leggere queste esclusioni: {list}',
+    excludeTooMany: 'Puoi escludere fino a 1.000 numeri.',
+    badLink: 'Questo link al risultato è rotto o incompleto, quindi non viene mostrato nulla.',
+  },
+
+  result: {
+    heading: 'I tuoi numeri',
+    headingOne: 'Il tuo numero',
+    sharedBadge: '🎁 Risultato condiviso',
+    range: 'da {min} a {max}',
+    countTag: '×{n}',
+    noRepeat: 'Senza ripetizioni',
+    repeat: 'Con ripetizioni',
+    sorted: 'Ordinati',
+    excluded: '{n} esclusi',
+    sharedNote: 'Estratto il {date}. È il risultato originale salvato nel link: aprirlo non fa mai una nuova estrazione.',
+    copy: 'Copia i numeri',
+    copied: 'Numeri copiati',
+    copyLink: 'Copia il link',
+    linkCopied: 'Link copiato. Chi lo apre vede esattamente questa estrazione.',
+    again: 'Estrai di nuovo',
+    drawOwn: 'Fai la tua estrazione',
+    live: 'Risultato: {nums}',
+    more: '+{n} altri',
+    shareTitle: 'Generatore di numeri casuali',
+    shareText: 'Ho estratto {nums} (da {min} a {max}) 🔢',
+    shareTextLabel: '{label}: {nums} (da {min} a {max}) 🔢',
+  },
+
+  history: {
+    title: 'Estrazioni recenti',
+    note: 'Le tue ultime 10 estrazioni, salvate solo su questo dispositivo.',
+    clear: 'Cancella',
+  },
+
+  og: {
+    brand: '🔢 Numeri casuali',
+    kicker: 'Qualsiasi intervallo · fino a 1.000 numeri',
+    title: 'Generatore di numeri casuali',
+    desc: 'Equo, senza distorsioni e facile da condividere',
+  },
+
+  faq: [
+    { q: 'L’estrazione è davvero equa?', a: 'Sì. Ogni numero arriva dal generatore casuale crittografico del browser (crypto.getRandomValues) con campionamento per rifiuto, così nessun numero dell’intervallo ha nemmeno un briciolo di probabilità in più degli altri. Il risultato è fissato prima che parta l’animazione.' },
+    { q: 'Come estraggo numeri senza ripetizioni?', a: 'Lascia spento «Con ripetizioni». Ogni numero potrà uscire una sola volta per estrazione, come i bigliettini pescati da un cappello. Se chiedi più numeri di quanti ne contiene l’intervallo, ti verrà suggerito di allargarlo o di estrarne meno.' },
+    { q: 'Come funziona il link al risultato per un giveaway?', a: 'Dopo l’estrazione tocca «Copia il link». Numeri, intervallo, opzioni e ora dell’estrazione sono salvati nel link stesso. Chi lo apre vede quel preciso risultato, segnato come condiviso, senza nuove estrazioni.' },
+    { q: 'Posso usare numeri negativi o un intervallo enorme?', a: 'Sì. Ogni estremo può andare da −1.000.000.000 a 1.000.000.000 e puoi estrarre fino a 1.000 numeri alla volta. Puoi anche escludere numeri precisi o tratti come 20-25.' },
+  ],
+
+  privacy: {
+    title: 'Informativa sulla privacy | Numeri casuali',
+    description: 'Informativa sulla privacy del generatore di numeri casuali: le tue estrazioni restano nel browser, cookie, pubblicità e statistiche.',
+    h1: 'Informativa sulla privacy',
+    introHtml: 'Il generatore di numeri casuali (il «Servizio») rispetta la tua privacy e tratta solo le informazioni minime descritte di seguito.',
+    sections: [
+      ['1. Informazioni raccolte', 'Il Servizio funziona senza account né accesso. Le tue impostazioni e i numeri estratti vengono elaborati solo nel browser e non vengono inviati al nostro server. Le tue ultime 10 estrazioni restano nella memoria locale del browser sul tuo dispositivo e puoi cancellarle in qualsiasi momento con il pulsante Cancella. Quando copi un link al risultato, i numeri vengono scritti nel link stesso e condivisi solo con le persone a cui lo invii.'],
+      ['2. Cookie e tecnologie simili', 'Il Servizio può usare cookie e la memoria locale del browser per ricordare la lingua e le estrazioni recenti, mostrare annunci e capire come viene usato. Puoi rifiutarli o eliminarli nelle impostazioni del browser; alcune funzioni potrebbero non funzionare come previsto.'],
+      ['3. Pubblicità (Google AdSense)', 'Il Servizio mostra annunci tramite Google AdSense. Google e i suoi partner possono usare cookie per mostrare annunci in base alle tue visite precedenti a questo e ad altri siti. Puoi saperne di più e cambiare le preferenze nelle <a href="https://adssettings.google.com/" target="_blank" rel="noopener">impostazioni annunci di Google</a>.'],
+      ['4. Statistiche', 'Per migliorare il Servizio possiamo usare Google Analytics (GA4) e contatori aggregati nostri che conservano solo totali giornalieri per lingua (visualizzazioni, estrazioni, valutazioni). Nulla di tutto ciò ti identifica personalmente.'],
+      ['5. Contatti', 'Per domande su questa informativa, contatta il gestore del sito.'],
+      ['6. Data di efficacia', 'Questa informativa è in vigore dall’11 ottobre 2026.'],
+    ],
+    back: '← Torna al generatore di numeri casuali',
+  },
+};

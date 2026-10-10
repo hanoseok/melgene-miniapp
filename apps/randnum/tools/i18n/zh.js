@@ -1,0 +1,120 @@
+/* 随机数生成器 — 简体中文。键结构与 en.js 相同(见注释)。 */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&family=Unbounded:wght@700;800&display=swap',
+    display: "'ZCOOL QingKe HuangYou', 'Unbounded'",
+    displayWeight: 400,
+    sans: "'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC'",
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: '随机数生成器 – 在线随机抽号',
+    description: '免费在线随机数生成器：设好最小值和最大值，就能公平抽出1到1000个随机数。可选不重复、排除号码、排序，一键复制结果，还能分享抽奖结果链接。无需注册。',
+    ogTitle: '随机数生成器 🔢 在线随机抽号',
+    ogDescription: '任意范围，最多1000个，可不重复。公平抽号，结果链接一键分享。',
+  },
+  siteName: '随机数生成器',
+  privacyLink: '隐私政策',
+
+  hero: {
+    h1Kicker: '随机数生成器',
+    h1Html: '抽一个还是一百个<br>都<em>公平</em>随机',
+    hook: '定好范围和数量就能抽。抽奖、幸运观众、课堂点名、排顺序都好用。',
+  },
+
+  ui: {
+    presetsLabel: '常用范围',
+    minLabel: '最小值',
+    maxLabel: '最大值',
+    countLabel: '抽几个数字？',
+    countDec: '减少一个',
+    countInc: '增加一个',
+    dupLabel: '允许重复',
+    sortLabel: '从小到大',
+    more: '更多选项',
+    excludeLabel: '排除号码',
+    excludePh: '例如 4, 13, 20-25',
+    excludeHint: '用逗号或空格分隔。写 20-25 就会排除这一段的所有数字。',
+    titleLabel: '抽奖名称(可选)',
+    titlePh: '例如 粉丝福利抽奖',
+    draw: '开始抽号 🔢',
+    drawing: '抽号中…',
+    fair: '无偏差的加密随机数 · 输入内容不会离开你的浏览器',
+  },
+
+  errors: {
+    minInvalid: '请在“最小值”里填一个整数。',
+    maxInvalid: '请在“最大值”里填一个整数。',
+    outOfLimit: '数字需在 −1,000,000,000 到 1,000,000,000 之间。',
+    minGtMax: '最小值不能大于最大值。',
+    countInvalid: '至少要抽一个数字。',
+    countTooBig: '一次最多抽 1,000 个数字。',
+    notEnough: '只有 {n} 个不同的数字可抽。请允许重复或减少数量。',
+    allExcluded: '这个范围内的数字全被排除了。',
+    excludeBad: '这些内容无法识别：{list}',
+    excludeTooMany: '最多可以排除 1,000 个数字。',
+    badLink: '这个结果链接已损坏或不完整，无法显示。',
+  },
+
+  result: {
+    heading: '抽中的数字',
+    headingOne: '抽中的数字',
+    sharedBadge: '🎁 分享的抽奖结果',
+    range: '{min}~{max}',
+    countTag: '{n}个',
+    noRepeat: '不重复',
+    repeat: '可重复',
+    sorted: '已排序',
+    excluded: '排除{n}个',
+    sharedNote: '这是 {date} 抽出的原始结果。结果保存在链接里，每次打开都不会重新抽。',
+    copy: '复制数字',
+    copied: '数字已复制',
+    copyLink: '复制结果链接',
+    linkCopied: '链接已复制。任何人打开都会看到这次的结果。',
+    again: '再抽一次',
+    drawOwn: '我也来抽',
+    live: '结果：{nums}',
+    more: '等{n}个',
+    shareTitle: '随机数生成器',
+    shareText: '我在 {min}~{max} 里抽到了 {nums} 🔢',
+    shareTextLabel: '{label}抽奖结果：{nums}({min}~{max})🔢',
+  },
+
+  history: {
+    title: '最近的抽号',
+    note: '最多保存最近10次，只存在这台设备上。',
+    clear: '清除',
+  },
+
+  og: {
+    brand: '🔢 随机数生成器',
+    kicker: '任意范围 · 最多1000个',
+    title: '在线随机抽号',
+    desc: '公平抽号，结果链接一键分享',
+  },
+
+  faq: [
+    { q: '抽号真的公平吗？', a: '是的。每个数字都由浏览器的加密随机数生成器(crypto.getRandomValues)配合拒绝采样产生，范围内任何数字都不会比别的更容易出现。结果在滚动动画开始前就已确定。' },
+    { q: '怎样抽不重复的数字？', a: '保持“允许重复”关闭即可。就像从箱子里抽签，抽过的数字不会再出现。如果要抽的数量比范围内的数字还多，会提示你扩大范围或减少数量。' },
+    { q: '抽奖时怎么用结果链接公布中奖号码？', a: '抽完后点“复制结果链接”。数字、范围、选项和抽号时间都保存在链接里，打开链接的人不会重新抽，而是看到标注为“分享的抽奖结果”的同一组数字。贴在公告里就行。' },
+    { q: '可以用负数或很大的范围吗？', a: '可以。最小值和最大值都能填 −10亿 到 10亿，一次最多抽 1,000 个。也可以排除某些数字或 20-25 这样的区间。' },
+  ],
+
+  privacy: {
+    title: '隐私政策 | 随机数生成器',
+    description: '随机数生成器的隐私政策：抽号内容只留在你的浏览器中，并说明 Cookie、广告和统计。',
+    h1: '隐私政策',
+    introHtml: '随机数生成器(以下简称“本服务”)尊重你的隐私，只处理下面说明的最少信息。',
+    sections: [
+      ['1. 我们收集的信息', '本服务无需注册或登录即可使用。你的设置和抽出的数字只在你的浏览器中处理，不会发送到我们的服务器。最近10次抽号记录只保存在你设备上浏览器的本地存储中，可以随时用“清除”按钮删除。复制结果链接时，数字会写进链接地址，只与你发送链接的人分享。'],
+      ['2. Cookie 及类似技术', '本服务可能使用 Cookie 和浏览器本地存储来记住你的语言和最近记录、展示广告以及了解使用情况。你可以在浏览器设置中拒绝或删除它们，但部分功能可能无法正常使用。'],
+      ['3. 广告(Google AdSense)', '本服务通过 Google AdSense 展示广告。Google 及其合作伙伴可能使用 Cookie，根据你对本网站及其他网站的访问记录投放广告。你可以在 <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google 广告设置</a> 中了解详情并更改偏好。'],
+      ['4. 统计', '为改进服务，我们可能使用 Google Analytics(GA4)以及只保存各语言每日合计(页面浏览量、抽号次数、星级评分)的自有统计计数器。这些信息都无法识别你的个人身份。'],
+      ['5. 联系我们', '如对本隐私政策有任何疑问，请联系网站运营者。'],
+      ['6. 生效日期', '本政策自2026年10月11日起生效。'],
+    ],
+    back: '← 返回随机数生成器',
+  },
+};

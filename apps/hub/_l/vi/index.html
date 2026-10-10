@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 31,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -298,6 +298,20 @@
       "url": "https://coffee.example.com/",
       "name": "Bạn là loại cà phê nào?",
       "description": "12 câu hỏi đời thường, 2 phút. Tìm ra ly cà phê giống tính cách bạn nhất."
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://qr.example.com/",
+      "name": "Tạo mã QR",
+      "description": "Biến link, văn bản, Wi-Fi, email hay số điện thoại thành mã QR. Chọn màu, kích thước, lưu PNG hoặc SVG. Dữ liệu không rời trình duyệt."
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://randnum.example.com/",
+      "name": "Quay số ngẫu nhiên",
+      "description": "Quay số ngẫu nhiên trong khoảng bất kỳ, từ một đến một nghìn số, có hoặc không lặp. Loại trừ số, sắp xếp và chia sẻ link kết quả."
     }
   ]
 }
@@ -373,6 +387,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="qr">
+        <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Công cụ tiện lợi</span></span>
+            <h3 class="cur-headline">Biến link thành mã QR</h3>
+            <span class="cur-giant" aria-hidden="true">🔳</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Link, chữ hay Wi-Fi. Tải PNG hoặc SVG ngay trên trình duyệt.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tạo mã QR</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="randnum">
+        <a class="cur-card" href="https://randnum.example.com/" style="--h:159;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Bốc thăm công bằng</span></span>
+            <h3 class="cur-headline">Quay số ngẫu nhiên một chạm</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Khoảng số tùy ý, có thể không trùng. Hợp cho minigame.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Quay số ngẫu nhiên</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sweeper">
         <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
           <span class="cur-art">
@@ -437,7 +483,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick">
+      <li class="cur-item" data-id="brick" hidden>
         <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Game thùng cổ điển</span></span>
@@ -453,7 +499,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mentalage">
+      <li class="cur-item" data-id="mentalage" hidden>
         <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
@@ -501,45 +547,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole" hidden>
-        <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Game phản xạ</span></span>
-            <h3 class="cur-headline">Đập chuột chũi, né bom</h3>
-            <span class="cur-giant" aria-hidden="true">🔨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Chạm trước khi chúng chui xuống. 30 giây, một danh hiệu.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Game đập chuột chũi</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="animal" hidden>
-        <a class="cur-card" href="https://animal.example.com/" style="--h:166;--h2:148">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
-            <h3 class="cur-headline">Bạn là con vật nào?</h3>
-            <span class="cur-giant" aria-hidden="true">🦊</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tám khoảnh khắc đời thường, hai phút. Gặp phần hoang dã của bạn.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Bạn là con vật nào?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">31 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">33 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -561,6 +575,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="qr" data-cat="create">
+        <a class="tile-link" href="https://qr.example.com/" title="Biến link, văn bản, Wi-Fi, email hay số điện thoại thành mã QR. Chọn màu, kích thước, lưu PNG hoặc SVG. Dữ liệu không rời trình duyệt." style="--h:1;--h2:343">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tạo mã QR</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="randnum" data-cat="vote">
+        <a class="tile-link" href="https://randnum.example.com/" title="Quay số ngẫu nhiên trong khoảng bất kỳ, từ một đến một nghìn số, có hoặc không lặp. Loại trừ số, sắp xếp và chia sẻ link kết quả." style="--h:159;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Quay số ngẫu nhiên</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/" title="Dựa vào các con số để né mìn và dọn sạch bảng. Ba cấp độ, lần chạm đầu an toàn và đồng hồ để thử thách." style="--h:185;--h2:167">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
@@ -619,14 +647,14 @@
       </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/" title="Chạm chuột chũi thò lên từ các hố, né bom và ghi điểm cao nhất trong 30 giây." style="--h:17;--h2:359">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span></span>
           <span class="tile-name">Game đập chuột chũi</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="animal" data-cat="test">
         <a class="tile-link" href="https://animal.example.com/" title="8 khoảnh khắc đời thường, 2–3 phút. Tìm con vật giống tính cách bạn nhất và người hợp với bạn nhất." style="--h:166;--h2:148">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span></span>
           <span class="tile-name">Bạn là con vật nào?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

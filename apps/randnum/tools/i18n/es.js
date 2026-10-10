@@ -1,0 +1,120 @@
+/* Generador de números aleatorios — español. Misma estructura de claves que en.js (ver comentarios). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&display=swap',
+    display: "'Unbounded'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: 'Generador de números aleatorios online',
+    description: 'Generador de números aleatorios gratis: saca uno o hasta 1.000 números entre cualquier mínimo y máximo, con o sin repetición. Excluye números, ordena, copia y comparte el enlace del resultado de tu sorteo.',
+    ogTitle: 'Generador de números aleatorios 🔢',
+    ogDescription: 'Cualquier rango, hasta 1.000 números, sin repetir si quieres. Sorteo justo con enlace de resultado para compartir.',
+  },
+  siteName: 'Números aleatorios',
+  privacyLink: 'Política de privacidad',
+
+  hero: {
+    h1Kicker: 'Generador de números aleatorios',
+    h1Html: 'Un número o cien,<br>siempre <em>al azar</em>',
+    hook: 'Elige el rango, cuántos números y sortea. Rifas, sorteos en redes, preguntas en clase o turnos para jugar.',
+  },
+
+  ui: {
+    presetsLabel: 'Rangos rápidos',
+    minLabel: 'Desde',
+    maxLabel: 'Hasta',
+    countLabel: '¿Cuántos números?',
+    countDec: 'Uno menos',
+    countInc: 'Uno más',
+    dupLabel: 'Con repetición',
+    sortLabel: 'Ordenar',
+    more: 'Más opciones',
+    excludeLabel: 'Excluir números',
+    excludePh: 'p. ej. 4, 13, 20-25',
+    excludeHint: 'Sepáralos con comas o espacios. Escribe 20-25 para saltar todo un tramo.',
+    titleLabel: 'Nombre del sorteo (opcional)',
+    titlePh: 'p. ej. Rifa del viernes',
+    draw: 'Sacar números 🔢',
+    drawing: 'Sorteando…',
+    fair: 'Azar criptográfico sin sesgo · nada sale de tu navegador',
+  },
+
+  errors: {
+    minInvalid: 'Escribe un número entero en «Desde».',
+    maxInvalid: 'Escribe un número entero en «Hasta».',
+    outOfLimit: 'Los números deben estar entre −1.000.000.000 y 1.000.000.000.',
+    minGtMax: '«Desde» no puede ser mayor que «Hasta».',
+    countInvalid: 'Saca al menos un número.',
+    countTooBig: 'Puedes sacar hasta 1.000 números de una vez.',
+    notEnough: 'Solo hay {n} números distintos disponibles. Permite la repetición o saca menos.',
+    allExcluded: 'Todos los números de este rango están excluidos.',
+    excludeBad: 'No se pueden leer estas exclusiones: {list}',
+    excludeTooMany: 'Puedes excluir hasta 1.000 números.',
+    badLink: 'Este enlace de resultado está roto o incompleto, así que no se muestra nada.',
+  },
+
+  result: {
+    heading: 'Tus números',
+    headingOne: 'Tu número',
+    sharedBadge: '🎁 Resultado compartido',
+    range: 'del {min} al {max}',
+    countTag: '×{n}',
+    noRepeat: 'Sin repetir',
+    repeat: 'Con repetición',
+    sorted: 'Ordenado',
+    excluded: '{n} excluidos',
+    sharedNote: 'Sorteado el {date}. Es el resultado original guardado en el enlace. Abrirlo nunca vuelve a sortear.',
+    copy: 'Copiar números',
+    copied: 'Números copiados',
+    copyLink: 'Copiar enlace',
+    linkCopied: 'Enlace copiado. Quien lo abra verá exactamente este sorteo.',
+    again: 'Sortear otra vez',
+    drawOwn: 'Hacer mi sorteo',
+    live: 'Resultado: {nums}',
+    more: '+{n} más',
+    shareTitle: 'Generador de números aleatorios',
+    shareText: 'Me salió {nums} (del {min} al {max}) 🔢',
+    shareTextLabel: '{label}: {nums} (del {min} al {max}) 🔢',
+  },
+
+  history: {
+    title: 'Sorteos recientes',
+    note: 'Tus últimos 10 sorteos, guardados solo en este dispositivo.',
+    clear: 'Borrar',
+  },
+
+  og: {
+    brand: '🔢 Números aleatorios',
+    kicker: 'Cualquier rango · hasta 1.000 números',
+    title: 'Generador de números aleatorios',
+    desc: 'Justo, sin sesgo y fácil de compartir',
+  },
+
+  faq: [
+    { q: '¿El sorteo es realmente justo?', a: 'Sí. Cada número sale del generador aleatorio criptográfico de tu navegador (crypto.getRandomValues) con muestreo por rechazo, así que ningún número del rango tiene ni un poquito más de probabilidad que otro. El resultado queda fijado antes de que empiece la animación.' },
+    { q: '¿Cómo saco números sin que se repitan?', a: 'Deja «Con repetición» desactivado. Así cada número solo puede salir una vez por sorteo, como papelitos sacados de una bolsa. Si pides más números de los que tiene el rango, te pediremos ampliarlo o sacar menos.' },
+    { q: '¿Cómo uso el enlace del resultado en un sorteo de redes?', a: 'Después del sorteo, toca «Copiar enlace». Los números, el rango, las opciones y la hora quedan guardados dentro del propio enlace. Quien lo abra verá ese resultado exacto marcado como compartido, sin volver a sortear.' },
+    { q: '¿Puedo usar números negativos o un rango enorme?', a: 'Sí. Cada extremo puede ir de −1.000.000.000 a 1.000.000.000 y puedes sacar hasta 1.000 números a la vez. También puedes excluir números concretos o tramos como 20-25.' },
+  ],
+
+  privacy: {
+    title: 'Política de privacidad | Números aleatorios',
+    description: 'Política de privacidad del generador de números aleatorios: tus sorteos se quedan en tu navegador, cookies, publicidad y estadísticas.',
+    h1: 'Política de privacidad',
+    introHtml: 'El generador de números aleatorios (el «Servicio») respeta tu privacidad y solo trata la información mínima descrita a continuación.',
+    sections: [
+      ['1. Información que recogemos', 'El Servicio funciona sin cuenta ni inicio de sesión. Tus ajustes y los números sorteados se procesan solo en tu navegador y no se envían a nuestro servidor. Tus últimos 10 sorteos se guardan en el almacenamiento local del navegador de tu dispositivo y puedes borrarlos cuando quieras con el botón Borrar. Al copiar un enlace de resultado, los números se escriben dentro del propio enlace y solo se comparten con quienes tú se lo envíes.'],
+      ['2. Cookies y tecnologías similares', 'El Servicio puede usar cookies y el almacenamiento local de tu navegador para recordar tu idioma y tus sorteos recientes, mostrar anuncios y entender cómo se usa. Puedes rechazarlas o borrarlas en los ajustes del navegador; algunas funciones podrían no funcionar como se espera.'],
+      ['3. Publicidad (Google AdSense)', 'El Servicio muestra anuncios mediante Google AdSense. Google y sus socios pueden usar cookies para mostrar anuncios según tus visitas anteriores a este y otros sitios web. Puedes obtener más información y cambiar tus preferencias en la <a href="https://adssettings.google.com/" target="_blank" rel="noopener">configuración de anuncios de Google</a>.'],
+      ['4. Estadísticas', 'Para mejorar el Servicio podemos usar Google Analytics (GA4) y contadores propios que solo guardan totales diarios por idioma (visitas, sorteos, valoraciones). Nada de esto te identifica personalmente.'],
+      ['5. Contacto', 'Si tienes preguntas sobre esta política de privacidad, contacta con el responsable del sitio.'],
+      ['6. Fecha de entrada en vigor', 'Esta política está vigente desde el 11 de octubre de 2026.'],
+    ],
+    back: '← Volver al generador de números aleatorios',
+  },
+};

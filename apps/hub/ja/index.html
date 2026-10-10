@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 31,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -296,6 +296,20 @@
       "url": "https://coffee.example.com/ja/",
       "name": "コーヒー性格診断",
       "description": "日常の12の質問、2分で完了。あなたの性格に似たコーヒーが見つかります。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://qr.example.com/ja/",
+      "name": "QRコード作成",
+      "description": "URL・テキスト・Wi-Fi・メール・電話番号をすぐQRコードに。色とサイズを選んでPNG・SVGで保存。入力内容はサーバーに送られません。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://randnum.example.com/ja/",
+      "name": "乱数生成",
+      "description": "最小と最大を決めるだけ。1〜1000個の数字を重複なしで公平に抽選。除外する数字や並べ替え、抽選結果のリンク共有も。"
     }
   ]
 }
@@ -371,6 +385,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="qr">
+        <a class="cur-card" href="https://qr.example.com/ja/" style="--h:1;--h2:343">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">便利ツール</span></span>
+            <h3 class="cur-headline">リンクをQRコードに</h3>
+            <span class="cur-giant" aria-hidden="true">🔳</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">URL・テキスト・Wi-Fiもすぐ作成。PNG/SVGで保存。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">QRコード作成</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="randnum">
+        <a class="cur-card" href="https://randnum.example.com/ja/" style="--h:159;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">公平な抽選</span></span>
+            <h3 class="cur-headline">ワンタップで数字をランダム抽選</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">範囲も個数も自由。重複なしも選べます。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">乱数生成</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sweeper">
         <a class="cur-card" href="https://sweeper.example.com/ja/" style="--h:185;--h2:167">
           <span class="cur-art">
@@ -435,7 +481,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick">
+      <li class="cur-item" data-id="brick" hidden>
         <a class="cur-card" href="https://brick.example.com/ja/" style="--h:243;--h2:225">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">レトロアーケード</span></span>
@@ -451,7 +497,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mentalage">
+      <li class="cur-item" data-id="mentalage" hidden>
         <a class="cur-card" href="https://mentalage.example.com/ja/" style="--h:270;--h2:252">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理テスト</span></span>
@@ -499,45 +545,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole" hidden>
-        <a class="cur-card" href="https://mole.example.com/ja/" style="--h:17;--h2:359">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">反射神経ゲーム</span></span>
-            <h3 class="cur-headline">もぐらを叩け、爆弾はよけろ</h3>
-            <span class="cur-giant" aria-hidden="true">🔨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">隠れる前にタップ。30秒で称号が決まる。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">もぐらたたき</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="animal" hidden>
-        <a class="cur-card" href="https://animal.example.com/ja/" style="--h:166;--h2:148">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">恋愛診断</span></span>
-            <h3 class="cur-headline">私に似ている動物は？</h3>
-            <span class="cur-giant" aria-hidden="true">🦊</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">日常の8つの場面で、あなたの野生を発見。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">動物診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">31件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">33件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -559,6 +573,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="qr" data-cat="create">
+        <a class="tile-link" href="https://qr.example.com/ja/" title="URL・テキスト・Wi-Fi・メール・電話番号をすぐQRコードに。色とサイズを選んでPNG・SVGで保存。入力内容はサーバーに送られません。" style="--h:1;--h2:343">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">QRコード作成</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="randnum" data-cat="vote">
+        <a class="tile-link" href="https://randnum.example.com/ja/" title="最小と最大を決めるだけ。1〜1000個の数字を重複なしで公平に抽選。除外する数字や並べ替え、抽選結果のリンク共有も。" style="--h:159;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">乱数生成</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/ja/" title="数字を手がかりに地雷をよけて、盤面を全部開けよう。3レベル、最初の1手は必ず安全。" style="--h:185;--h2:167">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
@@ -617,14 +645,14 @@
       </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/ja/" title="穴から出てくるもぐらをタップ！爆弾はよけて、30秒でハイスコアを目指そう。" style="--h:17;--h2:359">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span></span>
           <span class="tile-name">もぐらたたき</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="animal" data-cat="test">
         <a class="tile-link" href="https://animal.example.com/ja/" title="予定のドタキャンから真夜中の電話まで、8つの場面で分かるあなたに似た動物。約2〜3分。" style="--h:166;--h2:148">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span></span>
           <span class="tile-name">動物診断</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

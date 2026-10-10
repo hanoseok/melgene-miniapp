@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 31,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -297,6 +297,20 @@
       "url": "https://coffee.example.com/",
       "name": "나는 어떤 커피?",
       "description": "일상 속 12가지 질문, 2분이면 끝. 내 성격과 닮은 커피를 찾아보세요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://qr.example.com/",
+      "name": "QR코드 생성기",
+      "description": "링크·글자·와이파이·이메일·전화번호를 QR코드로 바로 만들어요. 색·크기 바꾸고 PNG·SVG로 저장, 입력한 내용은 서버로 가지 않아요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://randnum.example.com/",
+      "name": "랜덤 숫자 뽑기",
+      "description": "최소·최대만 정하면 끝. 숫자 1~1000개를 중복 없이 공정하게 뽑고, 뺄 번호·정렬·추첨 결과 링크 공유까지 돼요."
     }
   ]
 }
@@ -372,6 +386,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="qr">
+        <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">간편 도구</span></span>
+            <h3 class="cur-headline">링크를 QR 코드로 바로 만들어요</h3>
+            <span class="cur-giant" aria-hidden="true">🔳</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">링크·문자·와이파이까지. PNG·SVG로 저장, 서버 전송 없음.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">QR코드 생성기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="randnum">
+        <a class="cur-card" href="https://randnum.example.com/" style="--h:159;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">공정한 추첨</span></span>
+            <h3 class="cur-headline">버튼 한 번에 랜덤 숫자 뽑기</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">범위·개수 자유, 중복 없이도. 경품 추첨에 딱.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">랜덤 숫자 뽑기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sweeper">
         <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
           <span class="cur-art">
@@ -436,7 +482,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick">
+      <li class="cur-item" data-id="brick" hidden>
         <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">추억의 오락실</span></span>
@@ -452,7 +498,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mentalage">
+      <li class="cur-item" data-id="mentalage" hidden>
         <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">심리테스트</span></span>
@@ -500,45 +546,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole" hidden>
-        <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">순발력 게임</span></span>
-            <h3 class="cur-headline">두더지는 톡, 폭탄은 피하기</h3>
-            <span class="cur-giant" aria-hidden="true">🔨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">숨기 전에 톡톡 잡으세요. 30초 안에 등급이 정해져요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">두더지 잡기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="animal" hidden>
-        <a class="cur-card" href="https://animal.example.com/" style="--h:166;--h2:148">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">심리테스트</span></span>
-            <h3 class="cur-headline">나와 닮은 동물은?</h3>
-            <span class="cur-giant" aria-hidden="true">🦊</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">일상 속 8가지 순간으로 찾는 내 안의 동물.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">나와 닮은 동물 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">31개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">33개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -560,6 +574,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="qr" data-cat="create">
+        <a class="tile-link" href="https://qr.example.com/" title="링크·글자·와이파이·이메일·전화번호를 QR코드로 바로 만들어요. 색·크기 바꾸고 PNG·SVG로 저장, 입력한 내용은 서버로 가지 않아요." style="--h:1;--h2:343">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">QR코드 생성기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="randnum" data-cat="vote">
+        <a class="tile-link" href="https://randnum.example.com/" title="최소·최대만 정하면 끝. 숫자 1~1000개를 중복 없이 공정하게 뽑고, 뺄 번호·정렬·추첨 결과 링크 공유까지 돼요." style="--h:159;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">랜덤 숫자 뽑기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/" title="숫자를 단서로 지뢰를 피해 판을 싹 열어 보세요! 초급·중급·고급, 첫 터치는 언제나 안전해요." style="--h:185;--h2:167">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
@@ -618,14 +646,14 @@
       </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/" title="구멍에서 튀어나오는 두더지를 톡톡! 폭탄은 피하고 30초 안에 최고 점수에 도전하세요." style="--h:17;--h2:359">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span></span>
           <span class="tile-name">두더지 잡기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="animal" data-cat="test">
         <a class="tile-link" href="https://animal.example.com/" title="약속 취소, 한밤중 전화, 낯선 파티까지 8가지 순간으로 알아보는 나와 닮은 동물. 2~3분이면 끝나요." style="--h:166;--h2:148">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span></span>
           <span class="tile-name">나와 닮은 동물 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

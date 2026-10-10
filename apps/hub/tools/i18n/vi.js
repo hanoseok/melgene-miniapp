@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'qr',
+        kicker: "Công cụ tiện lợi",
+        headline: "Biến link thành mã QR",
+        blurb: "Link, chữ hay Wi-Fi. Tải PNG hoặc SVG ngay trên trình duyệt.",
+      },
+      {
+        id: 'randnum',
+        kicker: "Bốc thăm công bằng",
+        headline: "Quay số ngẫu nhiên một chạm",
+        blurb: "Khoảng số tùy ý, có thể không trùng. Hợp cho minigame.",
+      },
+      {
         id: 'coffee',
         kicker: "Trắc nghiệm tính cách",
         headline: "Bạn là loại cà phê nào?",

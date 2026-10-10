@@ -1,0 +1,120 @@
+/* Quay số ngẫu nhiên — tiếng Việt. Cấu trúc khóa giống en.js (xem chú thích). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&display=swap',
+    display: "'Unbounded'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: 'Quay số ngẫu nhiên – Random số online',
+    description: 'Quay số ngẫu nhiên miễn phí: chọn một hoặc tới 1.000 số trong khoảng bất kỳ, có hoặc không lặp lại. Loại trừ số, sắp xếp, sao chép kết quả và chia sẻ link kết quả bốc thăm trúng thưởng.',
+    ogTitle: 'Quay số ngẫu nhiên 🔢 Random số online',
+    ogDescription: 'Khoảng bất kỳ, tới 1.000 số, không lặp nếu muốn. Quay số công bằng, chia sẻ link kết quả ngay.',
+  },
+  siteName: 'Quay số ngẫu nhiên',
+  privacyLink: 'Chính sách quyền riêng tư',
+
+  hero: {
+    h1Kicker: 'Quay số ngẫu nhiên',
+    h1Html: 'Một số hay trăm số<br>đều <em>công bằng</em>',
+    hook: 'Đặt khoảng số, chọn số lượng rồi quay. Bốc thăm trúng thưởng, minigame fanpage, gọi bạn lên bảng hay chia lượt chơi.',
+  },
+
+  ui: {
+    presetsLabel: 'Khoảng nhanh',
+    minLabel: 'Từ',
+    maxLabel: 'Đến',
+    countLabel: 'Quay mấy số?',
+    countDec: 'Bớt một',
+    countInc: 'Thêm một',
+    dupLabel: 'Cho phép lặp',
+    sortLabel: 'Sắp xếp',
+    more: 'Tùy chọn khác',
+    excludeLabel: 'Loại trừ số',
+    excludePh: 'vd: 4, 13, 20-25',
+    excludeHint: 'Cách nhau bằng dấu phẩy hoặc khoảng trắng. Viết 20-25 để bỏ cả đoạn.',
+    titleLabel: 'Tên đợt quay (tùy chọn)',
+    titlePh: 'vd: Minigame tháng 10',
+    draw: 'Quay số 🔢',
+    drawing: 'Đang quay…',
+    fair: 'Ngẫu nhiên mật mã không thiên lệch · dữ liệu không rời trình duyệt',
+  },
+
+  errors: {
+    minInvalid: 'Hãy nhập số nguyên vào ô “Từ”.',
+    maxInvalid: 'Hãy nhập số nguyên vào ô “Đến”.',
+    outOfLimit: 'Số phải nằm trong khoảng −1.000.000.000 đến 1.000.000.000.',
+    minGtMax: '“Từ” không được lớn hơn “Đến”.',
+    countInvalid: 'Hãy quay ít nhất một số.',
+    countTooBig: 'Mỗi lần quay được tối đa 1.000 số.',
+    notEnough: 'Chỉ có {n} số khác nhau để quay. Hãy cho phép lặp hoặc giảm số lượng.',
+    allExcluded: 'Mọi số trong khoảng này đều bị loại trừ.',
+    excludeBad: 'Không đọc được phần này: {list}',
+    excludeTooMany: 'Chỉ loại trừ được tối đa 1.000 số.',
+    badLink: 'Link kết quả này bị hỏng hoặc không đầy đủ nên không thể hiển thị.',
+  },
+
+  result: {
+    heading: 'Số của bạn',
+    headingOne: 'Số của bạn',
+    sharedBadge: '🎁 Kết quả được chia sẻ',
+    range: '{min} đến {max}',
+    countTag: '×{n}',
+    noRepeat: 'Không lặp',
+    repeat: 'Cho phép lặp',
+    sorted: 'Đã sắp xếp',
+    excluded: 'Loại {n} số',
+    sharedNote: 'Quay lúc {date}. Đây là kết quả gốc lưu trong link, mở bao nhiêu lần cũng không quay lại.',
+    copy: 'Sao chép số',
+    copied: 'Đã sao chép số',
+    copyLink: 'Sao chép link',
+    linkCopied: 'Đã sao chép link. Ai mở cũng thấy đúng kết quả này.',
+    again: 'Quay lại',
+    drawOwn: 'Tự quay số',
+    live: 'Kết quả: {nums}',
+    more: 'và {n} số nữa',
+    shareTitle: 'Quay số ngẫu nhiên',
+    shareText: 'Mình quay được {nums} (từ {min} đến {max}) 🔢',
+    shareTextLabel: '{label}: {nums} (từ {min} đến {max}) 🔢',
+  },
+
+  history: {
+    title: 'Lượt quay gần đây',
+    note: '10 lượt gần nhất, chỉ lưu trên thiết bị này.',
+    clear: 'Xóa',
+  },
+
+  og: {
+    brand: '🔢 Quay số ngẫu nhiên',
+    kicker: 'Khoảng bất kỳ · tới 1.000 số',
+    title: 'Quay số ngẫu nhiên online',
+    desc: 'Công bằng, không thiên lệch, dễ chia sẻ',
+  },
+
+  faq: [
+    { q: 'Quay số có thật sự công bằng không?', a: 'Có. Mỗi số đều lấy từ bộ sinh số ngẫu nhiên mật mã của trình duyệt (crypto.getRandomValues) kết hợp lấy mẫu loại bỏ, nên không số nào trong khoảng dễ ra hơn số khác dù chỉ một chút. Kết quả đã được chốt trước khi hiệu ứng quay bắt đầu.' },
+    { q: 'Làm sao để quay số không trùng?', a: 'Cứ để tắt “Cho phép lặp”. Mỗi số chỉ ra tối đa một lần trong một lượt, giống bốc thăm từ hộp. Nếu bạn xin nhiều số hơn số có trong khoảng, ứng dụng sẽ nhắc mở rộng khoảng hoặc giảm số lượng.' },
+    { q: 'Dùng link kết quả để công bố minigame thế nào?', a: 'Sau khi quay, bấm “Sao chép link”. Các số, khoảng, tùy chọn và thời điểm quay đều nằm ngay trong link. Ai mở link sẽ thấy đúng kết quả đó với nhãn “được chia sẻ”, không quay lại lần nữa. Dán vào bài công bố là xong.' },
+    { q: 'Có dùng được số âm hay khoảng rất lớn không?', a: 'Được. Mỗi đầu có thể từ −1 tỷ đến 1 tỷ, mỗi lần quay tối đa 1.000 số. Bạn cũng có thể loại trừ số cụ thể hoặc cả đoạn như 20-25.' },
+  ],
+
+  privacy: {
+    title: 'Chính sách quyền riêng tư | Quay số ngẫu nhiên',
+    description: 'Chính sách quyền riêng tư của Quay số ngẫu nhiên: kết quả quay chỉ nằm trong trình duyệt của bạn, cookie, quảng cáo và thống kê.',
+    h1: 'Chính sách quyền riêng tư',
+    introHtml: 'Quay số ngẫu nhiên ("Dịch vụ") tôn trọng quyền riêng tư của bạn và chỉ xử lý lượng thông tin tối thiểu được mô tả dưới đây.',
+    sections: [
+      ['1. Thông tin chúng tôi thu thập', 'Dịch vụ dùng được mà không cần tài khoản hay đăng nhập. Cài đặt và các số được quay chỉ được xử lý trong trình duyệt của bạn và không gửi về máy chủ của chúng tôi. 10 lượt quay gần nhất được lưu trong bộ nhớ cục bộ của trình duyệt trên thiết bị của bạn và có thể xóa bất cứ lúc nào bằng nút Xóa. Khi bạn sao chép link kết quả, các số được ghi ngay trong link và chỉ được chia sẻ với người bạn gửi.'],
+      ['2. Cookie và công nghệ tương tự', 'Dịch vụ có thể dùng cookie và bộ nhớ cục bộ của trình duyệt để ghi nhớ ngôn ngữ và lượt quay gần đây, hiển thị quảng cáo và hiểu cách Dịch vụ được sử dụng. Bạn có thể từ chối hoặc xóa chúng trong cài đặt trình duyệt; khi đó một số tính năng có thể không hoạt động như mong đợi.'],
+      ['3. Quảng cáo (Google AdSense)', 'Dịch vụ hiển thị quảng cáo qua Google AdSense. Google và các đối tác có thể dùng cookie để phân phát quảng cáo dựa trên các lần bạn truy cập trang này và trang khác trước đây. Bạn có thể tìm hiểu thêm và thay đổi tùy chọn trong <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Cài đặt quảng cáo của Google</a>.'],
+      ['4. Thống kê', 'Để cải thiện Dịch vụ, chúng tôi có thể dùng Google Analytics (GA4) và bộ đếm riêng chỉ lưu tổng số theo ngày cho từng ngôn ngữ (lượt xem, lượt quay, đánh giá sao). Không thông tin nào trong đó nhận dạng được cá nhân bạn.'],
+      ['5. Liên hệ', 'Nếu có câu hỏi về chính sách quyền riêng tư này, vui lòng liên hệ người vận hành trang.'],
+      ['6. Ngày hiệu lực', 'Chính sách này có hiệu lực từ ngày 11 tháng 10 năm 2026.'],
+    ],
+    back: '← Quay lại Quay số ngẫu nhiên',
+  },
+};

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 31,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -297,6 +297,20 @@
       "url": "https://coffee.example.com/",
       "name": "¿Qué café eres?",
       "description": "12 preguntas del día a día, 2 minutos. Descubre qué café se parece a tu personalidad."
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "url": "https://qr.example.com/",
+      "name": "Generador de códigos QR",
+      "description": "Convierte un enlace, texto, wifi, correo o teléfono en código QR. Elige colores y tamaño y guárdalo en PNG o SVG. Nada sale de tu navegador."
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "url": "https://randnum.example.com/",
+      "name": "Números aleatorios",
+      "description": "Saca números al azar en cualquier rango, de uno a mil, con o sin repetición. Excluye números, ordena y comparte el resultado del sorteo."
     }
   ]
 }
@@ -372,6 +386,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="qr">
+        <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Herramienta útil</span></span>
+            <h3 class="cur-headline">Convierte un enlace en código QR</h3>
+            <span class="cur-giant" aria-hidden="true">🔳</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Enlace, texto o Wi-Fi. Descarga PNG o SVG desde tu navegador.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Generador de códigos QR</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="randnum">
+        <a class="cur-card" href="https://randnum.example.com/" style="--h:159;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Sorteo justo</span></span>
+            <h3 class="cur-headline">Números al azar con un toque</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Cualquier rango, con o sin repetir. Ideal para sorteos.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Números aleatorios</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sweeper">
         <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
           <span class="cur-art">
@@ -436,7 +482,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick">
+      <li class="cur-item" data-id="brick" hidden>
         <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Clásico de arcade</span></span>
@@ -452,7 +498,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mentalage">
+      <li class="cur-item" data-id="mentalage" hidden>
         <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de personalidad</span></span>
@@ -500,45 +546,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mole" hidden>
-        <a class="cur-card" href="https://mole.example.com/" style="--h:17;--h2:359">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Juego de reflejos</span></span>
-            <h3 class="cur-headline">Golpea topos, esquiva bombas</h3>
-            <span class="cur-giant" aria-hidden="true">🔨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tócalos antes de que se escondan. 30 segundos, un título.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Golpea al topo</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="animal" hidden>
-        <a class="cur-card" href="https://animal.example.com/" style="--h:166;--h2:148">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de personalidad</span></span>
-            <h3 class="cur-headline">¿Qué animal eres?</h3>
-            <span class="cur-giant" aria-hidden="true">🦊</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Ocho momentos cotidianos, dos minutos. Conoce tu lado salvaje.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">¿Qué animal eres?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">31 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">33 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -560,6 +574,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="qr" data-cat="create">
+        <a class="tile-link" href="https://qr.example.com/" title="Convierte un enlace, texto, wifi, correo o teléfono en código QR. Elige colores y tamaño y guárdalo en PNG o SVG. Nada sale de tu navegador." style="--h:1;--h2:343">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Generador de códigos QR</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="randnum" data-cat="vote">
+        <a class="tile-link" href="https://randnum.example.com/" title="Saca números al azar en cualquier rango, de uno a mil, con o sin repetición. Excluye números, ordena y comparte el resultado del sorteo." style="--h:159;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Números aleatorios</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/" title="Usa los números para esquivar las minas y despejar el tablero. Tres niveles, primer toque seguro y un tiempo que batir." style="--h:185;--h2:167">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NUEVO</span></span>
@@ -618,14 +646,14 @@
       </li>
       <li class="tile" data-id="mole" data-cat="game">
         <a class="tile-link" href="https://mole.example.com/" title="Toca los topos que asoman por los agujeros, esquiva las bombas y bate tu récord en 30 segundos." style="--h:17;--h2:359">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔨</span></span></span>
           <span class="tile-name">Golpea al topo</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="animal" data-cat="test">
         <a class="tile-link" href="https://animal.example.com/" title="8 momentos cotidianos, 2 o 3 minutos. Descubre qué animal se parece a tu personalidad y con quién haces match." style="--h:166;--h2:148">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦊</span></span></span>
           <span class="tile-name">¿Qué animal eres?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

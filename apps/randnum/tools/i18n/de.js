@@ -1,0 +1,120 @@
+/* Zufallszahlen Generator — Deutsch. Gleiche Schlüsselstruktur wie en.js (siehe Kommentare). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&display=swap',
+    display: "'Unbounded'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'auto',
+  },
+
+  meta: {
+    title: 'Zufallszahlen Generator – Zahlen online ziehen',
+    description: 'Kostenloser Zufallszahlen Generator: Ziehe eine oder bis zu 1.000 Zahlen zwischen beliebigem Minimum und Maximum, mit oder ohne Wiederholung. Zahlen ausschließen, sortieren, kopieren und Ergebnis-Link teilen.',
+    ogTitle: 'Zufallszahlen Generator 🔢 Zahlen online ziehen',
+    ogDescription: 'Jeder Bereich, bis zu 1.000 Zahlen, auf Wunsch ohne Wiederholung. Faire Krypto-Zufallszahlen mit teilbarem Ergebnis-Link.',
+  },
+  siteName: 'Zufallszahlen',
+  privacyLink: 'Datenschutz',
+
+  hero: {
+    h1Kicker: 'Zufallszahlen Generator',
+    h1Html: 'Eine Zahl oder hundert,<br>ganz <em>zufällig</em>',
+    hook: 'Bereich festlegen, Anzahl wählen, ziehen. Für Verlosungen, Gewinnspiele, Abfragen im Unterricht oder die Reihenfolge.',
+  },
+
+  ui: {
+    presetsLabel: 'Schnellauswahl',
+    minLabel: 'Von',
+    maxLabel: 'Bis',
+    countLabel: 'Wie viele Zahlen?',
+    countDec: 'Eine weniger',
+    countInc: 'Eine mehr',
+    dupLabel: 'Doppelte erlaubt',
+    sortLabel: 'Sortieren',
+    more: 'Weitere Optionen',
+    excludeLabel: 'Zahlen ausschließen',
+    excludePh: 'z. B. 4, 13, 20-25',
+    excludeHint: 'Mit Komma oder Leerzeichen trennen. 20-25 schließt den ganzen Abschnitt aus.',
+    titleLabel: 'Name der Ziehung (optional)',
+    titlePh: 'z. B. Weihnachtsverlosung',
+    draw: 'Zahlen ziehen 🔢',
+    drawing: 'Wird gezogen …',
+    fair: 'Unverzerrter Krypto-Zufall · nichts verlässt deinen Browser',
+  },
+
+  errors: {
+    minInvalid: 'Gib bei „Von“ eine ganze Zahl ein.',
+    maxInvalid: 'Gib bei „Bis“ eine ganze Zahl ein.',
+    outOfLimit: 'Die Zahlen müssen zwischen −1.000.000.000 und 1.000.000.000 liegen.',
+    minGtMax: '„Von“ darf nicht größer sein als „Bis“.',
+    countInvalid: 'Ziehe mindestens eine Zahl.',
+    countTooBig: 'Du kannst bis zu 1.000 Zahlen auf einmal ziehen.',
+    notEnough: 'Es gibt nur {n} verschiedene Zahlen. Erlaube Doppelte oder ziehe weniger.',
+    allExcluded: 'Alle Zahlen in diesem Bereich sind ausgeschlossen.',
+    excludeBad: 'Diese Angaben sind nicht lesbar: {list}',
+    excludeTooMany: 'Du kannst bis zu 1.000 Zahlen ausschließen.',
+    badLink: 'Dieser Ergebnis-Link ist beschädigt oder unvollständig und kann nicht angezeigt werden.',
+  },
+
+  result: {
+    heading: 'Deine Zahlen',
+    headingOne: 'Deine Zahl',
+    sharedBadge: '🎁 Geteiltes Ergebnis',
+    range: '{min} bis {max}',
+    countTag: '×{n}',
+    noRepeat: 'Ohne Wiederholung',
+    repeat: 'Doppelte erlaubt',
+    sorted: 'Sortiert',
+    excluded: '{n} ausgeschlossen',
+    sharedNote: 'Gezogen am {date}. Das ist das Originalergebnis aus dem Link. Beim Öffnen wird nie neu gezogen.',
+    copy: 'Zahlen kopieren',
+    copied: 'Zahlen kopiert',
+    copyLink: 'Link kopieren',
+    linkCopied: 'Link kopiert. Wer ihn öffnet, sieht genau diese Ziehung.',
+    again: 'Noch mal ziehen',
+    drawOwn: 'Selbst ziehen',
+    live: 'Ergebnis: {nums}',
+    more: '+{n} weitere',
+    shareTitle: 'Zufallszahlen Generator',
+    shareText: 'Ich habe {nums} gezogen ({min} bis {max}) 🔢',
+    shareTextLabel: '{label}: {nums} ({min} bis {max}) 🔢',
+  },
+
+  history: {
+    title: 'Letzte Ziehungen',
+    note: 'Deine letzten 10 Ziehungen, nur auf diesem Gerät gespeichert.',
+    clear: 'Löschen',
+  },
+
+  og: {
+    brand: '🔢 Zufallszahlen Generator',
+    kicker: 'Jeder Bereich · bis zu 1.000 Zahlen',
+    title: 'Zufallszahlen online ziehen',
+    desc: 'Fair, unverzerrt und leicht zu teilen',
+  },
+
+  faq: [
+    { q: 'Ist der Zufallszahlen Generator wirklich fair?', a: 'Ja. Jede Zahl stammt aus dem kryptografischen Zufallsgenerator deines Browsers (crypto.getRandomValues) mit Verwerfungsmethode, sodass keine Zahl im Bereich auch nur ein bisschen wahrscheinlicher ist als eine andere. Das Ergebnis steht fest, bevor die Animation beginnt.' },
+    { q: 'Wie ziehe ich Zahlen ohne Wiederholung?', a: 'Lass „Doppelte erlaubt“ ausgeschaltet. Dann kann jede Zahl pro Ziehung nur einmal vorkommen, wie Lose aus einem Topf. Willst du mehr Zahlen ziehen, als der Bereich hergibt, wirst du gebeten, den Bereich zu vergrößern oder weniger zu ziehen.' },
+    { q: 'Wie funktioniert der Ergebnis-Link bei einem Gewinnspiel?', a: 'Tippe nach der Ziehung auf „Ergebnis-Link kopieren“. Zahlen, Bereich, Optionen und Zeitpunkt stehen im Link selbst. Wer ihn öffnet, sieht genau dieses Ergebnis als geteilt markiert, und es wird nichts neu gezogen.' },
+    { q: 'Gehen auch negative Zahlen oder riesige Bereiche?', a: 'Ja. Beide Grenzen dürfen zwischen −1.000.000.000 und 1.000.000.000 liegen, und du kannst bis zu 1.000 Zahlen auf einmal ziehen. Einzelne Zahlen oder Abschnitte wie 20-25 lassen sich ausschließen.' },
+  ],
+
+  privacy: {
+    title: 'Datenschutzerklärung | Zufallszahlen Generator',
+    description: 'Datenschutzerklärung des Zufallszahlen Generators: Deine Ziehungen bleiben im Browser, Cookies, Werbung und Statistik.',
+    h1: 'Datenschutzerklärung',
+    introHtml: 'Der Zufallszahlen Generator (der „Dienst“) respektiert deine Privatsphäre und verarbeitet nur die unten beschriebenen Mindestinformationen.',
+    sections: [
+      ['1. Welche Daten wir erheben', 'Der Dienst funktioniert ohne Konto oder Anmeldung. Deine Einstellungen und gezogenen Zahlen werden nur in deinem Browser verarbeitet und nicht an unseren Server gesendet. Deine letzten 10 Ziehungen werden im lokalen Speicher des Browsers auf deinem Gerät abgelegt und lassen sich jederzeit mit „Löschen“ entfernen. Wenn du einen Ergebnis-Link kopierst, stehen die Zahlen im Link selbst und werden nur mit den Personen geteilt, denen du ihn schickst.'],
+      ['2. Cookies und ähnliche Technologien', 'Der Dienst kann Cookies und den lokalen Speicher deines Browsers nutzen, um Sprache und letzte Ziehungen zu merken, Werbung anzuzeigen und die Nutzung zu verstehen. Du kannst sie in den Browsereinstellungen ablehnen oder löschen; manche Funktionen arbeiten dann eventuell nicht wie erwartet.'],
+      ['3. Werbung (Google AdSense)', 'Der Dienst zeigt Werbung über Google AdSense. Google und seine Partner können Cookies verwenden, um Anzeigen auf Grundlage deiner früheren Besuche auf dieser und anderen Websites auszuliefern. Mehr dazu und deine Einstellungen findest du in den <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google-Anzeigeneinstellungen</a>.'],
+      ['4. Statistik', 'Zur Verbesserung des Dienstes nutzen wir eventuell Google Analytics (GA4) und eigene Zähler, die nur Tagessummen pro Sprache speichern (Seitenaufrufe, Ziehungen, Sternebewertungen). Nichts davon identifiziert dich persönlich.'],
+      ['5. Kontakt', 'Bei Fragen zu dieser Datenschutzerklärung wende dich bitte an den Betreiber der Website.'],
+      ['6. Gültig ab', 'Diese Erklärung gilt ab dem 11. Oktober 2026.'],
+    ],
+    back: '← Zurück zum Zufallszahlen Generator',
+  },
+};

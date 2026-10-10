@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'qr',
+        kicker: "便利ツール",
+        headline: "リンクをQRコードに",
+        blurb: "URL・テキスト・Wi-Fiもすぐ作成。PNG/SVGで保存。",
+      },
+      {
+        id: 'randnum',
+        kicker: "公平な抽選",
+        headline: "ワンタップで数字をランダム抽選",
+        blurb: "範囲も個数も自由。重複なしも選べます。",
+      },
+      {
         id: 'coffee',
         kicker: "心理テスト",
         headline: "あなたはどのコーヒー？",

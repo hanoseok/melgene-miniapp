@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'qr',
+        kicker: "Praktisches Tool",
+        headline: "Jeden Link als QR-Code",
+        blurb: "Link, Text oder WLAN. Als PNG oder SVG, direkt im Browser.",
+      },
+      {
+        id: 'randnum',
+        kicker: "Faire Auslosung",
+        headline: "Zufallszahlen mit einem Tipp",
+        blurb: "Freier Bereich, auch ohne Doppelte. Ideal für Gewinnspiele.",
+      },
+      {
         id: 'coffee',
         kicker: "Persönlichkeitstest",
         headline: "Welcher Kaffee bist du?",

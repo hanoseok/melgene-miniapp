@@ -1,0 +1,120 @@
+/* Générateur de nombres aléatoires — français. Même structure de clés que en.js (voir les commentaires). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&display=swap',
+    display: "'Unbounded'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'auto',
+  },
+
+  meta: {
+    title: 'Générateur de nombres aléatoires en ligne',
+    description: 'Générateur de nombres aléatoires gratuit : tire un ou jusqu’à 1 000 nombres entre un minimum et un maximum, avec ou sans doublons. Exclusions, tri, copie et lien de résultat pour tes tirages au sort.',
+    ogTitle: 'Générateur de nombres aléatoires 🔢',
+    ogDescription: 'N’importe quelle plage, jusqu’à 1 000 nombres, sans doublons si tu veux. Tirage équitable et lien de résultat à partager.',
+  },
+  siteName: 'Nombres aléatoires',
+  privacyLink: 'Politique de confidentialité',
+
+  hero: {
+    h1Kicker: 'Générateur de nombres aléatoires',
+    h1Html: 'Un nombre ou cent,<br>tirés <em>au hasard</em>',
+    hook: 'Choisis une plage, le nombre de tirages, et c’est parti. Tombola, concours, interro surprise ou ordre de passage.',
+  },
+
+  ui: {
+    presetsLabel: 'Plages rapides',
+    minLabel: 'De',
+    maxLabel: 'À',
+    countLabel: 'Combien de nombres ?',
+    countDec: 'Un de moins',
+    countInc: 'Un de plus',
+    dupLabel: 'Doublons permis',
+    sortLabel: 'Trier',
+    more: 'Plus d’options',
+    excludeLabel: 'Nombres à exclure',
+    excludePh: 'ex. 4, 13, 20-25',
+    excludeHint: 'Sépare par des virgules ou des espaces. Écris 20-25 pour exclure toute une série.',
+    titleLabel: 'Nom du tirage (facultatif)',
+    titlePh: 'ex. Tombola de l’école',
+    draw: 'Tirer les nombres 🔢',
+    drawing: 'Tirage…',
+    fair: 'Hasard cryptographique sans biais · rien ne quitte ton navigateur',
+  },
+
+  errors: {
+    minInvalid: 'Mets un nombre entier dans « De ».',
+    maxInvalid: 'Mets un nombre entier dans « À ».',
+    outOfLimit: 'Les nombres doivent rester entre −1 000 000 000 et 1 000 000 000.',
+    minGtMax: '« De » ne peut pas être plus grand que « À ».',
+    countInvalid: 'Tire au moins un nombre.',
+    countTooBig: 'Tu peux tirer jusqu’à 1 000 nombres d’un coup.',
+    notEnough: 'Seulement {n} nombres différents sont disponibles. Autorise les doublons ou tire-en moins.',
+    allExcluded: 'Tous les nombres de cette plage sont exclus.',
+    excludeBad: 'Impossible de lire ces exclusions : {list}',
+    excludeTooMany: 'Tu peux exclure jusqu’à 1 000 nombres.',
+    badLink: 'Ce lien de résultat est cassé ou incomplet, rien ne peut être affiché.',
+  },
+
+  result: {
+    heading: 'Tes nombres',
+    headingOne: 'Ton nombre',
+    sharedBadge: '🎁 Résultat partagé',
+    range: 'de {min} à {max}',
+    countTag: '×{n}',
+    noRepeat: 'Sans doublons',
+    repeat: 'Doublons permis',
+    sorted: 'Trié',
+    excluded: '{n} exclus',
+    sharedNote: 'Tiré le {date}. C’est le résultat d’origine enregistré dans le lien : l’ouvrir ne relance jamais le tirage.',
+    copy: 'Copier les nombres',
+    copied: 'Nombres copiés',
+    copyLink: 'Copier le lien',
+    linkCopied: 'Lien copié. Tous ceux qui l’ouvrent voient exactement ce tirage.',
+    again: 'Nouveau tirage',
+    drawOwn: 'Faire mon tirage',
+    live: 'Résultat : {nums}',
+    more: '+{n} autres',
+    shareTitle: 'Générateur de nombres aléatoires',
+    shareText: 'J’ai tiré {nums} (de {min} à {max}) 🔢',
+    shareTextLabel: '{label} : {nums} (de {min} à {max}) 🔢',
+  },
+
+  history: {
+    title: 'Tirages récents',
+    note: 'Tes 10 derniers tirages, gardés sur cet appareil uniquement.',
+    clear: 'Effacer',
+  },
+
+  og: {
+    brand: '🔢 Nombres aléatoires',
+    kicker: 'Toute plage · jusqu’à 1 000 nombres',
+    title: 'Générateur de nombres aléatoires',
+    desc: 'Équitable, sans biais et facile à partager',
+  },
+
+  faq: [
+    { q: 'Le tirage est-il vraiment équitable ?', a: 'Oui. Chaque nombre vient du générateur aléatoire cryptographique de ton navigateur (crypto.getRandomValues) avec un échantillonnage par rejet : aucun nombre de la plage n’a la moindre chance de plus qu’un autre. Le résultat est fixé avant le début de l’animation.' },
+    { q: 'Comment tirer des nombres sans doublons ?', a: 'Laisse « Doublons permis » désactivé. Chaque nombre ne peut alors sortir qu’une fois par tirage, comme des papiers tirés d’un chapeau. Si tu demandes plus de nombres que la plage n’en contient, on te propose d’élargir la plage ou d’en tirer moins.' },
+    { q: 'Comment utiliser le lien de résultat pour un concours ?', a: 'Après le tirage, appuie sur « Copier le lien ». Les nombres, la plage, les options et l’heure du tirage sont enregistrés dans le lien lui-même. Quiconque l’ouvre voit ce résultat précis, marqué comme partagé, sans nouveau tirage.' },
+    { q: 'Puis-je utiliser des nombres négatifs ou une très grande plage ?', a: 'Oui. Chaque borne peut aller de −1 000 000 000 à 1 000 000 000, et tu peux tirer jusqu’à 1 000 nombres à la fois. Tu peux aussi exclure des nombres précis ou des séries comme 20-25.' },
+  ],
+
+  privacy: {
+    title: 'Politique de confidentialité | Nombres aléatoires',
+    description: 'Politique de confidentialité du générateur de nombres aléatoires : tes tirages restent dans ton navigateur, cookies, publicité et statistiques.',
+    h1: 'Politique de confidentialité',
+    introHtml: 'Le générateur de nombres aléatoires (le « Service ») respecte ta vie privée et ne traite que le minimum d’informations décrit ci-dessous.',
+    sections: [
+      ['1. Informations collectées', 'Le Service fonctionne sans compte ni connexion. Tes réglages et les nombres tirés sont traités uniquement dans ton navigateur et ne sont pas envoyés à notre serveur. Tes 10 derniers tirages sont gardés dans le stockage local du navigateur de ton appareil ; tu peux les effacer à tout moment avec le bouton Effacer. Quand tu copies un lien de résultat, les nombres sont écrits dans le lien lui-même et ne sont partagés qu’avec les personnes à qui tu l’envoies.'],
+      ['2. Cookies et technologies similaires', 'Le Service peut utiliser des cookies et le stockage local de ton navigateur pour retenir ta langue et tes tirages récents, afficher des publicités et comprendre comment le Service est utilisé. Tu peux les refuser ou les supprimer dans les réglages de ton navigateur ; certaines fonctions risquent alors de ne pas marcher comme prévu.'],
+      ['3. Publicité (Google AdSense)', 'Le Service affiche des publicités via Google AdSense. Google et ses partenaires peuvent utiliser des cookies pour proposer des annonces selon tes visites précédentes sur ce site et d’autres. Tu peux en savoir plus et modifier tes préférences dans les <a href="https://adssettings.google.com/" target="_blank" rel="noopener">paramètres des annonces Google</a>.'],
+      ['4. Statistiques', 'Pour améliorer le Service, nous pouvons utiliser Google Analytics (GA4) et nos propres compteurs agrégés qui ne gardent que des totaux quotidiens par langue (pages vues, tirages, notes). Rien de tout cela ne t’identifie personnellement.'],
+      ['5. Contact', 'Pour toute question sur cette politique de confidentialité, contacte l’exploitant du site.'],
+      ['6. Date d’effet', 'Cette politique est en vigueur depuis le 11 octobre 2026.'],
+    ],
+    back: '← Retour au générateur de nombres aléatoires',
+  },
+};

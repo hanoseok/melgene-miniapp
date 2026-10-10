@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'qr',
+        kicker: "Strumento utile",
+        headline: "Trasforma un link in QR code",
+        blurb: "Link, testo o Wi-Fi. Scarica PNG o SVG, tutto nel browser.",
+      },
+      {
+        id: 'randnum',
+        kicker: "Estrazione equa",
+        headline: "Numeri casuali con un tocco",
+        blurb: "Qualsiasi intervallo, con o senza ripetizioni. Perfetto per estrazioni.",
+      },
+      {
         id: 'coffee',
         kicker: "Test di personalità",
         headline: "Che caffè sei?",
