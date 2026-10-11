@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>数独（ナンプレ）ガイド：ルール・解き方のコツ・歴史</title>
+<meta name="description" content="オンライン数独（ナンプレ）の遊び方。基本ルール、メモとヒントの使い方、シングルからX-Wingまでの解き方、4つの難易度の違い、数字パズルの歴史を紹介。">
+<link rel="canonical" href="https://sudoku.example.com/ja/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://sudoku.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://sudoku.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://sudoku.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://sudoku.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://sudoku.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://sudoku.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://sudoku.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://sudoku.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://sudoku.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://sudoku.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://sudoku.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://sudoku.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://sudoku.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="数独（ナンプレ）ガイド：ルール・解き方のコツ・歴史">
+<meta property="og:description" content="オンライン数独（ナンプレ）の遊び方。基本ルール、メモとヒントの使い方、シングルからX-Wingまでの解き方、4つの難易度の違い、数字パズルの歴史を紹介。">
+<meta property="og:image" content="https://sudoku.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://sudoku.example.com/ja/guide.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-12">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://sudoku.example.com/ja/guide.html#article","headline":"数独（ナンプレ）の遊び方と、もっと上手に解くコツ","description":"オンライン数独（ナンプレ）の遊び方。基本ルール、メモとヒントの使い方、シングルからX-Wingまでの解き方、4つの難易度の違い、数字パズルの歴史を紹介。","inLanguage":"ja","datePublished":"2026-10-12","dateModified":"2026-10-12","author":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"mainEntityOfPage":"https://sudoku.example.com/ja/guide.html","url":"https://sudoku.example.com/ja/guide.html","about":{"@type":"WebApplication","name":"数独","url":"https://sudoku.example.com/ja/"},"image":"https://sudoku.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"数独","item":"https://sudoku.example.com/ja/"},{"@type":"ListItem","position":3,"name":"数独（ナンプレ）の遊び方と、もっと上手に解くコツ","item":"https://sudoku.example.com/ja/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ja/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><span class="mg-top-app">数独</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ja/">メルジン ミニアプリ</a><span aria-hidden="true">›</span><a href="./">数独</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>数独</p>
+    <h1>数独（ナンプレ）の遊び方と、もっと上手に解くコツ</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-12">更新日 2026年10月12日</time></p>
+    <p class="mg-art-intro">数独（ナンプレ）は9×9のマスで遊ぶ無料のロジックパズルです。いくつかのマスには最初から数字が入っていて、残りを埋めて、どの行・どの列・どの3×3ブロックにも1〜9が1つずつ入るようにすれば完成です。計算はいっさい不要で、よくできた問題なら当てずっぽうも必要ありません。このガイドでは、ルール、スマホとパソコンでの操作、初級から超上級へステップアップするための解き方、そして国境を越えてきた数独の意外な歴史をまとめました。</p>
+    <section>
+      <h2>数独とは？ 基本のルール</h2>
+      <p>盤面は81マスで、横の行が9つ、縦の列が9つ、そして3×3の小さなブロックが9つあります。問題は最初から入っている数字（ヒント数字）でスタートし、その数はたいてい20〜40個ほどです。ヒント数字は動かせません。空いているマスには1〜9のどれかをひとつずつ入れ、同じ行・同じ列・同じブロックの中に同じ数字が2回出てはいけません。このルールを守ってすべてのマスを埋めたらクリアです。</p>
+      <p>実は数字は9種類の記号にすぎません。文字や色に置き換えてもパズルはまったく同じように成り立ちます。だから数独は計算問題ではなく、置き場所を探して候補を消していくパズルなのです。このページの問題はすべてブラウザの中で作られ、表示する前に解答プログラムが答えがひとつだけかを確認しています。どの問題も理詰めだけで最後まで解けます。</p>
+    </section>
+    <section>
+      <h2>操作方法とすぐに始めるコツ</h2>
+      <p>難易度を選んで「新しい問題」を押しましょう。空きマスをタップすると選択され、そのマスと同じ行・列・ブロックが薄く色づきます。マスに数字が入っていれば、盤面全体の同じ数字もハイライトされます。あとは盤面の下の数字パッドで数字をタップするだけ。数字の下の小さな数は、その数字があと何個入るかを表しているので、もうすぐ埋まる数字をすぐに見つけられます。</p>
+      <p>ゲームは1手ごとにこのブラウザへ保存されます。ページを閉じても、次に開いたときにスタート画面に難易度とタイムつきの「続きから遊ぶ」ボタンが出ます。ほかのタブやアプリに移るとタイマーが止まって盤面も隠れ、戻ってタップすれば再開できるので、途中で中断しても損はありません。</p>
+      <ul>
+        <li>メモをオンにすると数字パッドが鉛筆モードになり、タップするたびに選んだマスへ小さな候補数字を書いたり消したりできます。</li>
+        <li>「消す」は選んだマスを空にし、「戻す」は打った手を1つずつ取り消します。</li>
+        <li>ヒントは正しい数字を1マス埋めてくれます。1問につき3回までで、ヒントを使った問題はタイム比較に入りません。</li>
+        <li>ミス表示をオンにすると、正解と違う数字が赤くなります。オフのときは、同じ行・列・ブロック内の重複だけが枠で示されます。</li>
+        <li>パソコンでは矢印キーで移動、1〜9で入力、Backspaceで消去、Nでメモ、Zで1手戻すことができます。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>解き方のテクニック：シングルからX-Wingまで</h2>
+      <p>ほとんどの問題はシングルから始まります。ネイキッドシングルは、そのマスの行・列・ブロックによって9つの数字のうち8つが消え、入る数字がひとつしか残らないマスのこと。ヒドゥンシングルは逆の見方で、ある行や列、ブロックの中で、特定の数字が入れるマスが1か所しか残っていない状態です。横に並んだ3つのブロックを数字ごとに見ていくと、ヒドゥンシングルがいちばん早く見つかります。このページの初級は、この2つだけで最後まで解けます。</p>
+      <p>中級と上級では、もう少し工夫が必要です。ポインティングは、ブロックの中である数字が1本の行にしか入れないなら、その行のブロック外からはその数字を消せる、という考え方。ネイキッドペアは、同じグループの2マスがまったく同じ2つの候補しか持たないとき、その2つの数字をグループの残りのマスから消せるテクニックです。上級ではネイキッドトリプルや、ある数字が2つの行で同じ2列に閉じ込められるX-Wingが必要になることもあります。超上級はヒント数字が最も少なく、より長い推理が求められます。</p>
+      <ul>
+        <li>メモはシングルが見つからなくなってから書き始めましょう。難しい問題ほどメモが活躍します。</li>
+        <li>数字を1つ入れたら、同じ行・列・ブロックのメモからその数字を消しましょう。このゲームでは自動で消えます。</li>
+        <li>行き詰まったら、数字パッドの残り個数を見て、あと1〜2個の数字に集中してみましょう。</li>
+        <li>わざと当てずっぽうで入れないこと。2つの候補が残ったら、どちらかに決めてくれる3つ目のマスを探します。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>数独の歴史をちょっとだけ</h2>
+      <p>このパズルは名前よりずっと古くからあります。各記号が行と列に1回ずつ現れるラテン方陣は、18世紀の数学者レオンハルト・オイラーが研究していましたし、1890年代のフランスの新聞には似たルールの数字パズルが載っていました。3×3のブロックを持つ今の形は、1979年にアメリカのパズル雑誌に「ナンバープレース」の名前で登場し、パズル作家ハワード・ガーンズの作とされています。</p>
+      <p>1984年、日本のパズル出版社ニコリがこのパズルを紹介し、「数字は独身に限る」という言葉を縮めて「数独」と名づけました。日本ではナンバープレースを略した「ナンプレ」という呼び方も広く使われています。2004年から2005年にかけてイギリスの新聞が毎日掲載したことで世界的なブームになり、それ以来、新聞やパズル本、スマホの定番パズルになっています。</p>
+    </section>
+    <section>
+      <h2>難易度、今日の問題、公平なタイム比較</h2>
+      <p>4つの難易度は2つの基準で決めています。残すヒント数字の数と、内蔵の採点プログラムがその盤面を解くのに必要なテクニックです。初級はヒント数字が多く、シングルだけで解けます。中級はさらに数字を減らし、簡単な候補の消去まで使います。上級は中級テクニックが少なくとも1つ必要な問題を選び、超上級は答えがひとつのままヒント数字をぎりぎりまで減らします。今日の問題は日付をもとに難易度ごとに1問を作るので、世界中のみんなが同じ問題を解きます。日本時間の午前9時（UTCの0時）に切り替わるので、友だちと同じ問題でタイム勝負もできます。</p>
+      <p>ヒントを使わずに解くと、その難易度のベストタイムがあなたのブラウザにだけ保存され、結果画面ではほかのプレイヤーの実際の記録の中であなたのタイムがどのあたりかを表示します。サーバーに送るのは難易度と5秒単位に切り捨てたタイムだけで、名前は送りません。比べる記録がまだないときは比較欄は表示されません。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>今すぐ数独で遊ぶ</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> メルジン ミニアプリ · <a href="./">数独</a> · <a href="privacy.html">プライバシーポリシー</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

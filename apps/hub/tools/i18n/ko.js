@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'mbti',
+        kicker: "성격유형 검사",
+        headline: "MBTI 테스트, 나는 무슨 유형?",
+        blurb: "일상 문장 20개, 3분. 네 글자 유형과 성향 비율까지.",
+      },
+      {
+        id: 'sudoku',
+        kicker: "두뇌 퍼즐",
+        headline: "1부터 9까지, 빈칸을 논리로 채워요",
+        blurb: "쉬움부터 전문가까지 4단계. 메모·힌트·오늘의 퍼즐까지!",
+      },
+      {
         id: 'qr',
         kicker: "간편 도구",
         headline: "링크를 QR 코드로 바로 만들어요",

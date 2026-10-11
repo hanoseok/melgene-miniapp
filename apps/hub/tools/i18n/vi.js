@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'mbti',
+        kicker: "Trắc nghiệm tính cách",
+        headline: "Trắc nghiệm MBTI: bạn là nhóm nào?",
+        blurb: "20 câu, 3 phút. Nhóm 4 chữ cái kèm tỉ lệ thật.",
+      },
+      {
+        id: 'sudoku',
+        kicker: "Giải đố kinh điển",
+        headline: "Lấp đầy bảng số bằng logic",
+        blurb: "Bốn cấp độ, ghi chú, gợi ý và câu đố mỗi ngày.",
+      },
+      {
         id: 'qr',
         kicker: "Công cụ tiện lợi",
         headline: "Biến link thành mã QR",

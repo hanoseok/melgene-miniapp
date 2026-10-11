@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 33,
+  "numberOfItems": 35,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -312,6 +312,20 @@
       "url": "https://randnum.example.com/",
       "name": "Quay số ngẫu nhiên",
       "description": "Quay số ngẫu nhiên trong khoảng bất kỳ, từ một đến một nghìn số, có hoặc không lặp. Loại trừ số, sắp xếp và chia sẻ link kết quả."
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://sudoku.example.com/",
+      "name": "Sudoku",
+      "description": "Điền 1 đến 9 vào mỗi hàng, cột và ô 3×3. Bốn cấp độ, ghi chú bút chì, gợi ý và câu đố mỗi ngày."
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://mbti.example.com/",
+      "name": "Trắc nghiệm MBTI",
+      "description": "20 câu đời thường, 3 phút. Tìm ra nhóm tính cách 4 chữ cái của bạn trong 16 nhóm, kèm tỉ lệ từng cặp."
     }
   ]
 }
@@ -387,6 +401,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sudoku">
+        <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Giải đố kinh điển</span></span>
+            <h3 class="cur-headline">Lấp đầy bảng số bằng logic</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Bốn cấp độ, ghi chú, gợi ý và câu đố mỗi ngày.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sudoku</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mbti">
+        <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
+            <h3 class="cur-headline">Trắc nghiệm MBTI: bạn là nhóm nào?</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">20 câu, 3 phút. Nhóm 4 chữ cái kèm tỉ lệ thật.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Trắc nghiệm MBTI</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="qr">
         <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
           <span class="cur-art">
@@ -451,7 +497,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name">
+      <li class="cur-item" data-id="hangul-name" hidden>
         <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Ngày chữ Hangul</span></span>
@@ -467,7 +513,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dice">
+      <li class="cur-item" data-id="dice" hidden>
         <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trợ thủ board game</span></span>
@@ -515,45 +561,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext" hidden>
-        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tự tạo</span></span>
-            <h3 class="cur-headline">Cho chữ của bạn nổi bật</h3>
-            <span class="cur-giant" aria-hidden="true">✨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Biến chữ thường thành kiểu chữ đẹp, chạm một cái là sao chép.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Tạo chữ nghệ thuật</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lotto" hidden>
-        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Thử vận may?</span></span>
-            <h3 class="cur-headline">Tạo số xổ số cho vui</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Chọn trò chơi và quay tối đa năm bộ số.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Tạo số xổ số</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">33 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">35 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -575,6 +589,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sudoku" data-cat="game">
+        <a class="tile-link" href="https://sudoku.example.com/" title="Điền 1 đến 9 vào mỗi hàng, cột và ô 3×3. Bốn cấp độ, ghi chú bút chì, gợi ý và câu đố mỗi ngày." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Sudoku</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mbti" data-cat="test">
+        <a class="tile-link" href="https://mbti.example.com/" title="20 câu đời thường, 3 phút. Tìm ra nhóm tính cách 4 chữ cái của bạn trong 16 nhóm, kèm tỉ lệ từng cặp." style="--h:302;--h2:284">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Trắc nghiệm MBTI</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/" title="Biến link, văn bản, Wi-Fi, email hay số điện thoại thành mã QR. Chọn màu, kích thước, lưu PNG hoặc SVG. Dữ liệu không rời trình duyệt." style="--h:1;--h2:343">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
@@ -633,14 +661,14 @@
       </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="Gõ chữ và xem nó thành chữ đậm, viết tay, bong bóng, lộn ngược và nhiều kiểu khác. Chạm để sao chép rồi dán ở đâu cũng được." style="--h:324;--h2:306">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span></span>
           <span class="tile-name">Tạo chữ nghệ thuật</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lotto" data-cat="vote">
         <a class="tile-link" href="https://lotto.example.com/" title="Quay số may mắn kiểu lotto Hàn Quốc 6/45, Euro, Powerball Mỹ hoặc khoảng số tự đặt. Giữ hoặc loại số, tối đa năm bộ. Chỉ để giải trí." style="--h:88;--h2:70">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">Tạo số xổ số</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

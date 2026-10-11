@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 33,
+  "numberOfItems": 35,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -312,6 +312,20 @@
       "url": "https://randnum.example.com/",
       "name": "Случайные числа",
       "description": "Случайные числа в любом диапазоне, от одного до тысячи, с повторами или без. Исключения, сортировка и ссылка на итог розыгрыша."
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://sudoku.example.com/",
+      "name": "Судоку",
+      "description": "Заполни строки, столбцы и квадраты цифрами от 1 до 9. Четыре уровня, заметки, подсказки и судоку дня."
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://mbti.example.com/",
+      "name": "Тест MBTI",
+      "description": "20 житейских утверждений, 3 минуты. Узнай свой тип из 4 букв среди 16 — с процентами по каждой шкале."
     }
   ]
 }
@@ -387,6 +401,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sudoku">
+        <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Классика логики</span></span>
+            <h3 class="cur-headline">Заполни сетку чистой логикой</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Четыре уровня, заметки, подсказки и судоку дня.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Судоку</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mbti">
+        <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Тест личности</span></span>
+            <h3 class="cur-headline">Тест MBTI: какой ты тип?</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">20 утверждений, 3 минуты. Твои 4 буквы с процентами.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Тест MBTI</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="qr">
         <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
           <span class="cur-art">
@@ -451,7 +497,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name">
+      <li class="cur-item" data-id="hangul-name" hidden>
         <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">День хангыля</span></span>
@@ -467,7 +513,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dice">
+      <li class="cur-item" data-id="dice" hidden>
         <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Для настолок</span></span>
@@ -515,45 +561,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext" hidden>
-        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Создай сам</span></span>
-            <h3 class="cur-headline">Сделай текст заметным</h3>
-            <span class="cur-giant" aria-hidden="true">✨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Превращай текст в красивые шрифты и копируй одним нажатием.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Генератор шрифтов</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lotto" hidden>
-        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Повезёт сегодня?</span></span>
-            <h3 class="cur-headline">Числа для лото ради забавы</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Выбери игру и вытяни до пяти билетов.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Генератор лото</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 33</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 35</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -575,6 +589,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sudoku" data-cat="game">
+        <a class="tile-link" href="https://sudoku.example.com/" title="Заполни строки, столбцы и квадраты цифрами от 1 до 9. Четыре уровня, заметки, подсказки и судоку дня." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Судоку</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mbti" data-cat="test">
+        <a class="tile-link" href="https://mbti.example.com/" title="20 житейских утверждений, 3 минуты. Узнай свой тип из 4 букв среди 16 — с процентами по каждой шкале." style="--h:302;--h2:284">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тест MBTI</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/" title="Ссылка, текст, Wi-Fi, почта или телефон — в QR-код за секунду. Цвета, размер, сохранение в PNG и SVG. Данные не покидают браузер." style="--h:1;--h2:343">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
@@ -633,14 +661,14 @@
       </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="Введи текст и посмотри его жирным, рукописным, в пузырьках, вверх ногами и не только. Нажми на стиль, скопируй и вставь куда угодно." style="--h:324;--h2:306">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span></span>
           <span class="tile-name">Генератор шрифтов</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lotto" data-cat="vote">
         <a class="tile-link" href="https://lotto.example.com/" title="Вытяни числа для корейского 6/45, Евролото, Powerball или своего диапазона. Закрепляй и исключай числа, до пяти билетов." style="--h:88;--h2:70">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">Генератор лото</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

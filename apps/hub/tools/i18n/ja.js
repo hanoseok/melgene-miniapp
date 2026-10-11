@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'mbti',
+        kicker: "性格診断",
+        headline: "MBTI診断、あなたは何タイプ？",
+        blurb: "日常の20問、3分。4文字のタイプと割合が分かる。",
+      },
+      {
+        id: 'sudoku',
+        kicker: "定番パズル",
+        headline: "1〜9でマスを埋める理詰めの快感",
+        blurb: "初級〜超上級の4段階。メモ・ヒント・今日の問題つき。",
+      },
+      {
         id: 'qr',
         kicker: "便利ツール",
         headline: "リンクをQRコードに",

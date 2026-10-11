@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hướng dẫn Sudoku: luật chơi, mẹo giải và lịch sử</title>
+<meta name="description" content="Cách chơi Sudoku online: luật chơi, cách dùng ghi chú và gợi ý, các kỹ thuật từ Single đến X-Wing, ý nghĩa của bốn cấp độ và đôi nét lịch sử về trò chơi ô số này.">
+<link rel="canonical" href="https://sudoku.example.com/vi/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://sudoku.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://sudoku.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://sudoku.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://sudoku.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://sudoku.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://sudoku.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://sudoku.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://sudoku.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://sudoku.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://sudoku.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://sudoku.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://sudoku.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://sudoku.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Hướng dẫn Sudoku: luật chơi, mẹo giải và lịch sử">
+<meta property="og:description" content="Cách chơi Sudoku online: luật chơi, cách dùng ghi chú và gợi ý, các kỹ thuật từ Single đến X-Wing, ý nghĩa của bốn cấp độ và đôi nét lịch sử về trò chơi ô số này.">
+<meta property="og:image" content="https://sudoku.example.com/og/vi/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://sudoku.example.com/vi/guide.html">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-12">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://sudoku.example.com/vi/guide.html#article","headline":"Sudoku: cách chơi, mẹo giải nhanh và câu chuyện phía sau","description":"Cách chơi Sudoku online: luật chơi, cách dùng ghi chú và gợi ý, các kỹ thuật từ Single đến X-Wing, ý nghĩa của bốn cấp độ và đôi nét lịch sử về trò chơi ô số này.","inLanguage":"vi","datePublished":"2026-10-12","dateModified":"2026-10-12","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"mainEntityOfPage":"https://sudoku.example.com/vi/guide.html","url":"https://sudoku.example.com/vi/guide.html","about":{"@type":"WebApplication","name":"Sudoku","url":"https://sudoku.example.com/vi/"},"image":"https://sudoku.example.com/og/vi/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/vi/"},{"@type":"ListItem","position":2,"name":"Sudoku","item":"https://sudoku.example.com/vi/"},{"@type":"ListItem","position":3,"name":"Sudoku: cách chơi, mẹo giải nhanh và câu chuyện phía sau","item":"https://sudoku.example.com/vi/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/vi/" aria-label="Về trang chủ Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Sudoku</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Ngôn ngữ"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi" selected>Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Ngôn ngữ"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/vi/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Sudoku</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>Sudoku</p>
+    <h1>Sudoku: cách chơi, mẹo giải nhanh và câu chuyện phía sau</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-12">Cập nhật 12 tháng 10, 2026</time></p>
+    <p class="mg-art-intro">Sudoku là trò chơi giải đố logic miễn phí trên bảng 9×9 ô. Một số ô đã có sẵn số, nhiệm vụ của bạn là điền các ô còn lại sao cho mỗi hàng, mỗi cột và mỗi khối 3×3 đều có đủ các số từ 1 đến 9, mỗi số đúng một lần. Bạn không cần làm phép tính nào, và một câu đố được làm tốt thì cũng không bao giờ bắt bạn phải đoán. Bài viết này giới thiệu luật chơi, cách điều khiển trên điện thoại và máy tính, các kỹ thuật giúp bạn tiến từ mức Dễ lên Chuyên gia, cùng lịch sử khá bất ngờ của Sudoku qua nhiều quốc gia.</p>
+    <section>
+      <h2>Sudoku là gì và luật chơi ra sao</h2>
+      <p>Bảng gồm 81 ô, chia thành chín hàng, chín cột và chín khối nhỏ 3×3. Câu đố bắt đầu với một số ô cho sẵn, thường từ hai mươi đến bốn mươi ô, và những số này không thể thay đổi. Mỗi ô trống phải được điền một số từ 1 đến 9, và không số nào được xuất hiện hai lần trong cùng một hàng, cùng một cột hay cùng một khối. Khi mọi ô đều được điền mà không vi phạm quy tắc đó, câu đố đã được giải.</p>
+      <p>Thật ra các con số chỉ là chín ký hiệu khác nhau. Thay bằng chữ cái hay màu sắc thì trò chơi vẫn y như cũ, nên Sudoku là trò chơi tìm vị trí và loại trừ chứ không phải bài toán. Mọi bảng trên trang này đều được tạo ngay trong trình duyệt của bạn và được chương trình giải kiểm tra trước khi hiện ra, vì vậy mỗi bảng chỉ có đúng một lời giải và có thể hoàn thành hoàn toàn bằng suy luận.</p>
+    </section>
+    <section>
+      <h2>Cách điều khiển và bắt đầu nhanh</h2>
+      <p>Chọn cấp độ rồi chạm Câu đố mới. Chạm vào một ô trống để chọn: hàng, cột và khối của ô đó sẽ được tô nhạt để bạn thấy nó liên quan đến những ô nào, và nếu ô đã có số thì mọi số giống vậy trên bảng cũng được làm nổi bật. Sau đó chạm một số trên bàn phím số bên dưới. Con số nhỏ dưới mỗi phím cho biết số đó còn thiếu bao nhiêu, giúp bạn nhanh chóng nhận ra những số sắp điền đủ.</p>
+      <p>Ván chơi được lưu vào trình duyệt này sau mỗi nước đi. Nếu bạn đóng trang, lần sau màn hình đầu sẽ có nút Chơi tiếp kèm cấp độ và thời gian. Đồng hồ dừng lại ngay khi bạn chuyển sang thẻ hoặc ứng dụng khác, và bảng được che đi cho đến khi bạn quay lại, nên bị gián đoạn cũng không thiệt gì.</p>
+      <ul>
+        <li>Ghi chú chuyển bàn phím sang chế độ bút chì: mỗi lần chạm một số sẽ viết hoặc xóa một số ứng viên nhỏ trong ô đang chọn.</li>
+        <li>Xóa làm trống ô đang chọn, còn Hoàn tác lùi lại từng nước đi một.</li>
+        <li>Gợi ý điền đúng một ô cho bạn. Mỗi câu đố có ba lần, và câu đố đã dùng gợi ý sẽ không được đưa vào so sánh thời gian.</li>
+        <li>Soát lỗi tô đỏ những số không khớp với lời giải. Khi tắt Soát lỗi, chỉ những số trùng nhau trong cùng hàng, cột hoặc khối mới được viền lại.</li>
+        <li>Trên máy tính, dùng phím mũi tên để di chuyển, phím 1 đến 9 để điền, Backspace để xóa, N để bật ghi chú và Z để hoàn tác.</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Các kỹ thuật giải, từ Single đến X-Wing</h2>
+      <p>Gần như câu đố nào cũng bắt đầu bằng Single. Naked Single là ô mà hàng, cột và khối của nó đã loại trừ tám trong chín số, nên chỉ còn đúng một số có thể điền. Hidden Single là góc nhìn ngược lại: trong một hàng, cột hoặc khối, chỉ còn một ô duy nhất có thể chứa một số nào đó. Lần lượt dò từng số qua ba khối nằm cạnh nhau là cách nhanh nhất để tìm Hidden Single, và các câu đố mức Dễ trên trang này có thể giải xong chỉ với hai ý tưởng đó.</p>
+      <p>Mức Vừa và Khó đòi hỏi thêm một chút. Với kỹ thuật Pointing, nếu trong một khối một số chỉ có thể nằm trên một hàng, thì số đó không thể xuất hiện ở chỗ khác của hàng ấy. Với Naked Pair, hai ô trong cùng một nhóm chỉ có đúng hai ứng viên giống nhau sẽ giữ chặt hai số đó, nên bạn có thể loại chúng khỏi các ô còn lại của nhóm. Bảng Khó còn có thể cần Naked Triple hoặc X-Wing, khi một số bị giới hạn trong cùng hai cột ở hai hàng khác nhau. Mức Chuyên gia có ít số cho sẵn nhất và cần chuỗi suy luận dài hơn.</p>
+      <ul>
+        <li>Chỉ bắt đầu ghi chú khi không còn tìm thấy Single. Ghi chú hữu ích nhất ở những bảng khó.</li>
+        <li>Ngay khi điền một số, hãy xóa số đó khỏi ghi chú trong cùng hàng, cột và khối. Trò chơi sẽ tự làm việc này giúp bạn.</li>
+        <li>Khi bị kẹt, hãy xem số lượng còn lại trên bàn phím và tập trung vào những số chỉ còn thiếu một hoặc hai.</li>
+        <li>Đừng cố tình đoán. Nếu có hai khả năng đều hợp lý, hãy tìm ô thứ ba quyết định giữa chúng.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Đôi nét lịch sử Sudoku</h2>
+      <p>Trò chơi này còn lâu đời hơn cả cái tên của nó. Hình vuông Latin, tức những bảng mà mỗi ký hiệu xuất hiện đúng một lần trên mỗi hàng và cột, đã được nhà toán học Leonhard Euler nghiên cứu từ thế kỷ mười tám, và báo chí Pháp những năm 1890 từng đăng các câu đố số có luật tương tự. Hình thức hiện đại với chín khối 3×3 xuất hiện năm 1979 trên một tạp chí giải đố của Mỹ với tên Number Place, và thường được cho là của nhà thiết kế câu đố Howard Garns.</p>
+      <p>Năm 1984, nhà xuất bản Nikoli của Nhật Bản giới thiệu trò chơi này ở Nhật và đặt tên là Sudoku, viết tắt của một câu có nghĩa là mỗi con số phải đứng một mình. Ở Nhật, người ta vẫn hay gọi nó là Nanpure, rút gọn từ Number Place. Cơn sốt toàn cầu bùng lên vào năm 2004 và 2005, khi các tờ báo Anh bắt đầu đăng Sudoku mỗi ngày, và từ đó nó trở thành gương mặt quen thuộc trên báo, sách giải đố và điện thoại.</p>
+    </section>
+    <section>
+      <h2>Cấp độ, câu đố hôm nay và so sánh công bằng</h2>
+      <p>Bốn cấp độ được quyết định bởi hai yếu tố: số ô cho sẵn được giữ lại và những kỹ thuật mà bộ chấm điểm tích hợp cần dùng để giải bảng đó. Mức Dễ để lại nhiều số và chỉ cần Single. Mức Vừa bớt thêm số và cho phép các bước loại trừ đơn giản. Mức Khó được chọn sao cho cần ít nhất một kỹ thuật trung cấp, còn Chuyên gia giảm số cho sẵn xuống mức thấp nhất mà vẫn giữ một lời giải duy nhất. Câu đố hôm nay được tạo từ ngày tháng, mỗi cấp độ một bảng, giống nhau cho mọi người trên thế giới, và đổi lúc 7 giờ sáng giờ Việt Nam (nửa đêm UTC), rất hợp để thi tốc độ với bạn bè trên cùng một đề.</p>
+      <p>Khi bạn giải xong mà không dùng gợi ý, thời gian sẽ được lưu làm kỷ lục của cấp độ đó chỉ trong trình duyệt của bạn, và màn hình kết quả cho biết thời gian ấy đứng ở đâu so với thành tích thật của những người chơi khác. Thứ duy nhất được gửi lên máy chủ là cấp độ và thời gian làm tròn xuống theo từng năm giây, không bao giờ có tên bạn, và phần so sánh sẽ được ẩn khi chưa có gì để so.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>Chơi Sudoku ngay</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Sudoku</a> · <a href="privacy.html">Quyền riêng tư</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'mbti',
+        kicker: "Persönlichkeitstest",
+        headline: "MBTI-Test: Welcher Typ bist du?",
+        blurb: "20 Aussagen, 3 Minuten. Deine 4 Buchstaben mit echten %.",
+      },
+      {
+        id: 'sudoku',
+        kicker: "Rätselklassiker",
+        headline: "Fülle das Raster mit purer Logik",
+        blurb: "Vier Stufen, Notizen, Tipps und ein Tagesrätsel für alle.",
+      },
+      {
         id: 'qr',
         kicker: "Praktisches Tool",
         headline: "Jeden Link als QR-Code",

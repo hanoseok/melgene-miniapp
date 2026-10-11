@@ -1,0 +1,62 @@
+{
+  "en": {
+    "kicker": "Personality test",
+    "headline": "Free MBTI test: which type are you?",
+    "blurb": "20 everyday statements, 3 minutes. Your 4 letters with real %."
+  },
+  "ja": {
+    "kicker": "性格診断",
+    "headline": "MBTI診断、あなたは何タイプ？",
+    "blurb": "日常の20問、3分。4文字のタイプと割合が分かる。"
+  },
+  "zh": {
+    "kicker": "人格测试",
+    "headline": "MBTI测试：你是哪一型？",
+    "blurb": "20道日常小题，3分钟，测出四字母类型和比例。"
+  },
+  "ko": {
+    "kicker": "성격유형 검사",
+    "headline": "MBTI 테스트, 나는 무슨 유형?",
+    "blurb": "일상 문장 20개, 3분. 네 글자 유형과 성향 비율까지."
+  },
+  "fr": {
+    "kicker": "Test de personnalité",
+    "headline": "Test MBTI : quel type es-tu ?",
+    "blurb": "20 affirmations, 3 minutes. Tes 4 lettres et tes pourcentages."
+  },
+  "de": {
+    "kicker": "Persönlichkeitstest",
+    "headline": "MBTI-Test: Welcher Typ bist du?",
+    "blurb": "20 Aussagen, 3 Minuten. Deine 4 Buchstaben mit echten %."
+  },
+  "th": {
+    "kicker": "ทดสอบบุคลิกภาพ",
+    "headline": "แบบทดสอบ MBTI คุณคือแบบไหน?",
+    "blurb": "20 ข้อ 3 นาที รู้ผล 4 ตัวอักษรพร้อมเปอร์เซ็นต์"
+  },
+  "vi": {
+    "kicker": "Trắc nghiệm tính cách",
+    "headline": "Trắc nghiệm MBTI: bạn là nhóm nào?",
+    "blurb": "20 câu, 3 phút. Nhóm 4 chữ cái kèm tỉ lệ thật."
+  },
+  "es": {
+    "kicker": "Test de personalidad",
+    "headline": "Test MBTI: ¿qué tipo eres?",
+    "blurb": "20 frases, 3 minutos. Tus 4 letras con porcentajes reales."
+  },
+  "it": {
+    "kicker": "Test di personalità",
+    "headline": "Test MBTI: che tipo sei?",
+    "blurb": "20 frasi, 3 minuti. Le tue 4 lettere con le percentuali."
+  },
+  "pt": {
+    "kicker": "Teste de personalidade",
+    "headline": "Teste MBTI: qual é o seu tipo?",
+    "blurb": "20 frases, 3 minutos. Suas 4 letras com porcentagens reais."
+  },
+  "ru": {
+    "kicker": "Тест личности",
+    "headline": "Тест MBTI: какой ты тип?",
+    "blurb": "20 утверждений, 3 минуты. Твои 4 буквы с процентами."
+  }
+}

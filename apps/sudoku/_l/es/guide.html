@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guía de sudoku: reglas, técnicas y un poco de historia</title>
+<meta name="description" content="Cómo jugar al sudoku online: las reglas, las notas y las pistas, técnicas desde el single hasta el X-Wing, qué significan los cuatro niveles y una breve historia del pasatiempo.">
+<link rel="canonical" href="https://sudoku.example.com/es/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://sudoku.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://sudoku.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://sudoku.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://sudoku.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://sudoku.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://sudoku.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://sudoku.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://sudoku.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://sudoku.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://sudoku.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://sudoku.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://sudoku.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://sudoku.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Guía de sudoku: reglas, técnicas y un poco de historia">
+<meta property="og:description" content="Cómo jugar al sudoku online: las reglas, las notas y las pistas, técnicas desde el single hasta el X-Wing, qué significan los cuatro niveles y una breve historia del pasatiempo.">
+<meta property="og:image" content="https://sudoku.example.com/og/es/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://sudoku.example.com/es/guide.html">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-12">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://sudoku.example.com/es/guide.html#article","headline":"Sudoku: cómo jugar, resolver mejor y disfrutar cada cuadrícula","description":"Cómo jugar al sudoku online: las reglas, las notas y las pistas, técnicas desde el single hasta el X-Wing, qué significan los cuatro niveles y una breve historia del pasatiempo.","inLanguage":"es","datePublished":"2026-10-12","dateModified":"2026-10-12","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"mainEntityOfPage":"https://sudoku.example.com/es/guide.html","url":"https://sudoku.example.com/es/guide.html","about":{"@type":"WebApplication","name":"Sudoku","url":"https://sudoku.example.com/es/"},"image":"https://sudoku.example.com/og/es/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/es/"},{"@type":"ListItem","position":2,"name":"Sudoku","item":"https://sudoku.example.com/es/"},{"@type":"ListItem","position":3,"name":"Sudoku: cómo jugar, resolver mejor y disfrutar cada cuadrícula","item":"https://sudoku.example.com/es/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Inicio de Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Sudoku</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Idioma"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es" selected>Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Idioma"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Sudoku</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔢</span>Sudoku</p>
+    <h1>Sudoku: cómo jugar, resolver mejor y disfrutar cada cuadrícula</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-12">Actualizado: 12 de octubre de 2026</time></p>
+    <p class="mg-art-intro">El sudoku es un pasatiempo de lógica gratuito que se juega en una cuadrícula de 9 por 9. Algunas casillas ya traen un número y tu tarea es completar las demás para que cada fila, cada columna y cada caja de 3 por 3 tenga los números del 1 al 9 una sola vez. No hace falta hacer cuentas y un sudoku bien hecho nunca te obliga a adivinar. En esta guía encontrarás las reglas, los controles en el móvil y en el ordenador, las técnicas para pasar de Fácil a Experto y un poco de la historia viajera de este juego.</p>
+    <section>
+      <h2>Qué es el sudoku y cómo funcionan las reglas</h2>
+      <p>La cuadrícula tiene 81 casillas repartidas en nueve filas, nueve columnas y nueve cajas de tres por tres. El sudoku empieza con algunos números dados, normalmente entre veinte y cuarenta, que no se pueden cambiar. Cada casilla vacía debe llevar un número del 1 al 9, y ningún número puede repetirse en la misma fila, la misma columna o la misma caja. Cuando todas las casillas están llenas sin romper esa regla, el sudoku está resuelto.</p>
+      <p>En realidad los números son solo nueve símbolos distintos: podrías jugar con letras o colores y nada cambiaría. Por eso el sudoku es un juego de colocar y descartar, no un problema de matemáticas. Cada cuadrícula de esta página se crea en tu navegador y un programa la comprueba antes de mostrártela, así que tiene exactamente una solución y se puede completar solo con razonamiento.</p>
+    </section>
+    <section>
+      <h2>Controles y primeros pasos</h2>
+      <p>Elige un nivel y toca Nuevo sudoku. Toca una casilla vacía para seleccionarla: su fila, su columna y su caja se sombrean para que veas con qué casillas se relaciona, y si ya tiene un número, todas las copias de ese número se resaltan en la cuadrícula. Después toca un número del teclado que hay debajo. La cifra pequeña bajo cada número indica cuántos faltan todavía, una forma rápida de encontrar los números casi terminados.</p>
+      <p>La partida se guarda en este navegador después de cada jugada. Si cierras la página, la pantalla de inicio te ofrecerá Seguir jugando con el nivel y el tiempo. El reloj se detiene en cuanto cambias de pestaña o de app, y la cuadrícula queda tapada hasta que vuelves, así que una interrupción no te cuesta nada.</p>
+      <ul>
+        <li>Notas pasa el teclado a modo lápiz: cada número que tocas se escribe o se borra en pequeño en la casilla elegida.</li>
+        <li>Borrar vacía la casilla seleccionada y Deshacer retrocede jugada a jugada.</li>
+        <li>Pista rellena una casilla correcta por ti. Tienes tres por sudoku, y un sudoku resuelto con pista no entra en la comparación de tiempos.</li>
+        <li>Revisar pone en rojo los números que no coinciden con la solución. Sin Revisar, solo se marcan los choques directos en una fila, columna o caja.</li>
+        <li>En el ordenador, muévete con las flechas, rellena con las teclas del 1 al 9, borra con Retroceso, activa las notas con N y deshaz con Z.</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Técnicas de resolución, del single al X-Wing</h2>
+      <p>Casi todos los sudokus empiezan con singles. Un single desnudo es una casilla en la que su fila, su columna y su caja ya descartan ocho de los nueve números, así que solo cabe uno. El single oculto es la mirada contraria: dentro de una fila, columna o caja solo queda una casilla donde puede ir cierto número. Revisar cada número a lo largo de tres cajas en línea es la forma más rápida de encontrarlos, y los sudokus fáciles de esta página se resuelven solo con estas dos ideas.</p>
+      <p>Los niveles Medio y Difícil piden algo más. Con la técnica de apuntado, si dentro de una caja un número solo puede ir en una fila, ese número no puede aparecer en el resto de esa fila. Con la pareja desnuda, dos casillas de un mismo grupo que solo tienen los mismos dos candidatos se reservan esos dos números, y puedes quitarlos del resto del grupo. Los difíciles pueden necesitar además un trío desnudo o un X-Wing, cuando un número queda encerrado en las mismas dos columnas en dos filas distintas. Los de nivel Experto tienen menos pistas y exigen cadenas de razonamiento más largas.</p>
+      <ul>
+        <li>Empieza a anotar candidatos solo cuando se acaben los singles. Las notas brillan en los sudokus difíciles.</li>
+        <li>En cuanto colocas un número, quítalo de las notas de su fila, columna y caja. El juego lo hace por ti.</li>
+        <li>Si te atascas, mira en el teclado qué números tienen solo una o dos copias pendientes y céntrate en ellos.</li>
+        <li>No adivines a propósito. Si dos opciones parecen posibles, busca una tercera casilla que decida entre ellas.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Una breve historia del sudoku</h2>
+      <p>El pasatiempo es más antiguo que su nombre. Los cuadrados latinos, cuadrículas donde cada símbolo aparece una vez por fila y por columna, ya los estudió el matemático Leonhard Euler en el siglo XVIII, y en la década de 1890 algunos periódicos franceses publicaban pasatiempos numéricos con reglas parecidas. La forma moderna, con sus nueve cajas, apareció en 1979 en una revista de pasatiempos estadounidense con el nombre de Number Place y suele atribuirse al creador de acertijos Howard Garns.</p>
+      <p>En 1984 la editorial japonesa Nikoli lo llevó a Japón y lo bautizó como sudoku, abreviatura de una frase que viene a decir que cada número debe quedarse solo. En Japón también se le llama a menudo Nanpure, por Number Place. La fiebre mundial llegó en 2004 y 2005, cuando los periódicos británicos empezaron a publicarlo a diario, y desde entonces no ha faltado en periódicos, libros de pasatiempos y móviles.</p>
+    </section>
+    <section>
+      <h2>Niveles, sudoku del día y comparaciones justas</h2>
+      <p>Los cuatro niveles dependen de dos cosas: cuántas pistas quedan y qué técnicas necesita un evaluador integrado para resolver la cuadrícula. Fácil deja muchas pistas y se resuelve solo con singles. Medio quita más números y permite descartes sencillos. Difícil se elige para que haga falta al menos una técnica intermedia, y Experto reduce la cuadrícula al mínimo de pistas manteniendo una única solución. El sudoku del día se genera a partir de la fecha, uno por nivel e igual para todo el mundo, y cambia a medianoche UTC, ideal para retar a un amigo con el mismo sudoku.</p>
+      <p>Cuando resuelves un sudoku sin pistas, tu tiempo queda como tu récord de ese nivel solo en tu navegador, y la pantalla de resultado muestra dónde se sitúa entre los tiempos reales de otros jugadores. A nuestro servidor solo llegan el nivel y un tiempo redondeado hacia abajo en tramos de cinco segundos, nunca tu nombre, y la comparación se oculta mientras no haya con qué comparar.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔢</span>Jugar al sudoku ahora</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Sudoku</a> · <a href="privacy.html">Privacidad</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

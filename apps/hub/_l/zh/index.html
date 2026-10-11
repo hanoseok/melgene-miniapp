@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 33,
+  "numberOfItems": 35,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -311,6 +311,20 @@
       "url": "https://randnum.example.com/",
       "name": "随机数生成器",
       "description": "设定最小值和最大值，就能公平抽出1到1000个随机数。可选不重复、排除号码、排序，还能分享抽奖结果链接。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://sudoku.example.com/",
+      "name": "数独",
+      "description": "让每行、每列、每个九宫格都填满1到9。简单到专家四种难度，支持笔记、提示和每日一题。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://mbti.example.com/",
+      "name": "MBTI测试",
+      "description": "20道日常小题，3分钟测出你是16型人格中的哪一型，还能看到每个维度的比例。"
     }
   ]
 }
@@ -386,6 +400,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sudoku">
+        <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">经典益智</span></span>
+            <h3 class="cur-headline">用纯粹的推理填满九宫格</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">四种难度，支持笔记、提示，还有每日一题。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">数独</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mbti">
+        <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">人格测试</span></span>
+            <h3 class="cur-headline">MBTI测试：你是哪一型？</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">20道日常小题，3分钟，测出四字母类型和比例。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">MBTI测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="qr">
         <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
           <span class="cur-art">
@@ -450,7 +496,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name">
+      <li class="cur-item" data-id="hangul-name" hidden>
         <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">韩文日特辑</span></span>
@@ -466,7 +512,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dice">
+      <li class="cur-item" data-id="dice" hidden>
         <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">桌游好帮手</span></span>
@@ -514,45 +560,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext" hidden>
-        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">动手做</span></span>
-            <h3 class="cur-headline">让文字变成花式字体</h3>
-            <span class="cur-giant" aria-hidden="true">✨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">输入文字就能变成花式字体，点一下即可复制。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">花式字体生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lotto" hidden>
-        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">试试手气?</span></span>
-            <h3 class="cur-headline">彩票号码生成器</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">选好玩法摇出幸运号码,仅供娱乐。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">彩票号码生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">33个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">35个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -574,6 +588,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sudoku" data-cat="game">
+        <a class="tile-link" href="https://sudoku.example.com/" title="让每行、每列、每个九宫格都填满1到9。简单到专家四种难度，支持笔记、提示和每日一题。" style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">数独</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mbti" data-cat="test">
+        <a class="tile-link" href="https://mbti.example.com/" title="20道日常小题，3分钟测出你是16型人格中的哪一型，还能看到每个维度的比例。" style="--h:302;--h2:284">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">MBTI测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/" title="把网址、文字、Wi-Fi、邮箱或电话号码马上变成二维码。可选颜色和尺寸，保存为PNG或SVG，内容不会上传服务器。" style="--h:1;--h2:343">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
@@ -632,14 +660,14 @@
       </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="输入文字，一键变成粗体、手写体、圆圈字、颠倒等花式字体，点一下即可复制，中文也能加装饰。" style="--h:324;--h2:306">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span></span>
           <span class="tile-name">花式字体生成器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lotto" data-cat="vote">
         <a class="tile-link" href="https://lotto.example.com/" title="韩国乐透6/45、欧洲式、美国强力球或自定义范围，随手摇一组幸运号码。可固定或排除号码，一次最多5注，附彩球滚动动画，仅供娱乐。" style="--h:88;--h2:70">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">彩票号码生成器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

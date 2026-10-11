@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'mbti',
+        kicker: "人格测试",
+        headline: "MBTI测试：你是哪一型？",
+        blurb: "20道日常小题，3分钟，测出四字母类型和比例。",
+      },
+      {
+        id: 'sudoku',
+        kicker: "经典益智",
+        headline: "用纯粹的推理填满九宫格",
+        blurb: "四种难度，支持笔记、提示，还有每日一题。",
+      },
+      {
         id: 'qr',
         kicker: "实用工具",
         headline: "一键把链接变成二维码",

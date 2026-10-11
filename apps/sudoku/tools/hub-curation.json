@@ -1,0 +1,14 @@
+{
+  "ko": { "kicker": "두뇌 퍼즐", "headline": "1부터 9까지, 빈칸을 논리로 채워요", "blurb": "쉬움부터 전문가까지 4단계. 메모·힌트·오늘의 퍼즐까지!" },
+  "en": { "kicker": "Logic classic", "headline": "Fill the grid with pure logic", "blurb": "Four levels, pencil notes, hints and a daily puzzle for everyone." },
+  "ja": { "kicker": "定番パズル", "headline": "1〜9でマスを埋める理詰めの快感", "blurb": "初級〜超上級の4段階。メモ・ヒント・今日の問題つき。" },
+  "zh": { "kicker": "经典益智", "headline": "用纯粹的推理填满九宫格", "blurb": "四种难度，支持笔记、提示，还有每日一题。" },
+  "fr": { "kicker": "Casse-tête culte", "headline": "Remplissez la grille par la logique", "blurb": "Quatre niveaux, notes au crayon, indices et grille du jour." },
+  "de": { "kicker": "Rätselklassiker", "headline": "Fülle das Raster mit purer Logik", "blurb": "Vier Stufen, Notizen, Tipps und ein Tagesrätsel für alle." },
+  "th": { "kicker": "ปริศนาคลาสสิก", "headline": "เติมเลข 1–9 ให้ครบด้วยตรรกะ", "blurb": "4 ระดับ จดโน้ต คำใบ้ และปริศนาประจำวัน" },
+  "vi": { "kicker": "Giải đố kinh điển", "headline": "Lấp đầy bảng số bằng logic", "blurb": "Bốn cấp độ, ghi chú, gợi ý và câu đố mỗi ngày." },
+  "es": { "kicker": "Clásico de lógica", "headline": "Llena la cuadrícula con pura lógica", "blurb": "Cuatro niveles, notas a lápiz, pistas y sudoku del día." },
+  "it": { "kicker": "Rompicapo classico", "headline": "Riempi la griglia con la logica", "blurb": "Quattro livelli, note a matita, aiuti e sudoku del giorno." },
+  "pt": { "kicker": "Clássico de lógica", "headline": "Preencha a grade com pura lógica", "blurb": "Quatro níveis, anotações, dicas e o sudoku do dia." },
+  "ru": { "kicker": "Классика логики", "headline": "Заполни сетку чистой логикой", "blurb": "Четыре уровня, заметки, подсказки и судоку дня." }
+}

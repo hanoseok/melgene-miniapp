@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 33,
+  "numberOfItems": 35,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -310,6 +310,20 @@
       "url": "https://randnum.example.com/ja/",
       "name": "乱数生成",
       "description": "最小と最大を決めるだけ。1〜1000個の数字を重複なしで公平に抽選。除外する数字や並べ替え、抽選結果のリンク共有も。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://sudoku.example.com/ja/",
+      "name": "数独",
+      "description": "縦・横・3×3のブロックに1〜9を1つずつ。かんたん〜エキスパートの4段階、メモ・ヒント・今日の問題つき。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://mbti.example.com/ja/",
+      "name": "MBTI診断",
+      "description": "日常の20問、3分で完了。16タイプのうち自分はどれか、4つの指標の割合まで分かります。"
     }
   ]
 }
@@ -385,6 +399,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sudoku">
+        <a class="cur-card" href="https://sudoku.example.com/ja/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">定番パズル</span></span>
+            <h3 class="cur-headline">1〜9でマスを埋める理詰めの快感</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">初級〜超上級の4段階。メモ・ヒント・今日の問題つき。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">数独</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mbti">
+        <a class="cur-card" href="https://mbti.example.com/ja/" style="--h:302;--h2:284">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">性格診断</span></span>
+            <h3 class="cur-headline">MBTI診断、あなたは何タイプ？</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">日常の20問、3分。4文字のタイプと割合が分かる。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">MBTI診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="qr">
         <a class="cur-card" href="https://qr.example.com/ja/" style="--h:1;--h2:343">
           <span class="cur-art">
@@ -449,7 +495,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name">
+      <li class="cur-item" data-id="hangul-name" hidden>
         <a class="cur-card" href="https://hangul-name.example.com/ja/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ハングルの日</span></span>
@@ -465,7 +511,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dice">
+      <li class="cur-item" data-id="dice" hidden>
         <a class="cur-card" href="https://dice.example.com/ja/" style="--h:73;--h2:55">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ボードゲームのお供</span></span>
@@ -513,45 +559,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext" hidden>
-        <a class="cur-card" href="https://fancytext.example.com/ja/" style="--h:324;--h2:306">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">つくってみよう</span></span>
-            <h3 class="cur-headline">いつもの文字をおしゃれに</h3>
-            <span class="cur-giant" aria-hidden="true">✨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">文字を入れるだけでおしゃれなフォントに。タップでコピーできます。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">おしゃれ文字変換</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lotto" hidden>
-        <a class="cur-card" href="https://lotto.example.com/ja/" style="--h:88;--h2:70">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">運試ししたい?</span></span>
-            <h3 class="cur-headline">ロト番号ジェネレーター</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">ゲームを選んでボールを引こう。お楽しみ用です。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ロト番号ジェネレーター</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">33件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">35件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -573,6 +587,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sudoku" data-cat="game">
+        <a class="tile-link" href="https://sudoku.example.com/ja/" title="縦・横・3×3のブロックに1〜9を1つずつ。かんたん〜エキスパートの4段階、メモ・ヒント・今日の問題つき。" style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">数独</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mbti" data-cat="test">
+        <a class="tile-link" href="https://mbti.example.com/ja/" title="日常の20問、3分で完了。16タイプのうち自分はどれか、4つの指標の割合まで分かります。" style="--h:302;--h2:284">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">MBTI診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/ja/" title="URL・テキスト・Wi-Fi・メール・電話番号をすぐQRコードに。色とサイズを選んでPNG・SVGで保存。入力内容はサーバーに送られません。" style="--h:1;--h2:343">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
@@ -631,14 +659,14 @@
       </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/ja/" title="文字を入れるだけで、太字・筆記体・丸文字・上下反転などおしゃれな文字に変換。タップでコピー、日本語の飾りも。" style="--h:324;--h2:306">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span></span>
           <span class="tile-name">おしゃれ文字変換</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lotto" data-cat="vote">
         <a class="tile-link" href="https://lotto.example.com/ja/" title="韓国ロト6/45、ユーロ式、米国パワーボール、自由な範囲で番号を引けます。入れる数字と外す数字を決めて、最大5口までボールが転がる演出つき。お楽しみ用です。" style="--h:88;--h2:70">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">ロト番号ジェネレーター</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

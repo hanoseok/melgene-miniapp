@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 33,
+  "numberOfItems": 35,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -311,6 +311,20 @@
       "url": "https://randnum.example.com/",
       "name": "Numeri casuali",
       "description": "Estrai numeri a caso in qualsiasi intervallo, da uno a mille, con o senza ripetizioni. Escludi numeri, ordina e condividi il risultato."
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "url": "https://sudoku.example.com/",
+      "name": "Sudoku",
+      "description": "Riempi righe, colonne e riquadri con i numeri da 1 a 9. Quattro livelli, note a matita, aiuti e sudoku del giorno."
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "url": "https://mbti.example.com/",
+      "name": "Test MBTI gratis",
+      "description": "20 frasi di tutti i giorni, 3 minuti. Scopri il tuo tipo di 4 lettere tra 16, con le percentuali."
     }
   ]
 }
@@ -386,6 +400,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sudoku">
+        <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Rompicapo classico</span></span>
+            <h3 class="cur-headline">Riempi la griglia con la logica</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Quattro livelli, note a matita, aiuti e sudoku del giorno.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sudoku</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mbti">
+        <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Test di personalità</span></span>
+            <h3 class="cur-headline">Test MBTI: che tipo sei?</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">20 frasi, 3 minuti. Le tue 4 lettere con le percentuali.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test MBTI gratis</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="qr">
         <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
           <span class="cur-art">
@@ -450,7 +496,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name">
+      <li class="cur-item" data-id="hangul-name" hidden>
         <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Giornata dell’hangul</span></span>
@@ -466,7 +512,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dice">
+      <li class="cur-item" data-id="dice" hidden>
         <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Per i giochi da tavolo</span></span>
@@ -514,45 +560,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="fancytext" hidden>
-        <a class="cur-card" href="https://fancytext.example.com/" style="--h:324;--h2:306">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Crealo tu</span></span>
-            <h3 class="cur-headline">Dai stile al tuo testo</h3>
-            <span class="cur-giant" aria-hidden="true">✨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Trasforma il testo in font speciali e copialo con un tocco.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Generatore di font</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lotto" hidden>
-        <a class="cur-card" href="https://lotto.example.com/" style="--h:88;--h2:70">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Un po' di fortuna?</span></span>
-            <h3 class="cur-headline">Numeri del lotto per gioco</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Scegli un gioco ed estrai fino a cinque giocate.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Generatore di lotto</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostra selezione 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostra selezione 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostra selezione 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostra selezione 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostra selezione 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostra selezione 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">33 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">35 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -574,6 +588,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sudoku" data-cat="game">
+        <a class="tile-link" href="https://sudoku.example.com/" title="Riempi righe, colonne e riquadri con i numeri da 1 a 9. Quattro livelli, note a matita, aiuti e sudoku del giorno." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Sudoku</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mbti" data-cat="test">
+        <a class="tile-link" href="https://mbti.example.com/" title="20 frasi di tutti i giorni, 3 minuti. Scopri il tuo tipo di 4 lettere tra 16, con le percentuali." style="--h:302;--h2:284">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Test MBTI gratis</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/" title="Trasforma link, testo, Wi-Fi, e-mail o numero di telefono in un QR code. Colori, dimensioni, PNG o SVG. Nulla lascia il tuo browser." style="--h:1;--h2:343">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NUOVO</span></span>
@@ -632,14 +660,14 @@
       </li>
       <li class="tile" data-id="fancytext" data-cat="create">
         <a class="tile-link" href="https://fancytext.example.com/" title="Scrivi il testo e guardalo in grassetto, corsivo, bolle, capovolto e altro. Tocca uno stile per copiarlo e incollarlo ovunque." style="--h:324;--h2:306">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">✨</span></span></span>
           <span class="tile-name">Generatore di font</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lotto" data-cat="vote">
         <a class="tile-link" href="https://lotto.example.com/" title="Estrai numeri per il 6/45 coreano, stile Euro, Powerball USA o un tuo intervallo. Fissa o escludi numeri, fino a cinque giocate." style="--h:88;--h2:70">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">Generatore di lotto</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
