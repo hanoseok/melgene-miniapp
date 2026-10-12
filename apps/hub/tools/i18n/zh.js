@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'password',
+        kicker: "安全工具",
+        headline: "一键生成高强度密码",
+        blurb: "随机密码或单词口令，显示真实强度，不上传。",
+      },
+      {
+        id: 'seat',
+        kicker: "教室小帮手",
+        headline: "公平随机排座位",
+        blurb: "粘贴名单就能排,可分开坐、固定前排。",
+      },
+      {
         id: 'mbti',
         kicker: "人格测试",
         headline: "MBTI测试：你是哪一型？",

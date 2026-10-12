@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 35,
+  "numberOfItems": 37,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -324,6 +324,20 @@
       "url": "https://mbti.example.com/fr/",
       "name": "Test MBTI gratuit",
       "description": "20 affirmations du quotidien, 3 minutes. Découvre ton type en 4 lettres parmi 16, avec tes pourcentages."
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "url": "https://password.example.com/fr/",
+      "name": "Générateur de mot de passe",
+      "description": "Crée des mots de passe aléatoires solides ou des phrases de passe faciles à retenir. Force réelle en bits, rien ne quitte ton navigateur."
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "url": "https://seat.example.com/fr/",
+      "name": "Plan de classe aléatoire",
+      "description": "Colle ta liste et tire un plan de classe au hasard. Rangées, allées, élèves à séparer, places fixes et premier rang."
     }
   ]
 }
@@ -399,6 +413,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="password">
+        <a class="cur-card" href="https://password.example.com/fr/" style="--h:111;--h2:137">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Outil sécurité</span></span>
+            <h3 class="cur-headline">Un mot de passe solide en un tap</h3>
+            <span class="cur-giant" aria-hidden="true">🔑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Aléatoire ou phrase de passe, force réelle. Rien n’est envoyé.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Générateur de mot de passe</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="seat">
+        <a class="cur-card" href="https://seat.example.com/fr/" style="--h:15;--h2:357">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Coup de main en classe</span></span>
+            <h3 class="cur-headline">Un plan de classe tiré au sort</h3>
+            <span class="cur-giant" aria-hidden="true">🪑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Colle les noms, règle les rangées. Sépare des élèves, fixe des places.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Plan de classe aléatoire</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sudoku">
         <a class="cur-card" href="https://sudoku.example.com/fr/" style="--h:227;--h2:209">
           <span class="cur-art">
@@ -463,7 +509,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper">
+      <li class="cur-item" data-id="sweeper" hidden>
         <a class="cur-card" href="https://sweeper.example.com/fr/" style="--h:185;--h2:167">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Casse-tête culte</span></span>
@@ -479,7 +525,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="coffee">
+      <li class="cur-item" data-id="coffee" hidden>
         <a class="cur-card" href="https://coffee.example.com/fr/" style="--h:198;--h2:180">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
@@ -527,45 +573,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick" hidden>
-        <a class="cur-card" href="https://brick.example.com/fr/" style="--h:243;--h2:225">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Classique d’arcade</span></span>
-            <h3 class="cur-headline">Une balle contre un mur néon</h3>
-            <span class="cur-giant" aria-hidden="true">🧱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Renvoie-la avec ta raquette et casse tout. 3 vies, ça accélère.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Casse-briques</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mentalage" hidden>
-        <a class="cur-card" href="https://mentalage.example.com/fr/" style="--h:270;--h2:252">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
-            <h3 class="cur-headline">Quel âge a ton esprit ?</h3>
-            <span class="cur-giant" aria-hidden="true">🧠</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 questions du quotidien, 2 minutes. Ton âge mental au chiffre près.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test d’âge mental</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">35 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">37 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -587,6 +601,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="password" data-cat="create">
+        <a class="tile-link" href="https://password.example.com/fr/" title="Crée des mots de passe aléatoires solides ou des phrases de passe faciles à retenir. Force réelle en bits, rien ne quitte ton navigateur." style="--h:111;--h2:137">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Générateur de mot de passe</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="seat" data-cat="vote">
+        <a class="tile-link" href="https://seat.example.com/fr/" title="Colle ta liste et tire un plan de classe au hasard. Rangées, allées, élèves à séparer, places fixes et premier rang." style="--h:15;--h2:357">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Plan de classe aléatoire</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/fr/" title="Remplissez lignes, colonnes et carrés de 1 à 9. Quatre niveaux, notes au crayon, indices et grille du jour." style="--h:227;--h2:209">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -645,14 +673,14 @@
       </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/fr/" title="Renvoie la balle avec ta raquette et casse les briques néon. Trois vies, des niveaux de plus en plus rapides." style="--h:243;--h2:225">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span></span>
           <span class="tile-name">Casse-briques</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mentalage" data-cat="test">
         <a class="tile-link" href="https://mentalage.example.com/fr/" title="12 petites questions du quotidien, 2 à 3 minutes. Découvre l’âge réel de ton esprit, au chiffre près." style="--h:270;--h2:252">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span>
           <span class="tile-name">Test d’âge mental</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

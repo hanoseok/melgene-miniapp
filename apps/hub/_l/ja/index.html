@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 35,
+  "numberOfItems": 37,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -325,6 +325,20 @@
       "url": "https://mbti.example.com/",
       "name": "MBTI診断",
       "description": "日常の20問、3分で完了。16タイプのうち自分はどれか、4つの指標の割合まで分かります。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "url": "https://password.example.com/",
+      "name": "パスワード生成",
+      "description": "長さと文字の種類を選ぶだけで、強いランダムパスワードや覚えやすいパスフレーズを作成。強度と解読時間も表示、送信なし。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "url": "https://seat.example.com/",
+      "name": "席替え",
+      "description": "名前を入れるだけでランダムに席替え。列と席数、空席、離したい2人、固定席、前の席まで決めて公平にシャッフル。"
     }
   ]
 }
@@ -400,6 +414,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="password">
+        <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">セキュリティ</span></span>
+            <h3 class="cur-headline">強いパスワードをワンタップで</h3>
+            <span class="cur-giant" aria-hidden="true">🔑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">ランダムな文字や単語で作成。強度も表示、送信なし。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">パスワード生成</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="seat">
+        <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">教室のお助け</span></span>
+            <h3 class="cur-headline">席替えを公平にランダムで</h3>
+            <span class="cur-giant" aria-hidden="true">🪑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">名簿を貼るだけ。離したい2人や前の席も設定。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">席替え</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sudoku">
         <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
@@ -464,7 +510,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper">
+      <li class="cur-item" data-id="sweeper" hidden>
         <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">定番パズル</span></span>
@@ -480,7 +526,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="coffee">
+      <li class="cur-item" data-id="coffee" hidden>
         <a class="cur-card" href="https://coffee.example.com/" style="--h:198;--h2:180">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理テスト</span></span>
@@ -528,45 +574,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick" hidden>
-        <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">レトロアーケード</span></span>
-            <h3 class="cur-headline">ボールひとつでネオンの壁を崩せ</h3>
-            <span class="cur-giant" aria-hidden="true">🧱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">パドルで打ち返して全部消そう。ライフは3つ。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ブロック崩し</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mentalage" hidden>
-        <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理テスト</span></span>
-            <h3 class="cur-headline">あなたの心は何歳？</h3>
-            <span class="cur-giant" aria-hidden="true">🧠</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">日常の12問で、精神年齢を数字で診断。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">精神年齢診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">35件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">37件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -588,6 +602,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="password" data-cat="create">
+        <a class="tile-link" href="https://password.example.com/" title="長さと文字の種類を選ぶだけで、強いランダムパスワードや覚えやすいパスフレーズを作成。強度と解読時間も表示、送信なし。" style="--h:111;--h2:137">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">パスワード生成</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="seat" data-cat="vote">
+        <a class="tile-link" href="https://seat.example.com/" title="名前を入れるだけでランダムに席替え。列と席数、空席、離したい2人、固定席、前の席まで決めて公平にシャッフル。" style="--h:15;--h2:357">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">席替え</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/" title="縦・横・3×3のブロックに1〜9を1つずつ。かんたん〜エキスパートの4段階、メモ・ヒント・今日の問題つき。" style="--h:227;--h2:209">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -646,14 +674,14 @@
       </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/" title="パドルでボールを打ち返して、カラフルなブロックを崩そう。ライフは3つ、どこまで進める？" style="--h:243;--h2:225">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span></span>
           <span class="tile-name">ブロック崩し</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mentalage" data-cat="test">
         <a class="tile-link" href="https://mentalage.example.com/" title="週末の朝、グループLINE、雨の休日…12の日常の質問でわかる心の年齢。2〜3分で完了。" style="--h:270;--h2:252">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span>
           <span class="tile-name">精神年齢診断</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'password',
+        kicker: "보안 도구",
+        headline: "강력한 비밀번호를 한 번에",
+        blurb: "랜덤 비밀번호·단어 조합, 진짜 강도까지. 서버 전송 없음.",
+      },
+      {
+        id: 'seat',
+        kicker: "교실 도우미",
+        headline: "자리 바꾸기, 이번엔 불만 없이",
+        blurb: "명단만 넣으면 랜덤 배치. 짝 떨어뜨리기·앞자리도.",
+      },
+      {
         id: 'mbti',
         kicker: "성격유형 검사",
         headline: "MBTI 테스트, 나는 무슨 유형?",

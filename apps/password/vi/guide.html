@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hướng dẫn tạo mật khẩu mạnh: cụm mật khẩu và entropy</title>
+<meta name="description" content="Cách tạo mật khẩu mạnh và cụm mật khẩu dễ nhớ, entropy và thời gian bẻ khóa thực sự có nghĩa là gì, và vì sao nên dùng trình quản lý mật khẩu cùng xác thực hai lớp.">
+<link rel="canonical" href="https://password.example.com/vi/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://password.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://password.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://password.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://password.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://password.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://password.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://password.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://password.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://password.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://password.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://password.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://password.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://password.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Hướng dẫn tạo mật khẩu mạnh: cụm mật khẩu và entropy">
+<meta property="og:description" content="Cách tạo mật khẩu mạnh và cụm mật khẩu dễ nhớ, entropy và thời gian bẻ khóa thực sự có nghĩa là gì, và vì sao nên dùng trình quản lý mật khẩu cùng xác thực hai lớp.">
+<meta property="og:image" content="https://password.example.com/og/vi/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://password.example.com/vi/guide.html">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-13">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://password.example.com/vi/guide.html#article","headline":"Tạo mật khẩu mạnh: mật khẩu chắc chắn, cụm mật khẩu và ý nghĩa của entropy","description":"Cách tạo mật khẩu mạnh và cụm mật khẩu dễ nhớ, entropy và thời gian bẻ khóa thực sự có nghĩa là gì, và vì sao nên dùng trình quản lý mật khẩu cùng xác thực hai lớp.","inLanguage":"vi","datePublished":"2026-10-13","dateModified":"2026-10-13","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"mainEntityOfPage":"https://password.example.com/vi/guide.html","url":"https://password.example.com/vi/guide.html","about":{"@type":"WebApplication","name":"Tạo mật khẩu mạnh","url":"https://password.example.com/vi/"},"image":"https://password.example.com/og/vi/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/vi/"},{"@type":"ListItem","position":2,"name":"Tạo mật khẩu mạnh","item":"https://password.example.com/vi/"},{"@type":"ListItem","position":3,"name":"Tạo mật khẩu mạnh: mật khẩu chắc chắn, cụm mật khẩu và ý nghĩa của entropy","item":"https://password.example.com/vi/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/vi/" aria-label="Về trang chủ Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Tạo mật khẩu mạnh</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Ngôn ngữ"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi" selected>Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Ngôn ngữ"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/vi/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Tạo mật khẩu mạnh</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔑</span>Tạo mật khẩu mạnh</p>
+    <h1>Tạo mật khẩu mạnh: mật khẩu chắc chắn, cụm mật khẩu và ý nghĩa của entropy</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-13">Cập nhật 13 tháng 10, 2026</time></p>
+    <p class="mg-art-intro">Phần lớn tài khoản bị chiếm không phải do một hacker thiên tài nào cả. Mọi chuyện bắt đầu từ một mật khẩu quá ngắn, một mật khẩu dùng lại sau khi trang khác bị lộ dữ liệu, hoặc một kiểu dễ đoán như tên kèm năm sinh. Công cụ tạo mật khẩu làm thay con người việc mà ta làm dở nhất: chọn thật ngẫu nhiên. Bài hướng dẫn này chỉ cách dùng công cụ, giải thích điều gì thực sự làm mật khẩu mạnh, giới thiệu cụm mật khẩu, giải nghĩa con số entropy và thời gian bẻ khóa, và kết thúc bằng hai thói quen còn quan trọng hơn cả mật khẩu.</p>
+    <section>
+      <h2>Cách dùng công cụ tạo mật khẩu</h2>
+      <p>Mọi thứ diễn ra trên một màn hình và ngay trên thiết bị của bạn. Trước tiên chọn Mật khẩu hoặc Cụm mật khẩu ở trên cùng. Với mật khẩu, kéo thanh độ dài từ 4 đến 64 ký tự rồi bật các loại ký tự muốn dùng: chữ hoa, chữ thường, chữ số và ký hiệu. Mỗi loại đã bật chắc chắn xuất hiện ít nhất một lần, nên các trang có quy định như phải có chữ hoa, số và ký hiệu cũng không làm khó bạn. Nếu cần đọc mật khẩu cho người khác hoặc gõ lại từ màn hình, hãy bật Bỏ ký tự dễ nhầm để loại 0, O, 1, l và I.</p>
+      <p>Với cụm mật khẩu, chọn số từ (3 đến 8), dấu nối giữa các từ, có viết hoa chữ đầu mỗi từ và thêm một con số hay không. Chọn Chỉ 1 cái hoặc 5 cái một lúc rồi bấm Tạo ngay. Mỗi kết quả có nút Sao chép riêng, và thanh độ mạnh bên dưới cho biết entropy tính bằng bit, mức độ mạnh và thời gian ước tính để bẻ khóa.</p>
+      <ul>
+        <li>Chọn Mật khẩu hoặc Cụm mật khẩu.</li>
+        <li>Đặt độ dài hoặc số từ.</li>
+        <li>Chọn loại ký tự, hoặc dấu nối và các tùy chọn.</li>
+        <li>Bấm Tạo ngay và sao chép cái bạn thích.</li>
+        <li>Lưu ngay vào trình quản lý mật khẩu.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Điều gì làm nên một mật khẩu mạnh</h2>
+      <p>Độ mạnh phụ thuộc vào số khả năng kẻ tấn công phải thử, chứ không phải vẻ ngoài phức tạp của mật khẩu. P@ssw0rd! trông rối mắt, nhưng công cụ bẻ khóa luôn thử các từ phổ biến với kiểu thay thế quen thuộc trước, nên nó thủng chỉ trong vài giây. Một chuỗi thật sự ngẫu nhiên thì khác: mỗi ký tự là một lựa chọn độc lập, và mỗi ký tự thêm vào nhân số khả năng lên nhiều lần. Vì vậy độ dài thắng sự khéo léo. Chỉ cần tăng từ 12 lên 16 ký tự ngẫu nhiên, mật khẩu đã khó đoán hơn hàng chục triệu lần.</p>
+      <p>Nửa còn lại là tính ngẫu nhiên. Chúng ta hay chọn ngày sinh, tên thú cưng, dãy phím như qwerty và dùng cùng một kiểu yêu thích ở mọi nơi, và kẻ tấn công biết hết những thói quen đó. Công cụ này dùng nguồn ngẫu nhiên mật mã của trình duyệt, crypto.getRandomValues, cùng kỹ thuật lấy mẫu loại bỏ để mọi ký tự được phép đều có xác suất xuất hiện bằng nhau tuyệt đối. Không có quy luật nào để học, không có độ lệch nào để khai thác.</p>
+      <p>Thành phần thứ ba là không dùng lại. Mật khẩu hoàn hảo đến đâu cũng trở nên yếu ngay khi dùng cho nhiều nơi, vì chỉ cần một trang bị lộ, kẻ tấn công sẽ đem nó đi thử ở mọi trang khác. Mỗi tài khoản một mật khẩu.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Cụm mật khẩu: mạnh mà dễ nhớ hơn</h2>
+      <p>Cụm mật khẩu là vài từ ngẫu nhiên ghép lại, giống một câu ngắn vô nghĩa. Bí quyết là các từ phải do may rủi chọn, không phải do bạn chọn. Một câu hát hay một câu danh ngôn hoàn toàn không ngẫu nhiên. Công cụ này lấy từng từ trong danh sách 2.048 từ tiếng Anh ngắn có sẵn, nên mỗi từ thêm đúng 11 bit entropy. Năm từ cho 55 bit, sáu từ cho 66 bit, và thêm một con số ngẫu nhiên sẽ cộng thêm vài bit.</p>
+      <p>Cụm mật khẩu phát huy tác dụng với vài bí mật mà bạn buộc phải tự gõ hoặc tự nhớ: mật khẩu chính của trình quản lý mật khẩu, mật khẩu đăng nhập máy tính hay mật khẩu sao lưu điện thoại. Chúng dài nên mạnh, lại là từ thật nên gõ trên bàn phím điện thoại dễ hơn nhiều so với một mớ ký hiệu. Viết hoa chữ đầu mỗi từ không làm mạnh hơn vì kiểu này dễ đoán, nhưng hữu ích với những trang bắt buộc phải có chữ hoa.</p>
+    </section>
+    <section>
+      <h2>Hiểu đúng về entropy và thời gian bẻ khóa</h2>
+      <p>Entropy được đo bằng bit, cho biết mật khẩu được chọn từ bao nhiêu khả năng có xác suất như nhau. Mỗi bit nhân đôi con số đó, nên 60 bit là khoảng một tỷ tỷ khả năng, còn 80 bit nhiều hơn thế khoảng một triệu lần. Thanh độ mạnh tính chính xác giá trị này từ thiết lập của bạn. Với mật khẩu, nó đếm mọi chuỗi có độ dài đã chọn chứa ít nhất một ký tự của mỗi loại đã chọn; với cụm mật khẩu, nó nhân số cách chọn từ với vị trí và giá trị của con số thêm vào.</p>
+      <p>Thời gian bẻ khóa giả định một cuộc tấn công ngoại tuyến rất nhanh, thử 10 tỷ lần mỗi giây, tốc độ mà chỉ một card đồ họa đời mới cũng đạt được khi tấn công một cơ sở dữ liệu mật khẩu bị lộ và được bảo vệ kém. Trung bình, kẻ tấn công tìm ra mật khẩu sau khi thử một nửa số khả năng. Ước tính này còn giả định kẻ tấn công biết chính xác bạn đã chọn thiết lập nào, nên nó không bao giờ tô hồng. Đại khái: dưới 45 bit là yếu, 45 đến 60 là tạm được, 60 đến 80 là mạnh, từ 80 trở lên là rất mạnh.</p>
+      <ul>
+        <li>Tài khoản dùng một lần hoặc không quan trọng: 45 đến 60 bit.</li>
+        <li>Tài khoản hằng ngày như mua sắm, mạng xã hội: 60 đến 80 bit.</li>
+        <li>Email, ngân hàng, công việc và trình quản lý mật khẩu: từ 80 bit trở lên.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Trình quản lý mật khẩu và xác thực hai lớp</h2>
+      <p>Không ai nhớ nổi hàng chục mật khẩu ngẫu nhiên khác nhau, và cũng không nên cố. Trình quản lý mật khẩu cất chúng trong một két được mã hóa, tự điền đúng trang và cảnh báo khi có mật khẩu bị dùng lại hoặc bị lộ. Hãy tạo mật khẩu mạnh ở đây, dán vào trình quản lý khi tạo hoặc đổi tài khoản, và bạn sẽ không cần nhìn thấy nó nữa. Còn bản thân trình quản lý thì bảo vệ bằng một cụm mật khẩu dài mà bạn tự nhớ.</p>
+      <p>Xác thực hai lớp (2FA) thêm một bước thứ hai như mã từ ứng dụng xác thực, passkey hoặc khóa bảo mật phần cứng. Dù mật khẩu có bị lộ, kẻ tấn công vẫn không đăng nhập được. Hãy bật cho email trước, vì hầu hết tài khoản khác đều đặt lại mật khẩu qua email.</p>
+      <ul>
+        <li>Dùng mật khẩu khác nhau cho mỗi tài khoản.</li>
+        <li>Lưu mật khẩu trong trình quản lý, không phải trong ghi chú, tin nhắn hay ảnh chụp màn hình.</li>
+        <li>Bật 2FA hoặc passkey ở mọi nơi có hỗ trợ, bắt đầu từ email.</li>
+        <li>Đổi mật khẩu ngay khi dịch vụ thông báo bị lộ dữ liệu.</li>
+        <li>Không gửi mật khẩu qua tin nhắn hay email, và cảnh giác với đường link đăng nhập bất ngờ.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔑</span>Tạo mật khẩu mạnh ngay</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Tạo mật khẩu mạnh</a> · <a href="privacy.html">Chính sách bảo mật</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

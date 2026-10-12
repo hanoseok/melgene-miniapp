@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'password',
+        kicker: "Outil sécurité",
+        headline: "Un mot de passe solide en un tap",
+        blurb: "Aléatoire ou phrase de passe, force réelle. Rien n’est envoyé.",
+      },
+      {
+        id: 'seat',
+        kicker: "Coup de main en classe",
+        headline: "Un plan de classe tiré au sort",
+        blurb: "Colle les noms, règle les rangées. Sépare des élèves, fixe des places.",
+      },
+      {
         id: 'mbti',
         kicker: "Test de personnalité",
         headline: "Test MBTI : quel type es-tu ?",

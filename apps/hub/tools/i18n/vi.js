@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'password',
+        kicker: "Công cụ bảo mật",
+        headline: "Mật khẩu mạnh chỉ với một chạm",
+        blurb: "Mật khẩu ngẫu nhiên hoặc cụm từ, độ mạnh thật. Không gửi đi đâu.",
+      },
+      {
+        id: 'seat',
+        kicker: "Trợ thủ lớp học",
+        headline: "Xếp chỗ ngồi ngẫu nhiên, công bằng",
+        blurb: "Dán tên, chọn số hàng. Tách cặp, giữ chỗ bàn đầu.",
+      },
+      {
         id: 'mbti',
         kicker: "Trắc nghiệm tính cách",
         headline: "Trắc nghiệm MBTI: bạn là nhóm nào?",

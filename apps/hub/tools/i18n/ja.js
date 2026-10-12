@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'password',
+        kicker: "セキュリティ",
+        headline: "強いパスワードをワンタップで",
+        blurb: "ランダムな文字や単語で作成。強度も表示、送信なし。",
+      },
+      {
+        id: 'seat',
+        kicker: "教室のお助け",
+        headline: "席替えを公平にランダムで",
+        blurb: "名簿を貼るだけ。離したい2人や前の席も設定。",
+      },
+      {
         id: 'mbti',
         kicker: "性格診断",
         headline: "MBTI診断、あなたは何タイプ？",

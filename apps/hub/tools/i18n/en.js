@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'password',
+        kicker: "Security tool",
+        headline: "Make a strong password in one tap",
+        blurb: "Random passwords or passphrases with real strength. Never sent anywhere.",
+      },
+      {
+        id: 'seat',
+        kicker: "Classroom helper",
+        headline: "Shuffle a fair seating chart",
+        blurb: "Paste names, set rows. Keep pairs apart, pin front seats.",
+      },
+      {
         id: 'mbti',
         kicker: "Personality test",
         headline: "Free MBTI test: which type are you?",

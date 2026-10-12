@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 35,
+  "numberOfItems": 37,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -326,6 +326,20 @@
       "url": "https://mbti.example.com/",
       "name": "Trắc nghiệm MBTI",
       "description": "20 câu đời thường, 3 phút. Tìm ra nhóm tính cách 4 chữ cái của bạn trong 16 nhóm, kèm tỉ lệ từng cặp."
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "url": "https://password.example.com/",
+      "name": "Tạo mật khẩu mạnh",
+      "description": "Tạo mật khẩu ngẫu nhiên mạnh hoặc cụm mật khẩu dễ nhớ. Xem độ mạnh thật theo bit và thời gian bẻ khóa. Không gửi gì lên mạng."
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "url": "https://seat.example.com/",
+      "name": "Xếp chỗ ngồi ngẫu nhiên",
+      "description": "Dán danh sách lớp và xếp chỗ ngồi ngẫu nhiên công bằng. Chọn hàng, lối đi, cặp cần tách, chỗ cố định, bàn đầu."
     }
   ]
 }
@@ -401,6 +415,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="password">
+        <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Công cụ bảo mật</span></span>
+            <h3 class="cur-headline">Mật khẩu mạnh chỉ với một chạm</h3>
+            <span class="cur-giant" aria-hidden="true">🔑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Mật khẩu ngẫu nhiên hoặc cụm từ, độ mạnh thật. Không gửi đi đâu.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tạo mật khẩu mạnh</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="seat">
+        <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trợ thủ lớp học</span></span>
+            <h3 class="cur-headline">Xếp chỗ ngồi ngẫu nhiên, công bằng</h3>
+            <span class="cur-giant" aria-hidden="true">🪑</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Dán tên, chọn số hàng. Tách cặp, giữ chỗ bàn đầu.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Xếp chỗ ngồi ngẫu nhiên</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="sudoku">
         <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
@@ -465,7 +511,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper">
+      <li class="cur-item" data-id="sweeper" hidden>
         <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Giải đố kinh điển</span></span>
@@ -481,7 +527,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="coffee">
+      <li class="cur-item" data-id="coffee" hidden>
         <a class="cur-card" href="https://coffee.example.com/" style="--h:198;--h2:180">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
@@ -529,45 +575,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="brick" hidden>
-        <a class="cur-card" href="https://brick.example.com/" style="--h:243;--h2:225">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Game thùng cổ điển</span></span>
-            <h3 class="cur-headline">Một quả bóng, cả bức tường neon</h3>
-            <span class="cur-giant" aria-hidden="true">🧱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Đỡ bóng bằng thanh trượt, phá sạch gạch. 3 mạng, càng chơi càng nhanh.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Game phá gạch</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mentalage" hidden>
-        <a class="cur-card" href="https://mentalage.example.com/" style="--h:270;--h2:252">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
-            <h3 class="cur-headline">Tâm hồn bạn bao nhiêu tuổi?</h3>
-            <span class="cur-giant" aria-hidden="true">🧠</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 câu hỏi đời thường, hai phút. Biết tuổi tâm lý bằng con số.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Trắc nghiệm tuổi tâm lý</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">35 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">37 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -589,6 +603,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="password" data-cat="create">
+        <a class="tile-link" href="https://password.example.com/" title="Tạo mật khẩu ngẫu nhiên mạnh hoặc cụm mật khẩu dễ nhớ. Xem độ mạnh thật theo bit và thời gian bẻ khóa. Không gửi gì lên mạng." style="--h:111;--h2:137">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tạo mật khẩu mạnh</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="seat" data-cat="vote">
+        <a class="tile-link" href="https://seat.example.com/" title="Dán danh sách lớp và xếp chỗ ngồi ngẫu nhiên công bằng. Chọn hàng, lối đi, cặp cần tách, chỗ cố định, bàn đầu." style="--h:15;--h2:357">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Xếp chỗ ngồi ngẫu nhiên</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/" title="Điền 1 đến 9 vào mỗi hàng, cột và ô 3×3. Bốn cấp độ, ghi chú bút chì, gợi ý và câu đố mỗi ngày." style="--h:227;--h2:209">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -647,14 +675,14 @@
       </li>
       <li class="tile" data-id="brick" data-cat="game">
         <a class="tile-link" href="https://brick.example.com/" title="Đỡ bóng bằng thanh trượt để phá những hàng gạch neon. 3 mạng, màn sau nhanh hơn — bạn đi được bao xa?" style="--h:243;--h2:225">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧱</span></span></span>
           <span class="tile-name">Game phá gạch</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mentalage" data-cat="test">
         <a class="tile-link" href="https://mentalage.example.com/" title="12 câu hỏi đời thường, 2–3 phút. Khám phá tâm hồn bạn thật ra bao nhiêu tuổi." style="--h:270;--h2:252">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span>
           <span class="tile-name">Trắc nghiệm tuổi tâm lý</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

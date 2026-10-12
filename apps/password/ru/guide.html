@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Генератор паролей: как сделать надёжный пароль</title>
+<meta name="description" content="Как создавать надёжные пароли и легко запоминаемые парольные фразы, что на самом деле значат энтропия и время взлома и почему важны менеджер паролей и двухфакторная защита.">
+<link rel="canonical" href="https://password.example.com/ru/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://password.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://password.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://password.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://password.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://password.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://password.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://password.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://password.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://password.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://password.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://password.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://password.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://password.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Генератор паролей: как сделать надёжный пароль">
+<meta property="og:description" content="Как создавать надёжные пароли и легко запоминаемые парольные фразы, что на самом деле значат энтропия и время взлома и почему важны менеджер паролей и двухфакторная защита.">
+<meta property="og:image" content="https://password.example.com/og/ru/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://password.example.com/ru/guide.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-13">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://password.example.com/ru/guide.html#article","headline":"Генератор паролей: надёжные пароли, парольные фразы и что такое энтропия","description":"Как создавать надёжные пароли и легко запоминаемые парольные фразы, что на самом деле значат энтропия и время взлома и почему важны менеджер паролей и двухфакторная защита.","inLanguage":"ru","datePublished":"2026-10-13","dateModified":"2026-10-13","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/ru/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/ru/"},"mainEntityOfPage":"https://password.example.com/ru/guide.html","url":"https://password.example.com/ru/guide.html","about":{"@type":"WebApplication","name":"Генератор паролей","url":"https://password.example.com/ru/"},"image":"https://password.example.com/og/ru/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/ru/"},{"@type":"ListItem","position":2,"name":"Генератор паролей","item":"https://password.example.com/ru/"},{"@type":"ListItem","position":3,"name":"Генератор паролей: надёжные пароли, парольные фразы и что такое энтропия","item":"https://password.example.com/ru/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ru/" aria-label="Главная Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Генератор паролей</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Язык"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru" selected>Русский</option></select></label><noscript><nav class="lang-links" aria-label="Язык"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ru/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Генератор паролей</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔑</span>Генератор паролей</p>
+    <h1>Генератор паролей: надёжные пароли, парольные фразы и что такое энтропия</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-13">Обновлено 13 октября 2026 г.</time></p>
+    <p class="mg-art-intro">Большинство взломанных аккаунтов взламывают вовсе не гениальные хакеры. Всё начинается с короткого пароля, пароля, который уже утёк с другого сайта, или предсказуемой схемы вроде «имя плюс год рождения». Генератор паролей берёт на себя то, что людям даётся хуже всего: выбирать по-настоящему случайно. В этом руководстве — как пользоваться генератором, что на самом деле делает пароль надёжным, что такое парольные фразы, как читать энтропию и время взлома, а в конце — две привычки, которые важнее самого пароля.</p>
+    <section>
+      <h2>Как пользоваться генератором паролей</h2>
+      <p>Всё происходит на одном экране и на твоём собственном устройстве. Сверху выбери «Пароль» или «Фраза». Для пароля передвинь ползунок длины от 4 до 64 символов и включи нужные типы символов: заглавные буквы, строчные буквы, цифры и спецсимволы. Каждый включённый тип гарантированно встретится хотя бы один раз, так что пароль пройдёт и на сайтах со строгими правилами. Если пароль придётся диктовать или вводить, глядя на экран, включи «Без похожих символов» — тогда в нём не будет 0, O, 1, l и I.</p>
+      <p>Для парольной фразы выбери число слов (от 3 до 8), разделитель и то, писать ли каждое слово с заглавной и добавлять ли цифру. Отметь «Один» или «Сразу пять» и нажми «Создать». У каждого результата своя кнопка копирования, а шкала ниже показывает энтропию в битах, уровень стойкости и примерное время взлома.</p>
+      <ul>
+        <li>Выбери пароль или парольную фразу.</li>
+        <li>Задай длину или число слов.</li>
+        <li>Выбери типы символов или разделитель и опции.</li>
+        <li>Нажми «Создать» и скопируй понравившийся вариант.</li>
+        <li>Сразу сохрани его в менеджере паролей.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Что делает пароль надёжным</h2>
+      <p>Стойкость зависит от того, сколько вариантов придётся перебрать атакующему, а не от того, насколько сложно пароль выглядит. P@ssw0rd! кажется запутанным, но программы для взлома первым делом пробуют популярные слова с привычными заменами, и такой пароль падает за секунды. С по-настоящему случайной строкой всё иначе: каждый символ выбирается независимо, и каждый лишний символ умножает число вариантов. Поэтому длина важнее хитрости. Если увеличить случайный пароль с 12 до 16 символов, угадать его станет в десятки миллионов раз сложнее.</p>
+      <p>Вторая половина — случайность. Люди выбирают дни рождения, клички питомцев, последовательности клавиш вроде йцукен или qwerty и одну и ту же любимую схему на всех сайтах, а атакующие знают все эти привычки. Генератор использует криптографический источник случайности браузера, crypto.getRandomValues, и метод выборки с отклонением, чтобы каждый допустимый символ выпадал с абсолютно одинаковой вероятностью. Нет ни закономерности, которую можно выучить, ни перекоса, которым можно воспользоваться.</p>
+      <p>Третий ингредиент — уникальность. Даже идеальный пароль становится слабым, как только его используют повторно: утечка на одном сайте отдаёт его атакующим, и они пробуют его везде. Один аккаунт — один пароль.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Парольные фразы: надёжно и проще запомнить</h2>
+      <p>Парольная фраза — это несколько случайных слов подряд, как короткое бессмысленное предложение. Главное, чтобы слова выбирал случай, а не ты: строчка из песни или известная цитата совсем не случайны. Генератор берёт каждое слово из встроенного списка в 2048 коротких английских слов, поэтому каждое слово добавляет ровно 11 бит энтропии. Пять слов дают 55 бит, шесть — 66, а случайная цифра добавляет ещё несколько бит.</p>
+      <p>Парольные фразы хороши для тех немногих секретов, которые действительно нужно набирать вручную или помнить: главный пароль менеджера паролей, вход в компьютер или резервная копия телефона. Они длинные, а значит, стойкие, и состоят из настоящих слов, поэтому набирать их на клавиатуре телефона гораздо проще, чем мешанину символов. Заглавная буква в начале каждого слова стойкости не добавляет, потому что схема предсказуема, но пригодится на сайтах, где обязательна заглавная буква.</p>
+    </section>
+    <section>
+      <h2>Энтропия и время взлома простыми словами</h2>
+      <p>Энтропия измеряется в битах и показывает, из скольких равновероятных вариантов был выбран пароль. Каждый бит удваивает это число: 60 бит — это около квинтиллиона вариантов, а 80 бит — ещё в миллион раз больше. Шкала точно рассчитывает это значение по твоим настройкам. Для пароля она считает все строки выбранной длины, в которых есть хотя бы один символ каждого выбранного типа; для парольной фразы перемножает варианты слов, а также позицию и значение добавленной цифры.</p>
+      <p>Время взлома рассчитано для быстрой офлайн-атаки со скоростью 10 миллиардов попыток в секунду — такой темп под силу одной современной видеокарте при атаке на утёкшую и плохо защищённую базу паролей. В среднем атакующий находит пароль, перебрав половину вариантов. Кроме того, считается, что он точно знает твои настройки, поэтому оценка никогда не льстит. Примерно так: меньше 45 бит — слабый, от 45 до 60 — средний, от 60 до 80 — надёжный, от 80 — очень надёжный.</p>
+      <ul>
+        <li>Одноразовые и неважные аккаунты: от 45 до 60 бит.</li>
+        <li>Повседневные аккаунты вроде магазинов и соцсетей: от 60 до 80 бит.</li>
+        <li>Почта, банк, работа и менеджер паролей: 80 бит и больше.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Менеджер паролей и двухфакторная защита</h2>
+      <p>Никто не способен запомнить десятки разных случайных паролей, и пытаться не стоит. Менеджер паролей хранит их в зашифрованном хранилище, подставляет на нужных сайтах и предупреждает о повторах и утечках. Создай надёжный пароль здесь, вставь его в менеджер при регистрации или смене пароля — и тебе больше никогда не придётся на него смотреть. Сам менеджер защити длинной парольной фразой, которую ты запомнишь.</p>
+      <p>Двухфакторная аутентификация, или 2FA, добавляет второй шаг: код из приложения-аутентификатора, ключ доступа или аппаратный ключ безопасности. Даже если пароль утечёт, атакующий не сможет войти. Включи её в первую очередь для почты, ведь через неё восстанавливается большинство остальных аккаунтов.</p>
+      <ul>
+        <li>Используй отдельный пароль для каждого аккаунта.</li>
+        <li>Храни пароли в менеджере паролей, а не в заметках, чатах или на скриншотах.</li>
+        <li>Включай 2FA или ключи доступа везде, где можно, начиная с почты.</li>
+        <li>Сразу меняй пароль, если сервис сообщил об утечке.</li>
+        <li>Никогда не отправляй пароль в сообщениях или по почте и настороженно относись к неожиданным ссылкам для входа.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔑</span>Создать надёжный пароль</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Генератор паролей</a> · <a href="privacy.html">Конфиденциальность</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

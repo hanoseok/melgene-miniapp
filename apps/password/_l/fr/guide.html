@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Générateur de mot de passe : guide, phrases de passe, entropie</title>
+<meta name="description" content="Comment créer des mots de passe solides et des phrases de passe faciles à retenir, ce que signifient vraiment l’entropie et le temps de cassage, et pourquoi un gestionnaire et la double authentification comptent.">
+<link rel="canonical" href="https://password.example.com/fr/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://password.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://password.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://password.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://password.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://password.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://password.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://password.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://password.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://password.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://password.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://password.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://password.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://password.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Générateur de mot de passe : guide, phrases de passe, entropie">
+<meta property="og:description" content="Comment créer des mots de passe solides et des phrases de passe faciles à retenir, ce que signifient vraiment l’entropie et le temps de cassage, et pourquoi un gestionnaire et la double authentification comptent.">
+<meta property="og:image" content="https://password.example.com/og/fr/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://password.example.com/fr/guide.html">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-13">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://password.example.com/fr/guide.html#article","headline":"Générateur de mot de passe : mots de passe solides, phrases de passe et entropie","description":"Comment créer des mots de passe solides et des phrases de passe faciles à retenir, ce que signifient vraiment l’entropie et le temps de cassage, et pourquoi un gestionnaire et la double authentification comptent.","inLanguage":"fr","datePublished":"2026-10-13","dateModified":"2026-10-13","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/fr/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/fr/"},"mainEntityOfPage":"https://password.example.com/fr/guide.html","url":"https://password.example.com/fr/guide.html","about":{"@type":"WebApplication","name":"Générateur de mot de passe","url":"https://password.example.com/fr/"},"image":"https://password.example.com/og/fr/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/fr/"},{"@type":"ListItem","position":2,"name":"Générateur de mot de passe","item":"https://password.example.com/fr/"},{"@type":"ListItem","position":3,"name":"Générateur de mot de passe : mots de passe solides, phrases de passe et entropie","item":"https://password.example.com/fr/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Accueil Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Générateur de mot de passe</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Langue"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr" selected>Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Langue"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Générateur de mot de passe</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🔑</span>Générateur de mot de passe</p>
+    <h1>Générateur de mot de passe : mots de passe solides, phrases de passe et entropie</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-13">Mis à jour le 13 octobre 2026</time></p>
+    <p class="mg-art-intro">La plupart des comptes piratés ne tombent pas sous les coups d’un génie de l’informatique. Tout commence par un mot de passe trop court, un mot de passe réutilisé après la fuite d’un autre site, ou un schéma prévisible comme un prénom suivi d’une année. Un générateur de mot de passe confie à la machine ce que les humains font le plus mal : choisir au hasard. Ce guide explique comment utiliser l’outil, ce qui rend vraiment un mot de passe solide, ce qu’est une phrase de passe, comment lire l’entropie et le temps de cassage, et termine par deux habitudes encore plus importantes que le mot de passe lui-même.</p>
+    <section>
+      <h2>Utiliser le générateur de mot de passe</h2>
+      <p>Tout se passe sur un seul écran et sur ton propre appareil. Choisis d’abord Mot de passe ou Phrase de passe. Pour un mot de passe, règle la longueur entre 4 et 64 caractères avec le curseur, puis active les types de caractères voulus : majuscules, minuscules, chiffres et symboles. Chaque type activé apparaît au moins une fois, ce qui satisfait les sites qui imposent des règles de composition. Si tu dois un jour dicter le mot de passe ou le recopier depuis un écran, active Sans sosies pour écarter 0, O, 1, l et I.</p>
+      <p>Pour une phrase de passe, choisis le nombre de mots (de 3 à 8), le séparateur, et décide s’il faut une majuscule à chaque mot et un chiffre en plus. Sélectionne Un seul ou Cinq d’un coup, puis appuie sur Générer. Chaque résultat a son bouton Copier, et la jauge en dessous affiche l’entropie en bits, un niveau de force et le temps estimé pour le casser.</p>
+      <ul>
+        <li>Choisis Mot de passe ou Phrase de passe.</li>
+        <li>Règle la longueur ou le nombre de mots.</li>
+        <li>Choisis les types de caractères, ou le séparateur et les options.</li>
+        <li>Appuie sur Générer et copie celui qui te plaît.</li>
+        <li>Enregistre-le aussitôt dans ton gestionnaire de mots de passe.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Ce qui rend un mot de passe solide</h2>
+      <p>La force dépend du nombre de possibilités qu’un attaquant doit tester, pas de l’air compliqué du mot de passe. P@ssw0rd! semble chaotique, mais les outils de cassage testent d’abord les mots courants avec les substitutions classiques : il tombe en quelques secondes. Une vraie suite aléatoire, c’est autre chose : chaque caractère est un tirage indépendant, et chaque caractère supplémentaire multiplie le nombre de possibilités. Voilà pourquoi la longueur bat l’astuce. Passer de 12 à 16 caractères aléatoires rend un mot de passe des dizaines de millions de fois plus difficile à deviner.</p>
+      <p>L’autre moitié, c’est le hasard. Nous choisissons des dates d’anniversaire, des noms d’animaux, des suites de touches comme azerty, et le même schéma favori partout, et les attaquants connaissent toutes ces manies. Le générateur utilise la source aléatoire cryptographique du navigateur, crypto.getRandomValues, et une technique appelée échantillonnage par rejet pour que chaque caractère autorisé ait exactement la même probabilité. Aucun motif à apprendre, aucun biais à exploiter.</p>
+      <p>Troisième ingrédient : l’unicité. Même un mot de passe parfait devient faible dès qu’il est réutilisé, car la fuite d’un site le livre à des attaquants qui l’essaient ensuite partout ailleurs. Un compte, un mot de passe.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Les phrases de passe : solides et plus faciles à retenir</h2>
+      <p>Une phrase de passe, c’est une poignée de mots tirés au hasard et collés ensemble, comme une courte phrase absurde. L’astuce, c’est que les mots doivent être choisis par le hasard, pas par toi : un vers de chanson ou une citation célèbre n’a rien d’aléatoire. Ce générateur pioche chaque mot dans une liste intégrée de 2 048 mots anglais courts, donc chaque mot apporte exactement 11 bits d’entropie. Cinq mots donnent 55 bits, six en donnent 66, et un chiffre aléatoire ajoute encore quelques bits.</p>
+      <p>Les phrases de passe sont idéales pour les rares secrets que tu dois vraiment taper ou retenir : le mot de passe principal de ton gestionnaire, la session de ton ordinateur ou la sauvegarde de ton téléphone. Elles sont longues, donc solides, et faites de vrais mots, donc bien plus faciles à taper sur un clavier de téléphone qu’un fouillis de symboles. Mettre une majuscule à chaque mot n’ajoute pas de force, car le schéma est prévisible, mais cela aide avec les sites qui exigent une majuscule.</p>
+    </section>
+    <section>
+      <h2>L’entropie et le temps de cassage, expliqués</h2>
+      <p>L’entropie, mesurée en bits, indique parmi combien de possibilités également probables un mot de passe a été tiré. Chaque bit double ce nombre : 60 bits représentent environ un milliard de milliards de possibilités, et 80 bits un million de fois plus. La jauge calcule cette valeur exactement à partir de tes réglages. Pour un mot de passe, elle compte toutes les chaînes de la longueur choisie qui contiennent au moins un caractère de chaque type sélectionné ; pour une phrase de passe, elle multiplie les choix de mots par la position et la valeur du chiffre ajouté.</p>
+      <p>Le temps de cassage suppose une attaque hors ligne rapide à 10 milliards d’essais par seconde, un rythme à la portée d’une seule carte graphique récente face à une base de mots de passe volée et mal protégée. En moyenne, l’attaquant trouve après avoir testé la moitié des possibilités. L’estimation suppose aussi qu’il connaît exactement tes réglages, elle ne cherche donc jamais à te flatter. En gros : moins de 45 bits, c’est faible ; de 45 à 60, moyen ; de 60 à 80, fort ; 80 et plus, très fort.</p>
+      <ul>
+        <li>Comptes jetables ou sans enjeu : 45 à 60 bits.</li>
+        <li>Comptes du quotidien comme les achats et les réseaux sociaux : 60 à 80 bits.</li>
+        <li>Messagerie, banque, travail et gestionnaire de mots de passe : 80 bits ou plus.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Gestionnaire de mots de passe et double authentification</h2>
+      <p>Personne ne peut retenir des dizaines de mots de passe aléatoires différents, et personne ne devrait essayer. Un gestionnaire de mots de passe les garde dans un coffre chiffré, les remplit sur les bons sites et te prévient en cas de réutilisation ou de fuite. Génère ici un mot de passe solide, colle-le dans le gestionnaire quand tu crées ou modifies un compte, et tu n’auras plus jamais besoin de le voir. Protège le gestionnaire lui-même par une longue phrase de passe que tu retiens.</p>
+      <p>La double authentification, ou 2FA, ajoute une seconde étape : un code d’application d’authentification, une clé d’accès ou une clé de sécurité physique. Même si un mot de passe fuit, l’attaquant ne peut pas se connecter. Active-la d’abord sur ta messagerie, car c’est par elle que se réinitialisent la plupart des autres comptes.</p>
+      <ul>
+        <li>Utilise un mot de passe différent pour chaque compte.</li>
+        <li>Range tes mots de passe dans un gestionnaire, pas dans des notes, des discussions ou des captures d’écran.</li>
+        <li>Active la 2FA ou les clés d’accès partout où c’est possible, en commençant par ta messagerie.</li>
+        <li>Change aussitôt un mot de passe si un service annonce une fuite.</li>
+        <li>N’envoie jamais un mot de passe par message ou par e-mail, et méfie-toi des liens de connexion inattendus.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🔑</span>Générer un mot de passe solide</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Générateur de mot de passe</a> · <a href="privacy.html">Confidentialité</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>
