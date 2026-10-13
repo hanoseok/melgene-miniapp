@@ -1,0 +1,14 @@
+{
+  "ko": { "kicker": "손 빠르기 대결", "headline": "1부터 50까지 가장 빠르게", "blurb": "흩어진 숫자를 순서대로 콕콕. 0.01초까지 재요!" },
+  "en": { "kicker": "Speed challenge", "headline": "Tap 1 to 50 as fast as you can", "blurb": "Find the next number before the clock does. Timed to 0.01 s." },
+  "ja": { "kicker": "スピード勝負", "headline": "1から50まで最速でタッチ", "blurb": "バラバラの数字を順番にタップ。0.01秒まで計測！" },
+  "zh": { "kicker": "手速挑战", "headline": "从1点到50，越快越好", "blurb": "按顺序找出打乱的数字，计时精确到0.01秒。" },
+  "fr": { "kicker": "Défi de vitesse", "headline": "De 1 à 50, le plus vite possible", "blurb": "Trouvez le nombre suivant avant le chrono. Au centième près." },
+  "de": { "kicker": "Tempo-Duell", "headline": "Tippe 1 bis 50 so schnell du kannst", "blurb": "Finde die nächste Zahl vor der Uhr. Auf 0,01 s genau." },
+  "th": { "kicker": "ท้าความไว", "headline": "กด 1 ถึง 50 ให้เร็วที่สุด", "blurb": "หาเลขถัดไปให้ไวกว่าเวลา จับเวลา 0.01 วินาที" },
+  "vi": { "kicker": "Thử thách tốc độ", "headline": "Chạm từ 1 đến 50 thật nhanh", "blurb": "Tìm số tiếp theo trước đồng hồ. Bấm giờ tới 0,01 giây." },
+  "es": { "kicker": "Reto de velocidad", "headline": "Del 1 al 50, lo más rápido posible", "blurb": "Encuentra el siguiente número antes que el reloj." },
+  "it": { "kicker": "Sfida di velocità", "headline": "Da 1 a 50, il più veloce possibile", "blurb": "Trova il prossimo numero prima del cronometro." },
+  "pt": { "kicker": "Desafio de velocidade", "headline": "De 1 a 50, o mais rápido possível", "blurb": "Ache o próximo número antes do relógio. Em centésimos." },
+  "ru": { "kicker": "Вызов на скорость", "headline": "Нажми от 1 до 50 как можно быстрее", "blurb": "Найди следующее число раньше таймера. Точность до сотых." }
+}

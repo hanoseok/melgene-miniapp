@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 37,
+  "numberOfItems": 39,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -339,6 +339,20 @@
       "url": "https://seat.example.com/",
       "name": "Plan de classe aléatoire",
       "description": "Colle ta liste et tire un plan de classe au hasard. Rangées, allées, élèves à séparer, places fixes et premier rang."
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "url": "https://1to50.example.com/",
+      "name": "Jeu 1 à 50",
+      "description": "Touchez les nombres de 1 à 50 dans l’ordre, le plus vite possible. Chrono au centième et mode rapide 1 à 25."
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "url": "https://zombie.example.com/",
+      "name": "Test de survie zombie",
+      "description": "L’épidémie est là. 12 situations, 2 minutes. Découvre ton rôle pendant l’apocalypse zombie."
     }
   ]
 }
@@ -414,6 +428,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="1to50">
+        <a class="cur-card" href="https://1to50.example.com/" style="--h:149;--h2:175">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Défi de vitesse</span></span>
+            <h3 class="cur-headline">De 1 à 50, le plus vite possible</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Trouvez le nombre suivant avant le chrono. Au centième près.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Jeu 1 à 50</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="zombie">
+        <a class="cur-card" href="https://zombie.example.com/" style="--h:208;--h2:190">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test d’Halloween</span></span>
+            <h3 class="cur-headline">Survivrais-tu aux zombies ?</h3>
+            <span class="cur-giant" aria-hidden="true">🧟</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 situations, 2 minutes. Découvre ton rôle pendant l’apocalypse.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test de survie zombie</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="password">
         <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
           <span class="cur-art">
@@ -478,7 +524,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="qr">
+      <li class="cur-item" data-id="qr" hidden>
         <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Outil pratique</span></span>
@@ -494,7 +540,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="randnum">
+      <li class="cur-item" data-id="randnum" hidden>
         <a class="cur-card" href="https://randnum.example.com/" style="--h:159;--h2:141">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tirage équitable</span></span>
@@ -542,45 +588,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hangul-name" hidden>
-        <a class="cur-card" href="https://hangul-name.example.com/" style="--h:313;--h2:295">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Spécial Jour du hangeul</span></span>
-            <h3 class="cur-headline">Ton prénom écrit en coréen</h3>
-            <span class="cur-giant" aria-hidden="true">🔤</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tape ton prénom et récupère-le en hangeul sur une jolie carte.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Ton prénom en coréen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="dice" hidden>
-        <a class="cur-card" href="https://dice.example.com/" style="--h:73;--h2:55">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Pour les jeux de société</span></span>
-            <h3 class="cur-headline">Lance les dés dans ton navigateur</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Jusqu’à six dés, du d4 au d20. Des tirages équitables.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Lancer de dés</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">37 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">39 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -602,6 +616,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="1to50" data-cat="game">
+        <a class="tile-link" href="https://1to50.example.com/" title="Touchez les nombres de 1 à 50 dans l’ordre, le plus vite possible. Chrono au centième et mode rapide 1 à 25." style="--h:149;--h2:175">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Jeu 1 à 50</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="zombie" data-cat="test">
+        <a class="tile-link" href="https://zombie.example.com/" title="L’épidémie est là. 12 situations, 2 minutes. Découvre ton rôle pendant l’apocalypse zombie." style="--h:208;--h2:190">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Test de survie zombie</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="password" data-cat="create">
         <a class="tile-link" href="https://password.example.com/" title="Crée des mots de passe aléatoires solides ou des phrases de passe faciles à retenir. Force réelle en bits, rien ne quitte ton navigateur." style="--h:111;--h2:137">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
@@ -660,14 +688,14 @@
       </li>
       <li class="tile" data-id="hangul-name" data-cat="create">
         <a class="tile-link" href="https://hangul-name.example.com/" title="Écris ton prénom et vois-le en hangeul, syllabe par syllabe avec la prononciation. Enregistre-le en jolie carte." style="--h:313;--h2:295">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔤</span></span></span>
           <span class="tile-name">Ton prénom en coréen</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="dice" data-cat="vote">
         <a class="tile-link" href="https://dice.example.com/" title="Lance de un à six dés : le d6 classique ou les d4, d8, d10, d12 et d20 du jeu de rôle, avec le total et tes 10 derniers lancers." style="--h:73;--h2:55">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">Lancer de dés</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

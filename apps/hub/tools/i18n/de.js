@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: '1to50',
+        kicker: "Tempo-Duell",
+        headline: "Tippe 1 bis 50 so schnell du kannst",
+        blurb: "Finde die nächste Zahl vor der Uhr. Auf 0,01 s genau.",
+      },
+      {
+        id: 'zombie',
+        kicker: "Halloween-Test",
+        headline: "Überlebst du die Zombies?",
+        blurb: "12 Situationen, 2 Minuten. Finde deine Rolle in der Apokalypse.",
+      },
+      {
         id: 'password',
         kicker: "Sicherheits-Tool",
         headline: "Starkes Passwort mit einem Tipp",

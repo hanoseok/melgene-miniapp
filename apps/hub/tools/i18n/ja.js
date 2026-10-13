@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: '1to50',
+        kicker: "スピード勝負",
+        headline: "1から50まで最速でタッチ",
+        blurb: "バラバラの数字を順番にタップ。0.01秒まで計測！",
+      },
+      {
+        id: 'zombie',
+        kicker: "ハロウィン診断",
+        headline: "ゾンビの世界で生き残れる？",
+        blurb: "12のシーン、2分。ゾンビ世界でのあなたの役割を診断。",
+      },
+      {
         id: 'password',
         kicker: "セキュリティ",
         headline: "強いパスワードをワンタップで",

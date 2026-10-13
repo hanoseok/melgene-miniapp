@@ -1,0 +1,258 @@
+/* apps/1to50/style.css — 1to50: 밝은 하늘색 놀이판 (흰 바탕 + 파랑 타일 두 단계 + 산호색 강조).
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 숫자(타일·HUD·결과)는 모든 언어에서 Fredoka(--font-num) — 언어별 fonts.css 에 함께 불러온다.
+ * 클래스 앞머리는 ot-(공통 컴포넌트의 mg- 와 겹치지 않게). 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 판은 DOM 격자(.ot-board > .ot-cell 버튼 25개) — 1..25 는 옅은 파랑, 26..50 은 짙은 파랑, 비면 흐린 칸.
+ */
+:root {
+  --bg-0: #eef4ff;
+  --bg-1: #dbe8ff;
+  --ink: #16224a;
+  --ink-dim: rgba(22, 34, 74, 0.78);
+  --ink-faint: rgba(22, 34, 74, 0.58);
+  --blue: #3c6df0;
+  --blue-deep: #2347b8;
+  --sky: #d7e6ff;
+  --sky-2: #b9d2ff;
+  --coral: #ff6b57;
+  --coral-deep: #d9442f;
+  --sun: #ffcf3f;
+  --mint: #2fbf8f;
+  --card: #ffffff;
+  --line: rgba(60, 109, 240, 0.28);
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --font-num: 'Fredoka', var(--font-sans);
+  --display-weight: 700;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--blue);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--ink);
+  --lang-border: rgba(60, 109, 240, 0.35);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffb400;
+  --mg-star-off: rgba(22, 34, 74, 0.18);
+  --mg-heart-bg: rgba(255, 107, 87, 0.08);
+  --mg-heart-border: rgba(255, 107, 87, 0.45);
+  --mg-heart-fg: var(--coral-deep);
+  --mg-heart-on: var(--coral);
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(60, 109, 240, 0.22);
+  --mg-share-primary-bg: var(--blue);
+  --mg-share-primary-fg: #fff;
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(60, 109, 240, 0.22);
+  --mg-end-retry-bg: var(--coral);
+  --mg-end-retry-fg: #fff;
+}
+
+html { background: var(--bg-0); }
+body.ot-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 207, 63, 0.22) 0 70px, transparent 71px),
+    radial-gradient(circle at 92% 22%, rgba(255, 107, 87, 0.14) 0 54px, transparent 55px),
+    linear-gradient(180deg, #f7faff 0%, var(--bg-0) 40%, var(--bg-1) 100%) fixed;
+  background-color: var(--bg-0);
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ot-h1, .ot-kicker, .ot-h1-main, .ot-h1-main em, .ot-badge, .ot-btn, .ot-how-txt,
+.ot-hud-label, .ot-pause, .ot-mode-name,
+.ot-eyebrow, .ot-head, .ot-points, .ot-newbest, .ot-stat dt, .ot-doc h1 {
+  font-family: var(--font-display);
+}
+/* 숫자는 모든 언어에서 같은 둥근 글꼴 */
+.ot-hc, .ot-cell, .ot-hud-val, .ot-hud-pen, .ot-count, .ot-score-big, .ot-stat-num, .ot-top, .ot-best, .ot-mode-range {
+  font-family: var(--font-num); font-weight: 600; font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ot-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.ot-screen { padding-top: 12px; }
+
+.ot-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px; padding: 12px 18px;
+  border: 0; border-radius: 16px;
+  font-size: 20px; font-weight: var(--display-weight); line-height: 1.25;
+  cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.ot-btn-primary { background: var(--coral); color: #fff; box-shadow: 0 5px 0 var(--coral-deep), 0 10px 22px rgba(255, 107, 87, 0.35); }
+.ot-btn-primary:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--coral-deep), 0 4px 10px rgba(255, 107, 87, 0.3); }
+.ot-btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.ot-start { text-align: center; padding-top: 14px; }
+.ot-badge {
+  display: inline-block; margin: 0 0 12px; padding: 6px 14px; border-radius: 999px;
+  background: #fff; color: var(--blue-deep); border: 1.5px solid var(--line);
+  font-size: 13px; line-height: 1.35; box-shadow: 0 2px 8px rgba(60, 109, 240, 0.12);
+}
+.ot-hero {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px;
+  width: 200px; margin: 0 auto 4px; padding: 9px; border-radius: 18px;
+  background: #fff; border: 2px solid var(--line); box-shadow: 0 10px 24px rgba(60, 109, 240, 0.16);
+  transform: rotate(-2deg);
+}
+.ot-hc {
+  display: flex; align-items: center; justify-content: center; aspect-ratio: 1; border-radius: 7px;
+  font-size: 15px; line-height: 1; color: var(--ink); background: var(--sky);
+}
+.ot-hc-off { background: #f1f5fd; }
+.ot-hc-hot { background: var(--sky-2); }
+.ot-hc-one { background: var(--sun); color: var(--ink); animation: ot-pulse 1.6s ease-in-out infinite; }
+@keyframes ot-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.16); } }
+.ot-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ot-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--blue); color: #fff; border-radius: 8px;
+  font-size: 15px; line-height: 1.35; transform: rotate(-1.5deg);
+}
+.ot-h1-main { display: block; font-size: 31px; color: var(--ink); overflow-wrap: break-word; }
+.ot-h1-main em { font-style: normal; color: var(--coral); }
+.ot-hook { margin: 0 auto 16px; max-width: 400px; font-size: 16px; color: var(--ink-dim); }
+.ot-how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 16px; padding: 0; list-style: none; }
+.ot-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid var(--line);
+}
+.ot-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.ot-how-txt { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.ot-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 14px; }
+.ot-mode {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 0; min-height: 64px;
+  padding: 8px 6px; border-radius: 14px; cursor: pointer; color: var(--ink);
+  background: var(--card); border: 2px solid var(--line); -webkit-tap-highlight-color: transparent;
+}
+.ot-mode[aria-checked="true"] { border-color: var(--blue); background: #eaf1ff; box-shadow: 0 0 0 3px rgba(60, 109, 240, 0.18); }
+.ot-mode:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.ot-mode-name { font-weight: var(--display-weight); font-size: 16px; line-height: 1.25; overflow-wrap: break-word; max-width: 100%; }
+.ot-mode-range { font-size: 14px; color: var(--blue-deep); }
+.ot-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); }
+
+/* ---------------- 게임 화면 ---------------- */
+.ot-play { padding-top: 4px; }
+.ot-hud { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 8px; margin: 0 auto 8px; max-width: 440px; }
+.ot-hud-box {
+  position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0;
+  padding: 4px 8px 5px; border-radius: 12px; background: #fff; border: 1.5px solid var(--line);
+}
+.ot-hud-label { font-size: 12px; line-height: 1.2; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.ot-hud-val { font-size: 24px; line-height: 1.15; color: var(--ink); white-space: nowrap; }
+.ot-hud-next .ot-hud-val { color: var(--coral); font-size: 28px; }
+.ot-hud-time .ot-hud-val { color: var(--blue-deep); }
+.ot-hud-pen { position: absolute; right: 6px; top: 2px; font-size: 13px; color: var(--coral-deep); opacity: 0; }
+.ot-hud-pen.is-on { animation: ot-pen 0.65s ease-out; }
+@keyframes ot-pen { 0% { opacity: 1; transform: translateY(6px); } 70% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
+.ot-bar { height: 6px; margin: 0 auto 10px; max-width: 440px; border-radius: 99px; background: rgba(60, 109, 240, 0.14); overflow: hidden; }
+.ot-bar-fill { display: block; width: 0; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--blue), var(--coral)); transition: width 0.12s linear; }
+
+.ot-field {
+  position: relative; margin: 0 auto;
+  width: min(100%, 440px, calc(100vh - 230px)); min-width: 260px;
+  padding: 8px; border-radius: 20px; background: #fff; border: 2px solid var(--line);
+  box-shadow: 0 14px 30px rgba(60, 109, 240, 0.18);
+}
+.ot-board {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; aspect-ratio: 1;
+  touch-action: manipulation; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.ot-cell {
+  display: flex; align-items: center; justify-content: center; min-width: 0; padding: 0; margin: 0; border: 0; border-radius: 12px;
+  font-size: clamp(20px, 7.4vw, 32px); line-height: 1; color: var(--ink);
+  background: var(--sky); box-shadow: inset 0 -4px 0 rgba(35, 71, 184, 0.16);
+  cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+}
+.ot-cell.is-hi { background: var(--blue); color: #fff; box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.18); }
+.ot-cell.is-off { background: #f2f5fb; box-shadow: none; cursor: default; }
+.ot-cell.is-covered { background: #e6edf9; color: transparent; box-shadow: none; }
+.ot-cell:active:not(.is-off) { filter: brightness(0.94); }
+.ot-cell:focus-visible { outline: 3px solid var(--sun); outline-offset: 1px; }
+.ot-cell.is-pop { animation: ot-cell-pop 0.22s ease-out; }
+@keyframes ot-cell-pop { 0% { transform: scale(0.7); } 100% { transform: scale(1); } }
+.ot-cell.is-shake { animation: ot-shake 0.32s ease-in-out; background: #ffd9d3; color: var(--coral-deep); }
+.ot-cell.is-bad { background: #ffd9d3; color: var(--coral-deep); }
+@keyframes ot-shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-6px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(4px); } }
+.ot-count {
+  position: absolute; inset: 0; z-index: 2; display: flex; align-items: center; justify-content: center;
+  font-size: 96px; line-height: 1; color: var(--coral); pointer-events: none;
+  text-shadow: 0 4px 0 #fff, 0 8px 18px rgba(255, 107, 87, 0.35);
+}
+.ot-count.is-tick { animation: ot-tick 0.7s ease-out; }
+@keyframes ot-tick { 0% { transform: scale(1.5); opacity: 0; } 25% { transform: scale(1); opacity: 1; } 100% { transform: scale(0.9); opacity: 0.85; } }
+.ot-pause {
+  position: absolute; inset: 0; z-index: 3; display: flex; align-items: center; justify-content: center; padding: 16px; margin: 0;
+  width: 100%; border: 0; border-radius: 18px; cursor: pointer; color: var(--ink); text-align: center;
+  background: rgba(255, 255, 255, 0.97); font-weight: var(--display-weight); font-size: 21px; line-height: 1.35;
+}
+.ot-pause:focus-visible { outline: 3px solid var(--blue); outline-offset: -4px; }
+
+/* ---------------- 끝 화면: 결과 카드 ---------------- */
+.ot-end { padding-top: 10px; }
+.ot-result {
+  margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 22px; border: 2px solid var(--line); background: #fff;
+  box-shadow: 0 14px 30px rgba(60, 109, 240, 0.16);
+}
+.ot-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 8px; padding: 4px 14px; border-radius: 999px;
+  background: var(--blue); color: #fff; font-size: 15px; line-height: 1.35;
+}
+.ot-head-line { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 0; line-height: 1.2; }
+.ot-head-emoji { font-size: 38px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.ot-head { min-width: 0; font-size: 24px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; }
+.ot-score-line { margin: 10px 0 0; line-height: 1; }
+.ot-score-big { font-size: 62px; line-height: 1.05; color: var(--coral); }
+.ot-points { font-size: 18px; color: var(--ink-dim); }
+.ot-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--sun); color: var(--ink); font-size: 15px; line-height: 1.35; transform: rotate(-2deg);
+}
+.ot-best { margin: 8px 0 0; font-size: 15px; color: var(--ink-dim); }
+.ot-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.ot-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: #f4f8ff; border: 1.5px solid var(--line); }
+.ot-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.ot-stat dd { margin: 6px 0 0; }
+.ot-stat-num { font-size: 28px; line-height: 1.3; color: var(--ink); }
+.ot-pen-note { margin: 10px 0 0; font-size: 13px; color: var(--coral-deep); }
+.ot-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: #eef4ff; border: 1.5px dashed rgba(60, 109, 240, 0.45); }
+.ot-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.ot-top { margin: 0; font-size: 28px; line-height: 1.2; color: var(--blue-deep); }
+.ot-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.ot-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .ot-h1-main, html:lang(th) .ot-kicker, html:lang(th) .ot-how-txt, html:lang(th) .ot-btn, html:lang(th) .ot-hook, html:lang(th) .ot-pause, html:lang(th) .ot-mode-name, html:lang(th) .ot-head { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .ot-hud-label, html:lang(th) .ot-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .ot-h1-main, html:lang(vi) .ot-kicker, html:lang(vi) .ot-head { line-height: 1.3; }
+html:lang(ja) .ot-h1-main, html:lang(zh) .ot-h1-main, html:lang(ko) .ot-h1-main { font-size: 32px; line-height: 1.25; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.ot-doc { padding: 16px 0 8px; }
+.ot-doc h1 { font-size: 26px; line-height: 1.25; margin: 8px 0 14px; }
+.ot-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--blue-deep); }
+.ot-doc p { color: var(--ink-dim); font-size: 15px; }
+.ot-doc a, .site-footer a { color: var(--blue-deep); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .ot-hc-one, .ot-cell.is-pop, .ot-count.is-tick, .ot-hud-pen.is-on { animation: none; }
+  .ot-hud-pen.is-on { opacity: 1; }
+  .ot-btn, .ot-bar-fill { transition: none; }
+}
+@media (max-width: 359px) {
+  .ot-h1-main { font-size: 27px; }
+  .ot-hud-val { font-size: 20px; }
+}

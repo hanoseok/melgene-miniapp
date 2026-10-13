@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: '1to50',
+        kicker: "Thử thách tốc độ",
+        headline: "Chạm từ 1 đến 50 thật nhanh",
+        blurb: "Tìm số tiếp theo trước đồng hồ. Bấm giờ tới 0,01 giây.",
+      },
+      {
+        id: 'zombie',
+        kicker: "Trắc nghiệm Halloween",
+        headline: "Bạn có sống sót qua đại dịch zombie?",
+        blurb: "12 tình huống, 2 phút. Tìm vai trò của bạn khi tận thế.",
+      },
+      {
         id: 'password',
         kicker: "Công cụ bảo mật",
         headline: "Mật khẩu mạnh chỉ với một chạm",

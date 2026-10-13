@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: '1to50',
+        kicker: "Reto de velocidad",
+        headline: "Del 1 al 50, lo más rápido posible",
+        blurb: "Encuentra el siguiente número antes que el reloj.",
+      },
+      {
+        id: 'zombie',
+        kicker: "Test de Halloween",
+        headline: "¿Sobrevivirías a los zombis?",
+        blurb: "12 situaciones, 2 minutos. Descubre tu rol en el apocalipsis.",
+      },
+      {
         id: 'password',
         kicker: "Herramienta segura",
         headline: "Una contraseña segura en un toque",

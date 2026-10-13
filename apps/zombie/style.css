@@ -1,0 +1,357 @@
+/* apps/zombie/style.css — 좀비 생존 테스트: 한밤의 비상 방송(짙은 녹회색 밤하늘 + 달 + 낮게 깔린 안개),
+ * 형광 연두·경고 노랑 위험 표시 줄무늬, 생존자 패치(원형 엠블럼). 무섭지 않고 장난스러운 할로윈 톤.
+ * 결과 페이지는 그 역할 색(--c-*)으로 패치·카드가 빛난다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --night-0: #070a07;
+  --night-1: #0d120c;
+  --night-2: #1a2617;
+  --slime: #c6f432;
+  --slime-deep: #7da312;
+  --hazard: #ffd23f;
+  --ink: #eef5e6;
+  --ink-dim: rgba(238, 245, 230, 0.76);
+  --ink-faint: rgba(238, 245, 230, 0.48);
+  --card: rgba(238, 245, 230, 0.06);
+  --line: rgba(198, 244, 50, 0.24);
+  /* 역할 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #c6f432;
+  --c-deep: #5d7a12;
+  --c-ink: #18210b;
+
+  --font-display: 'Rubik', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--slime);
+  --mg-top-badge-fg: #141c08;
+  --lang-bg: rgba(238, 245, 230, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(198, 244, 50, 0.35);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--hazard);
+  --mg-star-off: rgba(238, 245, 230, 0.2);
+  --mg-heart-bg: rgba(255, 107, 138, 0.1);
+  --mg-heart-border: rgba(255, 107, 138, 0.42);
+  --mg-heart-fg: #ff9ab0;
+  --mg-heart-on: #ff6b8a;
+  --mg-share-bg: rgba(238, 245, 230, 0.06);
+  --mg-share-border: rgba(238, 245, 230, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(238, 245, 230, 0.05);
+  --mg-faq-border: rgba(198, 244, 50, 0.22);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--slime), #9bdc2a);
+  --mg-end-retry-fg: #141c08;
+  --toast-bg: rgba(26, 38, 23, 0.96);
+}
+
+html { background: var(--night-0); }
+body.zb-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 48%, var(--night-0) 85%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.zb-result-page {
+  background:
+    radial-gradient(ellipse 120% 45% at 50% -6%, color-mix(in srgb, var(--c-main) 22%, transparent), transparent 70%),
+    radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 48%, var(--night-0) 85%) fixed;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.zb-h1, .zb-kicker, .zb-h1-main, .zb-h1-main em, .zb-badge, .zb-btn, .zb-q-text, .zb-q-num, .zb-result-name, .zb-eyebrow, .zb-vibe, .zb-sub,
+.zb-pair-name, .zb-pair-label, .zb-loading-text, .zb-cta strong, .zb-doc h1, .zb-progress-num, .zb-meta span, .zb-forecast-label {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 달 + 안개 + 반딧불 (고정, 가로 넘침 없음) ---------------- */
+.zb-night { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.zb-moon {
+  position: absolute; top: 132px; right: max(-22px, calc(50% - 270px)); width: 58px; height: 58px; border-radius: 50%;
+  background: radial-gradient(circle at 36% 34%, #fbffe8, #e2f0b8 60%, #b9cf86);
+  box-shadow: 0 0 40px 10px rgba(226, 240, 184, 0.18);
+  opacity: 0.6;
+}
+.zb-moon::after {
+  content: ''; position: absolute; left: 14px; top: 30px; width: 12px; height: 9px; border-radius: 50%;
+  background: rgba(150, 170, 110, 0.45); box-shadow: 22px -12px 0 -2px rgba(150, 170, 110, 0.35), 26px 10px 0 -3px rgba(150, 170, 110, 0.3);
+}
+.zb-fog {
+  position: absolute; left: -30%; width: 160%; height: 160px; border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(198, 244, 50, 0.07), transparent 65%);
+  animation: zb-drift 26s ease-in-out infinite alternate;
+}
+.zb-fog-1 { bottom: -40px; }
+.zb-fog-2 { bottom: 18%; height: 120px; opacity: 0.7; animation-duration: 34s; animation-delay: -12s; }
+.zb-fly { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--slime); box-shadow: 0 0 10px 3px rgba(198, 244, 50, 0.5); opacity: 0.6; animation: zb-fly 11s ease-in-out infinite; }
+.zb-fly-1 { top: 30%; left: 8%; }
+.zb-fly-2 { top: 62%; right: 9%; animation-delay: -4s; }
+.zb-fly-3 { top: 84%; left: 22%; animation-delay: -7s; }
+@keyframes zb-drift { from { transform: translateX(-6%); } to { transform: translateX(6%); } }
+@keyframes zb-fly {
+  0%, 100% { transform: translate(0, 0); opacity: 0.25; }
+  50% { transform: translate(14px, -22px); opacity: 0.8; }
+}
+
+.mg-top, .zb-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.zb-shell {
+  max-width: var(--app-width);
+  margin: 0 auto;
+  padding: 8px 16px 0;
+}
+.zb-screen { padding-top: 12px; }
+
+.zb-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 16px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.zb-btn-primary {
+  position: relative; overflow: hidden;
+  background: linear-gradient(135deg, var(--slime), #9bdc2a);
+  color: #141c08;
+  box-shadow: 0 5px 0 var(--slime-deep), 0 10px 26px rgba(198, 244, 50, 0.25);
+}
+/* 위험 표시 줄무늬 띠 (버튼 아래쪽) */
+.zb-btn-primary::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 6px;
+  background: repeating-linear-gradient(-45deg, #141c08 0 8px, var(--hazard) 8px 16px); opacity: 0.55;
+}
+.zb-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--slime-deep); }
+.zb-btn:focus-visible, .zb-choice:focus-visible, .zb-back:focus-visible { outline: 3px dashed var(--hazard); outline-offset: 4px; }
+
+/* ---------------- 그림: 생존자 패치 + 이모지 ---------------- */
+.zb-hero { position: relative; display: grid; place-items: center; width: 184px; height: 184px; margin: 8px auto 0; }
+.zb-patch {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 0 18px color-mix(in srgb, var(--h-main) 35%, transparent));
+  animation: zb-spin 40s linear infinite;
+}
+.zb-emo {
+  position: relative; font-size: 84px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: zb-shuffle 2.8s ease-in-out infinite;
+}
+.zb-q {
+  position: absolute; right: 6px; top: 6px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--hazard); color: #141c08; border: 3px solid #141c08;
+  font: 800 28px/1 'Rubik', sans-serif;
+  box-shadow: 0 0 0 3px var(--hazard);
+  animation: zb-shuffle 2.2s ease-in-out infinite reverse;
+}
+@keyframes zb-spin { to { transform: rotate(360deg); } }
+@keyframes zb-shuffle { 0%, 100% { transform: translateX(0) rotate(-5deg); } 50% { transform: translateX(4px) rotate(5deg); } }
+.zb-hero-loading { width: 168px; height: 168px; margin-bottom: 14px; }
+.zb-hero-loading .zb-emo { font-size: 78px; animation-duration: 0.9s; }
+.zb-hero-loading .zb-patch { animation-duration: 4s; }
+.zb-hero-result { width: 176px; height: 176px; margin: 0 auto; }
+.zb-hero-result .zb-emo { font-size: 80px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.zb-start { text-align: center; padding-top: 16px; }
+.zb-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 5px 14px; border-radius: 6px;
+  background: rgba(255, 210, 63, 0.12); border: 1.5px solid rgba(255, 210, 63, 0.55);
+  color: var(--hazard); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+.zb-h1 { margin: 10px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.zb-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--slime); letter-spacing: 0.01em; }
+.zb-h1-main { display: block; font-size: 36px; line-height: 1.2; color: var(--ink); }
+.zb-h1-main em {
+  font-style: normal; color: var(--slime);
+  text-shadow: 0 0 18px rgba(198, 244, 50, 0.45);
+}
+.zb-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.zb-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.zb-meta span { padding: 4px 12px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.zb-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.zb-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1.5px solid var(--line); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.zb-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(238, 245, 230, 0.08); border: 1px solid var(--line); overflow: hidden; }
+.zb-progress-fill {
+  height: 100%; width: 0; border-radius: inherit;
+  background: repeating-linear-gradient(-45deg, var(--slime) 0 8px, var(--hazard) 8px 16px);
+  transition: width 0.3s ease;
+}
+.zb-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.zb-q-card {
+  position: relative;
+  padding: 22px 16px 16px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(238, 245, 230, 0.08), rgba(238, 245, 230, 0.03));
+  border: 1px solid var(--line);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+  animation: zb-in 0.28s ease;
+}
+.zb-q-card::before {
+  content: ''; position: absolute; top: 0; left: 18px; right: 18px; height: 4px; border-radius: 0 0 4px 4px;
+  background: repeating-linear-gradient(-45deg, #141c08 0 7px, var(--hazard) 7px 14px); opacity: 0.8;
+}
+@keyframes zb-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.zb-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.zb-q-emoji { font-size: 28px; line-height: 1; }
+.zb-q-num { font-size: 17px; color: var(--slime); font-weight: var(--display-weight); }
+.zb-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.zb-choices { display: flex; flex-direction: column; gap: 10px; }
+.zb-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(238, 245, 230, 0.16);
+  border-radius: 14px;
+  background: rgba(238, 245, 230, 0.05);
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .zb-choice:hover { border-color: var(--slime); background: rgba(198, 244, 50, 0.08); } }
+.zb-choice:active { transform: scale(0.985); }
+.zb-choice.is-picked { border-color: var(--slime); background: rgba(198, 244, 50, 0.18); box-shadow: 0 0 0 2px rgba(198, 244, 50, 0.35); }
+.zb-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 점검 중 ---------------- */
+.zb-loading { text-align: center; padding: 40px 0; }
+.zb-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); }
+.zb-loading-sub { margin: 0; font-size: 14px; color: var(--slime); opacity: 0.8; }
+
+/* ---------------- 결과 ---------------- */
+.zb-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 16px; border: 1.5px solid rgba(255, 210, 63, 0.55);
+  background: rgba(255, 210, 63, 0.1); color: var(--ink); text-decoration: none;
+}
+.zb-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.zb-cta-text strong { font-size: 17px; font-weight: var(--display-weight); color: var(--hazard); }
+.zb-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.zb-cta-arrow { font-size: 22px; color: var(--hazard); }
+
+.zb-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--c-ink) 70%, #000), var(--c-ink));
+  border: 1.5px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4), 0 18px 40px rgba(0, 0, 0, 0.45), 0 0 46px color-mix(in srgb, var(--c-main) 14%, transparent);
+}
+.zb-tape {
+  position: absolute; top: -11px; left: 50%; width: 120px; height: 20px; margin-left: -60px; border-radius: 3px;
+  background: repeating-linear-gradient(-45deg, #141c08 0 9px, var(--hazard) 9px 18px); transform: rotate(-2deg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.zb-eyebrow { margin: 6px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.zb-result-title { margin: 6px 0 0; line-height: 1.2; }
+.zb-result-name {
+  display: block; font-size: 33px; font-weight: var(--display-weight); line-height: 1.2;
+  color: var(--c-main); text-shadow: 0 0 22px color-mix(in srgb, var(--c-main) 40%, transparent);
+  overflow-wrap: break-word;
+}
+.zb-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--ink); }
+.zb-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25); border: 1.5px dashed color-mix(in srgb, var(--c-main) 60%, transparent);
+  color: var(--c-main); font-size: 13.5px; font-weight: 700;
+}
+.zb-forecast {
+  margin: 16px 0 0; padding: 12px 14px; border-radius: 14px; text-align: left;
+  background: rgba(0, 0, 0, 0.28); border: 1px solid color-mix(in srgb, var(--c-main) 35%, transparent);
+}
+.zb-forecast-label { display: block; font-size: 14px; font-weight: var(--display-weight); color: var(--c-main); letter-spacing: 0.02em; }
+.zb-forecast-text { margin: 4px 0 0; font-size: 16px; line-height: 1.5; color: var(--ink); font-style: italic; }
+.zb-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.zb-sub { margin: 16px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-main); text-align: left; line-height: 1.3; }
+.zb-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.zb-chips li {
+  padding: 5px 12px; border-radius: 10px;
+  background: color-mix(in srgb, var(--c-main) 14%, transparent); border: 1px solid color-mix(in srgb, var(--c-main) 55%, transparent);
+  color: var(--ink); font-size: 14px; font-weight: 700; line-height: 1.35;
+}
+.zb-notes { display: grid; gap: 10px; margin-top: 14px; text-align: left; }
+.zb-note { padding: 2px 14px 12px; border-radius: 14px; background: rgba(0, 0, 0, 0.22); border: 1px dashed rgba(238, 245, 230, 0.18); }
+.zb-note .zb-sub { margin: 10px 0 4px; font-size: 16px; }
+.zb-note p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-dim); }
+.zb-note-weak .zb-sub { color: #ffb4a2; }
+.zb-note-tip { border-color: rgba(255, 210, 63, 0.4); }
+.zb-note-tip .zb-sub { color: var(--hazard); }
+
+/* 최고/최악의 파트너: 보여주기만 (링크 아님, 누를 수 있어 보이는 모양 없음) */
+.zb-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.zb-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  min-width: 0; padding: 12px 8px 14px;
+  border-radius: 16px; text-align: center;
+  background: var(--card); border: 1px dashed rgba(238, 245, 230, 0.22);
+  cursor: default;
+}
+.zb-pair-label { font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.zb-pair-art { display: grid; place-items: center; width: 64px; height: 64px; }
+.zb-mini {
+  display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%;
+  background: var(--h-ink); border: 3px dashed var(--h-main);
+  font-size: 30px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.zb-pair-name { font-size: 16px; font-weight: var(--display-weight); line-height: 1.3; color: var(--c-main); overflow-wrap: break-word; max-width: 100%; }
+
+/* ---------------- 개인정보 ---------------- */
+.zb-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.zb-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.zb-doc h2 { font-size: 17px; color: var(--slime); margin: 22px 0 6px; }
+.zb-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .zb-body { line-height: 1.75; }
+html:lang(th) :is(.zb-h1-main, .zb-result-name, .zb-q-text, .zb-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.zb-kicker, .zb-badge, .zb-forecast-label) { letter-spacing: 0; }
+html:lang(vi) :is(.zb-h1-main, .zb-result-name, .zb-q-text) { line-height: 1.4; }
+html:lang(ru) .zb-doc h1 { line-height: 1.25; }
+html:lang(ja) :is(.zb-h1-main, .zb-result-name, .zb-q-text, .zb-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.zb-h1-main, .zb-result-name, .zb-q-text, .zb-vibe, .zb-hook, .zb-desc, .zb-note p, .zb-forecast-text) { word-break: keep-all; }
+html:lang(ja) .zb-forecast-text, html:lang(zh) .zb-forecast-text, html:lang(ko) .zb-forecast-text { font-style: normal; }
+
+/* 달은 480px 칸 밖(넓은 화면)에서만 — 좁은 화면에선 카드 뒤에 비쳐 보여서 숨긴다 */
+@media (max-width: 619px) { .zb-moon { display: none; } }
+
+@media (max-width: 374px) {
+  .zb-h1-main { font-size: 31px; }
+  .zb-result-name { font-size: 29px; }
+  .zb-q-text { font-size: 19px; }
+  .zb-hero-result { width: 160px; height: 160px; }
+  .zb-hero-result .zb-emo { font-size: 72px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zb-fog, .zb-fly, .zb-patch, .zb-emo, .zb-q, .zb-q-card { animation: none !important; }
+  .zb-progress-fill, .zb-btn, .zb-choice { transition: none; }
+}

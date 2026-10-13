@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zombie.example.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/leader.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/strategist.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/medic.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/medic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/medic.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/scavenger.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/scavenger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/scavenger.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/engineer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/engineer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/engineer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/lonewolf.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lonewolf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lonewolf.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/cheer.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/cheer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/cheer.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/r/lucky.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/r/lucky.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/r/lucky.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/de/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/th/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/es/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/it/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://zombie.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zombie.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://zombie.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zombie.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://zombie.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zombie.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zombie.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://zombie.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://zombie.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zombie.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://zombie.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://zombie.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://zombie.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zombie.example.com/guide.html"/>
+  </url>
+</urlset>

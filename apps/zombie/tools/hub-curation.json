@@ -1,0 +1,62 @@
+{
+  "en": {
+    "kicker": "Halloween survival test",
+    "headline": "Would you survive the zombies?",
+    "blurb": "12 outbreak scenarios, 2 minutes. Find your role in the apocalypse."
+  },
+  "ja": {
+    "kicker": "ハロウィン診断",
+    "headline": "ゾンビの世界で生き残れる？",
+    "blurb": "12のシーン、2分。ゾンビ世界でのあなたの役割を診断。"
+  },
+  "zh": {
+    "kicker": "万圣节测试",
+    "headline": "丧尸来袭，你能活下来吗？",
+    "blurb": "12个末日情境，2分钟，测出你的生存角色。"
+  },
+  "ko": {
+    "kicker": "할로윈 심리테스트",
+    "headline": "좀비 사태, 나는 살아남을까?",
+    "blurb": "상황 12개, 2분. 좀비 세상 속 내 생존 역할 찾기."
+  },
+  "fr": {
+    "kicker": "Test d’Halloween",
+    "headline": "Survivrais-tu aux zombies ?",
+    "blurb": "12 situations, 2 minutes. Découvre ton rôle pendant l’apocalypse."
+  },
+  "de": {
+    "kicker": "Halloween-Test",
+    "headline": "Überlebst du die Zombies?",
+    "blurb": "12 Situationen, 2 Minuten. Finde deine Rolle in der Apokalypse."
+  },
+  "th": {
+    "kicker": "แบบทดสอบฮาโลวีน",
+    "headline": "ซอมบี้บุก คุณจะรอดไหม?",
+    "blurb": "12 สถานการณ์ 2 นาที รู้บทบาทของคุณในวันสิ้นโลก"
+  },
+  "vi": {
+    "kicker": "Trắc nghiệm Halloween",
+    "headline": "Bạn có sống sót qua đại dịch zombie?",
+    "blurb": "12 tình huống, 2 phút. Tìm vai trò của bạn khi tận thế."
+  },
+  "es": {
+    "kicker": "Test de Halloween",
+    "headline": "¿Sobrevivirías a los zombis?",
+    "blurb": "12 situaciones, 2 minutos. Descubre tu rol en el apocalipsis."
+  },
+  "it": {
+    "kicker": "Test di Halloween",
+    "headline": "Sopravviveresti agli zombie?",
+    "blurb": "12 situazioni, 2 minuti. Scopri il tuo ruolo nell’apocalisse."
+  },
+  "pt": {
+    "kicker": "Teste de Halloween",
+    "headline": "Você sobreviveria aos zumbis?",
+    "blurb": "12 situações, 2 minutos. Descubra seu papel no apocalipse."
+  },
+  "ru": {
+    "kicker": "Тест на Хэллоуин",
+    "headline": "Выживешь ли ты среди зомби?",
+    "blurb": "12 ситуаций, 2 минуты. Узнай свою роль в апокалипсисе."
+  }
+}

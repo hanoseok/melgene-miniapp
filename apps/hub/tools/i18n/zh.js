@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: '1to50',
+        kicker: "手速挑战",
+        headline: "从1点到50，越快越好",
+        blurb: "按顺序找出打乱的数字，计时精确到0.01秒。",
+      },
+      {
+        id: 'zombie',
+        kicker: "万圣节测试",
+        headline: "丧尸来袭，你能活下来吗？",
+        blurb: "12个末日情境，2分钟，测出你的生存角色。",
+      },
+      {
         id: 'password',
         kicker: "安全工具",
         headline: "一键生成高强度密码",

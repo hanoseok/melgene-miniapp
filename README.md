@@ -128,6 +128,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | costume | apps/costume | 할로윈 코스튬 추천: 12문항 × 4지선다 → 코스튬 8종 결과 페이지 r/<id>.html(전수 계산 11.3~13.7%), 단짝·라이벌 링크 없음, "같은 코스튬 N%"(poll costume, 20명 이상) | `check-costume.js` (+ `flow-test.js`) |
 | invite | apps/invite | 할로윈 파티 초대장: 5개 테마 canvas 초대장(1080×1500), PNG 저장·텍스트 복사·`#d=` 링크 공유(공유로 연 결과는 start/done 안 셈) | `check-invite.js` (+ `flow-test.js`) |
 | lunch | apps/lunch | 오늘 뭐 먹지 메뉴 뽑기: 끼니 4종 × 기분 태그 4개, 언어별 현지 메뉴 35개+, 슬롯 릴(결과는 crypto 로 먼저 결정), 이거 제외·다시 뽑기 | `check-lunch.js` (+ `flow-test.js`) |
+| 1to50 | apps/1to50 | 1to50 숫자 터치: 5×5 판에서 1→50(클래식)·1→25(빠른 모드) 순서대로 터치, 3-2-1, 0.01초 시계, 틀린 터치 +0.5초, 모드별 최고 기록 + 실제 상위 %(submit_score `1to50-50`/`1to50-25`, 비교할 기록 있을 때만) | `check-1to50.js` (+ `flow-test.js`) |
+| zombie | apps/zombie | 좀비 생존 테스트(할로윈): 상황 12개 × 4지선다 → 생존자 역할 8종 결과 페이지 r/<id>.html(전수 계산 11.6~13.2%), 생존 예보(말로만)·기술·약점·생존 팁, 최고/최악의 파트너 링크 없음, "같은 역할 N%"(poll zombie, 20명 이상) | `check-zombie.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

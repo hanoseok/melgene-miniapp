@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: '1to50',
+        kicker: "손 빠르기 대결",
+        headline: "1부터 50까지 가장 빠르게",
+        blurb: "흩어진 숫자를 순서대로 콕콕. 0.01초까지 재요!",
+      },
+      {
+        id: 'zombie',
+        kicker: "할로윈 심리테스트",
+        headline: "좀비 사태, 나는 살아남을까?",
+        blurb: "상황 12개, 2분. 좀비 세상 속 내 생존 역할 찾기.",
+      },
+      {
         id: 'password',
         kicker: "보안 도구",
         headline: "강력한 비밀번호를 한 번에",
