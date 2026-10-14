@@ -244,6 +244,15 @@ TODAY="$(date +%F)"
   echo '</sitemapindex>'
 } > "$M/sitemap-index.xml"
 notfound_page "$PORTAL_URL" > "$M/404.html"
+# 루트 도메인 첫 화면만 다른 사이트로 301 (deploy.env ROOT_REDIRECT, Cloudflare Pages _redirects).
+# 정확히 / 와 /index.html 만 — /<앱>/·가이드·언어 폴더·ads.txt·robots 는 그대로 이 포털 빌드가 서빙한다.
+if [[ -n "${ROOT_REDIRECT:-}" && "$MAIN_UNIT" == hub ]]; then
+  {
+    echo "/ $ROOT_REDIRECT 301"
+    echo "/index.html $ROOT_REDIRECT 301"
+  } > "$M/_redirects"
+  echo "==> $PORTAL_URL/ -> $ROOT_REDIRECT (301, 첫 화면만)"
+fi
 [[ "$MAIN_UNIT" == miniapp ]] && echo "miniapp $REPO_miniapp" >> "$DIST_DIR/UNITS"
 [[ "$MAIN_UNIT" == hub ]] && echo "hub (cloudflare)" >> "$DIST_DIR/UNITS"
 true
