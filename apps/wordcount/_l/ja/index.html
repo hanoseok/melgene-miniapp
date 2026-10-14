@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f3a5f">
+<title>文字数カウント（空白込み・なし／バイト数） | メルジン ミニアプリ</title>
+<meta name="description" content="無料の文字数カウント。空白込み・空白なしの文字数、単語数、文数、段落数、バイト数、読む時間をリアルタイム表示。目標文字数バー付き、文章は送信しません。">
+<link rel="canonical" href="https://wordcount.example.com/ja/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="文字数カウント 📝 空白込み・なし・バイト数">
+<meta property="og:description" content="レポートやエントリーシートを貼り付けるだけで文字数・バイト数・読む時間がすぐわかる。文章は端末の中だけ。">
+<meta property="og:image" content="https://wordcount.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/ja/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@800&amp;family=Montserrat:wght@700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&display=swap">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./style.css">
+<style>:root { --font-display: 'M PLUS 1p', 'Montserrat', var(--font-sans); --display-weight: 800; --wb: auto-phrase; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://wordcount.example.com/ja/#app","name":"文字数カウント","description":"無料の文字数カウント。空白込み・空白なしの文字数、単語数、文数、段落数、バイト数、読む時間をリアルタイム表示。目標文字数バー付き、文章は送信しません。","url":"https://wordcount.example.com/ja/","inLanguage":"ja","applicationCategory":"MultimediaApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"image":"https://wordcount.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"文字数カウント","item":"https://wordcount.example.com/ja/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="wc-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="./" hreflang="en" lang="en">English</a> <a href="./" hreflang="ja" lang="ja">日本語</a> <a href="./" hreflang="zh" lang="zh">简体中文</a> <a href="./" hreflang="ko" lang="ko">한국어</a> <a href="./" hreflang="fr" lang="fr">Français</a> <a href="./" hreflang="de" lang="de">Deutsch</a> <a href="./" hreflang="th" lang="th">ไทย</a> <a href="./" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="./" hreflang="it" lang="it">Italiano</a> <a href="./" hreflang="pt" lang="pt">Português</a> <a href="./" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="wc-shell">
+  <!-- 첫 화면(시작 화면이 따로 없는 도구 앱): h1·훅 → 글 입력·실시간 숫자 → 목표 → 자세한 숫자 → 키워드 → 결과 보기 → (누른 뒤) 요약 + 공통 끝 화면 → 맨 아래 mg-ad-start 1개 -->
+  <section id="screen-wc" class="wc-screen">
+    <h1 class="wc-h1"><span class="wc-kicker">文字数カウント</span><span class="wc-h1-main">書きながら数える<br><em>文字数とバイト数</em></span></h1>
+    <p class="wc-hook">文章を入力するか貼り付けてください。空白込み・なしの文字数とバイト数がその場で変わり、目標文字数を超えるとすぐ知らせます。</p>
+
+    <div class="wc-card wc-editor">
+      <div class="wc-bar" id="bar" aria-hidden="true">
+        <div class="wc-bar-cell"><strong id="bar-chars" class="wc-bar-num">0</strong><span class="wc-bar-label">空白込み</span></div>
+        <div class="wc-bar-cell"><strong id="bar-noSpaces" class="wc-bar-num">0</strong><span class="wc-bar-label">空白なし</span></div>
+        <div class="wc-bar-cell"><strong id="bar-words" class="wc-bar-num">0</strong><span class="wc-bar-label">単語</span></div>
+        <div class="wc-bar-cell"><strong id="bar-bytes" class="wc-bar-num">0</strong><span class="wc-bar-label">バイト</span></div>
+      </div>
+      <label class="visually-hidden" for="text">文章を入力</label>
+      <textarea id="text" class="wc-text" rows="10" placeholder="ここに文章を入力または貼り付け…" spellcheck="true" autocomplete="off" autocapitalize="sentences"></textarea>
+      <div class="wc-limitbar" id="limitbar" hidden>
+        <div class="wc-progress" aria-hidden="true"><span id="limit-fill"></span></div>
+        <p id="limit-text" class="wc-limit-text"></p>
+      </div>
+      <div class="wc-tools" role="group" aria-label="文章ツール">
+        <button type="button" id="btn-copy" class="wc-tool">コピー</button>
+        <button type="button" id="btn-tidy" class="wc-tool">空白を整理</button>
+        <button type="button" id="btn-join" class="wc-tool">改行を削除</button>
+        <button type="button" id="btn-clear" class="wc-tool">全部消す</button>
+        <button type="button" id="btn-undo" class="wc-tool" hidden>元に戻す</button>
+      </div>
+      <p class="wc-saved" id="saved-note">書きかけの文章はこの端末にだけ保存され、どこにも送られません。</p>
+    </div>
+
+    <div class="wc-card wc-limit">
+      <p class="wc-label" id="limit-label">目標文字数</p>
+      <div class="wc-chips" role="radiogroup" aria-labelledby="limit-label">
+          <button type="button" class="wc-chip" role="radio" data-limit="0" aria-checked="true">オフ</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="500" aria-checked="false">500字</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="1000" aria-checked="false">1,000字</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="1500" aria-checked="false">1,500字</button>
+      </div>
+      <div class="wc-limit-row">
+        <label class="wc-custom"><span class="wc-custom-label">自由入力</span><input id="limit-custom" class="wc-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="7" placeholder="例：400" aria-label="目標文字数を入力"></label>
+        <label class="wc-switch"><input type="checkbox" id="limit-spaces" role="switch" checked><span class="wc-switch-ui" aria-hidden="true"></span><span class="wc-switch-text">空白も数える</span></label>
+      </div>
+    </div>
+
+    <div class="wc-card wc-stats-card">
+      <h2 class="wc-h2">詳しい数字</h2>
+      <div class="wc-stats">
+        <div class="wc-stat" data-stat="chars"><span class="wc-stat-label">文字数（空白込み）</span><strong id="st-chars" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="noSpaces"><span class="wc-stat-label">文字数（空白なし）</span><strong id="st-noSpaces" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="words"><span class="wc-stat-label">単語数</span><strong id="st-words" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="sentences"><span class="wc-stat-label">文の数</span><strong id="st-sentences" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="paragraphs"><span class="wc-stat-label">段落</span><strong id="st-paragraphs" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="lines"><span class="wc-stat-label">行数</span><strong id="st-lines" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="reading"><span class="wc-stat-label">読む時間</span><strong id="st-reading" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="speaking"><span class="wc-stat-label">話す時間</span><strong id="st-speaking" class="wc-stat-num">0</strong></div>
+      </div>
+      <div class="wc-bytes">
+        <div class="wc-bytes-head"><span class="wc-stat-label" id="bytes-label">バイト数</span><strong id="st-bytes" class="wc-stat-num">0</strong></div>
+        <div class="wc-seg" role="radiogroup" aria-labelledby="bytes-label">
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="utf8" aria-checked="true">UTF-8</button>
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="neis" aria-checked="false">UTF-8 + CRLF</button>
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="legacy" aria-checked="false">2バイト換算</button>
+        </div>
+        <p id="byte-hint" class="wc-hint">標準の UTF-8：英数字と半角スペースは1バイト、ひらがな・漢字は3バイト、絵文字は4バイト。改行は1バイト。</p>
+      </div>
+      <p class="wc-hint">時間は目安です。黙読は1分に約500字、話す場合（スピーチ）は約300字で計算しています。</p>
+    </div>
+
+    <details class="wc-card wc-kw" id="kw">
+      <summary class="wc-kw-sum">よく使った言葉</summary>
+      <ol id="kw-list" class="wc-kw-list"></ol>
+      <p id="kw-empty" class="wc-hint">2回以上使った言葉がここに出ます。「の」「です」のようなよく使う言葉は除きます。</p>
+    </details>
+
+    <p id="error" class="wc-error" role="alert" hidden></p>
+    <button type="button" id="finish-btn" class="wc-btn wc-btn-primary">結果を見る ✓</button>
+    <p class="wc-local">この端末の中だけで数えます。文章はどこにも送りません。</p>
+    <p id="live" class="visually-hidden" aria-live="polite"></p>
+
+    <div id="result" class="wc-result" hidden>
+      <div class="wc-card wc-result-card" id="result-card">
+        <h2 class="wc-h2" id="res-title">あなたの文章のまとめ</h2>
+        <div class="wc-sum-big">
+          <div><strong id="sum-chars" class="wc-sum-num">0</strong><span class="wc-sum-label">文字数（空白込み）</span></div>
+          <div><strong id="sum-noSpaces" class="wc-sum-num">0</strong><span class="wc-sum-label">文字数（空白なし）</span></div>
+        </div>
+        <dl id="sum-list" class="wc-sum-list"></dl>
+        <p id="sum-limit" class="wc-sum-limit" hidden></p>
+        <button type="button" id="btn-copy-sum" class="wc-btn wc-btn-ghost">結果をコピー</button>
+      </div>
+      <div data-mg-end="wordcount"></div>
+    </div>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 文字数カウント · <a href="privacy.html">プライバシーポリシー</a> · <a href="guide.html">ガイド</a>
+  </footer>
+</main>
+
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"ja","ui":{"editorLabel":"文章を入力","placeholder":"ここに文章を入力または貼り付け…","bar":{"chars":"空白込み","noSpaces":"空白なし","words":"単語","bytes":"バイト"},"toolsLabel":"文章ツール","tools":{"copy":"コピー","tidy":"空白を整理","join":"改行を削除","clear":"全部消す","undo":"元に戻す"},"saved":"書きかけの文章はこの端末にだけ保存され、どこにも送られません。","copied":"文章をコピーしました","copyFail":"コピーできませんでした。文章を選択して手動でコピーしてください。","cleared":"文章を消しました。「元に戻す」で復元できます。","tidied":"重なった空白と空行を整理しました。","joined":"改行を削除しました。","undone":"元に戻しました。","nothing":"変更するところがありません。","limitLabel":"目標文字数","limitOff":"オフ","limitChip":"{n}字","limitCustom":"自由入力","limitCustomPh":"例：400","limitCustomAria":"目標文字数を入力","limitSpaces":"空白も数える","limitText":"{n} / {max}字","limitLeft":"あと{n}字","limitOver":"{n}字オーバー","statsLabel":"詳しい数字","stats":{"chars":"文字数（空白込み）","noSpaces":"文字数（空白なし）","words":"単語数","sentences":"文の数","paragraphs":"段落","lines":"行数","reading":"読む時間","speaking":"話す時間","bytes":"バイト数"},"byteMode":{"utf8":"UTF-8","neis":"UTF-8 + CRLF","legacy":"2バイト換算"},"byteHint":{"utf8":"標準の UTF-8：英数字と半角スペースは1バイト、ひらがな・漢字は3バイト、絵文字は4バイト。改行は1バイト。","neis":"UTF-8 で、改行を2バイト（CR＋LF）として数えます。Windows のテキストファイルと同じ考え方です。","legacy":"Shift_JIS 風の換算：半角英数字は1バイト、全角文字は2バイト、改行は2バイト。"},"time":{"sec":"{s}秒","min":"{m}分","minSec":"{m}分{s}秒"},"timeNote":"時間は目安です。黙読は1分に約500字、話す場合（スピーチ）は約300字で計算しています。","kwLabel":"よく使った言葉","kwEmpty":"2回以上使った言葉がここに出ます。「の」「です」のようなよく使う言葉は除きます。","kwCount":"{n}回","finish":"結果を見る ✓","needText":"先に文章を入力するか貼り付けてください。","local":"この端末の中だけで数えます。文章はどこにも送りません。"},"result":{"heading":"あなたの文章のまとめ","limitOk":"目標の{max}字以内です（{pct}%）。","limitOver":"目標の{max}字より{n}字多いです。","copySummary":"結果をコピー","summaryCopied":"結果をコピーしました","summaryTitle":"文字数カウントの結果","again":"新しい文章を数える","live":"結果：空白込み{chars}字、単語{words}個。","shareTitle":"文字数カウント","shareText":"空白込み・なしの文字数、バイト数、読む時間まで無料でカウント。文章は自分の端末の中だけ 📝"}};</script>
+<script>window.MG_FAQ = [{"q":"空白や改行も文字数に入りますか？","a":"両方の数字を表示します。「空白込み」はスペースと改行（1回＝1字）も数え、「空白なし」はスペース・タブ・改行をすべて除いた文字だけを数えます。目標文字数バーは「空白も数える」スイッチでどちらに合わせるか選べます。"},{"q":"Word や他のサイトと文字数が少し違うのはなぜ？","a":"ツールごとに改行を数えるか、絵文字を何文字とするかなどのルールが違うためです。ここでは改行1回＝1字、絵文字1つ＝1字として数えます。提出先の注意書きも確認し、上限より少し余裕を持たせると安心です。"},{"q":"バイト数はどう数えますか？","a":"3つの方式から選べます。UTF-8 は日本語1字＝3バイト、UTF-8 + CRLF は改行を2バイト、2バイト換算は Shift_JIS 風に半角1バイト・全角2バイト・改行2バイトで数えます。"},{"q":"書いた文章は保存・送信されますか？","a":"送信しません。再読み込みしても続きが書けるよう、このブラウザの保存領域にだけ下書きを置き、「全部消す」で削除されます。ページのアドレスや共有リンクにも文章は入りません。"}];</script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+<script src="./wordcount-core.js"></script>
+<script src="./wordcount.js"></script>
+</body>
+</html>

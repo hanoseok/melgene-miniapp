@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zeichenzähler-Guide: Zeichen, Wörter und Bytes richtig zählen</title>
+<meta name="description" content="Wie ein Zeichenzähler Zeichen mit und ohne Leerzeichen, Wörter und Bytes zählt, warum Word und Websites abweichen, typische Limits wie 280 Zeichen bei X und Tipps, um genau auf die Ziellänge zu schreiben.">
+<link rel="canonical" href="https://wordcount.example.com/de/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Zeichenzähler-Guide: Zeichen, Wörter und Bytes richtig zählen">
+<meta property="og:description" content="Wie ein Zeichenzähler Zeichen mit und ohne Leerzeichen, Wörter und Bytes zählt, warum Word und Websites abweichen, typische Limits wie 280 Zeichen bei X und Tipps, um genau auf die Ziellänge zu schreiben.">
+<meta property="og:image" content="https://wordcount.example.com/og/de/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/de/guide.html">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/de/guide.html#article","headline":"Zeichenzähler-Guide: was gezählt wird, warum Programme abweichen und wie du ein Limit triffst","description":"Wie ein Zeichenzähler Zeichen mit und ohne Leerzeichen, Wörter und Bytes zählt, warum Word und Websites abweichen, typische Limits wie 280 Zeichen bei X und Tipps, um genau auf die Ziellänge zu schreiben.","inLanguage":"de","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/de/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/de/"},"mainEntityOfPage":"https://wordcount.example.com/de/guide.html","url":"https://wordcount.example.com/de/guide.html","about":{"@type":"WebApplication","name":"Zeichenzähler","url":"https://wordcount.example.com/de/"},"image":"https://wordcount.example.com/og/de/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/de/"},{"@type":"ListItem","position":2,"name":"Zeichenzähler","item":"https://wordcount.example.com/de/"},{"@type":"ListItem","position":3,"name":"Zeichenzähler-Guide: was gezählt wird, warum Programme abweichen und wie du ein Limit triffst","item":"https://wordcount.example.com/de/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Zur Melgene-Apps-Startseite"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Zeichenzähler</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Sprache"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de" selected>Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Sprache"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Zeichenzähler</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>Zeichenzähler</p>
+    <h1>Zeichenzähler-Guide: was gezählt wird, warum Programme abweichen und wie du ein Limit triffst</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">Aktualisiert am 15. Oktober 2026</time></p>
+    <p class="mg-art-intro">Längenvorgaben gibt es überall: ein Motivationsschreiben mit höchstens 2.000 Zeichen inklusive Leerzeichen, ein Post mit 280 Zeichen, eine Meta-Beschreibung, die nach etwa 155 Zeichen abgeschnitten wird, ein Abstract mit 250 Wörtern. Ein guter Zähler zeigt dir schon beim Schreiben, wo du stehst, damit du nicht kurz vor der Abgabe hektisch kürzen musst. Dieser Guide erklärt die Bedienung, wie jeder Wert definiert ist, warum Programme leicht unterschiedliche Ergebnisse liefern, welche Limits dir begegnen und wie du entspannt auf eine Ziellänge schreibst.</p>
+    <section>
+      <h2>So benutzt du den Zeichenzähler</h2>
+      <p>Tippe direkt ins Feld oder füge Text von irgendwoher ein. Der dunkelblaue Balken oben im Feld zeigt die vier wichtigsten Werte: Zeichen mit Leerzeichen, Zeichen ohne Leerzeichen, Wörter und Bytes. Er bleibt beim Scrollen sichtbar, auch wenn du einen langen Entwurf bearbeitest. Darunter stehen zusätzlich Sätze, Absätze, Zeilen sowie geschätzte Lese- und Sprechzeit.</p>
+      <p>Schreibst du auf ein Limit hin, wähle 500, 1.000 oder 1.500 Zeichen oder gib einen eigenen Wert ein. Ein Balken füllt sich, wird kurz vor dem Ende orange und beim Überschreiten rot und sagt dir genau, wie viele Zeichen noch fehlen oder gestrichen werden müssen. Mit „Leerzeichen zählen“ legst du fest, ob das Limit dem Wert mit oder ohne Leerzeichen folgt. Am Ende zeigt „Auswertung zeigen“ eine Übersicht zum Kopieren.</p>
+      <ul>
+        <li>Text einfügen oder tippen – die Werte ändern sich bei jedem Anschlag.</li>
+        <li>Ziel festlegen und wählen, ob Leerzeichen mitzählen.</li>
+        <li>Byte-Regel des Formulars wählen: UTF-8, UTF-8 + CRLF oder Alt 2-Byte.</li>
+        <li>Eingefügten Text mit „Leerzeichen bereinigen“ oder „Zeilen verbinden“ säubern; „Rückgängig“ holt ihn zurück.</li>
+        <li>Der Entwurf bleibt nur in diesem Browser gespeichert und übersteht ein Neuladen.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Wie jeder Wert definiert ist</h2>
+      <p>Zeichen mit Leerzeichen zählt alles, was das Auge als ein Zeichen sieht, plus Leerzeichen und Zeilenumbrüche; jeder Umbruch zählt 1. Umlaute wie ä, ein ß, eine Flagge oder ein Familien-Emoji aus mehreren verbundenen Codepunkten zählen jeweils als ein Zeichen. Zeichen ohne Leerzeichen zieht davon alle Leerzeichen, Tabs und Zeilenumbrüche ab.</p>
+      <p>Wörter findet die eingebaute, sprachbewusste Worterkennung des Browsers. Eine Folge aus Buchstaben oder Ziffern ist ein Wort, Bindestrich-Wörter wie E-Mail zählen einmal. Lange deutsche Komposita sind ein Wort, egal wie lang. Sätze enden an Punkt, Frage- oder Ausrufezeichen, Absätze trennt eine Leerzeile.</p>
+      <p>Die Lesezeit geht von etwa 238 Wörtern pro Minute beim stillen Lesen aus, einem Durchschnittswert für Erwachsene, die Sprechzeit von etwa 150 Wörtern pro Minute, einem ruhigen Vortragstempo.</p>
+      <ul>
+        <li>UTF-8: 1 Byte für Buchstaben ohne Umlaut, Ziffern und Leerzeichen, 2 für ä ö ü ß, 3 für Chinesisch, Japanisch und Koreanisch, 4 für die meisten Emoji.</li>
+        <li>UTF-8 + CRLF: wie UTF-8, aber jeder Zeilenumbruch zählt 2 Bytes, wie in einer Windows-Textdatei.</li>
+        <li>Alt 2-Byte: ASCII 1 Byte, jedes andere Zeichen 2, ein Umbruch 2 (EUC-KR, Shift_JIS, GBK).</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Warum Word, Google Docs und Websites anders zählen</h2>
+      <p>Eine einzige offizielle Zählregel gibt es nicht, kleine Abweichungen sind also normal. Word zählt Absatzmarken nicht als Zeichen, viele Online-Formulare zählen Zeilenumbrüche dagegen mit, manchmal doppelt. Manche Programme zählen jede Unicode-Codeeinheit, wodurch ein Emoji zwei oder mehr Zeichen „kostet“. Auch bei Bindestrich-Wörtern, Zahlen und E-Mail-Adressen gehen die Meinungen auseinander.</p>
+      <p>Am sichersten: die Hinweise des Formulars lesen, den Zähler genauso einstellen und ein paar Zeichen Puffer lassen, statt das Limit exakt auszureizen. Vor dem Absenden den Text ins echte Feld einfügen und die Anzeige der Website prüfen.</p>
+    </section>
+    <section>
+      <h2>Limits, die dir begegnen</h2>
+      <p>Bewerbungsportale geben die Länge oft in Zeichen inklusive Leerzeichen vor, etwa 2.000 Zeichen für ein Motivationsschreiben. Abstracts und Zusammenfassungen werden eher in Wörtern begrenzt. Prüfe immer, ob Zeichen oder Wörter gemeint sind und ob Leerzeichen mitzählen.</p>
+      <p>Soziale Netzwerke haben eigene Obergrenzen, die sich von Zeit zu Zeit ändern. Bei X erlaubt ein normaler Post 280 Zeichen, chinesische, japanische und koreanische Zeichen zählen doppelt. Suchmaschinen zeigen meist 150 bis 160 Zeichen einer Meta-Beschreibung, bevor sie abschneiden.</p>
+      <ul>
+        <li>X (Twitter): 280 Zeichen.</li>
+        <li>Instagram-Bildunterschrift: 2.200 Zeichen.</li>
+        <li>YouTube: Titel 100 Zeichen, Beschreibung 5.000 Zeichen.</li>
+        <li>SMS: 160 Zeichen, mit Emoji oder Sonderzeichen nur 70.</li>
+        <li>Meta-Beschreibung: etwa 150 bis 160 Zeichen anpeilen.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Tipps, um auf eine Länge zu schreiben</h2>
+      <p>Schreib zuerst alles auf, ohne auf die Zahl zu schauen, und kürze dann. Einen langen Entwurf zu straffen ergibt fast immer den besseren Text, als einen kurzen aufzublähen. Fang mit den großen Brocken an: den Satz, der die Frage wiederholt, Floskeln wie „es ist wichtig zu erwähnen, dass“ und Füllwörter wie „eigentlich“, „wirklich“ oder „sehr“. Die Liste der häufigsten Wörter hilft: Taucht ein Wort in einem kurzen Text fünfmal auf, ist das meist Wiederholung statt Betonung.</p>
+      <ul>
+        <li>Ziel: 90 bis 100 Prozent des Limits; zu kurze Antworten wirken lieblos.</li>
+        <li>Ein paar Zeichen Puffer lassen, falls das Formular Umbrüche anders zählt.</li>
+        <li>Text aus PDF oder E-Mail mit „Leerzeichen bereinigen“ säubern.</li>
+        <li>Reden laut lesen und die Sprechzeit prüfen.</li>
+        <li>Die Endfassung zusätzlich anderswo speichern – der Entwurf lebt nur in diesem Browser.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>Jetzt Text zählen</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Zeichenzähler</a> · <a href="privacy.html">Datenschutz</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

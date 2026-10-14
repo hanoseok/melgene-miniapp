@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'wordcount',
+        kicker: "Ferramenta de escrita",
+        headline: "Conte palavras e caracteres ao vivo",
+        blurb: "Com ou sem espaços, bytes, tempo de leitura e limite.",
+      },
+      {
+        id: 'yesno',
+        kicker: "Na dúvida?",
+        headline: "Pergunte sim ou não",
+        blurb: "Digite, toque uma vez e receba uma resposta aleatória justa.",
+      },
+      {
         id: '1to50',
         kicker: "Desafio de velocidade",
         headline: "De 1 a 50, o mais rápido possível",

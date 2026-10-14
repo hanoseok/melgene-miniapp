@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 39,
+  "numberOfItems": 41,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -353,6 +353,20 @@
       "url": "https://zombie.example.com/",
       "name": "丧尸末日生存测试",
       "description": "丧尸爆发了！12个情境，2分钟测出末日里你会扮演什么角色。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "url": "https://wordcount.example.com/",
+      "name": "字数统计",
+      "description": "粘贴文本即可实时统计含空格/不含空格字数、词数、句数和字节数。目标字数进度条和阅读时间，不上传任何内容。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "url": "https://yesno.example.com/",
+      "name": "是或否决定器",
+      "description": "写下让你纠结的问题，按一下就得到是或否。还有是/否/也许、神秘水晶球回答和三局两胜、五局三胜。"
     }
   ]
 }
@@ -428,6 +442,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="wordcount">
+        <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">写作工具</span></span>
+            <h3 class="cur-headline">边写边统计字数</h3>
+            <span class="cur-giant" aria-hidden="true">📝</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">含不含空格、字节数、目标字数一目了然。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">字数统计</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="yesno">
+        <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难？</span></span>
+            <h3 class="cur-headline">是或否，一键决定</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">写下问题点一下，公平随机给答案。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">是或否决定器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="1to50">
         <a class="cur-card" href="https://1to50.example.com/" style="--h:149;--h2:175">
           <span class="cur-art">
@@ -492,7 +538,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku">
+      <li class="cur-item" data-id="sudoku" hidden>
         <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">经典益智</span></span>
@@ -508,7 +554,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mbti">
+      <li class="cur-item" data-id="mbti" hidden>
         <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">人格测试</span></span>
@@ -556,45 +602,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper" hidden>
-        <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">经典益智</span></span>
-            <h3 class="cur-headline">避开地雷，清空雷区</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">看数字推理，第一下必定安全，挑战最快用时。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">扫雷</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coffee" hidden>
-        <a class="cur-card" href="https://coffee.example.com/" style="--h:198;--h2:180">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">心理测试</span></span>
-            <h3 class="cur-headline">你是哪一杯咖啡？</h3>
-            <span class="cur-giant" aria-hidden="true">☕</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12道日常小题，2分钟，找到和你最像的咖啡。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">咖啡性格测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">39个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">41个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -616,6 +630,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="wordcount" data-cat="create">
+        <a class="tile-link" href="https://wordcount.example.com/" title="粘贴文本即可实时统计含空格/不含空格字数、词数、句数和字节数。目标字数进度条和阅读时间，不上传任何内容。" style="--h:21;--h2:3">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">字数统计</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="yesno" data-cat="vote">
+        <a class="tile-link" href="https://yesno.example.com/" title="写下让你纠结的问题，按一下就得到是或否。还有是/否/也许、神秘水晶球回答和三局两胜、五局三胜。" style="--h:130;--h2:156">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">是或否决定器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="1to50" data-cat="game">
         <a class="tile-link" href="https://1to50.example.com/" title="按顺序尽快点击1到50！计时精确到0.01秒，还有1到25快速模式，测测你的专注力和手速。" style="--h:149;--h2:175">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -674,14 +702,14 @@
       </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/" title="根据数字推理，避开地雷清空雷区。三种难度，第一下必定安全，还能挑战最快用时。" style="--h:185;--h2:167">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">扫雷</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coffee" data-cat="test">
         <a class="tile-link" href="https://coffee.example.com/" title="12道日常小题，2分钟测出和你性格最像的咖啡。" style="--h:198;--h2:180">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span></span>
           <span class="tile-name">咖啡性格测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

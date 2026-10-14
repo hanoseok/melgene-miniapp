@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hướng dẫn đếm ký tự: cách đếm chữ, số từ và byte</title>
+<meta name="description" content="Công cụ đếm ký tự đếm ký tự có và không dấu cách, số từ và byte như thế nào, vì sao Word và các trang web không khớp nhau, các giới hạn thường gặp và mẹo viết vừa đủ độ dài.">
+<link rel="canonical" href="https://wordcount.example.com/vi/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Hướng dẫn đếm ký tự: cách đếm chữ, số từ và byte">
+<meta property="og:description" content="Công cụ đếm ký tự đếm ký tự có và không dấu cách, số từ và byte như thế nào, vì sao Word và các trang web không khớp nhau, các giới hạn thường gặp và mẹo viết vừa đủ độ dài.">
+<meta property="og:image" content="https://wordcount.example.com/og/vi/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/vi/guide.html">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/vi/guide.html#article","headline":"Hướng dẫn đếm ký tự: đếm những gì, vì sao các công cụ lệch nhau và cách viết vừa giới hạn","description":"Công cụ đếm ký tự đếm ký tự có và không dấu cách, số từ và byte như thế nào, vì sao Word và các trang web không khớp nhau, các giới hạn thường gặp và mẹo viết vừa đủ độ dài.","inLanguage":"vi","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"mainEntityOfPage":"https://wordcount.example.com/vi/guide.html","url":"https://wordcount.example.com/vi/guide.html","about":{"@type":"WebApplication","name":"Đếm ký tự","url":"https://wordcount.example.com/vi/"},"image":"https://wordcount.example.com/og/vi/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/vi/"},{"@type":"ListItem","position":2,"name":"Đếm ký tự","item":"https://wordcount.example.com/vi/"},{"@type":"ListItem","position":3,"name":"Hướng dẫn đếm ký tự: đếm những gì, vì sao các công cụ lệch nhau và cách viết vừa giới hạn","item":"https://wordcount.example.com/vi/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Về trang chủ Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Đếm ký tự</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Ngôn ngữ"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi" selected>Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Ngôn ngữ"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Đếm ký tự</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>Đếm ký tự</p>
+    <h1>Hướng dẫn đếm ký tự: đếm những gì, vì sao các công cụ lệch nhau và cách viết vừa giới hạn</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">Cập nhật 15 tháng 10, 2026</time></p>
+    <p class="mg-art-intro">Giới hạn độ dài ở khắp nơi: bài luận xin học bổng tối đa 500 từ, thư xin việc 2.000 ký tự có dấu cách, bài đăng 280 ký tự, đoạn mô tả trên Google bị cắt sau khoảng 155 ký tự. Một công cụ đếm tốt cho bạn biết mình đang ở đâu ngay khi viết, để không phải cuống cuồng cắt bớt vào phút cuối. Bài này giải thích cách dùng công cụ, cách định nghĩa từng con số, vì sao các phần mềm cho kết quả hơi khác nhau, những giới hạn hay gặp và cách viết thoải mái đến đúng mục tiêu.</p>
+    <section>
+      <h2>Cách dùng công cụ đếm ký tự</h2>
+      <p>Gõ thẳng vào ô hoặc dán văn bản từ bất cứ đâu. Thanh màu xanh đậm phía trên hiện bốn con số hay xem nhất: ký tự có dấu cách, ký tự không dấu cách, số từ và byte. Thanh này luôn nằm trên màn hình khi bạn cuộn để sửa một bản nháp dài. Bên dưới, phần số liệu chi tiết có thêm số câu, đoạn, dòng và thời gian đọc, thời gian nói ước tính.</p>
+      <p>Nếu có giới hạn, hãy chọn 500, 1.000 hoặc 1.500 ký tự, hoặc tự nhập số. Thanh tiến độ đầy dần khi bạn viết, chuyển cam khi gần chạm mốc và đỏ khi vượt, đồng thời cho biết còn bao nhiêu hoặc cần cắt bao nhiêu ký tự. Công tắc &quot;Tính dấu cách&quot; quyết định mục tiêu theo con số có hay không có dấu cách. Viết xong, bấm &quot;Xem tổng kết&quot; để có bản tóm tắt dễ sao chép.</p>
+      <ul>
+        <li>Dán hoặc gõ văn bản, các con số đổi theo từng phím.</li>
+        <li>Đặt mục tiêu và chọn có tính dấu cách hay không.</li>
+        <li>Chọn cách tính byte theo biểu mẫu: UTF-8, UTF-8 + CRLF hoặc 2 byte (cũ).</li>
+        <li>Dọn văn bản vừa dán bằng &quot;Gọn dấu cách&quot; hoặc &quot;Nối các dòng&quot;, lỡ tay thì &quot;Hoàn tác&quot;.</li>
+        <li>Bản nháp chỉ lưu trong trình duyệt này, tải lại trang vẫn còn.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Mỗi con số được đếm thế nào</h2>
+      <p>Ký tự có dấu cách là mọi thứ mắt nhìn thấy là một ký tự, cộng thêm dấu cách và xuống dòng, mỗi lần xuống dòng tính 1. Tiếng Việt có chữ mang hai dấu như &quot;ệ&quot; hay &quot;ữ&quot;; có trang lưu chúng thành chữ cái cộng dấu riêng và đếm thành 2 hoặc 3, còn ở đây &quot;ệ&quot; luôn là 1 ký tự như mắt thấy. Lá cờ hay emoji gia đình ghép từ nhiều mã cũng là 1. Ký tự không dấu cách là con số đó trừ hết dấu cách, tab và xuống dòng.</p>
+      <p>Số từ được tìm bằng bộ tách từ có sẵn trong trình duyệt. Tiếng Việt viết cách từng âm tiết, nên &quot;học sinh&quot; được tính là 2 từ, giống cách Word đếm. Câu kết thúc ở dấu chấm, chấm hỏi hoặc chấm than, còn đoạn văn ngăn nhau bằng một dòng trống.</p>
+      <p>Thời gian đọc tính khoảng 238 từ mỗi phút khi đọc thầm, thời gian nói khoảng 150 từ mỗi phút, nhịp thuyết trình thong thả. Vì tiếng Việt đếm theo âm tiết nên con số này chỉ là ước lượng.</p>
+      <ul>
+        <li>UTF-8: chữ không dấu, số và dấu cách 1 byte, chữ có dấu tiếng Việt 2 hoặc 3 byte, chữ Hán và Hàn 3, phần lớn emoji 4.</li>
+        <li>UTF-8 + CRLF: giống UTF-8 nhưng mỗi lần xuống dòng tính 2 byte, như tệp văn bản trên Windows.</li>
+        <li>2 byte (cũ): ASCII 1 byte, ký tự khác 2 byte, xuống dòng 2 byte (EUC-KR, Shift_JIS, GBK).</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Vì sao Word, Google Docs và các trang web đếm khác nhau</h2>
+      <p>Không có một quy tắc chính thức duy nhất nên lệch vài ký tự là bình thường. Word không đếm dấu đoạn văn, trong khi nhiều biểu mẫu trên mạng tính cả xuống dòng, có nơi tính là 2. Một số công cụ đếm từng đơn vị mã Unicode nên chữ có dấu hay emoji bị tính thành 2 ký tự trở lên. Từ có gạch nối, số và địa chỉ email cũng được xử lý mỗi nơi một kiểu.</p>
+      <p>Cách an toàn nhất là đọc hướng dẫn của biểu mẫu, chỉnh công cụ đếm cho giống, rồi chừa lại vài ký tự thay vì viết sát giới hạn. Trước khi gửi, hãy dán văn bản vào ô thật và xem con số trang web hiển thị.</p>
+    </section>
+    <section>
+      <h2>Các giới hạn thường gặp</h2>
+      <p>Hồ sơ du học, học bổng và xin việc thường giới hạn bài luận theo số từ (như 500 từ) hoặc số ký tự có dấu cách. Tóm tắt luận văn và bài báo khoa học hay giới hạn theo số từ. Luôn kiểm tra xem yêu cầu nói về ký tự hay từ, có tính dấu cách hay không.</p>
+      <p>Mỗi mạng xã hội có mức trần riêng và thay đổi theo thời gian. Trên X, một bài đăng thường được 280 ký tự. Google thường hiện khoảng 150 đến 160 ký tự của thẻ mô tả rồi cắt.</p>
+      <ul>
+        <li>X (Twitter): 280 ký tự.</li>
+        <li>Chú thích Instagram: 2.200 ký tự.</li>
+        <li>YouTube: tiêu đề 100 ký tự, mô tả 5.000 ký tự.</li>
+        <li>SMS: 160 ký tự không dấu, có dấu tiếng Việt chỉ còn 70.</li>
+        <li>Meta description: khoảng 150 đến 160 ký tự.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Mẹo viết vừa đủ giới hạn</h2>
+      <p>Hãy viết hết những gì muốn nói mà chưa nhìn con số, rồi mới cắt. Rút gọn một bản nháp dài gần như luôn cho văn bản chắc hơn là kéo dài một bản ngắn. Bắt đầu từ chỗ cắt được nhiều: câu lặp lại đề bài, cụm rườm rà như &quot;có thể nói rằng&quot;, &quot;tiến hành&quot;, và từ đệm như &quot;rất&quot;, &quot;thật sự&quot;. Bảng từ lặp nhiều cũng giúp ích: một từ xuất hiện năm lần trong đoạn ngắn thường là lặp ý chứ không phải nhấn mạnh.</p>
+      <ul>
+        <li>Viết khoảng 90 đến 100% giới hạn, quá ngắn dễ bị coi là thiếu đầu tư.</li>
+        <li>Chừa vài ký tự cho biểu mẫu đếm xuống dòng theo cách khác.</li>
+        <li>Văn bản dán từ PDF hay email thì bấm &quot;Gọn dấu cách&quot;.</li>
+        <li>Với bài nói, hãy đọc thành tiếng và xem &quot;Thời gian nói&quot;.</li>
+        <li>Lưu bản cuối ở nơi khác nữa, vì bản nháp chỉ nằm trong trình duyệt này.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>Đếm văn bản của tôi ngay</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Đếm ký tự</a> · <a href="privacy.html">Chính sách quyền riêng tư</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

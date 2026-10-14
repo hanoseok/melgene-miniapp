@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 39,
+  "numberOfItems": 41,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -352,6 +352,20 @@
       "url": "https://zombie.example.com/fr/",
       "name": "Test de survie zombie",
       "description": "L’épidémie est là. 12 situations, 2 minutes. Découvre ton rôle pendant l’apocalypse zombie."
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "url": "https://wordcount.example.com/fr/",
+      "name": "Compteur de mots",
+      "description": "Colle ton texte : caractères avec et sans espaces, mots, phrases et octets en direct. Barre d’objectif, temps de lecture, rien n’est envoyé."
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "url": "https://yesno.example.com/fr/",
+      "name": "Oui ou non",
+      "description": "Pose ta question et obtiens un oui ou un non en un clic : oui/non, oui/non/peut-être, boule mystique ou deux manches gagnantes."
     }
   ]
 }
@@ -427,6 +441,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="wordcount">
+        <a class="cur-card" href="https://wordcount.example.com/fr/" style="--h:21;--h2:3">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Outil d’écriture</span></span>
+            <h3 class="cur-headline">Compte tes mots et caractères en direct</h3>
+            <span class="cur-giant" aria-hidden="true">📝</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Avec ou sans espaces, octets, temps de lecture, limite.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Compteur de mots</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="yesno">
+        <a class="cur-card" href="https://yesno.example.com/fr/" style="--h:130;--h2:156">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tu hésites ?</span></span>
+            <h3 class="cur-headline">Pose une question oui ou non</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Écris-la, touche une fois : réponse au hasard, équitable.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Oui ou non</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="1to50">
         <a class="cur-card" href="https://1to50.example.com/fr/" style="--h:149;--h2:175">
           <span class="cur-art">
@@ -491,7 +537,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku">
+      <li class="cur-item" data-id="sudoku" hidden>
         <a class="cur-card" href="https://sudoku.example.com/fr/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Casse-tête culte</span></span>
@@ -507,7 +553,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mbti">
+      <li class="cur-item" data-id="mbti" hidden>
         <a class="cur-card" href="https://mbti.example.com/fr/" style="--h:302;--h2:284">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
@@ -555,45 +601,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper" hidden>
-        <a class="cur-card" href="https://sweeper.example.com/fr/" style="--h:185;--h2:167">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Casse-tête culte</span></span>
-            <h3 class="cur-headline">Évitez les mines, videz la grille</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Lisez les chiffres, posez les drapeaux. Premier clic sûr.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Démineur</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coffee" hidden>
-        <a class="cur-card" href="https://coffee.example.com/fr/" style="--h:198;--h2:180">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de personnalité</span></span>
-            <h3 class="cur-headline">Quel café es-tu ?</h3>
-            <span class="cur-giant" aria-hidden="true">☕</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 questions du quotidien, 2 minutes. Trouve le café qui te ressemble.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Quel café es-tu ?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">39 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">41 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -615,6 +629,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="wordcount" data-cat="create">
+        <a class="tile-link" href="https://wordcount.example.com/fr/" title="Colle ton texte : caractères avec et sans espaces, mots, phrases et octets en direct. Barre d’objectif, temps de lecture, rien n’est envoyé." style="--h:21;--h2:3">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Compteur de mots</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="yesno" data-cat="vote">
+        <a class="tile-link" href="https://yesno.example.com/fr/" title="Pose ta question et obtiens un oui ou un non en un clic : oui/non, oui/non/peut-être, boule mystique ou deux manches gagnantes." style="--h:130;--h2:156">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Oui ou non</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="1to50" data-cat="game">
         <a class="tile-link" href="https://1to50.example.com/fr/" title="Touchez les nombres de 1 à 50 dans l’ordre, le plus vite possible. Chrono au centième et mode rapide 1 à 25." style="--h:149;--h2:175">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -673,14 +701,14 @@
       </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/fr/" title="Appuyez-vous sur les chiffres pour éviter les mines et vider la grille. Trois niveaux, premier clic sûr, chrono à battre." style="--h:185;--h2:167">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">Démineur</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coffee" data-cat="test">
         <a class="tile-link" href="https://coffee.example.com/fr/" title="12 questions du quotidien, 2 minutes. Découvre quel café te ressemble." style="--h:198;--h2:180">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span></span>
           <span class="tile-name">Quel café es-tu ?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

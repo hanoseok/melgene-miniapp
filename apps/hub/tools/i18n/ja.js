@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'wordcount',
+        kicker: "文章ツール",
+        headline: "文字数を入力しながらカウント",
+        blurb: "空白あり・なし、バイト数、目標文字数まで。",
+      },
+      {
+        id: 'yesno',
+        kicker: "迷ったら",
+        headline: "YES・NOで決めちゃおう",
+        blurb: "質問を書いてタップ。公平なランダムで答えます。",
+      },
+      {
         id: '1to50',
         kicker: "スピード勝負",
         headline: "1から50まで最速でタッチ",

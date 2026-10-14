@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 39,
+  "numberOfItems": 41,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -353,6 +353,20 @@
       "url": "https://zombie.example.com/",
       "name": "좀비 생존 테스트",
       "description": "좀비 사태가 터졌다! 상황 12개, 2분이면 끝. 좀비 아포칼립스에서 내가 맡을 생존 역할을 확인해 보세요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "url": "https://wordcount.example.com/",
+      "name": "글자수 세기",
+      "description": "붙여 넣으면 공백 포함·제외 글자수, 단어, 바이트(자소서·나이스)가 바로. 목표 글자수 막대와 읽는 시간까지, 서버 전송 없이."
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "url": "https://yesno.example.com/",
+      "name": "예스 노 결정기",
+      "description": "고민되는 질문을 적고 버튼만 누르면 YES 또는 NO. 예스·노·글쎄, 신비한 구슬 답, 3판 2선승까지 골라 보세요."
     }
   ]
 }
@@ -428,6 +442,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="wordcount">
+        <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">글쓰기 도구</span></span>
+            <h3 class="cur-headline">글자수, 쓰는 동안 바로 세기</h3>
+            <span class="cur-giant" aria-hidden="true">📝</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">공백 포함·제외, 바이트, 목표 글자수까지 한눈에.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">글자수 세기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="yesno">
+        <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">결정 장애 해결</span></span>
+            <h3 class="cur-headline">고민될 땐 예스 노로 정하기</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">질문 하나 적고 탭 한 번. 공정한 무작위 답.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">예스 노 결정기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="1to50">
         <a class="cur-card" href="https://1to50.example.com/" style="--h:149;--h2:175">
           <span class="cur-art">
@@ -492,7 +538,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku">
+      <li class="cur-item" data-id="sudoku" hidden>
         <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">두뇌 퍼즐</span></span>
@@ -508,7 +554,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="mbti">
+      <li class="cur-item" data-id="mbti" hidden>
         <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">성격유형 검사</span></span>
@@ -556,45 +602,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sweeper" hidden>
-        <a class="cur-card" href="https://sweeper.example.com/" style="--h:185;--h2:167">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">추억의 퍼즐</span></span>
-            <h3 class="cur-headline">지뢰 피해 판을 싹 열어요</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">숫자를 보고 추리하세요. 첫 터치는 안전, 기록에 도전!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">지뢰찾기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="coffee" hidden>
-        <a class="cur-card" href="https://coffee.example.com/" style="--h:198;--h2:180">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">심리테스트</span></span>
-            <h3 class="cur-headline">나는 어떤 커피일까?</h3>
-            <span class="cur-giant" aria-hidden="true">☕</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">일상 질문 12개, 2분. 내 성격과 닮은 커피 찾기.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">나는 어떤 커피?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">39개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">41개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -616,6 +630,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="wordcount" data-cat="create">
+        <a class="tile-link" href="https://wordcount.example.com/" title="붙여 넣으면 공백 포함·제외 글자수, 단어, 바이트(자소서·나이스)가 바로. 목표 글자수 막대와 읽는 시간까지, 서버 전송 없이." style="--h:21;--h2:3">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">글자수 세기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="yesno" data-cat="vote">
+        <a class="tile-link" href="https://yesno.example.com/" title="고민되는 질문을 적고 버튼만 누르면 YES 또는 NO. 예스·노·글쎄, 신비한 구슬 답, 3판 2선승까지 골라 보세요." style="--h:130;--h2:156">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">예스 노 결정기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="1to50" data-cat="game">
         <a class="tile-link" href="https://1to50.example.com/" title="1부터 50까지 순서대로 최대한 빨리 터치! 0.01초 기록과 실제 백분위로 손 빠르기를 겨뤄 보세요." style="--h:149;--h2:175">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
@@ -674,14 +702,14 @@
       </li>
       <li class="tile" data-id="sweeper" data-cat="game">
         <a class="tile-link" href="https://sweeper.example.com/" title="숫자를 단서로 지뢰를 피해 판을 싹 열어 보세요! 초급·중급·고급, 첫 터치는 언제나 안전해요." style="--h:185;--h2:167">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">지뢰찾기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="coffee" data-cat="test">
         <a class="tile-link" href="https://coffee.example.com/" title="일상 속 12가지 질문, 2분이면 끝. 내 성격과 닮은 커피를 찾아보세요." style="--h:198;--h2:180">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☕</span></span></span>
           <span class="tile-name">나는 어떤 커피?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

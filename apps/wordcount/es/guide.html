@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contador de palabras: guía para contar caracteres y bytes</title>
+<meta name="description" content="Cómo un contador de palabras cuenta caracteres con y sin espacios, palabras y bytes, por qué Word y las webs no coinciden, límites habituales como los 280 caracteres de X y consejos para escribir justo a la medida.">
+<link rel="canonical" href="https://wordcount.example.com/es/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Contador de palabras: guía para contar caracteres y bytes">
+<meta property="og:description" content="Cómo un contador de palabras cuenta caracteres con y sin espacios, palabras y bytes, por qué Word y las webs no coinciden, límites habituales como los 280 caracteres de X y consejos para escribir justo a la medida.">
+<meta property="og:image" content="https://wordcount.example.com/og/es/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/es/guide.html">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/es/guide.html#article","headline":"Guía del contador de palabras: qué se cuenta, por qué las herramientas no coinciden y cómo ajustarte a un límite","description":"Cómo un contador de palabras cuenta caracteres con y sin espacios, palabras y bytes, por qué Word y las webs no coinciden, límites habituales como los 280 caracteres de X y consejos para escribir justo a la medida.","inLanguage":"es","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"mainEntityOfPage":"https://wordcount.example.com/es/guide.html","url":"https://wordcount.example.com/es/guide.html","about":{"@type":"WebApplication","name":"Contador de palabras","url":"https://wordcount.example.com/es/"},"image":"https://wordcount.example.com/og/es/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/es/"},{"@type":"ListItem","position":2,"name":"Contador de palabras","item":"https://wordcount.example.com/es/"},{"@type":"ListItem","position":3,"name":"Guía del contador de palabras: qué se cuenta, por qué las herramientas no coinciden y cómo ajustarte a un límite","item":"https://wordcount.example.com/es/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/es/" aria-label="Inicio de Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Contador de palabras</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Idioma"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es" selected>Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Idioma"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/es/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Contador de palabras</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>Contador de palabras</p>
+    <h1>Guía del contador de palabras: qué se cuenta, por qué las herramientas no coinciden y cómo ajustarte a un límite</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">Actualizado: 15 de octubre de 2026</time></p>
+    <p class="mg-art-intro">Los límites de extensión están en todas partes: una carta de motivación de 2.000 caracteres con espacios, un post de 280 caracteres, una meta descripción que se corta hacia los 155 caracteres, un resumen de TFG limitado en palabras. Un buen contador te dice dónde estás mientras escribes, para no recortar a toda prisa en el último minuto. Esta guía explica cómo usar la herramienta, cómo se define cada número, por qué los programas no siempre coinciden, qué límites te vas a encontrar y cómo escribir cómodamente hasta un objetivo.</p>
+    <section>
+      <h2>Cómo usar el contador de palabras</h2>
+      <p>Escribe directamente en el cuadro o pega un texto de cualquier sitio. La barra azul oscuro de arriba muestra los cuatro números que más se consultan: caracteres con espacios, caracteres sin espacios, palabras y bytes. Sigue a la vista mientras te desplazas por un borrador largo. Debajo, el conteo detallado añade frases, párrafos, líneas y una estimación del tiempo de lectura y de habla.</p>
+      <p>Si escribes con un límite, elige 500, 1.000 o 1.500 caracteres, o pon tu propio número. Una barra se llena mientras escribes, se vuelve naranja cerca del final y roja al pasarte, y te dice cuántos caracteres quedan o cuántos sobran. Con el interruptor «Contar espacios» decides si el límite sigue el número con o sin espacios. Al terminar, «Ver resumen» muestra un resumen listo para copiar.</p>
+      <ul>
+        <li>Pega o escribe tu texto: los números cambian con cada tecla.</li>
+        <li>Fija un objetivo y elige si cuentan los espacios.</li>
+        <li>Elige la regla de bytes de tu formulario: UTF-8, UTF-8 + CRLF o antiguo 2 bytes.</li>
+        <li>Limpia un texto pegado con «Limpiar espacios» o «Unir líneas»; «Deshacer» lo recupera.</li>
+        <li>Tu borrador se guarda solo en este navegador y no se pierde al recargar.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Cómo se define cada número</h2>
+      <p>Los caracteres con espacios cuentan todo lo que el ojo ve como un carácter, más los espacios y los saltos de línea; cada salto vale 1. Una letra con tilde como á, la ñ, una bandera o un emoji de familia formado por varios códigos cuentan como un solo carácter. Los caracteres sin espacios restan de ese total todos los espacios, tabulaciones y saltos de línea.</p>
+      <p>Las palabras se detectan con el separador lingüístico que trae el navegador. Una secuencia de letras o números es una palabra y las palabras con guion, como «e-mail», cuentan una vez. Las frases terminan en punto, signo de interrogación o de exclamación, y los párrafos se separan con una línea en blanco.</p>
+      <p>El tiempo de lectura supone unas 238 palabras por minuto leyendo en silencio, la media de un adulto, y el tiempo de habla unas 150 palabras por minuto, un ritmo de exposición tranquilo.</p>
+      <ul>
+        <li>UTF-8: 1 byte para letras sin tilde, números y espacios, 2 para á, é, ñ, ü, 3 para chino, japonés y coreano, 4 para la mayoría de los emoji.</li>
+        <li>UTF-8 + CRLF: igual, pero cada salto de línea cuenta 2 bytes, como un archivo de texto de Windows.</li>
+        <li>Antiguo 2 bytes: ASCII 1 byte, cualquier otro carácter 2 y el salto de línea 2 (EUC-KR, Shift_JIS, GBK).</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Por qué Word, Google Docs y las webs dan totales distintos</h2>
+      <p>No hay una única regla oficial, así que pequeñas diferencias son normales. Word no cuenta las marcas de párrafo como caracteres, mientras que muchos formularios web sí cuentan los saltos de línea, a veces como dos. Algunas herramientas cuentan cada unidad de código Unicode y un emoji termina valiendo dos o más. Tampoco todos tratan igual las palabras con guion, los números o los correos.</p>
+      <p>Lo más seguro es leer las instrucciones del formulario, ajustar el contador igual y dejar un margen de unos pocos caracteres en lugar de clavar el límite. Antes de enviar, pega el texto en el campo real y revisa el número que muestra la web.</p>
+    </section>
+    <section>
+      <h2>Límites que te vas a encontrar</h2>
+      <p>Las solicitudes de becas, másteres y empleo suelen fijar la extensión en caracteres con espacios, por ejemplo 2.000 para una carta de motivación. Los resúmenes y abstracts se limitan más bien en palabras. Comprueba siempre si se habla de caracteres o de palabras, y con o sin espacios.</p>
+      <p>Cada red social tiene su tope, y cambia de vez en cuando. En X un post estándar admite 280 caracteres, aunque los caracteres chinos, japoneses y coreanos cuentan doble. Los buscadores suelen mostrar de 150 a 160 caracteres de una meta descripción antes de cortarla.</p>
+      <ul>
+        <li>X (Twitter): 280 caracteres.</li>
+        <li>Pie de foto de Instagram: 2.200 caracteres.</li>
+        <li>YouTube: título de 100 caracteres, descripción de 5.000.</li>
+        <li>SMS: 160 caracteres, o 70 si lleva emoji o caracteres especiales.</li>
+        <li>Meta descripción: apunta a unos 150 a 160 caracteres.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Consejos para escribir hasta un límite</h2>
+      <p>Escribe primero todo lo que quieres decir sin mirar el número y luego recorta. Acortar un borrador largo casi siempre da un texto más firme que inflar uno corto. Empieza por lo que más ahorra: la frase que repite la pregunta, muletillas como «cabe destacar que» y adverbios como «realmente» o «muy». El panel de palabras repetidas ayuda: si una palabra sale cinco veces en un texto corto, suele ser repetición y no énfasis.</p>
+      <ul>
+        <li>Apunta al 90-100 % del límite; una respuesta muy corta parece poco trabajada.</li>
+        <li>Deja un margen de unos caracteres para formularios que cuentan los saltos de otra forma.</li>
+        <li>Tras pegar desde un PDF o un correo, usa «Limpiar espacios».</li>
+        <li>Si es un discurso, léelo en voz alta y revisa el tiempo de habla.</li>
+        <li>Guarda también la versión final en otro sitio: el borrador solo vive en este navegador.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>Contar mi texto ahora</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Contador de palabras</a> · <a href="privacy.html">Política de privacidad</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

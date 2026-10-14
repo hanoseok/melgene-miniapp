@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'wordcount',
+        kicker: "Công cụ viết",
+        headline: "Đếm ký tự và số chữ ngay khi gõ",
+        blurb: "Có/không dấu cách, byte, thời gian đọc, giới hạn.",
+      },
+      {
+        id: 'yesno',
+        kicker: "Phân vân?",
+        headline: "Hỏi một câu có hay không",
+        blurb: "Gõ câu hỏi, chạm một lần, nhận câu trả lời ngẫu nhiên.",
+      },
+      {
         id: '1to50',
         kicker: "Thử thách tốc độ",
         headline: "Chạm từ 1 đến 50 thật nhanh",

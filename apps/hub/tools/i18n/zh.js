@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'wordcount',
+        kicker: "写作工具",
+        headline: "边写边统计字数",
+        blurb: "含不含空格、字节数、目标字数一目了然。",
+      },
+      {
+        id: 'yesno',
+        kicker: "选择困难？",
+        headline: "是或否，一键决定",
+        blurb: "写下问题点一下，公平随机给答案。",
+      },
+      {
         id: '1to50',
         kicker: "手速挑战",
         headline: "从1点到50，越快越好",

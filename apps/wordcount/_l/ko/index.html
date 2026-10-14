@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f3a5f">
+<title>글자수 세기 (공백 포함·제외, 바이트) | 멜진 미니앱</title>
+<meta name="description" content="무료 글자수 세기: 공백 포함·제외 글자수, 단어, 문장, 문단, 바이트(자소서 2바이트·나이스)와 읽는 시간을 실시간으로. 목표 글자수 막대까지, 서버로 보내지 않아요.">
+<link rel="canonical" href="https://wordcount.example.com/ko/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="멜진 미니앱">
+<meta property="og:title" content="글자수 세기 📝 공백 포함·제외·바이트 실시간">
+<meta property="og:description" content="자소서·리포트 붙여 넣으면 글자수·바이트·읽는 시간이 바로. 글은 내 기기에만 남아요.">
+<meta property="og:image" content="https://wordcount.example.com/og/ko/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/ko/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&amp;family=Montserrat:wght@700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&display=swap">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./style.css">
+<style>:root { --font-display: 'Do Hyeon', 'Montserrat', var(--font-sans); --display-weight: 400; --wb: keep-all; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://wordcount.example.com/ko/#app","name":"글자수 세기","description":"무료 글자수 세기: 공백 포함·제외 글자수, 단어, 문장, 문단, 바이트(자소서 2바이트·나이스)와 읽는 시간을 실시간으로. 목표 글자수 막대까지, 서버로 보내지 않아요.","url":"https://wordcount.example.com/ko/","inLanguage":"ko","applicationCategory":"MultimediaApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"image":"https://wordcount.example.com/og/ko/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"멜진 미니앱","item":"https://example.com/ko/"},{"@type":"ListItem","position":2,"name":"글자수 세기","item":"https://wordcount.example.com/ko/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="wc-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="멜진 미니앱 홈으로"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">미니앱</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="언어 선택"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko" selected>한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="언어 선택"><a href="./" hreflang="en" lang="en">English</a> <a href="./" hreflang="ja" lang="ja">日本語</a> <a href="./" hreflang="zh" lang="zh">简体中文</a> <a href="./" hreflang="ko" lang="ko">한국어</a> <a href="./" hreflang="fr" lang="fr">Français</a> <a href="./" hreflang="de" lang="de">Deutsch</a> <a href="./" hreflang="th" lang="th">ไทย</a> <a href="./" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="./" hreflang="it" lang="it">Italiano</a> <a href="./" hreflang="pt" lang="pt">Português</a> <a href="./" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="wc-shell">
+  <!-- 첫 화면(시작 화면이 따로 없는 도구 앱): h1·훅 → 글 입력·실시간 숫자 → 목표 → 자세한 숫자 → 키워드 → 결과 보기 → (누른 뒤) 요약 + 공통 끝 화면 → 맨 아래 mg-ad-start 1개 -->
+  <section id="screen-wc" class="wc-screen">
+    <h1 class="wc-h1"><span class="wc-kicker">글자수 세기</span><span class="wc-h1-main">쓰는 동안 바로 세는<br><em>글자수·바이트</em></span></h1>
+    <p class="wc-hook">글을 쓰거나 붙여 넣으세요. 공백 포함·제외 글자수와 바이트가 실시간으로 바뀌고, 목표 글자수를 넘으면 바로 알려 줘요.</p>
+
+    <div class="wc-card wc-editor">
+      <div class="wc-bar" id="bar" aria-hidden="true">
+        <div class="wc-bar-cell"><strong id="bar-chars" class="wc-bar-num">0</strong><span class="wc-bar-label">공백 포함</span></div>
+        <div class="wc-bar-cell"><strong id="bar-noSpaces" class="wc-bar-num">0</strong><span class="wc-bar-label">공백 제외</span></div>
+        <div class="wc-bar-cell"><strong id="bar-words" class="wc-bar-num">0</strong><span class="wc-bar-label">단어</span></div>
+        <div class="wc-bar-cell"><strong id="bar-bytes" class="wc-bar-num">0</strong><span class="wc-bar-label">바이트</span></div>
+      </div>
+      <label class="visually-hidden" for="text">글 입력</label>
+      <textarea id="text" class="wc-text" rows="10" placeholder="여기에 글을 쓰거나 붙여 넣으세요…" spellcheck="true" autocomplete="off" autocapitalize="sentences"></textarea>
+      <div class="wc-limitbar" id="limitbar" hidden>
+        <div class="wc-progress" aria-hidden="true"><span id="limit-fill"></span></div>
+        <p id="limit-text" class="wc-limit-text"></p>
+      </div>
+      <div class="wc-tools" role="group" aria-label="글 도구">
+        <button type="button" id="btn-copy" class="wc-tool">글 복사</button>
+        <button type="button" id="btn-tidy" class="wc-tool">공백 정리</button>
+        <button type="button" id="btn-join" class="wc-tool">줄바꿈 없애기</button>
+        <button type="button" id="btn-clear" class="wc-tool">모두 지우기</button>
+        <button type="button" id="btn-undo" class="wc-tool" hidden>되돌리기</button>
+      </div>
+      <p class="wc-saved" id="saved-note">쓰던 글은 이 기기에만 저장돼요. 어디에도 올라가지 않아요.</p>
+    </div>
+
+    <div class="wc-card wc-limit">
+      <p class="wc-label" id="limit-label">목표 글자수</p>
+      <div class="wc-chips" role="radiogroup" aria-labelledby="limit-label">
+          <button type="button" class="wc-chip" role="radio" data-limit="0" aria-checked="true">끄기</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="500" aria-checked="false">500자</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="1000" aria-checked="false">1,000자</button>
+          <button type="button" class="wc-chip" role="radio" data-limit="1500" aria-checked="false">1,500자</button>
+      </div>
+      <div class="wc-limit-row">
+        <label class="wc-custom"><span class="wc-custom-label">직접 입력</span><input id="limit-custom" class="wc-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="7" placeholder="예: 700" aria-label="목표 글자수 직접 입력"></label>
+        <label class="wc-switch"><input type="checkbox" id="limit-spaces" role="switch" checked><span class="wc-switch-ui" aria-hidden="true"></span><span class="wc-switch-text">공백 포함</span></label>
+      </div>
+    </div>
+
+    <div class="wc-card wc-stats-card">
+      <h2 class="wc-h2">자세한 숫자</h2>
+      <div class="wc-stats">
+        <div class="wc-stat" data-stat="chars"><span class="wc-stat-label">글자수 (공백 포함)</span><strong id="st-chars" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="noSpaces"><span class="wc-stat-label">글자수 (공백 제외)</span><strong id="st-noSpaces" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="words"><span class="wc-stat-label">단어 (어절)</span><strong id="st-words" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="sentences"><span class="wc-stat-label">문장</span><strong id="st-sentences" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="paragraphs"><span class="wc-stat-label">문단</span><strong id="st-paragraphs" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="lines"><span class="wc-stat-label">줄</span><strong id="st-lines" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="reading"><span class="wc-stat-label">읽는 시간</span><strong id="st-reading" class="wc-stat-num">0</strong></div>
+        <div class="wc-stat" data-stat="speaking"><span class="wc-stat-label">말하는 시간</span><strong id="st-speaking" class="wc-stat-num">0</strong></div>
+      </div>
+      <div class="wc-bytes">
+        <div class="wc-bytes-head"><span class="wc-stat-label" id="bytes-label">바이트</span><strong id="st-bytes" class="wc-stat-num">0</strong></div>
+        <div class="wc-seg" role="radiogroup" aria-labelledby="bytes-label">
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="utf8" aria-checked="true">UTF-8</button>
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="neis" aria-checked="false">나이스(NEIS)</button>
+            <button type="button" class="wc-seg-btn" role="radio" data-bytemode="legacy" aria-checked="false">완성형 2바이트</button>
+        </div>
+        <p id="byte-hint" class="wc-hint">표준 UTF-8: 영문·숫자·공백 1바이트, 한글·한자 3바이트, 이모지 4바이트. 줄바꿈은 1바이트.</p>
+      </div>
+      <p class="wc-hint">시간은 어림값이에요. 읽기는 1분에 한글 약 500자, 말하기(발표)는 약 300자 기준이에요.</p>
+    </div>
+
+    <details class="wc-card wc-kw" id="kw">
+      <summary class="wc-kw-sum">자주 쓴 단어</summary>
+      <ol id="kw-list" class="wc-kw-list"></ol>
+      <p id="kw-empty" class="wc-hint">두 번 이상 쓴 단어가 여기에 나와요. &quot;그리고&quot;, &quot;있습니다&quot; 같은 흔한 말은 빼요.</p>
+    </details>
+
+    <p id="error" class="wc-error" role="alert" hidden></p>
+    <button type="button" id="finish-btn" class="wc-btn wc-btn-primary">결과 보기 ✓</button>
+    <p class="wc-local">내 기기에서만 세요. 쓴 글은 어디로도 보내지 않아요.</p>
+    <p id="live" class="visually-hidden" aria-live="polite"></p>
+
+    <div id="result" class="wc-result" hidden>
+      <div class="wc-card wc-result-card" id="result-card">
+        <h2 class="wc-h2" id="res-title">내 글 한눈에 보기</h2>
+        <div class="wc-sum-big">
+          <div><strong id="sum-chars" class="wc-sum-num">0</strong><span class="wc-sum-label">글자수 (공백 포함)</span></div>
+          <div><strong id="sum-noSpaces" class="wc-sum-num">0</strong><span class="wc-sum-label">글자수 (공백 제외)</span></div>
+        </div>
+        <dl id="sum-list" class="wc-sum-list"></dl>
+        <p id="sum-limit" class="wc-sum-limit" hidden></p>
+        <button type="button" id="btn-copy-sum" class="wc-btn wc-btn-ghost">결과 복사</button>
+      </div>
+      <div data-mg-end="wordcount"></div>
+    </div>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 글자수 세기 · <a href="privacy.html">개인정보처리방침</a> · <a href="guide.html">가이드</a>
+  </footer>
+</main>
+
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"ko","ui":{"editorLabel":"글 입력","placeholder":"여기에 글을 쓰거나 붙여 넣으세요…","bar":{"chars":"공백 포함","noSpaces":"공백 제외","words":"단어","bytes":"바이트"},"toolsLabel":"글 도구","tools":{"copy":"글 복사","tidy":"공백 정리","join":"줄바꿈 없애기","clear":"모두 지우기","undo":"되돌리기"},"saved":"쓰던 글은 이 기기에만 저장돼요. 어디에도 올라가지 않아요.","copied":"글을 복사했어요","copyFail":"복사하지 못했어요. 글을 길게 눌러 직접 복사해 주세요.","cleared":"글을 지웠어요. 되돌리기를 누르면 다시 살아나요.","tidied":"겹친 공백과 빈 줄을 정리했어요.","joined":"줄바꿈을 없앴어요.","undone":"되돌렸어요.","nothing":"바꿀 것이 없어요.","limitLabel":"목표 글자수","limitOff":"끄기","limitChip":"{n}자","limitCustom":"직접 입력","limitCustomPh":"예: 700","limitCustomAria":"목표 글자수 직접 입력","limitSpaces":"공백 포함","limitText":"{n} / {max}자","limitLeft":"{n}자 남음","limitOver":"{n}자 초과","statsLabel":"자세한 숫자","stats":{"chars":"글자수 (공백 포함)","noSpaces":"글자수 (공백 제외)","words":"단어 (어절)","sentences":"문장","paragraphs":"문단","lines":"줄","reading":"읽는 시간","speaking":"말하는 시간","bytes":"바이트"},"byteMode":{"utf8":"UTF-8","neis":"나이스(NEIS)","legacy":"완성형 2바이트"},"byteHint":{"utf8":"표준 UTF-8: 영문·숫자·공백 1바이트, 한글·한자 3바이트, 이모지 4바이트. 줄바꿈은 1바이트.","neis":"학교생활기록부(나이스) 방식: 한글 3바이트, 영문·숫자·공백 1바이트, 엔터(줄바꿈) 2바이트.","legacy":"자소서·옛 EUC-KR 방식: 한글·한자 2바이트, 영문·숫자·공백 1바이트, 엔터(줄바꿈) 2바이트."},"time":{"sec":"{s}초","min":"{m}분","minSec":"{m}분 {s}초"},"timeNote":"시간은 어림값이에요. 읽기는 1분에 한글 약 500자, 말하기(발표)는 약 300자 기준이에요.","kwLabel":"자주 쓴 단어","kwEmpty":"두 번 이상 쓴 단어가 여기에 나와요. \"그리고\", \"있습니다\" 같은 흔한 말은 빼요.","kwCount":"{n}번","finish":"결과 보기 ✓","needText":"먼저 글을 쓰거나 붙여 넣어 주세요.","local":"내 기기에서만 세요. 쓴 글은 어디로도 보내지 않아요."},"result":{"heading":"내 글 한눈에 보기","limitOk":"목표 {max}자 안에 들어왔어요 ({pct}%).","limitOver":"목표 {max}자보다 {n}자 많아요.","copySummary":"결과 복사","summaryCopied":"결과를 복사했어요","summaryTitle":"글자수 세기 결과","again":"새 글 세기","live":"결과: 공백 포함 {chars}자, 단어 {words}개.","shareTitle":"글자수 세기","shareText":"공백 포함·제외 글자수, 바이트, 읽는 시간까지 무료로 세 보세요. 글은 내 기기에만 남아요 📝"}};</script>
+<script>window.MG_FAQ = [{"q":"공백과 줄바꿈도 글자수에 들어가나요?","a":"두 숫자를 모두 보여 줘요. \"공백 포함\"은 띄어쓰기와 줄바꿈(엔터 1번 = 1자)까지 세고, \"공백 제외\"는 띄어쓰기·탭·줄바꿈을 모두 뺀 글자만 세요. 목표 글자수 막대는 \"공백 포함\" 스위치로 둘 중 하나를 고를 수 있어요."},{"q":"자소서 사이트와 글자수가 조금 달라요.","a":"사이트마다 줄바꿈을 1자로 셀지 2자로 셀지, 이모지를 몇 자로 볼지가 달라서 그래요. 여기서는 엔터 1번 = 1자, 이모지 하나 = 1자로 세요. 제출할 사이트의 안내 문구를 함께 확인하고, 한도보다 조금 여유 있게 맞추는 게 안전해요."},{"q":"바이트는 어떤 기준으로 세나요?","a":"세 가지 중에서 고를 수 있어요. UTF-8은 한글 3바이트, 나이스(학생부)는 한글 3바이트에 엔터 2바이트, 완성형 2바이트는 자소서·옛 시스템 방식으로 한글 2바이트, 영문·숫자·공백 1바이트, 엔터 2바이트예요."},{"q":"쓴 글이 저장되거나 어딘가로 보내지나요?","a":"보내지 않아요. 새로고침해도 이어 쓸 수 있게 이 브라우저의 저장소에만 초안을 두고, \"모두 지우기\"를 누르면 지워져요. 주소나 공유 링크에도 글이 들어가지 않아요."}];</script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+<script src="./wordcount-core.js"></script>
+<script src="./wordcount.js"></script>
+</body>
+</html>

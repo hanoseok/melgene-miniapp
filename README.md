@@ -130,6 +130,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | lunch | apps/lunch | 오늘 뭐 먹지 메뉴 뽑기: 끼니 4종 × 기분 태그 4개, 언어별 현지 메뉴 35개+, 슬롯 릴(결과는 crypto 로 먼저 결정), 이거 제외·다시 뽑기 | `check-lunch.js` (+ `flow-test.js`) |
 | 1to50 | apps/1to50 | 1to50 숫자 터치: 5×5 판에서 1→50(클래식)·1→25(빠른 모드) 순서대로 터치, 3-2-1, 0.01초 시계, 틀린 터치 +0.5초, 모드별 최고 기록 + 실제 상위 %(submit_score `1to50-50`/`1to50-25`, 비교할 기록 있을 때만) | `check-1to50.js` (+ `flow-test.js`) |
 | zombie | apps/zombie | 좀비 생존 테스트(할로윈): 상황 12개 × 4지선다 → 생존자 역할 8종 결과 페이지 r/<id>.html(전수 계산 11.6~13.2%), 생존 예보(말로만)·기술·약점·생존 팁, 최고/최악의 파트너 링크 없음, "같은 역할 N%"(poll zombie, 20명 이상) | `check-zombie.js` (+ `flow-test.js`) |
+| wordcount | apps/wordcount | 글자수 세기: 공백 포함·제외 글자수(grapheme), 단어(Intl.Segmenter), 문장·문단·줄, 바이트(UTF-8·나이스 3바이트·완성형 2바이트), 읽기·말하기 시간, 목표 글자수 막대, 키워드 상위 5, 줄 정리·되돌리기, 글은 이 기기 localStorage 에만(서버·주소 X) | `check-wordcount.js` (+ `check-flow.js`) |
+| yesno | apps/yesno | 예스 노 결정기: 질문(기기 안에만) → YES/NO · YES/NO/글쎄 · 신비한 구슬 답 12개 · 3판 2선승/5판 3선승, crypto 거부 샘플링으로 먼저 결정 후 연출, 최근 10개 기록, '이 답 공유하기'만 #d= 에 질문 포함 | `check-yesno.js` |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

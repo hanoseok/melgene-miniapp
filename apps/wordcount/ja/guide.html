@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>文字数カウントの使い方：空白・改行・バイト数の数え方</title>
+<meta name="description" content="文字数カウントで空白込み・なしの文字数、単語数、バイト数をどう数えるか、Word やサイトで数字がずれる理由、原稿用紙やエントリーシート、X の文字数制限、字数に合わせて書くコツ。">
+<link rel="canonical" href="https://wordcount.example.com/ja/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="文字数カウントの使い方：空白・改行・バイト数の数え方">
+<meta property="og:description" content="文字数カウントで空白込み・なしの文字数、単語数、バイト数をどう数えるか、Word やサイトで数字がずれる理由、原稿用紙やエントリーシート、X の文字数制限、字数に合わせて書くコツ。">
+<meta property="og:image" content="https://wordcount.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/ja/guide.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/ja/guide.html#article","headline":"文字数カウントガイド：何を数えるのか、なぜずれるのか、字数制限に合わせるコツ","description":"文字数カウントで空白込み・なしの文字数、単語数、バイト数をどう数えるか、Word やサイトで数字がずれる理由、原稿用紙やエントリーシート、X の文字数制限、字数に合わせて書くコツ。","inLanguage":"ja","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"mainEntityOfPage":"https://wordcount.example.com/ja/guide.html","url":"https://wordcount.example.com/ja/guide.html","about":{"@type":"WebApplication","name":"文字数カウント","url":"https://wordcount.example.com/ja/"},"image":"https://wordcount.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"文字数カウント","item":"https://wordcount.example.com/ja/"},{"@type":"ListItem","position":3,"name":"文字数カウントガイド：何を数えるのか、なぜずれるのか、字数制限に合わせるコツ","item":"https://wordcount.example.com/ja/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/ja/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><span class="mg-top-app">文字数カウント</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/ja/">メルジン ミニアプリ</a><span aria-hidden="true">›</span><a href="./">文字数カウント</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>文字数カウント</p>
+    <h1>文字数カウントガイド：何を数えるのか、なぜずれるのか、字数制限に合わせるコツ</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">更新日 2026年10月15日</time></p>
+    <p class="mg-art-intro">エントリーシートの「400字以内」、レポートの「2000字程度」、X の140字（全角）など、文字数の制限はどこにでもあります。書きながら今何文字かがすぐ分かれば、締め切り直前にあわてて削る必要はありません。このガイドでは、文字数カウントの使い方、それぞれの数字の数え方、ツールやサイトによって数字が少し違う理由、よく出会う制限、そして目標の字数に気持ちよく合わせるコツをまとめました。</p>
+    <section>
+      <h2>文字数カウントの使い方</h2>
+      <p>入力欄に直接書くか、ほかの場所からコピーした文章を貼り付けてください。入力欄の上の紺色のバーには、よく確認する4つの数字（空白込みの文字数、空白なしの文字数、単語数、バイト数）が表示されます。長い文章をスクロールしながら直しても、バーが画面の上についてくるので数字を見失いません。下の「詳しい数字」には、文の数、段落、行数、読む時間と話す時間の目安もあります。</p>
+      <p>制限のある文章なら、目標文字数で500・1000・1500字を選ぶか、自由に数字を入れてください。書くほどバーが伸び、残りわずかでオレンジ、超えると赤に変わって、あと何文字か、何文字削ればいいかを教えてくれます。「空白も数える」スイッチで、目標を空白込みと空白なしのどちらで見るか選べます。書き終えたら「結果を見る」でコピーしやすいまとめが表示されます。</p>
+      <ul>
+        <li>文章を入力・貼り付けると1文字ごとに数字が変わります。</li>
+        <li>目標文字数を決め、空白を数えるかどうかを選びます。</li>
+        <li>提出先に合わせてバイトの数え方（UTF-8・UTF-8 + CRLF・2バイト換算）を選びます。</li>
+        <li>貼り付けた文章は「空白を整理」「改行を削除」で整え、間違えたら「元に戻す」。</li>
+        <li>書きかけの文章はこのブラウザにだけ保存され、再読み込みしても残ります。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>それぞれの数字の数え方</h2>
+      <p>空白込みの文字数は、目に見える1文字ずつに、スペースと改行を加えた数です。改行1回は1文字として数えます。濁点付きの「が」、絵文字の国旗や家族の絵文字のように複数の符号が合わさったものも、画面で1文字に見えれば1文字です。空白なしの文字数は、そこからスペース・タブ・改行をすべて除いた数です。全角スペースも空白として扱います。</p>
+      <p>単語数はブラウザに入っている言語ごとの単語分割機能で数えます。日本語は単語の間にスペースがないので、辞書を使って「今日｜は｜晴れ｜です」のように区切ります。文の数は「。」「？」「！」やピリオドで区切り、段落は空行で分かれたまとまり、行数は空でない行の数です。</p>
+      <p>読む時間は1分に約500字、話す時間は1分に約300字で計算しています。アナウンサーが原稿を読む速さがおよそ1分300字といわれるので、スピーチや動画の台本の長さを決めるときの目安になります。</p>
+      <ul>
+        <li>UTF-8：半角英数字とスペースは1バイト、ひらがな・カタカナ・漢字は3バイト、絵文字の多くは4バイト、改行は1バイト。</li>
+        <li>UTF-8 + CRLF：UTF-8 と同じですが、改行1回を2バイトとして数えます（Windows のテキストと同じ）。</li>
+        <li>2バイト換算：半角は1バイト、全角は2バイト、改行は2バイト（Shift_JIS 風の数え方）。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Word やサイトで文字数がずれる理由</h2>
+      <p>文字数の数え方に決まった公式ルールはないので、数文字の差はよくあることです。Word の「文字数（スペースを含める）」は改行を数えませんが、Web のフォームでは改行を1文字や2文字として数えることがあります。絵文字1つを2文字以上と数えるサイトもあり、貼り付けたときに改行や末尾の空白を書き換えるフォームもあります。</p>
+      <p>いちばん安全なのは、提出先の注意書きを先に読み、こちらの設定（空白を数えるか、バイトの数え方）をそれに合わせ、上限ぴったりではなく数文字の余裕を残すことです。最後は実際の入力欄に貼り付けて、サイトが表示する数字も確認しましょう。</p>
+    </section>
+    <section>
+      <h2>よく出会う制限：原稿用紙・エントリーシート・SNS</h2>
+      <p>作文や小論文は400字詰めの原稿用紙で数えることがよくあります。原稿用紙では句読点もかっこも1マスを使い、段落の最初は1マス空け、段落の終わりで余ったマスもそのページの分量に入ります。そのため「原稿用紙1枚分」は、実際の文字数では400字より少なくなります。行頭に句読点が来るときは前の行の最後のマスに入れる、といった決まりもあります。</p>
+      <p>一方、Web のエントリーシートは「400字以内」のように入力欄の文字数で数えるので、このツールの空白込みの数字がそのまま目安になります。「8割以上は書く」がよく言われる目安です。</p>
+      <p>SNS にも上限があります。X は半角280文字までですが、全角の日本語は1文字を2と数えるので、日本語なら140文字までです。検索結果に表示される説明文は、スマートフォンでは最初の数十文字しか見えないことが多いので、大事なことを先に書きましょう。</p>
+      <ul>
+        <li>X（旧 Twitter）：全角140文字（半角280文字）。</li>
+        <li>Instagram のキャプション：2200文字。</li>
+        <li>YouTube：タイトル100文字、概要欄5000文字。</li>
+        <li>SMS：全角70文字（半角英数字なら160文字）。</li>
+        <li>原稿用紙：400字詰め（20字×20行）。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>字数に合わせて書くコツ</h2>
+      <p>まずは数字を見ずに言いたいことを全部書いてから削りましょう。短い文章を水増しするより、長い文章を削るほうが引き締まった文章になります。設問をくり返す書き出し、「〜ということ」「〜することができる」のような回りくどい言い方、「とても」「非常に」などの飾りから削ると、すぐに短くなります。「よく使った言葉」で同じ言葉が何度も出ていたら、強調ではなくくり返しのサインです。</p>
+      <ul>
+        <li>上限の9割から10割を目指しましょう。短すぎると意欲が低く見えることがあります。</li>
+        <li>改行の数え方が違うフォームに備えて、数文字の余裕を残しましょう。</li>
+        <li>PDF やメールから貼り付けた文章は「空白を整理」で余分な空白と空行を消しましょう。</li>
+        <li>スピーチ原稿は声に出して読み、「話す時間」を確認しましょう。</li>
+        <li>ここの下書きはこのブラウザだけにあるので、完成版は別の場所にも保存しましょう。</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>今すぐ文字数を数える</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> メルジン ミニアプリ · <a href="./">文字数カウント</a> · <a href="privacy.html">プライバシーポリシー</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

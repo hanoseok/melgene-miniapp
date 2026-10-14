@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'wordcount',
+        kicker: "Schreibtool",
+        headline: "Zeichen und Wörter live zählen",
+        blurb: "Mit oder ohne Leerzeichen, Bytes, Lesezeit, Ziel-Limit.",
+      },
+      {
+        id: 'yesno',
+        kicker: "Unentschlossen?",
+        headline: "Frag das Ja-oder-Nein-Orakel",
+        blurb: "Frage eintippen, einmal tippen, faire Zufallsantwort.",
+      },
+      {
         id: '1to50',
         kicker: "Tempo-Duell",
         headline: "Tippe 1 bis 50 so schnell du kannst",

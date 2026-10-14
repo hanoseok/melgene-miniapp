@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>字数统计指南：含空格、不含空格和字节数怎么算</title>
+<meta name="description" content="在线字数统计如何计算含空格/不含空格字数、词数和字节数，为什么 Word 和各网站的字数不一样，论文、社交平台等常见字数限制，以及按字数要求写作的技巧。">
+<link rel="canonical" href="https://wordcount.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="字数统计指南：含空格、不含空格和字节数怎么算">
+<meta property="og:description" content="在线字数统计如何计算含空格/不含空格字数、词数和字节数，为什么 Word 和各网站的字数不一样，论文、社交平台等常见字数限制，以及按字数要求写作的技巧。">
+<meta property="og:image" content="https://wordcount.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/zh/guide.html#article","headline":"字数统计指南：统计什么、为什么会不一样、怎样写到刚好的字数","description":"在线字数统计如何计算含空格/不含空格字数、词数和字节数，为什么 Word 和各网站的字数不一样，论文、社交平台等常见字数限制，以及按字数要求写作的技巧。","inLanguage":"zh","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://wordcount.example.com/zh/guide.html","url":"https://wordcount.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"字数统计","url":"https://wordcount.example.com/zh/"},"image":"https://wordcount.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"字数统计","item":"https://wordcount.example.com/zh/"},{"@type":"ListItem","position":3,"name":"字数统计指南：统计什么、为什么会不一样、怎样写到刚好的字数","item":"https://wordcount.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/zh/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">字数统计</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/zh/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">字数统计</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>字数统计</p>
+    <h1>字数统计指南：统计什么、为什么会不一样、怎样写到刚好的字数</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">更新于 2026年10月15日</time></p>
+    <p class="mg-art-intro">论文要求“不少于 3000 字”，申请文书限制“500 字以内”，社交平台的标题只能写二十来个字，字数限制随处可见。边写边看到现在有多少字，就不用在截止前手忙脚乱地删改。本指南介绍字数统计工具的用法、每个数字的计算方法、不同工具和网站结果略有差别的原因、常见的字数限制，以及轻松写到目标字数的小技巧。</p>
+    <section>
+      <h2>字数统计怎么用</h2>
+      <p>直接在输入框里写，或者把别处复制的文字粘贴进来。输入框上方的深蓝色栏显示最常看的四个数字：含空格字数、不含空格字数、词数和字节数。修改长文时往下滚动，这一栏会一直停在屏幕上方。下面的“详细统计”里还有句数、段落、行数，以及阅读时间和朗读时间的估算。</p>
+      <p>如果有字数要求，可以在“目标字数”里选 500、1000、1500 字，或自己输入数字。写得越多进度条越满，快到上限时变成橙色，超出后变成红色，并告诉你还剩多少字、需要删掉多少字。用“计入空格”开关决定目标按含空格还是不含空格计算。写完点“查看结果”，就能得到一份方便复制的汇总。</p>
+      <ul>
+        <li>输入或粘贴文字，每打一个字数字都会更新。</li>
+        <li>设定目标字数，并选择是否计入空格。</li>
+        <li>按提交平台的要求选择字节算法：UTF-8、UTF-8 + CRLF 或双字节(GBK)。</li>
+        <li>粘贴来的文字可以用“整理空格”“去掉换行”清理，误操作就点“撤销”。</li>
+        <li>草稿只保存在这个浏览器里，刷新页面也不会丢。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>每个数字是怎么算的</h2>
+      <p>含空格字数是屏幕上看到的每一个字，加上空格和换行，每个换行算 1 个字。汉字、标点、带声调的拼音字母，以及由多个符号组合成的表情（比如国旗、一家人），只要看起来是一个字，就算 1 个。不含空格字数则去掉所有空格、制表符和换行，全角空格也算空格。</p>
+      <p>词数用浏览器内置的分词功能来算。中文词与词之间没有空格，所以会按词典切分，例如“今天｜天气｜很好”是 3 个词。这和 Word 的“字数”不同：Word 把每个汉字算 1 个字，再加上英文单词数。写中文时请以“含空格字数”或“不含空格字数”为准。句数按句号、问号、感叹号划分，段落是用空行隔开的部分，行数是非空行的数量。</p>
+      <p>阅读时间按每分钟约 500 字估算，朗读或演讲按每分钟约 300 字估算，适合用来估计演讲稿或视频脚本的长度。</p>
+      <ul>
+        <li>UTF-8：英文字母、数字和半角空格 1 字节，汉字 3 字节，大多数表情 4 字节，换行 1 字节。</li>
+        <li>UTF-8 + CRLF：与 UTF-8 相同，但每个换行算 2 字节，和 Windows 文本文件一样。</li>
+        <li>双字节(GBK)：半角 1 字节，汉字和全角符号 2 字节，换行 2 字节。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>为什么和 Word 或网站的字数不一样</h2>
+      <p>字数并没有唯一的官方算法，相差几个字很正常。Word 的“字符数”不计段落标记，“字数”又把英文按单词计算；有些网站把换行算 1 个或 2 个字，有的把一个表情算 2 个字，粘贴时还可能自动删除末尾空格或改变换行。</p>
+      <p>最稳妥的做法是：先看清提交平台的说明，把这里的设置（是否计入空格、字节算法）调成一致，再留出几个字的余量，不要卡在上限上。正式提交前，最好把文字贴进对方的输入框，确认网站显示的数字。</p>
+    </section>
+    <section>
+      <h2>常见的字数限制：论文、申请和社交平台</h2>
+      <p>论文和作业常按 Word 统计的字数要求，例如“正文不少于 8000 字”。申请文书、个人陈述则常给出“500 字以内”这样的上限。不同学校和单位要求不同，有的看含空格字数，有的看中文字数，请按说明调整。</p>
+      <p>社交平台也各有上限，而且会不时调整。X 普通帖子 280 个字符，但中文、日文、韩文每个字按 2 计算，所以大约 140 个汉字。手机短信一条最多 70 个汉字，超过会被拆成多条。</p>
+      <p>旧系统和部分表单按 GBK 计算字节，一个汉字 2 字节，这时可以切换到“双字节(GBK)”模式查看。</p>
+      <ul>
+        <li>X（推特）：280 个字符，汉字算 2 个。</li>
+        <li>Instagram 正文：2200 个字符。</li>
+        <li>YouTube：标题 100 个字符，简介 5000 个字符。</li>
+        <li>短信：每条 70 个汉字（纯英文 160 个字符）。</li>
+        <li>网页描述（meta description）：建议在 80 个汉字左右。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>按字数要求写作的技巧</h2>
+      <p>先别盯着数字，把想说的都写完再删。把长文删短，往往比把短文凑长写得更紧凑。可以先删掉重复题目的开头、“进行了一个……的过程”这样的套话，以及“非常”“真的”等修饰词。“高频词”里如果同一个词出现五次以上，多半是重复而不是强调。</p>
+      <ul>
+        <li>尽量写到上限的 90% 到 100%，太短会显得不够用心。</li>
+        <li>有的网站换行算法不同，留出几个字的余量。</li>
+        <li>从 PDF 或邮件粘贴来的文字，用“整理空格”去掉多余空格和空行。</li>
+        <li>演讲稿写好后读出声来，对照“朗读时间”。</li>
+        <li>这里的草稿只存在这个浏览器里，定稿请另外保存。</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>现在开始统计字数</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">字数统计</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

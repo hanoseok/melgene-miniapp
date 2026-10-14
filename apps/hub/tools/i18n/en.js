@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'wordcount',
+        kicker: "Writing tool",
+        headline: "Count characters & words live",
+        blurb: "Spaces on or off, bytes, reading time and a target limit.",
+      },
+      {
+        id: 'yesno',
+        kicker: "Can't decide?",
+        headline: "Ask a yes-or-no question",
+        blurb: "Type it, tap once, get a fair random answer.",
+      },
+      {
         id: '1to50',
         kicker: "Speed challenge",
         headline: "Tap 1 to 50 as fast as you can",

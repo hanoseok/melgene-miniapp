@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>글자수 세기 가이드: 공백 포함·제외, 바이트, 자소서 글자수</title>
+<meta name="description" content="글자수 세기에서 공백 포함·제외 글자수, 단어, 바이트를 어떻게 세는지, 워드·한글·사이트마다 숫자가 다른 이유, 자소서·나이스 바이트 규칙과 글자수 맞추는 요령.">
+<link rel="canonical" href="https://wordcount.example.com/ko/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://wordcount.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://wordcount.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://wordcount.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://wordcount.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://wordcount.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://wordcount.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://wordcount.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://wordcount.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://wordcount.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://wordcount.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://wordcount.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://wordcount.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://wordcount.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="멜진 미니앱">
+<meta property="og:title" content="글자수 세기 가이드: 공백 포함·제외, 바이트, 자소서 글자수">
+<meta property="og:description" content="글자수 세기에서 공백 포함·제외 글자수, 단어, 바이트를 어떻게 세는지, 워드·한글·사이트마다 숫자가 다른 이유, 자소서·나이스 바이트 규칙과 글자수 맞추는 요령.">
+<meta property="og:image" content="https://wordcount.example.com/og/ko/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://wordcount.example.com/ko/guide.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-15">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://wordcount.example.com/ko/guide.html#article","headline":"글자수 세기 가이드: 무엇을 세는지, 왜 다르게 나오는지, 한도에 맞추는 법","description":"글자수 세기에서 공백 포함·제외 글자수, 단어, 바이트를 어떻게 세는지, 워드·한글·사이트마다 숫자가 다른 이유, 자소서·나이스 바이트 규칙과 글자수 맞추는 요령.","inLanguage":"ko","datePublished":"2026-10-15","dateModified":"2026-10-15","author":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"publisher":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"mainEntityOfPage":"https://wordcount.example.com/ko/guide.html","url":"https://wordcount.example.com/ko/guide.html","about":{"@type":"WebApplication","name":"글자수 세기","url":"https://wordcount.example.com/ko/"},"image":"https://wordcount.example.com/og/ko/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"멜진 미니앱","item":"https://example.com/ko/"},{"@type":"ListItem","position":2,"name":"글자수 세기","item":"https://wordcount.example.com/ko/"},{"@type":"ListItem","position":3,"name":"글자수 세기 가이드: 무엇을 세는지, 왜 다르게 나오는지, 한도에 맞추는 법","item":"https://wordcount.example.com/ko/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="멜진 미니앱 홈으로"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">미니앱</span></a><span class="mg-top-app">글자수 세기</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="언어 선택"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko" selected>한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="언어 선택"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">멜진 미니앱</a><span aria-hidden="true">›</span><a href="./">글자수 세기</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">📝</span>글자수 세기</p>
+    <h1>글자수 세기 가이드: 무엇을 세는지, 왜 다르게 나오는지, 한도에 맞추는 법</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-15">업데이트 2026년 10월 15일</time></p>
+    <p class="mg-art-intro">자기소개서 문항은 &quot;공백 포함 1,000자 이내&quot;, 학교생활기록부는 &quot;1,500바이트&quot;, SNS는 &quot;280자&quot;처럼 글자수 한도는 어디에나 있어요. 쓰는 동안 지금 몇 자인지 바로 보이면 마감 직전에 허둥지둥 줄일 일이 없죠. 이 글에서는 글자수 세기를 쓰는 법, 숫자마다 어떻게 세는지, 프로그램과 사이트마다 숫자가 조금씩 다른 이유, 자주 만나는 한도, 그리고 목표 글자수에 편하게 맞추는 요령을 정리했어요.</p>
+    <section>
+      <h2>글자수 세기 사용법</h2>
+      <p>입력 칸에 바로 쓰거나 다른 곳에서 복사한 글을 붙여 넣으면 됩니다. 입력 칸 위의 남색 막대에는 가장 많이 보는 네 숫자, 즉 공백 포함 글자수, 공백 제외 글자수, 단어(어절) 수, 바이트가 나와요. 긴 글을 고치며 스크롤해도 막대가 따라 내려오니 숫자를 계속 확인할 수 있어요. 아래 &quot;자세한 숫자&quot;에는 문장, 문단, 줄 수와 읽는 시간·말하는 시간 어림값이 더 있어요.</p>
+      <p>한도가 있는 글이라면 목표 글자수에서 500·1,000·1,500자를 고르거나 직접 숫자를 넣으세요. 쓰는 만큼 막대가 차오르고, 끝에 가까우면 주황색, 넘으면 빨간색으로 바뀌며 몇 자 남았는지, 몇 자 줄여야 하는지 알려 줘요. &quot;공백 포함&quot; 스위치로 한도를 공백 포함 글자수로 볼지 공백 제외로 볼지 고를 수 있어요. 다 쓰면 &quot;결과 보기&quot;를 눌러 복사하기 좋은 요약을 받으세요.</p>
+      <ul>
+        <li>글을 쓰거나 붙여 넣으면 한 글자마다 숫자가 바뀌어요.</li>
+        <li>목표 글자수를 정하고 공백을 셀지 고르세요.</li>
+        <li>제출할 곳에 맞게 바이트 기준(UTF-8·나이스·완성형 2바이트)을 고르세요.</li>
+        <li>붙여 넣은 글은 &quot;공백 정리&quot;, &quot;줄바꿈 없애기&quot;로 다듬고, 실수하면 &quot;되돌리기&quot;.</li>
+        <li>쓰던 글은 이 브라우저에만 저장돼서 새로고침해도 남아 있어요.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>숫자마다 이렇게 셉니다</h2>
+      <p>공백 포함 글자수는 눈에 보이는 글자 하나하나에 띄어쓰기와 줄바꿈까지 더한 값이에요. 엔터 한 번은 1자로 셉니다. 한글 음절 &quot;각&quot;, 악센트가 붙은 é, 국기나 여러 글자가 합쳐진 가족 이모지도 화면에 한 글자로 보이면 1자로 세요. 공백 제외 글자수는 여기서 띄어쓰기, 탭, 줄바꿈을 모두 뺀 값이에요.</p>
+      <p>단어는 브라우저에 들어 있는 언어별 단어 나누기 기능으로 셉니다. 한국어는 띄어쓰기 단위인 어절로 세서 &quot;AI는&quot;, &quot;2026년&quot;처럼 붙어 있는 덩어리는 1개예요. 중국어·일본어·태국어처럼 띄어쓰기가 없는 언어는 사전으로 단어 경계를 찾아요. 문장은 마침표, 물음표, 느낌표에서 끝나고, 문단은 빈 줄로 나뉜 덩어리, 줄은 비어 있지 않은 줄 수예요.</p>
+      <p>읽는 시간은 한글 1분에 약 500자, 말하는 시간은 1분에 약 300자를 기준으로 어림해요. 발표나 영상 대본을 준비할 때 &quot;1분 스피치는 공백 포함 300자 안팎&quot;이라는 감을 잡는 데 쓰면 좋아요. 영어 같은 띄어 쓰는 언어는 1분에 읽기 238단어, 말하기 150단어로 계산해요.</p>
+      <ul>
+        <li>UTF-8: 영문·숫자·공백 1바이트, 한글·한자 3바이트, 이모지 대부분 4바이트, 줄바꿈 1바이트.</li>
+        <li>나이스(NEIS): UTF-8과 같지만 엔터 한 번을 2바이트로 셉니다(학교생활기록부 방식).</li>
+        <li>완성형 2바이트: 영문·숫자·공백 1바이트, 한글·한자 2바이트, 엔터 2바이트(EUC-KR 방식).</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>워드·한글·사이트마다 숫자가 다른 이유</h2>
+      <p>글자수를 세는 공식 규칙은 하나가 아니라서 몇 자 차이는 흔해요. 한글(HWP)과 MS 워드는 문단 끝 표시를 글자수에 넣지 않는 경우가 많지만, 채용 사이트 입력 칸은 엔터를 1자나 2자로 세기도 해요. 어떤 사이트는 이모지 하나를 2자 이상으로 세고, 붙여 넣을 때 줄바꿈을 바꾸거나 끝 공백을 지우기도 하죠.</p>
+      <p>그래서 가장 안전한 방법은 제출할 사이트의 안내 문구를 먼저 읽고, 여기 설정(공백 포함 여부, 바이트 기준)을 거기에 맞춘 다음, 한도에 딱 맞추기보다 몇 자 여유를 두는 거예요. 최종 제출 전에는 실제 입력 칸에 붙여 넣어 사이트가 보여 주는 숫자도 한 번 확인하세요.</p>
+    </section>
+    <section>
+      <h2>자주 만나는 한도: 자소서·나이스·SNS</h2>
+      <p>자기소개서는 문항마다 &quot;공백 포함 500자&quot;, &quot;1,000자 이내&quot;처럼 글자수로 한도를 주는 경우가 많고, 일부 기업은 바이트로 정하기도 해요. 바이트로 정했다면 한글이 2바이트인지 3바이트인지 확인하세요. 옛 EUC-KR 기반 시스템은 한글 2바이트라서 &quot;완성형 2바이트&quot; 모드가 그 방식에 가까워요.</p>
+      <p>학교생활기록부(나이스)는 한글 3바이트, 영문·숫자·공백 1바이트, 엔터 2바이트로 셉니다. 그래서 &quot;500자&quot; 항목은 보통 1,500바이트로 안내돼요. 줄바꿈을 많이 넣으면 생각보다 빨리 한도에 닿으니, 나이스 모드로 바꿔서 확인하세요.</p>
+      <p>SNS와 검색 화면에도 한도가 있어요. X(트위터)는 280자지만 한글·한자·가나는 2자로 쳐서 한글로는 약 140자까지 들어가요. 검색 결과에 보이는 설명 글은 보통 앞부분 일부만 보이니 핵심을 앞에 두세요.</p>
+      <ul>
+        <li>X(트위터): 280자, 한글은 1자를 2로 계산.</li>
+        <li>인스타그램 본문: 2,200자.</li>
+        <li>유튜브: 제목 100자, 설명 5,000자.</li>
+        <li>문자 메시지: 단문 90바이트(한글 약 45자), 넘으면 장문(LMS).</li>
+        <li>학생부 세부능력 및 특기사항: 보통 500자(1,500바이트).</li>
+      </ul>
+    </section>
+    <section>
+      <h2>글자수에 맞춰 쓰는 요령</h2>
+      <p>처음에는 숫자를 보지 말고 하고 싶은 말을 다 쓴 뒤 줄이세요. 짧은 글을 늘리는 것보다 긴 글을 줄이는 쪽이 훨씬 단단한 글이 돼요. 질문을 되풀이하는 첫 문장, &quot;~라고 생각합니다&quot; 같은 군더더기, &quot;정말&quot;, &quot;매우&quot; 같은 꾸밈말부터 지우면 금방 줄어요. &quot;자주 쓴 단어&quot;에서 같은 단어가 다섯 번 넘게 나오면 강조가 아니라 반복일 가능성이 커요.</p>
+      <ul>
+        <li>한도의 90~100%를 채우세요. 너무 짧으면 성의가 없어 보일 수 있어요.</li>
+        <li>엔터를 다르게 세는 사이트를 대비해 몇 자 여유를 두세요.</li>
+        <li>PDF나 메일에서 붙여 넣은 글은 &quot;공백 정리&quot;로 겹친 공백과 빈 줄을 정리하세요.</li>
+        <li>발표 원고는 소리 내어 읽어 보고 &quot;말하는 시간&quot;을 확인하세요.</li>
+        <li>여기 초안은 이 브라우저에만 있으니 완성본은 따로 저장해 두세요.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">📝</span>지금 글자수 세기</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 멜진 미니앱 · <a href="./">글자수 세기</a> · <a href="privacy.html">개인정보처리방침</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

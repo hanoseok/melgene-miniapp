@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'wordcount',
+        kicker: "글쓰기 도구",
+        headline: "글자수, 쓰는 동안 바로 세기",
+        blurb: "공백 포함·제외, 바이트, 목표 글자수까지 한눈에.",
+      },
+      {
+        id: 'yesno',
+        kicker: "결정 장애 해결",
+        headline: "고민될 땐 예스 노로 정하기",
+        blurb: "질문 하나 적고 탭 한 번. 공정한 무작위 답.",
+      },
+      {
         id: '1to50',
         kicker: "손 빠르기 대결",
         headline: "1부터 50까지 가장 빠르게",
