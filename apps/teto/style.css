@@ -1,0 +1,319 @@
+/* apps/teto/style.css — 테토·에겐 테스트: 크림색 바탕에 테토(따뜻한 주황)·에겐(분홍) 두 빛이 섞이는 밝고 다정한 톤.
+ * 그림 = 반은 테토색·반은 에겐색인 에너지 구슬. 결과 페이지는 그 유형 색(--c-*)으로 카드·이름·강점이 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --cream: #fff6ee;
+  --cream-2: #fff0f4;
+  --teto: #ff7a45;
+  --teto-deep: #d9531f;
+  --egen: #f78fc4;
+  --egen-deep: #c94f8f;
+  --ink: #2b1d22;
+  --ink-dim: rgba(43, 29, 34, 0.74);
+  --ink-faint: rgba(43, 29, 34, 0.5);
+  --card: rgba(255, 255, 255, 0.72);
+  --line: rgba(43, 29, 34, 0.12);
+  /* 유형 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #ff7a45;
+  --c-deep: #b8320f;
+  --c-ink: #fff1ec;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: linear-gradient(90deg, var(--teto), var(--egen));
+  --mg-top-badge-fg: #ffffff;
+  --lang-bg: rgba(255, 255, 255, 0.8);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(43, 29, 34, 0.18);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffb020;
+  --mg-star-off: rgba(43, 29, 34, 0.16);
+  --mg-heart-bg: rgba(247, 143, 196, 0.12);
+  --mg-heart-border: rgba(201, 79, 143, 0.4);
+  --mg-heart-fg: #c94f8f;
+  --mg-heart-on: #e0457f;
+  --mg-share-bg: rgba(255, 255, 255, 0.8);
+  --mg-share-border: rgba(43, 29, 34, 0.14);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 255, 255, 0.75);
+  --mg-faq-border: rgba(43, 29, 34, 0.12);
+  --mg-end-retry-bg: linear-gradient(90deg, var(--teto), var(--egen));
+  --mg-end-retry-fg: #ffffff;
+  --toast-bg: rgba(43, 29, 34, 0.92);
+}
+
+html { background: var(--cream); }
+body.tt-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.tt-result-page {
+  background:
+    radial-gradient(ellipse 120% 40% at 50% -6%, color-mix(in srgb, var(--c-main) 20%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%) fixed;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.tt-h1, .tt-kicker, .tt-h1-main, .tt-h1-main em, .tt-badge, .tt-btn, .tt-q-text, .tt-q-num, .tt-result-name, .tt-eyebrow, .tt-vibe, .tt-sub,
+.tt-pair-name, .tt-pair-label, .tt-loading-text, .tt-cta strong, .tt-doc h1, .tt-progress-num, .tt-meta span, .tt-gauge-label, .tt-gauge-nums span {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 두 빛 덩어리 + 반짝이 (고정, 가로 넘침 없음) ---------------- */
+.tt-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.tt-blob { position: absolute; width: 340px; height: 340px; border-radius: 50%; filter: blur(48px); opacity: 0.38; animation: tt-breathe 14s ease-in-out infinite alternate; }
+.tt-blob-t { top: -90px; left: calc(50% - 330px); background: var(--teto); }
+.tt-blob-e { bottom: -110px; right: calc(50% - 330px); background: var(--egen); animation-delay: -7s; }
+.tt-spark { position: absolute; width: 10px; height: 10px; background: #ffffff; opacity: 0.85; clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); animation: tt-twinkle 4.5s ease-in-out infinite; }
+.tt-spark-1 { top: 22%; left: 7%; }
+.tt-spark-2 { top: 58%; right: 8%; animation-delay: -1.6s; }
+.tt-spark-3 { top: 86%; left: 18%; animation-delay: -3s; }
+@keyframes tt-breathe { from { transform: scale(0.92) translate(0, 0); } to { transform: scale(1.08) translate(18px, 14px); } }
+@keyframes tt-twinkle { 0%, 100% { transform: scale(0.6); opacity: 0.3; } 50% { transform: scale(1.1); opacity: 0.95; } }
+
+.mg-top, .tt-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.tt-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.tt-screen { padding-top: 12px; }
+
+.tt-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 999px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.tt-btn-primary {
+  background: linear-gradient(90deg, var(--teto), var(--egen));
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(120, 30, 50, 0.25);
+  box-shadow: 0 5px 0 #c4577a, 0 12px 26px rgba(247, 143, 196, 0.35);
+}
+.tt-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #c4577a; }
+.tt-btn:focus-visible, .tt-choice:focus-visible, .tt-back:focus-visible { outline: 3px dashed var(--teto-deep); outline-offset: 4px; }
+
+/* ---------------- 그림: 에너지 구슬 + 이모지 ---------------- */
+.tt-hero { position: relative; display: grid; place-items: center; width: 184px; height: 184px; margin: 8px auto 0; }
+.tt-orb {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 10px 18px color-mix(in srgb, var(--h-main) 30%, transparent));
+  animation: tt-spin 36s linear infinite;
+}
+.tt-emo {
+  position: relative; font-size: 76px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: tt-bob 2.6s ease-in-out infinite;
+}
+.tt-q {
+  position: absolute; right: 4px; top: 4px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #ffffff; color: var(--egen-deep); border: 3px solid var(--egen);
+  font: 900 28px/1 'Nunito', sans-serif;
+  box-shadow: 0 4px 10px rgba(201, 79, 143, 0.25);
+  animation: tt-bob 2.2s ease-in-out infinite reverse;
+}
+@keyframes tt-spin { to { transform: rotate(360deg); } }
+@keyframes tt-bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-5px) rotate(4deg); } }
+.tt-hero-loading { width: 168px; height: 168px; margin-bottom: 14px; }
+.tt-hero-loading .tt-emo { font-size: 70px; animation-duration: 0.8s; }
+.tt-hero-loading .tt-orb { animation-duration: 3s; }
+.tt-hero-result { width: 172px; height: 172px; margin: 0 auto; }
+.tt-hero-result .tt-emo { font-size: 72px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.tt-start { text-align: center; padding-top: 16px; }
+.tt-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 5px 14px; border-radius: 999px;
+  background: #ffffff; border: 1.5px solid rgba(247, 143, 196, 0.6);
+  color: var(--egen-deep); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+  box-shadow: 0 3px 10px rgba(247, 143, 196, 0.18);
+}
+.tt-h1 { margin: 10px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.tt-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--teto-deep); }
+.tt-h1-main { display: block; font-size: 36px; line-height: 1.2; color: var(--ink); }
+.tt-h1-main em {
+  font-style: normal;
+  background: linear-gradient(90deg, var(--teto-deep), var(--egen-deep));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.tt-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.tt-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.tt-meta span { padding: 4px 12px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.tt-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.tt-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1.5px solid var(--line); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.tt-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(43, 29, 34, 0.08); overflow: hidden; }
+.tt-progress-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--teto), var(--egen)); transition: width 0.3s ease; }
+.tt-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.tt-q-card {
+  position: relative;
+  padding: 20px 16px 16px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--line);
+  box-shadow: 0 14px 34px rgba(201, 79, 143, 0.12);
+  animation: tt-in 0.28s ease;
+}
+@keyframes tt-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.tt-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.tt-q-emoji { font-size: 28px; line-height: 1; }
+.tt-q-num { font-size: 17px; color: var(--teto-deep); font-weight: var(--display-weight); }
+.tt-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.tt-choices { display: flex; flex-direction: column; gap: 10px; }
+.tt-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(43, 29, 34, 0.14);
+  border-radius: 16px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .tt-choice:hover { border-color: var(--egen); background: #fff7fb; } }
+.tt-choice:active { transform: scale(0.985); }
+.tt-choice.is-picked { border-color: var(--egen-deep); background: linear-gradient(90deg, rgba(255, 122, 69, 0.12), rgba(247, 143, 196, 0.18)); box-shadow: 0 0 0 2px rgba(247, 143, 196, 0.45); }
+.tt-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 계산 중 ---------------- */
+.tt-loading { text-align: center; padding: 40px 0; }
+.tt-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); }
+.tt-loading-sub { margin: 0; font-size: 14px; color: var(--egen-deep); }
+
+/* ---------------- 결과 ---------------- */
+.tt-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 18px; border: 1.5px solid rgba(255, 122, 69, 0.5);
+  background: rgba(255, 255, 255, 0.85); color: var(--ink); text-decoration: none;
+}
+.tt-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.tt-cta-text strong { font-size: 17px; font-weight: var(--display-weight); color: var(--teto-deep); }
+.tt-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.tt-cta-arrow { font-size: 22px; color: var(--teto-deep); }
+
+.tt-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff, var(--c-ink));
+  border: 1.5px solid color-mix(in srgb, var(--c-main) 40%, transparent);
+  border-radius: 24px;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--c-main) 18%, transparent);
+}
+.tt-tape {
+  position: absolute; top: -10px; left: 50%; width: 110px; height: 20px; margin-left: -55px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--teto), var(--egen)); transform: rotate(-2deg);
+  box-shadow: 0 2px 6px rgba(201, 79, 143, 0.25);
+}
+.tt-eyebrow { margin: 6px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.tt-result-title { margin: 6px 0 0; line-height: 1.2; }
+.tt-result-name { display: block; font-size: 33px; font-weight: var(--display-weight); line-height: 1.2; color: var(--c-deep); overflow-wrap: break-word; }
+.tt-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--ink); }
+
+/* 내 테토/에겐 게이지 (방금 푼 사람만) */
+.tt-gauge { margin: 16px 0 0; padding: 12px 14px 10px; border-radius: 18px; background: #ffffff; border: 1px solid var(--line); text-align: left; }
+.tt-gauge-label { display: block; font-size: 14px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 8px; }
+.tt-gauge-bar { display: flex; height: 18px; border-radius: 999px; overflow: hidden; background: rgba(43, 29, 34, 0.08); }
+.tt-gauge-teto { display: block; height: 100%; background: linear-gradient(90deg, var(--teto-deep), var(--teto)); transition: width 0.8s ease; }
+.tt-gauge-egen { display: block; height: 100%; background: linear-gradient(90deg, var(--egen), var(--egen-deep)); transition: width 0.8s ease; }
+.tt-gauge-nums { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: 16px; font-weight: var(--display-weight); }
+.tt-gauge-t { color: var(--teto-deep); }
+.tt-gauge-e { color: var(--egen-deep); }
+
+.tt-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: #ffffff; border: 1.5px dashed color-mix(in srgb, var(--c-main) 60%, transparent);
+  color: var(--c-deep); font-size: 13.5px; font-weight: 700;
+}
+.tt-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.tt-sub { margin: 16px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; line-height: 1.3; }
+.tt-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.tt-chips li {
+  padding: 5px 12px; border-radius: 999px;
+  background: color-mix(in srgb, var(--c-main) 14%, #ffffff); border: 1px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  color: var(--ink); font-size: 14px; font-weight: 700; line-height: 1.35;
+}
+.tt-notes { display: grid; gap: 10px; margin-top: 14px; text-align: left; }
+.tt-note { padding: 2px 14px 12px; border-radius: 16px; background: rgba(255, 255, 255, 0.85); border: 1px dashed rgba(43, 29, 34, 0.18); }
+.tt-note .tt-sub { margin: 10px 0 4px; font-size: 16px; }
+.tt-note p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-dim); }
+.tt-note-weak .tt-sub { color: #7a5a66; }
+.tt-note-tip { border-color: color-mix(in srgb, var(--c-main) 45%, transparent); }
+
+/* 찰떡 케미 / 티격태격 라이벌: 보여주기만 (링크 아님, 누를 수 있어 보이는 모양 없음) */
+.tt-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.tt-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  min-width: 0; padding: 12px 8px 14px;
+  border-radius: 18px; text-align: center;
+  background: var(--card); border: 1px dashed rgba(43, 29, 34, 0.2);
+  cursor: default;
+}
+.tt-pair-label { font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.tt-pair-art { display: grid; place-items: center; width: 64px; height: 64px; }
+.tt-mini {
+  display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%;
+  background: var(--h-ink); border: 3px dashed var(--h-main);
+  font-size: 28px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.tt-pair-name { font-size: 16px; font-weight: var(--display-weight); line-height: 1.3; color: var(--c-deep); overflow-wrap: break-word; max-width: 100%; }
+
+/* ---------------- 개인정보 ---------------- */
+.tt-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.tt-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.tt-doc h2 { font-size: 17px; color: var(--teto-deep); margin: 22px 0 6px; }
+.tt-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .tt-body { line-height: 1.75; }
+html:lang(th) :is(.tt-h1-main, .tt-result-name, .tt-q-text, .tt-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.tt-kicker, .tt-badge, .tt-gauge-label) { letter-spacing: 0; }
+html:lang(vi) :is(.tt-h1-main, .tt-result-name, .tt-q-text) { line-height: 1.4; }
+html:lang(ru) .tt-doc h1 { line-height: 1.25; }
+html:lang(ja) :is(.tt-h1-main, .tt-result-name, .tt-q-text, .tt-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.tt-h1-main, .tt-result-name, .tt-q-text, .tt-vibe, .tt-hook, .tt-desc, .tt-note p) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .tt-h1-main { font-size: 31px; }
+  .tt-result-name { font-size: 29px; }
+  .tt-q-text { font-size: 19px; }
+  .tt-hero-result { width: 156px; height: 156px; }
+  .tt-hero-result .tt-emo { font-size: 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tt-blob, .tt-spark, .tt-orb, .tt-emo, .tt-q, .tt-q-card { animation: none !important; }
+  .tt-progress-fill, .tt-btn, .tt-choice, .tt-gauge-teto, .tt-gauge-egen { transition: none; }
+}

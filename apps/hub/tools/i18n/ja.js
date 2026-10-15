@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'memory',
+        kicker: "ハロウィン記憶ゲーム",
+        headline: "カードをめくってペアを探そう",
+        blurb: "かぼちゃやおばけの神経衰弱。2枚ずつめくって全部そろえよう。",
+      },
+      {
+        id: 'teto',
+        kicker: "韓国で話題の診断",
+        headline: "あなたはテト？エゲン？",
+        blurb: "日常の12シーン、2分。自分のテト％とエゲン％がわかる。",
+      },
+      {
         id: 'wordcount',
         kicker: "文章ツール",
         headline: "文字数を入力しながらカウント",

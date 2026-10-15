@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'memory',
+        kicker: "할로윈 기억력 게임",
+        headline: "카드를 뒤집어 같은 짝을 찾아요",
+        blurb: "호박·유령·박쥐가 숨은 카드, 두 장씩 뒤집어 짝 맞추기!",
+      },
+      {
+        id: 'teto',
+        kicker: "요즘 화제 심리테스트",
+        headline: "나는 테토일까, 에겐일까?",
+        blurb: "일상 상황 12개, 2분. 내 답으로 재는 테토·에겐 비율.",
+      },
+      {
         id: 'wordcount',
         kicker: "글쓰기 도구",
         headline: "글자수, 쓰는 동안 바로 세기",

@@ -1,0 +1,269 @@
+/* apps/memory/style.css — 카드 짝 맞추기: 할로윈 밤 (짙은 보라 바탕 + 호박 주황 + 연두 강조, 카드 뒷면 = 보라 거미줄 무늬, 앞면 = 크림색 + 이모지).
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 숫자(HUD·결과)는 모든 언어에서 Fredoka(--font-num) — 언어별 fonts.css 에 함께 불러온다.
+ * 클래스 앞머리는 mm-(공통 컴포넌트의 mg- 와 겹치지 않게). 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 판은 DOM 격자(.mm-board > .mm-card 버튼) — 열 수는 JS 가 grid-template-columns 로, 판 폭은 난이도(data-level)별로 화면 높이에 맞춘다.
+ */
+:root {
+  --bg-0: #1d1238;
+  --bg-1: #2c1856;
+  --ink: #fff6e8;
+  --ink-dim: rgba(255, 246, 232, 0.82);
+  --ink-faint: rgba(255, 246, 232, 0.62);
+  --orange: #ff8a1f;
+  --orange-deep: #d9620a;
+  --lime: #a6e35a;
+  --violet: #6b3fc4;
+  --violet-deep: #4a2690;
+  --cream: #fff6e8;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-2: rgba(255, 255, 255, 0.11);
+  --line: rgba(255, 246, 232, 0.2);
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --font-num: 'Fredoka', var(--font-sans);
+  --display-weight: 700;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--orange);
+  --mg-top-badge-fg: #1d1238;
+  --lang-bg: #2c1856;
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 246, 232, 0.3);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffc53d;
+  --mg-star-off: rgba(255, 246, 232, 0.22);
+  --mg-heart-bg: rgba(255, 138, 31, 0.1);
+  --mg-heart-border: rgba(255, 138, 31, 0.5);
+  --mg-heart-fg: var(--orange);
+  --mg-heart-on: var(--orange);
+  --mg-share-bg: rgba(255, 255, 255, 0.08);
+  --mg-share-border: rgba(255, 246, 232, 0.22);
+  --mg-share-primary-bg: var(--orange);
+  --mg-share-primary-fg: #1d1238;
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 255, 255, 0.06);
+  --mg-faq-border: rgba(255, 246, 232, 0.2);
+  --mg-end-retry-bg: var(--orange);
+  --mg-end-retry-fg: #1d1238;
+  --toast-bg: rgba(44, 24, 86, 0.97);
+}
+
+html { background: var(--bg-0); color-scheme: dark; }
+body.mm-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 120px, rgba(255, 236, 170, 0.07) 0 150px, transparent 151px),
+    radial-gradient(circle at 10% 30%, rgba(107, 63, 196, 0.35) 0 120px, transparent 121px),
+    linear-gradient(180deg, #160d2c 0%, var(--bg-0) 35%, var(--bg-1) 100%) fixed;
+  background-color: var(--bg-0);
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.mm-h1, .mm-kicker, .mm-h1-main, .mm-h1-main em, .mm-badge, .mm-btn, .mm-how,
+.mm-hud-label, .mm-pause, .mm-level-name,
+.mm-eyebrow, .mm-head, .mm-points, .mm-newbest, .mm-stat dt, .mm-doc h1 {
+  font-family: var(--font-display);
+}
+/* 숫자는 모든 언어에서 같은 둥근 글꼴 */
+.mm-hud-val, .mm-score-big, .mm-stat-num, .mm-top, .mm-best, .mm-level-grid {
+  font-family: var(--font-num); font-weight: 600; font-variant-numeric: tabular-nums;
+}
+.mm-card-front, .mm-hc b, .mm-head-emoji { font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; font-style: normal; font-weight: 400; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.mm-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.mm-screen { padding-top: 12px; }
+
+.mm-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px; padding: 12px 18px;
+  border: 0; border-radius: 16px;
+  font-size: 20px; font-weight: var(--display-weight); line-height: 1.25;
+  cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.mm-btn-primary { background: var(--orange); color: #1d1238; box-shadow: 0 5px 0 var(--orange-deep), 0 10px 24px rgba(255, 138, 31, 0.35); }
+.mm-btn-primary:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--orange-deep), 0 4px 10px rgba(255, 138, 31, 0.3); }
+.mm-btn:focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 (티징) ---------------- */
+.mm-start { text-align: center; padding-top: 14px; }
+.mm-badge {
+  display: inline-block; margin: 0 0 14px; padding: 6px 14px; border-radius: 999px;
+  background: var(--panel); color: var(--ink); border: 1.5px solid var(--line);
+  font-size: 13px; line-height: 1.35;
+}
+.mm-hero { position: relative; display: flex; justify-content: center; height: 104px; margin: 4px auto 0; }
+.mm-hc {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  width: 58px; height: 78px; margin: 0 -6px; border-radius: 12px;
+  background: var(--violet) repeating-radial-gradient(circle at 50% 50%, transparent 0 7px, rgba(255, 246, 232, 0.16) 8px 9px);
+  border: 2.5px solid rgba(255, 246, 232, 0.55); box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+.mm-hc-0 { transform: rotate(-16deg) translateY(14px); }
+.mm-hc-1 { transform: rotate(-8deg) translateY(4px); }
+.mm-hc-3 { transform: rotate(8deg) translateY(4px); }
+.mm-hc-4 { transform: rotate(16deg) translateY(14px); }
+.mm-hc-up { z-index: 1; background: var(--cream); border-color: var(--orange); transform: translateY(-4px) scale(1.12); animation: mm-bob 2.4s ease-in-out infinite; }
+.mm-hc b { font-size: 36px; line-height: 1; }
+@keyframes mm-bob { 0%, 100% { transform: translateY(-4px) scale(1.12) rotate(-3deg); } 50% { transform: translateY(-10px) scale(1.12) rotate(3deg); } }
+.mm-h1 { margin: 16px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.mm-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--orange); color: #1d1238; border-radius: 8px;
+  font-size: 15px; line-height: 1.35; transform: rotate(-1.5deg);
+}
+.mm-h1-main { display: block; font-size: 31px; color: var(--ink); overflow-wrap: break-word; }
+.mm-h1-main em { font-style: normal; color: var(--lime); }
+.mm-hook { margin: 0 auto 18px; max-width: 400px; font-size: 16px; color: var(--ink-dim); }
+.mm-levels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 14px; }
+.mm-level {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 0; min-height: 64px;
+  padding: 8px 4px; border-radius: 14px; cursor: pointer; color: var(--ink);
+  background: #251649; border: 2px solid var(--line); -webkit-tap-highlight-color: transparent;
+}
+.mm-level[aria-checked="true"] { border-color: var(--orange); background: rgba(255, 138, 31, 0.16); box-shadow: 0 0 0 3px rgba(255, 138, 31, 0.22); }
+.mm-level:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; }
+.mm-level-name { font-weight: var(--display-weight); font-size: 16px; line-height: 1.25; overflow-wrap: break-word; max-width: 100%; }
+.mm-level-grid { font-size: 14px; color: var(--orange); }
+.mm-how { margin: 14px 0 0; font-size: 14px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 게임 화면 ---------------- */
+.mm-play { padding-top: 4px; }
+.mm-hud { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 8px; margin: 0 auto 8px; max-width: 440px; }
+.mm-hud-box {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0;
+  padding: 4px 8px 5px; border-radius: 12px; background: #281851; border: 1.5px solid var(--line);
+}
+.mm-hud-label { font-size: 12px; line-height: 1.2; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.mm-hud-val { font-size: 24px; line-height: 1.15; color: var(--ink); white-space: nowrap; }
+.mm-hud-time .mm-hud-val { color: var(--orange); }
+.mm-hud-pairs .mm-hud-val { color: var(--lime); }
+.mm-bar { height: 6px; margin: 0 auto 10px; max-width: 440px; border-radius: 99px; background: rgba(255, 246, 232, 0.12); overflow: hidden; }
+.mm-bar-fill { display: block; width: 0; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--orange), var(--lime)); transition: width 0.2s ease-out; }
+
+/* 판 폭: 화면 높이(타이틀 바·HUD 약 210px 를 뺀 만큼)에 카드 비율을 맞춘다 */
+.mm-field {
+  position: relative; margin: 0 auto;
+  width: min(100%, 440px); min-width: 280px;
+  padding: 8px; border-radius: 20px; background: rgba(0, 0, 0, 0.18); border: 2px solid var(--line);
+}
+.mm-field[data-level="easy"] { width: min(100%, 440px, calc((100vh - 210px) * 4 / 3 * 0.8)); }
+.mm-field[data-level="normal"] { width: min(100%, 440px, calc((100vh - 210px) * 0.85)); }
+.mm-field[data-level="hard"] { width: min(100%, 440px, calc((100vh - 210px) * 4 / 6)); }
+.mm-board {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+  touch-action: manipulation; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+  perspective: 900px;
+}
+.mm-card {
+  position: relative; display: block; min-width: 0; padding: 0; margin: 0; border: 0; background: none;
+  aspect-ratio: 0.8; cursor: pointer; color: inherit;
+  touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+}
+.mm-board[data-level="normal"] .mm-card { aspect-ratio: 0.85; }
+.mm-board[data-level="hard"] .mm-card { aspect-ratio: 1; }
+.mm-card-inner {
+  position: absolute; inset: 0; display: block; border-radius: 12px;
+  transform-style: preserve-3d; transition: transform 0.32s ease;
+}
+.mm-card.is-up .mm-card-inner { transform: rotateY(180deg); }
+.mm-card-back, .mm-card-front {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; border-radius: 12px;
+  -webkit-backface-visibility: hidden; backface-visibility: hidden;
+}
+.mm-card-back {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 138, 31, 0.9) 0 5px, transparent 6px),
+    repeating-radial-gradient(circle at 50% 50%, transparent 0 8px, rgba(255, 246, 232, 0.16) 9px 10px),
+    linear-gradient(160deg, var(--violet), var(--violet-deep));
+  border: 2px solid rgba(255, 246, 232, 0.4); box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.22);
+}
+.mm-card-front {
+  transform: rotateY(180deg);
+  background: var(--cream); border: 2px solid var(--orange);
+  font-size: clamp(26px, 9vw, 46px); line-height: 1;
+}
+.mm-board[data-level="hard"] .mm-card-front { font-size: clamp(24px, 8vw, 40px); }
+.mm-card.is-matched .mm-card-front { background: #eaf9d6; border-color: var(--lime); }
+.mm-card.is-matched { cursor: default; }
+.mm-card[data-state="covered"] .mm-card-back { filter: brightness(0.6); }
+.mm-card:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; border-radius: 12px; }
+.mm-card:active:not(.is-up) .mm-card-back { filter: brightness(1.15); }
+.mm-card.is-pop .mm-card-front { animation: mm-pop 0.42s ease-out; }
+@keyframes mm-pop { 0% { transform: rotateY(180deg) scale(1); } 45% { transform: rotateY(180deg) scale(1.12); } 100% { transform: rotateY(180deg) scale(1); } }
+.mm-card.is-miss .mm-card-front { animation: mm-miss 0.42s ease-in-out; border-color: #ff5d73; }
+@keyframes mm-miss { 0%, 100% { transform: rotateY(180deg) translateX(0); } 25% { transform: rotateY(180deg) translateX(-4px); } 50% { transform: rotateY(180deg) translateX(4px); } 75% { transform: rotateY(180deg) translateX(-2px); } }
+.mm-pause {
+  position: absolute; inset: 0; z-index: 3; display: flex; align-items: center; justify-content: center; padding: 16px; margin: 0;
+  width: 100%; border: 0; border-radius: 18px; cursor: pointer; color: var(--ink); text-align: center;
+  background: rgba(29, 18, 56, 0.96); font-weight: var(--display-weight); font-size: 21px; line-height: 1.35;
+}
+.mm-pause:focus-visible { outline: 3px solid var(--lime); outline-offset: -4px; }
+
+/* ---------------- 끝 화면: 결과 카드 ---------------- */
+.mm-end { padding-top: 10px; }
+.mm-result {
+  margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 22px; border: 2px solid var(--line); background: #251649;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+.mm-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 8px; padding: 4px 14px; border-radius: 999px;
+  background: var(--orange); color: #1d1238; font-size: 15px; line-height: 1.35;
+}
+.mm-head-line { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 0; line-height: 1.2; }
+.mm-head-emoji { font-size: 38px; line-height: 1; }
+.mm-head { min-width: 0; font-size: 24px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; }
+.mm-score-line { margin: 10px 0 0; line-height: 1; }
+.mm-score-big { font-size: 62px; line-height: 1.05; color: var(--orange); }
+.mm-points { font-size: 18px; color: var(--ink-dim); }
+.mm-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--lime); color: #1d1238; font-size: 15px; line-height: 1.35; transform: rotate(-2deg);
+}
+.mm-best { margin: 8px 0 0; font-size: 15px; color: var(--ink-dim); }
+.mm-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.mm-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--panel-2); border: 1.5px solid var(--line); }
+.mm-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.mm-stat dd { margin: 6px 0 0; }
+.mm-stat-num { font-size: 28px; line-height: 1.3; color: var(--ink); }
+.mm-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(166, 227, 90, 0.08); border: 1.5px dashed rgba(166, 227, 90, 0.5); }
+.mm-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.mm-top { margin: 0; font-size: 28px; line-height: 1.2; color: var(--lime); }
+.mm-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.mm-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .mm-h1-main, html:lang(th) .mm-kicker, html:lang(th) .mm-how, html:lang(th) .mm-btn, html:lang(th) .mm-hook, html:lang(th) .mm-pause, html:lang(th) .mm-level-name, html:lang(th) .mm-head { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .mm-hud-label, html:lang(th) .mm-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .mm-h1-main, html:lang(vi) .mm-kicker, html:lang(vi) .mm-head { line-height: 1.3; }
+html:lang(ja) .mm-h1-main, html:lang(zh) .mm-h1-main, html:lang(ko) .mm-h1-main { font-size: 32px; line-height: 1.25; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.mm-doc { padding: 16px 0 8px; }
+.mm-doc h1 { font-size: 26px; line-height: 1.25; margin: 8px 0 14px; }
+.mm-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--orange); }
+.mm-doc p { color: var(--ink-dim); font-size: 15px; }
+.mm-doc a, .site-footer a { color: var(--orange); }
+.site-footer { color: var(--ink-faint); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .mm-hc-up, .mm-card.is-pop .mm-card-front, .mm-card.is-miss .mm-card-front { animation: none; }
+  .mm-card-inner, .mm-btn, .mm-bar-fill { transition: none; }
+}
+@media (max-width: 359px) {
+  .mm-h1-main { font-size: 27px; }
+  .mm-hud-val { font-size: 20px; }
+}

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 41,
+  "numberOfItems": 43,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -366,6 +366,20 @@
       "url": "https://yesno.example.com/de/",
       "name": "Ja oder Nein Orakel",
       "description": "Frage eintippen, Antwort bekommen: Ja oder Nein, Ja/Nein/Vielleicht, ein Orakelspruch oder Best of 3 und Best of 5."
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "url": "https://memory.example.com/de/",
+      "name": "Memory Spiel",
+      "description": "Dreh die Halloween-Karten um und finde alle Paare. Drei Stufen, Stoppuhr, Zugzähler und dein echter Rang."
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "url": "https://teto.example.com/de/",
+      "name": "Teto-oder-Egen-Test",
+      "description": "Eher mutiges Teto oder sanftes Egen? 12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus."
     }
   ]
 }
@@ -441,6 +455,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="memory">
+        <a class="cur-card" href="https://memory.example.com/de/" style="--h:221;--h2:203">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Halloween-Memory</span></span>
+            <h3 class="cur-headline">Karten umdrehen, alle Paare finden</h3>
+            <span class="cur-giant" aria-hidden="true">🃏</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Kürbis, Gespenst und Fledermaus – immer zwei aufdecken.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Memory Spiel</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="teto">
+        <a class="cur-card" href="https://teto.example.com/de/" style="--h:348;--h2:330">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Viraler Test aus Korea</span></span>
+            <h3 class="cur-headline">Eher Teto oder Egen?</h3>
+            <span class="cur-giant" aria-hidden="true">⚡</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Teto-oder-Egen-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="wordcount">
         <a class="cur-card" href="https://wordcount.example.com/de/" style="--h:21;--h2:3">
           <span class="cur-art">
@@ -505,7 +551,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password">
+      <li class="cur-item" data-id="password" hidden>
         <a class="cur-card" href="https://password.example.com/de/" style="--h:111;--h2:137">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Sicherheits-Tool</span></span>
@@ -521,7 +567,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="seat">
+      <li class="cur-item" data-id="seat" hidden>
         <a class="cur-card" href="https://seat.example.com/de/" style="--h:15;--h2:357">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Helfer fürs Klassenzimmer</span></span>
@@ -569,45 +615,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="qr" hidden>
-        <a class="cur-card" href="https://qr.example.com/de/" style="--h:1;--h2:343">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Praktisches Tool</span></span>
-            <h3 class="cur-headline">Jeden Link als QR-Code</h3>
-            <span class="cur-giant" aria-hidden="true">🔳</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Link, Text oder WLAN. Als PNG oder SVG, direkt im Browser.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">QR-Code Generator</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="randnum" hidden>
-        <a class="cur-card" href="https://randnum.example.com/de/" style="--h:159;--h2:141">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Faire Auslosung</span></span>
-            <h3 class="cur-headline">Zufallszahlen mit einem Tipp</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Freier Bereich, auch ohne Doppelte. Ideal für Gewinnspiele.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Zufallszahlen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">41 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">43 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -629,6 +643,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="memory" data-cat="game">
+        <a class="tile-link" href="https://memory.example.com/de/" title="Dreh die Halloween-Karten um und finde alle Paare. Drei Stufen, Stoppuhr, Zugzähler und dein echter Rang." style="--h:221;--h2:203">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Memory Spiel</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="teto" data-cat="test">
+        <a class="tile-link" href="https://teto.example.com/de/" title="Eher mutiges Teto oder sanftes Egen? 12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus." style="--h:348;--h2:330">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Teto-oder-Egen-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="wordcount" data-cat="create">
         <a class="tile-link" href="https://wordcount.example.com/de/" title="Text einfügen: Zeichen mit und ohne Leerzeichen, Wörter, Sätze und Bytes live. Zielbalken und Lesezeit, nichts wird hochgeladen." style="--h:21;--h2:3">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEU</span></span>
@@ -687,14 +715,14 @@
       </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/de/" title="Link, Text, WLAN, E-Mail oder Telefonnummer als QR-Code. Farben und Größe wählen, als PNG oder SVG speichern. Nichts verlässt deinen Browser." style="--h:1;--h2:343">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span></span>
           <span class="tile-name">QR-Code Generator</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="randnum" data-cat="vote">
         <a class="tile-link" href="https://randnum.example.com/de/" title="Zufallszahlen in jedem Bereich ziehen, eine bis tausend, mit oder ohne Wiederholung. Zahlen ausschließen, sortieren, Ergebnis-Link teilen." style="--h:159;--h2:141">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">Zufallszahlen</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

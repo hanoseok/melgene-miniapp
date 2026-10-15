@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'memory',
+        kicker: "Mémoire d’Halloween",
+        headline: "Retournez les cartes, trouvez les paires",
+        blurb: "Citrouilles, fantômes et chauves-souris se cachent.",
+      },
+      {
+        id: 'teto',
+        kicker: "Test viral coréen",
+        headline: "Plutôt teto ou egen ?",
+        blurb: "12 moments du quotidien, 2 minutes. Découvre ton mélange d’énergies.",
+      },
+      {
         id: 'wordcount',
         kicker: "Outil d’écriture",
         headline: "Compte tes mots et caractères en direct",

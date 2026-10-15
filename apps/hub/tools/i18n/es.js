@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'memory',
+        kicker: "Memoria de Halloween",
+        headline: "Voltea las cartas y encuentra las parejas",
+        blurb: "Calabazas, fantasmas y murciélagos escondidos.",
+      },
+      {
+        id: 'teto',
+        kicker: "Test viral coreano",
+        headline: "¿Eres más teto o egen?",
+        blurb: "12 momentos cotidianos, 2 minutos. Descubre tu mezcla de energías.",
+      },
+      {
         id: 'wordcount',
         kicker: "Herramienta de escritura",
         headline: "Cuenta palabras y caracteres al vuelo",

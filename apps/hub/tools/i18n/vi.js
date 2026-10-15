@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'memory',
+        kicker: "Game trí nhớ Halloween",
+        headline: "Lật thẻ bài, tìm đủ các cặp",
+        blurb: "Bí ngô, con ma và dơi đang trốn. Lật hai lá mỗi lượt.",
+      },
+      {
+        id: 'teto',
+        kicker: "Trắc nghiệm hot từ Hàn",
+        headline: "Bạn là Teto hay Egen?",
+        blurb: "12 tình huống đời thường, 2 phút. Xem tỷ lệ năng lượng của bạn.",
+      },
+      {
         id: 'wordcount',
         kicker: "Công cụ viết",
         headline: "Đếm ký tự và số chữ ngay khi gõ",

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'memory',
+        kicker: "Memória de Halloween",
+        headline: "Vire as cartas e ache os pares",
+        blurb: "Abóboras, fantasmas e morcegos escondidos. Vire duas por vez.",
+      },
+      {
+        id: 'teto',
+        kicker: "Teste viral coreano",
+        headline: "Você é mais teto ou egen?",
+        blurb: "12 momentos do dia a dia, 2 minutos. Descubra sua mistura de energias.",
+      },
+      {
         id: 'wordcount',
         kicker: "Ferramenta de escrita",
         headline: "Conte palavras e caracteres ao vivo",

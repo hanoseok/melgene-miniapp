@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'memory',
+        kicker: "Halloween-Memory",
+        headline: "Karten umdrehen, alle Paare finden",
+        blurb: "Kürbis, Gespenst und Fledermaus – immer zwei aufdecken.",
+      },
+      {
+        id: 'teto',
+        kicker: "Viraler Test aus Korea",
+        headline: "Eher Teto oder Egen?",
+        blurb: "12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus.",
+      },
+      {
         id: 'wordcount',
         kicker: "Schreibtool",
         headline: "Zeichen und Wörter live zählen",

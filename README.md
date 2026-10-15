@@ -132,6 +132,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | zombie | apps/zombie | 좀비 생존 테스트(할로윈): 상황 12개 × 4지선다 → 생존자 역할 8종 결과 페이지 r/<id>.html(전수 계산 11.6~13.2%), 생존 예보(말로만)·기술·약점·생존 팁, 최고/최악의 파트너 링크 없음, "같은 역할 N%"(poll zombie, 20명 이상) | `check-zombie.js` (+ `flow-test.js`) |
 | wordcount | apps/wordcount | 글자수 세기: 공백 포함·제외 글자수(grapheme), 단어(Intl.Segmenter), 문장·문단·줄, 바이트(UTF-8·나이스 3바이트·완성형 2바이트), 읽기·말하기 시간, 목표 글자수 막대, 키워드 상위 5, 줄 정리·되돌리기, 글은 이 기기 localStorage 에만(서버·주소 X) | `check-wordcount.js` (+ `check-flow.js`) |
 | yesno | apps/yesno | 예스 노 결정기: 질문(기기 안에만) → YES/NO · YES/NO/글쎄 · 신비한 구슬 답 12개 · 3판 2선승/5판 3선승, crypto 거부 샘플링으로 먼저 결정 후 연출, 최근 10개 기록, '이 답 공유하기'만 #d= 에 질문 포함 | `check-yesno.js` |
+| memory | apps/memory | 카드 짝 맞추기(할로윈): 쉬움 4×3·보통 4×4·어려움 4×6, crypto Fisher–Yates 섞기, 0.1초 타이머·이동 수·정확도, 탭 전환 시 일시정지, 레벨별 최고 기록, 서버 점수 memory-easy/normal/hard 로 실제 백분위 | `check-memory.js` (+ `flow-test.js`) |
+| teto | apps/teto | 테토 에겐 테스트: 일상 상황 12개·4지선다, 내 답으로 계산한 테토/에겐 % 게이지, 유형 8종 r/*.html(4^12 전수 10.98~13.72%), 찰떡·상극은 링크 없는 카드, 같은 유형 비율은 supa.vote 20표 이상만 | `check-teto.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

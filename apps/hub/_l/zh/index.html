@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 41,
+  "numberOfItems": 43,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -367,6 +367,20 @@
       "url": "https://yesno.example.com/",
       "name": "是或否决定器",
       "description": "写下让你纠结的问题，按一下就得到是或否。还有是/否/也许、神秘水晶球回答和三局两胜、五局三胜。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "url": "https://memory.example.com/",
+      "name": "记忆翻牌",
+      "description": "翻开万圣节卡牌，找出所有相同的图案。三种难度，记录用时和步数，看看你的真实排名。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "url": "https://teto.example.com/",
+      "name": "泰托埃根测试",
+      "description": "你是泰托（Teto）还是埃根（Egen）？12个日常情境，2分钟测出你的能量比例。"
     }
   ]
 }
@@ -442,6 +456,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="memory">
+        <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节记忆游戏</span></span>
+            <h3 class="cur-headline">翻开卡牌，找出每一对</h3>
+            <span class="cur-giant" aria-hidden="true">🃏</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">南瓜、幽灵和蝙蝠藏在牌后，每次翻两张。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">记忆翻牌</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="teto">
+        <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">韩国爆火测试</span></span>
+            <h3 class="cur-headline">你是泰托还是埃根？</h3>
+            <span class="cur-giant" aria-hidden="true">⚡</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12个日常情境，2分钟，测出你的能量比例。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">泰托埃根测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="wordcount">
         <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
           <span class="cur-art">
@@ -506,7 +552,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password">
+      <li class="cur-item" data-id="password" hidden>
         <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">安全工具</span></span>
@@ -522,7 +568,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="seat">
+      <li class="cur-item" data-id="seat" hidden>
         <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">教室小帮手</span></span>
@@ -570,45 +616,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="qr" hidden>
-        <a class="cur-card" href="https://qr.example.com/" style="--h:1;--h2:343">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">实用工具</span></span>
-            <h3 class="cur-headline">一键把链接变成二维码</h3>
-            <span class="cur-giant" aria-hidden="true">🔳</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">网址、文字、Wi-Fi 都行，可存 PNG/SVG。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">二维码生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="randnum" hidden>
-        <a class="cur-card" href="https://randnum.example.com/" style="--h:159;--h2:141">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">公平抽签</span></span>
-            <h3 class="cur-headline">一键生成随机数</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">范围、个数随意，可不重复，抽奖好帮手。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">随机数生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">41个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">43个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -630,6 +644,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="memory" data-cat="game">
+        <a class="tile-link" href="https://memory.example.com/" title="翻开万圣节卡牌，找出所有相同的图案。三种难度，记录用时和步数，看看你的真实排名。" style="--h:221;--h2:203">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">记忆翻牌</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="teto" data-cat="test">
+        <a class="tile-link" href="https://teto.example.com/" title="你是泰托（Teto）还是埃根（Egen）？12个日常情境，2分钟测出你的能量比例。" style="--h:348;--h2:330">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">泰托埃根测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="wordcount" data-cat="create">
         <a class="tile-link" href="https://wordcount.example.com/" title="粘贴文本即可实时统计含空格/不含空格字数、词数、句数和字节数。目标字数进度条和阅读时间，不上传任何内容。" style="--h:21;--h2:3">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
@@ -688,14 +716,14 @@
       </li>
       <li class="tile" data-id="qr" data-cat="create">
         <a class="tile-link" href="https://qr.example.com/" title="把网址、文字、Wi-Fi、邮箱或电话号码马上变成二维码。可选颜色和尺寸，保存为PNG或SVG，内容不会上传服务器。" style="--h:1;--h2:343">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔳</span></span></span>
           <span class="tile-name">二维码生成器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="randnum" data-cat="vote">
         <a class="tile-link" href="https://randnum.example.com/" title="设定最小值和最大值，就能公平抽出1到1000个随机数。可选不重复、排除号码、排序，还能分享抽奖结果链接。" style="--h:159;--h2:141">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">随机数生成器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

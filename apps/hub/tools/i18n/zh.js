@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'memory',
+        kicker: "万圣节记忆游戏",
+        headline: "翻开卡牌，找出每一对",
+        blurb: "南瓜、幽灵和蝙蝠藏在牌后，每次翻两张。",
+      },
+      {
+        id: 'teto',
+        kicker: "韩国爆火测试",
+        headline: "你是泰托还是埃根？",
+        blurb: "12个日常情境，2分钟，测出你的能量比例。",
+      },
+      {
         id: 'wordcount',
         kicker: "写作工具",
         headline: "边写边统计字数",

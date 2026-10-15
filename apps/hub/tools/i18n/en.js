@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'memory',
+        kicker: "Halloween memory game",
+        headline: "Flip the cards, find every pair",
+        blurb: "Pumpkins, ghosts and bats are hiding. Turn two at a time.",
+      },
+      {
+        id: 'teto',
+        kicker: "Korean viral test",
+        headline: "Are you more teto or egen?",
+        blurb: "12 everyday moments, 2 minutes. See your own teto–egen mix.",
+      },
+      {
         id: 'wordcount',
         kicker: "Writing tool",
         headline: "Count characters & words live",
