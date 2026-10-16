@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'dday',
+        kicker: "Tage zählen",
+        headline: "Wie viele Tage noch bis…?",
+        blurb: "Countdown, Tage seit und Tag 100 – als Karte zum Teilen.",
+      },
+      {
+        id: 'lots',
+        kicker: "Losziehen",
+        headline: "Jeder zieht einen gefalteten Zettel",
+        blurb: "Gewinne, Nieten oder eigene Lose, fair gemischt.",
+      },
+      {
         id: 'memory',
         kicker: "Halloween-Memory",
         headline: "Karten umdrehen, alle Paare finden",

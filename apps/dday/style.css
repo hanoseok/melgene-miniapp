@@ -1,0 +1,313 @@
+/* apps/dday/style.css — 디데이 계산기: 크림색 모눈종이 바탕 + 남색 잉크 + 토마토 빨강(달력의 일요일) 포인트.
+ * 결과 = 한 장씩 뜯는 벽걸이 달력(위쪽 고리 구멍 두 개, 색 띠, 굵은 숫자 Unbounded). 카드 색은 테마 5개(theme-*).
+ * 모바일 한 줄(--app-width 480px). 제목·버튼은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #fbf5ea;
+  --paper-2: #f3ead9;
+  --grid: rgba(29, 34, 56, 0.06);
+  --ink: #1d2238;
+  --ink-dim: #454b66;
+  --ink-faint: #6e7390;
+  --tomato: #ff5a3c;
+  --tomato-2: #e8432a;
+  --line: rgba(29, 34, 56, 0.14);
+  --card: #fffdf8;
+  --focus: #2f6bff;
+  --font-num: 'Unbounded', var(--font-display);
+
+  --font-display: 'Bricolage Grotesque', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--tomato);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: var(--card);
+  --lang-fg: var(--ink);
+  --lang-border: var(--line);
+  --mg-star-on: #ffb020;
+  --mg-star-off: rgba(29, 34, 56, 0.18);
+  --mg-heart-bg: var(--card);
+  --mg-heart-border: var(--tomato);
+  --mg-heart-fg: var(--tomato);
+  --mg-heart-on: var(--tomato);
+  --mg-share-bg: var(--card);
+  --mg-share-border: var(--line);
+  --mg-faq-bg: var(--card);
+  --mg-faq-border: var(--line);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.dd-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+[hidden] { display: none !important; }
+
+.dd-h1, .dd-kicker, .dd-h1-main, .dd-h1-main em, .dd-btn, .dd-h2, .dd-badge, .dd-doc h1, .dd-tab, .dd-cal-title, .dd-sub, .dd-seg-btn, .dd-preset-name, .dd-saved-t, .dd-ms-name {
+  font-family: var(--font-display);
+}
+.dd-big, .dd-mini-num, .dd-live-cell b, .dd-preset-d, .dd-saved-d, .dd-ms-d, .dd-qn, .dd-ndays, .dd-saved-count {
+  font-family: var(--font-num);
+}
+
+.dd-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.dd-screen { padding-top: 12px; }
+
+/* ---------------- 제목 ---------------- */
+.dd-mini {
+  position: relative; width: 60px; height: 64px; margin: 6px auto 8px; border-radius: 14px; background: var(--card);
+  border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); overflow: hidden; display: grid; place-items: end center;
+}
+.dd-mini::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 18px; background: var(--tomato); border-bottom: 2px solid var(--ink); }
+.dd-mini-ring { position: absolute; top: 5px; left: 14px; right: 14px; height: 8px; border-left: 4px solid var(--ink); border-right: 4px solid var(--ink); }
+.dd-mini-num { padding-bottom: 6px; font-size: 26px; font-weight: 800; line-height: 1; color: var(--ink); }
+.dd-h1 { margin: 6px 0 8px; text-align: center; line-height: 1.18; font-weight: var(--display-weight); }
+.dd-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 12px; border-radius: 999px; border: 2px solid var(--ink);
+  background: #fff; color: var(--ink); font-size: 13px; letter-spacing: 0.02em; line-height: 1.4;
+}
+.dd-h1-main { display: block; font-size: 29px; color: var(--ink); overflow-wrap: break-word; }
+.dd-h1-main em { font-style: normal; color: var(--tomato); }
+.dd-hook { margin: 0 auto 16px; max-width: 410px; text-align: center; font-size: 15px; color: var(--ink-dim); }
+
+/* ---------------- 모드 탭 ---------------- */
+.dd-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 5px; border-radius: 18px; background: var(--ink); }
+.dd-tab {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; min-width: 0; min-height: 56px; padding: 6px 4px;
+  border: 0; border-radius: 13px; background: transparent; color: rgba(255, 255, 255, 0.78); cursor: pointer;
+  font-size: 14.5px; font-weight: var(--display-weight); line-height: 1.2; transition: background 0.15s, color 0.15s;
+}
+.dd-tab-ico { font-size: 17px; line-height: 1.1; font-family: var(--font-num); }
+.dd-tab-txt { overflow-wrap: anywhere; text-align: center; }
+.dd-tab[aria-checked="true"] { background: var(--paper); color: var(--ink); }
+.dd-mode-hint { margin: 8px 2px 12px; min-height: 1.45em; text-align: center; }
+
+/* ---------------- 입력 카드 ---------------- */
+.dd-card { padding: 16px; background: var(--card); border: 2px solid var(--ink); border-radius: 20px; box-shadow: 4px 4px 0 var(--ink); }
+.dd-field + .dd-field { margin-top: 14px; }
+.dd-label { display: block; margin: 0 0 6px; font-size: 13.5px; font-weight: 800; line-height: 1.35; color: var(--ink-dim); }
+.dd-label-gap { margin-top: 12px; }
+.dd-input {
+  display: block; width: 100%; min-width: 0; min-height: 50px; padding: 10px 14px;
+  border: 2px solid var(--line); border-radius: 14px; background: #fff; color: var(--ink);
+  font-family: var(--font-sans); font-size: 16px; font-weight: 650; line-height: 1.3; -webkit-appearance: none; appearance: none;
+}
+.dd-input::placeholder { color: rgba(29, 34, 56, 0.38); font-weight: 500; }
+.dd-input:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 4px rgba(255, 90, 60, 0.18); }
+.dd-date, .dd-time { font-variant-numeric: tabular-nums; }
+.dd-date::-webkit-date-and-time-value, .dd-time::-webkit-date-and-time-value { text-align: left; }
+.dd-row { display: flex; gap: 8px; align-items: center; }
+.dd-row .dd-input { flex: 1 1 auto; }
+.dd-mini-btn {
+  flex: 0 0 auto; min-height: 50px; padding: 0 14px; border: 2px solid var(--ink); border-radius: 14px; background: var(--paper);
+  color: var(--ink); font-family: var(--font-display); font-weight: var(--display-weight); font-size: 14.5px; cursor: pointer;
+}
+.dd-hint { margin: 6px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--ink-faint); }
+
+.dd-presets { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+.dd-preset {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 6px; min-width: 0; min-height: 44px; padding: 6px 10px;
+  border: 1.5px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink); cursor: pointer; text-align: left;
+}
+.dd-preset:hover { border-color: var(--ink); }
+.dd-preset-name { min-width: 0; font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; overflow-wrap: break-word; }
+.dd-preset-d { flex: 0 0 auto; padding: 2px 7px; border-radius: 8px; background: var(--ink); color: #fff; font-size: 11.5px; font-weight: 700; line-height: 1.4; }
+
+.dd-switch { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+.dd-switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.dd-switch-ui {
+  position: relative; flex: 0 0 auto; width: 48px; height: 28px; border-radius: 999px; background: rgba(29, 34, 56, 0.2); transition: background 0.15s;
+}
+.dd-switch-ui::after { content: ''; position: absolute; left: 3px; top: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); transition: transform 0.15s; }
+.dd-switch input:checked + .dd-switch-ui { background: var(--tomato); }
+.dd-switch input:checked + .dd-switch-ui::after { transform: translateX(20px); }
+.dd-switch input:focus-visible + .dd-switch-ui { outline: 3px solid var(--focus); outline-offset: 2px; }
+.dd-switch-text { font-size: 15px; font-weight: 750; line-height: 1.35; }
+
+.dd-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.dd-seg-btn {
+  min-width: 0; min-height: 44px; padding: 6px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--paper);
+  color: var(--ink); font-size: 14.5px; font-weight: var(--display-weight); line-height: 1.2; cursor: pointer;
+}
+.dd-seg-btn[aria-checked="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.dd-ndays { font-size: 20px; font-weight: 800; letter-spacing: 0.02em; }
+.dd-unit { flex: 0 0 auto; font-weight: 800; color: var(--ink-dim); }
+.dd-qns { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.dd-qn { min-height: 36px; padding: 2px 12px; border: 1.5px solid var(--line); border-radius: 999px; background: #fff; color: var(--ink); font-size: 13px; font-weight: 700; cursor: pointer; }
+
+.dd-style { padding-top: 14px; border-top: 2px dashed var(--line); }
+.dd-emojis { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.dd-emoji {
+  min-width: 0; aspect-ratio: 1; max-height: 52px; border: 1.5px solid var(--line); border-radius: 12px; background: #fff; font-size: 22px; line-height: 1; cursor: pointer;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.dd-emoji[aria-checked="true"] { border: 2.5px solid var(--ink); background: var(--paper-2); box-shadow: 2px 2px 0 var(--ink); }
+.dd-swatches { display: flex; gap: 10px; }
+.dd-swatch {
+  width: 42px; height: 42px; border-radius: 50%; border: 2px solid rgba(29, 34, 56, 0.2); cursor: pointer;
+  background: linear-gradient(135deg, var(--sw-a), var(--sw-b));
+}
+.dd-swatch[aria-checked="true"] { border: 3px solid var(--ink); box-shadow: 0 0 0 3px var(--card), 0 0 0 5px var(--ink); }
+
+.dd-error {
+  margin: 12px 0 0; padding: 10px 14px; border-radius: 14px; background: rgba(255, 90, 60, 0.1); border: 2px solid var(--tomato);
+  color: #9b2a16; font-size: 14px; font-weight: 700; line-height: 1.45;
+}
+
+/* ---------------- 버튼 ---------------- */
+.dd-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%; min-height: 58px; margin: 16px 0 0; padding: 12px 18px;
+  border: 2px solid var(--ink); border-radius: 18px; font-size: 19px; font-weight: var(--display-weight); line-height: 1.25; cursor: pointer; text-align: center;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.dd-btn-primary { background: var(--tomato); color: #fff; box-shadow: 4px 4px 0 var(--ink); }
+.dd-btn-primary:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+.dd-btn:focus-visible, .dd-tab:focus-visible, .dd-emoji:focus-visible, .dd-swatch:focus-visible, .dd-seg-btn:focus-visible, .dd-preset:focus-visible,
+.dd-mini-btn:focus-visible, .dd-qn:focus-visible, .dd-saved-open:focus-visible, .dd-saved-del:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.dd-local { margin: 10px 0 0; text-align: center; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); }
+.dd-btn-ghost { min-height: 50px; margin: 0; padding: 8px 10px; font-size: 15px; background: var(--card); color: var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.dd-btn-ghost:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.dd-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.dd-btn-wide { grid-column: 1 / -1; }
+
+/* ---------------- 저장 목록 ---------------- */
+.dd-saved { margin-top: 18px; }
+.dd-saved-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.dd-saved-count { font-size: 12px; font-weight: 700; color: var(--ink-faint); }
+.dd-h2 { margin: 0; font-size: 18px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink); }
+.dd-saved-list { margin: 8px 0 0; padding: 0; list-style: none; }
+.dd-saved-item { display: flex; align-items: stretch; gap: 6px; padding: 4px 0; }
+.dd-saved-item + .dd-saved-item { border-top: 1.5px dashed var(--line); }
+.dd-saved-open {
+  flex: 1 1 auto; display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 46px; padding: 4px 6px;
+  border: 0; border-radius: 12px; background: transparent; color: var(--ink); cursor: pointer; text-align: left;
+}
+.dd-saved-open:hover { background: var(--paper); }
+.dd-saved-emoji { flex: 0 0 auto; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; font-size: 18px; background: linear-gradient(135deg, var(--t-a), var(--t-b)); }
+.dd-saved-t { flex: 1 1 auto; min-width: 0; font-size: 14.5px; font-weight: var(--display-weight); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dd-saved-d { flex: 0 0 auto; font-size: 13px; font-weight: 800; color: var(--tomato-2); }
+.dd-saved-del {
+  flex: 0 0 auto; width: 40px; border: 0; border-radius: 10px; background: transparent; color: var(--ink-faint); font-size: 22px; line-height: 1; cursor: pointer;
+}
+.dd-saved-del:hover { background: rgba(255, 90, 60, 0.12); color: var(--tomato-2); }
+
+/* ---------------- 결과: 달력 한 장 ---------------- */
+.dd-result { margin-top: 26px; }
+.theme-tomato { --t-a: #ff6a4d; --t-b: #ffb36b; --t-ink: #c23a1f; --t-band: #ff6a4d; --t-band-fg: #fff; }
+.theme-mint { --t-a: #2fc7a3; --t-b: #a8f0cf; --t-ink: #0f8a6d; --t-band: #2fc7a3; --t-band-fg: #08261f; }
+.theme-grape { --t-a: #6c4dff; --t-b: #c39bff; --t-ink: #5233e0; --t-band: #6c4dff; --t-band-fg: #fff; }
+.theme-ocean { --t-a: #1f6fd6; --t-b: #6fd0ff; --t-ink: #1a5fba; --t-band: #1f6fd6; --t-band-fg: #fff; }
+.theme-ink { --t-a: #141a2e; --t-b: #3a4566; --t-ink: #141a2e; --t-band: #ff6a4d; --t-band-fg: #fff; }
+
+.dd-cal {
+  position: relative; padding: 18px 18px 22px; border-radius: 28px; text-align: center;
+  background: linear-gradient(140deg, var(--t-a), var(--t-b));
+  border: 2px solid var(--ink); box-shadow: 5px 5px 0 var(--ink);
+}
+.dd-cal::before {
+  content: ''; position: absolute; inset: 34px 14px 14px; border-radius: 20px; background: var(--card);
+  border: 2px solid var(--ink);
+  background-image: linear-gradient(var(--t-band), var(--t-band)); background-size: 100% 46px; background-repeat: no-repeat;
+}
+.dd-cal > * { position: relative; }
+.dd-cal-top { display: flex; justify-content: space-between; width: 52%; margin: 0 auto; height: 34px; }
+.dd-cal-top span {
+  width: 14px; height: 40px; margin-top: 8px; border-radius: 8px; background: linear-gradient(90deg, #8b90a8, #e8e9f0 45%, #8b90a8);
+  border: 2px solid var(--ink); z-index: 2;
+}
+.dd-cal > .dd-badge {
+  position: absolute; top: 5px; left: 50%; transform: translateX(-50%); z-index: 3; margin: 0; padding: 1px 12px; border-radius: 999px;
+  background: var(--ink); color: #fff; font-size: 12.5px; line-height: 1.5; white-space: nowrap;
+}
+.dd-cal-head { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; margin-top: 2px; padding: 0 10px; }
+.dd-cal-emoji { font-size: 26px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.dd-cal-title {
+  margin: 0; min-width: 0; font-size: 18px; font-weight: var(--display-weight); line-height: 1.25; color: var(--t-band-fg);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.dd-big {
+  margin: 22px 0 0; font-size: 64px; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; color: var(--t-ink);
+  font-variant-numeric: tabular-nums; overflow-wrap: anywhere;
+}
+.dd-big.is-long { font-size: 46px; }
+.dd-big.is-xlong { font-size: 32px; letter-spacing: -0.01em; }
+.dd-sub { margin: 10px 12px 0; font-size: 19px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink); }
+.dd-rdate { margin: 6px 14px 0; font-size: 14px; font-weight: 700; line-height: 1.45; color: var(--ink-dim); }
+.dd-extra { margin: 10px 18px 0; padding: 6px 10px; border-radius: 12px; background: var(--paper); font-size: 13.5px; font-weight: 800; line-height: 1.45; color: var(--ink-dim); }
+.dd-live { margin: 14px 16px 0; }
+.dd-live-label { margin: 0 0 6px; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); }
+.dd-live-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.dd-live-cell { display: flex; flex-direction: column; align-items: center; min-width: 0; padding: 8px 2px 6px; border-radius: 12px; background: var(--ink); color: #fff; }
+.dd-live-cell b { font-size: 21px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.dd-live-cell small { font-size: 11px; font-weight: 700; line-height: 1.3; color: rgba(255, 255, 255, 0.72); overflow-wrap: anywhere; }
+.dd-cal-brand { margin: 18px 0 0; font-size: 12px; font-weight: 800; color: var(--ink-faint); }
+.dd-cal.is-today .dd-big { color: var(--tomato); animation: dd-pop 0.6s cubic-bezier(0.2, 1.6, 0.4, 1); }
+.dd-shared-note { margin: 12px 4px 0; font-size: 13px; line-height: 1.5; color: var(--ink-faint); text-align: center; }
+@keyframes dd-pop { 0% { transform: scale(0.6); } 100% { transform: scale(1); } }
+
+/* ---------------- 기념일 ---------------- */
+.dd-ms { margin-top: 18px; }
+.dd-ms-list { margin: 8px 0 0; padding: 0; list-style: none; }
+.dd-ms-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'name d' 'date d'; column-gap: 10px; padding: 9px 2px; }
+.dd-ms-item + .dd-ms-item { border-top: 1.5px dashed var(--line); }
+.dd-ms-name { grid-area: name; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; }
+.dd-ms-date { grid-area: date; font-size: 12.5px; font-weight: 600; color: var(--ink-faint); }
+.dd-ms-d { grid-area: d; align-self: center; padding: 3px 9px; border-radius: 9px; background: var(--paper-2); font-size: 12.5px; font-weight: 700; color: var(--ink); }
+.dd-ms-item.is-today .dd-ms-d { background: var(--tomato); color: #fff; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.dd-doc { padding: 28px 0 36px; line-height: 1.8; font-size: 14.5px; color: var(--ink-dim); }
+.dd-doc h1 { font-size: 24px; font-weight: var(--display-weight); color: var(--ink); margin-bottom: 20px; }
+.dd-doc h2 { font-size: 16px; font-weight: 800; color: var(--ink); margin: 26px 0 8px; }
+.dd-doc a { color: var(--tomato-2); text-decoration: underline; }
+.site-footer { margin-top: 28px; color: var(--ink-faint); }
+.site-footer a { color: var(--ink-dim); }
+
+/* 언어별 */
+html:lang(th) .dd-h1-main, html:lang(th) .dd-h2, html:lang(th) .dd-label, html:lang(th) .dd-btn, html:lang(th) .dd-tab, html:lang(th) .dd-sub,
+html:lang(th) .dd-switch-text, html:lang(th) .dd-preset-name, html:lang(th) .dd-cal-title, html:lang(th) .dd-ms-name { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .dd-h1-main { line-height: 1.32; }
+html:lang(ja) .dd-h1-main, html:lang(ja) .dd-hook, html:lang(ja) .dd-sub { word-break: auto-phrase; }
+html:lang(ko) .dd-h1-main, html:lang(ko) .dd-sub, html:lang(ko) .dd-hint { word-break: keep-all; }
+html:lang(zh) .dd-h1, html:lang(zh) .dd-btn, html:lang(zh) .dd-h2, html:lang(zh) .dd-tab, html:lang(zh) .dd-sub, html:lang(zh) .dd-cal-title, html:lang(zh) .dd-seg-btn, html:lang(zh) .dd-preset-name, html:lang(zh) .dd-ms-name,
+html:lang(th) .dd-h1, html:lang(th) .dd-btn, html:lang(th) .dd-h2, html:lang(th) .dd-tab, html:lang(th) .dd-sub, html:lang(th) .dd-cal-title, html:lang(th) .dd-seg-btn, html:lang(th) .dd-preset-name, html:lang(th) .dd-ms-name,
+html:lang(vi) .dd-h1, html:lang(vi) .dd-btn, html:lang(vi) .dd-h2, html:lang(vi) .dd-tab, html:lang(vi) .dd-sub, html:lang(vi) .dd-cal-title, html:lang(vi) .dd-seg-btn, html:lang(vi) .dd-preset-name, html:lang(vi) .dd-ms-name { font-family: var(--font-display); }
+html:lang(zh) .dd-big, html:lang(th) .dd-big, html:lang(vi) .dd-big, html:lang(zh) .dd-live-cell b, html:lang(th) .dd-live-cell b, html:lang(vi) .dd-live-cell b,
+html:lang(zh) .dd-preset-d, html:lang(th) .dd-preset-d, html:lang(vi) .dd-preset-d, html:lang(zh) .dd-ms-d, html:lang(th) .dd-ms-d, html:lang(vi) .dd-ms-d,
+html:lang(zh) .dd-saved-d, html:lang(th) .dd-saved-d, html:lang(vi) .dd-saved-d, html:lang(zh) .dd-mini-num, html:lang(th) .dd-mini-num, html:lang(vi) .dd-mini-num { font-family: var(--font-num); }
+html:lang(zh) .dd-big.is-long, html:lang(ja) .dd-big.is-long, html:lang(ko) .dd-big.is-long { font-size: 40px; }
+
+@media (max-width: 374px) {
+  .dd-h1-main { font-size: 25px; }
+  .dd-card { padding: 14px 12px; }
+  .dd-tab { font-size: 13.5px; }
+  .dd-big { font-size: 56px; }
+  .dd-big.is-long { font-size: 38px; }
+  .dd-big.is-xlong { font-size: 27px; }
+  .dd-live-cell b { font-size: 18px; }
+  .dd-emoji { font-size: 20px; }
+  .dd-swatches { gap: 8px; }
+  .dd-swatch { width: 38px; height: 38px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dd-cal.is-today .dd-big { animation: none; }
+  .dd-btn, .dd-tab, .dd-switch-ui, .dd-switch-ui::after { transition: none; }
+}

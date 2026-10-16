@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 43,
+  "numberOfItems": 45,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -382,6 +382,20 @@
       "url": "https://teto.example.com/",
       "name": "Test Teto hay Egen",
       "description": "Bạn là Teto mạnh mẽ hay Egen dịu dàng? 12 tình huống đời thường, 2 phút. Xem tỷ lệ năng lượng của bạn."
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "url": "https://dday.example.com/",
+      "name": "Đếm ngược ngày",
+      "description": "Đếm ngược đến ngày bất kỳ, đếm số ngày bên nhau (100, 1000 ngày, kỷ niệm) hoặc cộng trừ ngày. Lưu và chia sẻ thẻ đếm trực tiếp."
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "url": "https://lots.example.com/",
+      "name": "Bốc thăm",
+      "description": "Chuyền điện thoại, mỗi người chọn một lá thăm gấp. Trúng, trượt hay giải tự đặt, cuối cùng có bảng tổng hợp ai bốc được gì."
     }
   ]
 }
@@ -457,6 +471,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="dday">
+        <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Còn bao lâu?</span></span>
+            <h3 class="cur-headline">Đếm ngược đến ngày đặc biệt</h3>
+            <span class="cur-giant" aria-hidden="true">📅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Đếm ngược, số ngày bên nhau, ngày thứ 100 trên thẻ để chia sẻ.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Đếm ngược ngày</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lots">
+        <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Bốc thăm chuyền máy</span></span>
+            <h3 class="cur-headline">Mỗi người rút một lá thăm gấp</h3>
+            <span class="cur-giant" aria-hidden="true">🎟️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Trúng, trượt hay giải tự đặt, xáo công bằng.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Bốc thăm</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="memory">
         <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
           <span class="cur-art">
@@ -521,7 +567,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="1to50">
+      <li class="cur-item" data-id="1to50" hidden>
         <a class="cur-card" href="https://1to50.example.com/" style="--h:149;--h2:175">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Thử thách tốc độ</span></span>
@@ -537,7 +583,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="zombie">
+      <li class="cur-item" data-id="zombie" hidden>
         <a class="cur-card" href="https://zombie.example.com/" style="--h:208;--h2:190">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm Halloween</span></span>
@@ -585,45 +631,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku" hidden>
-        <a class="cur-card" href="https://sudoku.example.com/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Giải đố kinh điển</span></span>
-            <h3 class="cur-headline">Lấp đầy bảng số bằng logic</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Bốn cấp độ, ghi chú, gợi ý và câu đố mỗi ngày.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Sudoku</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mbti" hidden>
-        <a class="cur-card" href="https://mbti.example.com/" style="--h:302;--h2:284">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm tính cách</span></span>
-            <h3 class="cur-headline">Trắc nghiệm MBTI: bạn là nhóm nào?</h3>
-            <span class="cur-giant" aria-hidden="true">🧩</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">20 câu, 3 phút. Nhóm 4 chữ cái kèm tỉ lệ thật.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Trắc nghiệm MBTI</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">43 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">45 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -645,6 +659,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="dday" data-cat="create">
+        <a class="tile-link" href="https://dday.example.com/" title="Đếm ngược đến ngày bất kỳ, đếm số ngày bên nhau (100, 1000 ngày, kỷ niệm) hoặc cộng trừ ngày. Lưu và chia sẻ thẻ đếm trực tiếp." style="--h:112;--h2:138">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Đếm ngược ngày</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lots" data-cat="vote">
+        <a class="tile-link" href="https://lots.example.com/" title="Chuyền điện thoại, mỗi người chọn một lá thăm gấp. Trúng, trượt hay giải tự đặt, cuối cùng có bảng tổng hợp ai bốc được gì." style="--h:350;--h2:332">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Bốc thăm</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/" title="Lật các lá bài Halloween và tìm hết các cặp giống nhau. Ba cấp độ, bấm giờ, đếm lượt và thứ hạng thật." style="--h:221;--h2:203">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
@@ -703,14 +731,14 @@
       </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/" title="Điền 1 đến 9 vào mỗi hàng, cột và ô 3×3. Bốn cấp độ, ghi chú bút chì, gợi ý và câu đố mỗi ngày." style="--h:227;--h2:209">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">Sudoku</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mbti" data-cat="test">
         <a class="tile-link" href="https://mbti.example.com/" title="20 câu đời thường, 3 phút. Tìm ra nhóm tính cách 4 chữ cái của bạn trong 16 nhóm, kèm tỉ lệ từng cặp." style="--h:302;--h2:284">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span></span>
           <span class="tile-name">Trắc nghiệm MBTI</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

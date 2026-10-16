@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#e6d3ad"/>
+  <g transform="rotate(-8 50 50)">
+    <rect x="16" y="26" width="52" height="42" rx="3" fill="#fffaf0" stroke="#2b2118" stroke-width="3"/>
+    <path d="M52 26h16v16z" fill="#d9c194" stroke="#2b2118" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="16" y1="47" x2="68" y2="47" stroke="#2b2118" stroke-opacity=".25" stroke-width="2"/>
+    <text x="40" y="62" font-family="Courier New, monospace" font-weight="700" font-size="16" text-anchor="middle" fill="#d63a25">No.7</text>
+  </g>
+  <g transform="rotate(10 64 62)">
+    <rect x="44" y="46" width="44" height="34" rx="3" fill="#d63a25" stroke="#2b2118" stroke-width="3"/>
+    <circle cx="66" cy="63" r="7" fill="#f2b632"/>
+  </g>
+</svg>

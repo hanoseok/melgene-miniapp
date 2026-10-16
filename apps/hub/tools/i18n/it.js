@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'dday',
+        kicker: "Quanto manca?",
+        headline: "Il conto alla rovescia del grande giorno",
+        blurb: "Giorni che mancano, giorni passati e giorno 100 in una card.",
+      },
+      {
+        id: 'lots',
+        kicker: "Estrazione a sorte",
+        headline: "Ognuno pesca un bigliettino",
+        blurb: "Vincenti, vuoti o penitenze vostre, mescolati in modo equo.",
+      },
+      {
         id: 'memory',
         kicker: "Memory di Halloween",
         headline: "Gira le carte, trova le coppie",

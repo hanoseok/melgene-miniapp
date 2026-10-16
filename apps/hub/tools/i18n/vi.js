@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'dday',
+        kicker: "Còn bao lâu?",
+        headline: "Đếm ngược đến ngày đặc biệt",
+        blurb: "Đếm ngược, số ngày bên nhau, ngày thứ 100 trên thẻ để chia sẻ.",
+      },
+      {
+        id: 'lots',
+        kicker: "Bốc thăm chuyền máy",
+        headline: "Mỗi người rút một lá thăm gấp",
+        blurb: "Trúng, trượt hay giải tự đặt, xáo công bằng.",
+      },
+      {
         id: 'memory',
         kicker: "Game trí nhớ Halloween",
         headline: "Lật thẻ bài, tìm đủ các cặp",

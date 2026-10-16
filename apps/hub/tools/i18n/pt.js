@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'dday',
+        kicker: "Quanto falta?",
+        headline: "Contagem regressiva pro grande dia",
+        blurb: "Dias que faltam, dias juntos e dia 100 num card para compartilhar.",
+      },
+      {
+        id: 'lots',
+        kicker: "Sorteio de papelzinho",
+        headline: "Cada um tira um papel dobrado",
+        blurb: "Prêmios, vazios ou prendas suas, embaralhados com justiça.",
+      },
+      {
         id: 'memory',
         kicker: "Memória de Halloween",
         headline: "Vire as cartas e ache os pares",

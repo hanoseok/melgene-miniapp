@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 43,
+  "numberOfItems": 45,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -380,6 +380,20 @@
       "url": "https://teto.example.com/it/",
       "name": "Test Teto o Egen",
       "description": "Teto deciso o Egen gentile? 12 momenti di vita quotidiana, 2 minuti. Scopri il tuo mix di energie."
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "url": "https://dday.example.com/it/",
+      "name": "Conto alla rovescia",
+      "description": "Conto alla rovescia fino a una data, giorni da un inizio con traguardi di 100 e 1000 giorni, o somma giorni. Card da salvare e condividere."
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "url": "https://lots.example.com/it/",
+      "name": "Estrazione a sorte",
+      "description": "Passate il telefono: ognuno pesca un bigliettino piegato. Vincenti e vuoti o premi vostri, con il riepilogo di chi ha pescato cosa."
     }
   ]
 }
@@ -455,6 +469,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="dday">
+        <a class="cur-card" href="https://dday.example.com/it/" style="--h:112;--h2:138">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Quanto manca?</span></span>
+            <h3 class="cur-headline">Il conto alla rovescia del grande giorno</h3>
+            <span class="cur-giant" aria-hidden="true">📅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Giorni che mancano, giorni passati e giorno 100 in una card.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Conto alla rovescia</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lots">
+        <a class="cur-card" href="https://lots.example.com/it/" style="--h:350;--h2:332">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Estrazione a sorte</span></span>
+            <h3 class="cur-headline">Ognuno pesca un bigliettino</h3>
+            <span class="cur-giant" aria-hidden="true">🎟️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Vincenti, vuoti o penitenze vostre, mescolati in modo equo.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Estrazione a sorte</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="memory">
         <a class="cur-card" href="https://memory.example.com/it/" style="--h:221;--h2:203">
           <span class="cur-art">
@@ -519,7 +565,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="1to50">
+      <li class="cur-item" data-id="1to50" hidden>
         <a class="cur-card" href="https://1to50.example.com/it/" style="--h:149;--h2:175">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Sfida di velocità</span></span>
@@ -535,7 +581,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="zombie">
+      <li class="cur-item" data-id="zombie" hidden>
         <a class="cur-card" href="https://zombie.example.com/it/" style="--h:208;--h2:190">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Test di Halloween</span></span>
@@ -583,45 +629,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku" hidden>
-        <a class="cur-card" href="https://sudoku.example.com/it/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Rompicapo classico</span></span>
-            <h3 class="cur-headline">Riempi la griglia con la logica</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Quattro livelli, note a matita, aiuti e sudoku del giorno.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Sudoku</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mbti" hidden>
-        <a class="cur-card" href="https://mbti.example.com/it/" style="--h:302;--h2:284">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Test di personalità</span></span>
-            <h3 class="cur-headline">Test MBTI: che tipo sei?</h3>
-            <span class="cur-giant" aria-hidden="true">🧩</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">20 frasi, 3 minuti. Le tue 4 lettere con le percentuali.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test MBTI gratis</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostra selezione 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostra selezione 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostra selezione 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostra selezione 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostra selezione 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostra selezione 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">43 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">45 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -643,6 +657,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="dday" data-cat="create">
+        <a class="tile-link" href="https://dday.example.com/it/" title="Conto alla rovescia fino a una data, giorni da un inizio con traguardi di 100 e 1000 giorni, o somma giorni. Card da salvare e condividere." style="--h:112;--h2:138">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Conto alla rovescia</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lots" data-cat="vote">
+        <a class="tile-link" href="https://lots.example.com/it/" title="Passate il telefono: ognuno pesca un bigliettino piegato. Vincenti e vuoti o premi vostri, con il riepilogo di chi ha pescato cosa." style="--h:350;--h2:332">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Estrazione a sorte</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/it/" title="Gira le carte di Halloween e trova tutte le coppie. Tre livelli, cronometro, mosse e la tua posizione reale." style="--h:221;--h2:203">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NUOVO</span></span>
@@ -701,14 +729,14 @@
       </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/it/" title="Riempi righe, colonne e riquadri con i numeri da 1 a 9. Quattro livelli, note a matita, aiuti e sudoku del giorno." style="--h:227;--h2:209">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">Sudoku</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mbti" data-cat="test">
         <a class="tile-link" href="https://mbti.example.com/it/" title="20 frasi di tutti i giorni, 3 minuti. Scopri il tuo tipo di 4 lettere tra 16, con le percentuali." style="--h:302;--h2:284">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span></span>
           <span class="tile-name">Test MBTI gratis</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

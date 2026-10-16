@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'dday',
+        kicker: "¿Cuántos días faltan?",
+        headline: "Tu cuenta regresiva en un toque",
+        blurb: "Días que faltan, días desde y día 100, en una tarjeta para compartir.",
+      },
+      {
+        id: 'lots',
+        kicker: "Sorteo con papelitos",
+        headline: "Cada uno saca un papel doblado",
+        blurb: "Premios, vacíos o retos propios, mezclados con justicia.",
+      },
+      {
         id: 'memory',
         kicker: "Memoria de Halloween",
         headline: "Voltea las cartas y encuentra las parejas",

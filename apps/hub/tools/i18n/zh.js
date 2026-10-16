@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'dday',
+        kicker: "数日子",
+        headline: "离那天还有几天？",
+        blurb: "倒计时、在一起第几天、100天，做成卡片分享。",
+      },
+      {
+        id: 'lots',
+        kicker: "传手机抽签",
+        headline: "折好的纸签，一人抽一张",
+        blurb: "中签空签、惩罚请客都能写，公平洗牌。",
+      },
+      {
         id: 'memory',
         kicker: "万圣节记忆游戏",
         headline: "翻开卡牌，找出每一对",

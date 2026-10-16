@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 43,
+  "numberOfItems": 45,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -380,6 +380,20 @@
       "url": "https://teto.example.com/zh/",
       "name": "泰托埃根测试",
       "description": "你是泰托（Teto）还是埃根（Egen）？12个日常情境，2分钟测出你的能量比例。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "url": "https://dday.example.com/zh/",
+      "name": "倒数日计算器",
+      "description": "倒数到任何日子、计算在一起第几天（100天、1000天、周年），还能日期加减。实时倒计时卡片可保存分享。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "url": "https://lots.example.com/zh/",
+      "name": "抽签",
+      "description": "手机传一圈，每人抽一张折好的纸签。中签、空签或自定义奖项都行，最后清楚列出谁抽到了什么。"
     }
   ]
 }
@@ -455,6 +469,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="dday">
+        <a class="cur-card" href="https://dday.example.com/zh/" style="--h:112;--h2:138">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">数日子</span></span>
+            <h3 class="cur-headline">离那天还有几天？</h3>
+            <span class="cur-giant" aria-hidden="true">📅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">倒计时、在一起第几天、100天，做成卡片分享。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">倒数日计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="lots">
+        <a class="cur-card" href="https://lots.example.com/zh/" style="--h:350;--h2:332">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">传手机抽签</span></span>
+            <h3 class="cur-headline">折好的纸签，一人抽一张</h3>
+            <span class="cur-giant" aria-hidden="true">🎟️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">中签空签、惩罚请客都能写，公平洗牌。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">抽签</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="memory">
         <a class="cur-card" href="https://memory.example.com/zh/" style="--h:221;--h2:203">
           <span class="cur-art">
@@ -519,7 +565,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="1to50">
+      <li class="cur-item" data-id="1to50" hidden>
         <a class="cur-card" href="https://1to50.example.com/zh/" style="--h:149;--h2:175">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">手速挑战</span></span>
@@ -535,7 +581,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="zombie">
+      <li class="cur-item" data-id="zombie" hidden>
         <a class="cur-card" href="https://zombie.example.com/zh/" style="--h:208;--h2:190">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节测试</span></span>
@@ -583,45 +629,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="sudoku" hidden>
-        <a class="cur-card" href="https://sudoku.example.com/zh/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">经典益智</span></span>
-            <h3 class="cur-headline">用纯粹的推理填满九宫格</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">四种难度，支持笔记、提示，还有每日一题。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">数独</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="mbti" hidden>
-        <a class="cur-card" href="https://mbti.example.com/zh/" style="--h:302;--h2:284">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">人格测试</span></span>
-            <h3 class="cur-headline">MBTI测试：你是哪一型？</h3>
-            <span class="cur-giant" aria-hidden="true">🧩</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">20道日常小题，3分钟，测出四字母类型和比例。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">MBTI测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">43个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">45个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -643,6 +657,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="dday" data-cat="create">
+        <a class="tile-link" href="https://dday.example.com/zh/" title="倒数到任何日子、计算在一起第几天（100天、1000天、周年），还能日期加减。实时倒计时卡片可保存分享。" style="--h:112;--h2:138">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">倒数日计算器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="lots" data-cat="vote">
+        <a class="tile-link" href="https://lots.example.com/zh/" title="手机传一圈，每人抽一张折好的纸签。中签、空签或自定义奖项都行，最后清楚列出谁抽到了什么。" style="--h:350;--h2:332">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">抽签</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/zh/" title="翻开万圣节卡牌，找出所有相同的图案。三种难度，记录用时和步数，看看你的真实排名。" style="--h:221;--h2:203">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
@@ -701,14 +729,14 @@
       </li>
       <li class="tile" data-id="sudoku" data-cat="game">
         <a class="tile-link" href="https://sudoku.example.com/zh/" title="让每行、每列、每个九宫格都填满1到9。简单到专家四种难度，支持笔记、提示和每日一题。" style="--h:227;--h2:209">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">数独</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="mbti" data-cat="test">
         <a class="tile-link" href="https://mbti.example.com/zh/" title="20道日常小题，3分钟测出你是16型人格中的哪一型，还能看到每个维度的比例。" style="--h:302;--h2:284">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span></span>
           <span class="tile-name">MBTI测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

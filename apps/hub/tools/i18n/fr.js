@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'dday',
+        kicker: "Encore combien ?",
+        headline: "Le compte à rebours du grand jour",
+        blurb: "Jours restants, jours écoulés, jour 100 : une carte à partager.",
+      },
+      {
+        id: 'lots',
+        kicker: "Tirage au sort",
+        headline: "Chacun pioche un papier plié",
+        blurb: "Gagnants, perdants ou gages perso, mélangés équitablement.",
+      },
+      {
         id: 'memory',
         kicker: "Mémoire d’Halloween",
         headline: "Retournez les cartes, trouvez les paires",

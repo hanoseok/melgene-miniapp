@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'dday',
+        kicker: "100일 언제지?",
+        headline: "그날까지 며칠? 디데이 세기",
+        blurb: "D-day·며칠째·100일 날짜를 바로. 카드로 공유해요.",
+      },
+      {
+        id: 'lots',
+        kicker: "폰 돌려 가며 제비뽑기",
+        headline: "접힌 쪽지 한 장씩 뽑아요",
+        blurb: "당첨·꽝도 벌칙·커피 쏘기도, 공정하게 섞인 쪽지.",
+      },
+      {
         id: 'memory',
         kicker: "할로윈 기억력 게임",
         headline: "카드를 뒤집어 같은 짝을 찾아요",

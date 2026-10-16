@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'dday',
+        kicker: "あと何日？",
+        headline: "その日まで、あと何日？",
+        blurb: "カウントダウンも記念日も。カードで共有。",
+      },
+      {
+        id: 'lots',
+        kicker: "スマホで回すくじ引き",
+        headline: "折った紙を一枚ずつ引こう",
+        blurb: "当たり・ハズレも罰ゲームも公平に。",
+      },
+      {
         id: 'memory',
         kicker: "ハロウィン記憶ゲーム",
         headline: "カードをめくってペアを探そう",

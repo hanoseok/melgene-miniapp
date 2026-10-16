@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'dday',
+        kicker: "Counting the days?",
+        headline: "How many days until…?",
+        blurb: "Countdowns, days since and day 100, on a card you can share.",
+      },
+      {
+        id: 'lots',
+        kicker: "Pass-the-phone lots",
+        headline: "Everyone picks a folded slip",
+        blurb: "Winners, blanks or your own prizes, fairly shuffled.",
+      },
+      {
         id: 'memory',
         kicker: "Halloween memory game",
         headline: "Flip the cards, find every pair",
