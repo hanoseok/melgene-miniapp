@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 45,
+  "numberOfItems": 47,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -395,6 +395,20 @@
       "url": "https://lots.example.com/",
       "name": "Losziehen",
       "description": "Handy herumgeben, jeder zieht einen gefalteten Zettel. Gewinne und Nieten oder eigene Lose, am Ende sieht man, wer was gezogen hat."
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "url": "https://baseball.example.com/",
+      "name": "Zahlenraten – Bulls and Cows",
+      "description": "Errate die geheime 3- oder 4-stellige Zahl mit Treffer-Hinweisen. Je weniger Versuche, desto besser – mit echtem Rang."
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "url": "https://spend.example.com/",
+      "name": "Geld-Typ-Test",
+      "description": "Sparer, Genießer oder Spontankäufer? 12 Alltagssituationen rund ums Geld, 2 Minuten. Finde deinen Ausgabestil heraus, nur zum Spaß."
     }
   ]
 }
@@ -470,6 +484,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="baseball">
+        <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Zahlenrätsel</span></span>
+            <h3 class="cur-headline">Knacke die Geheimzahl</h3>
+            <span class="cur-giant" aria-hidden="true">⚾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Mit Treffer-Hinweisen 3 oder 4 Ziffern erraten.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Zahlenraten – Bulls and Cows</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="spend">
+        <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Geld-Typ-Test</span></span>
+            <h3 class="cur-headline">Was für ein Geldtyp bist du?</h3>
+            <span class="cur-giant" aria-hidden="true">💸</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 Alltagsmomente rund ums Geld, 2 Minuten. Finde deinen Stil.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Geld-Typ-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="dday">
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
@@ -534,7 +580,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount">
+      <li class="cur-item" data-id="wordcount" hidden>
         <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Schreibtool</span></span>
@@ -550,7 +596,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="yesno">
+      <li class="cur-item" data-id="yesno" hidden>
         <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Unentschlossen?</span></span>
@@ -598,45 +644,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password" hidden>
-        <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Sicherheits-Tool</span></span>
-            <h3 class="cur-headline">Starkes Passwort mit einem Tipp</h3>
-            <span class="cur-giant" aria-hidden="true">🔑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Zufallspasswort oder Passphrase mit echter Stärke. Nichts wird gesendet.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Passwort-Generator</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="seat" hidden>
-        <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Helfer fürs Klassenzimmer</span></span>
-            <h3 class="cur-headline">Fairen Sitzplan auslosen</h3>
-            <span class="cur-giant" aria-hidden="true">🪑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Namen einfügen, Reihen wählen. Paare trennen, Plätze festlegen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Zufälliger Sitzplan</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">45 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">47 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -658,6 +672,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="baseball" data-cat="game">
+        <a class="tile-link" href="https://baseball.example.com/" title="Errate die geheime 3- oder 4-stellige Zahl mit Treffer-Hinweisen. Je weniger Versuche, desto besser – mit echtem Rang." style="--h:74;--h2:56">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Zahlenraten – Bulls and Cows</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="spend" data-cat="test">
+        <a class="tile-link" href="https://spend.example.com/" title="Sparer, Genießer oder Spontankäufer? 12 Alltagssituationen rund ums Geld, 2 Minuten. Finde deinen Ausgabestil heraus, nur zum Spaß." style="--h:230;--h2:212">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Geld-Typ-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="Countdown bis zu jedem Datum, Tage seit einem Start mit Tag 100 und 1000, oder Tage addieren. Live-Karte speichern und teilen." style="--h:112;--h2:138">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEU</span></span>
@@ -716,14 +744,14 @@
       </li>
       <li class="tile" data-id="password" data-cat="create">
         <a class="tile-link" href="https://password.example.com/" title="Erstelle starke Zufallspasswörter oder leicht merkbare Passphrasen. Echte Stärke in Bit und Knackzeit. Nichts verlässt deinen Browser." style="--h:111;--h2:137">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span></span>
           <span class="tile-name">Passwort-Generator</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="seat" data-cat="vote">
         <a class="tile-link" href="https://seat.example.com/" title="Klassenliste einfügen, fairen Sitzplan auslosen. Reihen, Gänge, getrennte Paare, feste Plätze und vordere Reihen." style="--h:15;--h2:357">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span></span>
           <span class="tile-name">Zufälliger Sitzplan</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

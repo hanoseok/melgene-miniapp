@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 45,
+  "numberOfItems": 47,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -395,6 +395,20 @@
       "url": "https://lots.example.com/",
       "name": "제비뽑기",
       "description": "휴대폰을 돌려 가며 한 명씩 접힌 쪽지를 골라요. 당첨·꽝은 물론 벌칙·커피 쏘기까지, 누가 뭘 뽑았는지 결과로 정리돼요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "url": "https://baseball.example.com/",
+      "name": "숫자 야구",
+      "description": "컴퓨터가 정한 서로 다른 3자리·4자리 숫자를 스트라이크·볼·아웃 힌트로 맞혀 보세요. 난이도별 최고 기록과 실제 백분위."
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "url": "https://spend.example.com/",
+      "name": "소비 성향 테스트",
+      "description": "나는 어떤 소비 스타일? 돈 쓰는 일상 상황 12개, 2분이면 끝. 재미로 보는 나의 소비 스타일."
     }
   ]
 }
@@ -470,6 +484,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="baseball">
+        <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">숫자 추리 게임</span></span>
+            <h3 class="cur-headline">비밀 번호를 몇 번 만에 맞힐까?</h3>
+            <span class="cur-giant" aria-hidden="true">⚾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">스트라이크·볼·아웃 단서만으로 3~4자리 숫자를 추리해요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">숫자 야구</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="spend">
+        <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">재미로 보는 소비 테스트</span></span>
+            <h3 class="cur-headline">나는 어떤 소비 스타일?</h3>
+            <span class="cur-giant" aria-hidden="true">💸</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">돈 쓰는 일상 12가지, 2분. 나의 소비 성향을 확인해요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">소비 성향 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="dday">
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
@@ -534,7 +580,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount">
+      <li class="cur-item" data-id="wordcount" hidden>
         <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">글쓰기 도구</span></span>
@@ -550,7 +596,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="yesno">
+      <li class="cur-item" data-id="yesno" hidden>
         <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">결정 장애 해결</span></span>
@@ -598,45 +644,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password" hidden>
-        <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">보안 도구</span></span>
-            <h3 class="cur-headline">강력한 비밀번호를 한 번에</h3>
-            <span class="cur-giant" aria-hidden="true">🔑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">랜덤 비밀번호·단어 조합, 진짜 강도까지. 서버 전송 없음.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">비밀번호 생성기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="seat" hidden>
-        <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">교실 도우미</span></span>
-            <h3 class="cur-headline">자리 바꾸기, 이번엔 불만 없이</h3>
-            <span class="cur-giant" aria-hidden="true">🪑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">명단만 넣으면 랜덤 배치. 짝 떨어뜨리기·앞자리도.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">자리 바꾸기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">45개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">47개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -658,6 +672,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="baseball" data-cat="game">
+        <a class="tile-link" href="https://baseball.example.com/" title="컴퓨터가 정한 서로 다른 3자리·4자리 숫자를 스트라이크·볼·아웃 힌트로 맞혀 보세요. 난이도별 최고 기록과 실제 백분위." style="--h:74;--h2:56">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">숫자 야구</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="spend" data-cat="test">
+        <a class="tile-link" href="https://spend.example.com/" title="나는 어떤 소비 스타일? 돈 쓰는 일상 상황 12개, 2분이면 끝. 재미로 보는 나의 소비 스타일." style="--h:230;--h2:212">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">소비 성향 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="목표일까지 D-day, 사귄 날부터 며칠째(100일·1000일·주년), 날짜 더하기 빼기까지. 실시간 카운트다운 카드를 저장·공유해요." style="--h:112;--h2:138">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
@@ -716,14 +744,14 @@
       </li>
       <li class="tile" data-id="password" data-cat="create">
         <a class="tile-link" href="https://password.example.com/" title="길이·문자 종류만 고르면 강력한 무작위 비밀번호나 외우기 쉬운 단어 조합이 바로. 강도와 해킹 시간까지, 서버 전송 없이." style="--h:111;--h2:137">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span></span>
           <span class="tile-name">비밀번호 생성기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="seat" data-cat="vote">
         <a class="tile-link" href="https://seat.example.com/" title="이름만 넣으면 랜덤 자리 배치 끝. 교실 줄·칸, 빈자리, 떨어뜨릴 짝, 고정 자리, 앞자리까지 정하고 공정하게 섞어요." style="--h:15;--h2:357">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span></span>
           <span class="tile-name">자리 바꾸기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

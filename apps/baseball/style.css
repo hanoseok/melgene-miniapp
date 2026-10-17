@@ -1,0 +1,273 @@
+/* apps/baseball/style.css — 숫자 야구: 야간 경기장 (짙은 초록 바탕 + 크림 + 실밥 빨강, 스트라이크 = 노랑 · 볼 = 연두 · 아웃 = 빨강 전광판 색).
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 숫자(HUD·입력칸·결과)는 모든 언어에서 Fredoka(--font-num) — 언어별 fonts.css 에 함께 불러온다.
+ * 클래스 앞머리는 bb-(공통 컴포넌트의 mg- 와 겹치지 않게). 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --bg-0: #0f2a1d;
+  --bg-1: #17402c;
+  --ink: #fff6e8;
+  --ink-dim: rgba(255, 246, 232, 0.84);
+  --ink-faint: rgba(255, 246, 232, 0.64);
+  --red: #e8433f;
+  --red-deep: #b72a27;
+  --yellow: #ffd23f;
+  --lime: #6fdc8c;
+  --cream: #fff6e8;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-2: rgba(255, 255, 255, 0.11);
+  --line: rgba(255, 246, 232, 0.22);
+  --card: #143826;
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --font-num: 'Fredoka', var(--font-sans);
+  --display-weight: 700;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--red);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #17402c;
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 246, 232, 0.3);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd23f;
+  --mg-star-off: rgba(255, 246, 232, 0.22);
+  --mg-heart-bg: rgba(232, 67, 63, 0.12);
+  --mg-heart-border: rgba(232, 67, 63, 0.55);
+  --mg-heart-fg: #ff8a85;
+  --mg-heart-on: #ff6b66;
+  --mg-share-bg: rgba(255, 255, 255, 0.08);
+  --mg-share-border: rgba(255, 246, 232, 0.22);
+  --mg-share-primary-bg: var(--red);
+  --mg-share-primary-fg: #fff;
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 255, 255, 0.06);
+  --mg-faq-border: rgba(255, 246, 232, 0.2);
+  --mg-end-retry-bg: var(--red);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: rgba(23, 64, 44, 0.97);
+}
+
+html { background: var(--bg-0); color-scheme: dark; }
+body.bb-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 110px, rgba(255, 246, 232, 0.06) 0 130px, transparent 131px),
+    radial-gradient(circle at 90% 25%, rgba(111, 220, 140, 0.1) 0 130px, transparent 131px),
+    linear-gradient(180deg, #0a1f15 0%, var(--bg-0) 35%, var(--bg-1) 100%) fixed;
+  background-color: var(--bg-0);
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.bb-h1, .bb-kicker, .bb-h1-main, .bb-h1-main em, .bb-badge, .bb-btn, .bb-how,
+.bb-hud-label, .bb-level-name, .bb-level-sub, .bb-timer-opt, .bb-key, .bb-key-text, .bb-chip, .bb-h2, .bb-giveup, .bb-msg,
+.bb-eyebrow, .bb-head, .bb-cap, .bb-newbest, .bb-stat dt, .bb-doc h1 {
+  font-family: var(--font-display);
+}
+/* 숫자는 모든 언어에서 같은 둥근 글꼴 */
+.bb-hud-val, .bb-score-big, .bb-stat-num, .bb-top, .bb-best, .bb-slot, .bb-tile, .bb-row-n, .bb-row-g, .bb-msg-guess, .bb-ht, .bb-key[data-d] {
+  font-family: var(--font-num); font-weight: 600; font-variant-numeric: tabular-nums;
+}
+.bb-head-emoji, .bb-ht b { font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; font-style: normal; font-weight: 400; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.bb-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.bb-screen { padding-top: 12px; }
+
+.bb-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px; padding: 12px 18px;
+  border: 0; border-radius: 16px;
+  font-size: 20px; font-weight: var(--display-weight); line-height: 1.25;
+  cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.bb-btn-primary { background: var(--red); color: #fff; box-shadow: 0 5px 0 var(--red-deep), 0 10px 24px rgba(232, 67, 63, 0.35); }
+.bb-btn-primary:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--red-deep), 0 4px 10px rgba(232, 67, 63, 0.3); }
+.bb-btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 (티징) ---------------- */
+.bb-start { text-align: center; padding-top: 14px; }
+.bb-badge {
+  display: inline-block; margin: 0 0 14px; padding: 6px 14px; border-radius: 999px;
+  background: var(--panel); color: var(--ink); border: 1.5px solid var(--line);
+  font-size: 13px; line-height: 1.35;
+}
+.bb-hero { display: flex; justify-content: center; align-items: center; gap: 12px; height: 92px; margin: 4px auto 0; }
+.bb-ht {
+  display: flex; align-items: center; justify-content: center; width: 62px; height: 78px; border-radius: 14px;
+  background: var(--card); border: 2.5px solid rgba(255, 246, 232, 0.5); box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  font-size: 40px; line-height: 1; font-style: normal; color: var(--yellow);
+}
+.bb-ht:first-child { transform: rotate(-6deg); }
+.bb-ht:last-child { transform: rotate(6deg); }
+.bb-ht-ball { background: var(--cream); border-color: var(--red); transform: translateY(-4px) scale(1.1); animation: bb-bob 2.4s ease-in-out infinite; }
+.bb-ht b { font-size: 38px; line-height: 1; }
+@keyframes bb-bob { 0%, 100% { transform: translateY(-4px) scale(1.1) rotate(-3deg); } 50% { transform: translateY(-10px) scale(1.1) rotate(3deg); } }
+.bb-h1 { margin: 16px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.bb-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--red); color: #fff; border-radius: 8px;
+  font-size: 15px; line-height: 1.35; transform: rotate(-1.5deg);
+}
+.bb-h1-main { display: block; font-size: 31px; color: var(--ink); overflow-wrap: break-word; }
+.bb-h1-main em { font-style: normal; color: var(--yellow); }
+.bb-hook { margin: 0 auto 18px; max-width: 400px; font-size: 16px; color: var(--ink-dim); }
+.bb-levels { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 0 0 12px; }
+.bb-level {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 0; min-height: 68px;
+  padding: 8px 6px; border-radius: 14px; cursor: pointer; color: var(--ink);
+  background: var(--card); border: 2px solid var(--line); -webkit-tap-highlight-color: transparent;
+}
+.bb-level[aria-checked="true"] { border-color: var(--yellow); background: rgba(255, 210, 63, 0.13); box-shadow: 0 0 0 3px rgba(255, 210, 63, 0.2); }
+.bb-level:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; }
+.bb-level-name { font-weight: var(--display-weight); font-size: 18px; line-height: 1.25; overflow-wrap: break-word; max-width: 100%; }
+.bb-level-sub { font-size: 14px; color: var(--yellow); line-height: 1.3; }
+.bb-timer-opt { display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin: 0 0 14px; min-height: 40px; font-size: 15px; color: var(--ink-dim); cursor: pointer; }
+.bb-timer-opt input { width: 20px; height: 20px; accent-color: var(--red); flex: none; }
+.bb-how { margin: 14px 0 0; font-size: 14px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 게임 화면 ---------------- */
+.bb-play { padding-top: 4px; }
+.bb-hud { display: flex; justify-content: center; gap: 10px; margin: 0 auto 10px; max-width: 440px; }
+.bb-hud-box {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 96px; flex: 1 1 0; max-width: 160px;
+  padding: 4px 8px 5px; border-radius: 12px; background: var(--card); border: 1.5px solid var(--line);
+}
+.bb-hud-label { font-size: 12px; line-height: 1.2; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.bb-hud-val { font-size: 24px; line-height: 1.15; color: var(--yellow); white-space: nowrap; }
+.bb-hud-time .bb-hud-val { color: var(--lime); }
+
+.bb-slots { display: flex; justify-content: center; gap: 10px; margin: 4px auto 0; }
+.bb-slot {
+  display: flex; align-items: center; justify-content: center; width: 58px; height: 70px; border-radius: 14px;
+  background: var(--card); border: 2.5px solid var(--line); font-size: 38px; line-height: 1; color: var(--ink);
+}
+.bb-slot.is-on { border-color: var(--yellow); box-shadow: 0 0 0 3px rgba(255, 210, 63, 0.25); }
+.bb-slot.is-full { border-color: rgba(255, 246, 232, 0.55); }
+.bb-slots.is-shake { animation: bb-shake 0.36s ease-in-out; }
+@keyframes bb-shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 50% { transform: translateX(6px); } 75% { transform: translateX(-3px); } }
+.bb-msg {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 8px;
+  min-height: 40px; margin: 8px 0 8px; font-size: 15px; line-height: 1.35; text-align: center; color: var(--ink-dim);
+}
+.bb-msg.is-err { color: #ff9a96; font-weight: 600; }
+.bb-msg-guess { font-size: 22px; letter-spacing: 0.08em; color: var(--ink); }
+
+.bb-pad {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; max-width: 440px; margin: 0 auto;
+  touch-action: manipulation; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.bb-key {
+  display: flex; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 54px; margin: 0; padding: 4px 4px;
+  border: 0; border-radius: 12px; cursor: pointer; color: var(--ink); background: #1f5238; box-shadow: 0 4px 0 #0d261a;
+  font-size: 24px; line-height: 1.1; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+}
+.bb-key:active { transform: translateY(3px); box-shadow: 0 1px 0 #0d261a; }
+.bb-key:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.bb-key.is-used { opacity: 0.32; box-shadow: none; transform: none; }
+.bb-key-del { grid-column: span 2; font-size: 22px; background: #2b3b33; box-shadow: 0 4px 0 #101a15; }
+.bb-key-text { font-size: 14px; font-weight: var(--display-weight); line-height: 1.2; overflow-wrap: break-word; min-width: 0; }
+.bb-key-enter { grid-column: span 3; font-size: 20px; font-weight: var(--display-weight); background: var(--red); color: #fff; box-shadow: 0 4px 0 var(--red-deep); }
+.bb-key-enter:active { box-shadow: 0 1px 0 var(--red-deep); }
+.bb-legend { margin: 12px 0 0; font-size: 13px; line-height: 1.45; text-align: center; color: var(--ink-faint); }
+
+.bb-history { margin: 18px 0 0; }
+.bb-h2 { margin: 0 0 8px; font-size: 16px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink); }
+.bb-empty { margin: 0; padding: 14px; border-radius: 12px; border: 1.5px dashed var(--line); font-size: 14px; color: var(--ink-faint); text-align: center; }
+.bb-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.bb-row {
+  display: grid; grid-template-columns: 34px auto 1fr; align-items: center; gap: 4px 10px; padding: 8px 12px;
+  border-radius: 12px; background: var(--panel); border: 1.5px solid var(--line);
+}
+.bb-row-n { font-size: 15px; color: var(--ink-faint); text-align: center; }
+.bb-row-g { font-size: 24px; letter-spacing: 0.12em; color: var(--ink); }
+.bb-row-c { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 6px; min-width: 0; }
+.bb-chip {
+  display: inline-block; max-width: 100%; padding: 2px 10px; border-radius: 999px;
+  font-size: 13px; line-height: 1.45; font-weight: var(--display-weight); overflow-wrap: anywhere;
+}
+.bb-chip-s { background: var(--yellow); color: #3a2c00; }
+.bb-chip-b { background: var(--lime); color: #0b3319; }
+.bb-chip-o { background: var(--red); color: #fff; }
+.bb-giveup {
+  display: block; width: 100%; margin: 18px 0 4px; min-height: 46px; padding: 8px 14px; border-radius: 12px; cursor: pointer;
+  background: transparent; color: var(--ink-faint); border: 1.5px solid var(--line); font-size: 15px; line-height: 1.3;
+}
+.bb-giveup.is-sure { color: #fff; background: rgba(232, 67, 63, 0.35); border-color: var(--red); }
+.bb-giveup:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+
+/* ---------------- 끝 화면: 결과 카드 ---------------- */
+.bb-end { padding-top: 10px; }
+.bb-result {
+  margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 22px; border: 2px solid var(--line); background: var(--card);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+.bb-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 8px; padding: 4px 14px; border-radius: 999px;
+  background: var(--red); color: #fff; font-size: 15px; line-height: 1.35;
+}
+.bb-head-line { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 6px 0 0; line-height: 1.2; }
+.bb-head-emoji { font-size: 36px; line-height: 1; }
+.bb-head { min-width: 0; font-size: 24px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; }
+.bb-cap { margin: 12px 0 4px; font-size: 13px; line-height: 1.3; color: var(--ink-faint); }
+.bb-secret { display: flex; justify-content: center; gap: 8px; margin: 4px 0 0; }
+.bb-tile {
+  display: flex; align-items: center; justify-content: center; width: 50px; height: 62px; border-radius: 12px;
+  background: var(--cream); color: #0f2a1d; font-size: 34px; line-height: 1; border: 2.5px solid var(--red);
+}
+.bb-score-line { margin: 0; line-height: 1; }
+.bb-score-big { font-size: 62px; line-height: 1.05; color: var(--yellow); }
+.bb-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--lime); color: #0b3319; font-size: 15px; line-height: 1.35; transform: rotate(-2deg);
+}
+.bb-best { margin: 8px 0 0; font-size: 15px; color: var(--ink-dim); }
+.bb-stats { display: flex; justify-content: center; margin: 14px 0 0; }
+.bb-stat { min-width: 140px; padding: 10px 12px; border-radius: 14px; background: var(--panel-2); border: 1.5px solid var(--line); }
+.bb-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.bb-stat dd { margin: 6px 0 0; }
+.bb-stat-num { font-size: 26px; line-height: 1.3; color: var(--ink); }
+.bb-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(111, 220, 140, 0.08); border: 1.5px dashed rgba(111, 220, 140, 0.5); }
+.bb-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.bb-top { margin: 0; font-size: 28px; line-height: 1.2; color: var(--lime); }
+.bb-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.bb-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .bb-h1-main, html:lang(th) .bb-kicker, html:lang(th) .bb-how, html:lang(th) .bb-btn, html:lang(th) .bb-hook, html:lang(th) .bb-level-name, html:lang(th) .bb-level-sub, html:lang(th) .bb-head, html:lang(th) .bb-chip, html:lang(th) .bb-msg, html:lang(th) .bb-legend, html:lang(th) .bb-giveup { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .bb-hud-label, html:lang(th) .bb-stat dt, html:lang(th) .bb-cap { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .bb-h1-main, html:lang(vi) .bb-kicker, html:lang(vi) .bb-head { line-height: 1.3; }
+html:lang(ja) .bb-h1-main, html:lang(zh) .bb-h1-main, html:lang(ko) .bb-h1-main { font-size: 32px; line-height: 1.25; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.bb-doc { padding: 16px 0 8px; }
+.bb-doc h1 { font-size: 26px; line-height: 1.25; margin: 8px 0 14px; }
+.bb-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--yellow); }
+.bb-doc p { color: var(--ink-dim); font-size: 15px; }
+.bb-doc a, .site-footer a { color: var(--yellow); }
+.site-footer { color: var(--ink-faint); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .bb-ht-ball, .bb-slots.is-shake { animation: none; }
+  .bb-btn, .bb-key { transition: none; }
+}
+@media (max-width: 359px) {
+  .bb-h1-main { font-size: 27px; }
+  .bb-slot { width: 48px; height: 62px; font-size: 32px; }
+  .bb-tile { width: 42px; height: 54px; font-size: 30px; }
+  .bb-slots { gap: 8px; }
+  .bb-row { grid-template-columns: 28px auto 1fr; gap: 4px 6px; padding: 8px; }
+  .bb-row-g { font-size: 22px; }
+}

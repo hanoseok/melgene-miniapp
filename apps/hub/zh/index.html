@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 45,
+  "numberOfItems": 47,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -394,6 +394,20 @@
       "url": "https://lots.example.com/zh/",
       "name": "抽签",
       "description": "手机传一圈，每人抽一张折好的纸签。中签、空签或自定义奖项都行，最后清楚列出谁抽到了什么。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "url": "https://baseball.example.com/zh/",
+      "name": "猜数字",
+      "description": "根据位置对、数字对的提示，猜出电脑设定的 3 位或 4 位数字。次数越少越好，还能看真实排名。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "url": "https://spend.example.com/zh/",
+      "name": "消费性格测试",
+      "description": "是会攒钱的，还是爱犒劳自己的？12个日常花钱场景，约2分钟，测出你的花钱类型，轻松好玩。"
     }
   ]
 }
@@ -469,6 +483,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="baseball">
+        <a class="cur-card" href="https://baseball.example.com/zh/" style="--h:74;--h2:56">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">猜数字游戏</span></span>
+            <h3 class="cur-headline">猜出秘密数字</h3>
+            <span class="cur-giant" aria-hidden="true">⚾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">根据位置对、数字对的提示，推理 3 或 4 位数。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">猜数字</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="spend">
+        <a class="cur-card" href="https://spend.example.com/zh/" style="--h:230;--h2:212">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">花钱风格测试</span></span>
+            <h3 class="cur-headline">你是哪种消费类型？</h3>
+            <span class="cur-giant" aria-hidden="true">💸</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12个日常花钱情境，2分钟，看看你的消费风格。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">消费性格测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="dday">
         <a class="cur-card" href="https://dday.example.com/zh/" style="--h:112;--h2:138">
           <span class="cur-art">
@@ -533,7 +579,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount">
+      <li class="cur-item" data-id="wordcount" hidden>
         <a class="cur-card" href="https://wordcount.example.com/zh/" style="--h:21;--h2:3">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">写作工具</span></span>
@@ -549,7 +595,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="yesno">
+      <li class="cur-item" data-id="yesno" hidden>
         <a class="cur-card" href="https://yesno.example.com/zh/" style="--h:130;--h2:156">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">选择困难？</span></span>
@@ -597,45 +643,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password" hidden>
-        <a class="cur-card" href="https://password.example.com/zh/" style="--h:111;--h2:137">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">安全工具</span></span>
-            <h3 class="cur-headline">一键生成高强度密码</h3>
-            <span class="cur-giant" aria-hidden="true">🔑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">随机密码或单词口令，显示真实强度，不上传。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">密码生成器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="seat" hidden>
-        <a class="cur-card" href="https://seat.example.com/zh/" style="--h:15;--h2:357">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">教室小帮手</span></span>
-            <h3 class="cur-headline">公平随机排座位</h3>
-            <span class="cur-giant" aria-hidden="true">🪑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">粘贴名单就能排,可分开坐、固定前排。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">随机排座位</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">45个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">47个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -657,6 +671,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="baseball" data-cat="game">
+        <a class="tile-link" href="https://baseball.example.com/zh/" title="根据位置对、数字对的提示，猜出电脑设定的 3 位或 4 位数字。次数越少越好，还能看真实排名。" style="--h:74;--h2:56">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">猜数字</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="spend" data-cat="test">
+        <a class="tile-link" href="https://spend.example.com/zh/" title="是会攒钱的，还是爱犒劳自己的？12个日常花钱场景，约2分钟，测出你的花钱类型，轻松好玩。" style="--h:230;--h2:212">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">消费性格测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/zh/" title="倒数到任何日子、计算在一起第几天（100天、1000天、周年），还能日期加减。实时倒计时卡片可保存分享。" style="--h:112;--h2:138">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
@@ -715,14 +743,14 @@
       </li>
       <li class="tile" data-id="password" data-cat="create">
         <a class="tile-link" href="https://password.example.com/zh/" title="选好长度和字符类型，立即生成高强度随机密码或好记的单词口令。显示真实强度和破解时间，不上传任何数据。" style="--h:111;--h2:137">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span></span>
           <span class="tile-name">密码生成器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="seat" data-cat="vote">
         <a class="tile-link" href="https://seat.example.com/zh/" title="输入名单就能随机排座位。可设行列、空位、不坐一起的同学、固定座位和前排座位，公平打乱。" style="--h:15;--h2:357">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span></span>
           <span class="tile-name">随机排座位</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

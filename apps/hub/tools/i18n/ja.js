@@ -35,6 +35,12 @@ module.exports = {
         blurb: "当たり・ハズレも罰ゲームも公平に。",
       },
       {
+        id: 'baseball',
+        kicker: "数字当てゲーム",
+        headline: "秘密の数字を当てよう",
+        blurb: "ヒットとブローを手がかりに3〜4桁を推理しよう。",
+      },
+      {
         id: 'memory',
         kicker: "ハロウィン記憶ゲーム",
         headline: "カードをめくってペアを探そう",
@@ -45,6 +51,12 @@ module.exports = {
         kicker: "韓国で話題の診断",
         headline: "あなたはテト？エゲン？",
         blurb: "日常の12シーン、2分。自分のテト％とエゲン％がわかる。",
+      },
+      {
+        id: 'spend',
+        kicker: "お金の使い方診断",
+        headline: "あなたはどんな使い方タイプ？",
+        blurb: "お金にまつわる日常の12シーン、2分。自分のタイプがわかる。",
       },
       {
         id: 'wordcount',

@@ -32,6 +32,12 @@ module.exports = {
         blurb: "Vincenti, vuoti o penitenze vostre, mescolati in modo equo.",
       },
       {
+        id: 'baseball',
+        kicker: "Gioco di deduzione",
+        headline: "Scopri il numero segreto",
+        blurb: "Indizi toro e vacca per trovare 3 o 4 cifre.",
+      },
+      {
         id: 'memory',
         kicker: "Memory di Halloween",
         headline: "Gira le carte, trova le coppie",
@@ -42,6 +48,12 @@ module.exports = {
         kicker: "Test virale coreano",
         headline: "Sei più teto o egen?",
         blurb: "12 momenti quotidiani, 2 minuti. Scopri il tuo mix di energie.",
+      },
+      {
+        id: 'spend',
+        kicker: "Test sul modo di spendere",
+        headline: "Che tipo di spendaccione sei?",
+        blurb: "12 momenti quotidiani con i soldi, 2 minuti. Scopri il tuo stile.",
       },
       {
         id: 'wordcount',

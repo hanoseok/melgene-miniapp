@@ -1,0 +1,303 @@
+/* apps/spend/style.css — 테토·에겐 테스트: 크림색 바탕에 테토(따뜻한 주황)·에겐(분홍) 두 빛이 섞이는 밝고 다정한 톤.
+ * 그림 = 반은 테토색·반은 에겐색인 에너지 구슬. 결과 페이지는 그 유형 색(--c-*)으로 카드·이름·강점이 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --cream: #f3fbf6;
+  --cream-2: #fff8e8;
+  --gold: #ffb020;
+  --gold-deep: #a86300;
+  --mint: #2bb38a;
+  --mint-deep: #167357;
+  --ink: #2b1d22;
+  --ink-dim: rgba(43, 29, 34, 0.74);
+  --ink-faint: rgba(43, 29, 34, 0.5);
+  --card: rgba(255, 255, 255, 0.72);
+  --line: rgba(43, 29, 34, 0.12);
+  /* 유형 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #ffb020;
+  --c-deep: #a86300;
+  --c-ink: #fff8e8;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: linear-gradient(90deg, var(--mint-deep), var(--mint));
+  --mg-top-badge-fg: #ffffff;
+  --lang-bg: rgba(255, 255, 255, 0.8);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(43, 29, 34, 0.18);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffb020;
+  --mg-star-off: rgba(43, 29, 34, 0.16);
+  --mg-heart-bg: rgba(43, 179, 138, 0.12);
+  --mg-heart-border: rgba(22, 115, 87, 0.4);
+  --mg-heart-fg: #167357;
+  --mg-heart-on: #167357;
+  --mg-share-bg: rgba(255, 255, 255, 0.8);
+  --mg-share-border: rgba(43, 29, 34, 0.14);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 255, 255, 0.75);
+  --mg-faq-border: rgba(43, 29, 34, 0.12);
+  --mg-end-retry-bg: linear-gradient(90deg, var(--mint-deep), var(--mint));
+  --mg-end-retry-fg: #ffffff;
+  --toast-bg: rgba(43, 29, 34, 0.92);
+}
+
+html { background: var(--cream); }
+body.sp-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.sp-result-page {
+  background:
+    radial-gradient(ellipse 120% 40% at 50% -6%, color-mix(in srgb, var(--c-main) 20%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%) fixed;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.sp-h1, .sp-kicker, .sp-h1-main, .sp-h1-main em, .sp-badge, .sp-btn, .sp-q-text, .sp-q-num, .sp-result-name, .sp-eyebrow, .sp-vibe, .sp-sub,
+.sp-loading-text, .sp-cta strong, .sp-doc h1, .sp-progress-num, .sp-meta span, .sp-mix-label {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 두 빛 덩어리 + 반짝이 (고정, 가로 넘침 없음) ---------------- */
+.sp-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.sp-blob { position: absolute; width: 340px; height: 340px; border-radius: 50%; filter: blur(48px); opacity: 0.38; animation: sp-breathe 14s ease-in-out infinite alternate; }
+.sp-blob-t { top: -90px; left: calc(50% - 330px); background: var(--gold); }
+.sp-blob-e { bottom: -110px; right: calc(50% - 330px); background: var(--mint); animation-delay: -7s; }
+.sp-spark { position: absolute; width: 10px; height: 10px; background: #ffffff; opacity: 0.85; clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); animation: sp-twinkle 4.5s ease-in-out infinite; }
+.sp-spark-1 { top: 22%; left: 7%; }
+.sp-spark-2 { top: 58%; right: 8%; animation-delay: -1.6s; }
+.sp-spark-3 { top: 86%; left: 18%; animation-delay: -3s; }
+@keyframes sp-breathe { from { transform: scale(0.92) translate(0, 0); } to { transform: scale(1.08) translate(18px, 14px); } }
+@keyframes sp-twinkle { 0%, 100% { transform: scale(0.6); opacity: 0.3; } 50% { transform: scale(1.1); opacity: 0.95; } }
+
+.mg-top, .sp-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.sp-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.sp-screen { padding-top: 12px; }
+
+.sp-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 999px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sp-btn-primary {
+  background: linear-gradient(90deg, var(--mint-deep), var(--mint));
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(10, 70, 50, 0.3);
+  box-shadow: 0 5px 0 #0c4a39, 0 12px 26px rgba(43, 179, 138, 0.35);
+}
+.sp-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #0c4a39; }
+.sp-btn:focus-visible, .sp-choice:focus-visible, .sp-back:focus-visible { outline: 3px dashed var(--gold-deep); outline-offset: 4px; }
+
+/* ---------------- 그림: 에너지 구슬 + 이모지 ---------------- */
+.sp-hero { position: relative; display: grid; place-items: center; width: 184px; height: 184px; margin: 8px auto 0; }
+.sp-orb {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 10px 18px color-mix(in srgb, var(--h-main) 30%, transparent));
+  animation: sp-spin 36s linear infinite;
+}
+.sp-emo {
+  position: relative; font-size: 76px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: sp-bob 2.6s ease-in-out infinite;
+}
+.sp-q {
+  position: absolute; right: 4px; top: 4px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #ffffff; color: var(--mint-deep); border: 3px solid var(--mint);
+  font: 900 28px/1 'Nunito', sans-serif;
+  box-shadow: 0 4px 10px rgba(22, 115, 87, 0.25);
+  animation: sp-bob 2.2s ease-in-out infinite reverse;
+}
+@keyframes sp-spin { to { transform: rotate(360deg); } }
+@keyframes sp-bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-5px) rotate(4deg); } }
+.sp-hero-loading { width: 168px; height: 168px; margin-bottom: 14px; }
+.sp-hero-loading .sp-emo { font-size: 70px; animation-duration: 0.8s; }
+.sp-hero-loading .sp-orb { animation-duration: 3s; }
+.sp-hero-result { width: 172px; height: 172px; margin: 0 auto; }
+.sp-hero-result .sp-emo { font-size: 72px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.sp-start { text-align: center; padding-top: 16px; }
+.sp-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 5px 14px; border-radius: 999px;
+  background: #ffffff; border: 1.5px solid rgba(43, 179, 138, 0.6);
+  color: var(--mint-deep); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+  box-shadow: 0 3px 10px rgba(43, 179, 138, 0.18);
+}
+.sp-h1 { margin: 10px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.sp-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--gold-deep); }
+.sp-h1-main { display: block; font-size: 36px; line-height: 1.2; color: var(--ink); }
+.sp-h1-main em {
+  font-style: normal;
+  background: linear-gradient(90deg, var(--gold-deep), var(--mint-deep));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.sp-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.sp-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.sp-meta span { padding: 4px 12px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.sp-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.sp-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1.5px solid var(--line); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.sp-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(43, 29, 34, 0.08); overflow: hidden; }
+.sp-progress-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--mint-deep), var(--mint)); transition: width 0.3s ease; }
+.sp-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.sp-q-card {
+  position: relative;
+  padding: 20px 16px 16px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--line);
+  box-shadow: 0 14px 34px rgba(22, 115, 87, 0.12);
+  animation: sp-in 0.28s ease;
+}
+@keyframes sp-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.sp-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.sp-q-emoji { font-size: 28px; line-height: 1; }
+.sp-q-num { font-size: 17px; color: var(--gold-deep); font-weight: var(--display-weight); }
+.sp-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.sp-choices { display: flex; flex-direction: column; gap: 10px; }
+.sp-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(43, 29, 34, 0.14);
+  border-radius: 16px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .sp-choice:hover { border-color: var(--mint); background: #f3fbf6; } }
+.sp-choice:active { transform: scale(0.985); }
+.sp-choice.is-picked { border-color: var(--mint-deep); background: linear-gradient(90deg, rgba(255, 176, 32, 0.12), rgba(43, 179, 138, 0.18)); box-shadow: 0 0 0 2px rgba(43, 179, 138, 0.45); }
+.sp-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 계산 중 ---------------- */
+.sp-loading { text-align: center; padding: 40px 0; }
+.sp-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); }
+.sp-loading-sub { margin: 0; font-size: 14px; color: var(--mint-deep); }
+
+/* ---------------- 결과 ---------------- */
+.sp-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 18px; border: 1.5px solid rgba(255, 176, 32, 0.5);
+  background: rgba(255, 255, 255, 0.85); color: var(--ink); text-decoration: none;
+}
+.sp-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.sp-cta-text strong { font-size: 17px; font-weight: var(--display-weight); color: var(--gold-deep); }
+.sp-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.sp-cta-arrow { font-size: 22px; color: var(--gold-deep); }
+
+.sp-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff, var(--c-ink));
+  border: 1.5px solid color-mix(in srgb, var(--c-main) 40%, transparent);
+  border-radius: 24px;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--c-main) 18%, transparent);
+}
+.sp-tape {
+  position: absolute; top: -10px; left: 50%; width: 110px; height: 20px; margin-left: -55px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--mint-deep), var(--mint)); transform: rotate(-2deg);
+  box-shadow: 0 2px 6px rgba(22, 115, 87, 0.25);
+}
+.sp-eyebrow { margin: 6px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.sp-result-title { margin: 6px 0 0; line-height: 1.2; }
+.sp-result-name { display: block; font-size: 33px; font-weight: var(--display-weight); line-height: 1.2; color: var(--c-deep); overflow-wrap: break-word; }
+.sp-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--ink); }
+
+/* 내 답변으로 계산한 소비 스타일 비율 (방금 푼 사람만, 숫자는 result.js 가 채움) */
+.sp-mix { margin: 16px 0 0; padding: 12px 14px 12px; border-radius: 18px; background: #ffffff; border: 1px solid var(--line); text-align: left; }
+.sp-mix-label { display: block; font-size: 14px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 8px; }
+.sp-mix-row { display: grid; grid-template-columns: minmax(70px, 34%) 1fr 3.4em; align-items: center; gap: 8px; margin: 6px 0 0; font-size: 14px; line-height: 1.3; }
+.sp-mix-name { font-weight: 700; color: var(--ink); overflow-wrap: anywhere; }
+.sp-mix-bar { display: block; height: 12px; border-radius: 999px; background: rgba(43, 29, 34, 0.08); overflow: hidden; }
+.sp-mix-fill { display: block; height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--mint-deep), var(--mint)); transition: width 0.8s ease; }
+.sp-mix-pct { text-align: right; font-weight: 800; color: var(--ink-dim); }
+
+.sp-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: #ffffff; border: 1.5px dashed color-mix(in srgb, var(--c-main) 60%, transparent);
+  color: var(--c-deep); font-size: 13.5px; font-weight: 700;
+}
+.sp-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.sp-sub { margin: 16px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; line-height: 1.3; }
+.sp-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.sp-chips li {
+  padding: 5px 12px; border-radius: 999px;
+  background: color-mix(in srgb, var(--c-main) 14%, #ffffff); border: 1px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  color: var(--ink); font-size: 14px; font-weight: 700; line-height: 1.35;
+}
+.sp-notes { display: grid; gap: 10px; margin-top: 14px; text-align: left; }
+.sp-note { padding: 2px 14px 12px; border-radius: 16px; background: rgba(255, 255, 255, 0.85); border: 1px dashed rgba(43, 29, 34, 0.18); }
+.sp-note .sp-sub { margin: 10px 0 4px; font-size: 16px; }
+.sp-note p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-dim); }
+.sp-note-weak .sp-sub { color: #5d5a4a; }
+.sp-note-tip { border-color: color-mix(in srgb, var(--c-main) 45%, transparent); }
+
+/* 재미용 안내 (재무 조언 아님) */
+.sp-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: rgba(255, 255, 255, 0.7); border: 1px dashed rgba(43, 29, 34, 0.2); font-size: 13px; line-height: 1.5; color: var(--ink-dim); text-align: center; }
+
+/* ---------------- 개인정보 ---------------- */
+.sp-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.sp-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.sp-doc h2 { font-size: 17px; color: var(--gold-deep); margin: 22px 0 6px; }
+.sp-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .sp-body { line-height: 1.75; }
+html:lang(th) :is(.sp-h1-main, .sp-result-name, .sp-q-text, .sp-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.sp-kicker, .sp-badge, .sp-mix-label) { letter-spacing: 0; }
+html:lang(vi) :is(.sp-h1-main, .sp-result-name, .sp-q-text) { line-height: 1.4; }
+html:lang(ru) .sp-doc h1 { line-height: 1.25; }
+html:lang(ja) :is(.sp-h1-main, .sp-result-name, .sp-q-text, .sp-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.sp-h1-main, .sp-result-name, .sp-q-text, .sp-vibe, .sp-hook, .sp-desc, .sp-note p) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .sp-h1-main { font-size: 31px; }
+  .sp-result-name { font-size: 29px; }
+  .sp-q-text { font-size: 19px; }
+  .sp-hero-result { width: 156px; height: 156px; }
+  .sp-hero-result .sp-emo { font-size: 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sp-blob, .sp-spark, .sp-orb, .sp-emo, .sp-q, .sp-q-card { animation: none !important; }
+  .sp-progress-fill, .sp-btn, .sp-choice, .sp-mix-fill { transition: none; }
+}

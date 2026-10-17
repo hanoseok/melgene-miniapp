@@ -33,6 +33,12 @@ module.exports = {
         blurb: "Gagnants, perdants ou gages perso, mélangés équitablement.",
       },
       {
+        id: 'baseball',
+        kicker: "Jeu de déduction",
+        headline: "Trouvez le nombre secret",
+        blurb: "Des indices pour deviner un nombre de 3 ou 4 chiffres.",
+      },
+      {
         id: 'memory',
         kicker: "Mémoire d’Halloween",
         headline: "Retournez les cartes, trouvez les paires",
@@ -43,6 +49,12 @@ module.exports = {
         kicker: "Test viral coréen",
         headline: "Plutôt teto ou egen ?",
         blurb: "12 moments du quotidien, 2 minutes. Découvre ton mélange d’énergies.",
+      },
+      {
+        id: 'spend',
+        kicker: "Test de style de dépenses",
+        headline: "Quel genre de dépensier es-tu ?",
+        blurb: "12 moments d’argent du quotidien, 2 minutes. Trouve ton style.",
       },
       {
         id: 'wordcount',

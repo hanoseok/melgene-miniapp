@@ -33,6 +33,12 @@ module.exports = {
         blurb: "Gewinne, Nieten oder eigene Lose, fair gemischt.",
       },
       {
+        id: 'baseball',
+        kicker: "Zahlenrätsel",
+        headline: "Knacke die Geheimzahl",
+        blurb: "Mit Treffer-Hinweisen 3 oder 4 Ziffern erraten.",
+      },
+      {
         id: 'memory',
         kicker: "Halloween-Memory",
         headline: "Karten umdrehen, alle Paare finden",
@@ -43,6 +49,12 @@ module.exports = {
         kicker: "Viraler Test aus Korea",
         headline: "Eher Teto oder Egen?",
         blurb: "12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus.",
+      },
+      {
+        id: 'spend',
+        kicker: "Geld-Typ-Test",
+        headline: "Was für ein Geldtyp bist du?",
+        blurb: "12 Alltagsmomente rund ums Geld, 2 Minuten. Finde deinen Stil.",
       },
       {
         id: 'wordcount',

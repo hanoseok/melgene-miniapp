@@ -1,0 +1,14 @@
+{
+  "ko": { "kicker": "숫자 추리 게임", "headline": "비밀 번호를 몇 번 만에 맞힐까?", "blurb": "스트라이크·볼·아웃 단서만으로 3~4자리 숫자를 추리해요." },
+  "en": { "kicker": "Number guessing game", "headline": "Crack the secret number", "blurb": "Read strikes, balls and outs to find a 3 or 4 digit code." },
+  "ja": { "kicker": "数字当てゲーム", "headline": "秘密の数字を当てよう", "blurb": "ヒットとブローを手がかりに3〜4桁を推理しよう。" },
+  "zh": { "kicker": "猜数字游戏", "headline": "猜出秘密数字", "blurb": "根据位置对、数字对的提示，推理 3 或 4 位数。" },
+  "fr": { "kicker": "Jeu de déduction", "headline": "Trouvez le nombre secret", "blurb": "Des indices pour deviner un nombre de 3 ou 4 chiffres." },
+  "de": { "kicker": "Zahlenrätsel", "headline": "Knacke die Geheimzahl", "blurb": "Mit Treffer-Hinweisen 3 oder 4 Ziffern erraten." },
+  "th": { "kicker": "เกมทายตัวเลข", "headline": "ไขรหัสเลขลับ", "blurb": "ดูคำใบ้ถูกที่ผิดที่ แล้วทายเลข 3-4 หลักให้ได้" },
+  "vi": { "kicker": "Trò chơi đoán số", "headline": "Phá mật mã số bí mật", "blurb": "Đọc gợi ý đúng hay sai vị trí để tìm số 3–4 chữ số." },
+  "es": { "kicker": "Juego de adivinar", "headline": "Descubre el número secreto", "blurb": "Pistas de toros y vacas para dar con 3 o 4 cifras." },
+  "it": { "kicker": "Gioco di deduzione", "headline": "Scopri il numero segreto", "blurb": "Indizi toro e vacca per trovare 3 o 4 cifre." },
+  "pt": { "kicker": "Jogo de adivinhação", "headline": "Descubra o número secreto", "blurb": "Pistas de certo e quase para achar 3 ou 4 dígitos." },
+  "ru": { "kicker": "Игра на логику", "headline": "Угадай секретное число", "blurb": "Быки и коровы помогут найти число из 3–4 цифр." }
+}

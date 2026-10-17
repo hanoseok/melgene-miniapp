@@ -37,6 +37,12 @@ module.exports = {
         blurb: "Trúng, trượt hay giải tự đặt, xáo công bằng.",
       },
       {
+        id: 'baseball',
+        kicker: "Trò chơi đoán số",
+        headline: "Phá mật mã số bí mật",
+        blurb: "Đọc gợi ý đúng hay sai vị trí để tìm số 3–4 chữ số.",
+      },
+      {
         id: 'memory',
         kicker: "Game trí nhớ Halloween",
         headline: "Lật thẻ bài, tìm đủ các cặp",
@@ -47,6 +53,12 @@ module.exports = {
         kicker: "Trắc nghiệm hot từ Hàn",
         headline: "Bạn là Teto hay Egen?",
         blurb: "12 tình huống đời thường, 2 phút. Xem tỷ lệ năng lượng của bạn.",
+      },
+      {
+        id: 'spend',
+        kicker: "Trắc nghiệm kiểu chi tiêu",
+        headline: "Bạn thuộc kiểu chi tiêu nào?",
+        blurb: "12 tình huống tiền bạc đời thường, 2 phút. Tìm ra phong cách của bạn.",
       },
       {
         id: 'wordcount',

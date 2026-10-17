@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>猜数字（1A2B）玩法与推理技巧｜数字猜谜指南</title>
+<meta name="description" content="猜数字（1A2B、Bulls and Cows）的规则、“位置对”和“数字对”怎么看、推理技巧、游戏的由来以及它和 Mastermind 的关系，一篇讲清楚。">
+<link rel="canonical" href="https://baseball.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://baseball.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://baseball.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://baseball.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://baseball.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://baseball.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://baseball.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://baseball.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://baseball.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://baseball.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://baseball.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://baseball.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://baseball.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://baseball.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="猜数字（1A2B）玩法与推理技巧｜数字猜谜指南">
+<meta property="og:description" content="猜数字（1A2B、Bulls and Cows）的规则、“位置对”和“数字对”怎么看、推理技巧、游戏的由来以及它和 Mastermind 的关系，一篇讲清楚。">
+<meta property="og:image" content="https://baseball.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://baseball.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-18">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://baseball.example.com/zh/guide.html#article","headline":"猜数字（Bulls and Cows）怎么玩，怎么推理","description":"猜数字（1A2B、Bulls and Cows）的规则、“位置对”和“数字对”怎么看、推理技巧、游戏的由来以及它和 Mastermind 的关系，一篇讲清楚。","inLanguage":"zh","datePublished":"2026-10-18","dateModified":"2026-10-18","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://baseball.example.com/zh/guide.html","url":"https://baseball.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"猜数字","url":"https://baseball.example.com/zh/"},"image":"https://baseball.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"猜数字","item":"https://baseball.example.com/zh/"},{"@type":"ListItem","position":3,"name":"猜数字（Bulls and Cows）怎么玩，怎么推理","item":"https://baseball.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/zh/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">猜数字</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/zh/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">猜数字</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">⚾</span>猜数字</p>
+    <h1>猜数字（Bulls and Cows）怎么玩，怎么推理</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-18">更新于 2026年10月18日</time></p>
+    <p class="mg-art-intro">猜数字是一款经典的单人解码游戏：电脑藏好一个秘密数字，你每猜一次就会得到一点线索。这类线索在各地叫法不同：中文常说“几A几B”，日本叫 Hit and Blow，韩国用棒球术语，英语则叫公牛和母牛（Bulls and Cows）。这篇指南会介绍本站的规则、线索怎么读、让谜题变简单的思路、游戏的来历，以及和朋友一起玩的方法。</p>
+    <section>
+      <h2>什么是猜数字</h2>
+      <p>电脑会选一个各位数字都不相同的秘密数字。经典难度是 3 位，进阶难度是 4 位。同一个数字不会出现两次，但 0 可以用，也可以放在最前面，所以 072 也是一个正常的秘密数字。3 位数共有 720 种可能，4 位数共有 5,040 种，每一局都用公平的随机洗牌来选，所以每一种出现的概率相同。</p>
+      <p>目标是用尽量少的次数找出这个数字。每猜一次，你会知道自己离答案有多近，却不知道是哪些数字对了，谜题的乐趣就在这里。不打开计时器就没有时间限制，也没有提示按钮，整个游戏靠的是冷静的推理。</p>
+    </section>
+    <section>
+      <h2>一局怎么进行</h2>
+      <p>在开始画面选择 3 位或 4 位，然后点“开始”。用屏幕上的数字键或键盘输入相同位数的数字，再点“猜”。数字不能重复，已经猜过的数字也不会重复计入次数。</p>
+      <ul>
+        <li>“位置对”（A）表示数字对，位置也对。</li>
+        <li>“数字对”（B）表示数字在秘密数字里，但位置不对。</li>
+        <li>“全错”表示你用的数字一个都不在秘密数字里。</li>
+        <li>所有位置都对就赢了，结果会显示你用了多少次。</li>
+        <li>卡住了可以连点两次“放弃”查看答案并开始新的一局。放弃的局不计入成绩。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>有帮助的思考方式</h2>
+      <p>新手常常随便猜一个数字，然后碰运气。更好的习惯是把每次的回答当成一条事实，并记下它排除了什么。哪怕只是在纸上或脑子里做个简单的笔记，也会让游戏从“靠运气”变成真正的逻辑谜题。</p>
+      <ul>
+        <li>把“位置对”和“数字对”加起来。这个总数就是你的数字中有多少个出现在秘密数字里，不管位置如何。</li>
+        <li>“全错”非常有价值。它会一次性排除你用过的所有数字，以后不必再考虑它们。</li>
+        <li>每次只改一两个地方。如果线索变了，就知道换进去的数字是原因。</li>
+        <li>把数字和位置分开验证。知道某个数字在里面之后，再挪动它去找它的位置。</li>
+        <li>每次猜的数字都应该仍有可能是答案。如果和已知的事实矛盾，它不可能赢，等于浪费一次机会。</li>
+        <li>不要死盯着第一次的幸运命中。先确认它和之前所有线索都吻合，再在它的基础上往下推。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>游戏的来历</h2>
+      <p>Bulls and Cows 是一款古老的纸笔游戏，通常由两个人轮流当出题人和猜题人。它被认为是 20 世纪 70 年代初发行的彩色棋子桌游 Mastermind（密码破译者）的前身。同一时期，英国剑桥大学的大型计算机上出现了名为 Moo 的电脑版，此后一直是程序员喜爱的练习题。</p>
+      <p>这个游戏在各地有不同的名字：中文常叫“猜数字”或 1A2B，日本叫 Hit and Blow，韩国叫“数字棒球”，本页的叫法就沿用了棒球术语，而在俄语、西班牙语等语言里则用公牛和母牛。据计算机分析，如果每一步都下得完美，4 位数的秘密数字最多 7 次就能猜中，平均略多于 5 次，所以人类能接近这个次数就已经很出色了。</p>
+    </section>
+    <section>
+      <h2>和朋友一起玩，持续刷新成绩</h2>
+      <p>猜数字很容易变成一场友好的比赛。先约定位数，大家把同一难度各玩几局，比比谁用的次数最少。除了秘密数字，其余信息都是公开的，所以一局结束后可以一起聊聊各自的推理过程，这是学到新技巧的好办法。</p>
+      <p>每个难度的最佳成绩只保存在这个浏览器里。猜对一局后，会把你的次数与同一难度其他玩家的真实成绩比较；如果还没有可比较的成绩，这部分就不显示。先试着超越自己的最好成绩，再去挑战 4 位数的难度吧。</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">⚾</span>马上玩猜数字</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">猜数字</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

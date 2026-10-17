@@ -32,6 +32,12 @@ module.exports = {
         blurb: "Prêmios, vazios ou prendas suas, embaralhados com justiça.",
       },
       {
+        id: 'baseball',
+        kicker: "Jogo de adivinhação",
+        headline: "Descubra o número secreto",
+        blurb: "Pistas de certo e quase para achar 3 ou 4 dígitos.",
+      },
+      {
         id: 'memory',
         kicker: "Memória de Halloween",
         headline: "Vire as cartas e ache os pares",
@@ -42,6 +48,12 @@ module.exports = {
         kicker: "Teste viral coreano",
         headline: "Você é mais teto ou egen?",
         blurb: "12 momentos do dia a dia, 2 minutos. Descubra sua mistura de energias.",
+      },
+      {
+        id: 'spend',
+        kicker: "Teste de perfil de gastos",
+        headline: "Que tipo de gastador você é?",
+        blurb: "12 momentos do dia a dia com dinheiro, 2 minutos. Descubra seu estilo.",
       },
       {
         id: 'wordcount',

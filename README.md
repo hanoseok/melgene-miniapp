@@ -133,9 +133,11 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | wordcount | apps/wordcount | 글자수 세기: 공백 포함·제외 글자수(grapheme), 단어(Intl.Segmenter), 문장·문단·줄, 바이트(UTF-8·나이스 3바이트·완성형 2바이트), 읽기·말하기 시간, 목표 글자수 막대, 키워드 상위 5, 줄 정리·되돌리기, 글은 이 기기 localStorage 에만(서버·주소 X) | `check-wordcount.js` (+ `check-flow.js`) |
 | yesno | apps/yesno | 예스 노 결정기: 질문(기기 안에만) → YES/NO · YES/NO/글쎄 · 신비한 구슬 답 12개 · 3판 2선승/5판 3선승, crypto 거부 샘플링으로 먼저 결정 후 연출, 최근 10개 기록, '이 답 공유하기'만 #d= 에 질문 포함 | `check-yesno.js` |
 | memory | apps/memory | 카드 짝 맞추기(할로윈): 쉬움 4×3·보통 4×4·어려움 4×6, crypto Fisher–Yates 섞기, 0.1초 타이머·이동 수·정확도, 탭 전환 시 일시정지, 레벨별 최고 기록, 서버 점수 memory-easy/normal/hard 로 실제 백분위 | `check-memory.js` (+ `flow-test.js`) |
+| baseball | apps/baseball | 숫자 야구(불스 앤 카우스): 서로 다른 숫자 3자리(720가지)·4자리(5,040가지) 비밀 번호, crypto Fisher–Yates, 스트라이크·볼·아웃 판정(전수 대조), 힌트 없음·포기 시 정답 공개, 시도 횟수 + 선택형 0.1초 타이머, 자릿수별 최고 기록, 서버 점수 baseball-3/4 로 실제 백분위 | `check-baseball.js` |
 | teto | apps/teto | 테토 에겐 테스트: 일상 상황 12개·4지선다, 내 답으로 계산한 테토/에겐 % 게이지, 유형 8종 r/*.html(4^12 전수 10.98~13.72%), 찰떡·상극은 링크 없는 카드, 같은 유형 비율은 supa.vote 20표 이상만 | `check-teto.js` (+ `flow-test.js`) |
 | dday | apps/dday | 디데이 계산기: 디데이(D-n·D-DAY·D+n, 실시간 남은 시간) · 며칠째(시작일 1일로 세기 — ko 기본 켬, 100·1000일·주년) · 날짜 ± N일, UTC 정오 셈(서머타임·윤년 안전), 빠른 선택(할로윈·크리스마스·새해·밸런타인 코드 계산), 카드 PNG·#d= 링크·이 기기 저장 10개 | `check-dday.js` (+ `check-flow.js`) |
 | lots | apps/lots | 제비뽑기: 폰을 돌려 가며 접힌 쪽지를 한 장씩 — 당첨/꽝·직접 쓰기(벌칙·커피 쏘기), 이름 차례, 본 결과 가리기, 누가 뭘 뽑았나 정리·#d= 결과 링크(crypto 거부 샘플링 + Fisher–Yates) | `check-lots.js` (+ `flow-test.js`) |
+| spend | apps/spend | 소비 성향 테스트: 돈 쓰는 일상 상황 12개·4지선다, 내 답으로 계산한 스타일 비율 막대, 유형 8종 r/*.html(4^12 전수 10.23~16.33%), 재미용·재무 조언 아님, 같은 스타일 비율은 supa.vote 20표 이상만 | `check-spend.js` |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

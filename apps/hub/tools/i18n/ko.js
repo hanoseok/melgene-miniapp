@@ -35,6 +35,12 @@ module.exports = {
         blurb: "당첨·꽝도 벌칙·커피 쏘기도, 공정하게 섞인 쪽지.",
       },
       {
+        id: 'baseball',
+        kicker: "숫자 추리 게임",
+        headline: "비밀 번호를 몇 번 만에 맞힐까?",
+        blurb: "스트라이크·볼·아웃 단서만으로 3~4자리 숫자를 추리해요.",
+      },
+      {
         id: 'memory',
         kicker: "할로윈 기억력 게임",
         headline: "카드를 뒤집어 같은 짝을 찾아요",
@@ -45,6 +51,12 @@ module.exports = {
         kicker: "요즘 화제 심리테스트",
         headline: "나는 테토일까, 에겐일까?",
         blurb: "일상 상황 12개, 2분. 내 답으로 재는 테토·에겐 비율.",
+      },
+      {
+        id: 'spend',
+        kicker: "재미로 보는 소비 테스트",
+        headline: "나는 어떤 소비 스타일?",
+        blurb: "돈 쓰는 일상 12가지, 2분. 나의 소비 성향을 확인해요.",
       },
       {
         id: 'wordcount',

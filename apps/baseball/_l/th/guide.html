@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>เกมทายตัวเลข (Bulls and Cows) วิธีเล่นและเคล็ดลับ</title>
+<meta name="description" content="วิธีเล่นเกมทายตัวเลข Bulls and Cows กติกา การอ่านคำใบ้ถูกที่และผิดที่ เทคนิคการคิดวิเคราะห์ ประวัติของเกม และความเกี่ยวข้องกับ Mastermind">
+<link rel="canonical" href="https://baseball.example.com/th/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://baseball.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://baseball.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://baseball.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://baseball.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://baseball.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://baseball.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://baseball.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://baseball.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://baseball.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://baseball.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://baseball.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://baseball.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://baseball.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="เกมทายตัวเลข (Bulls and Cows) วิธีเล่นและเคล็ดลับ">
+<meta property="og:description" content="วิธีเล่นเกมทายตัวเลข Bulls and Cows กติกา การอ่านคำใบ้ถูกที่และผิดที่ เทคนิคการคิดวิเคราะห์ ประวัติของเกม และความเกี่ยวข้องกับ Mastermind">
+<meta property="og:image" content="https://baseball.example.com/og/th/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://baseball.example.com/th/guide.html">
+<meta property="og:locale" content="th_TH">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-18">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://baseball.example.com/th/guide.html#article","headline":"เกมทายตัวเลข (Bulls and Cows): วิธีเล่นและวิธีคิดให้ทายถูก","description":"วิธีเล่นเกมทายตัวเลข Bulls and Cows กติกา การอ่านคำใบ้ถูกที่และผิดที่ เทคนิคการคิดวิเคราะห์ ประวัติของเกม และความเกี่ยวข้องกับ Mastermind","inLanguage":"th","datePublished":"2026-10-18","dateModified":"2026-10-18","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"mainEntityOfPage":"https://baseball.example.com/th/guide.html","url":"https://baseball.example.com/th/guide.html","about":{"@type":"WebApplication","name":"เกมทายตัวเลข","url":"https://baseball.example.com/th/"},"image":"https://baseball.example.com/og/th/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/th/"},{"@type":"ListItem","position":2,"name":"เกมทายตัวเลข","item":"https://baseball.example.com/th/"},{"@type":"ListItem","position":3,"name":"เกมทายตัวเลข (Bulls and Cows): วิธีเล่นและวิธีคิดให้ทายถูก","item":"https://baseball.example.com/th/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="กลับหน้าแรก Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">เกมทายตัวเลข</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="เลือกภาษา"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th" selected>ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="เลือกภาษา"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">เกมทายตัวเลข</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">⚾</span>เกมทายตัวเลข</p>
+    <h1>เกมทายตัวเลข (Bulls and Cows): วิธีเล่นและวิธีคิดให้ทายถูก</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-18">อัปเดต 18 ตุลาคม 2569</time></p>
+    <p class="mg-art-intro">เกมทายตัวเลขเป็นเกมไขรหัสแบบคลาสสิกที่เล่นคนเดียวได้ มีเลขลับซ่อนอยู่ คุณทายไปทีละครั้ง และทุกครั้งจะได้คำใบ้เล็ก ๆ กลับมา ในหลายประเทศเรียกเกมนี้ว่าเบสบอลตัวเลข เพราะคำใบ้เรียกว่าสไตรก์ บอล และเอาต์ บทความนี้อธิบายกติกาของเวอร์ชันบนเว็บนี้ วิธีอ่านคำใบ้ แนวคิดที่ช่วยให้ปริศนาง่ายขึ้น ที่มาของเกม และวิธีเล่นกับเพื่อน</p>
+    <section>
+      <h2>เกมทายตัวเลขคืออะไร</h2>
+      <p>คอมพิวเตอร์จะเลือกเลขลับที่ทุกหลักไม่ซ้ำกัน ระดับคลาสสิกมี 3 หลัก ระดับท้าทายมี 4 หลัก เลขตัวเดียวกันจะไม่ปรากฏสองครั้ง แต่ใช้เลข 0 ได้ แม้อยู่หน้าสุดก็ตาม ดังนั้น 072 ก็เป็นเลขลับที่ใช้ได้ มีเลขลับที่เป็นไปได้ 720 แบบสำหรับ 3 หลัก และ 5,040 แบบสำหรับ 4 หลัก ทุกแบบมีโอกาสเท่ากัน เพราะสับเลขอย่างยุติธรรมทุกรอบ</p>
+      <p>เป้าหมายคือหาเลขให้ได้ด้วยจำนวนครั้งน้อยที่สุด หลังทายทุกครั้งคุณจะรู้ว่าใกล้แค่ไหน แต่ไม่รู้ว่าเลขหลักไหนถูก ความสนุกของปริศนาอยู่ตรงนี้ ถ้าไม่เปิดตัวจับเวลาก็ไม่มีข้อจำกัดเรื่องเวลา และไม่มีปุ่มคำใบ้ ทั้งเกมจึงอาศัยการคิดวิเคราะห์อย่างรอบคอบ</p>
+    </section>
+    <section>
+      <h2>แต่ละรอบเล่นอย่างไร</h2>
+      <p>เลือก 3 หรือ 4 หลักที่หน้าจอเริ่มต้นแล้วกดเริ่ม ใส่ตัวเลขที่มีจำนวนหลักเท่ากันด้วยแป้นตัวเลขบนหน้าจอหรือคีย์บอร์ด แล้วกดทาย คำทายห้ามมีเลขซ้ำ และเลขที่เคยทายแล้วจะไม่ถูกนับซ้ำ</p>
+      <ul>
+        <li>ถูกที่ (สไตรก์) คือเลขถูกและอยู่ตำแหน่งที่ถูกต้อง</li>
+        <li>ผิดที่ (บอล) คือเลขที่มีอยู่ในเลขลับ แต่อยู่คนละตำแหน่ง</li>
+        <li>ไม่มีเลย (เอาต์) หมายความว่าไม่มีเลขตัวไหนของคุณอยู่ในเลขลับเลย</li>
+        <li>คุณชนะเมื่อทุกหลักถูกที่ ผลลัพธ์จะบอกว่าใช้กี่ครั้ง</li>
+        <li>ถ้าติด กดยอมแพ้สองครั้งเพื่อดูคำตอบและเริ่มรอบใหม่ รอบที่ยอมแพ้ไม่นับเป็นสถิติ</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>วิธีคิดที่ช่วยได้</h2>
+      <p>มือใหม่มักทายสุ่มแล้วหวังโชค นิสัยที่ดีกว่าคือมองคำตอบแต่ละครั้งเป็นข้อเท็จจริงเล็ก ๆ แล้วจดว่ามันตัดอะไรออกไป แค่สมุดบันทึกง่าย ๆ บนกระดาษหรือในหัวก็ทำให้เกมดูเป็นเรื่องของโชคน้อยลงมาก</p>
+      <ul>
+        <li>ลองบวกจำนวนถูกที่กับผิดที่ ผลรวมบอกว่ามีเลขของคุณกี่ตัวอยู่ในเลขลับ ไม่ว่าจะอยู่ตำแหน่งใด</li>
+        <li>“ไม่มีเลย” มีค่ามาก เพราะตัดเลขที่ใช้ไปทั้งหมดออกในคราวเดียว คุณไม่ต้องคิดถึงเลขเหล่านั้นอีก</li>
+        <li>ระหว่างการทายแต่ละครั้ง เปลี่ยนเพียงหนึ่งหรือสองอย่าง ถ้าคำใบ้เปลี่ยน แสดงว่าเลขที่สลับเป็นสาเหตุ</li>
+        <li>ตรวจเลขกับตำแหน่งแยกกัน เมื่อรู้ว่าเลขตัวหนึ่งอยู่ในเลขลับ ให้ลองย้ายมันเพื่อหาว่าอยู่ตำแหน่งไหน</li>
+        <li>ให้แน่ใจว่าทุกคำทายยังเป็นคำตอบได้ ถ้ามันขัดกับสิ่งที่รู้แล้ว มันไม่มีทางชนะและเสียตาไปเปล่า ๆ</li>
+        <li>อย่ายึดติดกับการถูกที่ครั้งแรกที่ได้มาโดยบังเอิญ ตรวจว่ามันเข้ากับคำใบ้ก่อนหน้าทั้งหมดหรือไม่ก่อนจะต่อยอด</li>
+      </ul>
+    </section>
+    <section>
+      <h2>เกมนี้มาจากไหน</h2>
+      <p>Bulls and Cows เป็นเกมดินสอกับกระดาษเก่าแก่ ปกติเล่นสองคนผลัดกันเป็นผู้ตั้งรหัสและผู้ทาย เชื่อกันว่าเป็นต้นแบบของ Mastermind เกมกระดานที่ใช้หมุดสีซึ่งวางขายในช่วงต้นทศวรรษ 1970 ในทศวรรษเดียวกันนั้น มีเกมเวอร์ชันคอมพิวเตอร์ชื่อ Moo ที่เล่นบนเมนเฟรมของมหาวิทยาลัยเคมบริดจ์ และตั้งแต่นั้นมาเกมนี้ก็เป็นแบบฝึกหัดยอดนิยมของโปรแกรมเมอร์</p>
+      <p>แนวคิดนี้แพร่ไปพร้อมชื่อท้องถิ่นต่าง ๆ ในเกาหลีเรียกว่าเบสบอลตัวเลข ซึ่งหน้านี้ใช้ศัพท์แบบนั้น ในญี่ปุ่นมักเรียก Hit and Blow ในจีนเรียก 1A2B ส่วนภาษารัสเซียและสเปนใช้ชื่อวัวตัวผู้กับวัวตัวเมีย มีการพิสูจน์ด้วยคอมพิวเตอร์ว่า ถ้าเล่นอย่างสมบูรณ์แบบ เลขลับ 4 หลักทุกแบบทายได้ภายในไม่เกินเจ็ดครั้ง และเฉลี่ยมากกว่าห้าครั้งเล็กน้อย ถ้ามนุษย์ทำได้ใกล้เคียงนั้นถือว่ายอดเยี่ยมมาก</p>
+    </section>
+    <section>
+      <h2>เล่นกับเพื่อนและติดตามพัฒนาการ</h2>
+      <p>เกมนี้เปลี่ยนเป็นการแข่งกันเล่น ๆ ได้ง่าย ตกลงจำนวนหลักก่อน ให้ทุกคนเล่นระดับเดียวกันหลายรอบ แล้วเทียบว่าใครใช้จำนวนครั้งน้อยที่สุด เพราะไม่มีอะไรซ่อนนอกจากเลขลับ หลังจบรอบจึงคุยกันถึงวิธีคิดได้ด้วย ซึ่งเป็นวิธีที่ดีในการเรียนรู้เทคนิคใหม่ ๆ</p>
+      <p>สถิติดีที่สุดของแต่ละระดับเก็บไว้ในเบราว์เซอร์นี้เท่านั้น เมื่อทายถูก จำนวนครั้งของคุณจะถูกเทียบกับผลจริงของผู้เล่นคนอื่นในระดับเดียวกัน และถ้ายังไม่มีอะไรให้เทียบ ก็จะไม่แสดงส่วนนั้น ลองทำลายสถิติของตัวเองก่อน แล้วไปท้าทายระดับ 4 หลัก</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">⚾</span>เล่นเกมทายตัวเลขเลย</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">เกมทายตัวเลข</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

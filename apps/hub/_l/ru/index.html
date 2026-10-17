@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 45,
+  "numberOfItems": 47,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -396,6 +396,20 @@
       "url": "https://lots.example.com/",
       "name": "Жеребьёвка",
       "description": "Передавайте телефон по кругу — каждый тянет сложенную бумажку. Выигрыш, пустышки или свои варианты и итог, кому что досталось."
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "url": "https://baseball.example.com/",
+      "name": "Быки и коровы",
+      "description": "Угадай секретное число из 3 или 4 цифр по подсказкам про быков и коров. Чем меньше попыток, тем лучше, с реальным местом в рейтинге."
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "url": "https://spend.example.com/",
+      "name": "Тест на отношение к деньгам",
+      "description": "Копилка или транжира? 12 привычных денежных ситуаций, 2 минуты. Узнайте свой стиль трат, просто для интереса."
     }
   ]
 }
@@ -471,6 +485,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="baseball">
+        <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Игра на логику</span></span>
+            <h3 class="cur-headline">Угадай секретное число</h3>
+            <span class="cur-giant" aria-hidden="true">⚾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Быки и коровы помогут найти число из 3–4 цифр.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Быки и коровы</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="spend">
+        <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Тест на стиль трат</span></span>
+            <h3 class="cur-headline">Какой ты тип в тратах?</h3>
+            <span class="cur-giant" aria-hidden="true">💸</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 денежных ситуаций из жизни, 2 минуты. Узнай свой стиль.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Тест на отношение к деньгам</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="dday">
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
@@ -535,7 +581,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount">
+      <li class="cur-item" data-id="wordcount" hidden>
         <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Для текста</span></span>
@@ -551,7 +597,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="yesno">
+      <li class="cur-item" data-id="yesno" hidden>
         <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Не можешь решить?</span></span>
@@ -599,45 +645,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="password" hidden>
-        <a class="cur-card" href="https://password.example.com/" style="--h:111;--h2:137">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Безопасность</span></span>
-            <h3 class="cur-headline">Надёжный пароль в одно касание</h3>
-            <span class="cur-giant" aria-hidden="true">🔑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Случайный пароль или фраза, честная стойкость. Без отправки.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Генератор паролей</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="seat" hidden>
-        <a class="cur-card" href="https://seat.example.com/" style="--h:15;--h2:357">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Помощник учителя</span></span>
-            <h3 class="cur-headline">Честная случайная рассадка</h3>
-            <span class="cur-giant" aria-hidden="true">🪑</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Вставьте список, задайте ряды. Разведите пары, закрепите места.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Рассадка учеников</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 45</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 47</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -659,6 +673,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="baseball" data-cat="game">
+        <a class="tile-link" href="https://baseball.example.com/" title="Угадай секретное число из 3 или 4 цифр по подсказкам про быков и коров. Чем меньше попыток, тем лучше, с реальным местом в рейтинге." style="--h:74;--h2:56">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Быки и коровы</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="spend" data-cat="test">
+        <a class="tile-link" href="https://spend.example.com/" title="Копилка или транжира? 12 привычных денежных ситуаций, 2 минуты. Узнайте свой стиль трат, просто для интереса." style="--h:230;--h2:212">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тест на отношение к деньгам</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="Обратный отсчёт до любой даты, дни с начала отношений (100, 1000 дней, годовщины) или прибавить дни. Живая карточка для шаринга." style="--h:112;--h2:138">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
@@ -717,14 +745,14 @@
       </li>
       <li class="tile" data-id="password" data-cat="create">
         <a class="tile-link" href="https://password.example.com/" title="Создавай надёжные случайные пароли или легко запоминаемые парольные фразы. Реальная стойкость в битах, ничего не уходит из браузера." style="--h:111;--h2:137">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔑</span></span></span>
           <span class="tile-name">Генератор паролей</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="seat" data-cat="vote">
         <a class="tile-link" href="https://seat.example.com/" title="Вставьте список класса и получите честную случайную рассадку. Ряды, проходы, кого развести, закреплённые места и первые парты." style="--h:15;--h2:357">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🪑</span></span></span>
           <span class="tile-name">Рассадка учеников</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

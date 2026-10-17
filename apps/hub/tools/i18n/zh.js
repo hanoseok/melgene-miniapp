@@ -38,6 +38,12 @@ module.exports = {
         blurb: "中签空签、惩罚请客都能写，公平洗牌。",
       },
       {
+        id: 'baseball',
+        kicker: "猜数字游戏",
+        headline: "猜出秘密数字",
+        blurb: "根据位置对、数字对的提示，推理 3 或 4 位数。",
+      },
+      {
         id: 'memory',
         kicker: "万圣节记忆游戏",
         headline: "翻开卡牌，找出每一对",
@@ -48,6 +54,12 @@ module.exports = {
         kicker: "韩国爆火测试",
         headline: "你是泰托还是埃根？",
         blurb: "12个日常情境，2分钟，测出你的能量比例。",
+      },
+      {
+        id: 'spend',
+        kicker: "花钱风格测试",
+        headline: "你是哪种消费类型？",
+        blurb: "12个日常花钱情境，2分钟，看看你的消费风格。",
       },
       {
         id: 'wordcount',

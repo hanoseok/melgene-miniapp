@@ -35,6 +35,12 @@ module.exports = {
         blurb: "Winners, blanks or your own prizes, fairly shuffled.",
       },
       {
+        id: 'baseball',
+        kicker: "Number guessing game",
+        headline: "Crack the secret number",
+        blurb: "Read strikes, balls and outs to find a 3 or 4 digit code.",
+      },
+      {
         id: 'memory',
         kicker: "Halloween memory game",
         headline: "Flip the cards, find every pair",
@@ -45,6 +51,12 @@ module.exports = {
         kicker: "Korean viral test",
         headline: "Are you more teto or egen?",
         blurb: "12 everyday moments, 2 minutes. See your own teto–egen mix.",
+      },
+      {
+        id: 'spend',
+        kicker: "Just-for-fun money test",
+        headline: "What kind of spender are you?",
+        blurb: "12 everyday money moments, 2 minutes. Find your own style.",
       },
       {
         id: 'wordcount',
