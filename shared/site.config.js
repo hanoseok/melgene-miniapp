@@ -1042,7 +1042,7 @@ window.SITE_CONFIG = {
       category: 'test',
       added: '2026-10-18',
       path: 'https://spend.example.com/',
-      title: { en: 'Spending Personality Test', ja: 'お金の使い方診断', zh: '消费性格测试', ko: '소비 성향 테스트', fr: 'Test de personnalité financière', de: 'Geld-Typ-Test', th: 'แบบทดสอบนิสัยการใช้เงิน', vi: 'Trắc nghiệm chi tiêu', es: 'Test de personalidad financiera', it: 'Test personalità finanziaria', pt: 'Teste de perfil de gastos', ru: 'Тест на отношение к деньгам' },
+      title: { en: 'Spending Personality Test', ja: 'お金の使い方診断', zh: '消费性格测试', ko: '소비 성향 테스트', fr: 'Test style d’argent', de: 'Geld-Typ-Test', th: 'แบบทดสอบนิสัยการใช้เงิน', vi: 'Trắc nghiệm chi tiêu', es: 'Test estilo de gasto', it: 'Test personalità finanziaria', pt: 'Teste de perfil de gastos', ru: 'Тест на отношение к деньгам' },
       desc: {
         en: 'Which kind of spender are you? 12 everyday money moments, 2 minutes. Discover your own spending style, just for fun.',
         ja: '貯めるタイプ？ パーッと使うタイプ？ 日常のお金の場面12問、約2分。あなたのお金の使い方のクセを、遊び感覚でチェック。',

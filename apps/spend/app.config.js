@@ -12,11 +12,11 @@ module.exports = {
     "ja": "お金の使い方診断",
     "zh": "消费性格测试",
     "ko": "소비 성향 테스트",
-    "fr": "Test de personnalité financière",
+    "fr": "Test style d’argent",
     "de": "Geld-Typ-Test",
     "th": "แบบทดสอบนิสัยการใช้เงิน",
     "vi": "Trắc nghiệm chi tiêu",
-    "es": "Test de personalidad financiera",
+    "es": "Test estilo de gasto",
     "it": "Test personalità finanziaria",
     "pt": "Teste de perfil de gastos",
     "ru": "Тест на отношение к деньгам"
