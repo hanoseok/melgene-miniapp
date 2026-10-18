@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'age',
+        kicker: "Còn bao lâu đến sinh nhật?",
+        headline: "Mình bao nhiêu tuổi chính xác?",
+        blurb: "Tuổi đến từng ngày và đếm ngược sinh nhật.",
+      },
+      {
+        id: 'bottle',
+        kicker: "Điện thoại giữa bàn",
+        headline: "Quay chai xem đến lượt ai",
+        blurb: "Xếp tên quanh bàn, quay một lần công bằng.",
+      },
+      {
         id: 'dday',
         kicker: "Còn bao lâu?",
         headline: "Đếm ngược đến ngày đặc biệt",

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 47,
+  "numberOfItems": 49,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -408,6 +408,20 @@
       "url": "https://spend.example.com/it/",
       "name": "Test personalità finanziaria",
       "description": "Risparmiatore, spendaccione o compratore impulsivo? 12 momenti quotidiani con i soldi, 2 minuti. Scopri il tuo stile di spesa, solo per gioco."
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "url": "https://age.example.com/it/",
+      "name": "Calcolo età",
+      "description": "Inserisci la data di nascita: età esatta in anni, mesi e giorni, conto alla rovescia al compleanno, giorni vissuti, giorno della settimana e segno."
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "url": "https://bottle.example.com/it/",
+      "name": "Gioco della bottiglia",
+      "description": "Metti il telefono al centro del tavolo e gira la bottiglia. Disponi i nomi in cerchio e scopri in modo equo chi inizia o chi sceglie la canzone."
     }
   ]
 }
@@ -483,6 +497,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="age">
+        <a class="cur-card" href="https://age.example.com/it/" style="--h:309;--h2:291">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Conti di compleanno</span></span>
+            <h3 class="cur-headline">Quanti anni ho, esattamente?</h3>
+            <span class="cur-giant" aria-hidden="true">🎂</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Età al giorno e conto alla rovescia al compleanno.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Calcolo età</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bottle">
+        <a class="cur-card" href="https://bottle.example.com/it/" style="--h:338;--h2:320">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Telefono al centro</span></span>
+            <h3 class="cur-headline">Gira la bottiglia: a chi tocca?</h3>
+            <span class="cur-giant" aria-hidden="true">🍾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Nomi in cerchio, un giro equo. Chi inizia?</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Gioco della bottiglia</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="baseball">
         <a class="cur-card" href="https://baseball.example.com/it/" style="--h:74;--h2:56">
           <span class="cur-art">
@@ -547,7 +593,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="memory">
+      <li class="cur-item" data-id="memory" hidden>
         <a class="cur-card" href="https://memory.example.com/it/" style="--h:221;--h2:203">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Memory di Halloween</span></span>
@@ -563,7 +609,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="teto">
+      <li class="cur-item" data-id="teto" hidden>
         <a class="cur-card" href="https://teto.example.com/it/" style="--h:348;--h2:330">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Test virale coreano</span></span>
@@ -611,45 +657,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="1to50" hidden>
-        <a class="cur-card" href="https://1to50.example.com/it/" style="--h:149;--h2:175">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Sfida di velocità</span></span>
-            <h3 class="cur-headline">Da 1 a 50, il più veloce possibile</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Trova il prossimo numero prima del cronometro.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Gioco da 1 a 50</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="zombie" hidden>
-        <a class="cur-card" href="https://zombie.example.com/it/" style="--h:208;--h2:190">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Test di Halloween</span></span>
-            <h3 class="cur-headline">Sopravviveresti agli zombie?</h3>
-            <span class="cur-giant" aria-hidden="true">🧟</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 situazioni, 2 minuti. Scopri il tuo ruolo nell’apocalisse.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test di sopravvivenza zombie</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostra selezione 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostra selezione 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostra selezione 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostra selezione 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostra selezione 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostra selezione 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">47 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">49 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -671,6 +685,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="age" data-cat="create">
+        <a class="tile-link" href="https://age.example.com/it/" title="Inserisci la data di nascita: età esatta in anni, mesi e giorni, conto alla rovescia al compleanno, giorni vissuti, giorno della settimana e segno." style="--h:309;--h2:291">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Calcolo età</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bottle" data-cat="vote">
+        <a class="tile-link" href="https://bottle.example.com/it/" title="Metti il telefono al centro del tavolo e gira la bottiglia. Disponi i nomi in cerchio e scopri in modo equo chi inizia o chi sceglie la canzone." style="--h:338;--h2:320">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Gioco della bottiglia</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="baseball" data-cat="game">
         <a class="tile-link" href="https://baseball.example.com/it/" title="Indovina il numero segreto di 3 o 4 cifre con gli indizi toro e vacca. Meno tentativi fai, meglio è, con la tua posizione reale." style="--h:74;--h2:56">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NUOVO</span></span>
@@ -729,14 +757,14 @@
       </li>
       <li class="tile" data-id="1to50" data-cat="game">
         <a class="tile-link" href="https://1to50.example.com/it/" title="Tocca i numeri da 1 a 50 in ordine il più in fretta possibile. Tempo al centesimo e modalità rapida da 1 a 25." style="--h:149;--h2:175">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">Gioco da 1 a 50</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="zombie" data-cat="test">
         <a class="tile-link" href="https://zombie.example.com/it/" title="È scoppiata l’epidemia. 12 situazioni, 2 minuti. Scopri che ruolo avresti nell’apocalisse zombie." style="--h:208;--h2:190">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span></span>
           <span class="tile-name">Test di sopravvivenza zombie</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

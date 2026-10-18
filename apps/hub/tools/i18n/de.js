@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'age',
+        kicker: "Geburtstags-Rechner",
+        headline: "Wie alt bin ich genau?",
+        blurb: "Genaues Alter und Countdown zum nächsten Geburtstag.",
+      },
+      {
+        id: 'bottle',
+        kicker: "Handy in die Tischmitte",
+        headline: "Flasche drehen, wer ist dran?",
+        blurb: "Namen im Kreis, eine faire Drehung. Wer fängt an?",
+      },
+      {
         id: 'dday',
         kicker: "Tage zählen",
         headline: "Wie viele Tage noch bis…?",

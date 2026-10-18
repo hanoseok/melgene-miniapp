@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'age',
+        kicker: "Calcul d’anniversaire",
+        headline: "Quel âge ai-je, au jour près ?",
+        blurb: "Votre âge exact et le compte à rebours avant l’anniversaire.",
+      },
+      {
+        id: 'bottle',
+        kicker: "Le téléphone au milieu",
+        headline: "Faites tourner la bouteille",
+        blurb: "Les prénoms autour, un tour équitable. Qui commence ?",
+      },
+      {
         id: 'dday',
         kicker: "Encore combien ?",
         headline: "Le compte à rebours du grand jour",

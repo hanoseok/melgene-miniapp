@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 47,
+  "numberOfItems": 49,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -409,6 +409,20 @@
       "url": "https://spend.example.com/",
       "name": "消费性格测试",
       "description": "是会攒钱的，还是爱犒劳自己的？12个日常花钱场景，约2分钟，测出你的花钱类型，轻松好玩。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "url": "https://age.example.com/",
+      "name": "年龄计算器",
+      "description": "输入出生日期，算出精确到年、月、天的周岁，下次生日倒数、已活天数、出生星期、星座和生肖，还有一万天纪念日。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "url": "https://bottle.example.com/",
+      "name": "转瓶子",
+      "description": "把手机放在桌子中间转瓶子。把大家的名字围成一圈，公平决定谁先来、谁来点歌。"
     }
   ]
 }
@@ -484,6 +498,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="age">
+        <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">离生日还有几天？</span></span>
+            <h3 class="cur-headline">我现在到底几岁？</h3>
+            <span class="cur-giant" aria-hidden="true">🎂</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">选好生日，周岁精确到天，还有生日倒数。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">年龄计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bottle">
+        <a class="cur-card" href="https://bottle.example.com/" style="--h:338;--h2:320">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">手机放桌子中间</span></span>
+            <h3 class="cur-headline">转瓶子，看看轮到谁</h3>
+            <span class="cur-giant" aria-hidden="true">🍾</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">名字围成一圈，公平转一次。谁先来？</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">转瓶子</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="baseball">
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
@@ -548,7 +594,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="memory">
+      <li class="cur-item" data-id="memory" hidden>
         <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节记忆游戏</span></span>
@@ -564,7 +610,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="teto">
+      <li class="cur-item" data-id="teto" hidden>
         <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">韩国爆火测试</span></span>
@@ -612,45 +658,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="1to50" hidden>
-        <a class="cur-card" href="https://1to50.example.com/" style="--h:149;--h2:175">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">手速挑战</span></span>
-            <h3 class="cur-headline">从1点到50，越快越好</h3>
-            <span class="cur-giant" aria-hidden="true">🔢</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">按顺序找出打乱的数字，计时精确到0.01秒。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">1到50 舒尔特方格</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="zombie" hidden>
-        <a class="cur-card" href="https://zombie.example.com/" style="--h:208;--h2:190">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节测试</span></span>
-            <h3 class="cur-headline">丧尸来袭，你能活下来吗？</h3>
-            <span class="cur-giant" aria-hidden="true">🧟</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12个末日情境，2分钟，测出你的生存角色。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">丧尸末日生存测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">47个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">49个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -672,6 +686,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="age" data-cat="create">
+        <a class="tile-link" href="https://age.example.com/" title="输入出生日期，算出精确到年、月、天的周岁，下次生日倒数、已活天数、出生星期、星座和生肖，还有一万天纪念日。" style="--h:309;--h2:291">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">年龄计算器</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bottle" data-cat="vote">
+        <a class="tile-link" href="https://bottle.example.com/" title="把手机放在桌子中间转瓶子。把大家的名字围成一圈，公平决定谁先来、谁来点歌。" style="--h:338;--h2:320">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">转瓶子</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="baseball" data-cat="game">
         <a class="tile-link" href="https://baseball.example.com/" title="根据位置对、数字对的提示，猜出电脑设定的 3 位或 4 位数字。次数越少越好，还能看真实排名。" style="--h:74;--h2:56">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span>
@@ -730,14 +758,14 @@
       </li>
       <li class="tile" data-id="1to50" data-cat="game">
         <a class="tile-link" href="https://1to50.example.com/" title="按顺序尽快点击1到50！计时精确到0.01秒，还有1到25快速模式，测测你的专注力和手速。" style="--h:149;--h2:175">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span></span>
           <span class="tile-name">1到50 舒尔特方格</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="zombie" data-cat="test">
         <a class="tile-link" href="https://zombie.example.com/" title="丧尸爆发了！12个情境，2分钟测出末日里你会扮演什么角色。" style="--h:208;--h2:190">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧟</span></span></span>
           <span class="tile-name">丧尸末日生存测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

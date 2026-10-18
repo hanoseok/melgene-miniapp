@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'age',
+        kicker: "Cuentas de cumpleaños",
+        headline: "¿Cuántos años tengo exactamente?",
+        blurb: "Tu edad al día y la cuenta atrás para tu cumpleaños.",
+      },
+      {
+        id: 'bottle',
+        kicker: "El móvil en el centro",
+        headline: "Gira la botella y decide",
+        blurb: "Nombres alrededor y un giro justo. ¿Quién empieza?",
+      },
+      {
         id: 'dday',
         kicker: "¿Cuántos días faltan?",
         headline: "Tu cuenta regresiva en un toque",

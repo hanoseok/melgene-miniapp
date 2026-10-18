@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'age',
+        kicker: "誕生日まであと何日？",
+        headline: "わたし、正確には何歳？",
+        blurb: "生年月日を選ぶだけで満年齢を日数まで。",
+      },
+      {
+        id: 'bottle',
+        kicker: "スマホを真ん中に",
+        headline: "ボトルを回して順番決め",
+        blurb: "名前を並べて公平にひと回し。誰から始める？",
+      },
+      {
         id: 'dday',
         kicker: "あと何日？",
         headline: "その日まで、あと何日？",

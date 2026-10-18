@@ -1,0 +1,125 @@
+/* Jeu de la bouteille — français. Même structure de clés que en.js. Espace fine insécable ( ) avant ? ! : ;
+ * prompts = cartes défis, affichées une à la fois après un tour seulement (jamais listées). */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap',
+    display: "'Baloo 2'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: 'Jeu de la bouteille en ligne – Qui commence ?',
+    description: 'Le jeu de la bouteille en ligne\u202f: posez le téléphone au milieu de la table, placez les prénoms autour et voyez qui la bouteille désigne. Qui commence, qui choisit la musique. Gratuit, équitable, sans inscription.',
+    ogTitle: 'Jeu de la bouteille 🍾 À qui le tour ?',
+    ogDescription: 'Le téléphone au milieu, les prénoms autour, un seul tour équitable. Parfait pour savoir qui commence en soirée.',
+  },
+  siteName: 'Jeu de la bouteille',
+  privacyLink: 'Politique de confidentialité',
+
+  hero: {
+    h1Kicker: 'Jeu de la bouteille',
+    h1Html: 'Le téléphone au milieu,<br><em>la bouteille décide</em>',
+    hook: 'Qui commence ? Qui choisit la prochaine chanson ? Qui débarrasse ? Faites tourner.',
+  },
+
+  ui: {
+    modeLabel: 'Comment jouer ?',
+    modeFree: 'Juste tourner',
+    modeNames: 'Avec prénoms',
+    namesLabel: 'Qui est autour de la table ?',
+    namesPh: 'Un prénom par ligne, dans l’ordre des places\nLéa\nHugo\nChloé\nLouis',
+    namesHint: 'De 2 à 12 personnes, dans l’ordre où vous êtes assis, dans le sens des aiguilles d’une montre.',
+    namesCount: '{n} à table',
+    skipLabel: 'Sans répétition',
+    skipHint: 'Personne n’est tiré deux fois avant que tout le monde soit passé.',
+    promptsLabel: 'Carte défi après chaque tour',
+    promptsHint: 'Un petit défi sympa pour la personne désignée.',
+    srcBuiltin: 'Surprise',
+    srcCustom: 'Ma liste',
+    customLabel: 'Vos défis',
+    customPh: 'Un par ligne\nFaire la danse du robot\nDire son goûter préféré',
+    customHint: 'Jusqu’à 30 lignes. Les cartes sortent une par une.',
+    stageAria: 'Bouteille sur la table. Touchez-la ou lancez-la du doigt pour la faire tourner.',
+    tapHint: 'Touchez ou lancez la bouteille du doigt',
+    spin: 'Tourner la bouteille 🍾',
+    spinning: 'Ça tourne…',
+    fair: 'Le résultat est tiré équitablement (crypto) avant que la bouteille bouge · les prénoms restent sur votre appareil',
+  },
+
+  errors: {
+    namesTooFew: 'Ajoutez au moins 2 prénoms, ou choisissez « Juste tourner ».',
+    namesTooMany: 'Douze personnes maximum autour de la table ({n} prénoms saisis).',
+    promptsEmpty: 'Écrivez au moins un défi, ou choisissez « Surprise ».',
+    badLink: 'Ce lien est abîmé, aucun prénom n’a été chargé.',
+  },
+
+  result: {
+    pointsAt: 'La bouteille désigne',
+    freeTitle: 'Celui ou celle qu’elle montre !',
+    freeText: 'Regardez où s’est arrêté le goulot. C’est à cette personne.',
+    angle: '{deg}°',
+    round: 'Tour {r} · {k} sur {n} désignés',
+    roundDone: 'Tout le monde est passé. Le prochain lancer ouvre le tour {r}.',
+    promptTitle: 'Carte défi',
+    history: 'Derniers tours',
+    historyFree: 'Lancer',
+    again: 'Relancer',
+    reset: 'Nouveau tour',
+    resetDone: 'Nouveau tour, tout le monde est de retour.',
+    shareNames: 'Copier le lien avec ces prénoms',
+    linkCopied: 'Lien copié. Il ouvre la même table avec les mêmes prénoms.',
+    sharedNote: 'Prénoms chargés depuis un lien partagé. À vous de jouer !',
+    live: 'La bouteille désigne {name}',
+    liveFree: 'La bouteille s’est arrêtée à {deg} degrés',
+    shareTitle: 'Jeu de la bouteille',
+    shareText: 'Posez le téléphone au milieu et laissez la bouteille décider 🍾',
+  },
+
+  prompts: [
+    'Chante un passage de la chanson de ton choix.',
+    'Imite un personnage de dessin animé.',
+    'Raconte le meilleur moment de ta semaine.',
+    'Prends une pose de super-héros pendant cinq secondes.',
+    'Répète trois fois très vite les chaussettes de l’archiduchesse.',
+    'Trouve trois objets orange autour de toi.',
+    'Présente ton goûter préféré et défends-le.',
+    'Fais un vrai compliment à la personne à ta gauche.',
+    'Mime un animal jusqu’à ce que quelqu’un trouve.',
+    'Traverse la pièce au ralenti, très dramatiquement.',
+    'Raconte une blague, plus elle est nulle mieux c’est.',
+    'Décris ton déguisement d’Halloween rêvé en une phrase.',
+  ],
+
+  og: {
+    brand: '🍾 Jeu de la bouteille',
+    kicker: 'Téléphone au milieu · un tour équitable',
+    title: 'Faites tourner, la bouteille choisit',
+    desc: 'Qui commence, qui choisit la musique, qui range',
+  },
+
+  faq: [
+    { q: 'Le tirage est-il vraiment aléatoire et équitable ?', a: 'Oui. Avant que la bouteille bouge, l’appli choisit le résultat avec le générateur aléatoire cryptographique du navigateur (crypto.getRandomValues) et un échantillonnage par rejet, donc chaque place a exactement la même chance. L’animation et la force de votre geste ne font que montrer ce résultat.' },
+    { q: 'Comment placer les prénoms autour de la bouteille ?', a: 'Choisissez Avec prénoms et tapez de 2 à 12 prénoms, un par ligne, dans l’ordre où vous êtes assis, dans le sens des aiguilles d’une montre. Ils sont répartis régulièrement autour de la table et la bouteille s’arrête sur l’un d’eux.' },
+    { q: 'À quoi sert Sans répétition ?', a: 'Activé, personne n’est désigné deux fois tant que tout le monde n’est pas passé une fois. Un nouveau tour commence ensuite automatiquement, ou vous pouvez le lancer vous-même.' },
+    { q: 'Que sont les cartes défis ?', a: 'Une option\u202f: après chaque lancer, un petit défi sympa s’affiche pour la personne désignée, comme une imitation ou un compliment. Utilisez les cartes intégrées ou écrivez votre propre liste.' },
+  ],
+
+  privacy: {
+    title: 'Politique de confidentialité | Jeu de la bouteille',
+    description: 'Politique de confidentialité du Jeu de la bouteille : prénoms et défis restent dans votre navigateur, cookies, publicité et statistiques.',
+    h1: 'Politique de confidentialité',
+    introHtml: 'Le Jeu de la bouteille (le « Service ») respecte votre vie privée et ne traite que le minimum d’informations décrit ci-dessous.',
+    sections: [
+      ['1. Informations collectées', 'Le Service fonctionne sans compte ni connexion. Les prénoms et cartes défis que vous saisissez sont traités uniquement dans votre navigateur et ne sont pas envoyés à notre serveur. Votre dernière liste de prénoms peut être conservée dans le stockage local de votre navigateur pour être prête la prochaine fois. Quand vous copiez un lien avec des prénoms, ceux-ci sont écrits dans le lien lui-même et ne sont partagés qu’avec les personnes à qui vous l’envoyez.'],
+      ['2. Cookies et technologies similaires', 'Le Service peut utiliser des cookies et le stockage local du navigateur pour mémoriser votre langue et vos réglages, afficher des publicités et comprendre l’utilisation du Service. Vous pouvez les refuser ou les supprimer dans les réglages du navigateur ; certaines fonctions pourraient alors mal fonctionner.'],
+      ['3. Publicité (Google AdSense)', 'Le Service affiche des publicités via Google AdSense. Google et ses partenaires peuvent utiliser des cookies pour diffuser des annonces selon vos visites précédentes sur ce site et d’autres. Pour en savoir plus et modifier vos préférences : <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Paramètres des annonces Google</a>.'],
+      ['4. Statistiques', 'Pour améliorer le Service, nous pouvons utiliser Google Analytics (GA4) et nos propres compteurs agrégés qui ne gardent que des totaux quotidiens par langue (pages vues, lancers commencés et terminés, notes). Rien de cela ne vous identifie personnellement.'],
+      ['5. Contact', 'Pour toute question sur cette politique, contactez l’éditeur du site.'],
+      ['6. Date d’effet', 'Cette politique s’applique à compter du 19 octobre 2026.'],
+    ],
+    back: '← Retour au Jeu de la bouteille',
+  },
+};

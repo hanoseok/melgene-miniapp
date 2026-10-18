@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'age',
+        kicker: "Conti di compleanno",
+        headline: "Quanti anni ho, esattamente?",
+        blurb: "Età al giorno e conto alla rovescia al compleanno.",
+      },
+      {
+        id: 'bottle',
+        kicker: "Telefono al centro",
+        headline: "Gira la bottiglia: a chi tocca?",
+        blurb: "Nomi in cerchio, un giro equo. Chi inizia?",
+      },
+      {
         id: 'dday',
         kicker: "Quanto manca?",
         headline: "Il conto alla rovescia del grande giorno",

@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'age',
+        kicker: "Birthday math",
+        headline: "How old am I, exactly?",
+        blurb: "Your age down to the day, plus a birthday countdown.",
+      },
+      {
+        id: 'bottle',
+        kicker: "Phone-in-the-middle picker",
+        headline: "Spin the bottle, let it decide",
+        blurb: "Names around the table, one fair spin. Who goes first?",
+      },
+      {
         id: 'dday',
         kicker: "Counting the days?",
         headline: "How many days until…?",

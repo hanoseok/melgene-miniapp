@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'age',
+        kicker: "생일까지 며칠?",
+        headline: "나 지금 정확히 몇 살?",
+        blurb: "생년월일만 고르면 만 나이를 날짜까지, 다음 생일 D-day도.",
+      },
+      {
+        id: 'bottle',
+        kicker: "테이블 가운데 폰 하나",
+        headline: "병을 돌려 순서를 정해요",
+        blurb: "이름을 둘러 앉히고 공정하게 한 번. 누가 먼저?",
+      },
+      {
         id: 'dday',
         kicker: "100일 언제지?",
         headline: "그날까지 며칠? 디데이 세기",

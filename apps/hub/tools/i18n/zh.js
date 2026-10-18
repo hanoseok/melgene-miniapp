@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'age',
+        kicker: "离生日还有几天？",
+        headline: "我现在到底几岁？",
+        blurb: "选好生日，周岁精确到天，还有生日倒数。",
+      },
+      {
+        id: 'bottle',
+        kicker: "手机放桌子中间",
+        headline: "转瓶子，看看轮到谁",
+        blurb: "名字围成一圈，公平转一次。谁先来？",
+      },
+      {
         id: 'dday',
         kicker: "数日子",
         headline: "离那天还有几天？",
