@@ -138,6 +138,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | dday | apps/dday | 디데이 계산기: 디데이(D-n·D-DAY·D+n, 실시간 남은 시간) · 며칠째(시작일 1일로 세기 — ko 기본 켬, 100·1000일·주년) · 날짜 ± N일, UTC 정오 셈(서머타임·윤년 안전), 빠른 선택(할로윈·크리스마스·새해·밸런타인 코드 계산), 카드 PNG·#d= 링크·이 기기 저장 10개 | `check-dday.js` (+ `check-flow.js`) |
 | lots | apps/lots | 제비뽑기: 폰을 돌려 가며 접힌 쪽지를 한 장씩 — 당첨/꽝·직접 쓰기(벌칙·커피 쏘기), 이름 차례, 본 결과 가리기, 누가 뭘 뽑았나 정리·#d= 결과 링크(crypto 거부 샘플링 + Fisher–Yates) | `check-lots.js` (+ `flow-test.js`) |
 | spend | apps/spend | 소비 성향 테스트: 돈 쓰는 일상 상황 12개·4지선다, 내 답으로 계산한 스타일 비율 막대, 유형 8종 r/*.html(4^12 전수 10.23~16.33%), 재미용·재무 조언 아님, 같은 스타일 비율은 supa.vote 20표 이상만 | `check-spend.js` |
+| age | apps/age | 만 나이 계산기: 생년월일(언어별 순서 드롭다운)·기준일로 만 나이 년·개월·일, 다음 생일 D-n(2/29 생은 평년 2/28), 산 날·주·시간, 태어난 요일·별자리·띠, 1만·2만 일 기념일; ko 만 연 나이·세는 나이(2023-06-28 만 나이 통일 안내); UTC 정오 셈, 생일은 서버·주소·저장소에 안 남김 | `check-age.js` |
+| bottle | apps/bottle | 병 돌리기: 그냥 돌리기 / 이름 2~12명 원형 배치, crypto 거부 샘플링으로 먼저 정하고 감속 회전 연출(플릭 가능), 겹치지 않기, 선택 미션 카드(가족용, 한 장씩만), 최근 10개 기록, 이름 #d= 링크 공유 | `check-bottle.js` |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 
