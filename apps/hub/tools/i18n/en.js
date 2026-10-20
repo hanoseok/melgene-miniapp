@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'snake',
+        kicker: "Classic arcade",
+        headline: "Eat apples, grow longer",
+        blurb: "Swipe to steer. It speeds up with every bite.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Personality quiz",
+        headline: "How homebody are you?",
+        blurb: "Ten everyday situations, one minute. Get your homebody percent.",
+      },
+      {
         id: 'age',
         kicker: "Birthday math",
         headline: "How old am I, exactly?",

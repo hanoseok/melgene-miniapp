@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade clásico",
+        headline: "Come manzanas y crece",
+        blurb: "Desliza para girar. Cada bocado acelera.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Test de personalidad",
+        headline: "¿Cuánto de hogareño eres?",
+        blurb: "Diez situaciones cotidianas, un minuto, tu % de hogareño.",
+      },
+      {
         id: 'age',
         kicker: "Cuentas de cumpleaños",
         headline: "¿Cuántos años tengo exactamente?",

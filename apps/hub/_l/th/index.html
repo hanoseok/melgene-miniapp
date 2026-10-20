@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 49,
+  "numberOfItems": 51,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -424,6 +424,20 @@
       "url": "https://bottle.example.com/",
       "name": "หมุนขวด",
       "description": "วางมือถือกลางโต๊ะแล้วหมุนขวด ใส่ชื่อเพื่อนรอบวง ให้ขวดชี้ว่าใครเริ่มก่อนหรือใครได้เลือกเพลงอย่างยุติธรรม"
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "url": "https://snake.example.com/",
+      "name": "เกมงู",
+      "description": "เกมงูสุดคลาสสิก ปัดหรือกดปุ่มลูกศรไปกินแอปเปิล ตัวยาวขึ้นแต่ห้ามชนกำแพงหรือหางตัวเอง ยิ่งกินยิ่งเร็ว"
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "url": "https://homebody.example.com/",
+      "name": "ทดสอบสายติดบ้าน",
+      "description": "10 สถานการณ์ในชีวิตประจำวัน 1 นาทีรู้ผล คุณติดบ้านกี่เปอร์เซ็นต์?"
     }
   ]
 }
@@ -499,6 +513,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snake">
+        <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">อาร์เคดสุดคลาสสิก</span></span>
+            <h3 class="cur-headline">กินแอปเปิล ตัวยาวขึ้น</h3>
+            <span class="cur-giant" aria-hidden="true">🐍</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">ปัดเพื่อเลี้ยว ยิ่งกินยิ่งเร็วขึ้น</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">เกมงู</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="homebody">
+        <a class="cur-card" href="https://homebody.example.com/" style="--h:301;--h2:283">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">แบบทดสอบจิตวิทยา</span></span>
+            <h3 class="cur-headline">คุณติดบ้านแค่ไหน?</h3>
+            <span class="cur-giant" aria-hidden="true">🏠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">สิบสถานการณ์ในชีวิตจริง 1 นาที รู้เปอร์เซ็นต์ความติดบ้าน</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ทดสอบสายติดบ้าน</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="age">
         <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
           <span class="cur-art">
@@ -563,7 +609,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dday">
+      <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">อีกกี่วันนะ</span></span>
@@ -579,7 +625,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lots">
+      <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">จับฉลากส่งมือถือ</span></span>
@@ -598,7 +644,7 @@
       <li class="cur-item" data-id="memory" hidden>
         <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เกมความจำฮาโลวีน</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">เกมความจำฮาโลวีน</span></span>
             <h3 class="cur-headline">เปิดการ์ด หาคู่ให้ครบ</h3>
             <span class="cur-giant" aria-hidden="true">🃏</span>
           </span>
@@ -614,7 +660,7 @@
       <li class="cur-item" data-id="teto" hidden>
         <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">แบบทดสอบฮิตจากเกาหลี</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">แบบทดสอบฮิตจากเกาหลี</span></span>
             <h3 class="cur-headline">คุณเป็นสาย Teto หรือ Egen?</h3>
             <span class="cur-giant" aria-hidden="true">⚡</span>
           </span>
@@ -627,45 +673,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount" hidden>
-        <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เครื่องมือเขียน</span></span>
-            <h3 class="cur-headline">นับตัวอักษรและคำแบบสด</h3>
-            <span class="cur-giant" aria-hidden="true">📝</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">รวม/ไม่รวมช่องว่าง ไบต์ เวลาอ่าน และเป้าหมาย</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">นับจำนวนตัวอักษร</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="yesno" hidden>
-        <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ตัดสินใจไม่ได้?</span></span>
-            <h3 class="cur-headline">สุ่มคำตอบ ใช่ หรือ ไม่</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">พิมพ์คำถาม แตะครั้งเดียว ได้คำตอบสุ่มยุติธรรม</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">สุ่ม ใช่ หรือ ไม่</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">49 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">51 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -687,6 +701,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snake" data-cat="game">
+        <a class="tile-link" href="https://snake.example.com/" title="เกมงูสุดคลาสสิก ปัดหรือกดปุ่มลูกศรไปกินแอปเปิล ตัวยาวขึ้นแต่ห้ามชนกำแพงหรือหางตัวเอง ยิ่งกินยิ่งเร็ว" style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมงู</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="homebody" data-cat="test">
+        <a class="tile-link" href="https://homebody.example.com/" title="10 สถานการณ์ในชีวิตประจำวัน 1 นาทีรู้ผล คุณติดบ้านกี่เปอร์เซ็นต์?" style="--h:301;--h2:283">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทดสอบสายติดบ้าน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="age" data-cat="create">
         <a class="tile-link" href="https://age.example.com/" title="ใส่วันเกิดแล้วรู้อายุแบบละเอียดเป็นปี เดือน วัน นับถอยหลังวันเกิด จำนวนวันที่มีชีวิต วันในสัปดาห์ที่เกิด ราศี และปีนักษัตร" style="--h:309;--h2:291">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEW</span></span>
@@ -731,28 +759,28 @@
       </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/" title="เปิดการ์ดฮาโลวีนแล้วจับคู่ภาพที่เหมือนกันให้ครบ มี 3 ระดับ จับเวลาและนับจำนวนครั้ง" style="--h:221;--h2:203">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span>
           <span class="tile-name">เกมจับคู่</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="teto" data-cat="test">
         <a class="tile-link" href="https://teto.example.com/" title="คุณเป็นสาย Teto หรือ Egen? 12 สถานการณ์ในชีวิตประจำวัน ใช้เวลา 2 นาที ดูสัดส่วนพลังงานของคุณ" style="--h:348;--h2:330">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span>
           <span class="tile-name">แบบทดสอบ Teto Egen</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="wordcount" data-cat="create">
         <a class="tile-link" href="https://wordcount.example.com/" title="วางข้อความแล้วนับตัวอักษรรวมและไม่รวมช่องว่าง คำ ประโยค และไบต์ได้ทันที มีแถบเป้าหมายและเวลาอ่าน ไม่ส่งข้อมูลออกไป" style="--h:21;--h2:3">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span></span>
           <span class="tile-name">นับจำนวนตัวอักษร</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="yesno" data-cat="vote">
         <a class="tile-link" href="https://yesno.example.com/" title="พิมพ์คำถามที่ลังเลแล้วกดปุ่ม ได้คำตอบใช่หรือไม่ทันที มีโหมด ใช่/ไม่/อาจจะ ลูกแก้วทำนาย และชนะ 2 ใน 3" style="--h:130;--h2:156">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">สุ่ม ใช่ หรือ ไม่</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

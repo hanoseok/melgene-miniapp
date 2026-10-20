@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 49,
+  "numberOfItems": 51,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -423,6 +423,20 @@
       "url": "https://bottle.example.com/",
       "name": "병 돌리기",
       "description": "휴대폰을 테이블 가운데 두고 병을 돌려요. 이름을 둘러 앉히면 누가 먼저 할지, 누가 노래를 고를지 공정하게 정해 줘요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "url": "https://snake.example.com/",
+      "name": "뱀 게임",
+      "description": "스와이프나 방향키로 뱀을 움직여 사과를 먹고 길어져요. 벽과 내 꼬리를 조심! 먹을수록 빨라지는 추억의 지렁이 게임."
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "url": "https://homebody.example.com/",
+      "name": "집순이·집돌이 테스트",
+      "description": "일상 속 10가지 상황으로 알아보는 나의 집콕 지수(%). 1분이면 끝나요."
     }
   ]
 }
@@ -498,6 +512,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snake">
+        <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">추억의 지렁이 게임</span></span>
+            <h3 class="cur-headline">사과 먹고 길어지는 뱀</h3>
+            <span class="cur-giant" aria-hidden="true">🐍</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">스와이프로 방향 전환, 먹을수록 점점 빨라져요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">뱀 게임</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="homebody">
+        <a class="cur-card" href="https://homebody.example.com/" style="--h:301;--h2:283">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">집콕 지수 측정</span></span>
+            <h3 class="cur-headline">나는 집순이? 집돌이?</h3>
+            <span class="cur-giant" aria-hidden="true">🏠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">일상 속 열 가지 상황으로 나의 집콕 지수(%)를 알아봐요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">집순이·집돌이 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="age">
         <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
           <span class="cur-art">
@@ -562,7 +608,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dday">
+      <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">100일 언제지?</span></span>
@@ -578,7 +624,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lots">
+      <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">폰 돌려 가며 제비뽑기</span></span>
@@ -597,7 +643,7 @@
       <li class="cur-item" data-id="memory" hidden>
         <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">할로윈 기억력 게임</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">할로윈 기억력 게임</span></span>
             <h3 class="cur-headline">카드를 뒤집어 같은 짝을 찾아요</h3>
             <span class="cur-giant" aria-hidden="true">🃏</span>
           </span>
@@ -613,7 +659,7 @@
       <li class="cur-item" data-id="teto" hidden>
         <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">요즘 화제 심리테스트</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">요즘 화제 심리테스트</span></span>
             <h3 class="cur-headline">나는 테토일까, 에겐일까?</h3>
             <span class="cur-giant" aria-hidden="true">⚡</span>
           </span>
@@ -626,45 +672,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount" hidden>
-        <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">글쓰기 도구</span></span>
-            <h3 class="cur-headline">글자수, 쓰는 동안 바로 세기</h3>
-            <span class="cur-giant" aria-hidden="true">📝</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">공백 포함·제외, 바이트, 목표 글자수까지 한눈에.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">글자수 세기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="yesno" hidden>
-        <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">결정 장애 해결</span></span>
-            <h3 class="cur-headline">고민될 땐 예스 노로 정하기</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">질문 하나 적고 탭 한 번. 공정한 무작위 답.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">예스 노 결정기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">49개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">51개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -686,6 +700,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snake" data-cat="game">
+        <a class="tile-link" href="https://snake.example.com/" title="스와이프나 방향키로 뱀을 움직여 사과를 먹고 길어져요. 벽과 내 꼬리를 조심! 먹을수록 빨라지는 추억의 지렁이 게임." style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">뱀 게임</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="homebody" data-cat="test">
+        <a class="tile-link" href="https://homebody.example.com/" title="일상 속 10가지 상황으로 알아보는 나의 집콕 지수(%). 1분이면 끝나요." style="--h:301;--h2:283">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">집순이·집돌이 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="age" data-cat="create">
         <a class="tile-link" href="https://age.example.com/" title="생년월일만 넣으면 만 나이를 년·개월·일까지, 다음 생일 D-day, 살아온 날수, 태어난 요일, 별자리·띠, 1만 일 기념일까지 알려 줘요." style="--h:309;--h2:291">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEW</span></span>
@@ -730,28 +758,28 @@
       </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/" title="할로윈 카드를 뒤집어 같은 그림 짝을 찾으세요. 쉬움·보통·어려움 3단계, 시간·횟수 기록과 실제 백분위." style="--h:221;--h2:203">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span>
           <span class="tile-name">카드 짝 맞추기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="teto" data-cat="test">
         <a class="tile-link" href="https://teto.example.com/" title="나는 테토일까 에겐일까? 일상 상황 12개, 2분이면 끝. 내 답으로 계산한 테토 % vs 에겐 % 까지 확인해 보세요." style="--h:348;--h2:330">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span>
           <span class="tile-name">테토 에겐 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="wordcount" data-cat="create">
         <a class="tile-link" href="https://wordcount.example.com/" title="붙여 넣으면 공백 포함·제외 글자수, 단어, 바이트(자소서·나이스)가 바로. 목표 글자수 막대와 읽는 시간까지, 서버 전송 없이." style="--h:21;--h2:3">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span></span>
           <span class="tile-name">글자수 세기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="yesno" data-cat="vote">
         <a class="tile-link" href="https://yesno.example.com/" title="고민되는 질문을 적고 버튼만 누르면 YES 또는 NO. 예스·노·글쎄, 신비한 구슬 답, 3판 2선승까지 골라 보세요." style="--h:130;--h2:156">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">예스 노 결정기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'snake',
+        kicker: "추억의 지렁이 게임",
+        headline: "사과 먹고 길어지는 뱀",
+        blurb: "스와이프로 방향 전환, 먹을수록 점점 빨라져요.",
+      },
+      {
+        id: 'homebody',
+        kicker: "집콕 지수 측정",
+        headline: "나는 집순이? 집돌이?",
+        blurb: "일상 속 열 가지 상황으로 나의 집콕 지수(%)를 알아봐요.",
+      },
+      {
         id: 'age',
         kicker: "생일까지 며칠?",
         headline: "나 지금 정확히 몇 살?",

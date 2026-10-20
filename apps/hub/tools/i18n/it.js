@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade classico",
+        headline: "Mangia mele e cresci",
+        blurb: "Scorri per girare. Ogni morso accelera.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Test di personalità",
+        headline: "Quanto sei pantofolaio?",
+        blurb: "Dieci situazioni quotidiane, un minuto, la tua percentuale.",
+      },
+      {
         id: 'age',
         kicker: "Conti di compleanno",
         headline: "Quanti anni ho, esattamente?",

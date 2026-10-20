@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade-Klassiker",
+        headline: "Äpfel fressen, länger werden",
+        blurb: "Wischen zum Lenken. Mit jedem Biss schneller.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Persönlichkeitstest",
+        headline: "Wie sehr bist du Stubenhocker?",
+        blurb: "Zehn Alltagssituationen, eine Minute, dein Prozentwert.",
+      },
+      {
         id: 'age',
         kicker: "Geburtstags-Rechner",
         headline: "Wie alt bin ich genau?",

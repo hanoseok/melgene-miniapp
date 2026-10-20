@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 49,
+  "numberOfItems": 51,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -423,6 +423,20 @@
       "url": "https://bottle.example.com/",
       "name": "Flaschendrehen",
       "description": "Handy in die Tischmitte, Flasche drehen! Namen im Kreis eintragen und fair entscheiden, wer anfängt oder wer das nächste Lied aussucht."
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "url": "https://snake.example.com/",
+      "name": "Snake Spiel",
+      "description": "Der Klassiker: Wische oder nutze die Pfeiltasten, friss Äpfel und wachse, ohne Wand oder Schwanz zu treffen. Mit jedem Apfel schneller."
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "url": "https://homebody.example.com/",
+      "name": "Stubenhocker-Test",
+      "description": "10 Alltagssituationen, etwa 1 Minute. Wie sehr bist du Stubenhocker, in Prozent?"
     }
   ]
 }
@@ -498,6 +512,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snake">
+        <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Arcade-Klassiker</span></span>
+            <h3 class="cur-headline">Äpfel fressen, länger werden</h3>
+            <span class="cur-giant" aria-hidden="true">🐍</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Wischen zum Lenken. Mit jedem Biss schneller.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Snake Spiel</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="homebody">
+        <a class="cur-card" href="https://homebody.example.com/" style="--h:301;--h2:283">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Persönlichkeitstest</span></span>
+            <h3 class="cur-headline">Wie sehr bist du Stubenhocker?</h3>
+            <span class="cur-giant" aria-hidden="true">🏠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Zehn Alltagssituationen, eine Minute, dein Prozentwert.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Stubenhocker-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="age">
         <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
           <span class="cur-art">
@@ -562,7 +608,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dday">
+      <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Tage zählen</span></span>
@@ -578,7 +624,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="lots">
+      <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Losziehen</span></span>
@@ -597,7 +643,7 @@
       <li class="cur-item" data-id="memory" hidden>
         <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Halloween-Memory</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Halloween-Memory</span></span>
             <h3 class="cur-headline">Karten umdrehen, alle Paare finden</h3>
             <span class="cur-giant" aria-hidden="true">🃏</span>
           </span>
@@ -613,7 +659,7 @@
       <li class="cur-item" data-id="teto" hidden>
         <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Viraler Test aus Korea</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">Viraler Test aus Korea</span></span>
             <h3 class="cur-headline">Eher Teto oder Egen?</h3>
             <span class="cur-giant" aria-hidden="true">⚡</span>
           </span>
@@ -626,45 +672,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wordcount" hidden>
-        <a class="cur-card" href="https://wordcount.example.com/" style="--h:21;--h2:3">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Schreibtool</span></span>
-            <h3 class="cur-headline">Zeichen und Wörter live zählen</h3>
-            <span class="cur-giant" aria-hidden="true">📝</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Mit oder ohne Leerzeichen, Bytes, Lesezeit, Ziel-Limit.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Zeichenzähler</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="yesno" hidden>
-        <a class="cur-card" href="https://yesno.example.com/" style="--h:130;--h2:156">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Unentschlossen?</span></span>
-            <h3 class="cur-headline">Frag das Ja-oder-Nein-Orakel</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Frage eintippen, einmal tippen, faire Zufallsantwort.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Ja oder Nein Orakel</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">49 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">51 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -686,6 +700,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snake" data-cat="game">
+        <a class="tile-link" href="https://snake.example.com/" title="Der Klassiker: Wische oder nutze die Pfeiltasten, friss Äpfel und wachse, ohne Wand oder Schwanz zu treffen. Mit jedem Apfel schneller." style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Snake Spiel</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="homebody" data-cat="test">
+        <a class="tile-link" href="https://homebody.example.com/" title="10 Alltagssituationen, etwa 1 Minute. Wie sehr bist du Stubenhocker, in Prozent?" style="--h:301;--h2:283">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Stubenhocker-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="age" data-cat="create">
         <a class="tile-link" href="https://age.example.com/" title="Geburtsdatum eingeben und das genaue Alter in Jahren, Monaten und Tagen sehen, dazu Countdown zum Geburtstag, gelebte Tage und Sternzeichen." style="--h:309;--h2:291">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEU</span></span>
@@ -730,28 +758,28 @@
       </li>
       <li class="tile" data-id="memory" data-cat="game">
         <a class="tile-link" href="https://memory.example.com/" title="Dreh die Halloween-Karten um und finde alle Paare. Drei Stufen, Stoppuhr, Zugzähler und dein echter Rang." style="--h:221;--h2:203">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span>
           <span class="tile-name">Memory Spiel</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="teto" data-cat="test">
         <a class="tile-link" href="https://teto.example.com/" title="Eher mutiges Teto oder sanftes Egen? 12 Alltagsmomente, 2 Minuten. Finde deinen Energie-Mix heraus." style="--h:348;--h2:330">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span>
           <span class="tile-name">Teto-oder-Egen-Test</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="wordcount" data-cat="create">
         <a class="tile-link" href="https://wordcount.example.com/" title="Text einfügen: Zeichen mit und ohne Leerzeichen, Wörter, Sätze und Bytes live. Zielbalken und Lesezeit, nichts wird hochgeladen." style="--h:21;--h2:3">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📝</span></span></span>
           <span class="tile-name">Zeichenzähler</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="yesno" data-cat="vote">
         <a class="tile-link" href="https://yesno.example.com/" title="Frage eintippen, Antwort bekommen: Ja oder Nein, Ja/Nein/Vielleicht, ein Orakelspruch oder Best of 3 und Best of 5." style="--h:130;--h2:156">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span>
           <span class="tile-name">Ja oder Nein Orakel</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

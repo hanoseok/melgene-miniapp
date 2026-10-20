@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'snake',
+        kicker: "定番アーケード",
+        headline: "リンゴを食べて長くなれ",
+        blurb: "スワイプで方向転換。食べるほど速くなる。",
+      },
+      {
+        id: 'homebody',
+        kicker: "心理テスト",
+        headline: "あなたのインドア度は何%？",
+        blurb: "日常の10場面で、おうち好き度をパーセントで診断。",
+      },
+      {
         id: 'age',
         kicker: "誕生日まであと何日？",
         headline: "わたし、正確には何歳？",

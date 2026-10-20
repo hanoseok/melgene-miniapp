@@ -1,0 +1,221 @@
+/* apps/snake/style.css — 뱀 게임: 깊은 숲 초록 + 형광 라임 뱀 + 사과 빨강, 두툼한 아케이드 글꼴.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --night-0: #04100a;
+  --night-1: #0a2417;
+  --night-2: #14472b;
+  --slime: #9cff4f;
+  --slime-2: #5fd32a;
+  --candy: #ff4d4d;
+  --candy-2: #ff8f8f;
+  --pumpkin: #ffc233;
+  --moon: #fff4c7;
+  --ink: #fff6ea;
+  --ink-dim: rgba(255, 246, 234, 0.78);
+  --ink-faint: rgba(255, 246, 234, 0.5);
+  --dark: #04140d;
+  --card: rgba(255, 255, 255, 0.07);
+  --line: rgba(156, 255, 79, 0.35);
+
+  --font-display: 'Lilita One', var(--font-sans);
+  --display-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--slime);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(255, 246, 234, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(156, 255, 79, 0.4);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd23f;
+  --mg-star-off: rgba(255, 246, 234, 0.2);
+  --mg-heart-bg: rgba(255, 77, 77, 0.1);
+  --mg-heart-border: rgba(255, 77, 77, 0.45);
+  --mg-heart-fg: var(--candy-2);
+  --mg-heart-on: var(--candy);
+  --mg-share-bg: rgba(255, 246, 234, 0.06);
+  --mg-share-border: rgba(255, 246, 234, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 246, 234, 0.05);
+  --mg-faq-border: rgba(156, 255, 79, 0.24);
+  --mg-end-retry-bg: var(--slime);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(20, 71, 43, 0.97);
+}
+
+html { background: var(--night-0); }
+body.sn-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 120% 60% at 50% -12%, var(--night-2), var(--night-1) 48%, var(--night-0) 82%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.sn-h1, .sn-kicker, .sn-h1-main, .sn-h1-main em, .sn-badge, .sn-btn, .sn-how-txt, .sn-facts,
+.sn-hud-label, .sn-hud-val, .sn-count-num, .sn-paused-title,
+.sn-eyebrow, .sn-score-big, .sn-points, .sn-newbest, .sn-best, .sn-stat dt, .sn-stat dd, .sn-top, .sn-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.sn-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.sn-screen { padding-top: 12px; }
+
+.sn-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.sn-btn-primary { background: var(--slime); color: var(--dark); box-shadow: 0 5px 0 var(--slime-2), 0 10px 26px rgba(156, 255, 79, 0.25); }
+.sn-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--slime-2); }
+.sn-field:focus-visible { outline: none; border-color: rgba(255, 77, 77, 0.7); }
+.sn-btn:focus-visible, .sn-pause:focus-visible { outline: 3px solid var(--candy); outline-offset: 3px; }
+.sn-btn-sm { width: auto; min-height: 50px; padding: 10px 28px; font-size: 18px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.sn-start { text-align: center; padding-top: 14px; }
+.sn-badge {
+  display: inline-block; margin: 0 0 10px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 77, 77, 0.16); color: var(--candy-2);
+  border: 1.5px solid rgba(255, 77, 77, 0.5);
+  font-size: 13px; line-height: 1.35;
+}
+.sn-hero { position: relative; margin: 0 auto 4px; max-width: 300px; }
+.sn-hero-snake { display: block; width: 100%; height: auto; filter: drop-shadow(0 6px 14px rgba(156, 255, 79, 0.3)); }
+.sn-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.sn-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--pumpkin); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.sn-h1-main { display: block; font-size: 34px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.35); }
+.sn-h1-main em { font-style: normal; color: var(--slime); }
+.sn-hook { margin: 0 auto 16px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.sn-how {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin: 0 0 18px; padding: 0; list-style: none;
+}
+.sn-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px;
+  background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.sn-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.sn-how-txt { font-size: 13.5px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.sn-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.sn-play { padding-top: 6px; }
+.sn-hud {
+  display: grid; grid-template-columns: 1.2fr 1fr auto; gap: 6px; align-items: stretch;
+  margin: 0 auto 8px;
+}
+.sn-hud-box {
+  position: relative; display: flex; flex-direction: column; justify-content: center; min-width: 0;
+  padding: 4px 10px 5px; border-radius: 12px; background: rgba(255, 255, 255, 0.07); border: 1.5px solid rgba(255, 246, 234, 0.12);
+}
+.sn-hud-label { font-size: 11px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sn-hud-val { font-size: 22px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.sn-hud-score .sn-hud-val { color: var(--slime); }
+.sn-pause {
+  display: grid; place-items: center; width: 44px; min-height: 44px; padding: 0;
+  border-radius: 12px; border: 1.5px solid rgba(255, 246, 234, 0.2); background: rgba(255, 255, 255, 0.07); cursor: pointer;
+}
+.sn-pause span { display: block; width: 14px; height: 16px; border-left: 5px solid var(--ink); border-right: 5px solid var(--ink); }
+
+.sn-field {
+  position: relative; margin: 0 auto; max-width: 448px; aspect-ratio: 1 / 1;
+  border-radius: 16px; overflow: hidden; outline: none;
+  touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  border: 3px solid rgba(156, 255, 79, 0.4);
+  background: #0f2a1d;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+.sn-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.sn-overlay {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  text-align: center; padding: 16px;
+}
+.sn-count { background: rgba(4, 16, 10, 0.28); pointer-events: none; }
+.sn-count-num { font-size: 88px; line-height: 1; color: var(--slime); text-shadow: 0 5px 0 var(--dark), 0 0 30px rgba(156, 255, 79, 0.5); }
+.sn-count-num.is-go { font-size: 52px; color: var(--candy-2); }
+.sn-count-num.is-pop { animation: sn-pop 0.5s ease-out; }
+@keyframes sn-pop { 0% { transform: scale(1.6); opacity: 0; } 60% { transform: scale(0.95); opacity: 1; } 100% { transform: scale(1); } }
+.sn-paused { background: rgba(4, 16, 10, 0.72); }
+.sn-paused-title { margin: 0; font-size: 34px; line-height: 1.2; color: var(--ink); }
+
+/* ---------------- 끝 화면: 점수 카드 ---------------- */
+.sn-end { padding-top: 10px; }
+.sn-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(20, 71, 43, 0.9), rgba(10, 36, 23, 0.95));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.sn-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--pumpkin); color: var(--dark); font-size: 16px; line-height: 1.35;
+}
+.sn-eyebrow[data-reason="self"] { background: var(--candy); color: #fff; }
+.sn-eyebrow[data-reason="full"] { background: var(--slime); color: var(--dark); }
+.sn-score-line { margin: 4px 0 0; line-height: 1; }
+.sn-score-big { font-size: 68px; line-height: 1.05; color: var(--slime); font-variant-numeric: tabular-nums; text-shadow: 0 4px 0 var(--dark); }
+.sn-points { font-size: 20px; color: var(--ink-dim); }
+.sn-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--slime); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.sn-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.sn-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.sn-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(255, 246, 234, 0.12); }
+.sn-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.sn-stat dd { margin: 2px 0 0; font-size: 26px; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
+.sn-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(156, 255, 79, 0.08); border: 1.5px dashed rgba(156, 255, 79, 0.4); }
+.sn-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.sn-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--slime); }
+.sn-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.sn-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .sn-h1-main, html:lang(th) .sn-kicker, html:lang(th) .sn-how-txt, html:lang(th) .sn-btn, html:lang(th) .sn-hook { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .sn-hud-label, html:lang(th) .sn-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .sn-h1-main, html:lang(vi) .sn-kicker { line-height: 1.3; }
+html:lang(ja) .sn-h1-main, html:lang(zh) .sn-h1-main, html:lang(ko) .sn-h1-main { font-size: 32px; line-height: 1.25; }
+html:lang(ja) .sn-how-txt, html:lang(zh) .sn-how-txt, html:lang(ko) .sn-how-txt { font-size: 13px; }
+html:lang(ru) .sn-h1-main, html:lang(vi) .sn-h1-main { font-size: 31px; }
+html:lang(ru) .sn-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.sn-doc { padding: 16px 0 8px; }
+.sn-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.sn-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--slime); }
+.sn-doc p { color: var(--ink-dim); font-size: 15px; }
+.sn-doc a, .site-footer a { color: var(--candy-2); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .sn-count-num.is-pop { animation: none; }
+  .sn-btn { transition: none; }
+}
+@media (max-width: 359px) {
+  .sn-h1-main { font-size: 29px; }
+  .sn-hud-val { font-size: 19px; }
+}

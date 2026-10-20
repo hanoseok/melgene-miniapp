@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade kinh điển",
+        headline: "Ăn táo, rắn dài ra",
+        blurb: "Vuốt để rẽ. Mỗi miếng cắn rắn nhanh hơn.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Trắc nghiệm tính cách",
+        headline: "Bạn ghiền nhà cỡ nào?",
+        blurb: "Mười tình huống đời thường, một phút, ra phần trăm ghiền nhà.",
+      },
+      {
         id: 'age',
         kicker: "Còn bao lâu đến sinh nhật?",
         headline: "Mình bao nhiêu tuổi chính xác?",

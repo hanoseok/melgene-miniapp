@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade clássico",
+        headline: "Coma maçãs e cresça",
+        blurb: "Deslize para virar. A cada mordida, mais rápido.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Teste de personalidade",
+        headline: "Quanto você é caseiro?",
+        blurb: "Dez situações do dia a dia, um minuto, sua % de caseiro.",
+      },
+      {
         id: 'age',
         kicker: "Conta de aniversário",
         headline: "Quantos anos eu tenho, exatamente?",

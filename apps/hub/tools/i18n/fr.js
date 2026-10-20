@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'snake',
+        kicker: "Arcade classique",
+        headline: "Mange des pommes, grandis",
+        blurb: "Glisse pour tourner. Ça accélère à chaque bouchée.",
+      },
+      {
+        id: 'homebody',
+        kicker: "Test de personnalité",
+        headline: "À quel point es-tu casanier ?",
+        blurb: "Dix situations du quotidien, une minute, ton % de casanier.",
+      },
+      {
         id: 'age',
         kicker: "Calcul d’anniversaire",
         headline: "Quel âge ai-je, au jour près ?",

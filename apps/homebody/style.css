@@ -1,0 +1,329 @@
+/* apps/homebody/style.css — 집순이·집돌이 지수 테스트: 해 질 녘 램프빛 갈색 + 따뜻한 안개, 결과 페이지는 그 결과 색(--a-*)으로 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --night-0: #1b100c;
+  --night-1: #2a1912;
+  --night-2: #5b3724;
+  --pearl: #fff0dc;
+  --pearl-2: #ffd2a0;
+  --glow: #ff9a5c;
+  --ink: #fff6ea;
+  --ink-dim: rgba(255, 246, 234, 0.76);
+  --ink-faint: rgba(255, 246, 234, 0.46);
+  --card: rgba(255, 255, 255, 0.06);
+  --line: rgba(255, 210, 160, 0.26);
+  /* 결과 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --a-core: #ffffff;
+  --a-mid: #ffd2a0;
+  --a-edge: #7f8cff;
+  --a-ink: #e3dcff;
+
+  --font-display: 'Comfortaa', var(--font-sans);
+  --display-weight: 700;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: linear-gradient(135deg, #ffe3bd, #ffd2a0 50%, #9fe3ff);
+  --mg-top-badge-fg: #3a1c0e;
+  --lang-bg: rgba(255, 246, 234, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 210, 160, 0.35);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd84d;
+  --mg-star-off: rgba(255, 246, 234, 0.2);
+  --mg-heart-bg: rgba(255, 126, 182, 0.1);
+  --mg-heart-border: rgba(255, 126, 182, 0.42);
+  --mg-heart-fg: #ffa3cb;
+  --mg-heart-on: #ff7eb6;
+  --mg-share-bg: rgba(255, 246, 234, 0.06);
+  --mg-share-border: rgba(255, 246, 234, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 246, 234, 0.05);
+  --mg-faq-border: rgba(255, 210, 160, 0.24);
+  --mg-end-retry-bg: linear-gradient(135deg, #ffe9c9, #ffc48a 50%, #ffa878);
+  --mg-end-retry-fg: #3a1c0e;
+  --toast-bg: rgba(78, 48, 30, 0.96);
+}
+
+html { background: var(--night-0); }
+body.hb-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 48%, var(--night-0) 82%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.hb-result-page {
+  background:
+    radial-gradient(ellipse 120% 55% at 50% -8%, color-mix(in srgb, var(--a-edge) 55%, var(--night-1)), transparent 72%) fixed,
+    radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 48%, var(--night-0) 82%) fixed;
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.hb-h1, .hb-kicker, .hb-h1-main, .hb-h1-main em, .hb-badge, .hb-btn, .hb-q-text, .hb-q-num, .hb-result-name, .hb-eyebrow, .hb-vibe, .hb-sub,
+.hb-pair-name, .hb-pair-label, .hb-loading-text, .hb-cta strong, .hb-doc h1, .hb-progress-num {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 떠다니는 빛 (고정 배경, 가로 넘침 없음) ---------------- */
+.hb-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.hb-sky::before {
+  content: ''; position: absolute; inset: 0;
+  background-image:
+    radial-gradient(1.4px 1.4px at 9% 16%, var(--pearl) 0%, transparent 60%),
+    radial-gradient(1.1px 1.1px at 24% 44%, var(--ink) 0%, transparent 60%),
+    radial-gradient(1.6px 1.6px at 40% 10%, var(--pearl-2) 0%, transparent 60%),
+    radial-gradient(1.1px 1.1px at 57% 32%, var(--ink) 0%, transparent 60%),
+    radial-gradient(1.4px 1.4px at 72% 60%, var(--pearl) 0%, transparent 60%),
+    radial-gradient(1.1px 1.1px at 88% 20%, var(--ink) 0%, transparent 60%),
+    radial-gradient(1.5px 1.5px at 93% 72%, var(--pearl-2) 0%, transparent 60%),
+    radial-gradient(1.1px 1.1px at 14% 80%, var(--ink) 0%, transparent 60%),
+    radial-gradient(1.3px 1.3px at 46% 90%, var(--pearl) 0%, transparent 60%);
+  animation: hb-twinkle 5s ease-in-out infinite alternate;
+}
+.hb-mote {
+  position: absolute; width: 180px; height: 180px; border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--a-mid) 40%, transparent) 0%, transparent 70%);
+  filter: blur(8px); opacity: 0.45;
+  animation: hb-drift 18s ease-in-out infinite;
+}
+.hb-mote-1 { top: 8%; left: -60px; }
+.hb-mote-2 { top: 38%; right: -70px; width: 220px; height: 220px; animation-delay: -5s; animation-duration: 22s; background: radial-gradient(circle, rgba(255, 200, 140, 0.28) 0%, transparent 70%); }
+.hb-mote-3 { top: 70%; left: 10%; width: 140px; height: 140px; animation-delay: -9s; background: radial-gradient(circle, rgba(255, 190, 150, 0.26) 0%, transparent 70%); }
+.hb-mote-4 { top: 2%; right: 12%; width: 120px; height: 120px; animation-delay: -13s; animation-duration: 20s; }
+.hb-mote-5 { bottom: -60px; right: 20%; width: 200px; height: 200px; animation-delay: -3s; animation-duration: 25s; background: radial-gradient(circle, rgba(255, 210, 160, 0.24) 0%, transparent 70%); }
+@keyframes hb-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(26px, -18px) scale(1.08); }
+  66% { transform: translate(-14px, 16px) scale(0.94); }
+}
+@keyframes hb-twinkle { from { opacity: 0.5; } to { opacity: 1; } }
+
+.mg-top, .hb-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.hb-shell {
+  max-width: var(--app-width);
+  margin: 0 auto;
+  padding: 8px 16px 0;
+}
+.hb-screen { padding-top: 12px; }
+
+.hb-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.hb-btn-primary {
+  background: linear-gradient(120deg, #ffe3bd, #ffc48a 45%, #ff9a66);
+  color: #3a1c0e;
+  box-shadow: 0 12px 30px -10px rgba(255, 140, 80, 0.85), inset 0 -3px 0 rgba(28, 20, 64, 0.12);
+}
+.hb-btn:active { transform: scale(0.97); }
+.hb-btn:focus-visible, .hb-choice:focus-visible, .hb-back:focus-visible { outline: 3px solid var(--pearl); outline-offset: 3px; }
+
+/* ---------------- 집 그림 ---------------- */
+.hb-art { display: block; width: 100%; height: 100%; overflow: visible; }
+.hb-art .hb-layer { transform-box: fill-box; transform-origin: center; }
+.hb-art .hb-outer { animation: hb-breathe 5.5s ease-in-out infinite; }
+.hb-art .hb-inner { animation: hb-breathe 5.5s ease-in-out infinite reverse; }
+.hb-art .hb-spark { animation: hb-blink 3.2s ease-in-out infinite; }
+.hb-art .hb-spark-1 { animation-delay: -1.1s; }
+.hb-art .hb-spark-2 { animation-delay: -2.2s; }
+@keyframes hb-breathe { 0%, 100% { transform: scale(0.95); opacity: 0.88; } 50% { transform: scale(1.05); opacity: 1; } }
+@keyframes hb-blink { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
+/* 정체불명 집: 창문 불빛만 천천히 깜박인다 (어떤 결과인지 알려 주지 않는다) */
+.hb-mystery .hb-art .hb-window { animation: hb-blink 4s ease-in-out infinite; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.hb-start { text-align: center; padding-top: 16px; }
+.hb-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 210, 160, 0.12); border: 1px solid var(--line);
+  color: var(--pearl); font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.hb-hero-art { width: 200px; height: 200px; margin: 0 auto -4px; }
+.hb-h1 { margin: 4px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.hb-kicker { display: block; margin-bottom: 8px; font-size: 15px; letter-spacing: 0.05em; color: var(--pearl-2); }
+.hb-h1-main { display: block; font-size: 38px; line-height: 1.2; color: var(--ink); }
+.hb-h1-main em {
+  font-style: normal;
+  background: linear-gradient(100deg, #ffd9a0, #ffb070 40%, #ff8a5c 75%, #ffcf8a);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: none;
+}
+.hb-hook { margin: 0 auto 14px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+.hb-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; font-size: 13.5px; color: var(--ink-dim); }
+.hb-meta span { padding: 4px 12px; border-radius: 999px; background: var(--card); }
+
+/* ---------------- 질문 ---------------- */
+.hb-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.hb-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1px solid rgba(255, 246, 234, 0.18); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.hb-progress { flex: 1; height: 10px; border-radius: 999px; background: rgba(255, 246, 234, 0.12); overflow: hidden; }
+.hb-progress-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, #ffd9a0, #ffb070, #ff8a5c); transition: width 0.3s ease; }
+.hb-progress-num { flex: 0 0 auto; font-size: 14px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.hb-q-card {
+  padding: 20px 16px 16px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 150, 90, 0.2), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 246, 234, 0.12);
+  box-shadow: 0 20px 40px -24px rgba(0, 0, 0, 0.7);
+  animation: hb-in 0.28s ease;
+}
+@keyframes hb-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.hb-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.hb-q-emoji { font-size: 28px; line-height: 1; }
+.hb-q-num { font-size: 15px; color: var(--pearl-2); font-weight: var(--display-weight); }
+.hb-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.hb-choices { display: flex; flex-direction: column; gap: 10px; }
+.hb-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(255, 246, 234, 0.16);
+  border-radius: 16px;
+  background: rgba(27, 16, 12, 0.45);
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .hb-choice:hover { border-color: var(--pearl-2); background: rgba(255, 210, 160, 0.1); } }
+.hb-choice:active { transform: scale(0.985); }
+.hb-choice.is-picked { border-color: var(--pearl); background: rgba(255, 210, 160, 0.22); box-shadow: 0 0 0 3px rgba(255, 210, 160, 0.2); }
+.hb-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 지수 계산 중 ---------------- */
+.hb-loading { text-align: center; padding: 40px 0 40px; }
+.hb-reading { width: 190px; height: 190px; margin: 0 auto 14px; }
+.hb-reading .hb-art { animation-duration: 2.4s; }
+.hb-reading .hb-outer, .hb-reading .hb-inner { animation-duration: 1.6s; }
+.hb-loading-text { margin: 0 0 4px; font-size: 22px; font-weight: var(--display-weight); }
+.hb-loading-sub { margin: 0; font-size: 14px; color: var(--ink-faint); }
+
+/* ---------------- 결과 ---------------- */
+.hb-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #ffe3bd, #ffc48a 45%, #ff9a66);
+  color: #3a1c0e;
+  box-shadow: 0 10px 24px -12px rgba(255, 140, 80, 0.9);
+}
+.hb-cta-text { flex: 1; display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
+.hb-cta strong { font-size: 16px; font-weight: var(--display-weight); }
+.hb-cta-text span { font-size: 13.5px; opacity: 0.8; }
+.hb-cta-arrow { font-size: 22px; font-weight: 800; }
+
+.hb-card {
+  position: relative;
+  margin-top: 10px;
+  padding: 16px 18px 20px;
+  border-radius: 28px;
+  text-align: center;
+  background:
+    radial-gradient(120% 55% at 50% 0%, color-mix(in srgb, var(--a-mid) 30%, transparent), transparent 70%),
+    linear-gradient(180deg, rgba(78, 48, 30, 0.82), rgba(42, 25, 18, 0.94));
+  border: 1.5px solid color-mix(in srgb, var(--a-mid) 45%, transparent);
+  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.8), 0 0 60px -30px var(--a-mid);
+}
+.hb-card-art { width: 220px; height: 220px; margin: 0 auto 2px; }
+.hb-result-title { margin: 0; line-height: 1.2; }
+.hb-eyebrow { display: block; font-size: 15px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 6px; }
+.hb-result-name {
+  display: block; font-size: 36px; font-weight: var(--display-weight); line-height: 1.2;
+  color: var(--a-ink);
+  text-shadow: 0 0 24px color-mix(in srgb, var(--a-mid) 70%, transparent);
+  overflow-wrap: break-word;
+}
+.hb-vibe { margin: 10px 0 0; font-size: 17px; line-height: 1.45; font-weight: var(--display-weight); color: var(--pearl); }
+.hb-same {
+  display: inline-block; margin: 12px 0 0; padding: 5px 14px; border-radius: 999px;
+  background: color-mix(in srgb, var(--a-mid) 16%, transparent); border: 1px solid color-mix(in srgb, var(--a-mid) 45%, transparent);
+  color: var(--a-core); font-size: 13.5px; font-weight: 600;
+}
+.hb-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.hb-sub { margin: 16px 0 8px; font-size: 16px; font-weight: var(--display-weight); color: var(--a-ink); text-align: left; }
+.hb-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.hb-chips li {
+  padding: 6px 12px; border-radius: 999px;
+  background: color-mix(in srgb, var(--a-mid) 12%, transparent); border: 1px solid color-mix(in srgb, var(--a-mid) 34%, transparent);
+  font-size: 14px; font-weight: 600; line-height: 1.35;
+}
+.hb-others { margin-top: 4px; text-align: left; }
+.hb-others p {
+  margin: 0; padding: 12px 14px; border-radius: 16px;
+  background: rgba(27, 16, 12, 0.45); border-left: 4px solid var(--a-mid);
+  font-size: 15px; line-height: 1.6;
+}
+
+/* 집순이·집돌이 지수 막대 */
+.hb-meter { margin: 14px 0 0; text-align: center; }
+.hb-meter-num { display: block; font-family: var(--font-display); font-size: 40px; font-weight: var(--display-weight); line-height: 1.15; color: var(--a-core); text-shadow: 0 0 22px color-mix(in srgb, var(--a-mid) 70%, transparent); }
+.hb-meter-label { display: block; margin-top: 2px; font-size: 13.5px; font-weight: 600; color: var(--ink-dim); }
+.hb-bar { height: 12px; margin: 10px 4px 0; border-radius: 999px; background: rgba(255, 246, 234, 0.12); overflow: hidden; }
+.hb-bar-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--a-edge), var(--a-mid), var(--a-core)); transition: width 0.7s ease; }
+
+/* 찰떡·상극 유형: 보여주기만 (링크 아님, 누를 수 있어 보이는 모양 없음) */
+.hb-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.hb-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  min-width: 0; padding: 12px 8px 14px;
+  border-radius: 20px; text-align: center;
+  background: var(--card); border: 1px solid rgba(255, 246, 234, 0.12);
+  cursor: default;
+}
+.hb-pair-label { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.hb-pair-art { width: 64px; height: 64px; }
+.hb-orb { display: block; width: 100%; height: 100%; }
+.hb-pair-name { font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--a-ink); overflow-wrap: break-word; max-width: 100%; }
+
+/* ---------------- 개인정보 ---------------- */
+.hb-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.hb-doc h1 { font-size: 26px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.hb-doc h2 { font-size: 17px; color: var(--pearl-2); margin: 22px 0 6px; }
+.hb-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .hb-body { line-height: 1.75; }
+html:lang(th) :is(.hb-h1-main, .hb-result-name, .hb-q-text, .hb-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .hb-kicker { letter-spacing: 0; }
+html:lang(vi) :is(.hb-h1-main, .hb-result-name, .hb-q-text) { line-height: 1.4; }
+html:lang(ru) .hb-doc h1 { line-height: 1.25; }
+html:lang(ja) :is(.hb-h1-main, .hb-result-name, .hb-q-text, .hb-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.hb-h1-main, .hb-result-name, .hb-q-text, .hb-vibe, .hb-hook, .hb-desc, .hb-others p) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .hb-h1-main { font-size: 33px; }
+  .hb-result-name { font-size: 31px; }
+  .hb-q-text { font-size: 19px; }
+  .hb-card-art { width: 190px; height: 190px; }
+  .hb-meter-num { font-size: 34px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hb-sky::before, .hb-mote, .hb-art, .hb-art .hb-layer, .hb-art .hb-spark, .hb-q-card { animation: none !important; }
+  .hb-progress-fill, .hb-bar-fill, .hb-btn, .hb-choice { transition: none; }
+}

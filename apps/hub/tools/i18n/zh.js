@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'snake',
+        kicker: "经典街机",
+        headline: "吃苹果，越变越长",
+        blurb: "滑动转向，每吃一口就更快一点。",
+      },
+      {
+        id: 'homebody',
+        kicker: "心理测试",
+        headline: "你有多宅？",
+        blurb: "十个日常场景，1分钟测出你的宅度百分比。",
+      },
+      {
         id: 'age',
         kicker: "离生日还有几天？",
         headline: "我现在到底几岁？",
