@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'percent',
+        kicker: "계산 1초 끝",
+        headline: "할인가·증감률 바로 계산",
+        blurb: "몇 %인지, 몇 % 올랐는지, %p 차이까지 한 번에.",
+      },
+      {
+        id: 'race',
+        kicker: "커피 내기 끝판왕",
+        headline: "동물 달리기로 정하자",
+        blurb: "이름 넣고 출발! 꼴찌가 쏘기, 1등이 당첨.",
+      },
+      {
         id: 'snake',
         kicker: "추억의 지렁이 게임",
         headline: "사과 먹고 길어지는 뱀",

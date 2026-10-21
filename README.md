@@ -142,6 +142,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | bottle | apps/bottle | 병 돌리기: 그냥 돌리기 / 이름 2~12명 원형 배치, crypto 거부 샘플링으로 먼저 정하고 감속 회전 연출(플릭 가능), 겹치지 않기, 선택 미션 카드(가족용, 한 장씩만), 최근 10개 기록, 이름 #d= 링크 공유 | `check-bottle.js` |
 | snake | apps/snake | 뱀 게임(게임): 17×17 격자, 스와이프·방향키·WASD, 사과를 먹을수록 빨라짐(165→75ms, 5개마다 속도 단계·점수 +2), 벽·자기 몸 충돌, 시작 시 3·2·1, 탭 이탈 자동 일시정지, 최고 기록 localStorage, supa.submitScore 백분위(없으면 숨김) | `check-snake.js` |
 | homebody | apps/homebody | 집순이·집돌이 지수 테스트: 일상 상황 10문항 × 4지선다(보기 점수 0·3·7·10) → 집콕 지수 0~100% → 6단계(r/<id>.html, 단계 범위 표시, 찰떡·상극은 링크 없음), 방금 푼 사람에게만 정확한 %·"나보다 집순이·집돌이인 사람" 백분위(poll `homebody` 지수 10점 구간, 20표 이상일 때만) | `check-homebody.js` |
+| percent | apps/percent | 퍼센트 계산기(만들기): 6가지 계산(Y의 X% · X는 Y의 몇 % · 증감률 · 할인/인상(칩 10·20·30·50%, 아낀 금액) · 원래 값 역산 · %p 차이), 입력하는 대로 계산, 결과마다 계산식 한 줄·복사, 언어별 소수점, 마지막 탭만 localStorage | `check-percent.js` |
+| race | apps/race | 동물 달리기 시합(투표): 이름 2~10명·동물 레인, 1등 당첨/꼴찌가 쏘기, crypto 거부 샘플링 + Fisher–Yates 로 순위 먼저 정하고 6~9초 역전 연출, 움직임 줄이기 = 즉시 결과, 최근 10개 기록, 이름 #d= 링크(결과 없음), 카이제곱 공정성 검사 | `check-race.js` |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

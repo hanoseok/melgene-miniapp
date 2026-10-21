@@ -1,0 +1,257 @@
+/* apps/race/style.css — 동물 달리기 시합: 잔디 운동장(줄무늬 잔디 바탕) 위 흙색 트랙, 흰 레인 선, 체크무늬 결승선, 노랑·빨강 포인트.
+ * 모바일 한 줄(--app-width 480px). 트랙 왼쪽 칸 = 이름(출발선), 동물은 race.js 가 translateX 로 움직인다(10명도 360px 폭에 들어가게 레인 높이를 줄임).
+ * 제목·버튼·이름은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --grass: #1f6b45;
+  --grass-2: #24774d;
+  --grass-deep: #164f33;
+  --cream: #fffaf0;
+  --cream-2: #f3ead6;
+  --ink: #23201a;
+  --ink-dim: rgba(35, 32, 26, 0.78);
+  --ink-faint: rgba(35, 32, 26, 0.58);
+  --on-grass: #fffaf0;
+  --on-grass-dim: rgba(255, 250, 240, 0.8);
+  --dirt: #c8703c;
+  --dirt-2: #b25f2f;
+  --sun: #ffc93c;
+  --sun-2: #e0a516;
+  --red: #e2483d;
+  --red-2: #b8332a;
+  --line: rgba(35, 32, 26, 0.14);
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.06), 0 14px 28px -16px rgba(0, 0, 0, 0.6);
+
+  --font-display: 'Baloo 2', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--on-grass);
+  --mg-top-badge-bg: var(--red);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: var(--grass-deep);
+  --lang-fg: var(--on-grass);
+  --lang-border: rgba(255, 250, 240, 0.28);
+  --mg-star-on: var(--sun);
+  --mg-star-off: rgba(255, 250, 240, 0.28);
+  --mg-heart-bg: var(--grass-deep);
+  --mg-heart-border: var(--red);
+  --mg-heart-fg: #ff8a80;
+  --mg-heart-on: var(--red);
+  --mg-share-bg: rgba(255, 250, 240, 0.1);
+  --mg-share-border: rgba(255, 250, 240, 0.26);
+  --mg-share-primary-bg: var(--red);
+  --mg-share-primary-fg: #fff;
+  --mg-x: currentColor;
+  --mg-tiktok: currentColor;
+  --mg-faq-bg: rgba(255, 250, 240, 0.08);
+  --mg-faq-border: rgba(255, 250, 240, 0.24);
+  --mg-end-retry-bg: var(--red);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--cream);
+  --toast-fg: var(--ink);
+}
+
+html { background: var(--grass); }
+body.rc-body {
+  min-height: 100vh;
+  color: var(--on-grass);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--grass);
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 46px, transparent 46px 92px),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 201, 60, 0.18), transparent 60%);
+}
+[hidden] { display: none !important; }
+
+/* base.css :lang(zh|th|vi) 가 모든 요소 글꼴을 덮으므로 제목 요소에 다시 지정 */
+.rc-h1, .rc-kicker, .rc-h1-main, .rc-h1-main em, .rc-btn, .rc-h2, .rc-h3, .rc-seg-btn, .rc-label, .rc-count-out, .rc-step,
+.rc-banner, .rc-countdown-num, .rc-lane-name, .rc-res-kicker, .rc-rank-pos, .rc-rank-name, .rc-rank-tag, .rc-hist-who, .rc-doc h1, .rc-mini {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+}
+
+.rc-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; overflow-x: clip; }
+.rc-screen { padding-top: 10px; }
+
+/* ---------------- 제목 ---------------- */
+.rc-h1 { margin: 4px 0 6px; text-align: center; line-height: 1.15; }
+.rc-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 2px 14px; border-radius: 999px;
+  background: var(--red); color: #fff; font-size: 15px; line-height: 1.6; letter-spacing: 0.02em; box-shadow: 0 3px 0 var(--red-2);
+}
+.rc-h1-main { display: block; font-size: 30px; color: var(--on-grass); overflow-wrap: break-word; }
+.rc-h1-main em { font-style: normal; color: var(--sun); }
+.rc-hook { margin: 6px auto 14px; max-width: 30em; text-align: center; font-size: 15px; color: var(--on-grass-dim); }
+
+/* ---------------- 카드·설정 ---------------- */
+.rc-card { background: var(--cream); color: var(--ink); border-radius: 18px; padding: 14px; box-shadow: var(--shadow); }
+.rc-form { display: grid; gap: 10px; }
+.rc-label { display: block; margin: 0; font-size: 15px; color: var(--ink); line-height: 1.4; }
+.rc-hint { margin: 0; font-size: 12.5px; color: var(--ink-faint); line-height: 1.5; }
+.rc-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; border-radius: 14px; background: var(--cream-2); }
+.rc-seg-btn {
+  min-height: 44px; padding: 6px 8px; border: 0; border-radius: 11px; background: transparent; color: var(--ink-dim);
+  font-size: 15px; line-height: 1.2; cursor: pointer; overflow-wrap: anywhere;
+}
+.rc-seg-btn[aria-checked="true"] { background: var(--grass); color: var(--on-grass); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+.rc-count { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.rc-stepper { display: flex; align-items: center; gap: 6px; }
+.rc-step {
+  width: 44px; height: 44px; border: 0; border-radius: 12px; background: var(--cream-2); color: var(--ink);
+  font-size: 24px; line-height: 1; cursor: pointer;
+}
+.rc-step:disabled { opacity: 0.4; cursor: default; }
+.rc-count-out { min-width: 7.5em; text-align: center; font-size: 17px; color: var(--ink); white-space: nowrap; }
+.rc-entries { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+.rc-entry { display: flex; align-items: center; gap: 4px; min-width: 0; padding: 3px 4px 3px 6px; border-radius: 12px; background: var(--cream-2); }
+.rc-entry-animal { flex: none; width: 26px; font-size: 21px; line-height: 1; text-align: center; display: inline-block; transform: scaleX(-1); }
+.rc-input {
+  flex: 1; min-width: 0; height: 38px; padding: 0 8px; border: 2px solid transparent; border-radius: 9px;
+  background: #fff; color: var(--ink); font: inherit; font-size: 16px;
+}
+.rc-input::placeholder { color: var(--ink-faint); }
+.rc-input:focus { outline: none; border-color: var(--grass); }
+.rc-error { margin: 10px 0 0; padding: 10px 12px; border-radius: 12px; background: #ffe2dc; color: #8c1d14; font-size: 14px; font-weight: 700; }
+.rc-note { margin: 10px 0 0; padding: 8px 12px; border-radius: 12px; background: rgba(255, 201, 60, 0.22); color: var(--on-grass); font-size: 14px; text-align: center; }
+
+/* ---------------- 버튼 ---------------- */
+.rc-btn {
+  display: block; width: 100%; min-height: 52px; padding: 10px 16px; border: 0; border-radius: 16px; cursor: pointer;
+  font-size: 19px; line-height: 1.25; text-align: center; overflow-wrap: anywhere;
+}
+.rc-btn-primary { margin-top: 14px; background: var(--red); color: #fff; box-shadow: 0 5px 0 var(--red-2); }
+.rc-btn-primary:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--red-2); }
+.rc-btn-ghost { min-height: 44px; font-size: 15px; background: var(--cream-2); color: var(--ink); }
+.rc-btn:focus-visible, .rc-seg-btn:focus-visible, .rc-step:focus-visible, .rc-mini:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.rc-fair { margin: 10px 0 0; text-align: center; font-size: 12px; color: var(--on-grass-dim); line-height: 1.5; }
+.rc-mini { padding: 4px 10px; border: 0; border-radius: 999px; background: var(--cream-2); color: var(--ink-dim); font-size: 13px; cursor: pointer; }
+
+/* ---------------- 트랙 ---------------- */
+.rc-banner {
+  margin: 4px auto 10px; width: fit-content; max-width: 100%; padding: 4px 14px; border-radius: 999px;
+  background: var(--grass-deep); color: var(--sun); font-size: 15px; text-align: center; line-height: 1.4;
+}
+.rc-race.is-lose .rc-banner { color: #ffd2cc; }
+.rc-track-wrap { position: relative; }
+.rc-track {
+  --start-x: 78px; --finish-w: 14px; --lane-h: 44px;
+  position: relative; margin: 0; padding: 4px 0; list-style: none; border-radius: 16px; overflow: hidden;
+  background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.04) 0 3px, transparent 3px 9px), linear-gradient(var(--dirt), var(--dirt-2));
+  box-shadow: 0 0 0 4px #f7f1e2, 0 0 0 7px rgba(0, 0, 0, 0.18), var(--shadow);
+}
+.rc-track::after {
+  content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: var(--finish-w);
+  background: repeating-conic-gradient(#fff 0 25%, #23201a 0 50%) 0 0 / 7px 7px;
+}
+.rc-lane { position: relative; height: var(--lane-h); border-bottom: 2px dashed rgba(255, 250, 240, 0.55); transition: background 0.2s; }
+.rc-lane:last-child { border-bottom: 0; }
+.rc-lane.is-leader { background: rgba(255, 255, 255, 0.12); }
+.rc-lane-name {
+  position: absolute; left: 0; top: 0; bottom: 0; width: var(--start-x); padding: 0 5px 0 8px;
+  background: rgba(0, 0, 0, 0.16); border-right: 3px solid #fffaf0; color: #fffaf0; font-size: var(--name-fs, 13px); line-height: var(--lane-h);
+  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.rc-runner {
+  position: absolute; left: calc(var(--start-x) + 2px); top: 0; height: var(--lane-h); display: flex; align-items: center;
+  font-size: calc(var(--lane-h) * 0.7); line-height: 1; z-index: 2; will-change: transform;
+}
+.rc-animal { display: inline-block; transform: scaleX(-1); filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.3)); }
+.rc-dust { position: absolute; right: 88%; top: 50%; font-size: 0.55em; transform: translateY(-50%); opacity: 0; transition: opacity 0.15s; }
+.rc-dust::before { content: '💨'; }
+.rc-race.is-running .rc-lane:not(.is-finished) .rc-animal { animation: rc-gallop 0.3s ease-in-out infinite alternate; }
+.rc-race.is-running .rc-lane.is-burst:not(.is-finished) .rc-animal { animation-duration: 0.16s; }
+.rc-race.is-running .rc-lane.is-burst:not(.is-finished) .rc-dust { opacity: 1; }
+.rc-race.is-running .rc-lane.is-stumble:not(.is-finished) .rc-animal { animation: rc-wobble 0.5s ease-in-out infinite; }
+.rc-place {
+  position: absolute; right: calc(var(--finish-w) + var(--lane-h) * 0.9); top: 50%; transform: translateY(-50%);
+  font-size: calc(var(--lane-h) * 0.42); line-height: 1; color: #fffaf0; z-index: 3;
+  font-family: var(--font-display); font-weight: var(--display-weight); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.rc-lane.is-finished .rc-place { animation: rc-pop 0.3s ease-out; }
+.rc-race:not(.is-lose) .rc-lane.is-first, .rc-race.is-lose .rc-lane.is-last { background: rgba(255, 201, 60, 0.32); }
+.rc-race.is-lose .rc-lane.is-last { background: rgba(226, 72, 61, 0.42); }
+.rc-countdown {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; z-index: 5;
+  background: rgba(22, 79, 51, 0.45); border-radius: 16px; pointer-events: none;
+}
+.rc-countdown-num { font-size: 76px; line-height: 1; color: #fff; text-shadow: 0 4px 0 var(--red-2), 0 8px 18px rgba(0, 0, 0, 0.4); }
+.rc-countdown.is-go .rc-countdown-num { color: var(--sun); }
+.rc-countdown-num.is-tick { animation: rc-tick 0.6s ease-out both; }
+
+@keyframes rc-gallop { from { transform: scaleX(-1) translateY(0) rotate(0); } to { transform: scaleX(-1) translateY(-3px) rotate(-6deg); } }
+@keyframes rc-wobble { 0%, 100% { transform: scaleX(-1) rotate(0); } 30% { transform: scaleX(-1) rotate(18deg) translateY(2px); } 60% { transform: scaleX(-1) rotate(-10deg); } }
+@keyframes rc-tick { from { transform: scale(1.8); opacity: 0; } 40% { transform: scale(1); opacity: 1; } to { transform: scale(0.9); opacity: 0.85; } }
+@keyframes rc-pop { from { transform: translateY(-50%) scale(0.2); } 70% { transform: translateY(-50%) scale(1.25); } to { transform: translateY(-50%) scale(1); } }
+@keyframes rc-in { from { transform: scale(0.95); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* ---------------- 결과 ---------------- */
+.rc-result { margin-top: 18px; min-width: 0; }
+.rc-result > * + * { margin-top: 14px; }
+.rc-res-card { text-align: center; padding: 18px 16px; border-top: 6px solid var(--sun-2); animation: rc-in 0.35s ease-out; }
+.rc-result.is-lose .rc-res-card { border-top-color: var(--red); }
+.rc-res-kicker { margin: 0; font-size: 15px; color: var(--ink-faint); }
+.rc-h2 { margin: 0; color: var(--ink); }
+.rc-res-title { font-size: 30px; line-height: 1.2; overflow-wrap: anywhere; }
+.rc-res-sub { margin: 6px 0 0; font-size: 14.5px; color: var(--ink-dim); overflow-wrap: anywhere; }
+.rc-h3 { margin: 14px 0 6px; font-size: 16px; color: var(--ink); }
+.rc-ranking { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; text-align: start; }
+.rc-rank-row {
+  display: grid; grid-template-columns: 34px 28px minmax(0, 1fr) auto; align-items: center; gap: 6px;
+  min-height: 36px; padding: 2px 10px; border-radius: 10px; background: var(--cream-2);
+}
+.rc-rank-pos { font-size: 17px; text-align: center; color: var(--ink-dim); }
+.rc-rank-animal { font-size: 20px; text-align: center; display: inline-block; transform: scaleX(-1); }
+.rc-rank-name { font-size: 15px; color: var(--ink); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.rc-rank-tag { padding: 0 10px; border-radius: 999px; font-size: 13px; line-height: 1.7; white-space: nowrap; }
+.rc-rank-row.is-win { background: #fff0c2; box-shadow: inset 0 0 0 2px var(--sun-2); }
+.rc-rank-row.is-win .rc-rank-tag { background: var(--sun); color: var(--ink); }
+.rc-rank-row.is-lose { background: #ffe1dc; box-shadow: inset 0 0 0 2px var(--red); }
+.rc-rank-row.is-lose .rc-rank-tag { background: var(--red); color: #fff; }
+.rc-actions { display: grid; gap: 8px; margin-top: 14px; }
+.rc-history-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.rc-history-head .rc-h3 { margin: 0; }
+.rc-history-list { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.rc-hist-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0 10px; padding: 3px 0; border-bottom: 1px solid var(--line); }
+.rc-hist-row:last-child { border-bottom: 0; }
+.rc-hist-who { font-size: 15px; color: var(--ink); overflow-wrap: anywhere; min-width: 0; }
+.rc-hist-row.is-new .rc-hist-who { color: var(--red-2); }
+.rc-hist-meta { font-size: 12.5px; color: var(--ink-faint); white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rc-res-card, .rc-lane.is-finished .rc-place, .rc-countdown-num.is-tick { animation: none; }
+  .rc-race.is-running .rc-lane .rc-animal { animation: none !important; }
+  .rc-lane { transition: none; }
+}
+
+/* ---------------- 개인정보·바닥글 ---------------- */
+.rc-doc { padding: 18px 16px; margin-top: 12px; background: var(--cream); color: var(--ink); border-radius: 16px; box-shadow: var(--shadow); }
+.rc-doc h1 { font-size: 24px; margin: 0 0 12px; }
+.rc-doc h2 { font-size: 17px; margin: 18px 0 6px; }
+.rc-doc p { font-size: 14.5px; color: var(--ink-dim); }
+.rc-doc a { color: var(--red-2); }
+.site-footer { margin-top: 36px; padding: 18px 0 30px; text-align: center; font-size: 12.5px; color: var(--on-grass-dim); }
+.site-footer a { color: var(--on-grass); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .rc-h1, html:lang(th) .rc-btn, html:lang(th) .rc-seg-btn, html:lang(th) .rc-res-title, html:lang(th) .rc-banner { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .rc-h1-main { line-height: 1.45; }
+html:lang(th) body { word-break: normal; line-break: strict; }
+html:lang(vi) .rc-h1-main, html:lang(vi) .rc-res-title { line-height: 1.35; }
+html:lang(ja) body { word-break: auto-phrase; }
+html:lang(de) .rc-label, html:lang(de) .rc-seg-btn, html:lang(de) .rc-btn, html:lang(de) .rc-hint { hyphens: auto; -webkit-hyphens: auto; }
+
+@media (min-width: 420px) {
+  .rc-track { --start-x: 96px; }
+}
+@media (max-width: 380px) {
+  .rc-h1-main { font-size: 26px; }
+  .rc-btn { font-size: 17px; }
+  .rc-seg-btn { font-size: 14px; }
+  .rc-track { --start-x: 74px; }
+}

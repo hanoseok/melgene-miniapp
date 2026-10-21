@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'percent',
+        kicker: "計算が一瞬",
+        headline: "割引も増減率もすぐ計算",
+        blurb: "何%か、何%増えたか、ポイント差まで。",
+      },
+      {
+        id: 'race',
+        kicker: "おごりはだれ？",
+        headline: "動物レースで決めよう",
+        blurb: "名前を入れてスタート！最下位がおごり。",
+      },
+      {
         id: 'snake',
         kicker: "定番アーケード",
         headline: "リンゴを食べて長くなれ",

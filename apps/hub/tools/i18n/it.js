@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'percent',
+        kicker: "Calcolo al volo",
+        headline: "Quanto fa il 15%?",
+        blurb: "Sconti, variazione % e punti percentuali in un’unica app.",
+      },
+      {
+        id: 'race',
+        kicker: "Chi offre il caffè?",
+        headline: "Decide la corsa degli animali",
+        blurb: "Inserisci i nomi e via! L’ultimo paga.",
+      },
+      {
         id: 'snake',
         kicker: "Arcade classico",
         headline: "Mangia mele e cresci",

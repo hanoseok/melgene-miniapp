@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 51,
+  "numberOfItems": 53,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -437,6 +437,20 @@
       "url": "https://homebody.example.com/",
       "name": "Test casanier",
       "description": "10 situations du quotidien, environ 1 minute. À quel point es-tu casanier, en % ?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "url": "https://percent.example.com/",
+      "name": "Calcul pourcentage",
+      "description": "Calculez X % de Y, quel pourcentage représente un nombre, une évolution en %, une remise ou une hausse, le prix d’origine et l’écart en points."
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "url": "https://race.example.com/",
+      "name": "Course d’animaux",
+      "description": "Entrez les prénoms : chacun a son animal sur sa ligne. Le premier gagne, ou le dernier paie les cafés. Un tirage au sort vraiment équitable."
     }
   ]
 }
@@ -512,6 +526,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="percent">
+        <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Calcul express</span></span>
+            <h3 class="cur-headline">Combien font 15 % ?</h3>
+            <span class="cur-giant" aria-hidden="true">💯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Remises, variation en % et points : six calculs en un.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Calcul pourcentage</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="race">
+        <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Qui paie le café ?</span></span>
+            <h3 class="cur-headline">Une course d’animaux décide</h3>
+            <span class="cur-giant" aria-hidden="true">🏁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Entre les prénoms, lance la course. Le dernier paie !</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Course d’animaux</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snake">
         <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
@@ -576,7 +622,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="baseball">
+      <li class="cur-item" data-id="baseball" hidden>
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Jeu de déduction</span></span>
@@ -592,7 +638,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="spend">
+      <li class="cur-item" data-id="spend" hidden>
         <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Test de style de dépenses</span></span>
@@ -611,7 +657,7 @@
       <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Encore combien ?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span><span class="cur-kicker">Encore combien ?</span></span>
             <h3 class="cur-headline">Le compte à rebours du grand jour</h3>
             <span class="cur-giant" aria-hidden="true">📅</span>
           </span>
@@ -627,7 +673,7 @@
       <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tirage au sort</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span><span class="cur-kicker">Tirage au sort</span></span>
             <h3 class="cur-headline">Chacun pioche un papier plié</h3>
             <span class="cur-giant" aria-hidden="true">🎟️</span>
           </span>
@@ -640,45 +686,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="memory" hidden>
-        <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Mémoire d’Halloween</span></span>
-            <h3 class="cur-headline">Retournez les cartes, trouvez les paires</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Citrouilles, fantômes et chauves-souris se cachent.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Jeu de mémoire</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="teto" hidden>
-        <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">Test viral coréen</span></span>
-            <h3 class="cur-headline">Plutôt teto ou egen ?</h3>
-            <span class="cur-giant" aria-hidden="true">⚡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 moments du quotidien, 2 minutes. Découvre ton mélange d’énergies.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test Teto ou Egen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">51 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">53 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -700,6 +714,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="percent" data-cat="create">
+        <a class="tile-link" href="https://percent.example.com/" title="Calculez X % de Y, quel pourcentage représente un nombre, une évolution en %, une remise ou une hausse, le prix d’origine et l’écart en points." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Calcul pourcentage</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="race" data-cat="vote">
+        <a class="tile-link" href="https://race.example.com/" title="Entrez les prénoms : chacun a son animal sur sa ligne. Le premier gagne, ou le dernier paie les cafés. Un tirage au sort vraiment équitable." style="--h:351;--h2:333">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Course d’animaux</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snake" data-cat="game">
         <a class="tile-link" href="https://snake.example.com/" title="Le Snake classique : glisse ou utilise les flèches, mange des pommes et grandis sans toucher un mur ni ta queue. Ça accélère à chaque pomme." style="--h:138;--h2:164">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span>
@@ -744,14 +772,14 @@
       </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="Compte à rebours jusqu’à une date, jours écoulés depuis un début (jour 100, 1000, anniversaires) ou ajout de jours. Carte à partager." style="--h:112;--h2:138">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span>
           <span class="tile-name">Compte à rebours</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lots" data-cat="vote">
         <a class="tile-link" href="https://lots.example.com/" title="Faites passer le téléphone : chacun choisit un papier plié. Gagnants et perdants ou vos propres lots, avec le résumé de qui a eu quoi." style="--h:350;--h2:332">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span>
           <span class="tile-name">Tirage au sort</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

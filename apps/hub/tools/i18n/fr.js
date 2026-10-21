@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'percent',
+        kicker: "Calcul express",
+        headline: "Combien font 15 % ?",
+        blurb: "Remises, variation en % et points : six calculs en un.",
+      },
+      {
+        id: 'race',
+        kicker: "Qui paie le café ?",
+        headline: "Une course d’animaux décide",
+        blurb: "Entre les prénoms, lance la course. Le dernier paie !",
+      },
+      {
         id: 'snake',
         kicker: "Arcade classique",
         headline: "Mange des pommes, grandis",

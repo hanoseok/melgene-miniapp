@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'percent',
+        kicker: "Tính nhanh",
+        headline: "15% là bao nhiêu?",
+        blurb: "Giảm giá, tăng giảm % và điểm phần trăm trong một.",
+      },
+      {
+        id: 'race',
+        kicker: "Ai trả tiền cà phê?",
+        headline: "Để thú cưng chạy đua",
+        blurb: "Nhập tên, xem cuộc đua. Ai về chót thì trả!",
+      },
+      {
         id: 'snake',
         kicker: "Arcade kinh điển",
         headline: "Ăn táo, rắn dài ra",

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'percent',
+        kicker: "Conta rápida",
+        headline: "Quanto é 15%?",
+        blurb: "Desconto, variação em % e pontos percentuais num só lugar.",
+      },
+      {
+        id: 'race',
+        kicker: "Quem paga o café?",
+        headline: "Uma corrida de bichos decide",
+        blurb: "Coloque os nomes e dê a largada. O último paga!",
+      },
+      {
         id: 'snake',
         kicker: "Arcade clássico",
         headline: "Coma maçãs e cresça",

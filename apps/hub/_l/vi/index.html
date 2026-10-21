@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 51,
+  "numberOfItems": 53,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -438,6 +438,20 @@
       "url": "https://homebody.example.com/",
       "name": "Trắc nghiệm mê ở nhà",
       "description": "10 tình huống đời thường, khoảng 1 phút. Bạn ghiền nhà bao nhiêu phần trăm?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "url": "https://percent.example.com/",
+      "name": "Tính phần trăm",
+      "description": "Tính X% của Y, một số chiếm bao nhiêu phần trăm, phần trăm tăng giảm, giá sau giảm, tiết kiệm bao nhiêu, giá gốc và chênh lệch điểm phần trăm."
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "url": "https://race.example.com/",
+      "name": "Đua thú bốc thăm",
+      "description": "Nhập tên, mỗi người có một con thú chạy trên làn riêng. Về nhất thắng, hoặc về chót bao cà phê. Bốc thăm ngẫu nhiên công bằng."
     }
   ]
 }
@@ -513,6 +527,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="percent">
+        <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tính nhanh</span></span>
+            <h3 class="cur-headline">15% là bao nhiêu?</h3>
+            <span class="cur-giant" aria-hidden="true">💯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Giảm giá, tăng giảm % và điểm phần trăm trong một.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tính phần trăm</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="race">
+        <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Ai trả tiền cà phê?</span></span>
+            <h3 class="cur-headline">Để thú cưng chạy đua</h3>
+            <span class="cur-giant" aria-hidden="true">🏁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Nhập tên, xem cuộc đua. Ai về chót thì trả!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Đua thú bốc thăm</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snake">
         <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
@@ -577,7 +623,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="baseball">
+      <li class="cur-item" data-id="baseball" hidden>
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trò chơi đoán số</span></span>
@@ -593,7 +639,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="spend">
+      <li class="cur-item" data-id="spend" hidden>
         <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm kiểu chi tiêu</span></span>
@@ -612,7 +658,7 @@
       <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Còn bao lâu?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span><span class="cur-kicker">Còn bao lâu?</span></span>
             <h3 class="cur-headline">Đếm ngược đến ngày đặc biệt</h3>
             <span class="cur-giant" aria-hidden="true">📅</span>
           </span>
@@ -628,7 +674,7 @@
       <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Bốc thăm chuyền máy</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span><span class="cur-kicker">Bốc thăm chuyền máy</span></span>
             <h3 class="cur-headline">Mỗi người rút một lá thăm gấp</h3>
             <span class="cur-giant" aria-hidden="true">🎟️</span>
           </span>
@@ -641,45 +687,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="memory" hidden>
-        <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Game trí nhớ Halloween</span></span>
-            <h3 class="cur-headline">Lật thẻ bài, tìm đủ các cặp</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Bí ngô, con ma và dơi đang trốn. Lật hai lá mỗi lượt.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Trò chơi lật hình</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="teto" hidden>
-        <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">Trắc nghiệm hot từ Hàn</span></span>
-            <h3 class="cur-headline">Bạn là Teto hay Egen?</h3>
-            <span class="cur-giant" aria-hidden="true">⚡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 tình huống đời thường, 2 phút. Xem tỷ lệ năng lượng của bạn.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test Teto hay Egen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">51 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">53 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -701,6 +715,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="percent" data-cat="create">
+        <a class="tile-link" href="https://percent.example.com/" title="Tính X% của Y, một số chiếm bao nhiêu phần trăm, phần trăm tăng giảm, giá sau giảm, tiết kiệm bao nhiêu, giá gốc và chênh lệch điểm phần trăm." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tính phần trăm</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="race" data-cat="vote">
+        <a class="tile-link" href="https://race.example.com/" title="Nhập tên, mỗi người có một con thú chạy trên làn riêng. Về nhất thắng, hoặc về chót bao cà phê. Bốc thăm ngẫu nhiên công bằng." style="--h:351;--h2:333">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Đua thú bốc thăm</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snake" data-cat="game">
         <a class="tile-link" href="https://snake.example.com/" title="Game rắn săn mồi kinh điển: vuốt hoặc dùng phím mũi tên, ăn táo để dài ra mà không đâm vào tường hay đuôi mình. Càng ăn càng nhanh." style="--h:138;--h2:164">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span>
@@ -745,14 +773,14 @@
       </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="Đếm ngược đến ngày bất kỳ, đếm số ngày bên nhau (100, 1000 ngày, kỷ niệm) hoặc cộng trừ ngày. Lưu và chia sẻ thẻ đếm trực tiếp." style="--h:112;--h2:138">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span>
           <span class="tile-name">Đếm ngược ngày</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lots" data-cat="vote">
         <a class="tile-link" href="https://lots.example.com/" title="Chuyền điện thoại, mỗi người chọn một lá thăm gấp. Trúng, trượt hay giải tự đặt, cuối cùng có bảng tổng hợp ai bốc được gì." style="--h:350;--h2:332">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span>
           <span class="tile-name">Bốc thăm</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

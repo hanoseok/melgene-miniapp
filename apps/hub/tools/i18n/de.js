@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'percent',
+        kicker: "Schnell gerechnet",
+        headline: "Wie viel sind 15 %?",
+        blurb: "Rabatt, Veränderung in % und Prozentpunkte – alles in einem.",
+      },
+      {
+        id: 'race',
+        kicker: "Wer zahlt den Kaffee?",
+        headline: "Tierrennen entscheidet",
+        blurb: "Namen eingeben, Rennen starten. Der Letzte zahlt!",
+      },
+      {
         id: 'snake',
         kicker: "Arcade-Klassiker",
         headline: "Äpfel fressen, länger werden",

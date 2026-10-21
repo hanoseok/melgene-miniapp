@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'percent',
+        kicker: "一秒算完",
+        headline: "折扣、涨跌幅马上算",
+        blurb: "占百分之几、涨了多少、百分点差都能算。",
+      },
+      {
+        id: 'race',
+        kicker: "谁请喝咖啡？",
+        headline: "让小动物赛跑决定",
+        blurb: "输入名字就开跑，最后一名请客！",
+      },
+      {
         id: 'snake',
         kicker: "经典街机",
         headline: "吃苹果，越变越长",

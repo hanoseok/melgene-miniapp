@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'percent',
+        kicker: "Quick math",
+        headline: "What’s 15% of it?",
+        blurb: "Discounts, % change and %p — six calculators in one.",
+      },
+      {
+        id: 'race',
+        kicker: "Who pays for coffee?",
+        headline: "Let the animals race",
+        blurb: "Enter names, watch the race. Last place pays!",
+      },
+      {
         id: 'snake',
         kicker: "Classic arcade",
         headline: "Eat apples, grow longer",

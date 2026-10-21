@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 51,
+  "numberOfItems": 53,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -438,6 +438,20 @@
       "url": "https://homebody.example.com/",
       "name": "Тест на домоседа",
       "description": "10 житейских ситуаций, около минуты. Насколько ты домосед, в процентах?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "url": "https://percent.example.com/",
+      "name": "Калькулятор процентов",
+      "description": "Считай X % от числа, сколько процентов одно число от другого, изменение в процентах, скидки и наценки, исходную цену и разницу в процентных пунктах."
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "url": "https://race.example.com/",
+      "name": "Гонка животных",
+      "description": "Впиши имена — у каждого свой зверёк на своей дорожке. Первый побеждает, или последний угощает кофе. Честный жребий."
     }
   ]
 }
@@ -513,6 +527,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="percent">
+        <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Считай за секунду</span></span>
+            <h3 class="cur-headline">Сколько будет 15 %?</h3>
+            <span class="cur-giant" aria-hidden="true">💯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Скидки, изменение в % и процентные пункты — всё в одном.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Калькулятор процентов</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="race">
+        <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Кто платит за кофе?</span></span>
+            <h3 class="cur-headline">Пусть решат звери-бегуны</h3>
+            <span class="cur-giant" aria-hidden="true">🏁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Введи имена и жми старт. Последний платит!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Гонка животных</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snake">
         <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
@@ -577,7 +623,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="baseball">
+      <li class="cur-item" data-id="baseball" hidden>
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Игра на логику</span></span>
@@ -593,7 +639,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="spend">
+      <li class="cur-item" data-id="spend" hidden>
         <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Тест на стиль трат</span></span>
@@ -612,7 +658,7 @@
       <li class="cur-item" data-id="dday" hidden>
         <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Сколько осталось?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span><span class="cur-kicker">Сколько осталось?</span></span>
             <h3 class="cur-headline">Обратный отсчёт до важного дня</h3>
             <span class="cur-giant" aria-hidden="true">📅</span>
           </span>
@@ -628,7 +674,7 @@
       <li class="cur-item" data-id="lots" hidden>
         <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Жеребьёвка</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span><span class="cur-kicker">Жеребьёвка</span></span>
             <h3 class="cur-headline">Каждый тянет сложенную бумажку</h3>
             <span class="cur-giant" aria-hidden="true">🎟️</span>
           </span>
@@ -641,45 +687,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="memory" hidden>
-        <a class="cur-card" href="https://memory.example.com/" style="--h:221;--h2:203">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Игра на память</span></span>
-            <h3 class="cur-headline">Открывай карточки, ищи пары</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Тыквы, привидения и мыши прячутся. Открывай по две.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Найди пару</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="teto" hidden>
-        <a class="cur-card" href="https://teto.example.com/" style="--h:348;--h2:330">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚡</span></span></span><span class="cur-kicker">Вирусный тест из Кореи</span></span>
-            <h3 class="cur-headline">Ты больше Тето или Эген?</h3>
-            <span class="cur-giant" aria-hidden="true">⚡</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 жизненных ситуаций, 2 минуты. Узнай свой баланс энергии.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Тест Тето или Эген</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 51</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 53</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -701,6 +715,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="percent" data-cat="create">
+        <a class="tile-link" href="https://percent.example.com/" title="Считай X % от числа, сколько процентов одно число от другого, изменение в процентах, скидки и наценки, исходную цену и разницу в процентных пунктах." style="--h:227;--h2:209">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Калькулятор процентов</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="race" data-cat="vote">
+        <a class="tile-link" href="https://race.example.com/" title="Впиши имена — у каждого свой зверёк на своей дорожке. Первый побеждает, или последний угощает кофе. Честный жребий." style="--h:351;--h2:333">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Гонка животных</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snake" data-cat="game">
         <a class="tile-link" href="https://snake.example.com/" title="Классическая «Змейка»: проводи пальцем или жми стрелки, ешь яблоки и расти, не врезаясь в стену и в хвост. С каждым яблоком быстрее." style="--h:138;--h2:164">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NEW</span></span>
@@ -745,14 +773,14 @@
       </li>
       <li class="tile" data-id="dday" data-cat="create">
         <a class="tile-link" href="https://dday.example.com/" title="Обратный отсчёт до любой даты, дни с начала отношений (100, 1000 дней, годовщины) или прибавить дни. Живая карточка для шаринга." style="--h:112;--h2:138">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span>
           <span class="tile-name">Обратный отсчёт</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="lots" data-cat="vote">
         <a class="tile-link" href="https://lots.example.com/" title="Передавайте телефон по кругу — каждый тянет сложенную бумажку. Выигрыш, пустышки или свои варианты и итог, кому что досталось." style="--h:350;--h2:332">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span>
           <span class="tile-name">Жеребьёвка</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
