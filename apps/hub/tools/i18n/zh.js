@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'stack',
+        kicker: "再叠一层…",
+        headline: "叠出最高的塔",
+        blurb: "点一下放下方块，对齐就是完美！",
+      },
+      {
+        id: 'color',
+        kicker: "暖皮还是冷皮？",
+        headline: "测测你的个人色彩",
+        blurb: "从肤色、饰品看出最适合你的颜色。",
+      },
+      {
         id: 'percent',
         kicker: "一秒算完",
         headline: "折扣、涨跌幅马上算",

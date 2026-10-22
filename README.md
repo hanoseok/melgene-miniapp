@@ -144,6 +144,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | homebody | apps/homebody | 집순이·집돌이 지수 테스트: 일상 상황 10문항 × 4지선다(보기 점수 0·3·7·10) → 집콕 지수 0~100% → 6단계(r/<id>.html, 단계 범위 표시, 찰떡·상극은 링크 없음), 방금 푼 사람에게만 정확한 %·"나보다 집순이·집돌이인 사람" 백분위(poll `homebody` 지수 10점 구간, 20표 이상일 때만) | `check-homebody.js` |
 | percent | apps/percent | 퍼센트 계산기(만들기): 6가지 계산(Y의 X% · X는 Y의 몇 % · 증감률 · 할인/인상(칩 10·20·30·50%, 아낀 금액) · 원래 값 역산 · %p 차이), 입력하는 대로 계산, 결과마다 계산식 한 줄·복사, 언어별 소수점, 마지막 탭만 localStorage | `check-percent.js` |
 | race | apps/race | 동물 달리기 시합(투표): 이름 2~10명·동물 레인, 1등 당첨/꼴찌가 쏘기, crypto 거부 샘플링 + Fisher–Yates 로 순위 먼저 정하고 6~9초 역전 연출, 움직임 줄이기 = 즉시 결과, 최근 10개 기록, 이름 #d= 링크(결과 없음), 카이제곱 공정성 검사 | `check-race.js` |
+| stack | apps/stack | 탑 쌓기(게임): 아이소메트릭 캔버스, 탭·클릭·스페이스로 떨어뜨리기, 삐져나온 조각은 잘려 떨어짐, 3단위 안이면 퍼펙트(크기 유지·연속 3번째부터 5씩 넓어짐), 속도 120→290, 층마다 색 변화·카메라 따라감, 탭 이탈 자동 일시정지, 최고 기록 localStorage, supa.submitScore 백분위(없으면 숨김) | `check-stack.js` |
+| color | apps/color | 퍼스널 컬러 테스트: 거울 앞 자가진단 12문항(보기 3~4개, 웜/쿨·라이트/딥·브라이트/뮤트 3축 점수) → 8종 r/*.html(전수 9,437,184가지 9.84~15.16%), 베스트 컬러 칩 8·피할 색 4·메이크업/헤어/주얼리 팁, 방금 푼 사람에게만 "내 답이 기운 쪽" 게이지, 재미용·전문 드레이핑 진단 아님, 같은 팔레트 비율은 supa.vote 20표 이상만 | `check-color.js` |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

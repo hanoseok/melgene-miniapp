@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://color.example.com/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/springlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/springbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/springbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/springbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/summerlight.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summerlight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summerlight.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/summermute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/summermute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/summermute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/autumnmute.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumnmute.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumnmute.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/autumndeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/autumndeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/autumndeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/winterbright.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterbright.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterbright.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/r/winterdeep.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/r/winterdeep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/r/winterdeep.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/de/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/th/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/es/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/it/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://color.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://color.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://color.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://color.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://color.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://color.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://color.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://color.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://color.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://color.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://color.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://color.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://color.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://color.example.com/guide.html"/>
+  </url>
+</urlset>

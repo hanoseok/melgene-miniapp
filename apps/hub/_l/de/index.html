@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 53,
+  "numberOfItems": 55,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -451,6 +451,20 @@
       "url": "https://race.example.com/",
       "name": "Tierrennen-Auslosung",
       "description": "Namen eintragen, jedes Tier bekommt eine eigene Bahn. Der Erste gewinnt – oder der Letzte zahlt den Kaffee. Fair ausgelost."
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "url": "https://stack.example.com/",
+      "name": "Turm stapeln",
+      "description": "Lass den gleitenden Block im richtigen Moment fallen und staple hoch hinaus. Überstand wird abgeschnitten, Perfekt-Serien verbreitern."
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "url": "https://color.example.com/",
+      "name": "Farbtyp-Test",
+      "description": "12 Fragen vor dem Spiegel, etwa 2 Minuten. Warm oder kühl? Finde deine Farbpalette."
     }
   ]
 }
@@ -526,6 +540,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="stack">
+        <a class="cur-card" href="https://stack.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Nur noch ein Block…</span></span>
+            <h3 class="cur-headline">Stapel den Turm hoch</h3>
+            <span class="cur-giant" aria-hidden="true">🏗️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Tippen zum Fallenlassen. Perfekt ausrichten!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Turm stapeln</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="color">
+        <a class="cur-card" href="https://color.example.com/" style="--h:181;--h2:163">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Gold oder Silber?</span></span>
+            <h3 class="cur-headline">Finde deinen Farbtyp</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Kurzer Selbsttest zu Unterton und passenden Farben.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Farbtyp-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="percent">
         <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
@@ -590,7 +636,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="age">
+      <li class="cur-item" data-id="age" hidden>
         <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Geburtstags-Rechner</span></span>
@@ -606,7 +652,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bottle">
+      <li class="cur-item" data-id="bottle" hidden>
         <a class="cur-card" href="https://bottle.example.com/" style="--h:338;--h2:320">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Handy in die Tischmitte</span></span>
@@ -625,7 +671,7 @@
       <li class="cur-item" data-id="baseball" hidden>
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Zahlenrätsel</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span></span><span class="cur-kicker">Zahlenrätsel</span></span>
             <h3 class="cur-headline">Knacke die Geheimzahl</h3>
             <span class="cur-giant" aria-hidden="true">⚾</span>
           </span>
@@ -641,7 +687,7 @@
       <li class="cur-item" data-id="spend" hidden>
         <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Geld-Typ-Test</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span><span class="cur-kicker">Geld-Typ-Test</span></span>
             <h3 class="cur-headline">Was für ein Geldtyp bist du?</h3>
             <span class="cur-giant" aria-hidden="true">💸</span>
           </span>
@@ -654,45 +700,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dday" hidden>
-        <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span><span class="cur-kicker">Tage zählen</span></span>
-            <h3 class="cur-headline">Wie viele Tage noch bis…?</h3>
-            <span class="cur-giant" aria-hidden="true">📅</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Countdown, Tage seit und Tag 100 – als Karte zum Teilen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Countdown Rechner</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lots" hidden>
-        <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span><span class="cur-kicker">Losziehen</span></span>
-            <h3 class="cur-headline">Jeder zieht einen gefalteten Zettel</h3>
-            <span class="cur-giant" aria-hidden="true">🎟️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Gewinne, Nieten oder eigene Lose, fair gemischt.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Losziehen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">53 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">55 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -714,6 +728,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="stack" data-cat="game">
+        <a class="tile-link" href="https://stack.example.com/" title="Lass den gleitenden Block im richtigen Moment fallen und staple hoch hinaus. Überstand wird abgeschnitten, Perfekt-Serien verbreitern." style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Turm stapeln</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="color" data-cat="test">
+        <a class="tile-link" href="https://color.example.com/" title="12 Fragen vor dem Spiegel, etwa 2 Minuten. Warm oder kühl? Finde deine Farbpalette." style="--h:181;--h2:163">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Farbtyp-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="percent" data-cat="create">
         <a class="tile-link" href="https://percent.example.com/" title="Prozentrechner für X % von Y, Prozentanteil, prozentuale Veränderung, Rabatt und Aufschlag, Grundwert zurückrechnen und Prozentpunkte – mit Rechenweg." style="--h:227;--h2:209">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEU</span></span>
@@ -758,14 +786,14 @@
       </li>
       <li class="tile" data-id="baseball" data-cat="game">
         <a class="tile-link" href="https://baseball.example.com/" title="Errate die geheime 3- oder 4-stellige Zahl mit Treffer-Hinweisen. Je weniger Versuche, desto besser – mit echtem Rang." style="--h:74;--h2:56">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span></span>
           <span class="tile-name">Zahlenraten – Bulls and Cows</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="spend" data-cat="test">
         <a class="tile-link" href="https://spend.example.com/" title="Sparer, Genießer oder Spontankäufer? 12 Alltagssituationen rund ums Geld, 2 Minuten. Finde deinen Ausgabestil heraus, nur zum Spaß." style="--h:230;--h2:212">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span>
           <span class="tile-name">Geld-Typ-Test</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

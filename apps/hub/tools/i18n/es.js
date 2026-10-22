@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'stack',
+        kicker: "Un bloque más…",
+        headline: "Apila hasta el cielo",
+        blurb: "Toca para soltar. Alinea perfecto y sigue subiendo.",
+      },
+      {
+        id: 'color',
+        kicker: "¿Oro o plata?",
+        headline: "Descubre tu estación",
+        blurb: "Un autotest rápido de tu subtono y tus colores.",
+      },
+      {
         id: 'percent',
         kicker: "Cálculo al instante",
         headline: "¿Cuánto es el 15 %?",

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'stack',
+        kicker: "Encore un bloc…",
+        headline: "Empile jusqu’au ciel",
+        blurb: "Touche pour lâcher. Aligne parfaitement et monte.",
+      },
+      {
+        id: 'color',
+        kicker: "Or ou argent ?",
+        headline: "Trouve ta saison",
+        blurb: "Un autotest rapide de ton sous-ton et de tes couleurs.",
+      },
+      {
         id: 'percent',
         kicker: "Calcul express",
         headline: "Combien font 15 % ?",

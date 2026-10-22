@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'stack',
+        kicker: "One more block…",
+        headline: "Stack it sky-high",
+        blurb: "Tap to drop. Line it up perfectly and keep climbing.",
+      },
+      {
+        id: 'color',
+        kicker: "Gold or silver?",
+        headline: "Find your color season",
+        blurb: "A quick self-check of your undertone and best shades.",
+      },
+      {
         id: 'percent',
         kicker: "Quick math",
         headline: "What’s 15% of it?",

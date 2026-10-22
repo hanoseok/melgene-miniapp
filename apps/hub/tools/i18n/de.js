@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'stack',
+        kicker: "Nur noch ein Block…",
+        headline: "Stapel den Turm hoch",
+        blurb: "Tippen zum Fallenlassen. Perfekt ausrichten!",
+      },
+      {
+        id: 'color',
+        kicker: "Gold oder Silber?",
+        headline: "Finde deinen Farbtyp",
+        blurb: "Kurzer Selbsttest zu Unterton und passenden Farben.",
+      },
+      {
         id: 'percent',
         kicker: "Schnell gerechnet",
         headline: "Wie viel sind 15 %?",

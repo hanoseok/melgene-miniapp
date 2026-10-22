@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'stack',
+        kicker: "한 층만 더…",
+        headline: "끝없이 탑 쌓기",
+        blurb: "탭해서 떨어뜨리기. 딱 맞추면 퍼펙트!",
+      },
+      {
+        id: 'color',
+        kicker: "웜톤? 쿨톤?",
+        headline: "나의 퍼스널 컬러는",
+        blurb: "손목·피부·액세서리로 알아보는 셀프 진단.",
+      },
+      {
         id: 'percent',
         kicker: "계산 1초 끝",
         headline: "할인가·증감률 바로 계산",

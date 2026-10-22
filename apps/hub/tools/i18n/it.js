@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'stack',
+        kicker: "Ancora un blocco…",
+        headline: "Impila fino al cielo",
+        blurb: "Tocca per far cadere. Allinea alla perfezione!",
+      },
+      {
+        id: 'color',
+        kicker: "Oro o argento?",
+        headline: "Scopri la tua stagione",
+        blurb: "Un autotest veloce del sottotono e dei tuoi colori.",
+      },
+      {
         id: 'percent',
         kicker: "Calcolo al volo",
         headline: "Quanto fa il 15%?",

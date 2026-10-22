@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'stack',
+        kicker: "あと1段だけ…",
+        headline: "タワーを高く積もう",
+        blurb: "タップで落とすだけ。ぴったり重ねてパーフェクト！",
+      },
+      {
+        id: 'color',
+        kicker: "イエベ？ブルベ？",
+        headline: "パーソナルカラー診断",
+        blurb: "肌や似合うアクセで分かるセルフチェック。",
+      },
+      {
         id: 'percent',
         kicker: "計算が一瞬",
         headline: "割引も増減率もすぐ計算",

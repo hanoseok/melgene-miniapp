@@ -1,0 +1,218 @@
+/* apps/stack/style.css — 탑 쌓기: 해 질 녘 남보라 하늘 + 파스텔 블록 + 복숭아·민트 포인트, 둥근 글꼴.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --sky-0: #120c2e;
+  --sky-1: #22195a;
+  --sky-2: #4a338f;
+  --peach: #ffb38a;
+  --peach-2: #ff8f6b;
+  --mint: #7ef0c8;
+  --mint-2: #3fcf9f;
+  --sun: #ffd36b;
+  --ink: #fff8f0;
+  --ink-dim: rgba(255, 248, 240, 0.8);
+  --ink-faint: rgba(255, 248, 240, 0.52);
+  --dark: #1b1240;
+  --card: rgba(255, 255, 255, 0.08);
+  --line: rgba(126, 240, 200, 0.35);
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--mint);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(255, 248, 240, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(126, 240, 200, 0.4);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd36b;
+  --mg-star-off: rgba(255, 248, 240, 0.2);
+  --mg-heart-bg: rgba(255, 143, 107, 0.12);
+  --mg-heart-border: rgba(255, 143, 107, 0.5);
+  --mg-heart-fg: var(--peach);
+  --mg-heart-on: var(--peach-2);
+  --mg-share-bg: rgba(255, 248, 240, 0.06);
+  --mg-share-border: rgba(255, 248, 240, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 248, 240, 0.05);
+  --mg-faq-border: rgba(126, 240, 200, 0.24);
+  --mg-end-retry-bg: var(--mint);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(34, 25, 90, 0.97);
+}
+
+html { background: var(--sky-0); }
+body.st-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 120% 60% at 50% -12%, var(--sky-2), var(--sky-1) 48%, var(--sky-0) 82%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.st-h1, .st-kicker, .st-h1-main, .st-h1-main em, .st-badge, .st-btn, .st-how-txt, .st-facts,
+.st-hud-label, .st-hud-val, .st-hint, .st-paused-title,
+.st-eyebrow, .st-score-big, .st-points, .st-newbest, .st-best, .st-stat dt, .st-stat dd, .st-top, .st-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.st-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.st-screen { padding-top: 12px; }
+
+.st-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.st-btn-primary { background: var(--mint); color: var(--dark); box-shadow: 0 5px 0 var(--mint-2), 0 10px 26px rgba(126, 240, 200, 0.25); }
+.st-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--mint-2); }
+.st-field:focus-visible { outline: none; border-color: rgba(255, 179, 138, 0.8); }
+.st-btn:focus-visible, .st-pause:focus-visible { outline: 3px solid var(--peach); outline-offset: 3px; }
+.st-btn-sm { width: auto; min-height: 50px; padding: 10px 28px; font-size: 18px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.st-start { text-align: center; padding-top: 14px; }
+.st-badge {
+  display: inline-block; margin: 0 0 10px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 179, 138, 0.16); color: var(--peach);
+  border: 1.5px solid rgba(255, 179, 138, 0.5);
+  font-size: 13px; line-height: 1.35;
+}
+.st-hero { position: relative; margin: 0 auto 4px; max-width: 190px; }
+.st-hero-tower { display: block; width: 100%; height: auto; filter: drop-shadow(0 8px 18px rgba(126, 240, 200, 0.25)); }
+.st-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.st-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--sun); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.st-h1-main { display: block; font-size: 34px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); }
+.st-h1-main em { font-style: normal; color: var(--mint); }
+.st-hook { margin: 0 auto 16px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.st-how {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin: 0 0 18px; padding: 0; list-style: none;
+}
+.st-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px;
+  background: var(--card); border: 1.5px solid rgba(255, 248, 240, 0.12);
+}
+.st-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.st-how-txt { font-size: 13.5px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.st-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.st-play { padding-top: 6px; }
+.st-hud {
+  display: grid; grid-template-columns: 1.2fr 1fr auto; gap: 6px; align-items: stretch;
+  margin: 0 auto 8px; max-width: 448px;
+}
+.st-hud-box {
+  position: relative; display: flex; flex-direction: column; justify-content: center; min-width: 0;
+  padding: 4px 10px 5px; border-radius: 12px; background: rgba(255, 255, 255, 0.08); border: 1.5px solid rgba(255, 248, 240, 0.12);
+}
+.st-hud-label { font-size: 11px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.st-hud-val { font-size: 22px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.st-hud-score .st-hud-val { color: var(--mint); }
+.st-pause {
+  display: grid; place-items: center; width: 44px; min-height: 44px; padding: 0;
+  border-radius: 12px; border: 1.5px solid rgba(255, 248, 240, 0.2); background: rgba(255, 255, 255, 0.08); cursor: pointer;
+}
+.st-pause span { display: block; width: 14px; height: 16px; border-left: 5px solid var(--ink); border-right: 5px solid var(--ink); }
+
+.st-field {
+  position: relative; margin: 0 auto; max-width: 448px; height: 440px;
+  border-radius: 18px; overflow: hidden; outline: none; cursor: pointer;
+  touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  border: 3px solid rgba(126, 240, 200, 0.4);
+  background: #c9bdf0;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+.st-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.st-hint {
+  position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%);
+  max-width: calc(100% - 32px); margin: 0; padding: 6px 16px; border-radius: 999px;
+  background: rgba(27, 18, 64, 0.72); color: var(--ink); font-size: 16px; line-height: 1.35; text-align: center;
+  pointer-events: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.st-overlay {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  text-align: center; padding: 16px;
+}
+.st-paused { background: rgba(18, 12, 46, 0.74); cursor: default; }
+.st-paused-title { margin: 0; font-size: 34px; line-height: 1.2; color: var(--ink); }
+
+/* ---------------- 끝 화면: 점수 카드 ---------------- */
+.st-end { padding-top: 10px; }
+.st-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(74, 51, 143, 0.9), rgba(34, 25, 90, 0.95));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.st-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--peach); color: var(--dark); font-size: 16px; line-height: 1.35;
+}
+.st-score-line { margin: 4px 0 0; line-height: 1; }
+.st-score-big { font-size: 68px; line-height: 1.05; color: var(--mint); font-variant-numeric: tabular-nums; text-shadow: 0 4px 0 var(--dark); }
+.st-points { font-size: 20px; color: var(--ink-dim); }
+.st-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--sun); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.st-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.st-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.st-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(255, 248, 240, 0.12); }
+.st-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.st-stat dd { margin: 2px 0 0; font-size: 26px; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
+.st-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(126, 240, 200, 0.08); border: 1.5px dashed rgba(126, 240, 200, 0.4); }
+.st-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.st-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--mint); }
+.st-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.st-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .st-h1-main, html:lang(th) .st-kicker, html:lang(th) .st-how-txt, html:lang(th) .st-btn, html:lang(th) .st-hook, html:lang(th) .st-hint { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .st-hud-label, html:lang(th) .st-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .st-h1-main, html:lang(vi) .st-kicker { line-height: 1.3; }
+html:lang(ja) .st-h1-main, html:lang(zh) .st-h1-main, html:lang(ko) .st-h1-main { font-size: 32px; line-height: 1.25; }
+html:lang(ja) .st-how-txt, html:lang(zh) .st-how-txt, html:lang(ko) .st-how-txt { font-size: 13px; }
+html:lang(ru) .st-h1-main, html:lang(vi) .st-h1-main { font-size: 31px; }
+html:lang(ru) .st-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.st-doc { padding: 16px 0 8px; }
+.st-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.st-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--mint); }
+.st-doc p { color: var(--ink-dim); font-size: 15px; }
+.st-doc a, .site-footer a { color: var(--peach); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .st-btn { transition: none; }
+}
+@media (max-width: 359px) {
+  .st-h1-main { font-size: 29px; }
+  .st-hud-val { font-size: 19px; }
+}

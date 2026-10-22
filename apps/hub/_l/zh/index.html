@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 53,
+  "numberOfItems": 55,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -451,6 +451,20 @@
       "url": "https://race.example.com/",
       "name": "动物赛跑抽签",
       "description": "输入名字，每人一只小动物各占一条跑道。第一名胜出，或者最后一名请喝咖啡。名次由公平随机决定。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "url": "https://stack.example.com/",
+      "name": "叠叠高",
+      "description": "点击放下来回移动的方块，把塔叠得越高越好。多出来的部分会被切掉，连续完美对齐还能让方块变宽。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "url": "https://color.example.com/",
+      "name": "个人色彩测试",
+      "description": "对着镜子回答12个问题，2分钟测出你是暖皮还是冷皮，找到适合你的色彩。"
     }
   ]
 }
@@ -526,6 +540,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="stack">
+        <a class="cur-card" href="https://stack.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">再叠一层…</span></span>
+            <h3 class="cur-headline">叠出最高的塔</h3>
+            <span class="cur-giant" aria-hidden="true">🏗️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">点一下放下方块，对齐就是完美！</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">叠叠高</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="color">
+        <a class="cur-card" href="https://color.example.com/" style="--h:181;--h2:163">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">暖皮还是冷皮？</span></span>
+            <h3 class="cur-headline">测测你的个人色彩</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">从肤色、饰品看出最适合你的颜色。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">个人色彩测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="percent">
         <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
@@ -590,7 +636,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="age">
+      <li class="cur-item" data-id="age" hidden>
         <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">离生日还有几天？</span></span>
@@ -606,7 +652,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bottle">
+      <li class="cur-item" data-id="bottle" hidden>
         <a class="cur-card" href="https://bottle.example.com/" style="--h:338;--h2:320">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">手机放桌子中间</span></span>
@@ -625,7 +671,7 @@
       <li class="cur-item" data-id="baseball" hidden>
         <a class="cur-card" href="https://baseball.example.com/" style="--h:74;--h2:56">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">猜数字游戏</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span></span><span class="cur-kicker">猜数字游戏</span></span>
             <h3 class="cur-headline">猜出秘密数字</h3>
             <span class="cur-giant" aria-hidden="true">⚾</span>
           </span>
@@ -641,7 +687,7 @@
       <li class="cur-item" data-id="spend" hidden>
         <a class="cur-card" href="https://spend.example.com/" style="--h:230;--h2:212">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">花钱风格测试</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span><span class="cur-kicker">花钱风格测试</span></span>
             <h3 class="cur-headline">你是哪种消费类型？</h3>
             <span class="cur-giant" aria-hidden="true">💸</span>
           </span>
@@ -654,45 +700,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="dday" hidden>
-        <a class="cur-card" href="https://dday.example.com/" style="--h:112;--h2:138">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">📅</span></span></span><span class="cur-kicker">数日子</span></span>
-            <h3 class="cur-headline">离那天还有几天？</h3>
-            <span class="cur-giant" aria-hidden="true">📅</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">倒计时、在一起第几天、100天，做成卡片分享。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">倒数日计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="lots" hidden>
-        <a class="cur-card" href="https://lots.example.com/" style="--h:350;--h2:332">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎟️</span></span></span><span class="cur-kicker">传手机抽签</span></span>
-            <h3 class="cur-headline">折好的纸签，一人抽一张</h3>
-            <span class="cur-giant" aria-hidden="true">🎟️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">中签空签、惩罚请客都能写，公平洗牌。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">抽签</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">53个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">55个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -714,6 +728,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="stack" data-cat="game">
+        <a class="tile-link" href="https://stack.example.com/" title="点击放下来回移动的方块，把塔叠得越高越好。多出来的部分会被切掉，连续完美对齐还能让方块变宽。" style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">叠叠高</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="color" data-cat="test">
+        <a class="tile-link" href="https://color.example.com/" title="对着镜子回答12个问题，2分钟测出你是暖皮还是冷皮，找到适合你的色彩。" style="--h:181;--h2:163">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">个人色彩测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="percent" data-cat="create">
         <a class="tile-link" href="https://percent.example.com/" title="算出某数的百分之几、占比多少、增长率与下降率、打折价与省下的钱、原价反推、百分点差，边输入边出结果并显示算式。" style="--h:227;--h2:209">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span>
@@ -758,14 +786,14 @@
       </li>
       <li class="tile" data-id="baseball" data-cat="game">
         <a class="tile-link" href="https://baseball.example.com/" title="根据位置对、数字对的提示，猜出电脑设定的 3 位或 4 位数字。次数越少越好，还能看真实排名。" style="--h:74;--h2:56">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚾</span></span></span>
           <span class="tile-name">猜数字</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="spend" data-cat="test">
         <a class="tile-link" href="https://spend.example.com/" title="是会攒钱的，还是爱犒劳自己的？12个日常花钱场景，约2分钟，测出你的花钱类型，轻松好玩。" style="--h:230;--h2:212">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span>
           <span class="tile-name">消费性格测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'stack',
+        kicker: "Thêm một tầng nữa…",
+        headline: "Xếp tháp thật cao",
+        blurb: "Chạm để thả khối. Khớp chuẩn là Perfect!",
+      },
+      {
+        id: 'color',
+        kicker: "Tông ấm hay lạnh?",
+        headline: "Tìm màu cá nhân",
+        blurb: "Tự kiểm tra undertone và màu hợp với bạn.",
+      },
+      {
         id: 'percent',
         kicker: "Tính nhanh",
         headline: "15% là bao nhiêu?",
