@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'bmi',
+        kicker: "Taille + poids",
+        headline: "Quel est votre IMC ?",
+        blurb: "Votre place sur l’échelle et votre poids santé.",
+      },
+      {
+        id: 'bomb',
+        kicker: "Passe le téléphone !",
+        headline: "Ne te fais pas avoir",
+        blurb: "Touche la bombe et passe-la. Personne ne sait quand ça fait boum.",
+      },
+      {
         id: 'stack',
         kicker: "Encore un bloc…",
         headline: "Empile jusqu’au ciel",

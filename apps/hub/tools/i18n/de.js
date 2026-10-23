@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'bmi',
+        kicker: "Größe + Gewicht",
+        headline: "Wie hoch ist Ihr BMI?",
+        blurb: "Ihre Einstufung und Ihr Normalgewicht auf einen Blick.",
+      },
+      {
+        id: 'bomb',
+        kicker: "Handy weitergeben!",
+        headline: "Bloß nicht erwischt werden",
+        blurb: "Bombe antippen, weiterreichen. Keiner weiß, wann es knallt.",
+      },
+      {
         id: 'stack',
         kicker: "Nur noch ein Block…",
         headline: "Stapel den Turm hoch",

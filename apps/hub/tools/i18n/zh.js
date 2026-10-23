@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'bmi',
+        kicker: "只要身高体重",
+        headline: "你的BMI是多少？",
+        blurb: "马上看胖瘦等级和健康体重范围。",
+      },
+      {
+        id: 'bomb',
+        kicker: "快传出去！",
+        headline: "别在你手里爆炸",
+        blurb: "点炸弹、传手机，谁也不知道什么时候轰。",
+      },
+      {
         id: 'stack',
         kicker: "再叠一层…",
         headline: "叠出最高的塔",

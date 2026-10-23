@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'bmi',
+        kicker: "身長と体重だけ",
+        headline: "あなたのBMIは？",
+        blurb: "肥満度と普通体重の範囲がすぐわかる。",
+      },
+      {
+        id: 'bomb',
+        kicker: "スマホを回せ！",
+        headline: "自分の番で爆発するな",
+        blurb: "タップして次の人へ。いつ爆発するかは誰も知らない。",
+      },
+      {
         id: 'stack',
         kicker: "あと1段だけ…",
         headline: "タワーを高く積もう",

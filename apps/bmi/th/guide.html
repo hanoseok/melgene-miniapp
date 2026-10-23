@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>คำนวณ BMI: สูตร เกณฑ์อ้วนผอม และข้อจำกัด</title>
+<meta name="description" content="วิธีคำนวณ BMI ทั้งแบบกิโลกรัมและปอนด์ เกณฑ์ WHO กับเกณฑ์เอเชียต่างกันอย่างไร ทำไมคนกล้ามเยอะได้ BMI สูง และวิธีวัดรอบเอวกับอัตราส่วนเอวต่อส่วนสูง">
+<link rel="canonical" href="https://bmi.example.com/th/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://bmi.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://bmi.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://bmi.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://bmi.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://bmi.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://bmi.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://bmi.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://bmi.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://bmi.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://bmi.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://bmi.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://bmi.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://bmi.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="คำนวณ BMI: สูตร เกณฑ์อ้วนผอม และข้อจำกัด">
+<meta property="og:description" content="วิธีคำนวณ BMI ทั้งแบบกิโลกรัมและปอนด์ เกณฑ์ WHO กับเกณฑ์เอเชียต่างกันอย่างไร ทำไมคนกล้ามเยอะได้ BMI สูง และวิธีวัดรอบเอวกับอัตราส่วนเอวต่อส่วนสูง">
+<meta property="og:image" content="https://bmi.example.com/og/th/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://bmi.example.com/th/guide.html">
+<meta property="og:locale" content="th_TH">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-24">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bmi.example.com/th/guide.html#article","headline":"คำนวณ BMI: ดัชนีมวลกายคืออะไร และอ่านผลอย่างไร","description":"วิธีคำนวณ BMI ทั้งแบบกิโลกรัมและปอนด์ เกณฑ์ WHO กับเกณฑ์เอเชียต่างกันอย่างไร ทำไมคนกล้ามเยอะได้ BMI สูง และวิธีวัดรอบเอวกับอัตราส่วนเอวต่อส่วนสูง","inLanguage":"th","datePublished":"2026-10-24","dateModified":"2026-10-24","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"mainEntityOfPage":"https://bmi.example.com/th/guide.html","url":"https://bmi.example.com/th/guide.html","about":{"@type":"WebApplication","name":"คำนวณ BMI","url":"https://bmi.example.com/th/"},"image":"https://bmi.example.com/og/th/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/th/"},{"@type":"ListItem","position":2,"name":"คำนวณ BMI","item":"https://bmi.example.com/th/"},{"@type":"ListItem","position":3,"name":"คำนวณ BMI: ดัชนีมวลกายคืออะไร และอ่านผลอย่างไร","item":"https://bmi.example.com/th/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/th/" aria-label="กลับหน้าแรก Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">คำนวณ BMI</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="เลือกภาษา"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th" selected>ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="เลือกภาษา"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="../vi/guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/th/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">คำนวณ BMI</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">⚖️</span>คำนวณ BMI</p>
+    <h1>คำนวณ BMI: ดัชนีมวลกายคืออะไร และอ่านผลอย่างไร</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-24">อัปเดต 24 ตุลาคม 2569</time></p>
+    <p class="mg-art-intro">ดัชนีมวลกาย หรือ BMI เป็นตัวเลขที่แพทย์ ประกันสุขภาพ และแอปออกกำลังกายใช้บ่อยที่สุดในการแบ่งผู้ใหญ่ออกเป็นผอม ปกติ ท้วม และอ้วน ใช้แค่ส่วนสูงกับน้ำหนักจึงคำนวณได้เร็ว แต่ก็หยาบพอสมควร บทความนี้อธิบายวิธีใช้เครื่องคำนวณ สูตรที่อยู่เบื้องหลัง ความหมายของแต่ละระดับ กรณีที่ BMI มักผิดพลาด และการวัดง่าย ๆ ที่ช่วยให้เห็นภาพชัดขึ้น</p>
+    <section>
+      <h2>วิธีใช้เครื่องคำนวณ BMI</h2>
+      <p>เลือกหน่วย (เซนติเมตรกับกิโลกรัม หรือฟุต นิ้ว และปอนด์) แล้วใส่ส่วนสูงและน้ำหนัก พอกรอกครบทั้งสองช่อง ค่า BMI จะขึ้นทันทีเป็นทศนิยมหนึ่งตำแหน่ง พร้อมตัวชี้บนแถบสีและชื่อระดับ ด้านล่างจะเห็นช่วงน้ำหนักที่เหมาะกับส่วนสูงของคุณ และถ้าอยู่นอกช่วง ก็จะบอกว่าห่างอยู่ประมาณเท่าไร</p>
+      <p>อายุและเพศไม่ต้องใส่ก็ได้ เพราะไม่ได้เปลี่ยนตัวเลข แค่เพิ่มคำอธิบายเมื่อจำเป็น เช่น เครื่องคำนวณนี้สำหรับผู้ใหญ่ หรือหลังอายุ 65 ปี BMI สูงขึ้นเล็กน้อยมักยังไม่เป็นไร สวิตช์ “เกณฑ์เอเชีย” จะใช้เกณฑ์ที่ต่ำกว่าซึ่งไทยใช้อยู่ ทุกอย่างคำนวณในเบราว์เซอร์ ไม่มีการส่งหรือบันทึกค่าที่พิมพ์</p>
+      <ul>
+        <li>ทศนิยมใช้จุดหรือจุลภาคก็ได้ 70.5 กับ 70,5 เท่ากัน</li>
+        <li>เมื่อเปลี่ยนหน่วย ค่าที่กรอกไว้แล้วจะถูกแปลงให้อัตโนมัติ</li>
+        <li>การ์ดสรุปรวม BMI ระดับ และช่วงน้ำหนักที่เหมาะสมไว้ในที่เดียว</li>
+      </ul>
+    </section>
+    <section>
+      <h2>สูตร BMI ทีละขั้น</h2>
+      <p>BMI คือน้ำหนักเป็นกิโลกรัม หารด้วยส่วนสูงเป็นเมตรยกกำลังสอง ถ้าสูง 170 ซม. หนัก 65 กก. ก็คิด 1.7 × 1.7 = 2.89 แล้ว 65 ÷ 2.89 ≈ 22.5 เพราะส่วนสูงถูกยกกำลังสอง ไม่กี่เซนติเมตรก็ต่างกันมาก น้ำหนัก 65 กก. เท่าเดิม ถ้าสูง 165 ซม. จะได้ราว 23.9 และถ้าสูง 175 ซม. จะได้ราว 21.2</p>
+      <p>ถ้าใช้หน่วยอเมริกัน สูตรคือ 703 × น้ำหนักเป็นปอนด์ ÷ ส่วนสูงเป็นนิ้วยกกำลังสอง ตัวเลข 703 มีไว้แปลงปอนด์และนิ้วเป็นกิโลกรัมและเมตรเท่านั้น เครื่องคำนวณใช้ค่าแปลงที่แม่นยำ คือ 1 นิ้ว = 2.54 ซม. และ 1 ปอนด์ = 0.45359237 กก.</p>
+      <ul>
+        <li>หน่วยเมตริก: BMI = กก. ÷ (ม. × ม.)</li>
+        <li>หน่วยอเมริกัน: BMI = 703 × ปอนด์ ÷ (นิ้ว × นิ้ว)</li>
+        <li>น้ำหนักปกติ = 18.5 × ม.² ถึง 22.9 × ม.² (เกณฑ์เอเชีย)</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>แต่ละระดับหมายถึงอะไร</h2>
+      <p>WHO แบ่ง BMI ผู้ใหญ่เป็น น้ำหนักน้อย (ต่ำกว่า 18.5) ปกติ (18.5–24.9) น้ำหนักเกิน (25–29.9) และอ้วน (30 ขึ้นไป) ซึ่งแบ่งย่อยเป็นระดับ 1 ถึง 3 ใช้เกณฑ์เดียวกันทั้งหญิงและชาย เส้นแบ่งเหล่านี้มาจากการศึกษาคนจำนวนมาก ซึ่งพบว่ายิ่ง BMI ห่างจากช่วงกลาง ความเสี่ยงเบาหวานชนิดที่ 2 ความดันสูง และโรคหัวใจก็ยิ่งเพิ่มขึ้น</p>
+      <p>งานวิจัยในเอเชียพบว่าคนเอเชียจำนวนมากเริ่มมีความเสี่ยงเหล่านี้ตั้งแต่ BMI ที่ต่ำกว่า ส่วนหนึ่งเพราะที่น้ำหนักเท่ากันมักมีไขมันมากกว่า โดยเฉพาะไขมันหน้าท้อง WHO เอเชีย-แปซิฟิกจึงกำหนดให้ 18.5–22.9 ปกติ 23–24.9 ท้วม 25–29.9 อ้วนระดับ 1 และ 30 ขึ้นไปอ้วนระดับ 2 ซึ่งเป็นเกณฑ์ที่ไทยใช้ ส่วนญี่ปุ่นนับอ้วนตั้งแต่ 25 และจีนนับน้ำหนักเกินตั้งแต่ 24</p>
+      <ul>
+        <li>ต่ำกว่า 18.5: ผอมในทุกเกณฑ์</li>
+        <li>18.5–22.9: ปกติตามเกณฑ์เอเชีย</li>
+        <li>23–24.9: ท้วมตามเกณฑ์เอเชีย แต่ยังปกติตามเกณฑ์ WHO</li>
+      </ul>
+    </section>
+    <section>
+      <h2>สิ่งที่ BMI บอกไม่ได้</h2>
+      <p>BMI ดูแค่น้ำหนักรวม จึงแยกกล้ามเนื้อกับไขมันไม่ได้ และไม่รู้ว่าไขมันอยู่ตรงไหน นักรักบี้หรือคนเล่นเวทอาจถูกจัดว่าท้วมหรืออ้วนทั้งที่หุ่นลีน ส่วนผู้สูงอายุที่กล้ามเนื้อลดลงอาจมี BMI ปกติแต่ไขมันเยอะเกินไป สองคนที่ BMI เท่ากันจึงอาจสุขภาพต่างกันมาก</p>
+      <p>BMI ยังไม่เหมาะกับทุกคน เด็กและวัยรุ่นต้องประเมินด้วยกราฟการเจริญเติบโตตามอายุและเพศ น้ำหนักที่เพิ่มระหว่างตั้งครรภ์ก็มีเกณฑ์เฉพาะ ผู้ใหญ่ที่สูงหรือเตี้ยมาก และคนที่มีภาวะบวมน้ำก็อาจได้ผลคลาดเคลื่อน ให้มอง BMI เป็นตัวเลขคัดกรองแรก ไม่ใช่คำตัดสินเรื่องสุขภาพ</p>
+    </section>
+    <section>
+      <h2>รอบเอวและอัตราส่วนเอวต่อส่วนสูง</h2>
+      <p>ไขมันที่สะสมรอบพุงเกี่ยวกับโรคหัวใจและโรคเมตาบอลิกมากกว่าไขมันส่วนอื่น และ BMI มองไม่เห็นส่วนนี้ ใช้สายวัดเส้นเดียวก็ตรวจได้ วัดตรงกึ่งกลางระหว่างซี่โครงล่างสุดกับขอบบนของสะโพก หลังหายใจออกตามปกติ เกณฑ์ที่ใช้กันในไทยคือ รอบเอวไม่ควรเกินส่วนสูงหารสอง</p>
+      <p>อัตราส่วนเอวต่อส่วนสูงที่ต่ำกว่า 0.5 หรือรอบเอวน้อยกว่าครึ่งหนึ่งของส่วนสูง ถือว่ามีความเสี่ยงต่ำกว่า เครื่องชั่งวัดองค์ประกอบร่างกายและการตรวจด้วยภาพช่วยประเมินไขมันได้ตรงกว่า แม้เครื่องใช้ในบ้านจะคลาดเคลื่อนได้บ่อย ถ้า BMI กับรอบเอวบอกไม่ตรงกัน ควรปรึกษาแพทย์แทนการเชื่อตัวเลขใดตัวเลขหนึ่ง</p>
+      <ul>
+        <li>รอบเอว ÷ ส่วนสูง ต่ำกว่า 0.5: ความเสี่ยงมักต่ำกว่า</li>
+        <li>วัดตอนเช้า ในท่ายืน หลังหายใจออก</li>
+        <li>ใช้สายวัดเส้นเดิมและวัดตำแหน่งเดิมทุกครั้ง</li>
+      </ul>
+    </section>
+    <section>
+      <h2>เคล็ดลับการอ่านและติดตามผล</h2>
+      <p>ชั่งน้ำหนักเวลาเดิม โดยเฉพาะตอนเช้า เพราะน้ำหนักเช้ากับเย็นอาจต่างกันได้เกินหนึ่งกิโล ดูแนวโน้มหลายสัปดาห์แทนตัวเลขครั้งเดียว และจำไว้ว่าช่วงน้ำหนักปกติกว้างหลายกิโลก็มีเหตุผล เพราะไม่มีน้ำหนักที่สมบูรณ์แบบเพียงค่าเดียว ถ้าอยากเปลี่ยนน้ำหนัก การปรับการนอน การขยับตัว และอาหารทีละน้อยอย่างสม่ำเสมอ ทำได้นานกว่าการอดอาหารหนัก ๆ</p>
+      <ul>
+        <li>วัดส่วนสูงตอนถอดรองเท้า และชั่งน้ำหนักในชุดเบา ๆ</li>
+        <li>ดูรอบเอวควบคู่กับ BMI</li>
+        <li>ถ้ามีโรคประจำตัว ปรึกษาแพทย์ก่อนเปลี่ยนแปลงครั้งใหญ่</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">⚖️</span>คำนวณ BMI ตอนนี้</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">คำนวณ BMI</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

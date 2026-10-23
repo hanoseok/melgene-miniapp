@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'bmi',
+        kicker: "Altezza + peso",
+        headline: "Qual è il tuo BMI?",
+        blurb: "Scopri la tua categoria e il tuo peso forma.",
+      },
+      {
+        id: 'bomb',
+        kicker: "Passa il telefono!",
+        headline: "Non farti beccare",
+        blurb: "Tocca la bomba e passala. Nessuno sa quando scoppia.",
+      },
+      {
         id: 'stack',
         kicker: "Ancora un blocco…",
         headline: "Impila fino al cielo",

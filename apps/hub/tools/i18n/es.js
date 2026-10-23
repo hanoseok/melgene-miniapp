@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'bmi',
+        kicker: "Estatura + peso",
+        headline: "¿Cuál es tu IMC?",
+        blurb: "Mira tu categoría y tu peso saludable al instante.",
+      },
+      {
+        id: 'bomb',
+        kicker: "¡Pasa el móvil!",
+        headline: "Que no te explote a ti",
+        blurb: "Toca la bomba y pásala. Nadie sabe cuándo explota.",
+      },
+      {
         id: 'stack',
         kicker: "Un bloque más…",
         headline: "Apila hasta el cielo",

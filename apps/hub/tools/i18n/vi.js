@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'bmi',
+        kicker: "Chỉ cần cao + nặng",
+        headline: "BMI của bạn là bao nhiêu?",
+        blurb: "Xem mức gầy béo và cân nặng hợp lý ngay.",
+      },
+      {
+        id: 'bomb',
+        kicker: "Chuyền nhanh lên!",
+        headline: "Đừng để nổ trên tay bạn",
+        blurb: "Chạm bom rồi chuyền máy. Không ai biết khi nào nổ.",
+      },
+      {
         id: 'stack',
         kicker: "Thêm một tầng nữa…",
         headline: "Xếp tháp thật cao",

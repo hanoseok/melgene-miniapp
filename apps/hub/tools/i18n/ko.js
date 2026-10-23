@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'bmi',
+        kicker: "키·몸무게만 넣으면",
+        headline: "내 BMI는 몇일까?",
+        blurb: "비만도 단계와 내 키의 정상 체중을 바로.",
+      },
+      {
+        id: 'bomb',
+        kicker: "누가 걸릴까?",
+        headline: "내 손에서 터지면 끝",
+        blurb: "폭탄을 누르고 휴대폰을 넘겨요. 언제 터질지 아무도 몰라요.",
+      },
+      {
         id: 'stack',
         kicker: "한 층만 더…",
         headline: "끝없이 탑 쌓기",
