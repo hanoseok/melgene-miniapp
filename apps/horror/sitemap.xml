@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://horror.example.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/leader.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/leader.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/leader.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/skeptic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/skeptic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/skeptic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/comic.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/comic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/comic.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/curious.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/curious.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/curious.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/strategist.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/strategist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/strategist.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/researcher.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/researcher.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/researcher.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/final.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/final.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/final.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/r/runner.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/r/runner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/r/runner.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/de/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/th/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/es/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/it/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://horror.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://horror.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://horror.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://horror.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://horror.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://horror.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://horror.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://horror.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://horror.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://horror.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://horror.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://horror.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://horror.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://horror.example.com/guide.html"/>
+  </url>
+</urlset>

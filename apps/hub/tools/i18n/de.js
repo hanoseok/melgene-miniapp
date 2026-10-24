@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'horror',
+        kicker: "Licht aus, Popcorn bereit",
+        headline: "Würdest du den Horrorfilm überleben?",
+        blurb: "Deine Rolle im Film und wie lange du durchhältst.",
+      },
+      {
+        id: 'bat',
+        kicker: "Halloween-Arcade",
+        headline: "Flieg die Fledermaus durch",
+        blurb: "Tippen zum Flattern, durch die Lücken. Bloß nichts berühren!",
+      },
+      {
         id: 'bmi',
         kicker: "Größe + Gewicht",
         headline: "Wie hoch ist Ihr BMI?",

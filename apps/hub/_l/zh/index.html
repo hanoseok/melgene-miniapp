@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 57,
+  "numberOfItems": 59,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -479,6 +479,20 @@
       "url": "https://bomb.example.com/",
       "name": "传炸弹游戏",
       "description": "点一下炸弹，把手机传给下一个人。谁也不知道引线什么时候烧完，爆炸时拿着手机的人就输了！"
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "url": "https://bat.example.com/",
+      "name": "飞吧蝙蝠",
+      "description": "点击让小蝙蝠扇动翅膀，在满月下穿过墓碑和鬼树之间的空隙。每穿过一道得 1 分。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "url": "https://horror.example.com/",
+      "name": "恐怖片生存测试",
+      "description": "11个恐怖片经典场景，2分钟。恐怖片里的你会是哪种角色？能活到片尾字幕吗？仅供娱乐。"
     }
   ]
 }
@@ -554,6 +568,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bat">
+        <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节小游戏</span></span>
+            <h3 class="cur-headline">让蝙蝠飞过墓地</h3>
+            <span class="cur-giant" aria-hidden="true">🦇</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">点一下扇一下翅膀，穿过空隙，碰到就结束。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">飞吧蝙蝠</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="horror">
+        <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">关灯，备好爆米花</span></span>
+            <h3 class="cur-headline">你能在恐怖片里活下来吗？</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">测测你在电影里的角色和能撑多久。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">恐怖片生存测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bmi">
         <a class="cur-card" href="https://bmi.example.com/" style="--h:306;--h2:288">
           <span class="cur-art">
@@ -618,7 +664,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent">
+      <li class="cur-item" data-id="percent" hidden>
         <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">一秒算完</span></span>
@@ -634,7 +680,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="race">
+      <li class="cur-item" data-id="race" hidden>
         <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">谁请喝咖啡？</span></span>
@@ -682,45 +728,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="age" hidden>
-        <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span></span><span class="cur-kicker">离生日还有几天？</span></span>
-            <h3 class="cur-headline">我现在到底几岁？</h3>
-            <span class="cur-giant" aria-hidden="true">🎂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">选好生日，周岁精确到天，还有生日倒数。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">年龄计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bottle" hidden>
-        <a class="cur-card" href="https://bottle.example.com/" style="--h:338;--h2:320">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span></span><span class="cur-kicker">手机放桌子中间</span></span>
-            <h3 class="cur-headline">转瓶子，看看轮到谁</h3>
-            <span class="cur-giant" aria-hidden="true">🍾</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">名字围成一圈，公平转一次。谁先来？</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">转瓶子</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">57个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">59个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -742,6 +756,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bat" data-cat="game">
+        <a class="tile-link" href="https://bat.example.com/" title="点击让小蝙蝠扇动翅膀，在满月下穿过墓碑和鬼树之间的空隙。每穿过一道得 1 分。" style="--h:277;--h2:259">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">飞吧蝙蝠</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="horror" data-cat="test">
+        <a class="tile-link" href="https://horror.example.com/" title="11个恐怖片经典场景，2分钟。恐怖片里的你会是哪种角色？能活到片尾字幕吗？仅供娱乐。" style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">恐怖片生存测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/" title="输入身高体重，马上算出BMI、胖瘦等级（WHO标准与中国成人标准）、你身高对应的健康体重范围，以及离健康范围还差几公斤。" style="--h:306;--h2:288">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 57,
+  "numberOfItems": 59,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -479,6 +479,20 @@
       "url": "https://bomb.example.com/",
       "name": "Batata quente",
       "description": "Toque na bomba e passe o celular. Ninguém sabe quando o pavio acaba: quem estiver segurando na explosão perde!"
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "url": "https://bat.example.com/",
+      "name": "Flappy morcego",
+      "description": "Toque para bater as asas e guie o morceguinho entre lápides e árvores assombradas sob a lua cheia. Cada vão vale um ponto."
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "url": "https://horror.example.com/",
+      "name": "Sobrevivência no terror",
+      "description": "11 cenas clássicas de filme de terror, 2 minutos. Que personagem você seria e chegaria vivo aos créditos? Só por diversão."
     }
   ]
 }
@@ -554,6 +568,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bat">
+        <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Arcade de Halloween</span></span>
+            <h3 class="cur-headline">Voe entre as lápides</h3>
+            <span class="cur-giant" aria-hidden="true">🦇</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Toque para bater as asas e passe pelos vãos. Encostou, acabou.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Flappy morcego</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="horror">
+        <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Luz apagada, pipoca pronta</span></span>
+            <h3 class="cur-headline">Você sobreviveria a um filme de terror?</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Seu papel no filme e quanto tempo aguentaria.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sobrevivência no terror</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bmi">
         <a class="cur-card" href="https://bmi.example.com/" style="--h:306;--h2:288">
           <span class="cur-art">
@@ -618,7 +664,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent">
+      <li class="cur-item" data-id="percent" hidden>
         <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Conta rápida</span></span>
@@ -634,7 +680,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="race">
+      <li class="cur-item" data-id="race" hidden>
         <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Quem paga o café?</span></span>
@@ -682,45 +728,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="age" hidden>
-        <a class="cur-card" href="https://age.example.com/" style="--h:309;--h2:291">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span></span><span class="cur-kicker">Conta de aniversário</span></span>
-            <h3 class="cur-headline">Quantos anos eu tenho, exatamente?</h3>
-            <span class="cur-giant" aria-hidden="true">🎂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Idade até o dia e contagem regressiva do aniversário.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Calculadora de idade</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bottle" hidden>
-        <a class="cur-card" href="https://bottle.example.com/" style="--h:338;--h2:320">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span></span><span class="cur-kicker">Celular no meio da mesa</span></span>
-            <h3 class="cur-headline">Gire a garrafa e veja a vez</h3>
-            <span class="cur-giant" aria-hidden="true">🍾</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Nomes em roda, um giro justo. Quem começa?</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Jogo da garrafa</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">57 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">59 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novidades</option><option value="popular">Populares</option><option value="rating">Bem avaliados</option></select>
@@ -742,6 +756,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bat" data-cat="game">
+        <a class="tile-link" href="https://bat.example.com/" title="Toque para bater as asas e guie o morceguinho entre lápides e árvores assombradas sob a lua cheia. Cada vão vale um ponto." style="--h:277;--h2:259">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Flappy morcego</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="horror" data-cat="test">
+        <a class="tile-link" href="https://horror.example.com/" title="11 cenas clássicas de filme de terror, 2 minutos. Que personagem você seria e chegaria vivo aos créditos? Só por diversão." style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Sobrevivência no terror</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/" title="Calcule seu IMC em cm/kg ou pés/libras: classificação da OMS em uma escala colorida, peso ideal para a sua altura e quanto falta para chegar lá." style="--h:306;--h2:288">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NOVO</span></span>

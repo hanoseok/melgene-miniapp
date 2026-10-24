@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'horror',
+        kicker: "Luci spente, popcorn pronti",
+        headline: "Sopravvivresti a un film horror?",
+        blurb: "Il tuo ruolo nel film e quanto resisteresti.",
+      },
+      {
+        id: 'bat',
+        kicker: "Arcade di Halloween",
+        headline: "Vola tra le lapidi",
+        blurb: "Tocca per volare tra i varchi. Un tocco ed è finita.",
+      },
+      {
         id: 'bmi',
         kicker: "Altezza + peso",
         headline: "Qual è il tuo BMI?",

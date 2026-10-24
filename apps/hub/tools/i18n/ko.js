@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'horror',
+        kicker: "불 끄고 팝콘 준비",
+        headline: "공포영화 속 나는 살아남을까?",
+        blurb: "영화 속 내 역할과 생존 시간을 알아보는 테스트.",
+      },
+      {
+        id: 'bat',
+        kicker: "할로윈 아케이드",
+        headline: "묘지 사이로 박쥐 날리기",
+        blurb: "탭해서 날갯짓, 틈을 지나가요. 닿으면 끝!",
+      },
+      {
         id: 'bmi',
         kicker: "키·몸무게만 넣으면",
         headline: "내 BMI는 몇일까?",

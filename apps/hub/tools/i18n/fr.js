@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'horror',
+        kicker: "Lumières éteintes…",
+        headline: "Survivrais-tu à un film d’horreur ?",
+        blurb: "Ton rôle dans le film et combien de temps tu tiens.",
+      },
+      {
+        id: 'bat',
+        kicker: "Arcade d’Halloween",
+        headline: "Fais voler la chauve-souris",
+        blurb: "Tape pour voler entre les tombes. Un contact et c’est fini.",
+      },
+      {
         id: 'bmi',
         kicker: "Taille + poids",
         headline: "Quel est votre IMC ?",

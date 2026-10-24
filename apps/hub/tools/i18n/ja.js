@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'horror',
+        kicker: "部屋を暗くしてポップコーン",
+        headline: "ホラー映画で生き残れる？",
+        blurb: "映画の中のあなたの役どころと生存時間を診断。",
+      },
+      {
+        id: 'bat',
+        kicker: "ハロウィンゲーム",
+        headline: "コウモリでお墓をすり抜けろ",
+        blurb: "タップで羽ばたいてすき間をくぐろう。ぶつかったら終わり。",
+      },
+      {
         id: 'bmi',
         kicker: "身長と体重だけ",
         headline: "あなたのBMIは？",

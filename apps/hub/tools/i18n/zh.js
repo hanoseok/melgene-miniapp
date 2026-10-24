@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'horror',
+        kicker: "关灯，备好爆米花",
+        headline: "你能在恐怖片里活下来吗？",
+        blurb: "测测你在电影里的角色和能撑多久。",
+      },
+      {
+        id: 'bat',
+        kicker: "万圣节小游戏",
+        headline: "让蝙蝠飞过墓地",
+        blurb: "点一下扇一下翅膀，穿过空隙，碰到就结束。",
+      },
+      {
         id: 'bmi',
         kicker: "只要身高体重",
         headline: "你的BMI是多少？",

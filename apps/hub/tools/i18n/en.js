@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'horror',
+        kicker: "Lights out, popcorn ready",
+        headline: "Would you survive a horror movie?",
+        blurb: "A spooky quiz: your role and how long you’d last.",
+      },
+      {
+        id: 'bat',
+        kicker: "Halloween arcade",
+        headline: "Fly the bat past the graves",
+        blurb: "Tap to flap through the gaps. One touch and it’s over.",
+      },
+      {
         id: 'bmi',
         kicker: "Height + weight",
         headline: "What’s your BMI?",

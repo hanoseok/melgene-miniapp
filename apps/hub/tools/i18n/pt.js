@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'horror',
+        kicker: "Luz apagada, pipoca pronta",
+        headline: "Você sobreviveria a um filme de terror?",
+        blurb: "Seu papel no filme e quanto tempo aguentaria.",
+      },
+      {
+        id: 'bat',
+        kicker: "Arcade de Halloween",
+        headline: "Voe entre as lápides",
+        blurb: "Toque para bater as asas e passe pelos vãos. Encostou, acabou.",
+      },
+      {
         id: 'bmi',
         kicker: "Altura + peso",
         headline: "Qual é o seu IMC?",

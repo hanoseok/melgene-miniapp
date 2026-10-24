@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 57,
+  "numberOfItems": 59,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -479,6 +479,20 @@
       "url": "https://bomb.example.com/th/",
       "name": "เกมส่งระเบิด",
       "description": "แตะระเบิดแล้วส่งมือถือให้คนถัดไป ไม่มีใครรู้ว่าชนวนจะหมดเมื่อไร ใครถืออยู่ตอนระเบิดคนนั้นแพ้!"
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "url": "https://bat.example.com/th/",
+      "name": "เกมค้างคาวบิน",
+      "description": "แตะเพื่อกระพือปีก พาค้างคาวน้อยบินลอดช่องระหว่างหลุมศพกับต้นไม้ผีสิงใต้แสงจันทร์เต็มดวง ลอดได้หนึ่งช่องได้หนึ่งแต้ม"
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "url": "https://horror.example.com/th/",
+      "name": "แบบทดสอบรอดในหนังสยองขวัญ",
+      "description": "11 ฉากคลาสสิกในหนังสยองขวัญ ใช้เวลา 2 นาที ในหนังผีคุณจะเป็นตัวละครแบบไหน และจะรอดถึงเครดิตท้ายเรื่องไหม? ทำเล่นๆ ขำๆ"
     }
   ]
 }
@@ -554,6 +568,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bat">
+        <a class="cur-card" href="https://bat.example.com/th/" style="--h:277;--h2:259">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เกมฮาโลวีน</span></span>
+            <h3 class="cur-headline">พาค้างคาวบินผ่านสุสาน</h3>
+            <span class="cur-giant" aria-hidden="true">🦇</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">แตะเพื่อกระพือปีก ลอดช่องให้ได้ ชนเมื่อไหร่ก็จบ</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">เกมค้างคาวบิน</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="horror">
+        <a class="cur-card" href="https://horror.example.com/th/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ปิดไฟ เตรียมป๊อปคอร์น</span></span>
+            <h3 class="cur-headline">คุณจะรอดในหนังสยองขวัญไหม?</h3>
+            <span class="cur-giant" aria-hidden="true">🎃</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">ดูว่าคุณได้บทไหนและอยู่รอดได้นานแค่ไหน</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">แบบทดสอบรอดในหนังสยองขวัญ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bmi">
         <a class="cur-card" href="https://bmi.example.com/th/" style="--h:306;--h2:288">
           <span class="cur-art">
@@ -618,7 +664,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent">
+      <li class="cur-item" data-id="percent" hidden>
         <a class="cur-card" href="https://percent.example.com/th/" style="--h:227;--h2:209">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">คิดเลขไวทันใจ</span></span>
@@ -634,7 +680,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="race">
+      <li class="cur-item" data-id="race" hidden>
         <a class="cur-card" href="https://race.example.com/th/" style="--h:351;--h2:333">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ใครเลี้ยงกาแฟ?</span></span>
@@ -682,45 +728,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="age" hidden>
-        <a class="cur-card" href="https://age.example.com/th/" style="--h:309;--h2:291">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎂</span></span></span><span class="cur-kicker">อีกกี่วันถึงวันเกิด</span></span>
-            <h3 class="cur-headline">ตอนนี้เราอายุเท่าไหร่กันแน่?</h3>
-            <span class="cur-giant" aria-hidden="true">🎂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">เลือกวันเกิด รู้อายุละเอียดถึงวัน พร้อมนับถอยหลัง</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">คำนวณอายุ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bottle" hidden>
-        <a class="cur-card" href="https://bottle.example.com/th/" style="--h:338;--h2:320">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🍾</span></span></span><span class="cur-kicker">วางมือถือกลางโต๊ะ</span></span>
-            <h3 class="cur-headline">หมุนขวด ดูว่าตาใคร</h3>
-            <span class="cur-giant" aria-hidden="true">🍾</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">ใส่ชื่อรอบวง หมุนอย่างยุติธรรม ใครเริ่มก่อน</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">หมุนขวด</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">57 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">59 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -742,6 +756,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bat" data-cat="game">
+        <a class="tile-link" href="https://bat.example.com/th/" title="แตะเพื่อกระพือปีก พาค้างคาวน้อยบินลอดช่องระหว่างหลุมศพกับต้นไม้ผีสิงใต้แสงจันทร์เต็มดวง ลอดได้หนึ่งช่องได้หนึ่งแต้ม" style="--h:277;--h2:259">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมค้างคาวบิน</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="horror" data-cat="test">
+        <a class="tile-link" href="https://horror.example.com/th/" title="11 ฉากคลาสสิกในหนังสยองขวัญ ใช้เวลา 2 นาที ในหนังผีคุณจะเป็นตัวละครแบบไหน และจะรอดถึงเครดิตท้ายเรื่องไหม? ทำเล่นๆ ขำๆ" style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แบบทดสอบรอดในหนังสยองขวัญ</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/th/" title="ใส่ส่วนสูงและน้ำหนัก ดูค่า BMI ทันที พร้อมเกณฑ์อ้วนผอมแบบเอเชีย ช่วงน้ำหนักที่เหมาะกับส่วนสูง และต้องลดหรือเพิ่มอีกกี่กิโล" style="--h:306;--h2:288">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>

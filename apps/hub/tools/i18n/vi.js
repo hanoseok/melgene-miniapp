@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'horror',
+        kicker: "Tắt đèn, sẵn bỏng ngô",
+        headline: "Bạn có sống sót trong phim kinh dị?",
+        blurb: "Xem bạn là nhân vật nào và trụ được bao lâu.",
+      },
+      {
+        id: 'bat',
+        kicker: "Game Halloween",
+        headline: "Đưa chú dơi bay qua nghĩa địa",
+        blurb: "Chạm để vỗ cánh, lách qua khe. Va vào là thua!",
+      },
+      {
         id: 'bmi',
         kicker: "Chỉ cần cao + nặng",
         headline: "BMI của bạn là bao nhiêu?",
