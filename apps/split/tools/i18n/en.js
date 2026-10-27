@@ -1,0 +1,152 @@
+/* Split Bill Calculator — English (site root /, default + x-default)
+ * Math lives in split-core.js (integer cents, largest remainder); this file holds every visible string for this language.
+ * Keys ending in Html are inserted as raw HTML (only <br> and <em>); privacy.sections bodies are HTML too.
+ * cur.def = default currency for this language (split-core LANG_CURRENCY), cur.local = optional money template for that
+ *   currency only (e.g. ko '{n}원'); empty = Intl currency format.
+ * tip.presets = tip/service % chips (0 is always shown as "None"), tip.open = show the tip row open by default.
+ * Placeholders — keep them as-is: {n} number · {name} {item} names · {amount} {total} {sub} {extra} {diff} money · {from} {to} names
+ */
+module.exports = {
+  // Fonts: css = Google Fonts stylesheet, display = titles/buttons, sans = optional body font,
+  // wordBreak: normal|keep-all|auto-phrase, hyphens: manual|auto. Numbers always use Space Grotesk.
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&display=swap',
+    display: "'Outfit'",
+    displayWeight: 700,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  cur: { def: 'USD', local: '' },
+  tip: { presets: [15, 18, 20], open: true },
+
+  meta: {
+    title: 'Split Bill Calculator – Tip, Tax & Who Owes Whom',
+    description: 'Free split bill calculator: divide a restaurant bill evenly or by item, add tip and tax, round each share and see who pays back whom after one person covered the check.',
+    ogTitle: 'Split Bill Calculator 💸 Who owes what, in seconds',
+    ogDescription: 'Split evenly or by item, add tip and tax, and get the shortest list of who pays back whom.',
+  },
+  siteName: 'Split Bill Calculator',
+  privacyLink: 'Privacy Policy',
+
+  hero: {
+    h1Kicker: 'Split Bill Calculator',
+    h1Html: 'Split the check, <em>not the friendship</em>',
+    hook: 'Type the total and the number of people, or list who had what. Tip, rounding and who pays back whom are sorted for you.',
+  },
+
+  ui: {
+    modeLabel: 'How to split',
+    modeEven: 'Split evenly',
+    modeItems: 'By item',
+    currency: 'Currency',
+    total: 'Total bill',
+    people: 'People',
+    minus: 'One less person',
+    plus: 'One more person',
+    tipLabel: 'Tip',
+    tipMore: '+ Add a tip',
+    tipNone: 'None',
+    tipOther: 'Other %',
+    taxLabel: 'Tax',
+    extrasMore: '+ Tax and tip',
+    roundLabel: 'Round each share to',
+    remainderLabel: 'Leftover from rounding',
+    remHost: 'Organizer pays it',
+    remEven: 'Spread it out',
+    remHostItems: 'The first person on the list is the organizer.',
+    peopleTitle: 'Who’s in',
+    namePh: 'Name',
+    personN: 'Person {n}',
+    me: 'Me',
+    addPerson: '+ Add person',
+    removePerson: 'Remove {name}',
+    itemsTitle: 'What you ordered',
+    itemPh: 'Item',
+    pricePh: 'Price',
+    sharedBy: 'Shared by',
+    addItem: '+ Add item',
+    removeItem: 'Remove item',
+    waiting: 'Enter the total and each share appears here.',
+    waitingItems: 'Add items with prices and each person’s share appears here.',
+    grand: 'Total to split',
+    subLine: 'Bill {sub}',
+    taxLine: 'Tax {amount}',
+    tipLine: 'Tip {amount}',
+    each: 'Each person pays',
+    groupLine: '{amount} × {n}',
+    hostLine: 'Organizer pays {amount}',
+    personLine: 'Items {sub} + tax & tip {extra}',
+    sumOk: 'Shares add up to exactly {total} ✓',
+    payToggle: 'Someone already paid',
+    payer: 'Paid by',
+    paidPh: 'Amount',
+    addPayer: '+ Another payer',
+    removePayer: 'Remove payer',
+    payFullHint: 'Leave the amount empty if one person paid the whole bill.',
+    transfersTitle: 'Who sends what',
+    transfer: '{from} → {to} {amount}',
+    noTransfers: 'All square, nobody owes anything.',
+    paidOk: 'Payments match the total ✓',
+    paidOver: 'Payments are {diff} more than the total.',
+    paidUnder: 'Payments are {diff} short of the total.',
+    copy: 'Copy result',
+    copied: 'Copied! Paste it into your group chat.',
+    link: 'Share as link',
+    linkCopied: 'Link copied. It opens with these numbers.',
+    finish: 'Done – show summary ✓',
+    needOne: 'Enter a total or some items with prices first.',
+    localNote: 'Calculated on your device. Names and amounts are never sent to a server.',
+    decimalHint: 'Decimals: “.” or “,” both work.',
+    sharedNote: 'Opened from a shared link. Change anything you like.',
+    summaryTitle: 'Bill split summary',
+    summaryNote: 'Copy the result to send it to everyone.',
+    again: 'New split',
+    copyHead: '💸 Bill split',
+    copyTotal: 'Total {total} · {n} people',
+    copyTransfers: 'Pay back:',
+    shareTitle: 'Split Bill Calculator',
+    shareText: 'Split the bill evenly or by item, with tip and who owes whom 💸',
+  },
+
+  errors: {
+    badNum: 'Use digits only, with “.” or “,” for decimals.',
+    tooBig: 'That amount is too large. Please check it.',
+    badPct: 'Enter a percentage between 0 and 100.',
+    peopleRange: 'Choose between 2 and 30 people.',
+    noSharer: 'Pick at least one person for “{item}”.',
+    badLink: 'This link could not be read, so the calculator starts empty.',
+  },
+
+  og: {
+    brand: '💸 Split Bill Calculator',
+    kicker: 'Even · By item · Tip',
+    title: 'Who owes what? Sorted in seconds',
+    desc: 'Exact shares that add up, plus the shortest list of paybacks',
+  },
+
+  // Shown only inside the shared end screen, as an accordion. Plain text.
+  faq: [
+    { q: 'How do I split a bill when people ordered different things?', a: 'Switch to By item, add everyone’s name, then enter each dish with its price and tap who shared it. Tax and tip are added in proportion to what each person ordered, so a person who only had a salad pays less than the one who had steak and wine.' },
+    { q: 'Why does one person pay a few cents more?', a: 'A bill can’t always be divided exactly. $100 for three people is $33.33 each, which adds up to $99.99. The leftover cent goes to the organizer, or with Spread it out each leftover cent goes to a different person, so the shares always add up to the exact total.' },
+    { q: 'Should the tip be calculated before or after tax?', a: 'In the US the usual habit is to tip on the amount before tax, and that is what this calculator does in By item mode. If you prefer tipping on the total, just enter a slightly higher tip percentage.' },
+    { q: 'How does Who sends what work?', a: 'Turn on Someone already paid and enter who paid and how much. The calculator compares what each person paid with their share and lists the fewest transfers that settle everything, like Sam → Alex $24.50.' },
+  ],
+
+  privacy: {
+    title: 'Privacy Policy | Split Bill Calculator',
+    description: 'Privacy Policy for Split Bill Calculator: names and amounts stay in your browser, plus cookies, advertising and statistics.',
+    h1: 'Privacy Policy',
+    introHtml: 'Split Bill Calculator (the "Service") respects your privacy and processes only the minimum information described below.',
+    sections: [
+      ['1. Information we collect', 'The Service works without an account or login. The names, items and amounts you enter are calculated only in your browser and are not sent to our server. Your last inputs are kept in your browser’s local storage on your own device so you can pick up where you left off. If you use Share as link, the inputs are written into the part of the link after “#”, which browsers do not send to servers; only the people you send the link to can see them.'],
+      ['2. Cookies and similar technologies', 'The Service may use cookies and your browser’s local storage to remember your language and last inputs, to show ads and to understand how the Service is used. You can refuse or delete them in your browser settings; some features may not work as expected if you do.'],
+      ['3. Advertising (Google AdSense)', 'The Service shows ads through Google AdSense. Google and its partners may use cookies to serve ads based on your previous visits to this and other websites. You can learn more and change your preferences in <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google Ad Settings</a>.'],
+      ['4. Statistics', 'To improve the Service we may use Google Analytics (GA4) and our own aggregate counters that keep only daily totals per language (page views, calculations, star ratings). Names and amounts are never part of these counts, and none of this identifies you personally.'],
+      ['5. Contact', 'If you have any questions about this Privacy Policy, please contact the site operator.'],
+      ['6. Effective date', 'This policy is effective as of October 28, 2026.'],
+    ],
+    back: '← Back to Split Bill Calculator',
+  },
+};

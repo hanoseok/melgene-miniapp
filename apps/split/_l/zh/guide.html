@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AA制计算器：公平分摊、小费与尾数处理指南</title>
+<meta name="description" content="聚餐AA制怎么算：均摊或按菜品分摊，服务费、税和小费如何分，尾数怎么凑整，以及有人先垫付时如何用最少的转账次数结清，附微信群里发结果的小技巧。">
+<link rel="canonical" href="https://split.example.com/zh/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://split.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://split.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://split.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://split.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://split.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://split.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://split.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://split.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://split.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://split.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://split.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://split.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://split.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="AA制计算器：公平分摊、小费与尾数处理指南">
+<meta property="og:description" content="聚餐AA制怎么算：均摊或按菜品分摊，服务费、税和小费如何分，尾数怎么凑整，以及有人先垫付时如何用最少的转账次数结清，附微信群里发结果的小技巧。">
+<meta property="og:image" content="https://split.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://split.example.com/zh/guide.html">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-28">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://split.example.com/zh/guide.html#article","headline":"AA制计算器：公平分账、快速结清的方法","description":"聚餐AA制怎么算：均摊或按菜品分摊，服务费、税和小费如何分，尾数怎么凑整，以及有人先垫付时如何用最少的转账次数结清，附微信群里发结果的小技巧。","inLanguage":"zh","datePublished":"2026-10-28","dateModified":"2026-10-28","author":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"mainEntityOfPage":"https://split.example.com/zh/guide.html","url":"https://split.example.com/zh/guide.html","about":{"@type":"WebApplication","name":"AA制计算器","url":"https://split.example.com/zh/"},"image":"https://split.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"AA制计算器","item":"https://split.example.com/zh/"},{"@type":"ListItem","position":3,"name":"AA制计算器：公平分账、快速结清的方法","item":"https://split.example.com/zh/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><span class="mg-top-app">AA制计算器</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene 小应用</a><span aria-hidden="true">›</span><a href="./">AA制计算器</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">💸</span>AA制计算器</p>
+    <h1>AA制计算器：公平分账、快速结清的方法</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-28">更新于 2026年10月28日</time></p>
+    <p class="mg-art-intro">账单一上桌，问题就来了：大家一起分着吃的菜、不喝酒的朋友、服务费，还有除不尽的总额。这篇指南讲解AA制计算器怎么用，平均分摊和按菜品分摊各适合什么场合，各国小费和服务费习惯有何不同，尾数如何处理，以及有人先垫付后怎样用最少的转账次数结清。</p>
+    <section>
+      <h2>AA制计算器怎么用</h2>
+      <p>计算器有两种模式。“平均分摊”只需输入总额，选择人数（2到30人），如果账单上没有包含服务费或小费，再加上百分比，就能看到每个人应付多少。你还可以选择凑整单位，比如1元、10元，并决定凑整后剩下的尾数由谁承担。</p>
+      <p>“按菜品分摊”需要先添加参与者的姓名（最多20人），再逐个输入菜品和价格。每道菜默认大家一起吃，只要把没吃的人关掉即可。税和服务费的百分比会按每个人点的金额比例加上去，所以吃得少的人不会多付。所有计算都在浏览器里完成，不会上传到服务器。</p>
+      <ul>
+        <li>币种默认为人民币，小数点用点或逗号都可以输入。</li>
+        <li>点“复制结果”，就能生成可以直接粘贴到微信群的文字。</li>
+        <li>“链接分享”会把输入内容放进网址的#后面，不需要账号，朋友打开就是同一份计算。</li>
+        <li>上次输入的内容只保存在这台设备上。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>平均分摊还是按菜品分摊，哪个更公平</h2>
+      <p>如果大家点得差不多、大部分菜是一起吃的，或者金额不大不值得计较，平均分摊最快也最不伤和气。火锅、烧烤、家常菜聚餐、一起分的饮料都属于这种情况。精确到每道菜的麻烦，往往比省下的钱还要大。</p>
+      <p>如果每个人点的差别明显，就更适合按菜品分摊。比如有人喝了三杯酒、吃了一份牛排，另一个人只喝了一碗汤和白开水，平均分摊就等于让吃得少的人悄悄补贴别人。按菜品分摊时，税和服务费也按比例分，不用拿纸笔另算。</p>
+      <ul>
+        <li>一起吃的凉菜：这道菜保持所有人勾选。</li>
+        <li>有人不喝酒：酒水按菜品分，菜肴平均分。</li>
+        <li>寿星：一般由大家请客，可以把他从菜品里去掉，或者让其他人平摊。</li>
+        <li>续摊到第二场：分场次单独计算，中途离开的人更容易接受。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>各国小费、服务费与税的习惯</h2>
+      <p>总额在你分账之前就受习惯影响。在中国大陆，餐厅一般不收小费，菜单价格就是最终价格，小费保持为0即可；少数高档餐厅或酒店会加收10%左右的服务费，结账前看清账单。日本和韩国同样没有给小费的习惯。</p>
+      <p>到了海外就不同了。美国在收银时另加销售税，堂食通常要给15%到20%的小费，所以计算器提供了15、18、20%的预设。英国和欧洲很多餐厅已经含服务费，要先看账单上有没有“service included”。巴西账单上常有10%的服务费（serviço），泰国部分餐厅会另收服务费和增值税，俄罗斯服务不错的话一般给10%左右。</p>
+    </section>
+    <section>
+      <h2>凑整与尾数处理</h2>
+      <p>大多数总额都除不尽。100元三个人分，每人33.33元，可是不能付不到一分钱的东西，很多时候大家也想凑成整数。如果每个人都四舍五入，加起来就和账单对不上，总得有人补上差额。计算器把金额当作整数的分来处理，并明确告诉你尾数分给谁，所以合计永远等于账单。</p>
+      <p>举个例子，100元三个人按1元凑整，两个人各付33元，发起人（东道主）付剩下的34元，33加33加34正好是100元。除了由发起人承担尾数之外，也可以把尾数分散到几个人身上，这样就不会都由一个人承担。</p>
+      <ul>
+        <li>发起人承担尾数：简单，发起人通常也乐意让大家少付一点。</li>
+        <li>分散尾数：每个人之间最多相差一个凑整单位。</li>
+        <li>凑整单位越大，数字越整齐，但尾数也越大。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>有人先垫付后怎么结清，以及礼仪</h2>
+      <p>多数情况是一个人先把整单付了，其他人再转给他。在可选的“谁先付”里填上付款的人和金额，就会得到简短的转账清单，比如“小李 → 小王 12.50元”。计算器会让转账次数尽量少，还会检查你填的付款总和是否等于总额，输错了在转账之前就能发现。</p>
+      <p>遵守几个习惯，事后就不会尴尬。趁大家还记得，当天就转；把复制好的结果发到微信群里，留下一份清楚的记录；用大家都有的微信支付或支付宝转账，备注写上聚餐名称。不要让寿星买单，也不要为几毛钱追着朋友要。</p>
+      <ul>
+        <li>尽量当天结清，最好在饭桌上就转。</li>
+        <li>由一个人收钱并付款，餐厅只需结算一次。</li>
+        <li>保留分享链接或复制的文字，日后方便核对。</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">💸</span>开始AA制计算</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene 小应用 · <a href="./">AA制计算器</a> · <a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

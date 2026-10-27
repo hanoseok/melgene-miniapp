@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>더치페이 계산기: 공평한 정산·반올림·총무 가이드</title>
+<meta name="description" content="회식비와 모임 회비를 N분의 1 또는 메뉴별로 나누고, 서비스료·부가세·팁과 100원 단위 반올림 잔돈을 처리하며 총무가 먼저 낸 돈을 최소 송금으로 정산하는 방법을 안내합니다.">
+<link rel="canonical" href="https://split.example.com/ko/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://split.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://split.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://split.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://split.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://split.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://split.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://split.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://split.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://split.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://split.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://split.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://split.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://split.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="멜진 미니앱">
+<meta property="og:title" content="더치페이 계산기: 공평한 정산·반올림·총무 가이드">
+<meta property="og:description" content="회식비와 모임 회비를 N분의 1 또는 메뉴별로 나누고, 서비스료·부가세·팁과 100원 단위 반올림 잔돈을 처리하며 총무가 먼저 낸 돈을 최소 송금으로 정산하는 방법을 안내합니다.">
+<meta property="og:image" content="https://split.example.com/og/ko/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://split.example.com/ko/guide.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-28">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://split.example.com/ko/guide.html#article","headline":"더치페이 계산기: 공평하게 나누고 빠르게 정산하는 법","description":"회식비와 모임 회비를 N분의 1 또는 메뉴별로 나누고, 서비스료·부가세·팁과 100원 단위 반올림 잔돈을 처리하며 총무가 먼저 낸 돈을 최소 송금으로 정산하는 방법을 안내합니다.","inLanguage":"ko","datePublished":"2026-10-28","dateModified":"2026-10-28","author":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"publisher":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"mainEntityOfPage":"https://split.example.com/ko/guide.html","url":"https://split.example.com/ko/guide.html","about":{"@type":"WebApplication","name":"더치페이 계산기","url":"https://split.example.com/ko/"},"image":"https://split.example.com/og/ko/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"멜진 미니앱","item":"https://example.com/ko/"},{"@type":"ListItem","position":2,"name":"더치페이 계산기","item":"https://split.example.com/ko/"},{"@type":"ListItem","position":3,"name":"더치페이 계산기: 공평하게 나누고 빠르게 정산하는 법","item":"https://split.example.com/ko/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="멜진 미니앱 홈으로"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">미니앱</span></a><span class="mg-top-app">더치페이 계산기</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="언어 선택"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko" selected>한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="언어 선택"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">멜진 미니앱</a><span aria-hidden="true">›</span><a href="./">더치페이 계산기</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">💸</span>더치페이 계산기</p>
+    <h1>더치페이 계산기: 공평하게 나누고 빠르게 정산하는 법</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-28">업데이트 2026년 10월 28일</time></p>
+    <p class="mg-art-intro">모임이 끝나고 계산서를 받으면 나눠 먹은 안주, 술을 안 마신 친구, 서비스료, 그리고 인원수로 딱 떨어지지 않는 합계가 한꺼번에 문제가 됩니다. 이 글은 더치페이 계산기를 쓰는 방법, N분의 1이 공평한 경우와 아닌 경우, 나라마다 다른 팁·봉사료 관행, 반올림하면 남는 잔돈 처리, 그리고 총무가 먼저 계산했을 때 송금을 가장 적게 하는 정산 방법을 정리합니다.</p>
+    <section>
+      <h2>더치페이 계산기 사용법</h2>
+      <p>모드는 두 가지입니다. 「똑같이 나누기」에서는 총액을 넣고 인원수(2~30명)를 고른 뒤, 계산서에 없는 봉사료나 팁이 있으면 퍼센트를 더합니다. 결과에는 한 사람이 내야 할 금액이 나옵니다. 100원 단위나 1,000원 단위 같은 반올림 단위를 고를 수 있고, 반올림하고 남는 자투리를 누가 부담할지도 정할 수 있습니다.</p>
+      <p>「메뉴별로 나누기」에서는 참석자 이름을 최대 20명까지 넣고 메뉴와 가격을 하나씩 추가합니다. 메뉴는 기본적으로 모두가 함께 먹은 것으로 잡히고, 먹지 않은 사람만 끄면 됩니다. 부가세나 봉사료 퍼센트는 각자 시킨 금액에 비례해 붙기 때문에 적게 먹은 사람이 더 많이 내는 일이 없습니다. 모든 계산은 브라우저 안에서 이루어지고 서버로 전송되지 않습니다.</p>
+      <ul>
+        <li>통화는 원화가 기본이며 소수점은 점이나 쉼표 모두 입력됩니다.</li>
+        <li>「결과 복사」를 누르면 카카오톡 단체방에 붙여넣을 수 있는 글이 만들어집니다.</li>
+        <li>「링크로 공유」는 입력값을 주소 뒤 # 부분에 담아서, 계정 없이 친구들이 같은 계산을 열어 볼 수 있습니다.</li>
+        <li>마지막 입력값은 이 기기에만 저장됩니다.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>N분의 1과 메뉴별 정산, 언제 무엇이 공평할까</h2>
+      <p>다들 비슷하게 먹고 마셨거나 대부분 같이 나눠 먹은 자리, 금액이 크지 않아 따지기 민망한 자리라면 N분의 1이 가장 빠르고 마음 편합니다. 고깃집, 샤브샤브, 치킨에 맥주 한 판 같은 모임이 여기에 해당합니다. 정확히 가르는 수고가 아끼는 돈보다 더 클 때가 많습니다.</p>
+      <p>반대로 주문이 확연히 다르다면 메뉴별 정산이 낫습니다. 한 명은 안주에 소주 세 병을 마시고 다른 한 명은 국밥에 물만 마셨는데 똑같이 나누면, 적게 먹은 사람이 조용히 나머지를 보태 주는 셈이 됩니다. 이때 부가세와 봉사료도 비율대로 나뉘므로 종이에 따로 계산할 필요가 없습니다.</p>
+      <ul>
+        <li>같이 먹은 안주: 해당 메뉴는 모두 켜 둡니다.</li>
+        <li>술을 안 마신 사람: 술값은 메뉴별로, 음식값은 똑같이 나눕니다.</li>
+        <li>생일자: 보통 다른 사람들이 대신 내 주므로 메뉴 목록에서 빼거나 나머지가 나눠 냅니다.</li>
+        <li>2차까지 간 모임: 차수별로 따로 계산하면 중간에 빠진 사람이 억울하지 않습니다.</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>나라별 팁·봉사료·부가세 관행</h2>
+      <p>합계는 나누기 전부터 관행에 따라 달라집니다. 우리나라는 팁 문화가 없고 메뉴 가격에 부가세가 이미 들어 있는 경우가 대부분이라 팁은 0으로 두면 됩니다. 총무가 한 번에 결제하고 N분의 1로 걷는 방식이 가장 흔하며, 회식이나 동창 모임에서는 회비를 미리 걷기도 합니다. 일부 호텔 식당만 봉사료 10%를 따로 받습니다.</p>
+      <p>해외에서는 다릅니다. 미국은 계산대에서 판매세가 붙고 식당에서는 15~20% 팁이 기본이라 계산기에도 15·18·20% 프리셋이 있습니다. 영국과 유럽은 서비스료가 이미 포함된 곳이 많아서 계산서에 service included 문구가 있는지 먼저 봐야 합니다. 일본과 중국은 팁이 없습니다. 브라질은 계산서에 10% 서비스료(serviço)가 붙고, 태국은 서비스 차지와 부가세가 따로 붙는 식당이 있으며, 러시아는 10% 안팎의 팁이 보통입니다.</p>
+    </section>
+    <section>
+      <h2>반올림과 남는 잔돈 처리</h2>
+      <p>대부분의 합계는 인원수로 딱 나눠떨어지지 않습니다. 10만 원을 3명이 나누면 한 사람당 33,333.33원인데, 1원 미만은 낼 수 없고 100원 단위로 맞추는 경우도 많습니다. 모두 반올림하면 합이 계산서와 어긋나므로 누군가 차액을 메워야 합니다. 계산기는 금액을 원 단위 정수로 다루고, 남는 돈이 누구에게 가는지 정확히 알려 줘서 합계가 항상 계산서와 같게 맞춥니다.</p>
+      <p>예를 들어 100,000원을 3명이 100원 단위로 나누면 두 사람이 33,300원씩 내고, 총무(호스트)가 나머지인 33,400원을 냅니다. 33,300 + 33,300 + 33,400 = 100,000으로 딱 맞습니다. 잔돈을 총무가 부담하는 방식 외에, 남는 돈을 여러 사람에게 나눠 얹어 한 사람이 다 떠안지 않도록 할 수도 있습니다.</p>
+      <ul>
+        <li>총무가 잔돈 부담: 간단하고, 총무가 흔쾌히 손해를 보는 경우가 많습니다.</li>
+        <li>잔돈 분산: 사람마다 금액 차이가 반올림 단위 하나를 넘지 않습니다.</li>
+        <li>단위가 클수록 숫자는 깔끔하지만 남는 잔돈도 커집니다.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>먼저 낸 사람과 정산하기, 그리고 예절</h2>
+      <p>보통은 총무나 한 사람이 카드로 전부 결제하고 나머지가 그에게 돈을 보냅니다. 선택 항목인 「먼저 낸 사람」에 결제한 사람과 금액을 넣으면 「민수 → 지은 12,500원」처럼 짧은 송금 목록이 나옵니다. 송금 횟수는 최소가 되도록 계산하고, 입력한 결제액의 합이 총액과 같은지도 확인하므로 오타가 있어도 송금 전에 잡아낼 수 있습니다.</p>
+      <p>몇 가지만 지키면 뒤끝이 없습니다. 기억이 생생한 당일에 보내고, 복사한 결과를 단체 카톡방에 올려 기록을 하나로 남기세요. 토스나 카카오페이처럼 친구들이 이미 쓰는 송금 앱을 쓰고, 메모에 모임 이름을 적어 두면 편합니다. 생일자에게 내라고 하지 말고, 몇십 원 차이로 독촉하지 않는 것이 서로 편합니다.</p>
+      <ul>
+        <li>가능하면 그날 안에, 자리에서 바로 정산합니다.</li>
+        <li>총무 한 명이 걷어서 결제하면 식당에도 결제가 한 번만 들어갑니다.</li>
+        <li>공유 링크나 복사한 글을 남겨 두면 나중에 확인하기 좋습니다.</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">💸</span>더치페이 계산하기</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 멜진 미니앱 · <a href="./">더치페이 계산기</a> · <a href="privacy.html">개인정보처리방침</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

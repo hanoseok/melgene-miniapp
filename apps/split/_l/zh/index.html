@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbf6ec">
+<title>AA制计算器｜服务费、尾数与垫付结算 | Melgene 小应用</title>
+<meta name="description" content="AA制计算器：聚餐账单可平均分摊或按菜品分摊，支持加服务费或小费、尾数取整，有人先垫付时直接算出谁该转给谁多少钱。">
+<link rel="canonical" href="https://split.example.com/zh/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://split.example.com/">
+<link rel="alternate" hreflang="ja" href="https://split.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://split.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://split.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://split.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://split.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://split.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://split.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://split.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://split.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://split.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://split.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://split.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Melgene 小应用">
+<meta property="og:title" content="AA制计算器 💸 谁该付多少，几秒算清">
+<meta property="og:description" content="平均分或按菜品分，加上服务费和小费，一键得出最简转账清单。">
+<meta property="og:image" content="https://split.example.com/og/zh/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://split.example.com/zh/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&amp;display=swap">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./style.css">
+<style>:root { --font-display: 'ZCOOL KuaiLe', 'PingFang SC', 'Microsoft YaHei', var(--font-sans); --display-weight: 400; --wb: normal; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://split.example.com/zh/#app","name":"AA制计算器","description":"AA制计算器：聚餐账单可平均分摊或按菜品分摊，支持加服务费或小费、尾数取整，有人先垫付时直接算出谁该转给谁多少钱。","url":"https://split.example.com/zh/","inLanguage":"zh","applicationCategory":"MultimediaApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Melgene 小应用","url":"https://example.com/zh/"},"image":"https://split.example.com/og/zh/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene 小应用","item":"https://example.com/zh/"},{"@type":"ListItem","position":2,"name":"AA制计算器","item":"https://split.example.com/zh/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="sp-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="返回 Melgene 小应用首页"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">小应用</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="选择语言"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh" selected>简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="选择语言"><a href="./" hreflang="en" lang="en">English</a> <a href="./" hreflang="ja" lang="ja">日本語</a> <a href="./" hreflang="zh" lang="zh">简体中文</a> <a href="./" hreflang="ko" lang="ko">한국어</a> <a href="./" hreflang="fr" lang="fr">Français</a> <a href="./" hreflang="de" lang="de">Deutsch</a> <a href="./" hreflang="th" lang="th">ไทย</a> <a href="./" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="./" hreflang="it" lang="it">Italiano</a> <a href="./" hreflang="pt" lang="pt">Português</a> <a href="./" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="sp-shell">
+  <!-- 첫 화면(시작 화면이 따로 없는 도구 앱): h1·훅 → 입력 카드(방법·통화 → 똑같이/항목별 → 정리 단위·끝돈) → 결과 카드(+ 먼저 낸 사람 정산)
+       → 결과 복사·링크 → 정산 완료 → (완료 뒤) 요약 + 공통 끝 화면 → 맨 아래 mg-ad-start 1개 -->
+  <section id="screen-split" class="sp-screen">
+    <div class="sp-logo" aria-hidden="true"><span>💸</span></div>
+    <h1 class="sp-h1"><span class="sp-kicker">AA制计算器</span><span class="sp-h1-main">AA制聚餐，<em>算清账不伤感情</em></span></h1>
+    <p class="sp-hook">输入总额和人数，或者列出每个人吃了什么。服务费、尾数和谁转给谁，都帮你算好。</p>
+    <p id="shared-note" class="sp-shared" hidden>你是通过分享链接打开的，可以随意修改。</p>
+
+    <div class="sp-card sp-inputs">
+      <div class="sp-top">
+        <div class="sp-seg sp-mode" role="group" aria-label="分摊方式">
+          <button type="button" class="sp-seg-btn" data-mode="a" aria-pressed="true">平均分</button>
+          <button type="button" class="sp-seg-btn" data-mode="b" aria-pressed="false">按菜品分</button>
+        </div>
+        <label class="sp-cur"><span class="visually-hidden">币种</span><select id="currency" aria-label="币种"><option value="KRW">KRW</option><option value="JPY">JPY</option><option value="CNY" selected>CNY</option><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="BRL">BRL</option><option value="THB">THB</option><option value="VND">VND</option><option value="RUB">RUB</option></select></label>
+      </div>
+
+      <div id="box-a" class="sp-box" data-box="a">
+        <div class="sp-field"><label class="sp-label" for="in-total">账单总额</label>
+          <div class="sp-inwrap"><input id="in-total" class="sp-input sp-input-big" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" enterkeyhint="done"><span class="sp-suffix" data-sym aria-hidden="true"></span></div>
+        </div>
+        <div class="sp-field"><span class="sp-label" id="lbl-people">人数</span>
+          <div class="sp-stepper" role="group" aria-labelledby="lbl-people">
+            <button type="button" class="sp-step" id="people-minus" aria-label="减少一人">−</button>
+            <input id="in-people" class="sp-input sp-input-n" type="text" inputmode="numeric" autocomplete="off" aria-labelledby="lbl-people" value="2">
+            <button type="button" class="sp-step" id="people-plus" aria-label="增加一人">+</button>
+          </div>
+        </div>
+        <button type="button" id="tip-more-a" class="sp-more" aria-expanded="false" aria-controls="tip-a">+ 加服务费/小费</button>
+        <div id="tip-a" class="sp-extra" hidden>
+          <span class="sp-label" id="lbl-tip-a">服务费/小费</span>
+          <div class="sp-chips" data-tip-chips="a" role="group" aria-labelledby="lbl-tip-a"></div>
+        </div>
+      </div>
+
+      <div id="box-b" class="sp-box" data-box="b" hidden>
+        <p class="sp-label sp-sub">参与的人</p>
+        <div id="people-list" class="sp-people"></div>
+        <button type="button" id="add-person" class="sp-add">+ 添加人员</button>
+        <p class="sp-label sp-sub">点了什么</p>
+        <div id="item-list" class="sp-items"></div>
+        <button type="button" id="add-item" class="sp-add">+ 添加菜品</button>
+        <button type="button" id="tip-more-b" class="sp-more" aria-expanded="false" aria-controls="tip-b">+ 税费和小费</button>
+        <div id="tip-b" class="sp-extra" hidden>
+          <div class="sp-field sp-field-pct"><label class="sp-label" for="in-tax">税费</label>
+            <div class="sp-inwrap"><input id="in-tax" class="sp-input" type="text" inputmode="decimal" autocomplete="off" spellcheck="false"><span class="sp-suffix" aria-hidden="true">%</span></div>
+          </div>
+          <span class="sp-label" id="lbl-tip-b">服务费/小费</span>
+          <div class="sp-chips" data-tip-chips="b" role="group" aria-labelledby="lbl-tip-b"></div>
+        </div>
+      </div>
+
+      <div class="sp-round">
+        <span class="sp-label" id="lbl-unit">每人金额取整到</span>
+        <div class="sp-chips" id="unit-chips" role="group" aria-labelledby="lbl-unit"></div>
+        <span class="sp-label" id="lbl-rem">取整后的零头</span>
+        <div class="sp-seg sp-rem" role="group" aria-labelledby="lbl-rem">
+          <button type="button" class="sp-seg-btn" data-rem="h" aria-pressed="true">发起人承担</button>
+          <button type="button" class="sp-seg-btn" data-rem="e" aria-pressed="false">大家平摊</button>
+        </div>
+        <p class="sp-note" id="rem-host-note" hidden>名单里的第一位是发起人。</p>
+      </div>
+    </div>
+
+    <div class="sp-card sp-out" id="out">
+      <p class="sp-lead" id="out-lead">输入总额，每人应付金额会显示在这里。</p>
+      <div id="out-body" hidden>
+        <p class="sp-grand-t">待分摊总额</p>
+        <p class="sp-grand" id="out-grand"></p>
+        <p class="sp-break" id="out-break"></p>
+        <ul class="sp-shares" id="out-shares"></ul>
+        <p class="sp-ok" id="out-sum"></p>
+      </div>
+      <p class="sp-err" id="out-err" role="alert" hidden></p>
+    </div>
+
+    <div class="sp-card sp-pay">
+      <label class="sp-switch"><input type="checkbox" id="pay-toggle" role="switch"><span class="sp-switch-ui" aria-hidden="true"></span><span class="sp-switch-t">已经有人垫付了</span></label>
+      <div id="pay-box" hidden>
+        <div id="payer-list" class="sp-payers"></div>
+        <button type="button" id="add-payer" class="sp-add">+ 再加一位垫付人</button>
+        <p class="sp-note">如果是一个人付了全款，金额留空即可。</p>
+        <p class="sp-label sp-sub">谁转给谁</p>
+        <ul class="sp-transfers" id="transfers"></ul>
+        <p class="sp-ok" id="pay-sum"></p>
+      </div>
+    </div>
+
+    <div class="sp-actions">
+      <button type="button" id="copy-btn" class="sp-btn sp-btn-ghost">复制结果</button>
+      <button type="button" id="link-btn" class="sp-btn sp-btn-ghost">生成分享链接</button>
+    </div>
+    <p class="sp-hint">小数点可以输入“.”或“,”。</p>
+
+    <button type="button" id="finish-btn" class="sp-btn sp-btn-primary">完成，查看汇总 ✓</button>
+    <p class="sp-local">所有计算都在你的设备上完成，姓名和金额不会上传到服务器。</p>
+    <p id="finish-err" class="sp-error" role="alert" hidden></p>
+
+    <div id="result" class="sp-result" hidden>
+      <article id="summary-card" class="sp-summary" aria-labelledby="sum-title">
+        <h2 class="sp-h2" id="sum-title">AA账单汇总</h2>
+        <p class="sp-grand" id="sum-grand"></p>
+        <p class="sp-break" id="sum-break"></p>
+        <ul class="sp-shares" id="sum-shares"></ul>
+        <div id="sum-pay" hidden>
+          <p class="sp-label sp-sub">谁转给谁</p>
+          <ul class="sp-transfers" id="sum-transfers"></ul>
+        </div>
+        <p class="sp-note">复制结果，发给大家吧。</p>
+        <button type="button" id="sum-copy" class="sp-btn sp-btn-ghost">复制结果</button>
+        <p class="sp-brand">💸 AA制计算器</p>
+      </article>
+      <p id="live" class="visually-hidden" aria-live="polite"></p>
+      <div data-mg-end="split"></div>
+    </div>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> AA制计算器 · <a href="privacy.html">隐私政策</a> · <a href="guide.html">攻略</a>
+  </footer>
+</main>
+
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"zh","ui":{"modeLabel":"分摊方式","modeEven":"平均分","modeItems":"按菜品分","currency":"币种","total":"账单总额","people":"人数","minus":"减少一人","plus":"增加一人","tipLabel":"服务费/小费","tipMore":"+ 加服务费/小费","tipNone":"不加","tipOther":"其他 %","taxLabel":"税费","extrasMore":"+ 税费和小费","roundLabel":"每人金额取整到","remainderLabel":"取整后的零头","remHost":"发起人承担","remEven":"大家平摊","remHostItems":"名单里的第一位是发起人。","peopleTitle":"参与的人","namePh":"名字","personN":"第{n}位","me":"我","addPerson":"+ 添加人员","removePerson":"删除{name}","itemsTitle":"点了什么","itemPh":"菜品","pricePh":"价格","sharedBy":"谁一起吃","addItem":"+ 添加菜品","removeItem":"删除菜品","waiting":"输入总额，每人应付金额会显示在这里。","waitingItems":"添加菜品和价格，每个人应付的金额会显示在这里。","grand":"待分摊总额","subLine":"账单 {sub}","taxLine":"税费 {amount}","tipLine":"服务费/小费 {amount}","each":"每人应付","groupLine":"{amount} × {n}人","hostLine":"发起人应付 {amount}","personLine":"菜品 {sub} + 税费和小费 {extra}","sumOk":"各人金额合计正好是 {total} ✓","payToggle":"已经有人垫付了","payer":"垫付人","paidPh":"金额","addPayer":"+ 再加一位垫付人","removePayer":"删除垫付人","payFullHint":"如果是一个人付了全款，金额留空即可。","transfersTitle":"谁转给谁","transfer":"{from} → {to} {amount}","noTransfers":"已经两清，谁也不欠谁。","paidOk":"垫付金额与总额一致 ✓","paidOver":"垫付金额比总额多了 {diff}。","paidUnder":"垫付金额比总额少了 {diff}。","copy":"复制结果","copied":"已复制！粘贴到微信群里就行。","link":"生成分享链接","linkCopied":"链接已复制，打开后会显示这些数字。","finish":"完成，查看汇总 ✓","needOne":"请先输入总额，或添加带价格的菜品。","localNote":"所有计算都在你的设备上完成，姓名和金额不会上传到服务器。","decimalHint":"小数点可以输入“.”或“,”。","sharedNote":"你是通过分享链接打开的，可以随意修改。","summaryTitle":"AA账单汇总","summaryNote":"复制结果，发给大家吧。","again":"重新计算","copyHead":"💸 AA账单","copyTotal":"共 {total}·{n}人","copyTransfers":"需要转账：","shareTitle":"AA制计算器","shareText":"平均分或按菜品分摊，含服务费和转账清单 💸"},"errors":{"badNum":"请只输入数字，小数点用“.”或“,”。","tooBig":"金额太大了，请检查一下。","badPct":"请输入 0 到 100 之间的百分比。","peopleRange":"人数请选择 2 到 30 人。","noSharer":"请至少为“{item}”选一位分摊的人。","badLink":"这个链接无法读取，计算器将从空白开始。"},"cur":{"def":"CNY","local":""},"tip":{"presets":[5,10],"open":false}};</script>
+<script>window.MG_FAQ = [{"q":"大家点的菜不一样，怎么AA？","a":"切换到“按菜品分”，填上每个人的名字，再逐个录入菜品和价格，点选谁一起吃。税费和服务费会按每人点的金额比例分摊，只吃了沙拉的人自然比点了牛排和红酒的人付得少。"},{"q":"为什么有人会多付几分钱？","a":"账单不一定能刚好除尽。100元三个人平摊，每人33.33元，加起来是99.99元，还差1分。这1分会由发起人多出；选“大家平摊”的话，零头会分给不同的人，这样总额始终分毫不差。"},{"q":"AA时服务费要怎么处理？","a":"如果账单总额已经含了服务费，直接填总额，不用再加。如果餐厅另收服务费，或者你想给小费，就在“服务费/小费”里选 5%、10%，也可以自己输入，按菜品分摊时会按每人点的金额比例分担。"},{"q":"“谁转给谁”是怎么算出来的？","a":"打开“已经有人垫付了”，填上谁付了多少。计算器会把每个人实际付的钱和应付的份额做对比，列出转账次数最少的结算方案，比如：小王 → 小李 24.50元。"}];</script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+<script src="./split-core.js"></script>
+<script src="./split.js"></script>
+</body>
+</html>

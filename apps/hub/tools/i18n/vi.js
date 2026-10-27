@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'santa',
+        kicker: "Bốc thăm bí mật",
+        headline: "Bạn sẽ tặng quà cho ai?",
+        blurb: "Nhập tên, bốc thăm rồi chuyền điện thoại. Chỉ bạn thấy kết quả.",
+      },
+      {
+        id: 'split',
+        kicker: "Ăn xong rồi",
+        headline: "Chia tiền trong vài giây",
+        blurb: "Chia đều hoặc theo món, biết luôn ai chuyển cho ai.",
+      },
+      {
         id: 'horror',
         kicker: "Tắt đèn, sẵn bỏng ngô",
         headline: "Bạn có sống sót trong phim kinh dị?",

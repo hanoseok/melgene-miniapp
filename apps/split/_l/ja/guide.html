@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>割り勘計算：端数・幹事の立て替え・割り勘アプリ</title>
+<meta name="description" content="飲み会やランチの会計を均等割りや品目別で割り勘にし、サービス料・消費税・チップ、10円単位の端数処理、幹事が立て替えた分の最小回数の精算方法までわかりやすく解説します。">
+<link rel="canonical" href="https://split.example.com/ja/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://split.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://split.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://split.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://split.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://split.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://split.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://split.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://split.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://split.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://split.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://split.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://split.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://split.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="割り勘計算：端数・幹事の立て替え・割り勘アプリ">
+<meta property="og:description" content="飲み会やランチの会計を均等割りや品目別で割り勘にし、サービス料・消費税・チップ、10円単位の端数処理、幹事が立て替えた分の最小回数の精算方法までわかりやすく解説します。">
+<meta property="og:image" content="https://split.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://split.example.com/ja/guide.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-28">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://split.example.com/ja/guide.html#article","headline":"割り勘計算：公平に分けて素早く精算するコツ","description":"飲み会やランチの会計を均等割りや品目別で割り勘にし、サービス料・消費税・チップ、10円単位の端数処理、幹事が立て替えた分の最小回数の精算方法までわかりやすく解説します。","inLanguage":"ja","datePublished":"2026-10-28","dateModified":"2026-10-28","author":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"mainEntityOfPage":"https://split.example.com/ja/guide.html","url":"https://split.example.com/ja/guide.html","about":{"@type":"WebApplication","name":"割り勘計算","url":"https://split.example.com/ja/"},"image":"https://split.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"割り勘計算","item":"https://split.example.com/ja/"},{"@type":"ListItem","position":3,"name":"割り勘計算：公平に分けて素早く精算するコツ","item":"https://split.example.com/ja/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><span class="mg-top-app">割り勘計算</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">メルジン ミニアプリ</a><span aria-hidden="true">›</span><a href="./">割り勘計算</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">💸</span>割り勘計算</p>
+    <h1>割り勘計算：公平に分けて素早く精算するコツ</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-28">更新日 2026年10月28日</time></p>
+    <p class="mg-art-intro">会計の紙を見ると、みんなで取り分けた料理、お酒を飲まなかった友人、サービス料、人数で割り切れない合計と、悩みどころがいくつも出てきます。この記事では、割り勘計算の使い方、均等割りが向くケースと向かないケース、国ごとに違うチップやサービス料の習慣、端数の考え方、そして幹事が先に払ったときに振込回数を減らす精算の方法を紹介します。</p>
+    <section>
+      <h2>割り勘計算の使い方</h2>
+      <p>モードは二つあります。「均等に割る」では合計金額と人数（2〜30人）を入れ、会計に入っていないサービス料やチップがあればパーセントを足します。一人あたりの金額が表示され、端数を丸める単位（1円・10円・100円など）と、丸めたあとに残る端数を誰が負担するかも選べます。</p>
+      <p>「品目別に割る」では、参加者の名前（最大20人）と、料理や飲み物の名前と値段を入力します。品目は初期状態で全員で分けたことになるので、食べていない人だけをオフにします。消費税やサービス料のパーセントは、各自の注文額に比例して上乗せされるため、少なく食べた人の負担が増えません。計算はすべてブラウザ内で行われ、サーバーには送信されません。</p>
+      <ul>
+        <li>通貨は円が基本で、小数点はピリオドでもカンマでも入力できます。</li>
+        <li>「結果をコピー」で、LINEのグループにそのまま貼れる文章ができます。</li>
+        <li>「リンクで共有」は入力内容をURLの#以降に入れるので、アカウント不要で同じ計算を開けます。</li>
+        <li>前回の入力はこの端末にだけ保存されます。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>均等割りと品目別、どちらが公平か</h2>
+      <p>全員がだいたい同じものを頼んだとき、料理を皆でシェアしたとき、金額が小さくて細かく分けるのが気まずいときは、均等割りがいちばん早くて角が立ちません。居酒屋の宴会、焼肉、鍋、ピザのシェアなどが当てはまります。正確に分ける手間のほうが、節約できる額より大きいこともよくあります。</p>
+      <p>注文内容がはっきり違うなら、品目別がおすすめです。一人がビールを三杯と刺身を食べ、もう一人がお茶漬けとお茶だけだった場合、均等割りでは少食の人が知らないうちに他の人を支えることになります。品目別なら税やサービス料も比例して分けられるので、紙に計算する必要がありません。</p>
+      <ul>
+        <li>取り分けた料理は、その品目を全員オンのままにします。</li>
+        <li>お酒を飲まない人がいるとき：飲み物は品目別、料理は均等に分けます。</li>
+        <li>誕生日の人：ふつうは皆で負担するので、品目から外すか他の人で分けます。</li>
+        <li>二次会まである場合：店ごとに別計算にすると途中で帰った人も納得できます。</li>
+      </ul>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>国ごとのチップ・サービス料・税の習慣</h2>
+      <p>割る前の合計金額は、習慣によっても変わります。日本では基本的にチップは不要で、表示価格に消費税が含まれていることが多いため、チップは0のままで構いません。居酒屋でお通し代が付くことや、高級店でサービス料10〜15%が加算されることがあるので、会計の内訳を一度確認しましょう。韓国や中国も、基本的にチップの習慣はありません。</p>
+      <p>海外では事情が違います。アメリカではレジで売上税が加算され、レストランでは15〜20%のチップが目安なので、計算機にも15・18・20%のプリセットがあります。イギリスやヨーロッパではサービス料が含まれている店が多く、「service included」と書かれていないか確認します。ブラジルでは10%のサービス料（serviço）が会計に入り、タイではサービス料とVATが別に付く店もあり、ロシアでは10%前後のチップが一般的です。</p>
+    </section>
+    <section>
+      <h2>端数の丸めと余りの扱い</h2>
+      <p>合計は人数でうまく割り切れないことがほとんどです。10,000円を3人で割ると3,333.33円ですが、1円未満は払えませんし、10円単位や100円単位にそろえたい場合もあります。全員を四捨五入すると合計が会計と合わなくなり、誰かが差額を埋めなければなりません。この計算機は金額を円単位の整数で扱い、余りが誰に行くかをはっきり示すので、合計は必ず会計と一致します。</p>
+      <p>例えば10,000円を3人で10円単位に丸めると、二人が3,330円ずつ払い、幹事（ホスト）が残りの3,340円を払います。3,330＋3,330＋3,340＝10,000円でぴったりです。余りを幹事が負担する方法のほかに、余りを複数人に少しずつ振り分けて、一人だけが背負わないようにすることもできます。</p>
+      <ul>
+        <li>幹事が余りを負担：簡単で、幹事が気持ちよく引き受けることも多いです。</li>
+        <li>余りを分散：人による差は丸め単位ひとつぶん以内におさまります。</li>
+        <li>単位を大きくすると切りのいい数字になりますが、余りも大きくなります。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>立て替えた人への精算とマナー</h2>
+      <p>多くの場合、幹事などひとりがまとめてカードで払い、他の人が後から返します。任意の「先に払った人」に払った人と金額を入れると、「田中 → 佐藤 1,250円」のような短い振込リストが出ます。振込回数が最小になるよう計算し、入力した支払額の合計が総額と一致するかも確認するので、入力ミスは送金前に気づけます。</p>
+      <p>次のような習慣を守ると、あとあと気まずくなりません。記憶が新しい当日中に返すこと、コピーした結果をグループのトークに貼って記録を一本化すること、PayPayなど相手も使っている送金アプリを使い、メモにお店の名前を添えることです。誕生日の人には払わせず、数円の差で催促しないのがおたがいに楽です。</p>
+      <ul>
+        <li>できれば当日中、その場で精算します。</li>
+        <li>集金と支払いは幹事ひとりにまとめると、お店への支払いも一回で済みます。</li>
+        <li>共有リンクやコピーした文章を残しておくと、あとで確認できます。</li>
+      </ul>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">💸</span>割り勘を計算する</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> メルジン ミニアプリ · <a href="./">割り勘計算</a> · <a href="privacy.html">プライバシーポリシー</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

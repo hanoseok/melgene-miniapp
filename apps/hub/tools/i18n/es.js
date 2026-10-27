@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'santa',
+        kicker: "Sorteo en secreto",
+        headline: "¿A quién le regalas?",
+        blurb: "Escribe los nombres, sortea y pasa el móvil. Cada uno ve solo el suyo.",
+      },
+      {
+        id: 'split',
+        kicker: "Llegó la cuenta",
+        headline: "Divide la cuenta al instante",
+        blurb: "A partes iguales o por plato, con propina y quién paga a quién.",
+      },
+      {
         id: 'horror',
         kicker: "Apaga la luz…",
         headline: "¿Sobrevivirías a una peli de terror?",

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'santa',
+        kicker: "Tirage en secret",
+        headline: "Qui sera ton Père Noël secret ?",
+        blurb: "Ajoute les noms, tire au sort, fais tourner le téléphone.",
+      },
+      {
+        id: 'split',
+        kicker: "L’addition arrive",
+        headline: "Partager l’addition en un clin d’œil",
+        blurb: "À parts égales ou par plat, avec pourboire et remboursements.",
+      },
+      {
         id: 'horror',
         kicker: "Lumières éteintes…",
         headline: "Survivrais-tu à un film d’horreur ?",

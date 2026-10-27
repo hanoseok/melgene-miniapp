@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'santa',
+        kicker: "Geheim auslosen",
+        headline: "Wen beschenkst du beim Wichteln?",
+        blurb: "Namen eingeben, losen, Handy weiterreichen – jeder sieht nur seins.",
+      },
+      {
+        id: 'split',
+        kicker: "Nach dem Essen",
+        headline: "Rechnung teilen in Sekunden",
+        blurb: "Gleichmäßig oder pro Gericht, mit Trinkgeld und Ausgleich.",
+      },
+      {
         id: 'horror',
         kicker: "Licht aus, Popcorn bereit",
         headline: "Würdest du den Horrorfilm überleben?",

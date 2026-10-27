@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbf6ec">
+<title>割り勘計算｜端数処理・立て替え精算 | メルジン ミニアプリ</title>
+<meta name="description" content="割り勘を均等割りでも品目別でも計算。サービス料・チップや端数の丸めに対応し、幹事が立て替えたときは誰が誰にいくら払えばいいかもすぐ分かります。">
+<link rel="canonical" href="https://split.example.com/ja/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://split.example.com/">
+<link rel="alternate" hreflang="ja" href="https://split.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://split.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://split.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://split.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://split.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://split.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://split.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://split.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://split.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://split.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://split.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://split.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="メルジン ミニアプリ">
+<meta property="og:title" content="割り勘計算 💸 誰がいくら払う？すぐ分かる">
+<meta property="og:description" content="均等割りも品目別も。サービス料と端数を整えて、精算のやり取りを最短にまとめます。">
+<meta property="og:image" content="https://split.example.com/og/ja/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://split.example.com/ja/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&amp;display=swap">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./style.css">
+<style>:root { --font-display: 'M PLUS Rounded 1c', var(--font-sans); --display-weight: 800; --wb: auto-phrase; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://split.example.com/ja/#app","name":"割り勘計算","description":"割り勘を均等割りでも品目別でも計算。サービス料・チップや端数の丸めに対応し、幹事が立て替えたときは誰が誰にいくら払えばいいかもすぐ分かります。","url":"https://split.example.com/ja/","inLanguage":"ja","applicationCategory":"MultimediaApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"メルジン ミニアプリ","url":"https://example.com/ja/"},"image":"https://split.example.com/og/ja/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"メルジン ミニアプリ","item":"https://example.com/ja/"},{"@type":"ListItem","position":2,"name":"割り勘計算","item":"https://split.example.com/ja/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="sp-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="メルジン ミニアプリのホームへ"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">ミニアプリ</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="言語を選択"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja" selected>日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="言語を選択"><a href="./" hreflang="en" lang="en">English</a> <a href="./" hreflang="ja" lang="ja">日本語</a> <a href="./" hreflang="zh" lang="zh">简体中文</a> <a href="./" hreflang="ko" lang="ko">한국어</a> <a href="./" hreflang="fr" lang="fr">Français</a> <a href="./" hreflang="de" lang="de">Deutsch</a> <a href="./" hreflang="th" lang="th">ไทย</a> <a href="./" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="./" hreflang="it" lang="it">Italiano</a> <a href="./" hreflang="pt" lang="pt">Português</a> <a href="./" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="sp-shell">
+  <!-- 첫 화면(시작 화면이 따로 없는 도구 앱): h1·훅 → 입력 카드(방법·통화 → 똑같이/항목별 → 정리 단위·끝돈) → 결과 카드(+ 먼저 낸 사람 정산)
+       → 결과 복사·링크 → 정산 완료 → (완료 뒤) 요약 + 공통 끝 화면 → 맨 아래 mg-ad-start 1개 -->
+  <section id="screen-split" class="sp-screen">
+    <div class="sp-logo" aria-hidden="true"><span>💸</span></div>
+    <h1 class="sp-h1"><span class="sp-kicker">割り勘計算</span><span class="sp-h1-main">割り勘は、<em>気まずくならず</em>サクッと</span></h1>
+    <p class="sp-hook">合計と人数を入れるか、誰が何を頼んだかを入力するだけ。サービス料・端数・立て替えの精算までおまかせ。</p>
+    <p id="shared-note" class="sp-shared" hidden>共有リンクから開きました。自由に変更できます。</p>
+
+    <div class="sp-card sp-inputs">
+      <div class="sp-top">
+        <div class="sp-seg sp-mode" role="group" aria-label="割り方">
+          <button type="button" class="sp-seg-btn" data-mode="a" aria-pressed="true">均等に割る</button>
+          <button type="button" class="sp-seg-btn" data-mode="b" aria-pressed="false">品目ごと</button>
+        </div>
+        <label class="sp-cur"><span class="visually-hidden">通貨</span><select id="currency" aria-label="通貨"><option value="KRW">KRW</option><option value="JPY" selected>JPY</option><option value="CNY">CNY</option><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="BRL">BRL</option><option value="THB">THB</option><option value="VND">VND</option><option value="RUB">RUB</option></select></label>
+      </div>
+
+      <div id="box-a" class="sp-box" data-box="a">
+        <div class="sp-field"><label class="sp-label" for="in-total">合計金額</label>
+          <div class="sp-inwrap"><input id="in-total" class="sp-input sp-input-big" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" enterkeyhint="done"><span class="sp-suffix" data-sym aria-hidden="true"></span></div>
+        </div>
+        <div class="sp-field"><span class="sp-label" id="lbl-people">人数</span>
+          <div class="sp-stepper" role="group" aria-labelledby="lbl-people">
+            <button type="button" class="sp-step" id="people-minus" aria-label="1人減らす">−</button>
+            <input id="in-people" class="sp-input sp-input-n" type="text" inputmode="numeric" autocomplete="off" aria-labelledby="lbl-people" value="2">
+            <button type="button" class="sp-step" id="people-plus" aria-label="1人増やす">+</button>
+          </div>
+        </div>
+        <button type="button" id="tip-more-a" class="sp-more" aria-expanded="false" aria-controls="tip-a">+ サービス料・チップを追加</button>
+        <div id="tip-a" class="sp-extra" hidden>
+          <span class="sp-label" id="lbl-tip-a">サービス料</span>
+          <div class="sp-chips" data-tip-chips="a" role="group" aria-labelledby="lbl-tip-a"></div>
+        </div>
+      </div>
+
+      <div id="box-b" class="sp-box" data-box="b" hidden>
+        <p class="sp-label sp-sub">参加者</p>
+        <div id="people-list" class="sp-people"></div>
+        <button type="button" id="add-person" class="sp-add">+ 人を追加</button>
+        <p class="sp-label sp-sub">注文したもの</p>
+        <div id="item-list" class="sp-items"></div>
+        <button type="button" id="add-item" class="sp-add">+ 品目を追加</button>
+        <button type="button" id="tip-more-b" class="sp-more" aria-expanded="false" aria-controls="tip-b">+ 税・サービス料</button>
+        <div id="tip-b" class="sp-extra" hidden>
+          <div class="sp-field sp-field-pct"><label class="sp-label" for="in-tax">消費税</label>
+            <div class="sp-inwrap"><input id="in-tax" class="sp-input" type="text" inputmode="decimal" autocomplete="off" spellcheck="false"><span class="sp-suffix" aria-hidden="true">%</span></div>
+          </div>
+          <span class="sp-label" id="lbl-tip-b">サービス料</span>
+          <div class="sp-chips" data-tip-chips="b" role="group" aria-labelledby="lbl-tip-b"></div>
+        </div>
+      </div>
+
+      <div class="sp-round">
+        <span class="sp-label" id="lbl-unit">端数を丸める単位</span>
+        <div class="sp-chips" id="unit-chips" role="group" aria-labelledby="lbl-unit"></div>
+        <span class="sp-label" id="lbl-rem">丸めで余った分</span>
+        <div class="sp-seg sp-rem" role="group" aria-labelledby="lbl-rem">
+          <button type="button" class="sp-seg-btn" data-rem="h" aria-pressed="true">幹事が負担</button>
+          <button type="button" class="sp-seg-btn" data-rem="e" aria-pressed="false">みんなで分ける</button>
+        </div>
+        <p class="sp-note" id="rem-host-note" hidden>リストの先頭の人が幹事です。</p>
+      </div>
+    </div>
+
+    <div class="sp-card sp-out" id="out">
+      <p class="sp-lead" id="out-lead">合計を入力すると、1人分の金額がここに表示されます。</p>
+      <div id="out-body" hidden>
+        <p class="sp-grand-t">割り勘する金額</p>
+        <p class="sp-grand" id="out-grand"></p>
+        <p class="sp-break" id="out-break"></p>
+        <ul class="sp-shares" id="out-shares"></ul>
+        <p class="sp-ok" id="out-sum"></p>
+      </div>
+      <p class="sp-err" id="out-err" role="alert" hidden></p>
+    </div>
+
+    <div class="sp-card sp-pay">
+      <label class="sp-switch"><input type="checkbox" id="pay-toggle" role="switch"><span class="sp-switch-ui" aria-hidden="true"></span><span class="sp-switch-t">立て替えた人がいる</span></label>
+      <div id="pay-box" hidden>
+        <div id="payer-list" class="sp-payers"></div>
+        <button type="button" id="add-payer" class="sp-add">+ 支払った人を追加</button>
+        <p class="sp-note">全額を1人が払った場合は、金額を空欄のままにしてください。</p>
+        <p class="sp-label sp-sub">精算（誰が誰にいくら）</p>
+        <ul class="sp-transfers" id="transfers"></ul>
+        <p class="sp-ok" id="pay-sum"></p>
+      </div>
+    </div>
+
+    <div class="sp-actions">
+      <button type="button" id="copy-btn" class="sp-btn sp-btn-ghost">結果をコピー</button>
+      <button type="button" id="link-btn" class="sp-btn sp-btn-ghost">リンクで共有</button>
+    </div>
+    <p class="sp-hint">小数点は「.」でも「,」でも入力できます。</p>
+
+    <button type="button" id="finish-btn" class="sp-btn sp-btn-primary">完了・まとめを見る ✓</button>
+    <p class="sp-local">計算はお使いの端末内で行われます。名前や金額がサーバーに送られることはありません。</p>
+    <p id="finish-err" class="sp-error" role="alert" hidden></p>
+
+    <div id="result" class="sp-result" hidden>
+      <article id="summary-card" class="sp-summary" aria-labelledby="sum-title">
+        <h2 class="sp-h2" id="sum-title">割り勘のまとめ</h2>
+        <p class="sp-grand" id="sum-grand"></p>
+        <p class="sp-break" id="sum-break"></p>
+        <ul class="sp-shares" id="sum-shares"></ul>
+        <div id="sum-pay" hidden>
+          <p class="sp-label sp-sub">精算（誰が誰にいくら）</p>
+          <ul class="sp-transfers" id="sum-transfers"></ul>
+        </div>
+        <p class="sp-note">結果をコピーして、みんなに送りましょう。</p>
+        <button type="button" id="sum-copy" class="sp-btn sp-btn-ghost">結果をコピー</button>
+        <p class="sp-brand">💸 割り勘計算</p>
+      </article>
+      <p id="live" class="visually-hidden" aria-live="polite"></p>
+      <div data-mg-end="split"></div>
+    </div>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 割り勘計算 · <a href="privacy.html">プライバシーポリシー</a> · <a href="guide.html">ガイド</a>
+  </footer>
+</main>
+
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"ja","ui":{"modeLabel":"割り方","modeEven":"均等に割る","modeItems":"品目ごと","currency":"通貨","total":"合計金額","people":"人数","minus":"1人減らす","plus":"1人増やす","tipLabel":"サービス料","tipMore":"+ サービス料・チップを追加","tipNone":"なし","tipOther":"その他 %","taxLabel":"消費税","extrasMore":"+ 税・サービス料","roundLabel":"端数を丸める単位","remainderLabel":"丸めで余った分","remHost":"幹事が負担","remEven":"みんなで分ける","remHostItems":"リストの先頭の人が幹事です。","peopleTitle":"参加者","namePh":"名前","personN":"{n}人目","me":"自分","addPerson":"+ 人を追加","removePerson":"{name}を削除","itemsTitle":"注文したもの","itemPh":"品名","pricePh":"金額","sharedBy":"一緒に食べた人","addItem":"+ 品目を追加","removeItem":"品目を削除","waiting":"合計を入力すると、1人分の金額がここに表示されます。","waitingItems":"品目と金額を追加すると、1人ずつの金額がここに表示されます。","grand":"割り勘する金額","subLine":"会計 {sub}","taxLine":"税 {amount}","tipLine":"サービス料・チップ {amount}","each":"1人あたり","groupLine":"{amount} × {n}人","hostLine":"幹事の支払い {amount}","personLine":"品目 {sub} + 税・サービス料 {extra}","sumOk":"合計がぴったり {total} になりました ✓","payToggle":"立て替えた人がいる","payer":"支払った人","paidPh":"金額","addPayer":"+ 支払った人を追加","removePayer":"支払った人を削除","payFullHint":"全額を1人が払った場合は、金額を空欄のままにしてください。","transfersTitle":"精算（誰が誰にいくら）","transfer":"{from} → {to} {amount}","noTransfers":"ぴったり精算済みです。貸し借りはありません。","paidOk":"支払額が合計と一致しています ✓","paidOver":"支払額が合計より{diff}多いです。","paidUnder":"支払額が合計より{diff}足りません。","copy":"結果をコピー","copied":"コピーしました！グループLINEに貼り付けてください。","link":"リンクで共有","linkCopied":"リンクをコピーしました。この金額のまま開きます。","finish":"完了・まとめを見る ✓","needOne":"まず合計金額か、金額つきの品目を入力してください。","localNote":"計算はお使いの端末内で行われます。名前や金額がサーバーに送られることはありません。","decimalHint":"小数点は「.」でも「,」でも入力できます。","sharedNote":"共有リンクから開きました。自由に変更できます。","summaryTitle":"割り勘のまとめ","summaryNote":"結果をコピーして、みんなに送りましょう。","again":"新しく計算する","copyHead":"💸 割り勘","copyTotal":"合計 {total}・{n}人","copyTransfers":"精算：","shareTitle":"割り勘計算","shareText":"均等割りも品目別も、サービス料や精算までまとめて計算 💸"},"errors":{"badNum":"数字のみ入力してください（小数点は「.」か「,」）。","tooBig":"金額が大きすぎます。入力を確認してください。","badPct":"0〜100の間のパーセントを入力してください。","peopleRange":"人数は2〜30人で選んでください。","noSharer":"「{item}」を分ける人を1人以上選んでください。","badLink":"このリンクは読み取れなかったため、空の状態で始めます。"},"cur":{"def":"JPY","local":"{n}円"},"tip":{"presets":[10],"open":false}};</script>
+<script>window.MG_FAQ = [{"q":"みんなが違うものを頼んだとき、どう割り勘すればいいですか？","a":"「品目ごと」に切り替えて、参加者の名前を入れ、料理ごとに金額と一緒に食べた人を選びます。税やサービス料は注文額に応じて按分されるので、サラダだけの人はステーキとワインを頼んだ人より安くなります。"},{"q":"なぜ1円だけ多く払う人が出るのですか？","a":"会計はいつも割り切れるとは限りません。10,000円を3人で割ると3,333円ずつで、合計は9,999円になり1円余ります。この端数は幹事が負担するか、「みんなで分ける」を選ぶと別々の人に1円ずつ振り分けられ、合計は必ず元の金額と一致します。"},{"q":"100円単位などで端数をきれいに丸められますか？","a":"「端数を丸める単位」で、切りのいい金額にそろえられます。丸めて出た過不足は、幹事が負担するか、みんなで分けるかを選べるので、合計が崩れることはありません。"},{"q":"「誰が誰にいくら」はどう決まりますか？","a":"「立て替えた人がいる」をオンにして、支払った人と金額を入力します。各自が払った額と負担額を比べ、いちばん少ない回数で済む送金にまとめます。例：佐藤 → 田中 2,450円。"}];</script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+<script src="./split-core.js"></script>
+<script src="./split.js"></script>
+</body>
+</html>

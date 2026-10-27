@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 59,
+  "numberOfItems": 61,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -493,6 +493,20 @@
       "url": "https://horror.example.com/",
       "name": "Sobrevivência no terror",
       "description": "11 cenas clássicas de filme de terror, 2 minutos. Que personagem você seria e chegaria vivo aos créditos? Só por diversão."
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "url": "https://split.example.com/",
+      "name": "Calculadora de dividir conta",
+      "description": "Divida a conta igualmente ou pelo que cada um pediu, com os 10% e arredondamento, e veja quem manda Pix para quem quando alguém pagou tudo."
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "url": "https://santa.example.com/",
+      "name": "Sorteio amigo secreto",
+      "description": "Faça o sorteio do amigo secreto em um celular só e passe adiante: cada um vê em segredo só quem vai presentear. Com valor, data e casais que não se tiram."
     }
   ]
 }
@@ -568,6 +582,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="split">
+        <a class="cur-card" href="https://split.example.com/" style="--h:98;--h2:80">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Chegou a conta</span></span>
+            <h3 class="cur-headline">Divida a conta na hora</h3>
+            <span class="cur-giant" aria-hidden="true">💸</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Igual para todos ou por item, com gorjeta e quem paga quem.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Calculadora de dividir conta</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="santa">
+        <a class="cur-card" href="https://santa.example.com/" style="--h:327;--h2:309">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Sorteio secreto</span></span>
+            <h3 class="cur-headline">Quem é o seu amigo secreto?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Coloque os nomes, sorteie e passe o celular. Cada um vê só o seu.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sorteio amigo secreto</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bat">
         <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
           <span class="cur-art">
@@ -632,10 +678,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="stack">
+      <li class="cur-item" data-id="stack" hidden>
         <a class="cur-card" href="https://stack.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Só mais um bloco…</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span></span><span class="cur-kicker">Só mais um bloco…</span></span>
             <h3 class="cur-headline">Empilhe até o céu</h3>
             <span class="cur-giant" aria-hidden="true">🏗️</span>
           </span>
@@ -648,10 +694,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="color">
+      <li class="cur-item" data-id="color" hidden>
         <a class="cur-card" href="https://color.example.com/" style="--h:181;--h2:163">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Ouro ou prata?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span><span class="cur-kicker">Ouro ou prata?</span></span>
             <h3 class="cur-headline">Descubra sua estação</h3>
             <span class="cur-giant" aria-hidden="true">🎨</span>
           </span>
@@ -667,7 +713,7 @@
       <li class="cur-item" data-id="percent" hidden>
         <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Conta rápida</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span><span class="cur-kicker">Conta rápida</span></span>
             <h3 class="cur-headline">Quanto é 15%?</h3>
             <span class="cur-giant" aria-hidden="true">💯</span>
           </span>
@@ -683,7 +729,7 @@
       <li class="cur-item" data-id="race" hidden>
         <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Quem paga o café?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span><span class="cur-kicker">Quem paga o café?</span></span>
             <h3 class="cur-headline">Uma corrida de bichos decide</h3>
             <span class="cur-giant" aria-hidden="true">🏁</span>
           </span>
@@ -696,45 +742,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snake" hidden>
-        <a class="cur-card" href="https://snake.example.com/" style="--h:138;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Arcade clássico</span></span>
-            <h3 class="cur-headline">Coma maçãs e cresça</h3>
-            <span class="cur-giant" aria-hidden="true">🐍</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Deslize para virar. A cada mordida, mais rápido.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Jogo da cobrinha</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="homebody" hidden>
-        <a class="cur-card" href="https://homebody.example.com/" style="--h:301;--h2:283">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Teste de personalidade</span></span>
-            <h3 class="cur-headline">Quanto você é caseiro?</h3>
-            <span class="cur-giant" aria-hidden="true">🏠</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dez situações do dia a dia, um minuto, sua % de caseiro.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Teste de caseiro</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">59 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">61 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novidades</option><option value="popular">Populares</option><option value="rating">Bem avaliados</option></select>
@@ -756,6 +770,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="split" data-cat="create">
+        <a class="tile-link" href="https://split.example.com/" title="Divida a conta igualmente ou pelo que cada um pediu, com os 10% e arredondamento, e veja quem manda Pix para quem quando alguém pagou tudo." style="--h:98;--h2:80">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Calculadora de dividir conta</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="santa" data-cat="vote">
+        <a class="tile-link" href="https://santa.example.com/" title="Faça o sorteio do amigo secreto em um celular só e passe adiante: cada um vê em segredo só quem vai presentear. Com valor, data e casais que não se tiram." style="--h:327;--h2:309">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Sorteio amigo secreto</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bat" data-cat="game">
         <a class="tile-link" href="https://bat.example.com/" title="Toque para bater as asas e guie o morceguinho entre lápides e árvores assombradas sob a lua cheia. Cada vão vale um ponto." style="--h:277;--h2:259">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NOVO</span></span>
@@ -786,42 +814,42 @@
       </li>
       <li class="tile" data-id="stack" data-cat="game">
         <a class="tile-link" href="https://stack.example.com/" title="Toque para soltar o bloco que desliza e empilhe sua torre o mais alto possível. O que sobra é cortado; perfeitos seguidos alargam o bloco." style="--h:138;--h2:164">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span></span>
           <span class="tile-name">Empilhar blocos</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="color" data-cat="test">
         <a class="tile-link" href="https://color.example.com/" title="12 perguntas na frente do espelho, cerca de 2 minutos. Quente ou fria? Descubra sua cartela." style="--h:181;--h2:163">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span>
           <span class="tile-name">Teste de coloração pessoal</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="percent" data-cat="create">
         <a class="tile-link" href="https://percent.example.com/" title="Calcule X% de Y, quantos por cento um número é de outro, variação percentual, descontos e aumentos, preço original e diferença em pontos percentuais." style="--h:227;--h2:209">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span>
           <span class="tile-name">Calcular porcentagem</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="race" data-cat="vote">
         <a class="tile-link" href="https://race.example.com/" title="Digite os nomes e cada um ganha um bichinho na sua raia. O primeiro vence, ou o último paga o café. Sorteio justo sempre." style="--h:351;--h2:333">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span>
           <span class="tile-name">Corrida de animais</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="snake" data-cat="game">
         <a class="tile-link" href="https://snake.example.com/" title="O clássico jogo da cobrinha: deslize ou use as setas, coma maçãs e cresça sem bater na parede nem no rabo. Fica mais rápido a cada maçã." style="--h:138;--h2:164">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐍</span></span></span>
           <span class="tile-name">Jogo da cobrinha</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="homebody" data-cat="test">
         <a class="tile-link" href="https://homebody.example.com/" title="10 situações do dia a dia, cerca de 1 minuto. Quanto você é caseiro, em %?" style="--h:301;--h2:283">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏠</span></span></span>
           <span class="tile-name">Teste de caseiro</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

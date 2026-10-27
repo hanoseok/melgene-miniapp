@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'santa',
+        kicker: "悄悄抽签",
+        headline: "你要送礼物给谁？",
+        blurb: "输入名字抽签，传手机，每人只看自己的。",
+      },
+      {
+        id: 'split',
+        kicker: "吃完饭了",
+        headline: "AA制一秒算清",
+        blurb: "平均分或按菜品分，还能算出谁该转给谁。",
+      },
+      {
         id: 'horror',
         kicker: "关灯，备好爆米花",
         headline: "你能在恐怖片里活下来吗？",

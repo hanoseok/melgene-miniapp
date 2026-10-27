@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'santa',
+        kicker: "연말 선물 교환",
+        headline: "나의 마니또는 누구?",
+        blurb: "이름 넣고 뽑은 뒤 휴대폰을 돌려요. 내 것만 보여요.",
+      },
+      {
+        id: 'split',
+        kicker: "다 먹었으면",
+        headline: "더치페이 1초 계산",
+        blurb: "N분의 1도, 메뉴별로도. 누가 누구에게 보낼지까지.",
+      },
+      {
         id: 'horror',
         kicker: "불 끄고 팝콘 준비",
         headline: "공포영화 속 나는 살아남을까?",

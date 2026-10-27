@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'santa',
+        kicker: "Draw names in secret",
+        headline: "Who’s your Secret Santa?",
+        blurb: "Add names, draw, then pass the phone. Only you see yours.",
+      },
+      {
+        id: 'split',
+        kicker: "Dinner’s over",
+        headline: "Split the bill in seconds",
+        blurb: "Even split or item by item, with tip and who-owes-whom.",
+      },
+      {
         id: 'horror',
         kicker: "Lights out, popcorn ready",
         headline: "Would you survive a horror movie?",

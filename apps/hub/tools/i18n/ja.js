@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'santa',
+        kicker: "こっそり抽選",
+        headline: "プレゼント交換、誰に贈る？",
+        blurb: "名前を入れて抽選、スマホを回して自分の分だけ確認。",
+      },
+      {
+        id: 'split',
+        kicker: "ごちそうさまの後に",
+        headline: "割り勘をサッと計算",
+        blurb: "均等でもメニュー別でも。誰が誰に払うかまで。",
+      },
+      {
         id: 'horror',
         kicker: "部屋を暗くしてポップコーン",
         headline: "ホラー映画で生き残れる？",

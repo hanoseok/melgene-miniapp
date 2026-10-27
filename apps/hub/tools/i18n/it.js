@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'santa',
+        kicker: "Estrazione segreta",
+        headline: "A chi farai il regalo?",
+        blurb: "Inserisci i nomi, estrai e passa il telefono. Ognuno vede solo il suo.",
+      },
+      {
+        id: 'split',
+        kicker: "Arriva il conto",
+        headline: "Dividi il conto in un attimo",
+        blurb: "In parti uguali o per piatto, con mancia e chi deve a chi.",
+      },
+      {
         id: 'horror',
         kicker: "Luci spente, popcorn pronti",
         headline: "Sopravvivresti a un film horror?",
