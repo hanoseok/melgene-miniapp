@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'newyear',
+        kicker: "Schon jetzt",
+        headline: "Was bringt dir 2027?",
+        blurb: "Ein paar schnelle Antworten – dein Jahresthema und deine Glücksfarbe.",
+      },
+      {
+        id: 'block',
+        kicker: "Nur noch eine Runde",
+        headline: "Blöcke legen, Reihen räumen",
+        blurb: "Fülle Reihen und Spalten, um sie zu leeren. Kombos für Serien!",
+      },
+      {
         id: 'santa',
         kicker: "Geheim auslosen",
         headline: "Wen beschenkst du beim Wichteln?",

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 61,
+  "numberOfItems": 63,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -507,6 +507,20 @@
       "url": "https://santa.example.com/",
       "name": "Tirage Secret Santa",
       "description": "Tirez au sort votre Secret Santa sur un seul téléphone, puis faites-le passer : chacun découvre en secret à qui offrir. Budget, date et couples exclus."
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "url": "https://block.example.com/",
+      "name": "Puzzle de blocs",
+      "description": "Glisse trois pièces sur une grille 8×8. Remplis une ligne ou une colonne pour l’effacer et enchaîne les combos."
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "url": "https://newyear.example.com/",
+      "name": "Test du Nouvel An 2027",
+      "description": "11 petites questions, 2 minutes. Quel est ton mot-clé pour 2027, avec couleur, mois et objet porte-bonheur ? Juste pour rire."
     }
   ]
 }
@@ -582,6 +596,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="block">
+        <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Encore une partie</span></span>
+            <h3 class="cur-headline">Place les blocs, efface les lignes</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Remplis lignes et colonnes pour les effacer. Enchaîne pour des combos !</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Puzzle de blocs</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="newyear">
+        <a class="cur-card" href="https://newyear.example.com/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Avant-goût</span></span>
+            <h3 class="cur-headline">Que te réserve 2027 ?</h3>
+            <span class="cur-giant" aria-hidden="true">🌅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Quelques choix rapides pour ton thème et ta couleur porte-bonheur.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test du Nouvel An 2027</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="split">
         <a class="cur-card" href="https://split.example.com/" style="--h:98;--h2:80">
           <span class="cur-art">
@@ -646,10 +692,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi">
+      <li class="cur-item" data-id="bmi" hidden>
         <a class="cur-card" href="https://bmi.example.com/" style="--h:306;--h2:288">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Taille + poids</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">Taille + poids</span></span>
             <h3 class="cur-headline">Quel est votre IMC ?</h3>
             <span class="cur-giant" aria-hidden="true">⚖️</span>
           </span>
@@ -662,10 +708,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bomb">
+      <li class="cur-item" data-id="bomb" hidden>
         <a class="cur-card" href="https://bomb.example.com/" style="--h:158;--h2:140">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Passe le téléphone !</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">Passe le téléphone !</span></span>
             <h3 class="cur-headline">Ne te fais pas avoir</h3>
             <span class="cur-giant" aria-hidden="true">💣</span>
           </span>
@@ -710,45 +756,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent" hidden>
-        <a class="cur-card" href="https://percent.example.com/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span><span class="cur-kicker">Calcul express</span></span>
-            <h3 class="cur-headline">Combien font 15 % ?</h3>
-            <span class="cur-giant" aria-hidden="true">💯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Remises, variation en % et points : six calculs en un.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Calcul pourcentage</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="race" hidden>
-        <a class="cur-card" href="https://race.example.com/" style="--h:351;--h2:333">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span><span class="cur-kicker">Qui paie le café ?</span></span>
-            <h3 class="cur-headline">Une course d’animaux décide</h3>
-            <span class="cur-giant" aria-hidden="true">🏁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Entre les prénoms, lance la course. Le dernier paie !</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Course d’animaux</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">61 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">63 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -770,6 +784,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="block" data-cat="game">
+        <a class="tile-link" href="https://block.example.com/" title="Glisse trois pièces sur une grille 8×8. Remplis une ligne ou une colonne pour l’effacer et enchaîne les combos." style="--h:199;--h2:181">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Puzzle de blocs</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="newyear" data-cat="test">
+        <a class="tile-link" href="https://newyear.example.com/" title="11 petites questions, 2 minutes. Quel est ton mot-clé pour 2027, avec couleur, mois et objet porte-bonheur ? Juste pour rire." style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Test du Nouvel An 2027</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/" title="Partagez l’addition à parts égales ou selon ce que chacun a pris, avec pourboire et arrondi, puis voyez qui doit rembourser qui quand quelqu’un a avancé." style="--h:98;--h2:80">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
@@ -800,14 +828,14 @@
       </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/" title="Calculez votre IMC en cm/kg ou en pieds/livres : catégorie OMS sur une échelle de couleurs, poids santé pour votre taille et écart à cette fourchette." style="--h:306;--h2:288">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span>
           <span class="tile-name">Calcul IMC</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bomb" data-cat="vote">
         <a class="tile-link" href="https://bomb.example.com/" title="Touche la bombe et passe le téléphone. Personne ne sait quand la mèche s’arrête : celui qui l’a en main au boum a perdu !" style="--h:158;--h2:140">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">Patate chaude</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

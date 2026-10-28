@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 61,
+  "numberOfItems": 63,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -506,6 +506,20 @@
       "url": "https://santa.example.com/ko/",
       "name": "마니또 뽑기",
       "description": "이름을 넣고 마니또를 뽑은 뒤 휴대폰을 돌려 보세요. 각자 자기 이름을 눌러 내 마니또만 몰래 확인해요. 커플 제외·예산·교환일도 넣을 수 있어요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "url": "https://block.example.com/ko/",
+      "name": "블록 퍼즐",
+      "description": "조각 세 개를 8×8 판에 끌어다 놓아요. 가로줄이나 세로줄을 꽉 채우면 사라지고, 연달아 지우면 콤보 점수가 붙어요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "url": "https://newyear.example.com/ko/",
+      "name": "2027 새해 운세",
+      "description": "가벼운 질문 11개, 2분이면 끝. 나의 2027년 키워드와 행운의 색·달·물건은? 재미로 보는 신년 운세예요."
     }
   ]
 }
@@ -581,6 +595,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="block">
+        <a class="cur-card" href="https://block.example.com/ko/" style="--h:199;--h2:181">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">한 판만 더</span></span>
+            <h3 class="cur-headline">블록 끼워 맞추고 줄 지우기</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">가로세로 줄을 채워 지우세요. 연속으로 지우면 콤보!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">블록 퍼즐</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="newyear">
+        <a class="cur-card" href="https://newyear.example.com/ko/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">새해를 미리</span></span>
+            <h3 class="cur-headline">2027년 나의 운세 키워드는?</h3>
+            <span class="cur-giant" aria-hidden="true">🌅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">몇 가지 고르면 내년 테마와 행운의 색이 나와요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">2027 새해 운세</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="split">
         <a class="cur-card" href="https://split.example.com/ko/" style="--h:98;--h2:80">
           <span class="cur-art">
@@ -645,10 +691,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi">
+      <li class="cur-item" data-id="bmi" hidden>
         <a class="cur-card" href="https://bmi.example.com/ko/" style="--h:306;--h2:288">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">키·몸무게만 넣으면</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">키·몸무게만 넣으면</span></span>
             <h3 class="cur-headline">내 BMI는 몇일까?</h3>
             <span class="cur-giant" aria-hidden="true">⚖️</span>
           </span>
@@ -661,10 +707,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bomb">
+      <li class="cur-item" data-id="bomb" hidden>
         <a class="cur-card" href="https://bomb.example.com/ko/" style="--h:158;--h2:140">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">누가 걸릴까?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">누가 걸릴까?</span></span>
             <h3 class="cur-headline">내 손에서 터지면 끝</h3>
             <span class="cur-giant" aria-hidden="true">💣</span>
           </span>
@@ -709,45 +755,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent" hidden>
-        <a class="cur-card" href="https://percent.example.com/ko/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span><span class="cur-kicker">계산 1초 끝</span></span>
-            <h3 class="cur-headline">할인가·증감률 바로 계산</h3>
-            <span class="cur-giant" aria-hidden="true">💯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">몇 %인지, 몇 % 올랐는지, %p 차이까지 한 번에.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">퍼센트 계산기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="race" hidden>
-        <a class="cur-card" href="https://race.example.com/ko/" style="--h:351;--h2:333">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span><span class="cur-kicker">커피 내기 끝판왕</span></span>
-            <h3 class="cur-headline">동물 달리기로 정하자</h3>
-            <span class="cur-giant" aria-hidden="true">🏁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">이름 넣고 출발! 꼴찌가 쏘기, 1등이 당첨.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">동물 달리기 시합</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">61개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">63개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -769,6 +783,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="block" data-cat="game">
+        <a class="tile-link" href="https://block.example.com/ko/" title="조각 세 개를 8×8 판에 끌어다 놓아요. 가로줄이나 세로줄을 꽉 채우면 사라지고, 연달아 지우면 콤보 점수가 붙어요." style="--h:199;--h2:181">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">블록 퍼즐</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="newyear" data-cat="test">
+        <a class="tile-link" href="https://newyear.example.com/ko/" title="가벼운 질문 11개, 2분이면 끝. 나의 2027년 키워드와 행운의 색·달·물건은? 재미로 보는 신년 운세예요." style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2027 새해 운세</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/ko/" title="총액과 인원만 넣으면 1인당 금액이 바로 나와요. 메뉴별로 나누기, 100원·1000원 단위 올림, 총무 부담, 먼저 낸 사람에게 누가 얼마 보낼지까지 계산해 카톡으로 복사." style="--h:98;--h2:80">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
@@ -799,14 +827,14 @@
       </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/ko/" title="키와 몸무게만 넣으면 BMI(체질량지수)와 비만도 단계, 내 키의 정상 체중 범위, 정상까지 몇 kg인지 바로 보여 줘요. 대한비만학회 아시아 기준도 함께." style="--h:306;--h2:288">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span>
           <span class="tile-name">BMI 계산기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bomb" data-cat="vote">
         <a class="tile-link" href="https://bomb.example.com/ko/" title="폭탄을 누르고 옆 사람에게 휴대폰을 넘기세요. 심지가 언제 다 타는지는 아무도 몰라요. 터질 때 들고 있던 사람이 걸려요!" style="--h:158;--h2:140">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">폭탄 돌리기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

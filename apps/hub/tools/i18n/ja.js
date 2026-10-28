@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'newyear',
+        kicker: "ひと足早く",
+        headline: "2027年のあなたの運勢は？",
+        blurb: "いくつか選ぶだけで、来年のテーマとラッキーカラーがわかる。",
+      },
+      {
+        id: 'block',
+        kicker: "もう1回だけ",
+        headline: "ブロックをはめて列を消そう",
+        blurb: "縦横の列をそろえて消す。続けて消せばコンボ！",
+      },
+      {
         id: 'santa',
         kicker: "こっそり抽選",
         headline: "プレゼント交換、誰に贈る？",

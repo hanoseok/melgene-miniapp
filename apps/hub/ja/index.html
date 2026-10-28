@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 61,
+  "numberOfItems": 63,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -506,6 +506,20 @@
       "url": "https://santa.example.com/ja/",
       "name": "プレゼント交換くじ",
       "description": "名前を入れてくじを引き、スマホを回して自分の名前をタップ。プレゼントを贈る相手を一人ずつこっそり確認できます。予算や交換日、カップル除外も設定OK。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "url": "https://block.example.com/ja/",
+      "name": "ブロックパズル",
+      "description": "3つのブロックを8×8の盤面にドラッグ。横か縦の列をそろえると消えて、続けて消すとコンボでスコアアップ。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "url": "https://newyear.example.com/ja/",
+      "name": "2027年 運勢診断",
+      "description": "かんたんな11問、約2分。あなたの2027年のキーワードとラッキーカラー・月・アイテムは？お遊び診断です。"
     }
   ]
 }
@@ -581,6 +595,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="block">
+        <a class="cur-card" href="https://block.example.com/ja/" style="--h:199;--h2:181">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">もう1回だけ</span></span>
+            <h3 class="cur-headline">ブロックをはめて列を消そう</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">縦横の列をそろえて消す。続けて消せばコンボ！</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ブロックパズル</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="newyear">
+        <a class="cur-card" href="https://newyear.example.com/ja/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ひと足早く</span></span>
+            <h3 class="cur-headline">2027年のあなたの運勢は？</h3>
+            <span class="cur-giant" aria-hidden="true">🌅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">いくつか選ぶだけで、来年のテーマとラッキーカラーがわかる。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">2027年 運勢診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="split">
         <a class="cur-card" href="https://split.example.com/ja/" style="--h:98;--h2:80">
           <span class="cur-art">
@@ -645,10 +691,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi">
+      <li class="cur-item" data-id="bmi" hidden>
         <a class="cur-card" href="https://bmi.example.com/ja/" style="--h:306;--h2:288">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">身長と体重だけ</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">身長と体重だけ</span></span>
             <h3 class="cur-headline">あなたのBMIは？</h3>
             <span class="cur-giant" aria-hidden="true">⚖️</span>
           </span>
@@ -661,10 +707,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bomb">
+      <li class="cur-item" data-id="bomb" hidden>
         <a class="cur-card" href="https://bomb.example.com/ja/" style="--h:158;--h2:140">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">スマホを回せ！</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">スマホを回せ！</span></span>
             <h3 class="cur-headline">自分の番で爆発するな</h3>
             <span class="cur-giant" aria-hidden="true">💣</span>
           </span>
@@ -709,45 +755,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent" hidden>
-        <a class="cur-card" href="https://percent.example.com/ja/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span><span class="cur-kicker">計算が一瞬</span></span>
-            <h3 class="cur-headline">割引も増減率もすぐ計算</h3>
-            <span class="cur-giant" aria-hidden="true">💯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">何%か、何%増えたか、ポイント差まで。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">パーセント計算</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="race" hidden>
-        <a class="cur-card" href="https://race.example.com/ja/" style="--h:351;--h2:333">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span><span class="cur-kicker">おごりはだれ？</span></span>
-            <h3 class="cur-headline">動物レースで決めよう</h3>
-            <span class="cur-giant" aria-hidden="true">🏁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">名前を入れてスタート！最下位がおごり。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">動物レース抽選</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">61件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">63件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -769,6 +783,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="block" data-cat="game">
+        <a class="tile-link" href="https://block.example.com/ja/" title="3つのブロックを8×8の盤面にドラッグ。横か縦の列をそろえると消えて、続けて消すとコンボでスコアアップ。" style="--h:199;--h2:181">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ブロックパズル</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="newyear" data-cat="test">
+        <a class="tile-link" href="https://newyear.example.com/ja/" title="かんたんな11問、約2分。あなたの2027年のキーワードとラッキーカラー・月・アイテムは？お遊び診断です。" style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2027年 運勢診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/ja/" title="合計と人数を入れるだけで1人あたりの金額がすぐ出ます。メニューごとの割り勘、100円単位の端数処理、幹事の負担、立て替え精算もまとめて計算。" style="--h:98;--h2:80">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
@@ -799,14 +827,14 @@
       </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/ja/" title="身長と体重を入れるだけでBMIと肥満度（日本肥満学会の判定）、身長に合った普通体重の範囲、あと何kgで普通体重かをすぐ表示します。" style="--h:306;--h2:288">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span>
           <span class="tile-name">BMI計算</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bomb" data-cat="vote">
         <a class="tile-link" href="https://bomb.example.com/ja/" title="爆弾をタップして隣の人にスマホを渡そう。導火線がいつ燃え尽きるかは誰にもわからない。爆発した時に持っていた人の負け！" style="--h:158;--h2:140">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">爆弾ゲーム</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

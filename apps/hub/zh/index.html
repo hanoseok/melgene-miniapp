@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 61,
+  "numberOfItems": 63,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -506,6 +506,20 @@
       "url": "https://santa.example.com/zh/",
       "name": "神秘圣诞老人抽签",
       "description": "输入名字一键抽签，再把手机传下去，每人点自己的名字，偷偷看自己要送礼的人。可设置预算、交换日期，情侣互不抽中。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "url": "https://block.example.com/zh/",
+      "name": "方块消除",
+      "description": "每次把三个方块拖到 8×8 棋盘上。填满一行或一列就会消除，连续消除还有连击加分。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "url": "https://newyear.example.com/zh/",
+      "name": "2027新年运势测试",
+      "description": "11道轻松小题，2分钟。你的2027年度关键词、幸运色、幸运月和幸运物是什么？仅供娱乐。"
     }
   ]
 }
@@ -581,6 +595,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="block">
+        <a class="cur-card" href="https://block.example.com/zh/" style="--h:199;--h2:181">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">再来一局</span></span>
+            <h3 class="cur-headline">摆好方块，消掉整行</h3>
+            <span class="cur-giant" aria-hidden="true">🧩</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">填满横排或竖列就能消除，连续消除有连击！</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">方块消除</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="newyear">
+        <a class="cur-card" href="https://newyear.example.com/zh/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">提前看看</span></span>
+            <h3 class="cur-headline">你的2027年关键词是？</h3>
+            <span class="cur-giant" aria-hidden="true">🌅</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">选几个答案，看看明年的主题和幸运色。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">2027新年运势测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="split">
         <a class="cur-card" href="https://split.example.com/zh/" style="--h:98;--h2:80">
           <span class="cur-art">
@@ -645,10 +691,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi">
+      <li class="cur-item" data-id="bmi" hidden>
         <a class="cur-card" href="https://bmi.example.com/zh/" style="--h:306;--h2:288">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">只要身高体重</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">只要身高体重</span></span>
             <h3 class="cur-headline">你的BMI是多少？</h3>
             <span class="cur-giant" aria-hidden="true">⚖️</span>
           </span>
@@ -661,10 +707,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bomb">
+      <li class="cur-item" data-id="bomb" hidden>
         <a class="cur-card" href="https://bomb.example.com/zh/" style="--h:158;--h2:140">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">快传出去！</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">快传出去！</span></span>
             <h3 class="cur-headline">别在你手里爆炸</h3>
             <span class="cur-giant" aria-hidden="true">💣</span>
           </span>
@@ -709,45 +755,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="percent" hidden>
-        <a class="cur-card" href="https://percent.example.com/zh/" style="--h:227;--h2:209">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💯</span></span></span><span class="cur-kicker">一秒算完</span></span>
-            <h3 class="cur-headline">折扣、涨跌幅马上算</h3>
-            <span class="cur-giant" aria-hidden="true">💯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">占百分之几、涨了多少、百分点差都能算。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">百分比计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="race" hidden>
-        <a class="cur-card" href="https://race.example.com/zh/" style="--h:351;--h2:333">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏁</span></span></span><span class="cur-kicker">谁请喝咖啡？</span></span>
-            <h3 class="cur-headline">让小动物赛跑决定</h3>
-            <span class="cur-giant" aria-hidden="true">🏁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">输入名字就开跑，最后一名请客！</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">动物赛跑抽签</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">61个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">63个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -769,6 +783,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="block" data-cat="game">
+        <a class="tile-link" href="https://block.example.com/zh/" title="每次把三个方块拖到 8×8 棋盘上。填满一行或一列就会消除，连续消除还有连击加分。" style="--h:199;--h2:181">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">方块消除</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="newyear" data-cat="test">
+        <a class="tile-link" href="https://newyear.example.com/zh/" title="11道轻松小题，2分钟。你的2027年度关键词、幸运色、幸运月和幸运物是什么？仅供娱乐。" style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2027新年运势测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/zh/" title="输入总金额和人数，马上算出每人该付多少。支持按菜品分摊、服务费、抹零取整，以及谁先垫付后谁该转给谁多少钱，一键复制发群里。" style="--h:98;--h2:80">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
@@ -799,14 +827,14 @@
       </li>
       <li class="tile" data-id="bmi" data-cat="create">
         <a class="tile-link" href="https://bmi.example.com/zh/" title="输入身高体重，马上算出BMI、胖瘦等级（WHO标准与中国成人标准）、你身高对应的健康体重范围，以及离健康范围还差几公斤。" style="--h:306;--h2:288">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span>
           <span class="tile-name">BMI计算器</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bomb" data-cat="vote">
         <a class="tile-link" href="https://bomb.example.com/zh/" title="点一下炸弹，把手机传给下一个人。谁也不知道引线什么时候烧完，爆炸时拿着手机的人就输了！" style="--h:158;--h2:140">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span>
           <span class="tile-name">传炸弹游戏</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

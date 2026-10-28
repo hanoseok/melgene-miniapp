@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'newyear',
+        kicker: "提前看看",
+        headline: "你的2027年关键词是？",
+        blurb: "选几个答案，看看明年的主题和幸运色。",
+      },
+      {
+        id: 'block',
+        kicker: "再来一局",
+        headline: "摆好方块，消掉整行",
+        blurb: "填满横排或竖列就能消除，连续消除有连击！",
+      },
+      {
         id: 'santa',
         kicker: "悄悄抽签",
         headline: "你要送礼物给谁？",

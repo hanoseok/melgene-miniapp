@@ -152,6 +152,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | horror | apps/horror | 공포영화 생존 테스트: 할로윈 공포영화 단골 상황 11문항(보기 4개, 용감/신중·머리/직감·함께/혼자 3축 ±1 점수 → 축 합 0 없음) → 8종 r/*.html(전수 4,194,304가지 12.12~12.88%), 영화 속 생존 시간 막대(재미 설정)·강점 3·대표 장면·생존 팁·단짝/라이벌(보여주기만, 링크 없음), 방금 푼 사람에게만 "내 답이 기운 쪽" 게이지, PG·재미용, 같은 캐릭터 비율은 supa.vote 20표 이상만 | `check-horror.js` |
 | split | apps/split | 더치페이 계산기(만들기): 1/N·메뉴별로 나누기, 팁·세금, 통화별 단위 정리(총무 부담/골고루, 정수 최소 단위 + 최대 나머지로 합계 정확), 먼저 낸 사람에게 보낼 최소 송금 목록, 결과 복사·링크 공유(#d=), 이름·금액은 서버로 안 보냄 | `check-split.js` (+ `check-flow.js`) |
 | santa | apps/santa | 마니또 뽑기(투표): 3~30명 이름 → crypto 균등 배정(자기 자신·제외 쌍·2명끼리 막기), 휴대폰을 돌려 각자 자기 마니또만 확인, 개인 링크(#d=, 가림), 예산·교환일, 전체 결과는 경고 뒤에만, 서버로 안 보냄 | `check-santa.js` (+ `flow-test.js`) |
+| block | apps/block | 블록 퍼즐(게임): 8×8 판에 조각 3개씩 끌어 놓기(탭·키보드도), 가로·세로 줄 동시 지우기, 놓은 칸 + 줄 보너스(10·30·60·100…)×콤보(못 지운 놓기 3번이면 끊김), 첫 손·새 손은 놓을 수 있게 최대 3번 다시 뽑기, 최고 기록 localStorage, supa.submitScore 백분위 | `check-block.js` (+ `flow-test.js`) |
+| newyear | apps/newyear | 2027 새해 운세 테스트(심리테스트): 11문항×4보기, 새로움/안정·함께/나만의 시간·계획/흐름 3축 ±1 → 8종 r/*.html(전수 12.12~12.88%), 행운의 색·달·물건, 네 영역 운세, 단짝/라이벌(링크 없음), 재미용, 연도는 newyear-core.js YEAR 한 곳(띠 문장은 가이드 ko·ja·zh·vi 손으로) | `check-newyear.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

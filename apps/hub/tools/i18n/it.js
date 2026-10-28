@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'newyear',
+        kicker: "In anteprima",
+        headline: "Cosa ti porterà il 2027?",
+        blurb: "Poche scelte rapide per scoprire il tuo tema e il colore portafortuna.",
+      },
+      {
+        id: 'block',
+        kicker: "Ancora una partita",
+        headline: "Incastra i blocchi, libera le righe",
+        blurb: "Riempi righe e colonne per cancellarle. Concatena le combo!",
+      },
+      {
         id: 'santa',
         kicker: "Estrazione segreta",
         headline: "A chi farai il regalo?",

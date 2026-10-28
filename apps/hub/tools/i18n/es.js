@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'newyear',
+        kicker: "Adelántate",
+        headline: "¿Qué te trae el 2027?",
+        blurb: "Unas pocas respuestas y verás tu tema del año y tu color de la suerte.",
+      },
+      {
+        id: 'block',
+        kicker: "Una partida más",
+        headline: "Encaja bloques y limpia líneas",
+        blurb: "Llena filas y columnas para borrarlas. ¡Encadena combos!",
+      },
+      {
         id: 'santa',
         kicker: "Sorteo en secreto",
         headline: "¿A quién le regalas?",

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>เกมเรียงบล็อก: กติกา คอมโบ และเทคนิค</title>
+<meta name="description" content="วิธีเล่นเกมเรียงบล็อก 8×8 กติกาพื้นฐาน การคิดคะแนนเมื่อเคลียร์แถวและคอมโบ เทคนิคเว้นที่ว่างให้อยู่รอดนานขึ้น และที่มาของเกมแนวนี้">
+<link rel="canonical" href="https://block.example.com/th/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://block.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://block.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://block.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://block.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://block.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://block.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://block.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://block.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://block.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://block.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://block.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://block.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://block.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="เกมเรียงบล็อก: กติกา คอมโบ และเทคนิค">
+<meta property="og:description" content="วิธีเล่นเกมเรียงบล็อก 8×8 กติกาพื้นฐาน การคิดคะแนนเมื่อเคลียร์แถวและคอมโบ เทคนิคเว้นที่ว่างให้อยู่รอดนานขึ้น และที่มาของเกมแนวนี้">
+<meta property="og:image" content="https://block.example.com/og/th/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://block.example.com/th/guide.html">
+<meta property="og:locale" content="th_TH">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-29">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://block.example.com/th/guide.html#article","headline":"เกมเรียงบล็อก: วิธีเล่นและเทคนิคทำคะแนน","description":"วิธีเล่นเกมเรียงบล็อก 8×8 กติกาพื้นฐาน การคิดคะแนนเมื่อเคลียร์แถวและคอมโบ เทคนิคเว้นที่ว่างให้อยู่รอดนานขึ้น และที่มาของเกมแนวนี้","inLanguage":"th","datePublished":"2026-10-29","dateModified":"2026-10-29","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/th/"},"mainEntityOfPage":"https://block.example.com/th/guide.html","url":"https://block.example.com/th/guide.html","about":{"@type":"WebApplication","name":"เกมเรียงบล็อก","url":"https://block.example.com/th/"},"image":"https://block.example.com/og/th/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/th/"},{"@type":"ListItem","position":2,"name":"เกมเรียงบล็อก","item":"https://block.example.com/th/"},{"@type":"ListItem","position":3,"name":"เกมเรียงบล็อก: วิธีเล่นและเทคนิคทำคะแนน","item":"https://block.example.com/th/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="กลับหน้าแรก Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">เกมเรียงบล็อก</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="เลือกภาษา"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th" selected>ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="เลือกภาษา"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">เกมเรียงบล็อก</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🧩</span>เกมเรียงบล็อก</p>
+    <h1>เกมเรียงบล็อก: วิธีเล่นและเทคนิคทำคะแนน</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-29">อัปเดต 29 ตุลาคม 2569</time></p>
+    <p class="mg-art-intro">เกมเรียงบล็อกเป็นเกมฝึกสมองสบาย ๆ บนกระดาน 8×8 คุณจะได้บล็อกทีละสามชิ้น ลากไปวางบนช่องว่าง และทุกแถวหรือคอลัมน์ที่เติมจนเต็มจะหายไป ไม่มีจับเวลาและไม่มีบล็อกตกลงมาจากด้านบน จึงคิดได้ทีละตาอย่างใจเย็น เวอร์ชันฟรีนี้เล่นได้ทันทีบนเบราว์เซอร์ทั้งมือถือและคอมพิวเตอร์ บันทึกสถิติสูงสุดให้ และเล่นได้ทั้งแบบสัมผัส เมาส์ และคีย์บอร์ด คู่มือนี้อธิบายกติกา วิธีคิดคะแนนและคอมโบ รวมถึงนิสัยที่ช่วยให้อยู่รอดได้นานขึ้น</p>
+    <section>
+      <h2>กติกาใน 1 นาที</h2>
+      <p>ใต้กระดานจะมีบล็อกสามชิ้น ได้แก่ แท่งตรงหลายความยาว สี่เหลี่ยมเล็กและใหญ่ รูปมุมฉาก รูปตัว L และ J รูปตัว T S และ Z และบางครั้งก็มีบล็อกช่องเดียว หยิบมาหนึ่งชิ้นแล้ววางตรงไหนก็ได้ที่ลงช่องว่างพอดี บล็อกหมุนไม่ได้ ได้รูปไหนมาก็ต้องวางตามรูปนั้น</p>
+      <p>เมื่อแถวแนวนอนหรือคอลัมน์แนวตั้งเต็มทั้งแถว มันจะหายไป ระบบตรวจแถวและคอลัมน์พร้อมกัน ดังนั้นบล็อกชิ้นเดียวอาจเติมทั้งแถวและคอลัมน์ให้เต็มในจังหวะเดียว แล้วทั้งสองก็หายไปพร้อมกัน เมื่อวางครบสามชิ้นจะได้ชุดใหม่อีกสามชิ้น เกมจบเมื่อบล็อกที่เหลืออยู่ในมือวางไม่ลงที่ไหนเลย</p>
+      <ul>
+        <li>สัมผัส: ลากบล็อก บล็อกจะลอยอยู่เหนือนิ้วเล็กน้อยเพื่อให้เห็นว่าจะวางลงตรงไหน</li>
+        <li>แตะ: แตะบล็อกเพื่อเลือก แล้วแตะตำแหน่งบนกระดานที่จะวาง</li>
+        <li>คีย์บอร์ด: กด 1 2 หรือ 3 เพื่อเลือก ใช้ปุ่มลูกศรเลื่อน แล้วกด Enter เพื่อวาง</li>
+      </ul>
+    </section>
+    <section>
+      <h2>การคิดคะแนนและคอมโบ</h2>
+      <p>วางได้หนึ่งช่องได้หนึ่งคะแนน บล็อกสี่เหลี่ยม 3×3 ชิ้นใหญ่จึงได้เก้าคะแนนแค่วางลงไป แต่คะแนนจริง ๆ มาจากการเคลียร์แถว หนึ่งแถวได้โบนัส 10 สองแถวพร้อมกันได้ 30 สามแถวได้ 60 และสี่แถวได้ 100 ดังนั้นการเคลียร์หลายแถวด้วยบล็อกชิ้นเดียวคุ้มกว่าการเคลียร์ทีละแถวมาก</p>
+      <p>เหนือขึ้นไปอีกขั้นคือคอมโบ ทุกครั้งที่วางแล้วเคลียร์ได้อย่างน้อยหนึ่งแถว คอมโบจะเพิ่มขึ้นหนึ่ง และคอมโบจะคูณโบนัสของตานั้น การเคลียร์ครั้งที่สองติดกันได้สองเท่า ครั้งที่สามได้สามเท่า แบบนี้ไปเรื่อย ๆ คอมโบให้อภัยตาที่ไม่ได้เคลียร์ได้สองครั้ง จะกลับเป็นศูนย์ก็ต่อเมื่อวางสามครั้งติดกันโดยไม่เคลียร์อะไรเลย การรักษาคอมโบให้ยาวที่สุดคือทางลัดสู่คะแนนสูง</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>เทคนิคที่ช่วยได้จริง</h2>
+      <p>ส่วนใหญ่แพ้เพราะกระดานแตกเป็นช่องเล็กช่องน้อย ไม่ใช่เพราะกระดานเต็ม ช่องว่างยี่สิบช่องที่อยู่ติดกันเป็นผืนเดียวยังปลอดภัย แต่รูเดี่ยวยี่สิบรูที่กระจายอยู่ทั่วกระดานแทบจะจบเกมแล้ว อย่าดูแค่ว่าบล็อกตอนนี้ลงตรงไหน ให้คิดถึงรูปร่างของที่ว่างที่จะเหลืออยู่ด้วย</p>
+      <ul>
+        <li>เว้นตรงกลางไว้ เริ่มวางจากขอบและมุมก่อน ตรงกลางจะได้ว่างไว้รับบล็อกที่วางยาก</li>
+        <li>เหลือที่ไว้ให้สี่เหลี่ยม 3×3 และแท่งห้าช่องเสมอ สองชิ้นนี้คือตัวที่ทำให้เกมจบบ่อยที่สุด</li>
+        <li>ดูบล็อกทั้งสามชิ้นก่อนวางชิ้นแรก แค่สลับลำดับก็มักจะวางลงได้ครบทั้งสาม</li>
+        <li>อย่าปล่อยรูเดี่ยวช่องเดียว รูแบบนี้เติมได้ด้วยบล็อกช่องเดียวเท่านั้นและอาจต้องรอนาน</li>
+        <li>สร้างกากบาท ถ้าแถวและคอลัมน์ขาดช่องเดียวกันอยู่ช่องเดียว บล็อกชิ้นเดียวจะเคลียร์ได้ทั้งสองเส้น</li>
+      </ul>
+    </section>
+    <section>
+      <h2>เล่นเพื่อคอมโบ</h2>
+      <p>เมื่อเริ่มอยู่รอดได้คล่องแล้ว ลองวางแผนการเคลียร์ล่วงหน้าสองสามตา เติมหลายแถวให้ได้เจ็ดในแปดช่อง แล้วปิดทีละแถวต่อกันไป ทุกครั้งที่วางก็จะได้เคลียร์อะไรสักอย่าง เพราะคอมโบให้อภัยตาที่ไม่ได้เคลียร์ได้สองครั้ง คุณจึงใช้บล็อกหนึ่งชิ้นจัดกระดานได้โดยที่คอมโบไม่ขาด การเคลียร์หลายแถวพร้อมกันกลางคอมโบยาว ๆ คือที่มาของคะแนนหลายพัน</p>
+    </section>
+    <section>
+      <h2>ที่มาของเกมเรียงบล็อก 8×8</h2>
+      <p>เกมเรียงบล็อกแตกแขนงมาจากเกมบล็อกตกลงมาในยุค 1980 แต่ตัดการตกและการจับเวลาออกไป แทนที่จะต้องตอบสนองไว ๆ คุณจะได้บล็อกไม่กี่ชิ้นกับตารางที่อยู่กับที่ แล้วแค่ตัดสินใจว่าจะวางแต่ละชิ้นตรงไหน แนวคิดนี้ยืมมาจากปริศนาการปูแผ่นที่เก่าแก่กว่ามาก เช่น โพลีโอมิโน ซึ่งเป็นรูปทรงที่เกิดจากสี่เหลี่ยมจัตุรัสต่อกันด้านต่อด้าน นักแต่งปริศนาศึกษารูปทรงเหล่านี้มาตั้งแต่กลางศตวรรษที่ 20</p>
+      <p>ในช่วงทศวรรษ 2010 รูปแบบนี้กลายเป็นเกมยอดนิยมบนมือถือ ด้วยกระดานสี่เหลี่ยมจัตุรัส บล็อกไม่กี่ชิ้นต่อรอบ และแถวที่เคลียร์ได้ทั้งแนวนอนและแนวตั้ง กระดาน 8×8 กลายเป็นขนาดยอดนิยมเพราะกว้างพอให้วางแผน แต่แคบพอที่ทุกความผิดพลาดมีผล เวอร์ชันของเราคงกติกาคลาสสิกเหล่านี้ไว้ และเพิ่มระบบคอมโบแบบนุ่มนวลที่ให้รางวัลกับการเล่นอย่างรอบคอบ</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🧩</span>เล่นเกมเรียงบล็อกเลย</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">เกมเรียงบล็อก</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+/* apps/newyear/style.css — 새해 운세 테스트: 새벽 하늘(남색 → 자줏빛 → 복숭아빛 노을) + 금빛 해돋이 + 천천히 피는 작은 불꽃.
+ * 그림 = 지평선 위로 떠오르는 해가 있는 둥근 카드(tools/art.js). 결과 페이지는 그 결과 색(--c-*)으로 해·카드·이름이 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --night-0: #0e1030;
+  --night-1: #1a1f4a;
+  --night-2: #3b2c66;
+  --dawn: #f29e7c;
+  --gold: #ffd36e;
+  --gold-deep: #e0a43a;
+  --ink: #fff8ee;
+  --ink-dim: rgba(255, 248, 238, 0.8);
+  --ink-faint: rgba(255, 248, 238, 0.52);
+  --card: rgba(255, 248, 238, 0.07);
+  --line: rgba(255, 211, 110, 0.26);
+  /* 결과 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #ffd36e;
+  --c-deep: #c98f1e;
+  --c-ink: #2b2008;
+
+  --font-display: 'Lora', var(--font-sans);
+  --display-weight: 700;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--gold);
+  --mg-top-badge-fg: #2b2008;
+  --lang-bg: rgba(255, 248, 238, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 211, 110, 0.38);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(255, 248, 238, 0.22);
+  --mg-heart-bg: rgba(255, 126, 150, 0.1);
+  --mg-heart-border: rgba(255, 126, 150, 0.42);
+  --mg-heart-fg: #ffa3b5;
+  --mg-heart-on: #ff7e96;
+  --mg-share-bg: rgba(255, 248, 238, 0.07);
+  --mg-share-border: rgba(255, 248, 238, 0.18);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 248, 238, 0.06);
+  --mg-faq-border: rgba(255, 211, 110, 0.24);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--gold), #ff9f7a);
+  --mg-end-retry-fg: #2b1a08;
+  --toast-bg: rgba(26, 31, 74, 0.96);
+}
+
+html { background: var(--night-0); }
+body.ny-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--night-0) 0%, var(--night-1) 38%, var(--night-2) 72%, #6b3f6e 100%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.ny-result-page {
+  background:
+    radial-gradient(ellipse 120% 45% at 50% -6%, color-mix(in srgb, var(--c-main) 22%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--night-0) 0%, var(--night-1) 38%, var(--night-2) 72%, #6b3f6e 100%) fixed;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ny-h1, .ny-kicker, .ny-h1-main, .ny-h1-main em, .ny-badge, .ny-btn, .ny-q-text, .ny-q-num, .ny-result-name, .ny-eyebrow, .ny-vibe, .ny-sub,
+.ny-pair-name, .ny-pair-label, .ny-loading-text, .ny-cta strong, .ny-doc h1, .ny-progress-num, .ny-meta span, .ny-lean-label, .ny-lean-end,
+.ny-keys li, .ny-lucky-label, .ny-lucky-val, .ny-fortune-h {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 지평선 노을 + 불꽃 + 별 (고정, 가로 넘침 없음) ---------------- */
+.ny-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.ny-glow {
+  position: absolute; left: 50%; bottom: -260px; width: 760px; height: 520px; margin-left: -380px; border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(255, 190, 120, 0.42), rgba(242, 158, 124, 0.16) 45%, transparent 70%);
+  animation: ny-rise 12s ease-in-out infinite alternate;
+}
+.ny-fw { position: absolute; width: 70px; height: 70px; border-radius: 50%; opacity: 0;
+  background: radial-gradient(circle, transparent 38%, rgba(255, 211, 110, 0.9) 40%, transparent 44%),
+    conic-gradient(from 0deg, transparent 0 8%, rgba(255, 211, 110, 0.55) 8% 10%, transparent 10% 20%, rgba(255, 158, 196, 0.5) 20% 22%, transparent 22% 33%, rgba(94, 200, 255, 0.5) 33% 35%, transparent 35% 50%, rgba(255, 211, 110, 0.55) 50% 52%, transparent 52% 66%, rgba(255, 158, 196, 0.5) 66% 68%, transparent 68% 83%, rgba(94, 200, 255, 0.5) 83% 85%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle, #000 60%, transparent 72%);
+  mask-image: radial-gradient(circle, #000 60%, transparent 72%);
+  animation: ny-pop 7s ease-out infinite; }
+.ny-fw-1 { top: 12%; left: calc(50% - 240px - 60px); }
+.ny-fw-2 { top: 28%; right: calc(50% - 240px - 70px); animation-delay: -2.4s; }
+.ny-fw-3 { top: 6%; left: 72%; animation-delay: -4.8s; width: 50px; height: 50px; }
+.ny-twinkle { position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #fff8e8; box-shadow: 0 0 8px #fff8e8; animation: ny-twinkle 4.5s ease-in-out infinite; }
+.ny-twinkle-1 { top: 18%; left: 8%; }
+.ny-twinkle-2 { top: 40%; right: 6%; animation-delay: -1.5s; }
+.ny-twinkle-3 { top: 64%; left: 12%; animation-delay: -3s; }
+@keyframes ny-rise { from { transform: translateY(20px); } to { transform: translateY(-20px); } }
+@keyframes ny-pop { 0% { opacity: 0; transform: scale(0.2); } 12% { opacity: 0.9; } 40% { opacity: 0; transform: scale(1.15); } 100% { opacity: 0; transform: scale(1.15); } }
+@keyframes ny-twinkle { 0%, 100% { opacity: 0.2; transform: scale(0.6); } 50% { opacity: 0.9; transform: scale(1.1); } }
+
+.mg-top, .ny-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ny-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.ny-screen { padding-top: 12px; }
+
+.ny-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 999px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.ny-btn-primary {
+  background: linear-gradient(135deg, var(--gold), #ff9f7a);
+  color: #2b1a08;
+  box-shadow: 0 5px 0 #a8642a, 0 12px 28px rgba(255, 180, 110, 0.34);
+}
+.ny-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #a8642a; }
+.ny-btn:focus-visible, .ny-choice:focus-visible, .ny-back:focus-visible { outline: 3px dashed var(--gold); outline-offset: 4px; }
+
+/* ---------------- 그림: 해돋이 카드 + 이모지 ---------------- */
+.ny-hero { position: relative; display: grid; place-items: center; width: 188px; height: 188px; margin: 10px auto 0; }
+.ny-dawn {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 12px 22px color-mix(in srgb, var(--h-main) 32%, transparent));
+}
+.ny-star { animation: ny-twinkle 3.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+.ny-sun { animation: ny-sun 6s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+.ny-rays { animation: ny-rays 6s ease-in-out infinite alternate; }
+.ny-spark { animation: ny-spark 3.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ny-sun { from { transform: translateY(6px); } to { transform: translateY(-4px); } }
+@keyframes ny-rays { from { opacity: 0.45; } to { opacity: 0.85; } }
+@keyframes ny-spark { 0% { opacity: 0; transform: scale(0.3); } 25% { opacity: 1; } 60%, 100% { opacity: 0; transform: scale(1.2); } }
+.ny-emo {
+  position: relative; top: 30px; font-size: 50px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.45));
+  animation: ny-bob 2.8s ease-in-out infinite;
+}
+.ny-q {
+  position: absolute; right: -2px; top: -2px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--night-1); color: var(--gold); border: 3px solid var(--gold);
+  font: 700 28px/1 'Lora', Georgia, serif;
+  box-shadow: 0 4px 14px rgba(255, 211, 110, 0.35);
+  animation: ny-bob 2.2s ease-in-out infinite reverse;
+}
+@keyframes ny-bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-5px) rotate(4deg); } }
+.ny-hero-loading { width: 170px; height: 170px; margin-bottom: 14px; }
+.ny-hero-loading .ny-emo { animation-duration: 0.9s; }
+.ny-hero-result { width: 176px; height: 176px; margin: 0 auto; }
+.ny-hero-result .ny-emo { font-size: 46px; top: 28px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.ny-start { text-align: center; padding-top: 16px; }
+.ny-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 5px 14px; border-radius: 999px;
+  background: rgba(255, 211, 110, 0.1); border: 1.5px solid rgba(255, 211, 110, 0.55);
+  color: var(--gold); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.ny-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ny-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--gold); letter-spacing: 0.02em; }
+.ny-h1-main { display: block; font-size: 35px; line-height: 1.22; color: var(--ink); }
+.ny-h1-main em {
+  font-style: normal;
+  background: linear-gradient(90deg, var(--gold), #ff9f7a);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.ny-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.ny-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.ny-meta span { padding: 4px 12px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.ny-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.ny-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 1.5px solid var(--line); border-radius: 50%;
+  background: var(--card); color: var(--ink); cursor: pointer;
+}
+.ny-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(255, 248, 238, 0.12); overflow: hidden; }
+.ny-progress-fill { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--gold-deep), var(--gold), #ff9f7a); transition: width 0.3s ease; }
+.ny-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.ny-q-card {
+  position: relative;
+  padding: 20px 16px 16px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(59, 44, 102, 0.92), rgba(26, 31, 74, 0.94));
+  border: 1px solid var(--line);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.32);
+  animation: ny-in 0.28s ease;
+}
+@keyframes ny-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.ny-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.ny-q-emoji { font-size: 28px; line-height: 1; }
+.ny-q-num { font-size: 17px; color: var(--gold); font-weight: var(--display-weight); }
+.ny-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--ink); }
+.ny-choices { display: flex; flex-direction: column; gap: 10px; }
+.ny-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 1.5px solid rgba(255, 248, 238, 0.18);
+  border-radius: 16px;
+  background: rgba(255, 248, 238, 0.06);
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .ny-choice:hover { border-color: var(--gold); background: rgba(255, 211, 110, 0.09); } }
+.ny-choice:active { transform: scale(0.985); }
+.ny-choice.is-picked { border-color: var(--gold); background: rgba(255, 211, 110, 0.18); box-shadow: 0 0 0 2px rgba(255, 211, 110, 0.45); }
+.ny-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 해돋이 기다리는 중 ---------------- */
+.ny-loading { text-align: center; padding: 40px 0; }
+.ny-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); }
+.ny-loading-sub { margin: 0; font-size: 14px; color: var(--gold); }
+
+/* ---------------- 결과 ---------------- */
+.ny-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 18px; border: 1.5px solid rgba(255, 211, 110, 0.5);
+  background: rgba(255, 211, 110, 0.08); color: var(--ink); text-decoration: none;
+}
+.ny-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.ny-cta-text strong { font-size: 17px; font-weight: var(--display-weight); color: var(--gold); }
+.ny-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.ny-cta-arrow { font-size: 22px; color: var(--gold); }
+
+.ny-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(59, 44, 102, 0.9), color-mix(in srgb, var(--c-ink) 82%, #000));
+  border: 1.5px solid color-mix(in srgb, var(--c-main) 45%, transparent);
+  border-radius: 24px;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--c-main) 16%, transparent);
+}
+.ny-eyebrow { margin: 6px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.ny-result-title { margin: 6px 0 0; line-height: 1.2; }
+.ny-result-name { display: block; font-size: 33px; font-weight: var(--display-weight); line-height: 1.2; color: var(--c-main); overflow-wrap: break-word; }
+.ny-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--ink); }
+.ny-keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.ny-keys li {
+  padding: 4px 12px; border-radius: 999px;
+  background: color-mix(in srgb, var(--c-main) 14%, transparent); border: 1px solid color-mix(in srgb, var(--c-main) 50%, transparent);
+  color: var(--c-main); font-size: 14px; font-weight: var(--display-weight); line-height: 1.35;
+}
+
+/* 행운의 색·달·물건 (결과의 재미 설정값 — 예측·통계 아님) */
+.ny-lucky { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 16px 0 0; text-align: left; }
+.ny-lucky-cell {
+  display: grid; grid-template-columns: 40px minmax(0, 1fr); grid-template-areas: "icon label" "icon val";
+  column-gap: 12px; align-items: center;
+  padding: 10px 14px; border-radius: 16px;
+  background: rgba(0, 0, 0, 0.24); border: 1px solid var(--line);
+}
+.ny-lucky-label { grid-area: label; font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.ny-swatch { grid-area: icon; justify-self: center; display: block; width: 32px; height: 32px; border-radius: 50%; border: 3px solid rgba(255, 248, 238, 0.85); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35); }
+.ny-lucky-icon { grid-area: icon; justify-self: center; display: block; font-size: 28px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.ny-lucky-val { grid-area: val; font-size: 16px; font-weight: var(--display-weight); line-height: 1.35; color: var(--c-main); overflow-wrap: break-word; }
+
+/* 내 답이 기운 쪽 (방금 푼 사람만, 점 위치는 result.js 가 채움) */
+.ny-lean { margin: 12px 0 0; padding: 12px 14px; border-radius: 18px; background: rgba(0, 0, 0, 0.22); border: 1px solid var(--line); text-align: left; }
+.ny-lean-label { display: block; font-size: 14px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 6px; }
+.ny-lean-row { display: grid; grid-template-columns: minmax(0, 1fr) 24% minmax(0, 1fr); align-items: center; gap: 10px; margin: 8px 0 0; font-size: 12.5px; line-height: 1.25; }
+.ny-lean-end { font-weight: 700; color: var(--ink); overflow-wrap: anywhere; }
+.ny-lean-end-r { text-align: right; }
+.ny-lean-track { position: relative; display: block; height: 10px; border-radius: 999px; background: linear-gradient(90deg, color-mix(in srgb, var(--c-main) 70%, transparent), rgba(255, 248, 238, 0.14) 50%, rgba(185, 167, 255, 0.55)); }
+.ny-lean-dot { position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; background: var(--night-1); border: 4px solid var(--c-main); box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); transition: left 0.8s ease; }
+
+.ny-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25); border: 1.5px dashed color-mix(in srgb, var(--c-main) 60%, transparent);
+  color: var(--c-main); font-size: 13.5px; font-weight: 700;
+}
+.ny-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.ny-sub { margin: 16px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-main); text-align: left; line-height: 1.3; }
+.ny-fortunes { display: grid; gap: 8px; text-align: left; }
+.ny-fortune { padding: 10px 12px 12px; border-radius: 14px; background: rgba(255, 248, 238, 0.06); border: 1px solid rgba(255, 248, 238, 0.12); }
+.ny-fortune-h { margin: 0 0 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink); }
+.ny-fortune p { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--ink-dim); }
+.ny-note { margin-top: 14px; padding: 2px 14px 12px; border-radius: 16px; background: rgba(0, 0, 0, 0.22); border: 1px dashed color-mix(in srgb, var(--c-main) 45%, transparent); text-align: left; }
+.ny-note .ny-sub { margin: 10px 0 4px; font-size: 16px; }
+.ny-note p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-dim); }
+
+/* 잘 맞는/정반대 키워드: 보여주기만 (링크·hover·pointer 없음 — 누를 수 있어 보이지 않게) */
+.ny-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.ny-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 8px 12px; border-radius: 16px;
+  background: rgba(0, 0, 0, 0.25); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  cursor: default; user-select: none;
+}
+.ny-pair-label { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.ny-pair-emo { font-size: 34px; line-height: 1.1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.ny-pair-name { font-size: 16px; font-weight: var(--display-weight); line-height: 1.25; color: var(--accent); overflow-wrap: break-word; max-width: 100%; }
+
+/* 재미용 안내 */
+.ny-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: rgba(255, 248, 238, 0.05); border: 1px dashed rgba(255, 248, 238, 0.22); font-size: 13px; line-height: 1.5; color: var(--ink-dim); text-align: center; }
+
+/* ---------------- 개인정보 ---------------- */
+.ny-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.ny-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.3; }
+.ny-doc h2 { font-size: 17px; color: var(--gold); margin: 22px 0 6px; }
+.ny-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .ny-body { line-height: 1.75; }
+html:lang(th) :is(.ny-h1-main, .ny-result-name, .ny-q-text, .ny-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.ny-kicker, .ny-badge, .ny-lean-label) { letter-spacing: 0; }
+html:lang(vi) :is(.ny-h1-main, .ny-result-name, .ny-q-text) { line-height: 1.4; }
+html:lang(ru) .ny-doc h1 { line-height: 1.25; }
+html:lang(de) :is(.ny-lucky-val, .ny-lucky-label, .ny-pair-label, .ny-pair-name, .ny-lean-end) { hyphens: auto; -webkit-hyphens: auto; }
+html:lang(ja) :is(.ny-h1-main, .ny-result-name, .ny-q-text, .ny-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.ny-h1-main, .ny-result-name, .ny-q-text, .ny-vibe, .ny-hook, .ny-desc, .ny-note p, .ny-fortune p, .ny-lucky-val) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .ny-h1-main { font-size: 30px; }
+  .ny-result-name { font-size: 29px; }
+  .ny-q-text { font-size: 19px; }
+  .ny-hero-result { width: 160px; height: 160px; }
+  .ny-hero-result .ny-emo { font-size: 42px; top: 25px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ny-glow, .ny-fw, .ny-twinkle, .ny-star, .ny-sun, .ny-rays, .ny-spark, .ny-emo, .ny-q, .ny-q-card { animation: none !important; }
+  .ny-fw { opacity: 0; }
+  .ny-progress-fill, .ny-btn, .ny-choice, .ny-lean-dot { transition: none; }
+}

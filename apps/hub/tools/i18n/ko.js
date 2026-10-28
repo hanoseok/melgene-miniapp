@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'newyear',
+        kicker: "새해를 미리",
+        headline: "2027년 나의 운세 키워드는?",
+        blurb: "몇 가지 고르면 내년 테마와 행운의 색이 나와요.",
+      },
+      {
+        id: 'block',
+        kicker: "한 판만 더",
+        headline: "블록 끼워 맞추고 줄 지우기",
+        blurb: "가로세로 줄을 채워 지우세요. 연속으로 지우면 콤보!",
+      },
+      {
         id: 'santa',
         kicker: "연말 선물 교환",
         headline: "나의 마니또는 누구?",

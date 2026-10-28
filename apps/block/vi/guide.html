@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Xếp khối: luật chơi, combo và mẹo hay</title>
+<meta name="description" content="Cách chơi xếp khối 8×8: luật chơi, cách tính điểm khi xóa hàng và combo, mẹo chừa chỗ trống để trụ lâu hơn và nguồn gốc của thể loại game này.">
+<link rel="canonical" href="https://block.example.com/vi/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://block.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://block.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://block.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://block.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://block.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://block.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://block.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://block.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://block.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://block.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://block.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://block.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://block.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Xếp khối: luật chơi, combo và mẹo hay">
+<meta property="og:description" content="Cách chơi xếp khối 8×8: luật chơi, cách tính điểm khi xóa hàng và combo, mẹo chừa chỗ trống để trụ lâu hơn và nguồn gốc của thể loại game này.">
+<meta property="og:image" content="https://block.example.com/og/vi/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://block.example.com/vi/guide.html">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-29">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://block.example.com/vi/guide.html#article","headline":"Xếp khối: cách chơi và mẹo ghi nhiều điểm","description":"Cách chơi xếp khối 8×8: luật chơi, cách tính điểm khi xóa hàng và combo, mẹo chừa chỗ trống để trụ lâu hơn và nguồn gốc của thể loại game này.","inLanguage":"vi","datePublished":"2026-10-29","dateModified":"2026-10-29","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/vi/"},"mainEntityOfPage":"https://block.example.com/vi/guide.html","url":"https://block.example.com/vi/guide.html","about":{"@type":"WebApplication","name":"Xếp khối","url":"https://block.example.com/vi/"},"image":"https://block.example.com/og/vi/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/vi/"},{"@type":"ListItem","position":2,"name":"Xếp khối","item":"https://block.example.com/vi/"},{"@type":"ListItem","position":3,"name":"Xếp khối: cách chơi và mẹo ghi nhiều điểm","item":"https://block.example.com/vi/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/vi/" aria-label="Về trang chủ Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Xếp khối</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Ngôn ngữ"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi" selected>Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Ngôn ngữ"><a href="../guide.html" hreflang="en" lang="en">English</a> <a href="../ja/guide.html" hreflang="ja" lang="ja">日本語</a> <a href="../zh/guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/guide.html" hreflang="ko" lang="ko">한국어</a> <a href="../fr/guide.html" hreflang="fr" lang="fr">Français</a> <a href="../de/guide.html" hreflang="de" lang="de">Deutsch</a> <a href="../th/guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../es/guide.html" hreflang="es" lang="es">Español</a> <a href="../it/guide.html" hreflang="it" lang="it">Italiano</a> <a href="../pt/guide.html" hreflang="pt" lang="pt">Português</a> <a href="../ru/guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/vi/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Xếp khối</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🧩</span>Xếp khối</p>
+    <h1>Xếp khối: cách chơi và mẹo ghi nhiều điểm</h1>
+    <p class="mg-art-meta"><time datetime="2026-10-29">Cập nhật 29 tháng 10, 2026</time></p>
+    <p class="mg-art-intro">Xếp khối là một trò chơi trí tuệ nhẹ nhàng trên bàn 8×8. Mỗi lượt bạn nhận ba khối, kéo chúng vào các ô trống, và hàng hay cột nào được lấp đầy sẽ biến mất. Không có đồng hồ, cũng không có khối nào rơi từ trên xuống, nên bạn có thể thong thả suy nghĩ từng nước. Phiên bản miễn phí này chạy ngay trên trình duyệt điện thoại và máy tính, lưu kỷ lục của bạn và chơi được bằng cảm ứng, chuột hoặc bàn phím. Bài hướng dẫn này giải thích luật chơi, cách tính điểm và combo, cùng những thói quen giúp bạn trụ lâu hơn.</p>
+    <section>
+      <h2>Luật chơi trong một phút</h2>
+      <p>Bên dưới bàn có ba khối: thanh thẳng nhiều độ dài, hình vuông nhỏ và lớn, hình góc, hình chữ L và J, chữ T, S và Z, thỉnh thoảng có cả khối một ô. Nhặt một khối và thả vào bất cứ đâu vừa với các ô trống. Khối không xoay được, nên nhận hình nào thì phải đặt đúng hình đó.</p>
+      <p>Khi một hàng ngang hoặc một cột dọc được lấp kín, nó sẽ biến mất. Hàng và cột được kiểm tra cùng lúc, nên chỉ một khối có thể hoàn thành cả một hàng và một cột trong cùng một nước, và cả hai cùng bị xóa. Đặt xong cả ba khối thì bạn nhận ba khối mới. Ván chơi kết thúc khi không khối nào còn trong tay vừa chỗ nào trên bàn.</p>
+      <ul>
+        <li>Cảm ứng: kéo khối; khối nổi lên cao hơn ngón tay một chút để bạn thấy nó sẽ rơi vào đâu.</li>
+        <li>Chạm: chạm vào khối để chọn, rồi chạm vào chỗ trên bàn muốn đặt.</li>
+        <li>Bàn phím: nhấn 1, 2 hoặc 3 để chọn, di chuyển bằng phím mũi tên và nhấn Enter để đặt.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Cách tính điểm và combo</h2>
+      <p>Mỗi ô đặt xuống được một điểm, nên một hình vuông lớn 3×3 đã có chín điểm chỉ nhờ đặt xuống. Điểm lớn thật sự đến từ việc xóa hàng. Một hàng được thưởng 10, hai hàng cùng lúc 30, ba hàng 60 và bốn hàng 100. Vì vậy xóa nhiều hàng bằng một khối có lợi hơn nhiều so với xóa từng hàng một.</p>
+      <p>Bên trên còn có combo. Mỗi lần đặt khối mà xóa được ít nhất một hàng, combo tăng thêm một, và combo nhân với điểm thưởng của nước đó. Lần xóa thứ hai liên tiếp được gấp đôi, lần thứ ba gấp ba, cứ thế tiếp tục. Combo bỏ qua cho hai nước không xóa được gì: chỉ khi ba nước liên tiếp không xóa được hàng nào thì nó mới về không. Giữ combo thật lâu là con đường nhanh nhất đến điểm cao.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Những mẹo thật sự có ích</h2>
+      <p>Phần lớn các ván thua không phải vì bàn quá đầy mà vì bàn bị chia quá vụn. Hai mươi ô trống liền một mảng thì an toàn; hai mươi lỗ lẻ rải rác khắp nơi thì gần như hết cứu. Đừng chỉ nhìn khối hiện tại vừa chỗ nào, hãy nghĩ đến hình dạng khoảng trống còn lại sau khi đặt.</p>
+      <ul>
+        <li>Giữ trống phần giữa. Xếp dọc mép và các góc trước để phần giữa còn chỗ cho những khối khó đặt.</li>
+        <li>Luôn chừa chỗ cho hình vuông 3×3 và thanh năm ô. Đây là những khối hay kết thúc ván chơi nhất.</li>
+        <li>Nhìn cả ba khối trước khi đặt khối đầu tiên. Chỉ cần đổi thứ tự là thường cả ba đều vừa.</li>
+        <li>Tránh tạo lỗ lẻ một ô. Chỉ khối một ô mới lấp được và có khi phải chờ rất lâu.</li>
+        <li>Tạo hình chữ thập: khi một hàng và một cột cùng thiếu đúng một ô, một khối sẽ xóa cả hai.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Chơi để ăn combo</h2>
+      <p>Khi đã trụ vững, hãy thử lên kế hoạch xóa trước hai ba nước. Lấp nhiều hàng đến bảy trên tám ô, rồi hoàn thành lần lượt từng hàng để mỗi khối đặt xuống đều xóa được gì đó. Vì combo bỏ qua cho hai nước không xóa, bạn có thể dùng một khối để dọn bàn mà không đứt chuỗi. Những lần xóa nhiều hàng cùng lúc giữa một chuỗi combo dài chính là nguồn của những điểm số vài nghìn.</p>
+    </section>
+    <section>
+      <h2>Nguồn gốc của trò xếp khối 8×8</h2>
+      <p>Trò xếp khối ra đời từ những game khối rơi của thập niên 1980, nhưng bỏ đi phần rơi và đồng hồ. Thay vì phản xạ nhanh, bạn nhận vài khối cùng một lưới cố định và chỉ việc quyết định đặt từng khối ở đâu. Ý tưởng này mượn từ những câu đố lát gạch lâu đời hơn nhiều, như polyomino, những hình ghép từ các ô vuông nối cạnh với nhau mà giới soạn câu đố đã nghiên cứu từ giữa thế kỷ 20.</p>
+      <p>Đến những năm 2010, kiểu chơi này trở thành món khoái khẩu trên điện thoại: bàn vuông, vài khối mỗi lượt và các hàng xóa được cả ngang lẫn dọc. Bàn 8×8 trở nên phổ biến vì đủ rộng để lên kế hoạch nhưng đủ hẹp để mỗi sai lầm đều có giá. Phiên bản của chúng tôi giữ những luật chơi kinh điển đó và thêm hệ thống combo nhẹ nhàng để thưởng cho lối chơi cẩn thận.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🧩</span>Chơi Xếp khối ngay</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Xếp khối</a> · <a href="privacy.html">Chính sách bảo mật</a>
+  </footer>
+</main>
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+</body>
+</html>

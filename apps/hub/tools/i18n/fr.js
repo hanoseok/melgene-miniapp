@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'newyear',
+        kicker: "Avant-goût",
+        headline: "Que te réserve 2027 ?",
+        blurb: "Quelques choix rapides pour ton thème et ta couleur porte-bonheur.",
+      },
+      {
+        id: 'block',
+        kicker: "Encore une partie",
+        headline: "Place les blocs, efface les lignes",
+        blurb: "Remplis lignes et colonnes pour les effacer. Enchaîne pour des combos !",
+      },
+      {
         id: 'santa',
         kicker: "Tirage en secret",
         headline: "Qui sera ton Père Noël secret ?",

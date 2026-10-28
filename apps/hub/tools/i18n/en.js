@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'newyear',
+        kicker: "Peek at next year",
+        headline: "What will 2027 bring you?",
+        blurb: "Answer a few quick picks to get your theme and lucky color.",
+      },
+      {
+        id: 'block',
+        kicker: "Just one more round",
+        headline: "Fit the blocks, clear the lines",
+        blurb: "Fill rows and columns to clear them. Chain clears for combos!",
+      },
+      {
         id: 'santa',
         kicker: "Draw names in secret",
         headline: "Who’s your Secret Santa?",
