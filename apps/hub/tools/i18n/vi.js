@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'hue',
+        kicker: "Mắt bạn tinh cỡ nào?",
+        headline: "Tìm ô màu khác biệt",
+        blurb: "Chạm vào ô khác màu. Càng lên cấp càng khó.",
+      },
+      {
+        id: 'job',
+        kicker: "Nghề nào hợp với bạn?",
+        headline: "Trắc nghiệm nghề nghiệp vui",
+        blurb: "Chọn vài câu là biết phong cách làm việc và nghề nên thử.",
+      },
+      {
         id: 'bingo',
         kicker: "Mục tiêu năm mới",
         headline: "Biến mục tiêu thành bingo",

@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'hue',
+        kicker: "色感大挑战",
+        headline: "找出那个不一样的颜色",
+        blurb: "点出颜色不同的格子，越往后格子越多、差别越小。",
+      },
+      {
+        id: 'job',
+        kicker: "我适合做什么？",
+        headline: "测测你的职业性格",
+        blurb: "选几道题，看看你的工作风格和适合尝试的职业。",
+      },
+      {
         id: 'bingo',
         kicker: "新年新目标",
         headline: "把目标做成宾果卡",

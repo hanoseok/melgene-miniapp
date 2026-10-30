@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'hue',
+        kicker: "How sharp are your eyes?",
+        headline: "Spot the one different color",
+        blurb: "Tap the odd tile out. It gets harder every level.",
+      },
+      {
+        id: 'job',
+        kicker: "Work, but make it you",
+        headline: "What job suits your personality?",
+        blurb: "A few quick picks reveal your work style and jobs to explore.",
+      },
+      {
         id: 'bingo',
         kicker: "Goals, but fun",
         headline: "Turn your 2027 goals into bingo",

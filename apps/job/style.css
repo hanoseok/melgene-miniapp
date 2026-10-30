@@ -1,0 +1,334 @@
+/* apps/job/style.css — 직업 적성 테스트: 따뜻한 모눈 종이(크림) + 남색 잉크 + 겨자색 포인트, 목걸이 사원증 그림(tools/art.js).
+ * 결과 페이지는 그 결과 색(--c-main 강조 · --c-deep 글자 · --c-ink 옅은 바탕)으로 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #f7f2e8;
+  --paper-2: #fffaf1;
+  --navy: #26304f;
+  --navy-2: #3a4670;
+  --mustard: #ffb547;
+  --mustard-deep: #d98a12;
+  --ink: #26304f;
+  --ink-dim: #4d5778;
+  --ink-faint: #7a829c;
+  --card: #ffffff;
+  --line: rgba(38, 48, 79, 0.16);
+  --grid: rgba(38, 48, 79, 0.06);
+  /* 결과 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #ffb547;
+  --c-deep: #26304f;
+  --c-ink: #fff6e6;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--navy);
+  --mg-top-badge-bg: var(--navy);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--navy);
+  --lang-border: rgba(38, 48, 79, 0.25);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--mustard);
+  --mg-star-off: rgba(38, 48, 79, 0.18);
+  --mg-heart-bg: #fff0f3;
+  --mg-heart-border: #f6b2c2;
+  --mg-heart-fg: #d94a6e;
+  --mg-heart-on: #e8506f;
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(38, 48, 79, 0.16);
+  --mg-x: var(--navy);
+  --mg-tiktok: var(--navy);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(38, 48, 79, 0.14);
+  --mg-end-retry-bg: var(--navy);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: rgba(38, 48, 79, 0.95);
+}
+
+html { background: var(--paper); }
+body.jb-body {
+  min-height: 100vh;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 22px 22px;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.jb-result-page {
+  background-image:
+    radial-gradient(ellipse 120% 40% at 50% -8%, color-mix(in srgb, var(--c-main) 26%, transparent), transparent 70%),
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: auto, 22px 22px, 22px 22px;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.jb-h1, .jb-kicker, .jb-h1-main, .jb-h1-main em, .jb-badge, .jb-btn, .jb-q-text, .jb-q-num, .jb-result-name, .jb-eyebrow, .jb-vibe, .jb-sub,
+.jb-pair-name, .jb-pair-label, .jb-loading-text, .jb-cta strong, .jb-doc h1, .jb-progress-num, .jb-meta span, .jb-lean-label, .jb-lean-end,
+.jb-keys li, .jb-jobs li, .jb-fact-h {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 천천히 떠다니는 작은 도구들 (고정, 가로 넘침 없음) ---------------- */
+.jb-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.jb-float {
+  position: absolute; font-size: 26px; line-height: 1; opacity: 0.22;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: jb-drift 9s ease-in-out infinite alternate;
+}
+.jb-float-1 { top: 14%; left: calc(50% - 240px - 54px); }
+.jb-float-2 { top: 38%; right: calc(50% - 240px - 50px); animation-delay: -3s; }
+.jb-float-3 { top: 70%; left: calc(50% - 240px - 46px); animation-delay: -6s; }
+.jb-float-4 { top: 84%; right: calc(50% - 240px - 56px); animation-delay: -1.5s; }
+@keyframes jb-drift { from { transform: translateY(10px) rotate(-8deg); } to { transform: translateY(-12px) rotate(8deg); } }
+
+.mg-top, .jb-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.jb-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.jb-screen { padding-top: 12px; }
+
+.jb-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 16px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.jb-btn-primary {
+  background: var(--mustard);
+  color: var(--navy);
+  border: 3px solid var(--navy);
+  box-shadow: 0 5px 0 var(--navy);
+}
+.jb-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--navy); }
+.jb-btn:focus-visible, .jb-choice:focus-visible, .jb-back:focus-visible { outline: 3px dashed var(--navy); outline-offset: 4px; }
+
+/* ---------------- 그림: 사원증 카드 + 이모지 ---------------- */
+.jb-hero { position: relative; display: grid; place-items: center; width: 188px; height: 188px; margin: 10px auto 0; }
+.jb-badge-art {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 10px 18px color-mix(in srgb, var(--h-main) 30%, transparent));
+}
+.jb-swing { animation: jb-swing 3.4s ease-in-out infinite; transform-origin: 100px 0; }
+@keyframes jb-swing { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+.jb-emo {
+  position: relative; top: 23px; font-size: 40px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: jb-bob 2.8s ease-in-out infinite;
+}
+.jb-q {
+  position: absolute; right: -2px; top: -2px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--mustard); color: var(--navy); border: 3px solid var(--navy);
+  font: 900 28px/1 'Nunito', sans-serif;
+  box-shadow: 0 4px 0 var(--navy);
+  animation: jb-bob 2.2s ease-in-out infinite reverse;
+}
+@keyframes jb-bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-4px) rotate(4deg); } }
+.jb-hero-loading { width: 170px; height: 170px; margin-bottom: 14px; }
+.jb-hero-loading .jb-emo { top: 21px; font-size: 36px; animation-duration: 0.9s; }
+.jb-hero-result { width: 176px; height: 176px; margin: 0 auto; }
+.jb-hero-result .jb-emo { font-size: 38px; top: 21px; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.jb-start { text-align: center; padding-top: 16px; }
+.jb-badge {
+  display: inline-block; margin: 0 0 4px;
+  padding: 5px 14px; border-radius: 999px;
+  background: #fff; border: 2px solid var(--navy);
+  color: var(--navy); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.jb-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.jb-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--mustard-deep); letter-spacing: 0.02em; }
+.jb-h1-main { display: block; font-size: 35px; line-height: 1.22; color: var(--navy); }
+.jb-h1-main em {
+  font-style: normal;
+  background: linear-gradient(transparent 58%, rgba(255, 181, 71, 0.75) 58%);
+  padding: 0 2px;
+}
+.jb-hook { margin: 0 auto 14px; max-width: 390px; font-size: 16px; color: var(--ink-dim); }
+.jb-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.jb-meta span { padding: 4px 12px; border-radius: 999px; background: #fff; border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.jb-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.jb-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 2px solid var(--navy); border-radius: 50%;
+  background: #fff; color: var(--navy); cursor: pointer;
+}
+.jb-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(38, 48, 79, 0.1); overflow: hidden; }
+.jb-progress-fill { height: 100%; width: 0; border-radius: inherit; background: var(--mustard); transition: width 0.3s ease; }
+.jb-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.jb-q-card {
+  position: relative;
+  padding: 20px 16px 16px;
+  border-radius: 20px;
+  background: var(--card);
+  border: 2.5px solid var(--navy);
+  box-shadow: 0 6px 0 var(--navy);
+  animation: jb-in 0.28s ease;
+}
+@keyframes jb-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.jb-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.jb-q-emoji { font-size: 28px; line-height: 1; }
+.jb-q-num { font-size: 17px; color: var(--mustard-deep); font-weight: var(--display-weight); }
+.jb-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--navy); }
+.jb-choices { display: flex; flex-direction: column; gap: 10px; }
+.jb-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper-2);
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .jb-choice:hover { border-color: var(--navy); background: #fff3dc; } }
+.jb-choice:active { transform: scale(0.985); }
+.jb-choice.is-picked { border-color: var(--navy); background: var(--mustard); box-shadow: 0 3px 0 var(--navy); }
+.jb-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 답 정리하는 중 ---------------- */
+.jb-loading { text-align: center; padding: 40px 0; }
+.jb-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); color: var(--navy); }
+.jb-loading-sub { margin: 0; font-size: 14px; color: var(--mustard-deep); font-weight: 700; }
+
+/* ---------------- 결과 ---------------- */
+.jb-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 16px; border: 2px solid var(--navy);
+  background: #fff3dc; color: var(--navy); text-decoration: none;
+  box-shadow: 0 4px 0 var(--navy);
+}
+.jb-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.jb-cta-text strong { font-size: 17px; font-weight: var(--display-weight); }
+.jb-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.jb-cta-arrow { font-size: 22px; }
+
+.jb-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: var(--card);
+  border: 2.5px solid var(--navy);
+  border-radius: 22px;
+  box-shadow: 0 7px 0 var(--navy);
+}
+.jb-eyebrow { margin: 8px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.jb-result-title { margin: 6px 0 0; line-height: 1.2; }
+.jb-result-name { display: block; font-size: 32px; font-weight: var(--display-weight); line-height: 1.2; color: var(--c-deep); overflow-wrap: break-word; }
+.jb-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--navy); }
+.jb-keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.jb-keys li {
+  padding: 4px 12px; border-radius: 999px;
+  background: var(--c-ink); border: 1.5px solid var(--c-main);
+  color: var(--c-deep); font-size: 14px; font-weight: var(--display-weight); line-height: 1.35;
+}
+
+/* 내 답이 기운 쪽 (방금 푼 사람만, 점 위치는 result.js 가 채움) */
+.jb-lean { margin: 14px 0 0; padding: 12px 14px; border-radius: 16px; background: var(--paper-2); border: 1.5px solid var(--line); text-align: left; }
+.jb-lean-label { display: block; font-size: 14px; font-weight: var(--display-weight); color: var(--ink-dim); margin-bottom: 6px; }
+.jb-lean-row { display: grid; grid-template-columns: minmax(0, 1fr) 24% minmax(0, 1fr); align-items: center; gap: 10px; margin: 8px 0 0; font-size: 12.5px; line-height: 1.25; }
+.jb-lean-end { font-weight: 800; color: var(--navy); overflow-wrap: anywhere; }
+.jb-lean-end-r { text-align: right; }
+.jb-lean-track { position: relative; display: block; height: 10px; border-radius: 999px; background: linear-gradient(90deg, var(--c-main), rgba(38, 48, 79, 0.1) 50%, var(--navy-2)); opacity: 0.9; }
+.jb-lean-dot { position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; background: #fff; border: 4px solid var(--navy); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); transition: left 0.8s ease; }
+
+.jb-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: var(--c-ink); border: 1.5px dashed var(--c-main);
+  color: var(--c-deep); font-size: 13.5px; font-weight: 800;
+}
+.jb-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.jb-sub { margin: 18px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; line-height: 1.3; }
+
+/* 알아볼 만한 직업: 2×2 타일 */
+.jb-jobs { display: grid; grid-template-columns: 1fr; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.jb-jobs li {
+  display: flex; align-items: center; justify-content: flex-start; min-height: 44px;
+  padding: 8px 14px; border-radius: 12px;
+  background: var(--c-ink); border: 2px solid var(--c-main);
+  color: var(--navy); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; text-align: left;
+  overflow-wrap: break-word;
+}
+.jb-strengths { margin: 0; padding: 0; list-style: none; text-align: left; }
+.jb-strengths li { position: relative; margin: 0 0 6px; padding: 0 0 0 26px; font-size: 15px; line-height: 1.55; color: var(--ink-dim); }
+.jb-strengths li::before { content: '✓'; position: absolute; left: 4px; top: 0; font-weight: 900; color: var(--c-deep); }
+.jb-facts { display: grid; gap: 8px; margin-top: 14px; text-align: left; }
+.jb-fact { padding: 10px 12px 12px; border-radius: 14px; background: var(--paper-2); border: 1.5px solid var(--line); }
+.jb-fact-h { margin: 0 0 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--navy); }
+.jb-fact p { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--ink-dim); }
+.jb-note { margin-top: 14px; padding: 2px 14px 12px; border-radius: 14px; background: var(--c-ink); border: 1.5px dashed var(--c-main); text-align: left; }
+.jb-note .jb-sub { margin: 10px 0 4px; font-size: 16px; }
+.jb-note p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-dim); }
+
+/* 환상의 동료/정반대 스타일: 보여주기만 (링크·hover·pointer 없음 — 누를 수 있어 보이지 않게) */
+.jb-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.jb-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 8px 12px; border-radius: 14px;
+  background: var(--paper-2); border: 1.5px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  cursor: default; user-select: none;
+}
+.jb-pair-label { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); }
+.jb-pair-emo { font-size: 32px; line-height: 1.1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.jb-pair-name { font-size: 15px; font-weight: var(--display-weight); line-height: 1.25; color: var(--navy); overflow-wrap: break-word; max-width: 100%; text-align: center; }
+
+/* 재미용 안내 */
+.jb-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: #fff; border: 1.5px dashed rgba(38, 48, 79, 0.3); font-size: 13px; line-height: 1.5; color: var(--ink-dim); text-align: center; }
+
+/* ---------------- 개인정보 ---------------- */
+.jb-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.jb-doc h1 { font-size: 28px; color: var(--navy); margin: 8px 0 12px; line-height: 1.3; }
+.jb-doc h2 { font-size: 17px; color: var(--mustard-deep); margin: 22px 0 6px; }
+.jb-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .jb-body { line-height: 1.75; }
+html:lang(th) :is(.jb-h1-main, .jb-result-name, .jb-q-text, .jb-vibe) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.jb-kicker, .jb-badge, .jb-lean-label) { letter-spacing: 0; }
+html:lang(vi) :is(.jb-h1-main, .jb-result-name, .jb-q-text) { line-height: 1.4; }
+html:lang(ru) .jb-doc h1 { line-height: 1.25; }
+html:lang(de) :is(.jb-jobs li, .jb-pair-label, .jb-pair-name, .jb-lean-end, .jb-result-name) { hyphens: auto; -webkit-hyphens: auto; }
+html:lang(ja) :is(.jb-h1-main, .jb-result-name, .jb-q-text, .jb-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.jb-h1-main, .jb-result-name, .jb-q-text, .jb-vibe, .jb-hook, .jb-desc, .jb-note p, .jb-fact p, .jb-strengths li, .jb-jobs li) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .jb-h1-main { font-size: 30px; }
+  .jb-result-name { font-size: 28px; }
+  .jb-q-text { font-size: 19px; }
+  .jb-jobs li { font-size: 14px; }
+  .jb-hero-result { width: 160px; height: 160px; }
+  .jb-hero-result .jb-emo { font-size: 34px; top: 19px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jb-float, .jb-swing, .jb-emo, .jb-q, .jb-q-card { animation: none !important; }
+  .jb-progress-fill, .jb-btn, .jb-choice, .jb-lean-dot { transition: none; }
+}

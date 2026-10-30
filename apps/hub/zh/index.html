@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 65,
+  "numberOfItems": 67,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -534,6 +534,20 @@
       "url": "https://bracket.example.com/zh/",
       "name": "淘汰赛对阵表",
       "description": "输入2到64个名字或选项，公平随机抽签生成淘汰赛对阵表。可以一场场选出胜者，也可以只生成对阵用于真实比赛。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "url": "https://hue.example.com/zh/",
+      "name": "找不同颜色",
+      "description": "一模一样的色块里，只有一块颜色稍有不同。60 秒内你能找到第几关？"
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "url": "https://job.example.com/zh/",
+      "name": "职业性格测试",
+      "description": "11道轻松小题，2分钟。你在什么样的工作方式里最闪光？看看适合你的职业，仅供娱乐。"
     }
   ]
 }
@@ -609,6 +623,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hue">
+        <a class="cur-card" href="https://hue.example.com/zh/" style="--h:172;--h2:154">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">色感大挑战</span></span>
+            <h3 class="cur-headline">找出那个不一样的颜色</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">点出颜色不同的格子，越往后格子越多、差别越小。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">找不同颜色</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="job">
+        <a class="cur-card" href="https://job.example.com/zh/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">我适合做什么？</span></span>
+            <h3 class="cur-headline">测测你的职业性格</h3>
+            <span class="cur-giant" aria-hidden="true">💼</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">选几道题，看看你的工作风格和适合尝试的职业。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">职业性格测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bingo">
         <a class="cur-card" href="https://bingo.example.com/zh/" style="--h:325;--h2:307">
           <span class="cur-art">
@@ -673,7 +719,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split">
+      <li class="cur-item" data-id="split" hidden>
         <a class="cur-card" href="https://split.example.com/zh/" style="--h:98;--h2:80">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">吃完饭了</span></span>
@@ -689,7 +735,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="santa">
+      <li class="cur-item" data-id="santa" hidden>
         <a class="cur-card" href="https://santa.example.com/zh/" style="--h:327;--h2:309">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">悄悄抽签</span></span>
@@ -737,45 +783,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi" hidden>
-        <a class="cur-card" href="https://bmi.example.com/zh/" style="--h:306;--h2:288">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">只要身高体重</span></span>
-            <h3 class="cur-headline">你的BMI是多少？</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">马上看胖瘦等级和健康体重范围。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">BMI计算器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bomb" hidden>
-        <a class="cur-card" href="https://bomb.example.com/zh/" style="--h:158;--h2:140">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">快传出去！</span></span>
-            <h3 class="cur-headline">别在你手里爆炸</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">点炸弹、传手机，谁也不知道什么时候轰。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">传炸弹游戏</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">65个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">67个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -797,6 +811,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hue" data-cat="game">
+        <a class="tile-link" href="https://hue.example.com/zh/" title="一模一样的色块里，只有一块颜色稍有不同。60 秒内你能找到第几关？" style="--h:172;--h2:154">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">找不同颜色</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="job" data-cat="test">
+        <a class="tile-link" href="https://job.example.com/zh/" title="11道轻松小题，2分钟。你在什么样的工作方式里最闪光？看看适合你的职业，仅供娱乐。" style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">职业性格测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/zh/" title="在3×3、4×4或5×5宾果格里写下新年目标，选好配色保存成图片。完成一个就盖个章，看看连成几条宾果。" style="--h:325;--h2:307">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>

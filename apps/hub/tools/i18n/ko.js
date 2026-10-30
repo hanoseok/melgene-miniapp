@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'hue',
+        kicker: "절대색감 도전",
+        headline: "다른 색 하나를 찾아라",
+        blurb: "다른 색 칸을 누르세요. 갈수록 칸은 늘고 차이는 줄어요.",
+      },
+      {
+        id: 'job',
+        kicker: "나는 어떤 일이 맞을까",
+        headline: "나에게 맞는 직업 테스트",
+        blurb: "몇 가지 고르면 내 일하는 스타일과 어울리는 직업이 나와요.",
+      },
+      {
         id: 'bingo',
         kicker: "올해 다짐 한 판",
         headline: "새해 목표로 빙고판 만들기",

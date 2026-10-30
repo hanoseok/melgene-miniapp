@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 65,
+  "numberOfItems": 67,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -536,6 +536,20 @@
       "url": "https://bracket.example.com/",
       "name": "Турнирная сетка",
       "description": "Впиши от 2 до 64 имён или вариантов и получи честно разыгранную турнирную сетку. Выбирай победителей в каждой паре или просто проведи жеребьёвку."
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "url": "https://hue.example.com/",
+      "name": "Найди другой цвет",
+      "description": "Все плитки кажутся одинаковыми, но одна чуть другого оттенка. Сколько уровней ты пройдёшь за 60 секунд?"
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "url": "https://job.example.com/",
+      "name": "Тест на профориентацию",
+      "description": "11 лёгких вопросов, 2 минуты. Как тебе лучше всего работается и какие профессии могут тебе подойти? Тест для развлечения."
     }
   ]
 }
@@ -611,6 +625,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hue">
+        <a class="cur-card" href="https://hue.example.com/" style="--h:172;--h2:154">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Насколько зоркий глаз?</span></span>
+            <h3 class="cur-headline">Найди другой цвет</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Нажми на клетку другого оттенка. С каждым уровнем сложнее.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Найди другой цвет</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="job">
+        <a class="cur-card" href="https://job.example.com/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Какая работа твоя?</span></span>
+            <h3 class="cur-headline">Тест: какая профессия мне подходит</h3>
+            <span class="cur-giant" aria-hidden="true">💼</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Пара быстрых ответов — и ты узнаешь свой рабочий стиль.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Тест на профориентацию</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bingo">
         <a class="cur-card" href="https://bingo.example.com/" style="--h:325;--h2:307">
           <span class="cur-art">
@@ -675,7 +721,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split">
+      <li class="cur-item" data-id="split" hidden>
         <a class="cur-card" href="https://split.example.com/" style="--h:98;--h2:80">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Счёт принесли</span></span>
@@ -691,7 +737,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="santa">
+      <li class="cur-item" data-id="santa" hidden>
         <a class="cur-card" href="https://santa.example.com/" style="--h:327;--h2:309">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Жеребьёвка втайне</span></span>
@@ -739,45 +785,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi" hidden>
-        <a class="cur-card" href="https://bmi.example.com/" style="--h:306;--h2:288">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">Рост + вес</span></span>
-            <h3 class="cur-headline">Какой у тебя ИМТ?</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Твоя категория и нормальный вес за секунду.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Калькулятор ИМТ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bomb" hidden>
-        <a class="cur-card" href="https://bomb.example.com/" style="--h:158;--h2:140">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">Передай телефон!</span></span>
-            <h3 class="cur-headline">Только не у тебя в руках</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Нажми на бомбу и передай дальше. Когда рванёт, не знает никто.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Горячая картошка</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 65</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 67</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -799,6 +813,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hue" data-cat="game">
+        <a class="tile-link" href="https://hue.example.com/" title="Все плитки кажутся одинаковыми, но одна чуть другого оттенка. Сколько уровней ты пройдёшь за 60 секунд?" style="--h:172;--h2:154">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Найди другой цвет</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="job" data-cat="test">
+        <a class="tile-link" href="https://job.example.com/" title="11 лёгких вопросов, 2 минуты. Как тебе лучше всего работается и какие профессии могут тебе подойти? Тест для развлечения." style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тест на профориентацию</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/" title="Впиши свои цели в бинго 3×3, 4×4 или 5×5, выбери цвет и сохрани картинкой. Отмечай штампом каждую достигнутую цель и считай линии." style="--h:325;--h2:307">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>

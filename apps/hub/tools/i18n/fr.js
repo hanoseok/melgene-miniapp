@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'hue',
+        kicker: "Tes yeux sont-ils affûtés ?",
+        headline: "Trouve la couleur différente",
+        blurb: "Touche la case intruse. Chaque niveau est plus subtil.",
+      },
+      {
+        id: 'job',
+        kicker: "Quel métier pour toi ?",
+        headline: "Test d’orientation : ton style de travail",
+        blurb: "Quelques choix rapides et découvre des métiers à explorer.",
+      },
+      {
         id: 'bingo',
         kicker: "Tes résolutions",
         headline: "Ta grille bingo de résolutions",

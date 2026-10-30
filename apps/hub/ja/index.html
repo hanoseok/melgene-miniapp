@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 65,
+  "numberOfItems": 67,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -534,6 +534,20 @@
       "url": "https://bracket.example.com/ja/",
       "name": "トーナメント表作成",
       "description": "名前や項目を入れるだけで、公平にシャッフルしたトーナメント表を作成。1試合ずつ勝者を選んで優勝を決めることもできます。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "url": "https://hue.example.com/ja/",
+      "name": "色彩感覚テスト",
+      "description": "同じに見えるタイルの中に、ほんの少しだけ色が違う1枚。60秒で何レベルまで見つけられる？"
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "url": "https://job.example.com/ja/",
+      "name": "適職診断",
+      "description": "かんたんな11問、約2分。あなたが輝く働き方と、向いていそうな仕事は？気軽に楽しむ適職診断です。"
     }
   ]
 }
@@ -609,6 +623,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hue">
+        <a class="cur-card" href="https://hue.example.com/ja/" style="--h:172;--h2:154">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">色彩感覚チャレンジ</span></span>
+            <h3 class="cur-headline">ひとつだけ違う色を探せ</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">違う色のマスをタップ。進むほどマスが増えて差が小さく。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">色彩感覚テスト</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="job">
+        <a class="cur-card" href="https://job.example.com/ja/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">向いてる仕事は？</span></span>
+            <h3 class="cur-headline">あなたの適職診断</h3>
+            <span class="cur-giant" aria-hidden="true">💼</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">いくつか選ぶだけで、働き方のタイプと合う仕事がわかります。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">適職診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bingo">
         <a class="cur-card" href="https://bingo.example.com/ja/" style="--h:325;--h2:307">
           <span class="cur-art">
@@ -673,7 +719,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split">
+      <li class="cur-item" data-id="split" hidden>
         <a class="cur-card" href="https://split.example.com/ja/" style="--h:98;--h2:80">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ごちそうさまの後に</span></span>
@@ -689,7 +735,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="santa">
+      <li class="cur-item" data-id="santa" hidden>
         <a class="cur-card" href="https://santa.example.com/ja/" style="--h:327;--h2:309">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">こっそり抽選</span></span>
@@ -737,45 +783,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi" hidden>
-        <a class="cur-card" href="https://bmi.example.com/ja/" style="--h:306;--h2:288">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">身長と体重だけ</span></span>
-            <h3 class="cur-headline">あなたのBMIは？</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">肥満度と普通体重の範囲がすぐわかる。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">BMI計算</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bomb" hidden>
-        <a class="cur-card" href="https://bomb.example.com/ja/" style="--h:158;--h2:140">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">スマホを回せ！</span></span>
-            <h3 class="cur-headline">自分の番で爆発するな</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">タップして次の人へ。いつ爆発するかは誰も知らない。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">爆弾ゲーム</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">65件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">67件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -797,6 +811,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hue" data-cat="game">
+        <a class="tile-link" href="https://hue.example.com/ja/" title="同じに見えるタイルの中に、ほんの少しだけ色が違う1枚。60秒で何レベルまで見つけられる？" style="--h:172;--h2:154">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">色彩感覚テスト</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="job" data-cat="test">
+        <a class="tile-link" href="https://job.example.com/ja/" title="かんたんな11問、約2分。あなたが輝く働き方と、向いていそうな仕事は？気軽に楽しむ適職診断です。" style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">適職診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/ja/" title="3×3・4×4・5×5のビンゴに新年の目標を書いて、色を選んで画像で保存。達成した目標にスタンプを押してビンゴの数を数えよう。" style="--h:325;--h2:307">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>

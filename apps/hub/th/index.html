@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 65,
+  "numberOfItems": 67,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -535,6 +535,20 @@
       "url": "https://bracket.example.com/th/",
       "name": "สร้างสายการแข่งขัน",
       "description": "ใส่ชื่อหรือตัวเลือก 2–64 รายการ แล้วสุ่มสายการแข่งขันอย่างยุติธรรม เลือกผู้ชนะทีละคู่ หรือจับสายไว้ใช้แข่งจริงก็ได้"
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "url": "https://hue.example.com/th/",
+      "name": "เกมหาสีที่ต่าง",
+      "description": "ช่องสีดูเหมือนกันหมด แต่มีช่องเดียวที่สีต่างไปนิดเดียว 60 วินาทีจะหาได้กี่ด่าน"
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "url": "https://job.example.com/th/",
+      "name": "แบบทดสอบอาชีพ",
+      "description": "คำถามง่าย ๆ 11 ข้อ ใช้เวลา 2 นาที คุณเปล่งประกายเมื่อทำงานแบบไหน และอาชีพไหนน่าจะเข้ากับคุณ ทำเล่นสนุก ๆ"
     }
   ]
 }
@@ -610,6 +624,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="hue">
+        <a class="cur-card" href="https://hue.example.com/th/" style="--h:172;--h2:154">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ตาไวแค่ไหน</span></span>
+            <h3 class="cur-headline">หาสีที่ต่างออกไป</h3>
+            <span class="cur-giant" aria-hidden="true">🎨</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">แตะช่องที่สีไม่เหมือนเพื่อน ยิ่งเล่นยิ่งยาก</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">เกมหาสีที่ต่าง</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="job">
+        <a class="cur-card" href="https://job.example.com/th/" style="--h:333;--h2:315">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">งานแบบไหนใช่เรา</span></span>
+            <h3 class="cur-headline">แบบทดสอบอาชีพที่เหมาะกับคุณ</h3>
+            <span class="cur-giant" aria-hidden="true">💼</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">เลือกไม่กี่ข้อ รู้สไตล์การทำงานและอาชีพที่น่าลอง</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">แบบทดสอบอาชีพ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="bingo">
         <a class="cur-card" href="https://bingo.example.com/th/" style="--h:325;--h2:307">
           <span class="cur-art">
@@ -674,7 +720,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split">
+      <li class="cur-item" data-id="split" hidden>
         <a class="cur-card" href="https://split.example.com/th/" style="--h:98;--h2:80">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">กินเสร็จแล้ว</span></span>
@@ -690,7 +736,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="santa">
+      <li class="cur-item" data-id="santa" hidden>
         <a class="cur-card" href="https://santa.example.com/th/" style="--h:327;--h2:309">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">จับฉลากแบบลับ</span></span>
@@ -738,45 +784,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bmi" hidden>
-        <a class="cur-card" href="https://bmi.example.com/th/" style="--h:306;--h2:288">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⚖️</span></span></span><span class="cur-kicker">แค่ส่วนสูงกับน้ำหนัก</span></span>
-            <h3 class="cur-headline">BMI ของคุณเท่าไร?</h3>
-            <span class="cur-giant" aria-hidden="true">⚖️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">ดูระดับอ้วนผอมและน้ำหนักที่เหมาะสมทันที</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">คำนวณ BMI</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bomb" hidden>
-        <a class="cur-card" href="https://bomb.example.com/th/" style="--h:158;--h2:140">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💣</span></span></span><span class="cur-kicker">ส่งต่อเร็ว!</span></span>
-            <h3 class="cur-headline">อย่าให้ระเบิดในมือเรา</h3>
-            <span class="cur-giant" aria-hidden="true">💣</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">แตะระเบิดแล้วส่งมือถือ ไม่มีใครรู้ว่าจะตูมเมื่อไร</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">เกมส่งระเบิด</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">65 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">67 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -798,6 +812,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="hue" data-cat="game">
+        <a class="tile-link" href="https://hue.example.com/th/" title="ช่องสีดูเหมือนกันหมด แต่มีช่องเดียวที่สีต่างไปนิดเดียว 60 วินาทีจะหาได้กี่ด่าน" style="--h:172;--h2:154">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">เกมหาสีที่ต่าง</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="job" data-cat="test">
+        <a class="tile-link" href="https://job.example.com/th/" title="คำถามง่าย ๆ 11 ข้อ ใช้เวลา 2 นาที คุณเปล่งประกายเมื่อทำงานแบบไหน และอาชีพไหนน่าจะเข้ากับคุณ ทำเล่นสนุก ๆ" style="--h:333;--h2:315">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แบบทดสอบอาชีพ</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/th/" title="เขียนเป้าหมายปีใหม่ลงตารางบิงโก 3×3, 4×4 หรือ 5×5 เลือกสี แล้วเซฟเป็นรูป ทำสำเร็จข้อไหนก็กดประทับตรา แล้วนับเส้นบิงโก" style="--h:325;--h2:307">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>

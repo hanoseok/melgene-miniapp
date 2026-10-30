@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'hue',
+        kicker: "Wie gut sind deine Augen?",
+        headline: "Finde die andere Farbe",
+        blurb: "Tippe das abweichende Feld an. Jede Stufe wird kniffliger.",
+      },
+      {
+        id: 'job',
+        kicker: "Welcher Job passt?",
+        headline: "Berufstest: dein Arbeitstyp",
+        blurb: "Ein paar schnelle Antworten zeigen Arbeitsstil und passende Berufe.",
+      },
+      {
         id: 'bingo',
         kicker: "Gute Vorsätze",
         headline: "Dein Ziele-Bingo für 2027",

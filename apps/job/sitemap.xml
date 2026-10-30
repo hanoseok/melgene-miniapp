@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://job.example.com/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/showrunner.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/showrunner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/showrunner.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/storyteller.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/storyteller.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/storyteller.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/captain.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/captain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/captain.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/caretaker.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/caretaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/caretaker.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/creator.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/creator.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/creator.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/inventor.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/inventor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/inventor.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/builder.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/builder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/builder.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/r/analyst.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/r/analyst.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/r/analyst.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ja/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/zh/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ko/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/fr/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/de/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/th/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/vi/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/es/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/it/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/pt/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://job.example.com/ru/guide.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://job.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://job.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://job.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://job.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://job.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://job.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://job.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://job.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://job.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://job.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://job.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://job.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://job.example.com/guide.html"/>
+  </url>
+</urlset>

@@ -156,6 +156,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | newyear | apps/newyear | 2027 새해 운세 테스트(심리테스트): 11문항×4보기, 새로움/안정·함께/나만의 시간·계획/흐름 3축 ±1 → 8종 r/*.html(전수 12.12~12.88%), 행운의 색·달·물건, 네 영역 운세, 단짝/라이벌(링크 없음), 재미용, 연도는 newyear-core.js YEAR 한 곳(띠 문장은 가이드 ko·ja·zh·vi 손으로) | `check-newyear.js` (+ `flow-test.js`) |
 | bingo | apps/bingo | 새해 목표 빙고(만들기): 3×3·4×4·5×5 판(홀수는 가운데 자유칸), 칸마다 목표 입력·언어별 아이디어 40개로 채우기·섞기, 색 테마 6개, 1080×1350 캔버스 카드 이미지 저장, 칸 눌러 도장·빙고 줄 세기(Intl.PluralRules), localStorage 이어하기, #d= 보기 전용 링크, 서버 전송 없음 | `check-bingo.js` (+ `flow-test.js`) |
 | bracket | apps/bracket | 토너먼트 대진표(투표): 내 항목 2~64개로 공정한 랜덤 대진표(표준 시드 + 부전승 자동, 부전승끼리 안 만남, 진짜 경기 n−1), 한 판씩 고르기(이상형 월드컵식) 또는 대진표만 뽑고 이름 눌러 승자, 되돌리기, PNG·글 복사·#d= 링크, localStorage 이어하기, 서버 전송 없음 | `check-bracket.js` (+ `flow-test.js`) |
+| hue | apps/hue | 다른 색 찾기(게임, 절대색감 테스트): 60초 동안 한 칸만 다른 색 찾기, 판 2×2→8×8, OKLab 밝기 차이 0.15×0.89^레벨(바닥 0.016), 틀리면 3초 감점, 점수 = 깬 레벨, 등급 6단계(내 것만), supa.submitScore 백분위, 최고 기록 localStorage, 탭 숨기면 시계 멈춤, 재미용(의학 검사 아님) | `check-hue.js` (+ `flow-test.js`) |
+| job | apps/job | 직업 적성 테스트(심리테스트): 11문항×4보기, 3축(사람↔사물·아이디어, 상상↔체계, 앞장↔몰두) → 8종 r/*.html(전수 12.12~12.88%), 언어별 현지 직업 4개·강점·일 스타일 팁, 동료/정반대(링크 없음), poll 비율은 20표 이상일 때만, 재미용(전문 진로 검사 아님) | `check-job.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

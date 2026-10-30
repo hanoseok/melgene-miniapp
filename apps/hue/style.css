@@ -1,0 +1,230 @@
+/* apps/hue/style.css — 다른 색 찾기: 색 판단을 흐리지 않게 무채색(짙은 회색) 바탕 + 무지개 포인트, 둥근 글꼴.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 게임 판은 화면 폭과 높이에 모두 맞춘다(플레이 중 스크롤 없음).
+ */
+:root {
+  --bg-0: #141519;
+  --bg-1: #1c1d22;
+  --bg-2: #272930;
+  --board: #2a2c33;
+  --sun: #ffd84f;
+  --pink: #ff6b8b;
+  --mint: #7ee081;
+  --sky: #4fc3ff;
+  --violet: #a98bff;
+  --ink: #f5f5f7;
+  --ink-dim: rgba(245, 245, 247, 0.8);
+  --ink-faint: rgba(245, 245, 247, 0.56);
+  --dark: #17181c;
+  --card: rgba(255, 255, 255, 0.06);
+  --line: rgba(255, 255, 255, 0.16);
+  --rainbow: linear-gradient(90deg, #ff6b8b, #ffb547, #ffd84f, #7ee081, #4fc3ff, #a98bff);
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--sun);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(245, 245, 247, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(245, 245, 247, 0.3);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd84f;
+  --mg-star-off: rgba(245, 245, 247, 0.2);
+  --mg-heart-bg: rgba(255, 107, 139, 0.12);
+  --mg-heart-border: rgba(255, 107, 139, 0.5);
+  --mg-heart-fg: var(--pink);
+  --mg-heart-on: #ff4f76;
+  --mg-share-bg: rgba(245, 245, 247, 0.06);
+  --mg-share-border: rgba(245, 245, 247, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(245, 245, 247, 0.05);
+  --mg-faq-border: rgba(245, 245, 247, 0.2);
+  --mg-end-retry-bg: var(--sun);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(39, 41, 48, 0.97);
+}
+
+html { background: var(--bg-0); }
+body.hue-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 120% 60% at 50% -12%, var(--bg-2), var(--bg-1) 50%, var(--bg-0) 85%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.hue-h1, .hue-kicker, .hue-h1-main, .hue-h1-main em, .hue-badge, .hue-btn, .hue-how, .hue-facts,
+.hue-hud-label, .hue-hud-val, .hue-hint, .hue-over-title, .hue-pop,
+.hue-eyebrow, .hue-score-big, .hue-unit, .hue-tier-name, .hue-newbest, .hue-best, .hue-stat dt, .hue-stat dd, .hue-top, .hue-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.hue-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.hue-screen { padding-top: 12px; }
+
+.hue-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px; padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight); line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.hue-btn-primary { background: var(--sun); color: var(--dark); box-shadow: 0 5px 0 #c99a17, 0 10px 26px rgba(255, 216, 79, 0.22); }
+.hue-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #c99a17; }
+.hue-btn:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 (티징 + 한 줄 방법) ---------------- */
+.hue-start { text-align: center; padding-top: 14px; }
+.hue-badge {
+  display: inline-block; margin: 0 0 12px; padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 216, 79, 0.12); color: var(--sun); border: 1.5px solid rgba(255, 216, 79, 0.45);
+  font-size: 13px; line-height: 1.35;
+}
+.hue-hero { margin: 0 auto 4px; max-width: 196px; }
+.hue-hero-art { display: block; width: 100%; height: auto; filter: drop-shadow(0 10px 24px rgba(242, 114, 154, 0.28)); }
+.hue-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.hue-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--rainbow); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.hue-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); }
+.hue-h1-main em { font-style: normal; color: var(--sun); }
+.hue-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.hue-how {
+  margin: 0 0 18px; padding: 10px 12px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(245, 245, 247, 0.12);
+  font-size: 14px; line-height: 1.35; color: var(--ink);
+}
+.hue-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.hue-play { padding-top: 6px; }
+.hue-hud, .hue-timebar, .hue-board-wrap, .hue-hint { width: min(100%, var(--board-max)); margin-left: auto; margin-right: auto; }
+.hue-play { --board-max: min(448px, max(260px, calc(100svh - 236px))); }
+.hue-hud { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-bottom: 8px; }
+.hue-hud-box {
+  display: flex; flex-direction: column; justify-content: center; min-width: 0;
+  padding: 4px 10px 5px; border-radius: 12px; background: rgba(255, 255, 255, 0.07); border: 1.5px solid rgba(245, 245, 247, 0.12);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.hue-hud-label { font-size: 11px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hue-hud-val { font-size: 22px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hue-hud-level .hue-hud-val { color: var(--sun); }
+.hue-hud-time.low { border-color: var(--pink); background: rgba(255, 107, 139, 0.16); }
+.hue-hud-time.low .hue-hud-val { color: var(--pink); }
+
+.hue-timebar { height: 8px; margin-bottom: 10px; border-radius: 99px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
+.hue-timefill { display: block; height: 100%; width: 100%; background: var(--rainbow); transform-origin: left center; border-radius: 99px; }
+
+.hue-board-wrap { position: relative; }
+.hue-board {
+  --n: 2; --gap: 8px;
+  display: grid; grid-template-columns: repeat(var(--n), 1fr); grid-template-rows: repeat(var(--n), 1fr); gap: var(--gap);
+  aspect-ratio: 1 / 1; width: 100%; padding: 8px; border-radius: 18px;
+  background: var(--board); border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  outline: none; touch-action: manipulation; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+}
+.hue-board[data-n="5"], .hue-board[data-n="6"] { --gap: 6px; }
+.hue-board[data-n="7"], .hue-board[data-n="8"] { --gap: 5px; padding: 6px; }
+.hue-board:focus-visible { border-color: var(--sky); }
+.hue-tile { min-width: 0; min-height: 0; border-radius: 12%; cursor: pointer; transition: transform 0.08s ease; }
+.hue-tile:active { transform: scale(0.94); }
+.hue-tile.cur { box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--dark); }
+.hue-tile.bad { animation: hue-bad 0.35s ease; }
+.hue-tile.reveal { box-shadow: 0 0 0 3px #fff, 0 0 18px rgba(255, 255, 255, 0.8); z-index: 1; }
+.hue-board.done .hue-tile:not(.reveal) { opacity: 0.55; }
+@keyframes hue-bad { 0% { filter: brightness(1); transform: scale(1); } 40% { filter: brightness(0.6); transform: scale(0.9); } 100% { filter: brightness(1); transform: scale(1); } }
+.hue-board.shake { animation: hue-shake 0.3s ease; }
+@keyframes hue-shake { 20% { transform: translateX(-6px); } 50% { transform: translateX(6px); } 80% { transform: translateX(-3px); } }
+.hue-board.bump { animation: hue-bump 0.18s ease-out; }
+@keyframes hue-bump { from { transform: scale(0.97); } to { transform: scale(1); } }
+
+.hue-pops { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
+.hue-pop {
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap; pointer-events: none;
+  font-size: 24px; line-height: 1; color: #fff; text-shadow: 0 2px 0 var(--dark), 0 0 8px rgba(0, 0, 0, 0.6);
+  animation: hue-pop 0.9s ease-out forwards;
+}
+.hue-pop.minus { color: var(--pink); }
+.hue-pop.still { animation: none; }
+@keyframes hue-pop { 0% { opacity: 0; transform: translate(-50%, -30%) scale(0.8); } 15% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); } 100% { opacity: 0; transform: translate(-50%, -160%) scale(1); } }
+
+.hue-overlay {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  border-radius: 18px; padding: 16px; text-align: center; pointer-events: none;
+}
+.hue-over-title { margin: 0; padding: 8px 18px; border-radius: 14px; background: var(--sun); color: var(--dark); font-size: 26px; line-height: 1.25; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45); }
+
+.hue-hint { margin-top: 10px; margin-bottom: 6px; min-height: 1.4em; text-align: center; font-size: 14px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 끝 화면: 점수 카드 ---------------- */
+.hue-end { padding-top: 10px; }
+.hue-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(42, 44, 51, 0.95), rgba(28, 29, 34, 0.98));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.hue-result::before { content: ''; position: absolute; left: 22px; right: 22px; top: -2px; height: 4px; border-radius: 4px; background: var(--rainbow); }
+.hue-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--sky); color: var(--dark); font-size: 16px; line-height: 1.35;
+}
+.hue-score-line { margin: 4px 0 0; line-height: 1; }
+.hue-score-big { font-size: 64px; line-height: 1.05; color: var(--sun); font-variant-numeric: tabular-nums; text-shadow: 0 4px 0 var(--dark); }
+.hue-unit { font-size: 20px; color: var(--ink-dim); }
+.hue-tier { margin: 12px 0 0; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.hue-tier-label { font-size: 13px; line-height: 1.3; color: var(--ink-faint); letter-spacing: 0.04em; }
+.hue-tier-name { font-size: 24px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.hue-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--sun); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.hue-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.hue-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.hue-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(245, 245, 247, 0.12); }
+.hue-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.hue-stat dd { margin: 2px 0 0; font-size: 26px; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
+.hue-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(79, 195, 255, 0.08); border: 1.5px dashed rgba(79, 195, 255, 0.42); }
+.hue-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.hue-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--mint); }
+.hue-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.hue-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .hue-h1-main, html:lang(th) .hue-kicker, html:lang(th) .hue-how, html:lang(th) .hue-btn, html:lang(th) .hue-hook, html:lang(th) .hue-hint, html:lang(th) .hue-tier-name { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .hue-hud-label, html:lang(th) .hue-stat dt, html:lang(th) .hue-tier-label { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .hue-h1-main, html:lang(vi) .hue-kicker { line-height: 1.3; }
+html:lang(ja) .hue-h1-main, html:lang(zh) .hue-h1-main, html:lang(ko) .hue-h1-main { font-size: 30px; line-height: 1.25; }
+html:lang(ru) .hue-h1-main, html:lang(vi) .hue-h1-main { font-size: 29px; }
+html:lang(ru) .hue-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.hue-doc { padding: 16px 0 8px; }
+.hue-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.hue-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--sun); }
+.hue-doc p { color: var(--ink-dim); font-size: 15px; }
+.hue-doc a, .site-footer a { color: var(--sun); }
+
+@media (max-width: 359px) {
+  .hue-h1-main { font-size: 27px; }
+  .hue-hud-val { font-size: 19px; }
+}
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .hue-btn, .hue-hud-box, .hue-tile { transition: none; }
+  .hue-tile.bad, .hue-board.shake, .hue-board.bump, .hue-pop { animation: none; }
+}
