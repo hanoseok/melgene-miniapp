@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'bingo',
+        kicker: "Gute Vorsätze",
+        headline: "Dein Ziele-Bingo für 2027",
+        blurb: "Ein Ziel pro Feld – abhaken, sobald es geschafft ist.",
+      },
+      {
+        id: 'bracket',
+        kicker: "Wer holt den Titel?",
+        headline: "Turnierbaum selbst erstellen",
+        blurb: "Namen eingeben, fair auslosen, Sieger bis zum Finale tippen.",
+      },
+      {
         id: 'newyear',
         kicker: "Schon jetzt",
         headline: "Was bringt dir 2027?",

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 63,
+  "numberOfItems": 65,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -520,6 +520,20 @@
       "url": "https://newyear.example.com/pt/",
       "name": "Teste da sorte 2027",
       "description": "11 perguntas leves, 2 minutos. Qual é a sua palavra para 2027, com cor, mês e objeto da sorte? Só por diversão."
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "url": "https://bingo.example.com/pt/",
+      "name": "Bingo de metas",
+      "description": "Escreva suas metas num bingo 3×3, 4×4 ou 5×5, escolha as cores e salve como imagem. Carimbe cada meta cumprida e conte suas linhas."
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "url": "https://bracket.example.com/pt/",
+      "name": "Chaveamento de torneio",
+      "description": "Digite de 2 a 64 nomes ou opções e gere um chaveamento sorteado de forma justa. Escolha os vencedores confronto a confronto ou só sorteie as chaves."
     }
   ]
 }
@@ -595,6 +609,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bingo">
+        <a class="cur-card" href="https://bingo.example.com/pt/" style="--h:325;--h2:307">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Metas do ano</span></span>
+            <h3 class="cur-headline">Monte seu bingo de metas</h3>
+            <span class="cur-giant" aria-hidden="true">🎯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Uma meta em cada casa e um carimbo quando cumprir.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Bingo de metas</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bracket">
+        <a class="cur-card" href="https://bracket.example.com/pt/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Quem leva a taça?</span></span>
+            <h3 class="cur-headline">Crie sua chave de torneio</h3>
+            <span class="cur-giant" aria-hidden="true">🏆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Coloque os nomes, sorteio justo, toque no vencedor até a final.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Chaveamento de torneio</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="block">
         <a class="cur-card" href="https://block.example.com/pt/" style="--h:199;--h2:181">
           <span class="cur-art">
@@ -659,10 +705,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat">
+      <li class="cur-item" data-id="bat" hidden>
         <a class="cur-card" href="https://bat.example.com/pt/" style="--h:277;--h2:259">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Arcade de Halloween</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">Arcade de Halloween</span></span>
             <h3 class="cur-headline">Voe entre as lápides</h3>
             <span class="cur-giant" aria-hidden="true">🦇</span>
           </span>
@@ -675,10 +721,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="horror">
+      <li class="cur-item" data-id="horror" hidden>
         <a class="cur-card" href="https://horror.example.com/pt/" style="--h:210;--h2:192">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Luz apagada, pipoca pronta</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">Luz apagada, pipoca pronta</span></span>
             <h3 class="cur-headline">Você sobreviveria a um filme de terror?</h3>
             <span class="cur-giant" aria-hidden="true">🎃</span>
           </span>
@@ -723,45 +769,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="stack" hidden>
-        <a class="cur-card" href="https://stack.example.com/pt/" style="--h:138;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span></span><span class="cur-kicker">Só mais um bloco…</span></span>
-            <h3 class="cur-headline">Empilhe até o céu</h3>
-            <span class="cur-giant" aria-hidden="true">🏗️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Toque para soltar. Alinhe perfeito e continue subindo.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Empilhar blocos</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="color" hidden>
-        <a class="cur-card" href="https://color.example.com/pt/" style="--h:181;--h2:163">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span><span class="cur-kicker">Ouro ou prata?</span></span>
-            <h3 class="cur-headline">Descubra sua estação</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Autoteste rápido do subtom e das cores que combinam.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Teste de coloração pessoal</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">63 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">65 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novidades</option><option value="popular">Populares</option><option value="rating">Bem avaliados</option></select>
@@ -783,6 +797,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bingo" data-cat="create">
+        <a class="tile-link" href="https://bingo.example.com/pt/" title="Escreva suas metas num bingo 3×3, 4×4 ou 5×5, escolha as cores e salve como imagem. Carimbe cada meta cumprida e conte suas linhas." style="--h:325;--h2:307">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Bingo de metas</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bracket" data-cat="vote">
+        <a class="tile-link" href="https://bracket.example.com/pt/" title="Digite de 2 a 64 nomes ou opções e gere um chaveamento sorteado de forma justa. Escolha os vencedores confronto a confronto ou só sorteie as chaves." style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Chaveamento de torneio</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="block" data-cat="game">
         <a class="tile-link" href="https://block.example.com/pt/" title="Arraste três peças por vez para um tabuleiro 8×8. Complete linhas ou colunas para limpar e emende combos." style="--h:199;--h2:181">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NOVO</span></span>
@@ -813,14 +841,14 @@
       </li>
       <li class="tile" data-id="bat" data-cat="game">
         <a class="tile-link" href="https://bat.example.com/pt/" title="Toque para bater as asas e guie o morceguinho entre lápides e árvores assombradas sob a lua cheia. Cada vão vale um ponto." style="--h:277;--h2:259">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span>
           <span class="tile-name">Flappy morcego</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="horror" data-cat="test">
         <a class="tile-link" href="https://horror.example.com/pt/" title="11 cenas clássicas de filme de terror, 2 minutos. Que personagem você seria e chegaria vivo aos créditos? Só por diversão." style="--h:210;--h2:192">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span>
           <span class="tile-name">Sobrevivência no terror</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

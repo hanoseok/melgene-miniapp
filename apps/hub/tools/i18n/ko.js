@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'bingo',
+        kicker: "올해 다짐 한 판",
+        headline: "새해 목표로 빙고판 만들기",
+        blurb: "칸마다 목표를 적고 이룰 때마다 도장을 찍어요.",
+      },
+      {
+        id: 'bracket',
+        kicker: "누가 최후의 1등?",
+        headline: "내 맘대로 토너먼트 대진표",
+        blurb: "이름만 넣으면 대진표 완성. 이긴 쪽을 눌러 우승까지.",
+      },
+      {
         id: 'newyear',
         kicker: "새해를 미리",
         headline: "2027년 나의 운세 키워드는?",

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 63,
+  "numberOfItems": 65,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -521,6 +521,20 @@
       "url": "https://newyear.example.com/",
       "name": "2027新年运势测试",
       "description": "11道轻松小题，2分钟。你的2027年度关键词、幸运色、幸运月和幸运物是什么？仅供娱乐。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "url": "https://bingo.example.com/",
+      "name": "新年目标宾果",
+      "description": "在3×3、4×4或5×5宾果格里写下新年目标，选好配色保存成图片。完成一个就盖个章，看看连成几条宾果。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "url": "https://bracket.example.com/",
+      "name": "淘汰赛对阵表",
+      "description": "输入2到64个名字或选项，公平随机抽签生成淘汰赛对阵表。可以一场场选出胜者，也可以只生成对阵用于真实比赛。"
     }
   ]
 }
@@ -596,6 +610,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bingo">
+        <a class="cur-card" href="https://bingo.example.com/" style="--h:325;--h2:307">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">新年新目标</span></span>
+            <h3 class="cur-headline">把目标做成宾果卡</h3>
+            <span class="cur-giant" aria-hidden="true">🎯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">每格写一个目标，完成就盖个章。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">新年目标宾果</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bracket">
+        <a class="cur-card" href="https://bracket.example.com/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">谁能笑到最后？</span></span>
+            <h3 class="cur-headline">自制淘汰赛对阵表</h3>
+            <span class="cur-giant" aria-hidden="true">🏆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">输入名单即可随机分组，点选胜者直到决赛。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">淘汰赛对阵表</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="block">
         <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
           <span class="cur-art">
@@ -660,10 +706,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat">
+      <li class="cur-item" data-id="bat" hidden>
         <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">万圣节小游戏</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">万圣节小游戏</span></span>
             <h3 class="cur-headline">让蝙蝠飞过墓地</h3>
             <span class="cur-giant" aria-hidden="true">🦇</span>
           </span>
@@ -676,10 +722,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="horror">
+      <li class="cur-item" data-id="horror" hidden>
         <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">关灯，备好爆米花</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">关灯，备好爆米花</span></span>
             <h3 class="cur-headline">你能在恐怖片里活下来吗？</h3>
             <span class="cur-giant" aria-hidden="true">🎃</span>
           </span>
@@ -724,45 +770,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="stack" hidden>
-        <a class="cur-card" href="https://stack.example.com/" style="--h:138;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span></span><span class="cur-kicker">再叠一层…</span></span>
-            <h3 class="cur-headline">叠出最高的塔</h3>
-            <span class="cur-giant" aria-hidden="true">🏗️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">点一下放下方块，对齐就是完美！</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">叠叠高</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="color" hidden>
-        <a class="cur-card" href="https://color.example.com/" style="--h:181;--h2:163">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span><span class="cur-kicker">暖皮还是冷皮？</span></span>
-            <h3 class="cur-headline">测测你的个人色彩</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">从肤色、饰品看出最适合你的颜色。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">个人色彩测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">63个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">65个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -784,6 +798,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bingo" data-cat="create">
+        <a class="tile-link" href="https://bingo.example.com/" title="在3×3、4×4或5×5宾果格里写下新年目标，选好配色保存成图片。完成一个就盖个章，看看连成几条宾果。" style="--h:325;--h2:307">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">新年目标宾果</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bracket" data-cat="vote">
+        <a class="tile-link" href="https://bracket.example.com/" title="输入2到64个名字或选项，公平随机抽签生成淘汰赛对阵表。可以一场场选出胜者，也可以只生成对阵用于真实比赛。" style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">淘汰赛对阵表</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="block" data-cat="game">
         <a class="tile-link" href="https://block.example.com/" title="每次把三个方块拖到 8×8 棋盘上。填满一行或一列就会消除，连续消除还有连击加分。" style="--h:199;--h2:181">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
@@ -814,14 +842,14 @@
       </li>
       <li class="tile" data-id="bat" data-cat="game">
         <a class="tile-link" href="https://bat.example.com/" title="点击让小蝙蝠扇动翅膀，在满月下穿过墓碑和鬼树之间的空隙。每穿过一道得 1 分。" style="--h:277;--h2:259">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span>
           <span class="tile-name">飞吧蝙蝠</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="horror" data-cat="test">
         <a class="tile-link" href="https://horror.example.com/" title="11个恐怖片经典场景，2分钟。恐怖片里的你会是哪种角色？能活到片尾字幕吗？仅供娱乐。" style="--h:210;--h2:192">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span>
           <span class="tile-name">恐怖片生存测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

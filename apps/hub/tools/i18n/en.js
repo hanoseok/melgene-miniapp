@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'bingo',
+        kicker: "Goals, but fun",
+        headline: "Turn your 2027 goals into bingo",
+        blurb: "Write a goal in each square and stamp it when you do it.",
+      },
+      {
+        id: 'bracket',
+        kicker: "Who takes the crown?",
+        headline: "Make your own tournament bracket",
+        blurb: "Add names, get a fair random bracket, tap winners to the final.",
+      },
+      {
         id: 'newyear',
         kicker: "Peek at next year",
         headline: "What will 2027 bring you?",

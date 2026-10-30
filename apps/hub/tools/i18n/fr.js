@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'bingo',
+        kicker: "Tes résolutions",
+        headline: "Ta grille bingo de résolutions",
+        blurb: "Un objectif par case, un tampon quand c’est fait.",
+      },
+      {
+        id: 'bracket',
+        kicker: "Qui sera champion ?",
+        headline: "Crée ton tableau de tournoi",
+        blurb: "Ajoute des noms, tirage au sort équitable, choisis les gagnants.",
+      },
+      {
         id: 'newyear',
         kicker: "Avant-goût",
         headline: "Que te réserve 2027 ?",

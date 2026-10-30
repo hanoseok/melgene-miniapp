@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14213d">
+<title>Cuadro de torneo – generador de brackets y llaves | Melgene Apps</title>
+<meta name="description" content="Crea un cuadro de torneo de eliminación directa con 2 a 64 nombres u opciones: sorteo aleatorio justo y pases directos colocados solos. Elige ganadores duelo a duelo o guarda el cuadro como imagen. Sin registro.">
+<link rel="canonical" href="https://bracket.example.com/es/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=false,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<link rel="alternate" hreflang="en" href="https://bracket.example.com/">
+<link rel="alternate" hreflang="ja" href="https://bracket.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://bracket.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://bracket.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://bracket.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://bracket.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://bracket.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://bracket.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://bracket.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://bracket.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://bracket.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://bracket.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://bracket.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Cuadro de torneo 🏆 ¿Quién se lleva la copa?">
+<meta property="og:description" content="Escribe tu propia lista, sortea un cuadro justo y elige los ganadores duelo a duelo.">
+<meta property="og:image" content="https://bracket.example.com/og/es/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://bracket.example.com/es/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&amp;display=swap">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../style.css">
+<style>:root { --font-display: 'Baloo 2', var(--font-sans); --display-weight: 800; --wb: normal; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://bracket.example.com/es/#app","name":"Cuadro de torneo","description":"Crea un cuadro de torneo de eliminación directa con 2 a 64 nombres u opciones: sorteo aleatorio justo y pases directos colocados solos. Elige ganadores duelo a duelo o guarda el cuadro como imagen. Sin registro.","url":"https://bracket.example.com/es/","inLanguage":"es","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"image":"https://bracket.example.com/og/es/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/es/"},{"@type":"ListItem","position":2,"name":"Cuadro de torneo","item":"https://bracket.example.com/es/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="bk-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/es/" aria-label="Inicio de Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Idioma"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es" selected>Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Idioma"><a href="../" hreflang="en" lang="en">English</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../zh/" hreflang="zh" lang="zh">简体中文</a> <a href="../ko/" hreflang="ko" lang="ko">한국어</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt/" hreflang="pt" lang="pt">Português</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="bk-shell">
+  <!-- 시작 화면: h1·훅 → 이어 하기(있을 때) → 제목 → 항목 → 시드 → 방식 → 만들기 → 맨 아래 mg-ad-start 1개 -->
+  <section id="screen-setup" class="bk-screen bk-setup">
+    <h1 class="bk-h1"><span class="bk-kicker">Cuadro de torneo</span><span class="bk-h1-main">Tu lista,<br><em>un solo campeón</em></span></h1>
+    <p class="bk-hook">Jugadores, equipos, comidas, pelis… lo que quieras. Sortea un cuadro justo y descubre quién gana todo.</p>
+
+    <div id="resume" class="bk-resume" hidden>
+      <p id="resume-text" class="bk-resume-text"></p>
+      <button type="button" id="resume-btn" class="bk-mini bk-mini-strong">Seguir</button>
+    </div>
+
+    <form id="bk-form" class="bk-card bk-form" novalidate autocomplete="off">
+      <label class="bk-label" for="title">Nombre del torneo <span class="bk-opt">(opcional)</span></label>
+      <input id="title" class="bk-input" type="text" maxlength="40" placeholder="Torneo de ping-pong del viernes" spellcheck="false">
+      <label class="bk-label" for="items">Participantes</label>
+      <textarea id="items" class="bk-textarea" rows="8" maxlength="4000" placeholder="Uno por línea
+Tacos
+Paella
+Arepas
+Empanadas" spellcheck="false"></textarea>
+      <p class="bk-hint"><span>De 2 a 64, uno por línea. Los repetidos se quitan.</span> <output id="items-count" class="bk-count"></output></p>
+      <p id="items-dupes" class="bk-hint bk-dupes" hidden></p>
+      <fieldset class="bk-choice">
+        <legend class="bk-label">Emparejamiento</legend>
+        <label class="bk-radio"><input type="radio" name="seed" id="seed-r" value="r" checked><span>🎲 Sorteo aleatorio</span></label>
+        <label class="bk-radio"><input type="radio" name="seed" id="seed-o" value="o"><span>📋 Mantener mi orden</span></label>
+      </fieldset>
+      <fieldset class="bk-choice">
+        <legend class="bk-label">¿Cómo quieres jugar?</legend>
+        <label class="bk-radio bk-radio-tall"><input type="radio" name="mode" id="mode-p" value="p" checked><span><b>Elegir ganadores</b><small>Dos tarjetas a la vez. Toca la que más te guste.</small></span></label>
+        <label class="bk-radio bk-radio-tall"><input type="radio" name="mode" id="mode-d" value="d"><span><b>Solo sortear el cuadro</b><small>Para partidos reales. Toca los ganadores después.</small></span></label>
+      </fieldset>
+    </form>
+
+    <p id="error" class="bk-error" role="alert" hidden></p>
+    <button type="button" id="create-btn" class="bk-btn bk-btn-primary">Crear el cuadro 🏆</button>
+    <p class="bk-fair">Sorteado en este dispositivo con azar criptográfico · tu lista no sale del navegador</p>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <!-- 대진 화면: 제목 → 맞대결 → 대진표 → 도구 → 우승(+ 공통 끝 화면). 광고 자리 없음 -->
+  <section id="screen-play" class="bk-screen bk-play" hidden>
+    <div class="bk-event">
+      <h2 class="bk-h2 bk-ev-title" id="ev-title"></h2>
+      <p id="ev-meta" class="bk-ev-meta"></p>
+    </div>
+
+    <div id="duel" class="bk-duel" hidden>
+      <p id="duel-round" class="bk-duel-round"></p>
+      <p id="duel-progress" class="bk-duel-progress" aria-live="polite"></p>
+      <div class="bk-duel-cards">
+        <button type="button" id="side-a" class="bk-side bk-side-a"><span class="bk-side-name" id="side-a-name"></span></button>
+        <span class="bk-vs" aria-hidden="true">VS</span>
+        <button type="button" id="side-b" class="bk-side bk-side-b"><span class="bk-side-name" id="side-b-name"></span></button>
+      </div>
+      <p class="bk-duel-hint">Toca al ganador</p>
+    </div>
+
+    <div id="board-wrap" class="bk-card bk-board-wrap">
+      <h3 class="bk-h3">Cuadro</h3>
+      <p id="board-hint" class="bk-hint">Toca un nombre para pasarlo a la siguiente ronda.</p>
+      <div id="board" class="bk-board"></div>
+    </div>
+
+    <div id="tools" class="bk-tools">
+      <button type="button" id="undo-btn" class="bk-btn bk-btn-ghost">↩️ Deshacer</button>
+      <button type="button" id="png-btn" class="bk-btn bk-btn-ghost">🖼️ Guardar PNG</button>
+      <button type="button" id="text-btn" class="bk-btn bk-btn-ghost">📋 Copiar texto</button>
+      <button type="button" id="link-btn" class="bk-btn bk-btn-ghost">🔗 Copiar enlace</button>
+      <button type="button" id="new-btn" class="bk-btn bk-btn-ghost">✏️ Nuevo cuadro</button>
+    </div>
+    <p id="live" class="visually-hidden" aria-live="assertive"></p>
+
+    <div id="done" class="bk-done" hidden>
+      <article class="bk-card bk-done-card" aria-labelledby="champ-name">
+        <svg class="bk-trophy" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <path d="M30 18h40v20c0 13-9 22-20 22s-20-9-20-22z" fill="#fcbf49"/>
+          <path d="M30 25H17c0 12 6 19 15 20M70 25h13c0 12-6 19-15 20" fill="none" stroke="#fcbf49" stroke-width="6" stroke-linecap="round"/>
+          <rect x="45" y="58" width="10" height="14" fill="#f7a823"/>
+          <rect x="31" y="72" width="38" height="11" rx="3" fill="#fcbf49"/>
+          <path d="M40 26l3 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z" fill="#fff6d8" opacity=".85"/>
+        </svg>
+        <p class="bk-done-kicker">🏆 Campeón</p>
+        <h2 class="bk-h2 bk-champ" id="champ-name"></h2>
+        <p id="champ-summary" class="bk-done-meta"></p>
+      </article>
+      <div data-mg-end="bracket"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Cuadro de torneo · <a href="privacy.html">Política de privacidad</a> · <a href="guide.html">Guía</a>
+  </footer>
+</main>
+
+<script src="../shared/site.config.js"></script>
+<script src="../shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"es","ui":{"optional":"(opcional)","resumeText":"Torneo a medias: {title}","resumeBtn":"Seguir","titleLabel":"Nombre del torneo","titlePh":"Torneo de ping-pong del viernes","itemsLabel":"Participantes","itemsPh":"Uno por línea\nTacos\nPaella\nArepas\nEmpanadas","itemsHint":"De 2 a 64, uno por línea. Los repetidos se quitan.","count":"{n} participantes","dupes":"Se quitaron {d} repetidos","seedLabel":"Emparejamiento","seedRandom":"🎲 Sorteo aleatorio","seedOrder":"📋 Mantener mi orden","modeLabel":"¿Cómo quieres jugar?","modePick":"Elegir ganadores","modePickHint":"Dos tarjetas a la vez. Toca la que más te guste.","modeDraw":"Solo sortear el cuadro","modeDrawHint":"Para partidos reales. Toca los ganadores después.","create":"Crear el cuadro 🏆","fair":"Sorteado en este dispositivo con azar criptográfico · tu lista no sale del navegador","titleDefault":"Mi torneo","meta":"{n} participantes · {m} partidos","matchOf":"Partido {k} de {n}","tapWinner":"Toca al ganador","vs":"VS","pickAria":"Elegir a {name} como ganador","rFinal":"Final","rSemi":"Semifinales","rQuarter":"Cuartos de final","rOf":"Ronda de {n}","bye":"pase directo","tbd":"por definir","advance":"pasa →","bracketTitle":"Cuadro","drawHint":"Toca un nombre para pasarlo a la siguiente ronda.","undo":"↩️ Deshacer","png":"🖼️ Guardar PNG","copyText":"📋 Copiar texto","shareLink":"🔗 Copiar enlace","newBracket":"✏️ Nuevo cuadro","champion":"Campeón","toastText":"Cuadro copiado como texto","toastLink":"Enlace copiado. Abre exactamente este cuadro.","linkTooLong":"El cuadro es demasiado largo para un enlace. Guarda la imagen.","pngDone":"Imagen del cuadro guardada","pngFail":"No se pudo crear la imagen en este navegador.","pngBrand":"Melgene Apps · Cuadro de torneo","liveCreated":"Cuadro listo con {n} participantes.","liveChampion":"¡{name} es el campeón!","liveUndo":"Última elección deshecha."},"errors":{"tooFew":"Añade al menos 2 participantes.","tooMany":"Hasta 64 participantes ({n} escritos).","badLink":"Este enlace de cuadro está roto. Crea uno nuevo abajo."},"result":{"kicker":"🏆 Campeón","summary":"{title} · {n} participantes · {m} partidos","again":"Mezclar y jugar otra vez 🎲","shareTitle":"Cuadro de torneo","shareText":"{name} ganó mi torneo «{title}» 🏆","shareTextPlain":"Crea un cuadro de torneo justo con tu propia lista 🏆"}};</script>
+<script>window.MG_FAQ = [{"q":"¿Cómo funciona el sorteo? ¿Es justo?","a":"La app mezcla tu lista con el generador aleatorio criptográfico del navegador (crypto.getRandomValues) usando el algoritmo de Fisher–Yates con muestreo por rechazo, así que cada orden posible tiene exactamente la misma probabilidad. Nadie, ni siquiera tú, decide quién se enfrenta a quién."},{"q":"¿Qué es un pase directo?","a":"Un cuadro necesita 2, 4, 8, 16, 32 o 64 plazas. Si tienes 6 participantes quedan dos plazas vacías, y quien cae frente a una plaza vacía pasa directo a la siguiente ronda. Los pases se reparten por todo el cuadro y dos plazas vacías nunca se cruzan."},{"q":"¿Puedo usar mi propio orden en lugar del sorteo?","a":"Sí. Elige «Mantener mi orden» y tu lista será el orden de cabezas de serie: el primero es la 1, el segundo la 2, y así. Las mejores cabezas de serie se cruzan primero con las peores y reciben los pases directos antes."},{"q":"¿Puedo deshacer o cambiar un ganador?","a":"Toca Deshacer para quitar tu última elección, o toca el otro nombre en un partido anterior del cuadro. Los resultados posteriores que dependían de ese partido se borran, así el cuadro siempre cuadra."},{"q":"¿Mi lista se envía a algún sitio?","a":"No. Tu lista y tus elecciones se guardan solo en este navegador para que puedas seguir luego. Un enlace copiado lleva el cuadro dentro de la propia dirección y solo lo ve quien lo recibe."}];</script>
+<script src="../shared/common.js"></script>
+<script src="../shared/supa.js"></script>
+<script src="../bracket-core.js"></script>
+<script src="../bracket.js"></script>
+</body>
+</html>

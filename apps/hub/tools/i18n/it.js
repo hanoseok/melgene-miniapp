@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'bingo',
+        kicker: "Buoni propositi",
+        headline: "Il tuo bingo degli obiettivi",
+        blurb: "Un obiettivo per casella, un timbro quando lo raggiungi.",
+      },
+      {
+        id: 'bracket',
+        kicker: "Chi vincerà?",
+        headline: "Crea il tuo tabellone torneo",
+        blurb: "Inserisci i nomi, sorteggio equo, tocca i vincitori fino alla finale.",
+      },
+      {
         id: 'newyear',
         kicker: "In anteprima",
         headline: "Cosa ti porterà il 2027?",

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'bingo',
+        kicker: "Mục tiêu năm mới",
+        headline: "Biến mục tiêu thành bingo",
+        blurb: "Mỗi ô một mục tiêu, làm được thì đóng dấu.",
+      },
+      {
+        id: 'bracket',
+        kicker: "Ai sẽ vô địch?",
+        headline: "Tự tạo sơ đồ thi đấu",
+        blurb: "Nhập tên, bốc thăm công bằng, chạm người thắng tới chung kết.",
+      },
+      {
         id: 'newyear',
         kicker: "Xem trước",
         headline: "Năm 2027 của bạn sẽ ra sao?",

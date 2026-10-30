@@ -1,0 +1,228 @@
+/* apps/bracket/style.css — 토너먼트 대진표: 남색 경기장 밤 + 트로피 금색 + 크림색 카드, 맞대결 카드는 청록·주홍.
+ * 모바일 한 줄(--app-width 480px). 대진표는 라운드별 세로 목록(가로 스크롤 없음), 끝에 우승자 줄.
+ * 제목·버튼·이름은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --navy: #14213d;
+  --navy-2: #1d2f57;
+  --navy-deep: #0d1730;
+  --gold: #fcbf49;
+  --gold-2: #f7a823;
+  --cream: #fff8e7;
+  --cream-2: #f3ead2;
+  --teal: #2a9d8f;
+  --teal-2: #1f7a6f;
+  --coral: #e76f51;
+  --coral-2: #b9533a;
+  --ink: #14213d;
+  --ink-dim: rgba(20, 33, 61, 0.78);
+  --ink-faint: rgba(20, 33, 61, 0.6);
+  --on-navy: #fff8e7;
+  --on-navy-dim: rgba(255, 248, 231, 0.8);
+  --line: rgba(20, 33, 61, 0.14);
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.06), 0 14px 28px -16px rgba(0, 0, 0, 0.7);
+
+  --font-display: 'Baloo 2', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--on-navy);
+  --mg-top-badge-bg: var(--gold);
+  --mg-top-badge-fg: var(--navy);
+  --lang-bg: var(--navy-deep);
+  --lang-fg: var(--on-navy);
+  --lang-border: rgba(255, 248, 231, 0.3);
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(255, 248, 231, 0.28);
+  --mg-heart-bg: var(--navy-deep);
+  --mg-heart-border: var(--coral);
+  --mg-heart-fg: #ffab95;
+  --mg-heart-on: var(--coral);
+  --mg-share-bg: rgba(255, 248, 231, 0.1);
+  --mg-share-border: rgba(255, 248, 231, 0.26);
+  --mg-share-primary-bg: var(--gold);
+  --mg-share-primary-fg: var(--navy);
+  --mg-x: currentColor;
+  --mg-tiktok: currentColor;
+  --mg-faq-bg: rgba(255, 248, 231, 0.08);
+  --mg-faq-border: rgba(255, 248, 231, 0.24);
+  --mg-end-retry-bg: var(--gold);
+  --mg-end-retry-fg: var(--navy);
+  --toast-bg: var(--cream);
+  --toast-fg: var(--ink);
+}
+
+html { background: var(--navy); }
+body.bk-body {
+  min-height: 100vh;
+  color: var(--on-navy);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--navy);
+  background-image:
+    radial-gradient(ellipse at 50% -10%, rgba(252, 191, 73, 0.22), transparent 55%),
+    radial-gradient(circle at 92% 70%, rgba(42, 157, 143, 0.18), transparent 40%),
+    radial-gradient(circle at 6% 40%, rgba(231, 111, 81, 0.14), transparent 35%);
+  background-attachment: fixed;
+}
+[hidden] { display: none !important; }
+
+/* base.css :lang(zh|th|vi) 가 모든 요소 글꼴을 덮으므로 제목 요소에 다시 지정 */
+.bk-h1, .bk-kicker, .bk-h1-main, .bk-h1-main em, .bk-btn, .bk-h2, .bk-h3, .bk-label, .bk-mini, .bk-radio b,
+.bk-duel-round, .bk-side-name, .bk-vs, .bk-round-h, .bk-board-champ-n, .bk-done-kicker, .bk-champ, .bk-ev-title, .bk-doc h1 {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+}
+
+.bk-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; overflow-x: clip; }
+.bk-screen { padding-top: 10px; min-width: 0; }
+
+/* ---------------- 제목 ---------------- */
+.bk-h1 { margin: 4px 0 6px; text-align: center; line-height: 1.15; }
+.bk-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 2px 14px; border-radius: 999px; max-width: 100%;
+  background: var(--gold); color: var(--navy); font-size: 15px; line-height: 1.6; box-shadow: 0 3px 0 var(--gold-2);
+}
+.bk-h1-main { display: block; font-size: 30px; color: var(--on-navy); overflow-wrap: break-word; }
+.bk-h1-main em { font-style: normal; color: var(--gold); }
+.bk-hook { margin: 6px auto 14px; max-width: 30em; text-align: center; font-size: 15px; color: var(--on-navy-dim); }
+
+.bk-resume { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; padding: 10px 12px; border-radius: 14px; background: rgba(252, 191, 73, 0.14); border: 1px solid rgba(252, 191, 73, 0.4); }
+.bk-resume-text { margin: 0; flex: 1; min-width: 0; font-size: 14px; overflow-wrap: anywhere; }
+
+/* ---------------- 카드·입력 ---------------- */
+.bk-card { background: var(--cream); color: var(--ink); border-radius: 18px; padding: 14px; box-shadow: var(--shadow); min-width: 0; }
+.bk-form { display: grid; gap: 8px; border-top: 6px solid var(--gold); }
+.bk-label { display: block; margin: 4px 0 0; font-size: 15px; color: var(--ink); line-height: 1.4; }
+.bk-opt { font-family: var(--font-sans); font-weight: 400; font-size: 12.5px; color: var(--ink-faint); white-space: nowrap; }
+.bk-hint { margin: 0; font-size: 12.5px; color: var(--ink-faint); line-height: 1.5; font-family: var(--font-sans); font-weight: 400; }
+.bk-dupes { color: var(--coral-2); }
+.bk-input, .bk-textarea {
+  width: 100%; min-width: 0; padding: 9px 12px; border: 2px solid transparent; border-radius: 12px;
+  background: #fff; color: var(--ink); font: inherit; font-size: 16px; line-height: 1.45; box-shadow: inset 0 0 0 1px var(--line);
+}
+.bk-textarea { min-height: 170px; resize: vertical; }
+.bk-input::placeholder, .bk-textarea::placeholder { color: var(--ink-faint); }
+.bk-input:focus, .bk-textarea:focus { outline: none; border-color: var(--gold-2); }
+.bk-count { font-weight: 700; color: var(--ink-dim); white-space: nowrap; }
+.bk-count.is-bad { color: var(--coral-2); }
+.bk-choice { margin: 0; padding: 10px; border: 0; border-radius: 14px; background: var(--cream-2); display: grid; gap: 6px; min-width: 0; }
+.bk-choice legend { float: left; width: 100%; margin: 0 0 2px; padding: 0; }
+.bk-radio { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 12px; background: #fff; cursor: pointer; box-shadow: inset 0 0 0 1px var(--line); font-size: 15px; line-height: 1.35; min-width: 0; }
+.bk-radio input { flex: none; width: 20px; height: 20px; margin: 0; accent-color: var(--navy); }
+.bk-radio span { display: grid; min-width: 0; overflow-wrap: anywhere; }
+.bk-radio b { font-size: 15px; color: var(--ink); }
+.bk-radio small { font-size: 12.5px; color: var(--ink-faint); line-height: 1.45; }
+.bk-radio:has(input:checked) { box-shadow: inset 0 0 0 2px var(--navy); }
+.bk-error { margin: 10px 0 0; padding: 10px 12px; border-radius: 12px; background: #ffe2dc; color: #8c1d14; font-size: 14px; font-weight: 700; }
+
+/* ---------------- 버튼 ---------------- */
+.bk-btn {
+  display: block; width: 100%; min-height: 52px; padding: 10px 16px; border: 0; border-radius: 16px; cursor: pointer;
+  font-size: 19px; line-height: 1.25; text-align: center; overflow-wrap: anywhere;
+}
+.bk-btn-primary { margin-top: 14px; background: var(--gold); color: var(--navy); box-shadow: 0 5px 0 var(--gold-2); }
+.bk-btn-primary:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--gold-2); }
+.bk-btn-ghost { min-height: 46px; font-size: 15px; background: rgba(255, 248, 231, 0.12); color: var(--on-navy); border: 1px solid rgba(255, 248, 231, 0.24); }
+.bk-btn:disabled { opacity: 0.45; cursor: default; }
+.bk-btn:focus-visible, .bk-mini:focus-visible, .bk-side:focus-visible, .bk-slot-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.bk-fair { margin: 10px 0 0; text-align: center; font-size: 12px; color: var(--on-navy-dim); line-height: 1.5; }
+.bk-mini { flex: none; padding: 6px 14px; border: 0; border-radius: 999px; background: var(--gold); color: var(--navy); font-size: 14px; cursor: pointer; white-space: nowrap; }
+
+/* ---------------- 대진 화면 ---------------- */
+.bk-event { text-align: center; padding: 6px 4px 10px; }
+.bk-h2 { margin: 0; }
+.bk-ev-title { font-size: 26px; line-height: 1.25; color: var(--on-navy); overflow-wrap: anywhere; }
+.bk-ev-meta { margin: 4px 0 0; font-size: 14px; color: var(--gold); }
+
+.bk-duel { margin-bottom: 14px; padding: 14px 12px; border-radius: 20px; background: rgba(0, 0, 0, 0.22); text-align: center; }
+.bk-duel-round { margin: 0; font-size: 22px; color: var(--gold); line-height: 1.3; }
+.bk-duel-progress { margin: 2px 0 10px; font-size: 14px; color: var(--on-navy-dim); }
+.bk-duel-cards { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.bk-side {
+  min-height: 170px; padding: 14px 10px; border: 0; border-radius: 18px; cursor: pointer; color: #fff; touch-action: manipulation;
+  display: flex; align-items: center; justify-content: center; text-align: center; transition: transform 0.15s, box-shadow 0.15s;
+}
+.bk-side-a { background: var(--teal); box-shadow: 0 6px 0 var(--teal-2); }
+.bk-side-b { background: var(--coral); box-shadow: 0 6px 0 var(--coral-2); }
+.bk-side:active, .bk-side.is-picked { transform: translateY(4px) scale(0.98); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+.bk-side.is-picked { outline: 4px solid var(--gold); outline-offset: 2px; }
+.bk-side-name { font-size: 22px; line-height: 1.25; overflow-wrap: anywhere; min-width: 0; }
+.bk-vs {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 1; display: grid; place-items: center;
+  width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: var(--gold); font-size: 17px; border: 3px solid var(--gold); pointer-events: none;
+}
+.bk-duel-hint { margin: 10px 0 0; font-size: 13.5px; color: var(--on-navy-dim); }
+
+.bk-board-wrap { border-top: 6px solid var(--teal); }
+.bk-h3 { margin: 0 0 4px; font-size: 17px; color: var(--ink); }
+.bk-board { margin-top: 10px; display: grid; gap: 14px; }
+.bk-round { min-width: 0; }
+.bk-round-h { margin: 0 0 6px; font-size: 15px; color: var(--teal-2); }
+.bk-round-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.bk-match { display: grid; gap: 2px; padding: 4px; border-radius: 12px; background: var(--cream-2); min-width: 0; }
+.bk-match.is-current { box-shadow: 0 0 0 2px var(--gold-2); }
+.bk-slot {
+  display: flex; align-items: center; justify-content: space-between; gap: 4px; min-height: 34px; padding: 4px 8px; border: 0; border-radius: 8px;
+  background: #fff; color: var(--ink); font: inherit; font-size: 14px; line-height: 1.25; text-align: left; min-width: 0;
+}
+.bk-slot-name { min-width: 0; overflow-wrap: anywhere; }
+.bk-slot-btn { cursor: pointer; box-shadow: inset 0 0 0 1px var(--line); }
+.bk-slot-btn:hover { box-shadow: inset 0 0 0 2px var(--teal); }
+.bk-slot.is-win { background: var(--gold); font-weight: 800; }
+.bk-slot.is-lose { opacity: 0.5; text-decoration: line-through; }
+.bk-slot.is-bye, .bk-slot.is-tbd { background: transparent; color: var(--ink-faint); font-style: italic; }
+.bk-tag { flex: none; font-size: 11px; font-weight: 700; color: var(--teal-2); }
+.bk-tag-win { color: var(--navy); font-size: 13px; }
+.bk-board-champ { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px; border-radius: 14px; background: var(--cream-2); color: var(--ink-faint); }
+.bk-board-champ.is-on { background: var(--navy); color: var(--gold); }
+.bk-board-champ-k { flex: none; font-size: 14px; font-weight: 700; }
+.bk-board-champ-n { min-width: 0; font-size: 18px; overflow-wrap: anywhere; text-align: right; }
+
+.bk-tools { margin-top: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bk-tools .bk-btn:last-child { grid-column: 1 / -1; }
+
+/* ---------------- 우승 ---------------- */
+.bk-done { margin-top: 18px; min-width: 0; }
+.bk-done > * + * { margin-top: 14px; }
+.bk-done-card { text-align: center; padding: 18px 16px; border-top: 6px solid var(--gold); animation: bk-in 0.4s ease-out; }
+.bk-trophy { display: block; width: 96px; height: 96px; margin: 0 auto; filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.25)); }
+.bk-done-kicker { margin: 4px 0 0; font-size: 16px; color: var(--teal-2); }
+.bk-champ { margin: 4px auto 0; display: inline-block; max-width: 100%; padding: 6px 18px; border-radius: 16px; background: var(--navy); color: var(--gold); font-size: 32px; line-height: 1.2; overflow-wrap: anywhere; }
+.bk-done-meta { margin: 10px 0 0; font-size: 14px; color: var(--ink-dim); }
+
+@keyframes bk-in { from { transform: scale(0.95); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .bk-done-card { animation: none; }
+  .bk-side { transition: none; }
+}
+
+/* ---------------- 개인정보·바닥글 ---------------- */
+.bk-doc { padding: 18px 16px; margin-top: 12px; background: var(--cream); color: var(--ink); border-radius: 16px; box-shadow: var(--shadow); }
+.bk-doc h1 { font-size: 24px; margin: 0 0 12px; }
+.bk-doc h2 { font-size: 17px; margin: 18px 0 6px; }
+.bk-doc p { font-size: 14.5px; color: var(--ink-dim); }
+.bk-doc a { color: var(--teal-2); }
+.site-footer { margin-top: 36px; padding: 18px 0 30px; text-align: center; font-size: 12.5px; color: var(--on-navy-dim); }
+.site-footer a { color: var(--on-navy); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .bk-h1, html:lang(th) .bk-btn, html:lang(th) .bk-side-name, html:lang(th) .bk-champ, html:lang(th) .bk-duel-round, html:lang(th) .bk-slot { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .bk-h1-main { line-height: 1.45; }
+html:lang(th) body { word-break: normal; line-break: strict; }
+html:lang(vi) .bk-h1-main, html:lang(vi) .bk-champ, html:lang(vi) .bk-side-name { line-height: 1.35; }
+html:lang(ja) body { word-break: auto-phrase; }
+html:lang(de) .bk-label, html:lang(de) .bk-btn, html:lang(de) .bk-hint, html:lang(de) .bk-radio { hyphens: auto; -webkit-hyphens: auto; }
+
+@media (max-width: 380px) {
+  .bk-h1-main { font-size: 26px; }
+  .bk-btn { font-size: 17px; }
+  .bk-btn-ghost { font-size: 14px; }
+  .bk-side { min-height: 150px; }
+  .bk-side-name { font-size: 19px; }
+  .bk-champ { font-size: 28px; }
+}

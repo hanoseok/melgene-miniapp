@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'bingo',
+        kicker: "新年新目标",
+        headline: "把目标做成宾果卡",
+        blurb: "每格写一个目标，完成就盖个章。",
+      },
+      {
+        id: 'bracket',
+        kicker: "谁能笑到最后？",
+        headline: "自制淘汰赛对阵表",
+        blurb: "输入名单即可随机分组，点选胜者直到决赛。",
+      },
+      {
         id: 'newyear',
         kicker: "提前看看",
         headline: "你的2027年关键词是？",

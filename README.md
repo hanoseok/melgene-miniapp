@@ -154,6 +154,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | santa | apps/santa | 마니또 뽑기(투표): 3~30명 이름 → crypto 균등 배정(자기 자신·제외 쌍·2명끼리 막기), 휴대폰을 돌려 각자 자기 마니또만 확인, 개인 링크(#d=, 가림), 예산·교환일, 전체 결과는 경고 뒤에만, 서버로 안 보냄 | `check-santa.js` (+ `flow-test.js`) |
 | block | apps/block | 블록 퍼즐(게임): 8×8 판에 조각 3개씩 끌어 놓기(탭·키보드도), 가로·세로 줄 동시 지우기, 놓은 칸 + 줄 보너스(10·30·60·100…)×콤보(못 지운 놓기 3번이면 끊김), 첫 손·새 손은 놓을 수 있게 최대 3번 다시 뽑기, 최고 기록 localStorage, supa.submitScore 백분위 | `check-block.js` (+ `flow-test.js`) |
 | newyear | apps/newyear | 2027 새해 운세 테스트(심리테스트): 11문항×4보기, 새로움/안정·함께/나만의 시간·계획/흐름 3축 ±1 → 8종 r/*.html(전수 12.12~12.88%), 행운의 색·달·물건, 네 영역 운세, 단짝/라이벌(링크 없음), 재미용, 연도는 newyear-core.js YEAR 한 곳(띠 문장은 가이드 ko·ja·zh·vi 손으로) | `check-newyear.js` (+ `flow-test.js`) |
+| bingo | apps/bingo | 새해 목표 빙고(만들기): 3×3·4×4·5×5 판(홀수는 가운데 자유칸), 칸마다 목표 입력·언어별 아이디어 40개로 채우기·섞기, 색 테마 6개, 1080×1350 캔버스 카드 이미지 저장, 칸 눌러 도장·빙고 줄 세기(Intl.PluralRules), localStorage 이어하기, #d= 보기 전용 링크, 서버 전송 없음 | `check-bingo.js` (+ `flow-test.js`) |
+| bracket | apps/bracket | 토너먼트 대진표(투표): 내 항목 2~64개로 공정한 랜덤 대진표(표준 시드 + 부전승 자동, 부전승끼리 안 만남, 진짜 경기 n−1), 한 판씩 고르기(이상형 월드컵식) 또는 대진표만 뽑고 이름 눌러 승자, 되돌리기, PNG·글 복사·#d= 링크, localStorage 이어하기, 서버 전송 없음 | `check-bracket.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

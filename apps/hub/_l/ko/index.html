@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 63,
+  "numberOfItems": 65,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -521,6 +521,20 @@
       "url": "https://newyear.example.com/",
       "name": "2027 새해 운세",
       "description": "가벼운 질문 11개, 2분이면 끝. 나의 2027년 키워드와 행운의 색·달·물건은? 재미로 보는 신년 운세예요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "url": "https://bingo.example.com/",
+      "name": "새해 목표 빙고",
+      "description": "3×3·4×4·5×5 빙고판에 새해 목표를 적고 색을 골라 예쁜 카드 이미지로 저장해요. 이룬 목표는 도장을 찍고 빙고 줄을 세어 보세요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "url": "https://bracket.example.com/",
+      "name": "토너먼트 대진표",
+      "description": "이름이나 항목을 넣으면 공정하게 섞어 토너먼트 대진표를 만들어요. 한 판씩 골라 우승자를 정하는 나만의 이상형 월드컵도 OK."
     }
   ]
 }
@@ -596,6 +610,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="bingo">
+        <a class="cur-card" href="https://bingo.example.com/" style="--h:325;--h2:307">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">올해 다짐 한 판</span></span>
+            <h3 class="cur-headline">새해 목표로 빙고판 만들기</h3>
+            <span class="cur-giant" aria-hidden="true">🎯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">칸마다 목표를 적고 이룰 때마다 도장을 찍어요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">새해 목표 빙고</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bracket">
+        <a class="cur-card" href="https://bracket.example.com/" style="--h:210;--h2:192">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">누가 최후의 1등?</span></span>
+            <h3 class="cur-headline">내 맘대로 토너먼트 대진표</h3>
+            <span class="cur-giant" aria-hidden="true">🏆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">이름만 넣으면 대진표 완성. 이긴 쪽을 눌러 우승까지.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">토너먼트 대진표</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="block">
         <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
           <span class="cur-art">
@@ -660,10 +706,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat">
+      <li class="cur-item" data-id="bat" hidden>
         <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">할로윈 아케이드</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">할로윈 아케이드</span></span>
             <h3 class="cur-headline">묘지 사이로 박쥐 날리기</h3>
             <span class="cur-giant" aria-hidden="true">🦇</span>
           </span>
@@ -676,10 +722,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="horror">
+      <li class="cur-item" data-id="horror" hidden>
         <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">불 끄고 팝콘 준비</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">불 끄고 팝콘 준비</span></span>
             <h3 class="cur-headline">공포영화 속 나는 살아남을까?</h3>
             <span class="cur-giant" aria-hidden="true">🎃</span>
           </span>
@@ -724,45 +770,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="stack" hidden>
-        <a class="cur-card" href="https://stack.example.com/" style="--h:138;--h2:164">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏗️</span></span></span><span class="cur-kicker">한 층만 더…</span></span>
-            <h3 class="cur-headline">끝없이 탑 쌓기</h3>
-            <span class="cur-giant" aria-hidden="true">🏗️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">탭해서 떨어뜨리기. 딱 맞추면 퍼펙트!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">탑 쌓기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="color" hidden>
-        <a class="cur-card" href="https://color.example.com/" style="--h:181;--h2:163">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span><span class="cur-kicker">웜톤? 쿨톤?</span></span>
-            <h3 class="cur-headline">나의 퍼스널 컬러는</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">손목·피부·액세서리로 알아보는 셀프 진단.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">퍼스널 컬러 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">63개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">65개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -784,6 +798,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="bingo" data-cat="create">
+        <a class="tile-link" href="https://bingo.example.com/" title="3×3·4×4·5×5 빙고판에 새해 목표를 적고 색을 골라 예쁜 카드 이미지로 저장해요. 이룬 목표는 도장을 찍고 빙고 줄을 세어 보세요." style="--h:325;--h2:307">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">새해 목표 빙고</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bracket" data-cat="vote">
+        <a class="tile-link" href="https://bracket.example.com/" title="이름이나 항목을 넣으면 공정하게 섞어 토너먼트 대진표를 만들어요. 한 판씩 골라 우승자를 정하는 나만의 이상형 월드컵도 OK." style="--h:210;--h2:192">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">토너먼트 대진표</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="block" data-cat="game">
         <a class="tile-link" href="https://block.example.com/" title="조각 세 개를 8×8 판에 끌어다 놓아요. 가로줄이나 세로줄을 꽉 채우면 사라지고, 연달아 지우면 콤보 점수가 붙어요." style="--h:199;--h2:181">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
@@ -814,14 +842,14 @@
       </li>
       <li class="tile" data-id="bat" data-cat="game">
         <a class="tile-link" href="https://bat.example.com/" title="탭할 때마다 박쥐가 날갯짓해요. 보름달 아래 묘비와 유령 나무 사이 틈을 지나갈수록 점수가 올라가요." style="--h:277;--h2:259">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span>
           <span class="tile-name">할로윈 박쥐 날기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="horror" data-cat="test">
         <a class="tile-link" href="https://horror.example.com/" title="공포영화 단골 장면 11개, 2분이면 끝. 공포영화 속 나는 어떤 캐릭터이고 엔딩까지 살아남을까요? 재미로 해 보세요." style="--h:210;--h2:192">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span>
           <span class="tile-name">공포영화 생존 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'bingo',
+        kicker: "来年の目標を",
+        headline: "目標ビンゴカードを作ろう",
+        blurb: "マスに目標を書いて、達成したらスタンプ。",
+      },
+      {
+        id: 'bracket',
+        kicker: "優勝は誰の手に？",
+        headline: "オリジナルのトーナメント表",
+        blurb: "名前を入れるだけで組み合わせ完成。勝者をタップ。",
+      },
+      {
         id: 'newyear',
         kicker: "ひと足早く",
         headline: "2027年のあなたの運勢は？",

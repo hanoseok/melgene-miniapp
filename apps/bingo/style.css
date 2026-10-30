@@ -1,0 +1,188 @@
+/* apps/bingo/style.css — 새해 목표 빙고: 따뜻한 크림 바탕 + 보라 잉크 + 주황 포인트.
+ * 시작(티징·판 크기) → 편집(제목·크기·자유칸·색·칸 그리드 + 칸 입력) → 완성(캔버스 카드·도장·빙고 줄) + 공통 끝 화면.
+ * 모바일 한 줄(--app-width 480px). 제목·버튼은 언어 파일 fonts → :root 변수(생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --paper: #fff4e6;
+  --ink: #2a1d3a;
+  --ink-dim: #5f5070;
+  --ink-faint: #8d7f9c;
+  --accent: #ff6b3d;
+  --accent-2: #d9481d;
+  --line: rgba(42, 29, 58, 0.16);
+  --card: #ffffff;
+  --soft: #fff8ef;
+  --focus: #2f6bff;
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--accent);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: var(--card);
+  --lang-fg: var(--ink);
+  --lang-border: var(--line);
+  --mg-star-on: #ffb020;
+  --mg-star-off: rgba(42, 29, 58, 0.18);
+  --mg-heart-bg: var(--card);
+  --mg-heart-border: var(--accent);
+  --mg-heart-fg: var(--accent);
+  --mg-heart-on: var(--accent);
+  --mg-share-bg: var(--card);
+  --mg-share-border: var(--line);
+  --mg-faq-bg: var(--card);
+  --mg-faq-border: var(--line);
+  --mg-end-retry-bg: var(--ink);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: var(--ink);
+  --toast-fg: #fff;
+}
+
+html { background: var(--paper); }
+body.bg-body {
+  min-height: 100vh;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  overflow-wrap: break-word;
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background: radial-gradient(circle at 0% 0%, #ffd9c2 0, transparent 320px), radial-gradient(circle at 100% 40%, #ffe9a8 0, transparent 300px), var(--paper);
+}
+[hidden] { display: none !important; }
+
+.bg-h1, .bg-kicker, .bg-h1-main, .bg-h1-main em, .bg-btn, .bg-h2, .bg-doc h1, .bg-seg-btn, .bg-label, .bg-tool, .bg-mini-btn,
+.bg-switch-t, .bg-score-n, .bg-theme-n, .bg-filled {
+  font-family: var(--font-display);
+}
+
+.bg-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.bg-screen { padding-top: 12px; }
+
+/* ---------------- 시작 화면 ---------------- */
+.bg-logo {
+  width: 58px; height: 58px; margin: 6px auto 10px; display: grid; place-items: center; border-radius: 16px;
+  background: #fff; border: 2px solid var(--ink); box-shadow: 0 4px 0 var(--ink); transform: rotate(-4deg);
+}
+.bg-logo span { font-size: 30px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.bg-h1 { margin: 6px 0 8px; text-align: center; line-height: 1.18; font-weight: var(--display-weight); }
+.bg-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 3px 12px; border-radius: 999px; border: 2px solid var(--ink);
+  background: #fff; color: var(--ink); font-size: 13px; letter-spacing: 0.02em; line-height: 1.4;
+}
+.bg-h1-main { display: block; font-size: clamp(28px, 8vw, 38px); color: var(--ink); }
+.bg-h1-main em { font-style: normal; color: var(--accent); }
+.bg-hook { margin: 0 auto 14px; max-width: 400px; text-align: center; color: var(--ink-dim); font-size: 15.5px; }
+html:lang(th) .bg-h1, html:lang(vi) .bg-h1 { line-height: 1.4; }
+
+.bg-mini {
+  width: 132px; height: 132px; margin: 6px auto 18px; padding: 8px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px;
+  background: #fff; border: 2px solid var(--ink); border-radius: 18px; box-shadow: 0 5px 0 var(--ink); transform: rotate(3deg);
+}
+.bg-mini i { border-radius: 8px; background: var(--soft); border: 1.5px solid var(--line); position: relative; }
+.bg-mini i.on::after {
+  content: ''; position: absolute; inset: 5px; border-radius: 50%; border: 3px solid var(--accent); background: rgba(255, 107, 61, 0.18);
+}
+
+.bg-start-box { display: flex; flex-direction: column; gap: 10px; align-items: stretch; }
+.bg-start-box .bg-label { text-align: center; }
+
+/* ---------------- 공통 조각 ---------------- */
+.bg-h2 { margin: 4px 0 12px; font-size: 24px; line-height: 1.3; text-align: center; font-weight: var(--display-weight); }
+.bg-card { background: var(--card); border: 2px solid var(--ink); border-radius: 20px; box-shadow: 0 4px 0 var(--ink); padding: 14px; margin-bottom: 14px; }
+.bg-label { display: block; font-size: 14px; font-weight: 600; color: var(--ink-dim); margin-bottom: 6px; line-height: 1.35; }
+.bg-field { margin-bottom: 12px; min-width: 0; }
+.bg-input {
+  width: 100%; box-sizing: border-box; font: inherit; font-size: 16px; color: var(--ink); background: var(--soft);
+  border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; min-height: 46px;
+}
+.bg-input:focus { outline: none; border-color: var(--accent); background: #fff; }
+.bg-seg { display: flex; gap: 6px; }
+.bg-seg-btn {
+  flex: 1; min-height: 44px; border-radius: 12px; border: 2px solid var(--ink); background: #fff; color: var(--ink);
+  font-size: 16px; font-weight: 600; cursor: pointer; padding: 0 6px;
+}
+.bg-seg-btn[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.bg-btn {
+  display: block; width: 100%; min-height: 54px; border-radius: 16px; border: 2px solid var(--ink); font-size: 18px; font-weight: 600;
+  cursor: pointer; padding: 10px 14px; line-height: 1.3;
+}
+.bg-btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 0 var(--ink); }
+.bg-btn-primary:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--ink); }
+.bg-btn-ghost { background: #fff; color: var(--ink); }
+.bg-error { margin: 10px 0 0; color: var(--accent-2); font-weight: 600; text-align: center; font-size: 14.5px; }
+.bg-local { margin: 10px 0 0; color: var(--ink-faint); font-size: 13px; text-align: center; }
+button:focus-visible, .bg-canvas:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* ---------------- 편집 ---------------- */
+.bg-row { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.bg-row .bg-field { flex: 1 1 200px; }
+.bg-switch { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 14px; min-height: 44px; }
+.bg-switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.bg-switch-ui { width: 44px; height: 26px; border-radius: 999px; background: var(--line); position: relative; flex: none; transition: background .2s; }
+.bg-switch-ui::after { content: ''; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; transition: transform .2s; box-shadow: 0 1px 2px rgba(0,0,0,.2); }
+.bg-switch input:checked + .bg-switch-ui { background: var(--accent); }
+.bg-switch input:checked + .bg-switch-ui::after { transform: translateX(18px); }
+.bg-switch input:focus-visible + .bg-switch-ui { outline: 3px solid var(--focus); outline-offset: 2px; }
+.bg-switch-t { font-size: 15px; font-weight: 600; line-height: 1.3; }
+
+.bg-themes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.bg-theme {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 52px; padding: 5px 4px; border-radius: 12px; border: 2px solid var(--line);
+  background: #fff; cursor: pointer; color: var(--ink); min-width: 0;
+}
+.bg-theme[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 2px 0 var(--ink); }
+.bg-swatch { width: 22px; height: 22px; border-radius: 50%; flex: none; border: 1.5px solid rgba(0,0,0,.25); }
+.bg-theme-n { max-width: 100%; font-size: 13px; font-weight: 600; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+
+.bg-grid { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); gap: 5px; padding: 6px; border-radius: 14px; background: var(--cell-bg, #fff); }
+.bg-gcell {
+  aspect-ratio: 1 / 1; min-width: 0; border-radius: 9px; border: 2px solid transparent; background: var(--cell, #fff8ef); color: var(--cell-ink, var(--ink));
+  font: inherit; font-size: 12px; line-height: 1.2; padding: 3px; cursor: pointer; overflow: hidden; word-break: break-word; overflow-wrap: anywhere;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+}
+html:lang(ja) .bg-gcell, html:lang(zh) .bg-gcell, html:lang(th) .bg-gcell { word-break: normal; overflow-wrap: anywhere; }
+.bg-grid-3 .bg-gcell { font-size: 15px; }
+.bg-grid-4 .bg-gcell { font-size: 13px; }
+.bg-gcell.alt { background: var(--cell2, #ffeede); }
+.bg-gcell.sel { border-color: var(--cell-accent, var(--accent)); box-shadow: 0 0 0 2px var(--cell-accent, var(--accent)) inset; }
+.bg-gcell.free { background: var(--cell-accent, var(--accent)); color: #fff; font-family: var(--font-display); font-weight: 700; cursor: default; }
+.bg-num { opacity: 0.4; font-size: 13px; font-weight: 600; }
+.bg-cellbox { margin-top: 12px; }
+.bg-cellrow { display: flex; gap: 8px; }
+.bg-cellrow .bg-input { flex: 1; min-width: 0; }
+.bg-mini-btn {
+  flex: none; min-height: 46px; padding: 0 14px; border-radius: 12px; border: 2px solid var(--ink); background: var(--ink); color: #fff;
+  font-size: 15px; font-weight: 600; cursor: pointer;
+}
+.bg-filled { margin: 8px 0 10px; font-size: 14px; color: var(--ink-dim); text-align: center; }
+.bg-tools { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.bg-tool {
+  flex: 1 1 auto; min-height: 42px; padding: 6px 12px; border-radius: 999px; border: 2px solid var(--ink); background: #fff; color: var(--ink);
+  font-size: 14px; font-weight: 600; cursor: pointer; line-height: 1.25;
+}
+#ideas-btn { background: #ffe9a8; }
+
+/* ---------------- 완성 ---------------- */
+.bg-shared { margin: 0 0 12px; padding: 10px 12px; border-radius: 12px; background: #fff; border: 2px dashed var(--accent); font-size: 14.5px; text-align: center; }
+.bg-cardwrap { border-radius: 18px; overflow: hidden; box-shadow: 0 8px 24px rgba(42, 29, 58, 0.18); background: #fff; }
+.bg-canvas { display: block; width: 100%; height: auto; aspect-ratio: 1080 / 1350; cursor: pointer; touch-action: manipulation; }
+.bg-tap { margin: 10px 0 4px; text-align: center; font-size: 14px; color: var(--ink-dim); }
+.bg-score { text-align: center; margin: 6px 0 14px; }
+.bg-score-n { margin: 0; font-size: 22px; font-weight: 700; color: var(--accent-2); line-height: 1.35; }
+.bg-score-g { margin: 2px 0 0; font-size: 14.5px; color: var(--ink-dim); }
+.bg-actions { display: grid; gap: 8px; margin-bottom: 18px; }
+
+/* ---------------- 문서(개인정보) ---------------- */
+.bg-doc { background: #fff; border: 2px solid var(--ink); border-radius: 20px; padding: 18px; margin: 12px 0; }
+.bg-doc h1 { font-size: 24px; margin: 0 0 10px; }
+.bg-doc h2 { font-size: 17px; margin: 18px 0 6px; }
+.bg-doc p { margin: 0 0 8px; font-size: 15px; color: var(--ink-dim); }
+.bg-doc a { color: var(--accent-2); }
+
+.site-footer { text-align: center; color: var(--ink-faint); font-size: 13px; padding: 24px 0 32px; }
+.site-footer a { color: var(--ink-dim); }
