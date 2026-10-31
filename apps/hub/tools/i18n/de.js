@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'xmascard',
+        kicker: "Grüße zum Fest",
+        headline: "Gestalte deine Weihnachtskarte",
+        blurb: "Motiv wählen, liebe Worte schreiben, als Umschlag-Link verschicken.",
+      },
+      {
+        id: 'finger',
+        kicker: "Ein Handy, alle Finger",
+        headline: "Alle tippen, einer wird gewählt",
+        blurb: "Finger aufs Display, stillhalten. Wer zahlt, wer fängt an?",
+      },
+      {
         id: 'hue',
         kicker: "Wie gut sind deine Augen?",
         headline: "Finde die andere Farbe",

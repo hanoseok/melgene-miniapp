@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'xmascard',
+        kicker: "Felicita las fiestas",
+        headline: "Crea tu tarjeta de Navidad",
+        blurb: "Elige un diseño, escribe con cariño y envía una tarjeta-sobre.",
+      },
+      {
+        id: 'finger',
+        kicker: "Un móvil, los dedos de todos",
+        headline: "Todos tocan, sale uno elegido",
+        blurb: "Un dedo cada uno y quietos. ¿Quién paga, quién empieza?",
+      },
+      {
         id: 'hue',
         kicker: "¿Qué tan fino es tu ojo?",
         headline: "Encuentra el color diferente",

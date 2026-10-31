@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'xmascard',
+        kicker: "Season’s greetings",
+        headline: "Make a cozy Christmas card",
+        blurb: "Pick a design, write a few warm words and send it like a real letter.",
+      },
+      {
+        id: 'finger',
+        kicker: "Fingers down, who’s it?",
+        headline: "Everyone touch, one gets picked",
+        blurb: "Fingers on the screen, hold still. Who pays, who goes first?",
+      },
+      {
         id: 'hue',
         kicker: "How sharp are your eyes?",
         headline: "Spot the one different color",

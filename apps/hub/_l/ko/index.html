@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 67,
+  "numberOfItems": 69,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -549,6 +549,20 @@
       "url": "https://job.example.com/",
       "name": "직업 적성 테스트",
       "description": "가벼운 질문 11개, 2분이면 끝. 나는 어떤 방식으로 일할 때 빛날까? 내 일 스타일과 어울리는 직업을 재미로 알아봐요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "url": "https://xmascard.example.com/",
+      "name": "크리스마스 카드",
+      "description": "테마와 인사말을 고르고 받는 사람·보내는 사람·메시지를 적어 크리스마스 카드를 만들어 보세요. 이미지 저장, 링크로 보내면 봉투가 열리며 카드가 나와요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "url": "https://finger.example.com/",
+      "name": "손가락 룰렛",
+      "description": "모두 휴대폰 화면에 손가락을 하나씩 올리면 잠깐 뒤 한 명이 골라져요. 여러 명 뽑기·팀 나누기도 돼요. 누가 쏠지, 누가 먼저 할지 바로!"
     }
   ]
 }
@@ -624,6 +638,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmascard">
+        <a class="cur-card" href="https://xmascard.example.com/" style="--h:123;--h2:149">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">연말 인사</span></span>
+            <h3 class="cur-headline">따뜻한 크리스마스 카드 만들기</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">디자인 고르고 한마디 적으면, 봉투처럼 열리는 카드 완성.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">크리스마스 카드</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="finger">
+        <a class="cur-card" href="https://finger.example.com/" style="--h:267;--h2:249">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">폰 하나에 모두의 손가락</span></span>
+            <h3 class="cur-headline">다 같이 올리면 한 명 당첨</h3>
+            <span class="cur-giant" aria-hidden="true">👆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">손가락 올리고 가만히. 누가 쏠지, 누가 먼저 할지 바로!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">손가락 룰렛</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hue">
         <a class="cur-card" href="https://hue.example.com/" style="--h:172;--h2:154">
           <span class="cur-art">
@@ -688,7 +734,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block">
+      <li class="cur-item" data-id="block" hidden>
         <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">한 판만 더</span></span>
@@ -704,7 +750,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="newyear">
+      <li class="cur-item" data-id="newyear" hidden>
         <a class="cur-card" href="https://newyear.example.com/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">새해를 미리</span></span>
@@ -752,45 +798,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat" hidden>
-        <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">할로윈 아케이드</span></span>
-            <h3 class="cur-headline">묘지 사이로 박쥐 날리기</h3>
-            <span class="cur-giant" aria-hidden="true">🦇</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">탭해서 날갯짓, 틈을 지나가요. 닿으면 끝!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">할로윈 박쥐 날기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="horror" hidden>
-        <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">불 끄고 팝콘 준비</span></span>
-            <h3 class="cur-headline">공포영화 속 나는 살아남을까?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">영화 속 내 역할과 생존 시간을 알아보는 테스트.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">공포영화 생존 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">67개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">69개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -812,6 +826,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmascard" data-cat="create">
+        <a class="tile-link" href="https://xmascard.example.com/" title="테마와 인사말을 고르고 받는 사람·보내는 사람·메시지를 적어 크리스마스 카드를 만들어 보세요. 이미지 저장, 링크로 보내면 봉투가 열리며 카드가 나와요." style="--h:123;--h2:149">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">크리스마스 카드</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="finger" data-cat="vote">
+        <a class="tile-link" href="https://finger.example.com/" title="모두 휴대폰 화면에 손가락을 하나씩 올리면 잠깐 뒤 한 명이 골라져요. 여러 명 뽑기·팀 나누기도 돼요. 누가 쏠지, 누가 먼저 할지 바로!" style="--h:267;--h2:249">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">손가락 룰렛</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/" title="똑같아 보이는 색 타일 중 딱 하나만 살짝 달라요. 60초 안에 몇 단계까지 찾을 수 있을까요? 절대색감 테스트 게임." style="--h:172;--h2:154">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>

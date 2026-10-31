@@ -158,6 +158,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | bracket | apps/bracket | 토너먼트 대진표(투표): 내 항목 2~64개로 공정한 랜덤 대진표(표준 시드 + 부전승 자동, 부전승끼리 안 만남, 진짜 경기 n−1), 한 판씩 고르기(이상형 월드컵식) 또는 대진표만 뽑고 이름 눌러 승자, 되돌리기, PNG·글 복사·#d= 링크, localStorage 이어하기, 서버 전송 없음 | `check-bracket.js` (+ `flow-test.js`) |
 | hue | apps/hue | 다른 색 찾기(게임, 절대색감 테스트): 60초 동안 한 칸만 다른 색 찾기, 판 2×2→8×8, OKLab 밝기 차이 0.15×0.89^레벨(바닥 0.016), 틀리면 3초 감점, 점수 = 깬 레벨, 등급 6단계(내 것만), supa.submitScore 백분위, 최고 기록 localStorage, 탭 숨기면 시계 멈춤, 재미용(의학 검사 아님) | `check-hue.js` (+ `flow-test.js`) |
 | job | apps/job | 직업 적성 테스트(심리테스트): 11문항×4보기, 3축(사람↔사물·아이디어, 상상↔체계, 앞장↔몰두) → 8종 r/*.html(전수 12.12~12.88%), 언어별 현지 직업 4개·강점·일 스타일 팁, 동료/정반대(링크 없음), poll 비율은 20표 이상일 때만, 재미용(전문 진로 검사 아님) | `check-job.js` (+ `flow-test.js`) |
+| xmascard | apps/xmascard | 크리스마스 카드(만들기): 테마 6·인사말 4(메리 크리스마스·해피 홀리데이·새해·연말)·장식(눈·전구·반짝이), 받는/보내는 사람·메시지 120자(Intl.Segmenter 줄바꿈), 언어별 문구 추천, 1080×1350 canvas PNG 저장·텍스트 복사, #d= 링크 → 받는 사람은 봉투 열기 연출 + 카드 + 나도 만들기, 초안 localStorage, 서버 전송 없음 | `check-xmascard.js` (+ `flow-test.js`) |
+| finger | apps/finger | 손가락 룰렛(투표, finger chooser): 다 같이 화면에 손가락을 올리면 2.5초 뒤 뽑기(손가락 추가·뗌 시 다시 기다림), 1명·N명·팀 나누기(2~4팀, 인원 차 ≤1), 뽑는 순간 crypto 거부 샘플링, Pointer Events 멀티터치(최대 10)·마우스는 클릭 점 모드, 진동·움직임 줄이기, 설정만 localStorage, 서버 숫자 없음 | `check-finger.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

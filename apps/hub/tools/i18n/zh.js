@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'xmascard',
+        kicker: "岁末问候",
+        headline: "做一张温暖的圣诞贺卡",
+        blurb: "选个设计写几句话，发出像信封一样拆开的贺卡。",
+      },
+      {
+        id: 'finger',
+        kicker: "一部手机，大家的手指",
+        headline: "大家一起按，选中一个人",
+        blurb: "手指放上去别动，谁请客谁先来马上定。",
+      },
+      {
         id: 'hue',
         kicker: "色感大挑战",
         headline: "找出那个不一样的颜色",

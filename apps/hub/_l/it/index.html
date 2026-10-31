@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 67,
+  "numberOfItems": 69,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -549,6 +549,20 @@
       "url": "https://job.example.com/",
       "name": "Test attitudinale lavoro",
       "description": "11 domande leggere, 2 minuti. Come lavori al meglio e quali mestieri potrebbero fare per te? Un test per divertirsi."
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "url": "https://xmascard.example.com/",
+      "name": "Biglietto di Natale",
+      "description": "Scegli un tema e un augurio, aggiungi i nomi e un messaggio affettuoso e crea il tuo biglietto di Natale. Salvalo come immagine o invia un link che si apre come una busta."
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "url": "https://finger.example.com/",
+      "name": "Scegli col dito",
+      "description": "Ognuno appoggia un dito sullo schermo e dopo un attimo ne esce uno. Anche più vincitori o squadre. Chi paga, chi inizia? Deciso!"
     }
   ]
 }
@@ -624,6 +638,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmascard">
+        <a class="cur-card" href="https://xmascard.example.com/" style="--h:123;--h2:149">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Auguri di stagione</span></span>
+            <h3 class="cur-headline">Crea il tuo biglietto di Natale</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Scegli un design, scrivi due righe e invia una busta da aprire.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Biglietto di Natale</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="finger">
+        <a class="cur-card" href="https://finger.example.com/" style="--h:267;--h2:249">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Un telefono, le dita di tutti</span></span>
+            <h3 class="cur-headline">Tutti toccano, ne esce uno</h3>
+            <span class="cur-giant" aria-hidden="true">👆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Un dito a testa e fermi. Chi paga, chi inizia?</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Scegli col dito</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hue">
         <a class="cur-card" href="https://hue.example.com/" style="--h:172;--h2:154">
           <span class="cur-art">
@@ -688,7 +734,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block">
+      <li class="cur-item" data-id="block" hidden>
         <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Ancora una partita</span></span>
@@ -704,7 +750,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="newyear">
+      <li class="cur-item" data-id="newyear" hidden>
         <a class="cur-card" href="https://newyear.example.com/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">In anteprima</span></span>
@@ -752,45 +798,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat" hidden>
-        <a class="cur-card" href="https://bat.example.com/" style="--h:277;--h2:259">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">Arcade di Halloween</span></span>
-            <h3 class="cur-headline">Vola tra le lapidi</h3>
-            <span class="cur-giant" aria-hidden="true">🦇</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tocca per volare tra i varchi. Un tocco ed è finita.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Flappy pipistrello</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="horror" hidden>
-        <a class="cur-card" href="https://horror.example.com/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">Luci spente, popcorn pronti</span></span>
-            <h3 class="cur-headline">Sopravvivresti a un film horror?</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Il tuo ruolo nel film e quanto resisteresti.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test di sopravvivenza horror</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostra selezione 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostra selezione 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostra selezione 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostra selezione 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostra selezione 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostra selezione 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">67 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">69 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -812,6 +826,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmascard" data-cat="create">
+        <a class="tile-link" href="https://xmascard.example.com/" title="Scegli un tema e un augurio, aggiungi i nomi e un messaggio affettuoso e crea il tuo biglietto di Natale. Salvalo come immagine o invia un link che si apre come una busta." style="--h:123;--h2:149">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Biglietto di Natale</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="finger" data-cat="vote">
+        <a class="tile-link" href="https://finger.example.com/" title="Ognuno appoggia un dito sullo schermo e dopo un attimo ne esce uno. Anche più vincitori o squadre. Chi paga, chi inizia? Deciso!" style="--h:267;--h2:249">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Scegli col dito</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/" title="Le caselle sembrano tutte uguali, ma una ha una tonalità leggermente diversa. Quanti livelli superi in 60 secondi?" style="--h:172;--h2:154">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NUOVO</span></span>

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 67,
+  "numberOfItems": 69,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -548,6 +548,20 @@
       "url": "https://job.example.com/zh/",
       "name": "职业性格测试",
       "description": "11道轻松小题，2分钟。你在什么样的工作方式里最闪光？看看适合你的职业，仅供娱乐。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "url": "https://xmascard.example.com/zh/",
+      "name": "圣诞贺卡制作",
+      "description": "选主题和祝福语，写上收件人、署名和祝福，做一张圣诞贺卡。可存成图片，或发链接，对方打开时信封会慢慢展开。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "url": "https://finger.example.com/zh/",
+      "name": "手指轮盘",
+      "description": "大家各放一根手指在手机屏幕上，稍等一下就会选出一个人。也能选多人或分组。谁请客、谁先来，马上定！"
     }
   ]
 }
@@ -623,6 +637,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmascard">
+        <a class="cur-card" href="https://xmascard.example.com/zh/" style="--h:123;--h2:149">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">岁末问候</span></span>
+            <h3 class="cur-headline">做一张温暖的圣诞贺卡</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">选个设计写几句话，发出像信封一样拆开的贺卡。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">圣诞贺卡制作</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="finger">
+        <a class="cur-card" href="https://finger.example.com/zh/" style="--h:267;--h2:249">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">一部手机，大家的手指</span></span>
+            <h3 class="cur-headline">大家一起按，选中一个人</h3>
+            <span class="cur-giant" aria-hidden="true">👆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">手指放上去别动，谁请客谁先来马上定。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">手指轮盘</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hue">
         <a class="cur-card" href="https://hue.example.com/zh/" style="--h:172;--h2:154">
           <span class="cur-art">
@@ -687,7 +733,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block">
+      <li class="cur-item" data-id="block" hidden>
         <a class="cur-card" href="https://block.example.com/zh/" style="--h:199;--h2:181">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">再来一局</span></span>
@@ -703,7 +749,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="newyear">
+      <li class="cur-item" data-id="newyear" hidden>
         <a class="cur-card" href="https://newyear.example.com/zh/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">提前看看</span></span>
@@ -751,45 +797,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat" hidden>
-        <a class="cur-card" href="https://bat.example.com/zh/" style="--h:277;--h2:259">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">万圣节小游戏</span></span>
-            <h3 class="cur-headline">让蝙蝠飞过墓地</h3>
-            <span class="cur-giant" aria-hidden="true">🦇</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">点一下扇一下翅膀，穿过空隙，碰到就结束。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">飞吧蝙蝠</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="horror" hidden>
-        <a class="cur-card" href="https://horror.example.com/zh/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">关灯，备好爆米花</span></span>
-            <h3 class="cur-headline">你能在恐怖片里活下来吗？</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">测测你在电影里的角色和能撑多久。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">恐怖片生存测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">67个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">69个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -811,6 +825,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmascard" data-cat="create">
+        <a class="tile-link" href="https://xmascard.example.com/zh/" title="选主题和祝福语，写上收件人、署名和祝福，做一张圣诞贺卡。可存成图片，或发链接，对方打开时信封会慢慢展开。" style="--h:123;--h2:149">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">圣诞贺卡制作</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="finger" data-cat="vote">
+        <a class="tile-link" href="https://finger.example.com/zh/" title="大家各放一根手指在手机屏幕上，稍等一下就会选出一个人。也能选多人或分组。谁请客、谁先来，马上定！" style="--h:267;--h2:249">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">手指轮盘</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/zh/" title="一模一样的色块里，只有一块颜色稍有不同。60 秒内你能找到第几关？" style="--h:172;--h2:154">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>

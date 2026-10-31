@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'xmascard',
+        kicker: "Vœux de fin d’année",
+        headline: "Crée une jolie carte de Noël",
+        blurb: "Choisis un design, écris un mot doux et envoie une carte-enveloppe.",
+      },
+      {
+        id: 'finger',
+        kicker: "Un doigt, un élu",
+        headline: "Tout le monde touche, un seul gagne",
+        blurb: "Un doigt chacun, on ne bouge plus. Qui paie, qui commence ?",
+      },
+      {
         id: 'hue',
         kicker: "Tes yeux sont-ils affûtés ?",
         headline: "Trouve la couleur différente",

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'xmascard',
+        kicker: "Lời chúc cuối năm",
+        headline: "Làm thiệp Giáng sinh ấm áp",
+        blurb: "Chọn mẫu, viết vài lời và gửi thiệp mở ra như phong thư.",
+      },
+      {
+        id: 'finger',
+        kicker: "Một điện thoại, mọi ngón tay",
+        headline: "Ai cũng chạm, một người trúng",
+        blurb: "Đặt ngón tay và giữ yên. Ai trả tiền, ai đi trước?",
+      },
+      {
         id: 'hue',
         kicker: "Mắt bạn tinh cỡ nào?",
         headline: "Tìm ô màu khác biệt",

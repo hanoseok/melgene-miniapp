@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'xmascard',
+        kicker: "연말 인사",
+        headline: "따뜻한 크리스마스 카드 만들기",
+        blurb: "디자인 고르고 한마디 적으면, 봉투처럼 열리는 카드 완성.",
+      },
+      {
+        id: 'finger',
+        kicker: "폰 하나에 모두의 손가락",
+        headline: "다 같이 올리면 한 명 당첨",
+        blurb: "손가락 올리고 가만히. 누가 쏠지, 누가 먼저 할지 바로!",
+      },
+      {
         id: 'hue',
         kicker: "절대색감 도전",
         headline: "다른 색 하나를 찾아라",

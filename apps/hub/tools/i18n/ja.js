@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'xmascard',
+        kicker: "年末のごあいさつ",
+        headline: "クリスマスカードを贈ろう",
+        blurb: "デザインを選んでひとこと。封筒みたいに開くカード。",
+      },
+      {
+        id: 'finger',
+        kicker: "スマホ1台でみんなの指",
+        headline: "みんなで指を置いて1人を選ぶ",
+        blurb: "指を置いてじっと待つだけ。おごりも順番も一発で。",
+      },
+      {
         id: 'hue',
         kicker: "色彩感覚チャレンジ",
         headline: "ひとつだけ違う色を探せ",

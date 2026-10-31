@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 67,
+  "numberOfItems": 69,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -548,6 +548,20 @@
       "url": "https://job.example.com/ja/",
       "name": "適職診断",
       "description": "かんたんな11問、約2分。あなたが輝く働き方と、向いていそうな仕事は？気軽に楽しむ適職診断です。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "url": "https://xmascard.example.com/ja/",
+      "name": "クリスマスカード作成",
+      "description": "テーマとあいさつを選び、宛名・差出人・メッセージを入れてクリスマスカードを作ろう。画像で保存、リンクで送ると封筒が開いてカードが届きます。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "url": "https://finger.example.com/ja/",
+      "name": "指ルーレット",
+      "description": "みんなでスマホの画面に指を1本ずつ置くと、少しして1人が選ばれます。複数人やチーム分けも。おごる人も順番もすぐ決まる！"
     }
   ]
 }
@@ -623,6 +637,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmascard">
+        <a class="cur-card" href="https://xmascard.example.com/ja/" style="--h:123;--h2:149">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">年末のごあいさつ</span></span>
+            <h3 class="cur-headline">クリスマスカードを贈ろう</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">デザインを選んでひとこと。封筒みたいに開くカード。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">クリスマスカード作成</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="finger">
+        <a class="cur-card" href="https://finger.example.com/ja/" style="--h:267;--h2:249">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">スマホ1台でみんなの指</span></span>
+            <h3 class="cur-headline">みんなで指を置いて1人を選ぶ</h3>
+            <span class="cur-giant" aria-hidden="true">👆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">指を置いてじっと待つだけ。おごりも順番も一発で。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">指ルーレット</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="hue">
         <a class="cur-card" href="https://hue.example.com/ja/" style="--h:172;--h2:154">
           <span class="cur-art">
@@ -687,7 +733,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block">
+      <li class="cur-item" data-id="block" hidden>
         <a class="cur-card" href="https://block.example.com/ja/" style="--h:199;--h2:181">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">もう1回だけ</span></span>
@@ -703,7 +749,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="newyear">
+      <li class="cur-item" data-id="newyear" hidden>
         <a class="cur-card" href="https://newyear.example.com/ja/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ひと足早く</span></span>
@@ -751,45 +797,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bat" hidden>
-        <a class="cur-card" href="https://bat.example.com/ja/" style="--h:277;--h2:259">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦇</span></span></span><span class="cur-kicker">ハロウィンゲーム</span></span>
-            <h3 class="cur-headline">コウモリでお墓をすり抜けろ</h3>
-            <span class="cur-giant" aria-hidden="true">🦇</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">タップで羽ばたいてすき間をくぐろう。ぶつかったら終わり。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">フラッピーバット</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="horror" hidden>
-        <a class="cur-card" href="https://horror.example.com/ja/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎃</span></span></span><span class="cur-kicker">部屋を暗くしてポップコーン</span></span>
-            <h3 class="cur-headline">ホラー映画で生き残れる？</h3>
-            <span class="cur-giant" aria-hidden="true">🎃</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">映画の中のあなたの役どころと生存時間を診断。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">ホラー映画 生存診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">67件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">69件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -811,6 +825,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmascard" data-cat="create">
+        <a class="tile-link" href="https://xmascard.example.com/ja/" title="テーマとあいさつを選び、宛名・差出人・メッセージを入れてクリスマスカードを作ろう。画像で保存、リンクで送ると封筒が開いてカードが届きます。" style="--h:123;--h2:149">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">クリスマスカード作成</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="finger" data-cat="vote">
+        <a class="tile-link" href="https://finger.example.com/ja/" title="みんなでスマホの画面に指を1本ずつ置くと、少しして1人が選ばれます。複数人やチーム分けも。おごる人も順番もすぐ決まる！" style="--h:267;--h2:249">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">指ルーレット</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/ja/" title="同じに見えるタイルの中に、ほんの少しだけ色が違う1枚。60秒で何レベルまで見つけられる？" style="--h:172;--h2:154">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
