@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'timer',
+        kicker: "Đếm thầm trong đầu",
+        headline: "Dừng đồng hồ đúng 10,00 giây",
+        blurb: "3 lượt, chế độ che số làm con số biến mất.",
+      },
+      {
+        id: 'attach',
+        kicker: "Bạn gắn bó thế nào?",
+        headline: "Kiểu gắn bó của bạn là gì?",
+        blurb: "Những khoảnh khắc thường ngày với bạn bè, người thân hé lộ cách bạn kết nối.",
+      },
+      {
         id: 'xmascard',
         kicker: "Lời chúc cuối năm",
         headline: "Làm thiệp Giáng sinh ấm áp",

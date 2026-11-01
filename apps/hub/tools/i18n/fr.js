@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'timer',
+        kicker: "Compte dans ta tête",
+        headline: "Arrête le chrono pile à 10,00",
+        blurb: "Trois essais, et en mode aveugle les chiffres disparaissent.",
+      },
+      {
+        id: 'attach',
+        kicker: "Toi et les autres",
+        headline: "Quel est ton style d’attachement ?",
+        blurb: "Des moments du quotidien entre amis et proches révèlent ta façon d’aimer.",
+      },
+      {
         id: 'xmascard',
         kicker: "Vœux de fin d’année",
         headline: "Crée une jolie carte de Noël",

@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'timer',
+        kicker: "頭の中でカウント",
+        headline: "ぴったり10.00秒で止めよう",
+        blurb: "3回挑戦。ブラインドだと数字が消える",
+      },
+      {
+        id: 'attach',
+        kicker: "人との距離感、どんな感じ？",
+        headline: "あなたの愛着スタイルは？",
+        blurb: "友だちや恋人との日常から、つながり方がわかる",
+      },
+      {
         id: 'xmascard',
         kicker: "年末のごあいさつ",
         headline: "クリスマスカードを贈ろう",

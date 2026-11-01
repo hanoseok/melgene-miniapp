@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'timer',
+        kicker: "Conte de cabeça",
+        headline: "Pare o cronômetro em 10,00",
+        blurb: "Três tentativas, e no modo às cegas os números somem.",
+      },
+      {
+        id: 'attach',
+        kicker: "Como você cria vínculos?",
+        headline: "Qual é o seu estilo de apego?",
+        blurb: "O dia a dia com amigos e amores mostra como você se conecta.",
+      },
+      {
         id: 'xmascard',
         kicker: "Boas festas",
         headline: "Crie seu cartão de Natal",

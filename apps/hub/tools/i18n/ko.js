@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'timer',
+        kicker: "10초, 감으로 맞혀 봐",
+        headline: "타이머를 딱 10.00초에 멈춰라",
+        blurb: "세 번 도전, 블라인드 모드는 숫자가 사라져요.",
+      },
+      {
+        id: 'attach',
+        kicker: "나는 어떻게 가까워질까?",
+        headline: "나의 애착 유형은?",
+        blurb: "친구·가족·연인과의 일상 속 반응으로 알아보는 관계 스타일.",
+      },
+      {
         id: 'xmascard',
         kicker: "연말 인사",
         headline: "따뜻한 크리스마스 카드 만들기",

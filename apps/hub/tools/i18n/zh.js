@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'timer',
+        kicker: "在心里默数",
+        headline: "让秒表停在正好10.00秒",
+        blurb: "每局3次，盲测模式下数字会消失。",
+      },
+      {
+        id: 'attach',
+        kicker: "你和人怎么亲近？",
+        headline: "测测你的依恋类型",
+        blurb: "从和朋友、家人的日常小事，看你怎样建立联结。",
+      },
+      {
         id: 'xmascard',
         kicker: "岁末问候",
         headline: "做一张温暖的圣诞贺卡",

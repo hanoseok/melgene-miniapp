@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 69,
+  "numberOfItems": 71,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -562,6 +562,20 @@
       "url": "https://finger.example.com/de/",
       "name": "Finger-Auswahl",
       "description": "Alle legen einen Finger aufs Display, kurz darauf wird einer gewählt. Auch mehrere oder Teams. Wer zahlt, wer fängt an? Sofort geklärt!"
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "url": "https://timer.example.com/de/",
+      "name": "10-Sekunden-Challenge",
+      "description": "Starte die Stoppuhr und stoppe sie nach Gefühl genau bei 10,00 Sekunden. Drei Versuche plus Blind-Modus ohne Ziffern."
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "url": "https://attach.example.com/de/",
+      "name": "Bindungstyp-Test",
+      "description": "11 Alltagsfragen zu Freunden, Familie und Partnerschaft, 2 Minuten. Wie gehst du Nähe ein? Entdecke deinen Bindungstyp – zum Spaß."
     }
   ]
 }
@@ -637,6 +651,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="timer">
+        <a class="cur-card" href="https://timer.example.com/de/" style="--h:115;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Zähl im Kopf mit</span></span>
+            <h3 class="cur-headline">Stopp die Uhr genau bei 10,00</h3>
+            <span class="cur-giant" aria-hidden="true">⏱️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Drei Versuche, im Blind-Modus verschwinden die Ziffern.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">10-Sekunden-Challenge</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="attach">
+        <a class="cur-card" href="https://attach.example.com/de/" style="--h:163;--h2:145">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Wie gehst du Nähe ein?</span></span>
+            <h3 class="cur-headline">Welcher Bindungstyp bist du?</h3>
+            <span class="cur-giant" aria-hidden="true">🫂</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Alltagsmomente mit Freunden und Liebsten zeigen, wie du Bindung lebst.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Bindungstyp-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="xmascard">
         <a class="cur-card" href="https://xmascard.example.com/de/" style="--h:123;--h2:149">
           <span class="cur-art">
@@ -701,7 +747,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingo">
+      <li class="cur-item" data-id="bingo" hidden>
         <a class="cur-card" href="https://bingo.example.com/de/" style="--h:325;--h2:307">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Gute Vorsätze</span></span>
@@ -717,7 +763,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bracket">
+      <li class="cur-item" data-id="bracket" hidden>
         <a class="cur-card" href="https://bracket.example.com/de/" style="--h:210;--h2:192">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Wer holt den Titel?</span></span>
@@ -765,45 +811,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split" hidden>
-        <a class="cur-card" href="https://split.example.com/de/" style="--h:98;--h2:80">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Nach dem Essen</span></span>
-            <h3 class="cur-headline">Rechnung teilen in Sekunden</h3>
-            <span class="cur-giant" aria-hidden="true">💸</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Gleichmäßig oder pro Gericht, mit Trinkgeld und Ausgleich.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Rechnung teilen Rechner</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="santa" hidden>
-        <a class="cur-card" href="https://santa.example.com/de/" style="--h:327;--h2:309">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Geheim auslosen</span></span>
-            <h3 class="cur-headline">Wen beschenkst du beim Wichteln?</h3>
-            <span class="cur-giant" aria-hidden="true">🎁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Namen eingeben, losen, Handy weiterreichen – jeder sieht nur seins.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Wichteln Auslosung</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">69 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">71 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -825,6 +839,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="timer" data-cat="game">
+        <a class="tile-link" href="https://timer.example.com/de/" title="Starte die Stoppuhr und stoppe sie nach Gefühl genau bei 10,00 Sekunden. Drei Versuche plus Blind-Modus ohne Ziffern." style="--h:115;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">10-Sekunden-Challenge</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="attach" data-cat="test">
+        <a class="tile-link" href="https://attach.example.com/de/" title="11 Alltagsfragen zu Freunden, Familie und Partnerschaft, 2 Minuten. Wie gehst du Nähe ein? Entdecke deinen Bindungstyp – zum Spaß." style="--h:163;--h2:145">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Bindungstyp-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="xmascard" data-cat="create">
         <a class="tile-link" href="https://xmascard.example.com/de/" title="Motiv und Gruß wählen, Namen und ein paar liebe Worte eintragen – fertig ist die Weihnachtskarte. Als Bild speichern oder als Link schicken, der sich wie ein Umschlag öffnet." style="--h:123;--h2:149">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEU</span></span>
@@ -883,14 +911,14 @@
       </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/de/" title="Rechnung gleichmäßig oder nach Bestellung teilen, mit Trinkgeld und Rundung – und sehen, wer wem wie viel überweist, wenn jemand ausgelegt hat." style="--h:98;--h2:80">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span>
           <span class="tile-name">Rechnung teilen Rechner</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="santa" data-cat="vote">
         <a class="tile-link" href="https://santa.example.com/de/" title="Wichteln auslosen auf einem Handy und dann herumreichen: Jeder sieht heimlich nur, wen er beschenkt. Mit Budget, Datum und Paaren, die sich nicht ziehen." style="--h:327;--h2:309">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEU</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">Wichteln Auslosung</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

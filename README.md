@@ -160,6 +160,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | job | apps/job | 직업 적성 테스트(심리테스트): 11문항×4보기, 3축(사람↔사물·아이디어, 상상↔체계, 앞장↔몰두) → 8종 r/*.html(전수 12.12~12.88%), 언어별 현지 직업 4개·강점·일 스타일 팁, 동료/정반대(링크 없음), poll 비율은 20표 이상일 때만, 재미용(전문 진로 검사 아님) | `check-job.js` (+ `flow-test.js`) |
 | xmascard | apps/xmascard | 크리스마스 카드(만들기): 테마 6·인사말 4(메리 크리스마스·해피 홀리데이·새해·연말)·장식(눈·전구·반짝이), 받는/보내는 사람·메시지 120자(Intl.Segmenter 줄바꿈), 언어별 문구 추천, 1080×1350 canvas PNG 저장·텍스트 복사, #d= 링크 → 받는 사람은 봉투 열기 연출 + 카드 + 나도 만들기, 초안 localStorage, 서버 전송 없음 | `check-xmascard.js` (+ `flow-test.js`) |
 | finger | apps/finger | 손가락 룰렛(투표, finger chooser): 다 같이 화면에 손가락을 올리면 2.5초 뒤 뽑기(손가락 추가·뗌 시 다시 기다림), 1명·N명·팀 나누기(2~4팀, 인원 차 ≤1), 뽑는 순간 crypto 거부 샘플링, Pointer Events 멀티터치(최대 10)·마우스는 클릭 점 모드, 진동·움직임 줄이기, 설정만 localStorage, 서버 숫자 없음 | `check-finger.js` (+ `flow-test.js`) |
+| timer | apps/timer | 10초 맞추기(게임, 10초 챌린지): 스톱워치를 감으로 목표(5·10·30초, 기본 10초)에 딱 맞춰 멈추기, 3번 도전 → 가장 작은 오차·평균 오차, 블라인드 모드(3초 뒤 숫자 가림), performance.now + 입력 timeStamp, 아무 데나 누르기·Space/Enter, 딱 맞춤(화면 = 목표) 꽃가루(움직임 줄이기 = 끔), 등급 6단계(내 것만), 탭 이탈 = 시도 무효, 모드별 supa.submitScore 백분위(낮을수록 좋음), 설정·최고 기록 localStorage | `check-timer.js` (+ `flow-test.js`) |
+| attach | apps/attach | 애착 유형 테스트(심리테스트): 친구·가족·연인 일상 상황 11문항×4보기, 두 축(불안·회피 ±1, 보기 4개 = 네 부호 조합 하나씩) → 4종(안정형·불안형·회피형·혼란형) r/*.html(전수 정확히 25%씩, 동점 없음), 별명·강점 3·관계 팁 3·편안한 짝(이름만, 링크 없음), 방금 푼 사람에게만 두 축 게이지, poll 비율은 20표 이상일 때만, 재미·자기 성찰용(진단 아님) | `check-attach.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

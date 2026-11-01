@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 69,
+  "numberOfItems": 71,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -563,6 +563,20 @@
       "url": "https://finger.example.com/",
       "name": "指ルーレット",
       "description": "みんなでスマホの画面に指を1本ずつ置くと、少しして1人が選ばれます。複数人やチーム分けも。おごる人も順番もすぐ決まる！"
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "url": "https://timer.example.com/",
+      "name": "10秒ストップ",
+      "description": "ストップウォッチを感覚だけでぴったり10.00秒に止めよう。3回挑戦、数字が消えるブラインドモードも。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "url": "https://attach.example.com/",
+      "name": "愛着スタイル診断",
+      "description": "友だち・家族・恋人との日常の11問、約2分。あなたは人とどう距離を縮める？愛着スタイルと関係のヒントを気軽にチェック。"
     }
   ]
 }
@@ -638,6 +652,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="timer">
+        <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">頭の中でカウント</span></span>
+            <h3 class="cur-headline">ぴったり10.00秒で止めよう</h3>
+            <span class="cur-giant" aria-hidden="true">⏱️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">3回挑戦。ブラインドだと数字が消える</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">10秒ストップ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="attach">
+        <a class="cur-card" href="https://attach.example.com/" style="--h:163;--h2:145">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">人との距離感、どんな感じ？</span></span>
+            <h3 class="cur-headline">あなたの愛着スタイルは？</h3>
+            <span class="cur-giant" aria-hidden="true">🫂</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">友だちや恋人との日常から、つながり方がわかる</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">愛着スタイル診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="xmascard">
         <a class="cur-card" href="https://xmascard.example.com/" style="--h:123;--h2:149">
           <span class="cur-art">
@@ -702,7 +748,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingo">
+      <li class="cur-item" data-id="bingo" hidden>
         <a class="cur-card" href="https://bingo.example.com/" style="--h:325;--h2:307">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">来年の目標を</span></span>
@@ -718,7 +764,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bracket">
+      <li class="cur-item" data-id="bracket" hidden>
         <a class="cur-card" href="https://bracket.example.com/" style="--h:210;--h2:192">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">優勝は誰の手に？</span></span>
@@ -766,45 +812,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="split" hidden>
-        <a class="cur-card" href="https://split.example.com/" style="--h:98;--h2:80">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ごちそうさまの後に</span></span>
-            <h3 class="cur-headline">割り勘をサッと計算</h3>
-            <span class="cur-giant" aria-hidden="true">💸</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">均等でもメニュー別でも。誰が誰に払うかまで。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">割り勘計算</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="santa" hidden>
-        <a class="cur-card" href="https://santa.example.com/" style="--h:327;--h2:309">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">こっそり抽選</span></span>
-            <h3 class="cur-headline">プレゼント交換、誰に贈る？</h3>
-            <span class="cur-giant" aria-hidden="true">🎁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">名前を入れて抽選、スマホを回して自分の分だけ確認。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">プレゼント交換くじ</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">69件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">71件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -826,6 +840,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="timer" data-cat="game">
+        <a class="tile-link" href="https://timer.example.com/" title="ストップウォッチを感覚だけでぴったり10.00秒に止めよう。3回挑戦、数字が消えるブラインドモードも。" style="--h:115;--h2:141">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">10秒ストップ</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="attach" data-cat="test">
+        <a class="tile-link" href="https://attach.example.com/" title="友だち・家族・恋人との日常の11問、約2分。あなたは人とどう距離を縮める？愛着スタイルと関係のヒントを気軽にチェック。" style="--h:163;--h2:145">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">愛着スタイル診断</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="xmascard" data-cat="create">
         <a class="tile-link" href="https://xmascard.example.com/" title="テーマとあいさつを選び、宛名・差出人・メッセージを入れてクリスマスカードを作ろう。画像で保存、リンクで送ると封筒が開いてカードが届きます。" style="--h:123;--h2:149">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
@@ -884,14 +912,14 @@
       </li>
       <li class="tile" data-id="split" data-cat="create">
         <a class="tile-link" href="https://split.example.com/" title="合計と人数を入れるだけで1人あたりの金額がすぐ出ます。メニューごとの割り勘、100円単位の端数処理、幹事の負担、立て替え精算もまとめて計算。" style="--h:98;--h2:80">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💸</span></span></span>
           <span class="tile-name">割り勘計算</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="santa" data-cat="vote">
         <a class="tile-link" href="https://santa.example.com/" title="名前を入れてくじを引き、スマホを回して自分の名前をタップ。プレゼントを贈る相手を一人ずつこっそり確認できます。予算や交換日、カップル除外も設定OK。" style="--h:327;--h2:309">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">プレゼント交換くじ</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

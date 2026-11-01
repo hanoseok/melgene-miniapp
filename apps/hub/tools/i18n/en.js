@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'timer',
+        kicker: "Count it in your head",
+        headline: "Stop the timer at exactly 10.00",
+        blurb: "Three tries, no peeking in blind mode. How close can you get?",
+      },
+      {
+        id: 'attach',
+        kicker: "How do you bond?",
+        headline: "What’s your attachment style?",
+        blurb: "Everyday moments with friends and loved ones reveal how you connect.",
+      },
+      {
         id: 'xmascard',
         kicker: "Season’s greetings",
         headline: "Make a cozy Christmas card",

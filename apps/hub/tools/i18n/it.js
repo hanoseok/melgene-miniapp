@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'timer',
+        kicker: "Conta nella tua testa",
+        headline: "Ferma il crono a 10,00 esatti",
+        blurb: "Tre tentativi, e alla cieca le cifre spariscono.",
+      },
+      {
+        id: 'attach',
+        kicker: "Come crei legami?",
+        headline: "Qual è il tuo stile di attaccamento?",
+        blurb: "Piccoli momenti con amici e persone care rivelano come ti leghi.",
+      },
+      {
         id: 'xmascard',
         kicker: "Auguri di stagione",
         headline: "Crea il tuo biglietto di Natale",

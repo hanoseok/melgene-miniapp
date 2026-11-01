@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'timer',
+        kicker: "Zähl im Kopf mit",
+        headline: "Stopp die Uhr genau bei 10,00",
+        blurb: "Drei Versuche, im Blind-Modus verschwinden die Ziffern.",
+      },
+      {
+        id: 'attach',
+        kicker: "Wie gehst du Nähe ein?",
+        headline: "Welcher Bindungstyp bist du?",
+        blurb: "Alltagsmomente mit Freunden und Liebsten zeigen, wie du Bindung lebst.",
+      },
+      {
         id: 'xmascard',
         kicker: "Grüße zum Fest",
         headline: "Gestalte deine Weihnachtskarte",
