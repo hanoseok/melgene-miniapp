@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'wrapped',
+        kicker: "今年を一枚に",
+        headline: "今年の振り返りカード",
+        blurb: "今年の一語・曲・瞬間を書いて画像で保存。",
+      },
+      {
+        id: 'ballot',
+        kicker: "スマホ1台で投票",
+        headline: "匿名投票",
+        blurb: "回して内緒で投票、結果はみんなで一斉に発表。",
+      },
+      {
         id: 'timer',
         kicker: "頭の中でカウント",
         headline: "ぴったり10.00秒で止めよう",

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 71,
+  "numberOfItems": 73,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -577,6 +577,20 @@
       "url": "https://attach.example.com/ru/",
       "name": "Тест на тип привязанности",
       "description": "11 житейских вопросов о друзьях, семье и партнёрах, 2 минуты. Как ты сближаешься с людьми? Узнай свой тип привязанности — для развлечения."
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "url": "https://wrapped.example.com/ru/",
+      "name": "Итоги года",
+      "description": "Слово года, лучший момент, песня, еда, место, кого хочешь поблагодарить и цель на следующий год — выбери оформление и получи свою карточку итогов года. Сохрани или поделись."
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "url": "https://ballot.example.com/ru/",
+      "name": "Тайное голосование",
+      "description": "Передавай один телефон по кругу: настоящее тайное голосование для новогодней премии, выбора кафе или решений класса. Никто не видит, кто за что голосовал."
     }
   ]
 }
@@ -652,6 +666,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="wrapped">
+        <a class="cur-card" href="https://wrapped.example.com/ru/" style="--h:27;--h2:9">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Твой год на одной карточке</span></span>
+            <h3 class="cur-headline">Мои итоги года</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Слово, песня, момент — сохрани картинкой.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Итоги года</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="ballot">
+        <a class="cur-card" href="https://ballot.example.com/ru/" style="--h:264;--h2:246">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Голосуем тайно</span></span>
+            <h3 class="cur-headline">Анонимное голосование</h3>
+            <span class="cur-giant" aria-hidden="true">🗳️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Передавайте телефон, голосуйте тайно, итог — вместе.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Тайное голосование</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="timer">
         <a class="cur-card" href="https://timer.example.com/ru/" style="--h:115;--h2:141">
           <span class="cur-art">
@@ -716,7 +762,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hue">
+      <li class="cur-item" data-id="hue" hidden>
         <a class="cur-card" href="https://hue.example.com/ru/" style="--h:172;--h2:154">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Насколько зоркий глаз?</span></span>
@@ -732,7 +778,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="job">
+      <li class="cur-item" data-id="job" hidden>
         <a class="cur-card" href="https://job.example.com/ru/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Какая работа твоя?</span></span>
@@ -780,45 +826,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block" hidden>
-        <a class="cur-card" href="https://block.example.com/ru/" style="--h:199;--h2:181">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Ещё одну партию</span></span>
-            <h3 class="cur-headline">Ставь блоки, очищай линии</h3>
-            <span class="cur-giant" aria-hidden="true">🧩</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Заполняй ряды и столбцы, чтобы их стереть. Серии дают комбо!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Блок-пазл</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="newyear" hidden>
-        <a class="cur-card" href="https://newyear.example.com/ru/" style="--h:333;--h2:315">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Заглянем вперёд</span></span>
-            <h3 class="cur-headline">Что тебя ждёт в 2027?</h3>
-            <span class="cur-giant" aria-hidden="true">🌅</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Пара быстрых ответов — и ты узнаешь тему года и цвет удачи.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Каким будет твой 2027?</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 71</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 73</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -840,6 +854,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="wrapped" data-cat="create">
+        <a class="tile-link" href="https://wrapped.example.com/ru/" title="Слово года, лучший момент, песня, еда, место, кого хочешь поблагодарить и цель на следующий год — выбери оформление и получи свою карточку итогов года. Сохрани или поделись." style="--h:27;--h2:9">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Итоги года</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ballot" data-cat="vote">
+        <a class="tile-link" href="https://ballot.example.com/ru/" title="Передавай один телефон по кругу: настоящее тайное голосование для новогодней премии, выбора кафе или решений класса. Никто не видит, кто за что голосовал." style="--h:264;--h2:246">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Тайное голосование</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="timer" data-cat="game">
         <a class="tile-link" href="https://timer.example.com/ru/" title="Запусти секундомер и останови его ровно на 10,00 секунды на ощупь. Три попытки и слепой режим, где цифры исчезают." style="--h:115;--h2:141">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span>
@@ -898,14 +926,14 @@
       </li>
       <li class="tile" data-id="block" data-cat="game">
         <a class="tile-link" href="https://block.example.com/ru/" title="Перетаскивай по три фигуры на поле 8×8. Заполни ряд или столбец, чтобы он исчез, и собирай комбо." style="--h:199;--h2:181">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span></span>
           <span class="tile-name">Блок-пазл</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="newyear" data-cat="test">
         <a class="tile-link" href="https://newyear.example.com/ru/" title="11 лёгких вопросов, 2 минуты. Какое слово станет твоим в 2027 году, какой цвет, месяц и талисман принесут удачу? Просто для развлечения." style="--h:333;--h2:315">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span></span>
           <span class="tile-name">Каким будет твой 2027?</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

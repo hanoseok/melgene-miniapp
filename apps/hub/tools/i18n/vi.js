@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'wrapped',
+        kicker: "Cả năm trong một tấm thiệp",
+        headline: "Thiệp tổng kết năm",
+        blurb: "Một từ, một bài hát, một khoảnh khắc — lưu thành ảnh.",
+      },
+      {
+        id: 'ballot',
+        kicker: "Bầu chọn bí mật",
+        headline: "Bỏ phiếu ẩn danh",
+        blurb: "Chuyền máy, bầu bí mật, cùng nhau công bố kết quả.",
+      },
+      {
         id: 'timer',
         kicker: "Đếm thầm trong đầu",
         headline: "Dừng đồng hồ đúng 10,00 giây",

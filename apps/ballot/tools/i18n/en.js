@@ -1,0 +1,160 @@
+/* Anonymous Voting (Secret Ballot) — English (site root /, default + x-default)
+ * Logic lives in ballot-core.js; this file holds every visible string for this language.
+ * Keys ending in Html are inserted as raw HTML (only <br> and <em>); privacy.sections bodies are HTML too.
+ * Screens: setup (template, names list, questions, voters, start) → voting (cover → ballot → saved, repeat) → reveal one question at a time → final results + shared end screen.
+ *          A #d= result link opens a read-only "shared results" view.
+ * ui.presets: templates. Each question is either { t, people: true } (choices = the names list) or { t, o: [choices] }. Use local, natural examples.
+ * FAQ appears only in the shared end screen. Placeholders like {i} {n} {c} {p} {name} {names} — keep them as-is when translating.
+ */
+module.exports = {
+  fonts: {
+    css: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap',
+    display: "'Baloo 2'",
+    displayWeight: 800,
+    sans: '',
+    wordBreak: 'normal',
+    hyphens: 'manual',
+  },
+
+  meta: {
+    title: 'Anonymous Voting App – Secret Ballot on One Phone',
+    description: 'Anonymous voting app for groups in one room: pass one phone around, everyone casts a secret ballot, then reveal the results together. Year-end awards, where to eat, class votes. Free.',
+    ogTitle: 'Anonymous Voting 🗳️ Pass the phone, reveal together',
+    ogDescription: 'A secret ballot on one phone. Nobody sees who voted for what, then the drumroll and the reveal.',
+  },
+  siteName: 'Anonymous Voting',
+  privacyLink: 'Privacy Policy',
+
+  hero: {
+    h1Kicker: 'Anonymous Voting',
+    h1Html: 'Pass the phone,<br><em>vote in secret</em>',
+    hook: 'Award night, dinner plans or a class decision: everyone votes alone on the same phone, nobody sees who picked what, and the results come out with a drumroll.',
+  },
+
+  ui: {
+    presetLabel: 'Start from a template',
+    presets: [
+      { id: 'awards', label: '🏆 Year-end awards', questions: [
+        { t: 'MVP of the year', people: true },
+        { t: 'Best mood maker', people: true },
+        { t: 'Most likely to surprise us next year', people: true },
+      ] },
+      { id: 'food', label: '🍽️ Where to eat', questions: [
+        { t: 'Where should we eat?', o: ['Pizza', 'Burgers', 'Sushi', 'Thai', 'Mexican', 'Korean BBQ'] },
+      ] },
+      { id: 'movie', label: '🎬 Movie night', questions: [
+        { t: 'What should we watch?', o: ['Comedy', 'Action', 'Horror', 'Animation', 'Rom-com', 'Documentary'] },
+        { t: 'Snack of the night', o: ['Popcorn', 'Nachos', 'Ice cream', 'Chips'] },
+      ] },
+      { id: 'custom', label: '✏️ My own', questions: [
+        { t: '', o: [] },
+      ] },
+    ],
+    peopleLabel: 'Names list',
+    peopleHint: 'Used by questions set to “vote for a person”. One per line or separated by commas, up to 12.',
+    peoplePh: 'Mia\nLeo\nAva\nNoah',
+    qLabel: 'Question {i}',
+    qTitlePh: 'e.g. Best costume',
+    qDefault: 'Question {i}',
+    usePeople: 'Vote for a person (names list)',
+    optionsLabel: 'Choices',
+    optionsPh: 'One choice per line',
+    removeQ: 'Remove',
+    addQ: '+ Add a question',
+    votersLabel: 'How many people will vote?',
+    votersLess: 'Fewer',
+    votersMore: 'More',
+    votersValue: '{n} voters',
+    start: 'Start the secret vote 🗳️',
+    fair: 'Only totals are kept, never who voted for what · nothing leaves this phone · ties broken with crypto random',
+    errPeople: 'Add at least 2 names to the names list.',
+    errPeopleMany: 'The names list can have up to 12 names.',
+    errFew: 'Question {i}: add at least 2 choices.',
+    errMany: 'Question {i}: up to 12 choices.',
+    resumeText: 'A vote is still in progress: {c} of {n} have voted.',
+    resumeResults: 'The results of your last vote are still here.',
+    resume: 'Continue',
+    discard: 'Discard',
+    progress: 'Voter {i} of {n}',
+    coverTitle: 'Pass the phone to voter {i}',
+    coverHint: 'Make sure nobody else can see the screen, then tap the button.',
+    ready: 'I’m ready, show my ballot',
+    ballotHint: 'Pick one in each question. Nobody will ever see your choices.',
+    cast: 'Cast my vote ✓',
+    castNeed: 'Pick one in every question first',
+    savedTitle: 'Vote saved!',
+    savedHint: 'Your choices are hidden. Pass the phone to the next person.',
+    next: 'Next voter →',
+    allInTitle: 'All {n} votes are in!',
+    allInHint: 'Gather everyone around the screen for the reveal.',
+    reveal: 'Reveal the results 🥁',
+    finishEarly: 'End voting now',
+    finishConfirm: 'End the vote with {c} of {n} votes?',
+    cancelVote: 'Cancel vote',
+    cancelConfirm: 'Cancel this vote? Every vote cast so far will be lost.',
+    liveSaved: 'Vote saved.',
+  },
+
+  result: {
+    kicker: '🥁 And the winner is…',
+    catOf: 'Question {i} of {n}',
+    drum: 'Counting the votes…',
+    winner: '🏆 {name}',
+    bar: '{c} · {p}%',
+    tie: 'It’s a tie!',
+    tieBetween: 'Tied at the top: {names}',
+    tieBreak: 'Break the tie fairly 🎲',
+    tieBroken: 'Tie-break draw: {name}',
+    tieNote: 'Picked at random among the tied choices.',
+    next: 'Next question →',
+    finish: 'See all results',
+    summaryTitle: 'Final results',
+    summarySub: '{c} votes counted',
+    copyText: 'Copy results as text',
+    copyLink: 'Copy result link',
+    shareLink: 'Share result link',
+    copied: 'Copied!',
+    textHead: 'Secret ballot results ({c} votes)',
+    textTie: 'tie, drawn at random',
+    edit: 'Edit questions',
+    again: 'New vote 🗳️',
+    shareTitle: 'Anonymous Voting',
+    shareText: 'Pass one phone around and vote in secret 🗳️',
+    sharedKicker: '🗳️ Shared results',
+    sharedTitle: 'Secret ballot results',
+    sharedSub: '{c} votes counted · only the totals are in this link',
+    makeOwn: 'Start your own secret vote',
+    sharedBad: 'This result link is broken or incomplete.',
+  },
+
+  og: {
+    brand: '🗳️ Anonymous Voting',
+    kicker: 'One phone · a secret ballot',
+    title: 'Pass the phone, vote in secret',
+    desc: 'Award nights, dinner plans, class decisions',
+  },
+
+  faq: [
+    { q: 'Can the organizer see who voted for what?', a: 'No. Each ballot only adds one to the totals of the choices picked, and the screen is cleared before the next person gets the phone. The app never stores which voter picked which option, so not even the person holding the phone at the end can find out.' },
+    { q: 'What if someone can’t make it or the group is smaller?', a: 'On the pass-the-phone screen, choose “End voting now” whenever you like. The results are revealed with the votes cast so far.' },
+    { q: 'How is a tie broken?', a: 'When two or more choices share first place, you can press the tie-break button. The app picks one of the tied choices using your browser’s cryptographic random generator (crypto.getRandomValues) with rejection sampling, so each tied choice has exactly the same chance, and the result is clearly labeled as a draw.' },
+    { q: 'What happens if the page reloads in the middle?', a: 'The questions and the running totals are kept on this phone, so you can continue where you left off. Individual ballots are never saved.' },
+    { q: 'What does the result link contain?', a: 'Only the questions, the choices and the final number of votes for each. Anyone who opens it sees the same results and can start their own vote.' },
+  ],
+
+  privacy: {
+    title: 'Privacy Policy | Anonymous Voting',
+    description: 'Privacy Policy for Anonymous Voting: votes stay on your device, cookies, advertising and statistics.',
+    h1: 'Privacy Policy',
+    introHtml: 'Anonymous Voting (the "Service") respects your privacy and processes only the minimum information described below.',
+    sections: [
+      ['1. Information we collect', 'The Service works without an account or login. Questions, names and vote totals are processed only in your browser and are not sent to our server. Your draft and the running totals of a vote in progress may be kept in your browser’s local storage on your device. Which voter chose which option is never recorded anywhere. A result link contains only the questions, choices and final totals, and is shared only if you choose to share it.'],
+      ['2. Cookies and similar technologies', 'The Service may use cookies and your browser’s local storage to remember your language and settings, to show ads and to understand how the Service is used. You can refuse or delete them in your browser settings; some features may not work as expected if you do.'],
+      ['3. Advertising (Google AdSense)', 'The Service shows ads through Google AdSense. Google and its partners may use cookies to serve ads based on your previous visits to this and other websites. You can learn more and change your preferences in <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google Ad Settings</a>.'],
+      ['4. Statistics', 'To improve the Service we may use Google Analytics (GA4) and our own aggregate counters that keep only daily totals per language (page views, rounds started and finished, star ratings). None of this identifies you personally.'],
+      ['5. Contact', 'If you have any questions about this Privacy Policy, please contact the site operator.'],
+      ['6. Effective date', 'This policy is effective as of November 3, 2026.'],
+    ],
+    back: '← Back to Anonymous Voting',
+  },
+};

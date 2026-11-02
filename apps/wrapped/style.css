@@ -1,0 +1,213 @@
+/* apps/wrapped/style.css — 올해 결산 카드: 깊은 밤보라 + 코랄 핑크 + 금빛.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display·--font-script 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 카드 그림은 canvas(wrapped.js). 시작 화면 이모지(.wr-hero)는 prefers-reduced-motion 이면 멈춘다.
+ */
+:root {
+  --night-0: #0c0620;
+  --night-1: #1a0f38;
+  --night-2: #2e1a5e;
+  --coral: #ff5f8f;
+  --coral-2: #e2336d;
+  --gold: #ffd36e;
+  --gold-2: #f5b942;
+  --ink: #fbf7ff;
+  --ink-dim: rgba(251, 247, 255, 0.8);
+  --ink-faint: rgba(251, 247, 255, 0.5);
+  --on-gold: #3a1a00;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --font-script: var(--font-display);
+  --script-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--coral);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: rgba(251, 247, 255, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 211, 110, 0.45);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(251, 247, 255, 0.2);
+  --mg-heart-bg: rgba(255, 95, 143, 0.12);
+  --mg-heart-border: rgba(255, 95, 143, 0.45);
+  --mg-heart-fg: #ff9ab8;
+  --mg-heart-on: #ff5f8f;
+  --mg-share-bg: rgba(251, 247, 255, 0.06);
+  --mg-share-border: rgba(251, 247, 255, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(251, 247, 255, 0.05);
+  --mg-faq-border: rgba(255, 211, 110, 0.28);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--gold), var(--gold-2));
+  --mg-end-retry-fg: var(--on-gold);
+  --toast-bg: rgba(46, 26, 94, 0.96);
+}
+
+html { background: var(--night-0); }
+body.wr-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--night-2), var(--night-1) 45%, var(--night-0) 80%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.wr-h1, .wr-kicker, .wr-h1-main, .wr-badge, .wr-btn, .wr-edit-title, .wr-chip, .wr-idea,
+.wr-eyebrow, .wr-label, .wr-doc h1 {
+  font-family: var(--font-display);
+}
+.wr-h1-main em { font-family: var(--font-script); }
+.wr-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.wr-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.wr-screen { padding-top: 12px; }
+
+.wr-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px;
+  padding: 12px 18px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.wr-btn-primary {
+  background: linear-gradient(135deg, #ff8fb0, var(--coral) 55%, var(--coral-2));
+  color: #fff;
+  box-shadow: 0 10px 28px -8px rgba(255, 95, 143, 0.7), inset 0 -4px 0 rgba(90, 0, 40, 0.25);
+}
+.wr-btn-soft {
+  background: rgba(251, 247, 255, 0.08);
+  color: var(--ink);
+  border: 1.5px solid rgba(255, 211, 110, 0.45);
+}
+.wr-btn-sm { min-height: 50px; font-size: 16px; padding: 10px 12px; }
+.wr-btn:active { transform: scale(0.97); }
+.wr-btn:disabled { opacity: 0.6; cursor: progress; }
+.wr-btn:focus-visible, .wr-chip:focus-visible, .wr-idea:focus-visible, .wr-input:focus-visible {
+  outline: 3px solid var(--gold); outline-offset: 3px;
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.wr-start { text-align: center; padding-top: 18px; }
+.wr-badge {
+  display: inline-block; margin: 0 0 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(255, 95, 143, 0.18); border: 1px solid rgba(255, 143, 176, 0.45);
+  color: #ffd9e4; font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.wr-hero {
+  position: relative; width: 230px; height: 200px; margin: 0 auto;
+  border-radius: 36px;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 211, 110, 0.28), transparent 68%);
+}
+.wr-hero span { position: absolute; line-height: 1; }
+.wr-hero-main { left: 50%; top: 52%; font-size: 112px; transform: translate(-50%, -50%); animation: wr-bob 3.6s ease-in-out infinite; }
+.wr-hero-a { left: 14px; top: 16px; font-size: 44px; animation: wr-bob 3.1s ease-in-out infinite -1s; }
+.wr-hero-b { right: 12px; bottom: 12px; font-size: 46px; animation: wr-bob 3s ease-in-out infinite -1.6s; }
+.wr-hero-c { right: 24px; top: 10px; font-size: 38px; animation: wr-twinkle 2.4s ease-in-out infinite; }
+.wr-hero-d { left: 12px; bottom: 16px; font-size: 44px; animation: wr-bob 2.9s ease-in-out infinite -2.2s; }
+@keyframes wr-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@keyframes wr-twinkle { 0%, 100% { opacity: 1; scale: 1; } 50% { opacity: 0.55; scale: 0.85; } }
+.wr-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.wr-kicker { display: block; margin-bottom: 6px; font-size: 15px; letter-spacing: 0.03em; color: var(--gold); }
+.wr-h1-main { display: block; font-size: 40px; color: var(--ink); text-shadow: 0 4px 0 rgba(12, 6, 32, 0.6); }
+.wr-h1-main em { font-style: normal; font-weight: var(--script-weight); color: var(--gold); text-shadow: 0 0 22px rgba(255, 211, 110, 0.5), 0 4px 0 rgba(12, 6, 32, 0.6); }
+.wr-hook { margin: 0 auto 20px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+
+/* ---------------- 편집기 ---------------- */
+.wr-edit-title { margin: 0 0 10px; font-size: 22px; line-height: 1.3; text-align: center; font-weight: var(--display-weight); color: var(--gold); }
+.wr-chips {
+  display: flex; gap: 8px; margin: 0 -16px 12px; padding: 2px 16px 6px;
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.wr-chips::-webkit-scrollbar { display: none; }
+.wr-chip {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  min-width: 72px; min-height: 64px; padding: 8px 12px;
+  border-radius: 18px; border: 2px solid rgba(251, 247, 255, 0.14);
+  background: rgba(12, 6, 32, 0.5); color: var(--ink-dim);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.wr-chip-emoji { font-size: 28px; line-height: 1.1; }
+.wr-chip.is-on, .wr-idea.is-on { border-color: var(--gold); background: rgba(255, 211, 110, 0.16); color: var(--ink); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+
+.wr-preview { width: 100%; max-width: 270px; margin: 0 auto 14px; }
+.wr-canvas {
+  display: block; width: 100%; height: auto; aspect-ratio: 1080 / 1350;
+  border-radius: 18px; background: var(--night-1);
+  box-shadow: 0 22px 44px -22px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 211, 110, 0.3);
+}
+
+.wr-field { display: block; margin-bottom: 12px; min-width: 0; }
+.wr-label { display: block; margin: 0 0 6px 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--gold); }
+.wr-req { color: var(--coral); }
+.wr-input {
+  box-sizing: border-box; width: 100%; min-width: 0; min-height: 52px; padding: 12px 10px 12px 14px;
+  border-radius: 16px; border: 1.5px solid rgba(255, 211, 110, 0.38);
+  background: rgba(12, 6, 32, 0.55); color: var(--ink);
+  font: inherit; font-size: 17px; color-scheme: dark;
+}
+.wr-input::placeholder { color: var(--ink-faint); }
+.wr-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+.wr-input.is-bad { border-color: #ff9ab8; box-shadow: 0 0 0 3px rgba(255, 95, 143, 0.25); }
+.wr-field-word { padding: 12px; margin: 0 -4px 16px; border-radius: 20px; background: rgba(255, 211, 110, 0.07); border: 1px solid rgba(255, 211, 110, 0.25); }
+.wr-input-word { font-size: 19px; font-weight: 700; }
+.wr-ideas { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.wr-idea {
+  flex: 0 0 auto; min-height: 36px; padding: 5px 12px;
+  border-radius: 999px; border: 1.5px solid rgba(255, 211, 110, 0.45);
+  background: rgba(255, 211, 110, 0.08); color: var(--gold);
+  font-size: 14px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.wr-hint { min-height: 1.4em; margin: 0 0 8px; text-align: center; font-size: 14px; color: #ff9ab8; }
+.wr-edit .mg-ad { margin-top: 20px; }
+
+/* ---------------- 끝 화면 ---------------- */
+.wr-card {
+  margin-top: 6px; padding: 18px 16px 16px;
+  border-radius: 28px; text-align: center;
+  background: radial-gradient(120% 60% at 50% 0%, rgba(255, 211, 110, 0.16), transparent 70%), linear-gradient(180deg, rgba(46, 26, 94, 0.92), rgba(26, 15, 56, 0.96));
+  border: 1.5px solid rgba(255, 211, 110, 0.42);
+  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.8);
+}
+.wr-eyebrow { margin: 0 0 12px; font-size: 16px; font-weight: var(--display-weight); line-height: 1.35; color: var(--gold); overflow-wrap: anywhere; }
+.wr-end-canvas { max-width: 300px; margin: 0 auto 14px; }
+.wr-end-actions { display: grid; gap: 10px; }
+.wr-save-status { min-height: 1.4em; margin: 8px 0 0; font-size: 13.5px; color: var(--ink-dim); }
+.wr-save-status.is-bad { color: #ff9ab8; }
+
+/* ---------------- 개인정보 ---------------- */
+.wr-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.wr-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.25; }
+.wr-doc h2 { font-size: 17px; color: var(--gold); margin: 22px 0 6px; }
+.wr-doc a { text-decoration: underline; }
+
+.site-footer { color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .wr-body { line-height: 1.75; }
+html:lang(th) :is(.wr-h1-main, .wr-edit-title, .wr-chip, .wr-idea, .wr-btn, .wr-label, .wr-eyebrow) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .wr-kicker { letter-spacing: 0; }
+html:lang(vi) .wr-h1-main { line-height: 1.35; }
+
+@media (max-width: 374px) {
+  .wr-h1-main { font-size: 34px; }
+  .wr-idea { font-size: 13.5px; padding: 5px 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wr-hero span { animation: none !important; }
+  .wr-btn { transition: none; }
+}

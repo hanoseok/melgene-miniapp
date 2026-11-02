@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'wrapped',
+        kicker: "一张卡片回顾今年",
+        headline: "我的年度总结卡片",
+        blurb: "写下年度关键词、歌曲和瞬间，保存成图片。",
+      },
+      {
+        id: 'ballot',
+        kicker: "一部手机就能投票",
+        headline: "匿名投票",
+        blurb: "轮流传手机偷偷投，最后一起揭晓结果。",
+      },
+      {
         id: 'timer',
         kicker: "在心里默数",
         headline: "让秒表停在正好10.00秒",

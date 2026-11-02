@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 71,
+  "numberOfItems": 73,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -577,6 +577,20 @@
       "url": "https://attach.example.com/",
       "name": "Test d’attachement",
       "description": "11 questions du quotidien sur les amis, la famille et le couple, 2 minutes. Comment tisses-tu des liens ? Découvre ton style d’attachement, pour s’amuser."
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "url": "https://wrapped.example.com/",
+      "name": "Mon bilan de l’année",
+      "description": "Ton mot de l’année, ton meilleur moment, ta chanson, ton plat, ton lieu, la personne à remercier et ton objectif : choisis un thème et obtiens ta carte bilan à enregistrer ou partager."
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "url": "https://ballot.example.com/",
+      "name": "Vote anonyme",
+      "description": "Faites passer un seul téléphone pour un vrai vote anonyme : trophées de fin d’année, resto, décisions de classe. Personne ne voit qui a voté quoi."
     }
   ]
 }
@@ -652,6 +666,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="wrapped">
+        <a class="cur-card" href="https://wrapped.example.com/" style="--h:27;--h2:9">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Ton année en une carte</span></span>
+            <h3 class="cur-headline">Ma carte bilan de l’année</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Un mot, une chanson, un moment — en image.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Mon bilan de l’année</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="ballot">
+        <a class="cur-card" href="https://ballot.example.com/" style="--h:264;--h2:246">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Vote en secret</span></span>
+            <h3 class="cur-headline">Vote anonyme</h3>
+            <span class="cur-giant" aria-hidden="true">🗳️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Passez le téléphone, votez en secret, révélez ensemble.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Vote anonyme</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="timer">
         <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
           <span class="cur-art">
@@ -716,7 +762,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hue">
+      <li class="cur-item" data-id="hue" hidden>
         <a class="cur-card" href="https://hue.example.com/" style="--h:172;--h2:154">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tes yeux sont-ils affûtés ?</span></span>
@@ -732,7 +778,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="job">
+      <li class="cur-item" data-id="job" hidden>
         <a class="cur-card" href="https://job.example.com/" style="--h:333;--h2:315">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Quel métier pour toi ?</span></span>
@@ -780,45 +826,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="block" hidden>
-        <a class="cur-card" href="https://block.example.com/" style="--h:199;--h2:181">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Encore une partie</span></span>
-            <h3 class="cur-headline">Place les blocs, efface les lignes</h3>
-            <span class="cur-giant" aria-hidden="true">🧩</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Remplis lignes et colonnes pour les effacer. Enchaîne pour des combos !</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Puzzle de blocs</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="newyear" hidden>
-        <a class="cur-card" href="https://newyear.example.com/" style="--h:333;--h2:315">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Avant-goût</span></span>
-            <h3 class="cur-headline">Que te réserve 2027 ?</h3>
-            <span class="cur-giant" aria-hidden="true">🌅</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Quelques choix rapides pour ton thème et ta couleur porte-bonheur.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test du Nouvel An 2027</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">71 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">73 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -840,6 +854,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="wrapped" data-cat="create">
+        <a class="tile-link" href="https://wrapped.example.com/" title="Ton mot de l’année, ton meilleur moment, ta chanson, ton plat, ton lieu, la personne à remercier et ton objectif : choisis un thème et obtiens ta carte bilan à enregistrer ou partager." style="--h:27;--h2:9">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Mon bilan de l’année</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="ballot" data-cat="vote">
+        <a class="tile-link" href="https://ballot.example.com/" title="Faites passer un seul téléphone pour un vrai vote anonyme : trophées de fin d’année, resto, décisions de classe. Personne ne voit qui a voté quoi." style="--h:264;--h2:246">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Vote anonyme</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="timer" data-cat="game">
         <a class="tile-link" href="https://timer.example.com/" title="Lance le chrono et arrête-le pile à 10,00 secondes, au feeling. Trois essais, et un mode aveugle où les chiffres disparaissent." style="--h:115;--h2:141">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span>
@@ -898,14 +926,14 @@
       </li>
       <li class="tile" data-id="block" data-cat="game">
         <a class="tile-link" href="https://block.example.com/" title="Glisse trois pièces sur une grille 8×8. Remplis une ligne ou une colonne pour l’effacer et enchaîne les combos." style="--h:199;--h2:181">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧩</span></span></span>
           <span class="tile-name">Puzzle de blocs</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="newyear" data-cat="test">
         <a class="tile-link" href="https://newyear.example.com/" title="11 petites questions, 2 minutes. Quel est ton mot-clé pour 2027, avec couleur, mois et objet porte-bonheur ? Juste pour rire." style="--h:333;--h2:315">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🌅</span></span></span>
           <span class="tile-name">Test du Nouvel An 2027</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

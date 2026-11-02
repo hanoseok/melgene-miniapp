@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'wrapped',
+        kicker: "한 장으로 정리하는 올해",
+        headline: "나의 올해 결산 카드",
+        blurb: "올해의 한 단어·노래·순간을 적으면 이미지로 완성.",
+      },
+      {
+        id: 'ballot',
+        kicker: "한 대로 돌리는 투표",
+        headline: "익명 비밀 투표",
+        blurb: "폰을 돌려 몰래 투표하고, 결과는 다 같이 두근두근 공개.",
+      },
+      {
         id: 'timer',
         kicker: "10초, 감으로 맞혀 봐",
         headline: "타이머를 딱 10.00초에 멈춰라",

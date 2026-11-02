@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'wrapped',
+        kicker: "Dein Jahr auf einer Karte",
+        headline: "Mein Jahresrückblick",
+        blurb: "Ein Wort, ein Song, ein Moment – als Bild speichern.",
+      },
+      {
+        id: 'ballot',
+        kicker: "Geheim abstimmen",
+        headline: "Anonyme Abstimmung",
+        blurb: "Handy weitergeben, geheim abstimmen, gemeinsam auflösen.",
+      },
+      {
         id: 'timer',
         kicker: "Zähl im Kopf mit",
         headline: "Stopp die Uhr genau bei 10,00",

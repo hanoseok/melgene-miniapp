@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'wrapped',
+        kicker: "Your year, one card",
+        headline: "My Year in Review card",
+        blurb: "Pick a word, a song, a moment — save it as an image.",
+      },
+      {
+        id: 'ballot',
+        kicker: "One phone, honest votes",
+        headline: "Anonymous voting app",
+        blurb: "Pass the phone, vote in secret, reveal the winner together.",
+      },
+      {
         id: 'timer',
         kicker: "Count it in your head",
         headline: "Stop the timer at exactly 10.00",
