@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'cps',
+        kicker: "Khởi động ngón tay",
+        headline: "Mỗi giây bạn click mấy lần?",
+        blurb: "Chạm ô lớn thật nhanh trong 1, 5 hoặc 10 giây.",
+      },
+      {
+        id: 'enneagram',
+        kicker: "Chín cách nhìn thế giới",
+        headline: "Bạn thuộc nhóm Enneagram nào?",
+        blurb: "12 câu hỏi đời thường cho thấy điều thật sự thúc đẩy bạn.",
+      },
+      {
         id: 'wrapped',
         kicker: "Cả năm trong một tấm thiệp",
         headline: "Thiệp tổng kết năm",

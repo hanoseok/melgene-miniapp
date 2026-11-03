@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Test de clics: guía para hacer más clics por segundo (CPS)</title>
+<meta name="description" content="Cómo funciona el test de clics (CPS test), qué duración elegir, cuántos clics por segundo son buenos y técnicas como el jitter click y el butterfly click.">
+<link rel="canonical" href="https://cps.example.com/es/guide.html">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="guide.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://cps.example.com/guide.html">
+<link rel="alternate" hreflang="ja" href="https://cps.example.com/ja/guide.html">
+<link rel="alternate" hreflang="zh" href="https://cps.example.com/zh/guide.html">
+<link rel="alternate" hreflang="ko" href="https://cps.example.com/ko/guide.html">
+<link rel="alternate" hreflang="fr" href="https://cps.example.com/fr/guide.html">
+<link rel="alternate" hreflang="de" href="https://cps.example.com/de/guide.html">
+<link rel="alternate" hreflang="th" href="https://cps.example.com/th/guide.html">
+<link rel="alternate" hreflang="vi" href="https://cps.example.com/vi/guide.html">
+<link rel="alternate" hreflang="es" href="https://cps.example.com/es/guide.html">
+<link rel="alternate" hreflang="it" href="https://cps.example.com/it/guide.html">
+<link rel="alternate" hreflang="pt" href="https://cps.example.com/pt/guide.html">
+<link rel="alternate" hreflang="ru" href="https://cps.example.com/ru/guide.html">
+<link rel="alternate" hreflang="x-default" href="https://cps.example.com/guide.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Melgene Apps">
+<meta property="og:title" content="Test de clics: guía para hacer más clics por segundo (CPS)">
+<meta property="og:description" content="Cómo funciona el test de clics (CPS test), qué duración elegir, cuántos clics por segundo son buenos y técnicas como el jitter click y el butterfly click.">
+<meta property="og:image" content="https://cps.example.com/og/es/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://cps.example.com/es/guide.html">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-11-04">
+<meta name="mg-no-play" content="1">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1320" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./shared/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://cps.example.com/es/guide.html#article","headline":"Test de clics: cómo funciona y cómo hacer clic más rápido","description":"Cómo funciona el test de clics (CPS test), qué duración elegir, cuántos clics por segundo son buenos y técnicas como el jitter click y el butterfly click.","inLanguage":"es","datePublished":"2026-11-04","dateModified":"2026-11-04","author":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"publisher":{"@type":"Organization","name":"Melgene Apps","url":"https://example.com/es/"},"mainEntityOfPage":"https://cps.example.com/es/guide.html","url":"https://cps.example.com/es/guide.html","about":{"@type":"WebApplication","name":"Test de clics","url":"https://cps.example.com/es/"},"image":"https://cps.example.com/og/es/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Melgene Apps","item":"https://example.com/es/"},{"@type":"ListItem","position":2,"name":"Test de clics","item":"https://cps.example.com/es/"},{"@type":"ListItem","position":3,"name":"Test de clics: cómo funciona y cómo hacer clic más rápido","item":"https://cps.example.com/es/guide.html"}]}]}</script>
+</head>
+<body class="mg-art-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="Inicio de Melgene Apps"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">Apps</span></a><span class="mg-top-app">Test de clics</span><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Idioma"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko">한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es" selected>Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="Idioma"><a href="guide.html" hreflang="en" lang="en">English</a> <a href="guide.html" hreflang="ja" lang="ja">日本語</a> <a href="guide.html" hreflang="zh" lang="zh">简体中文</a> <a href="guide.html" hreflang="ko" lang="ko">한국어</a> <a href="guide.html" hreflang="fr" lang="fr">Français</a> <a href="guide.html" hreflang="de" lang="de">Deutsch</a> <a href="guide.html" hreflang="th" lang="th">ไทย</a> <a href="guide.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="guide.html" hreflang="es" lang="es">Español</a> <a href="guide.html" hreflang="it" lang="it">Italiano</a> <a href="guide.html" hreflang="pt" lang="pt">Português</a> <a href="guide.html" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+<main class="mg-art-shell">
+  <nav class="mg-art-crumbs" aria-label="Breadcrumb"><a href="https://example.com/">Melgene Apps</a><span aria-hidden="true">›</span><a href="./">Test de clics</a></nav>
+  <article class="mg-art">
+    <p class="mg-art-kicker"><span aria-hidden="true">🖱️</span>Test de clics</p>
+    <h1>Test de clics: cómo funciona y cómo hacer clic más rápido</h1>
+    <p class="mg-art-meta"><time datetime="2026-11-04">Actualizado: 4 de noviembre de 2026</time></p>
+    <p class="mg-art-intro">Un test de clics mide cuántas veces puedes hacer clic en un segundo. También se le llama CPS test, porque CPS significa «clicks per second», es decir, clics por segundo. Los gamers lo usan para calentar antes de una partida PvP, los estudiantes lo prueban en el recreo y entre amigos se pasan el móvil para ver quién tiene los dedos más rápidos. Nuestra versión funciona en cualquier navegador de móvil, tableta u ordenador, sin descargas ni cuentas. Esta guía explica cómo se calcula la puntuación, qué duración elegir, qué técnicas de clic existen y cómo mejorar sin hacerte daño en la mano.</p>
+    <section>
+      <h2>Cómo funciona el test de clics</h2>
+      <p>Elige una duración de 1, 5 o 10 segundos y pulsa el botón de inicio. Aparece una zona de clic grande. No pasa nada hasta que haces clic o tocas dentro: el tiempo empieza con tu primer clic, y ese clic ya cuenta. A partir de ahí, cada clic dentro de la zona suma uno hasta que se acaba el tiempo.</p>
+      <p>Cuando se acaba el tiempo, la zona se bloquea un instante para que un clic que ya ibas a hacer no empiece otra ronda por error. Después ves tu resultado: tus clics por segundo con un decimal, el total de clics, una insignia de velocidad y tu récord personal en ese modo.</p>
+      <ul>
+        <li>Tu puntuación es el número de clics dividido entre la duración del test en segundos.</li>
+        <li>Solo cuentan los clics del ratón y los toques dentro de la zona. El teclado no cuenta, porque una tecla mantenida se repite sola.</li>
+        <li>En pantalla táctil, cada dedo que toca la zona cuenta como un clic propio.</li>
+        <li>Si cambias de pestaña o bloqueas el móvil durante el test, el intento se cancela y simplemente vuelves a jugar.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>¿1, 5 o 10 segundos?</h2>
+      <p>El test de 1 segundo es un sprint puro. No da tiempo a cansarse, así que suele dar la cifra más alta, pero también es el más aleatorio: un clic de más cambia tu puntuación en un punto entero. Ideal para presumir.</p>
+      <p>El test de 5 segundos es el estándar y equilibra velocidad y resistencia. El de 10 segundos es la medida más honesta de tu velocidad real, porque la mano se cansa en la segunda mitad. Cada modo guarda su propio récord y, cuando el servidor está disponible, tu resultado solo se compara con jugadores del mismo modo.</p>
+    </section>
+    <div class="mg-ad"></div>
+    <section>
+      <h2>Técnicas de clic más populares</h2>
+      <p>Cómo sujetas el ratón o el móvil importa más que la fuerza de los dedos. Estas son las técnicas que usa la gente, de la más fácil a la más avanzada.</p>
+      <ul>
+        <li>Clic normal: un dedo pulsa con un ritmo constante. Una muñeca relajada hace clic más rápido que una tensa.</li>
+        <li>Jitter click: tensas el antebrazo para que la mano vibre y el dedo golpee muy rápido. Es rápido pero cansa, así que haz sesiones cortas.</li>
+        <li>Butterfly click: dos dedos se turnan sobre el mismo botón. Cada dedo solo necesita la mitad de velocidad, así que el total puede subir mucho.</li>
+        <li>En el móvil: usa dos dedos o los dos pulgares y toca con las yemas cerca de la pantalla, sin levantar mucho la mano.</li>
+        <li>Uses la técnica que uses, para si te duele la mano o la muñeca. Varias rondas cortas son mejores que una larga y dolorosa.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>¿Cuántos CPS son buenos?</h2>
+      <p>Haciendo clic de forma normal, la mayoría de la gente ronda los 5 a 8 clics por segundo. Los gamers con práctica suelen llegar a 8 o 10, y con jitter o butterfly click se puede ir más arriba. En juegos rápidos, sobre todo en el PvP de juegos de bloques, hacer más clics significa dar más golpes en un intercambio corto, y por eso muchos jugadores vigilan su CPS.</p>
+      <p>También hay un techo. Más de 25 clics por segundo está fuera del alcance de un dedo humano y casi siempre viene de un autoclicker o de un hardware defectuoso, así que esos resultados no se guardan ni se comparan. El porcentaje que ves tras un test sale solo de resultados reales de otros jugadores del mismo modo. Si no se puede conectar con el servidor, esa parte simplemente se oculta.</p>
+    </section>
+    <section>
+      <h2>Consejos para practicar y jugar con amigos</h2>
+      <p>Para mejorar, calienta con un par de rondas tranquilas, apoya el antebrazo en la mesa y sujeta el ratón sin apretar. Juega varias veces seguidas el mismo modo y fíjate en tu media más que en un golpe de suerte. Mucha gente nota que una pausa corta entre rondas ayuda más que hacer clic sin parar.</p>
+      <p>El test de clics también es un gran reto en grupo. Pasad un móvil y que cada uno haga una ronda de 5 segundos, o que cada uno juegue en su dispositivo y comparta el enlace del resultado. El enlace abre el test en el idioma de tu amigo y sin tu historial, para que empiece de cero e intente superarte.</p>
+    </section>
+    <p class="mg-art-cta-wrap"><a class="mg-art-cta" href="./"><span aria-hidden="true">🖱️</span>Empezar el test de clics</a></p>
+  </article>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Melgene Apps · <a href="./">Test de clics</a> · <a href="privacy.html">Política de privacidad</a>
+  </footer>
+</main>
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+</body>
+</html>

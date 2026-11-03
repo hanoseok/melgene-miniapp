@@ -1,0 +1,237 @@
+/* apps/cps/style.css — 클릭 속도 테스트: 짙은 보라 바탕 + 네온 노랑·분홍·하늘 포인트, 숫자는 Chakra Petch.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --bg-0: #0d0820;
+  --bg-1: #150d2b;
+  --bg-2: #2a1a57;
+  --panel: #1c1239;
+  --yellow: #ffd23f;
+  --yellow-dim: rgba(255, 210, 63, 0.16);
+  --pink: #ff4f9a;
+  --cyan: #3de0ff;
+  --ink: #f4f0ff;
+  --ink-dim: rgba(244, 240, 255, 0.8);
+  --ink-faint: rgba(244, 240, 255, 0.6);
+  --dark: #150d2b;
+  --card: rgba(255, 255, 255, 0.05);
+  --line: rgba(255, 255, 255, 0.14);
+  --font-digits: 'Chakra Petch', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--yellow);
+  --mg-top-badge-fg: var(--dark);
+  --lang-bg: rgba(244, 240, 255, 0.08);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(244, 240, 255, 0.3);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffd23f;
+  --mg-star-off: rgba(244, 240, 255, 0.2);
+  --mg-heart-bg: rgba(255, 79, 154, 0.12);
+  --mg-heart-border: rgba(255, 79, 154, 0.5);
+  --mg-heart-fg: var(--pink);
+  --mg-heart-on: #ff3d8b;
+  --mg-share-bg: rgba(244, 240, 255, 0.06);
+  --mg-share-border: rgba(244, 240, 255, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(244, 240, 255, 0.05);
+  --mg-faq-border: rgba(244, 240, 255, 0.2);
+  --mg-end-retry-bg: var(--yellow);
+  --mg-end-retry-fg: var(--dark);
+  --toast-bg: rgba(42, 26, 87, 0.97);
+}
+
+html { background: var(--bg-0); }
+body.cp-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 120% 60% at 50% -12%, var(--bg-2), var(--bg-1) 52%, var(--bg-0) 88%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.cp-h1, .cp-kicker, .cp-h1-main, .cp-h1-main em, .cp-badge, .cp-btn, .cp-how, .cp-facts, .cp-opt-label, .cp-seg-btn span,
+.cp-mode, .cp-hud-k, .cp-zone-main, .cp-zone-sub, .cp-note, .cp-link,
+.cp-eyebrow, .cp-res-mode, .cp-cps-unit, .cp-stat-k, .cp-tier-name, .cp-newbest, .cp-pb, .cp-top, .cp-doc h1 {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.cp-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.cp-screen { padding-top: 12px; }
+
+.cp-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px; padding: 12px 18px;
+  border: 3px solid var(--dark); border-radius: 18px;
+  font-size: 20px; font-weight: var(--display-weight); line-height: 1.25; letter-spacing: 0.01em;
+  cursor: pointer; transition: transform 0.1s ease, box-shadow 0.1s ease;
+  touch-action: manipulation; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none;
+}
+.cp-btn-primary { background: var(--yellow); color: var(--dark); box-shadow: 0 5px 0 #c99a12, 0 10px 26px rgba(255, 210, 63, 0.22); }
+.cp-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
+.cp-btn:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+
+/* ---------------- 시작 화면 ---------------- */
+.cp-start { text-align: center; padding-top: 14px; }
+.cp-badge {
+  display: inline-block; margin: 0 0 12px; padding: 6px 14px; border-radius: 999px;
+  background: var(--yellow-dim); color: var(--yellow); border: 1.5px solid rgba(255, 210, 63, 0.45);
+  font-size: 13px; line-height: 1.35;
+}
+.cp-hero { margin: 0 auto 2px; max-width: 160px; }
+.cp-hero-art { display: block; width: 100%; height: auto; filter: drop-shadow(0 10px 24px rgba(255, 79, 154, 0.28)); }
+.cp-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.cp-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--yellow); color: var(--dark); border-radius: 8px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.02em; transform: rotate(-1.5deg);
+}
+.cp-h1-main { display: block; font-size: 32px; color: var(--ink); overflow-wrap: break-word; text-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); }
+.cp-h1-main em { font-style: normal; color: var(--pink); }
+.cp-hook { margin: 0 auto 14px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+
+.cp-opts { margin: 0 0 12px; padding: 12px; border-radius: 16px; background: var(--card); border: 1.5px solid rgba(244, 240, 255, 0.12); }
+.cp-opt-label { margin: 0 0 8px; font-size: 14px; line-height: 1.3; color: var(--ink-faint); text-align: center; }
+.cp-seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.cp-seg-btn { position: relative; display: block; cursor: pointer; }
+.cp-seg-btn input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.cp-seg-btn span {
+  display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 6px 4px; border-radius: 12px;
+  border: 2px solid rgba(244, 240, 255, 0.18); background: rgba(255, 255, 255, 0.04);
+  font-size: 17px; line-height: 1.2; color: var(--ink); text-align: center;
+}
+.cp-seg-btn input:checked + span { background: var(--yellow); color: var(--dark); border-color: var(--yellow); }
+.cp-seg-btn input:focus-visible + span { outline: 3px solid var(--cyan); outline-offset: 2px; }
+
+.cp-how {
+  margin: 0 0 16px; padding: 10px 12px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(244, 240, 255, 0.12);
+  font-size: 14px; line-height: 1.35; color: var(--ink);
+}
+.cp-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.cp-play { position: relative; padding-top: 6px; text-align: center; }
+.cp-mode { margin: 0 0 8px; font-size: 16px; line-height: 1.3; color: var(--ink-dim); }
+.cp-hud { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.cp-hud-box {
+  display: flex; flex-direction: column; align-items: center; gap: 0; min-width: 0; padding: 6px 4px; border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05); border: 1.5px solid rgba(244, 240, 255, 0.12);
+}
+.cp-hud-k { font-size: 12px; line-height: 1.3; color: var(--ink-faint); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cp-hud-v { font-family: var(--font-digits); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 24px; line-height: 1.15; color: var(--ink); }
+.cp-bar { height: 6px; margin: 8px 0 10px; border-radius: 6px; background: rgba(244, 240, 255, 0.1); overflow: hidden; }
+.cp-bar span { display: block; height: 100%; width: 100%; background: linear-gradient(90deg, var(--pink), var(--yellow)); border-radius: 6px; }
+
+.cp-zone {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  height: clamp(280px, 56vh, 420px); padding: 18px 14px; border-radius: 28px;
+  background: radial-gradient(circle at 50% 42%, #3a2378 0%, var(--panel) 70%);
+  border: 3px solid rgba(255, 210, 63, 0.55); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.4), inset 0 0 0 6px rgba(255, 255, 255, 0.03);
+  cursor: pointer; outline: none;
+  touch-action: none; -ms-touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+}
+.cp-zone * { pointer-events: none; }
+.cp-zone.is-ready { animation: cp-glow 1.6s ease-in-out infinite; }
+.cp-zone.is-run { border-color: var(--pink); }
+.cp-zone.is-over { border-color: var(--cyan); background: radial-gradient(circle at 50% 42%, #1f3b63 0%, var(--panel) 72%); cursor: default; }
+@keyframes cp-glow { 50% { box-shadow: 0 14px 34px rgba(0, 0, 0, 0.4), 0 0 0 6px rgba(255, 210, 63, 0.18); } }
+.cp-zone-main { position: relative; margin: 0; font-size: 26px; line-height: 1.3; color: var(--ink); max-width: 100%; overflow-wrap: break-word; }
+.cp-zone.is-run .cp-zone-main { font-family: var(--font-digits); font-weight: 700; font-variant-numeric: tabular-nums; font-size: clamp(64px, 22vw, 104px); line-height: 1; color: var(--yellow); text-shadow: 0 0 22px rgba(255, 210, 63, 0.45); }
+.cp-zone.is-over .cp-zone-main { font-size: 32px; color: var(--cyan); }
+.cp-zone-main.bump { animation: cp-bump 0.12s ease-out; }
+@keyframes cp-bump { 0% { transform: scale(1.12); } 100% { transform: scale(1); } }
+.cp-zone-sub { position: relative; margin: 0; min-height: 1.4em; font-size: 15px; line-height: 1.4; color: var(--ink-faint); }
+.cp-ripples { position: absolute; inset: 0; }
+.cp-ripples i {
+  position: absolute; width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%;
+  border: 4px solid var(--pink); opacity: 0.9; transform: scale(0.2);
+  animation: cp-ripple 0.45s ease-out forwards;
+}
+.cp-ripples i:nth-child(3n) { border-color: var(--yellow); }
+.cp-ripples i:nth-child(3n+1) { border-color: var(--cyan); }
+@keyframes cp-ripple { to { transform: scale(1.4); opacity: 0; } }
+.cp-note { margin: 10px 0 0; padding: 8px 12px; border-radius: 12px; background: rgba(255, 79, 154, 0.12); border: 1.5px solid rgba(255, 79, 154, 0.4); font-size: 14px; line-height: 1.4; color: var(--ink); }
+.cp-link {
+  display: block; margin: 12px auto 6px; padding: 8px 14px; border: 0; background: none; color: var(--ink-faint);
+  font-size: 14px; line-height: 1.3; text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+
+/* ---------------- 끝 화면: 결과 카드 ---------------- */
+.cp-end { padding-top: 10px; }
+.cp-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(170deg, rgba(42, 26, 87, 0.96), rgba(21, 13, 43, 0.98));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+.cp-result::before { content: ''; position: absolute; left: 22px; right: 22px; top: -2px; height: 4px; border-radius: 4px; background: linear-gradient(90deg, var(--pink), var(--yellow)); }
+.cp-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--yellow); color: var(--dark); font-size: 16px; line-height: 1.35;
+}
+.cp-res-mode { margin: 4px 0 0; font-size: 15px; line-height: 1.35; color: var(--ink-dim); }
+.cp-res-big { margin: 6px 0 0; line-height: 1; display: flex; align-items: baseline; justify-content: center; gap: 8px; }
+.cp-cps-big { font-family: var(--font-digits); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 76px; line-height: 1.05; color: var(--yellow); text-shadow: 0 0 18px rgba(255, 210, 63, 0.35); }
+.cp-cps-unit { font-size: 24px; color: var(--pink); }
+.cp-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 14px 0 0; }
+.cp-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 10px; border-radius: 14px; background: var(--card); border: 1.5px solid rgba(244, 240, 255, 0.12); min-width: 0; }
+.cp-stat-k { font-size: 13px; line-height: 1.3; color: var(--ink-faint); }
+.cp-stat-v { font-family: var(--font-digits); font-weight: 700; font-size: 24px; line-height: 1.15; color: var(--ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.cp-tier { margin: 14px 0 0; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.cp-tier-label { font-size: 13px; line-height: 1.3; color: var(--ink-faint); letter-spacing: 0.04em; }
+.cp-tier-name {
+  display: inline-block; max-width: 100%; margin-top: 4px; padding: 6px 16px; border-radius: 14px;
+  background: rgba(255, 79, 154, 0.14); border: 2px solid rgba(255, 79, 154, 0.55);
+  font-size: 22px; line-height: 1.3; color: var(--ink); overflow-wrap: break-word;
+}
+.cp-newbest {
+  display: inline-block; margin: 12px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--yellow); color: var(--dark); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.cp-pb { margin: 10px 0 0; font-size: 15px; color: var(--ink-dim); }
+.cp-toofast { margin: 10px 0 0; padding: 8px 12px; border-radius: 12px; background: rgba(61, 224, 255, 0.1); border: 1.5px solid rgba(61, 224, 255, 0.4); font-size: 14px; line-height: 1.4; color: var(--ink); }
+.cp-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(61, 224, 255, 0.08); border: 1.5px dashed rgba(61, 224, 255, 0.42); }
+.cp-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.cp-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--yellow); }
+.cp-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.cp-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .cp-h1-main, html:lang(th) .cp-kicker, html:lang(th) .cp-how, html:lang(th) .cp-btn, html:lang(th) .cp-hook, html:lang(th) .cp-zone-main,
+html:lang(th) .cp-zone-sub, html:lang(th) .cp-tier-name, html:lang(th) .cp-note, html:lang(th) .cp-toofast { line-height: 1.55; letter-spacing: 0; }
+html:lang(th) .cp-stat-k, html:lang(th) .cp-tier-label, html:lang(th) .cp-hud-k, html:lang(th) .cp-opt-label { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .cp-h1-main, html:lang(vi) .cp-kicker { line-height: 1.3; }
+html:lang(ja) .cp-h1-main, html:lang(zh) .cp-h1-main, html:lang(ko) .cp-h1-main { font-size: 30px; line-height: 1.25; }
+html:lang(ru) .cp-h1-main, html:lang(vi) .cp-h1-main { font-size: 29px; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.cp-doc { padding: 16px 0 8px; }
+.cp-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.cp-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--yellow); }
+.cp-doc p { color: var(--ink-dim); font-size: 15px; }
+.cp-doc a, .site-footer a { color: var(--yellow); }
+
+@media (max-width: 359px) {
+  .cp-h1-main { font-size: 27px; }
+  .cp-cps-big { font-size: 64px; }
+}
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .cp-btn { transition: none; }
+  .cp-zone.is-ready { animation: none; }
+  .cp-zone-main.bump { animation: none; }
+  .cp-ripples { display: none; }
+}

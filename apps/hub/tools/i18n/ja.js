@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'cps',
+        kicker: "指の準備はいい？",
+        headline: "1秒に何回クリックできる？",
+        blurb: "1・5・10秒、ボックスをひたすら連打",
+      },
+      {
+        id: 'enneagram',
+        kicker: "9つのタイプで見る性格",
+        headline: "あなたのエニアグラムタイプは？",
+        blurb: "日常の12問で、心の奥の動機がわかる。",
+      },
+      {
         id: 'wrapped',
         kicker: "今年を一枚に",
         headline: "今年の振り返りカード",

@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'cps',
+        kicker: "Fingers at the ready",
+        headline: "How many clicks per second?",
+        blurb: "Tap the box as fast as you can for 1, 5 or 10 seconds.",
+      },
+      {
+        id: 'enneagram',
+        kicker: "Nine ways to see the world",
+        headline: "What’s your Enneagram type?",
+        blurb: "Twelve everyday questions reveal what really drives you.",
+      },
+      {
         id: 'wrapped',
         kicker: "Your year, one card",
         headline: "My Year in Review card",

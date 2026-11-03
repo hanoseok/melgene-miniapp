@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'cps',
+        kicker: "손가락 풀고 시작!",
+        headline: "1초에 몇 번 클릭할 수 있을까?",
+        blurb: "1·5·10초 동안 상자를 있는 힘껏 연타해 보세요.",
+      },
+      {
+        id: 'enneagram',
+        kicker: "세상을 보는 아홉 가지 눈",
+        headline: "나는 에니어그램 몇 번 유형?",
+        blurb: "일상 질문 12개로 알아보는 나를 움직이는 진짜 동기.",
+      },
+      {
         id: 'wrapped',
         kicker: "한 장으로 정리하는 올해",
         headline: "나의 올해 결산 카드",

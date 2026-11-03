@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 73,
+  "numberOfItems": 75,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -591,6 +591,20 @@
       "url": "https://ballot.example.com/",
       "name": "Votación anónima",
       "description": "Pasa un solo móvil para una votación anónima de verdad: premios de fin de año, dónde comer, decisiones de clase. Nadie ve quién votó qué."
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "url": "https://cps.example.com/",
+      "name": "Test de clics",
+      "description": "Haz clic lo más rápido que puedas durante 1, 5 o 10 segundos y descubre tus clics por segundo (CPS) y tu nivel."
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "url": "https://enneagram.example.com/",
+      "name": "Test de eneagrama",
+      "description": "12 preguntas cotidianas, 2 minutos. ¿Qué te mueve de verdad? Descubre tu tipo de eneagrama entre nueve, con fortalezas y consejos, por diversión."
     }
   ]
 }
@@ -666,6 +680,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="cps">
+        <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Calienta los dedos</span></span>
+            <h3 class="cur-headline">¿Cuántos clics por segundo?</h3>
+            <span class="cur-giant" aria-hidden="true">🖱️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Toca el cuadro lo más rápido que puedas durante 1, 5 o 10 segundos.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test de clics</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="enneagram">
+        <a class="cur-card" href="https://enneagram.example.com/" style="--h:84;--h2:66">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Nueve formas de ver el mundo</span></span>
+            <h3 class="cur-headline">¿Cuál es tu tipo de eneagrama?</h3>
+            <span class="cur-giant" aria-hidden="true">🔷</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Doce preguntas cotidianas revelan qué te mueve de verdad.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test de eneagrama</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="wrapped">
         <a class="cur-card" href="https://wrapped.example.com/" style="--h:27;--h2:9">
           <span class="cur-art">
@@ -730,7 +776,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmascard">
+      <li class="cur-item" data-id="xmascard" hidden>
         <a class="cur-card" href="https://xmascard.example.com/" style="--h:123;--h2:149">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Felicita las fiestas</span></span>
@@ -746,7 +792,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="finger">
+      <li class="cur-item" data-id="finger" hidden>
         <a class="cur-card" href="https://finger.example.com/" style="--h:267;--h2:249">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Un móvil, los dedos de todos</span></span>
@@ -794,45 +840,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingo" hidden>
-        <a class="cur-card" href="https://bingo.example.com/" style="--h:325;--h2:307">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Tus propósitos</span></span>
-            <h3 class="cur-headline">Haz tu bingo de propósitos</h3>
-            <span class="cur-giant" aria-hidden="true">🎯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Un objetivo por casilla y un sello cuando lo cumplas.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Bingo de propósitos</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bracket" hidden>
-        <a class="cur-card" href="https://bracket.example.com/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¿Quién se lleva la copa?</span></span>
-            <h3 class="cur-headline">Crea tu cuadro de torneo</h3>
-            <span class="cur-giant" aria-hidden="true">🏆</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Pon nombres, sorteo justo y toca al ganador hasta la final.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Cuadro de torneo</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">73 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">75 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -854,6 +868,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="cps" data-cat="game">
+        <a class="tile-link" href="https://cps.example.com/" title="Haz clic lo más rápido que puedas durante 1, 5 o 10 segundos y descubre tus clics por segundo (CPS) y tu nivel." style="--h:118;--h2:144">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Test de clics</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="enneagram" data-cat="test">
+        <a class="tile-link" href="https://enneagram.example.com/" title="12 preguntas cotidianas, 2 minutos. ¿Qué te mueve de verdad? Descubre tu tipo de eneagrama entre nueve, con fortalezas y consejos, por diversión." style="--h:84;--h2:66">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Test de eneagrama</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="wrapped" data-cat="create">
         <a class="tile-link" href="https://wrapped.example.com/" title="Escribe tu palabra del año, tu mejor momento, canción, comida, lugar, a quién agradecer y tu meta para el próximo año, elige un tema y obtén tu tarjeta de resumen del año." style="--h:27;--h2:9">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUEVO</span></span>
@@ -912,14 +940,14 @@
       </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/" title="Escribe tus propósitos en un bingo de 3×3, 4×4 o 5×5, elige colores y guárdalo como imagen. Sella cada meta cumplida y cuenta tus líneas." style="--h:325;--h2:307">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span></span>
           <span class="tile-name">Bingo de propósitos</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bracket" data-cat="vote">
         <a class="tile-link" href="https://bracket.example.com/" title="Escribe de 2 a 64 nombres u opciones y obtén un cuadro de torneo sorteado de forma justa. Elige ganadores duelo a duelo o solo haz el sorteo." style="--h:210;--h2:192">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span></span>
           <span class="tile-name">Cuadro de torneo</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

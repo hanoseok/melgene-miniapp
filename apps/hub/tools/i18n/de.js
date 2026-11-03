@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'cps',
+        kicker: "Finger aufwärmen",
+        headline: "Wie viele Klicks pro Sekunde?",
+        blurb: "Tipp 1, 5 oder 10 Sekunden lang so schnell du kannst aufs Feld.",
+      },
+      {
+        id: 'enneagram',
+        kicker: "Neun Blicke auf die Welt",
+        headline: "Welcher Enneagramm-Typ bist du?",
+        blurb: "Zwölf Alltagsfragen zeigen, was dich wirklich antreibt.",
+      },
+      {
         id: 'wrapped',
         kicker: "Dein Jahr auf einer Karte",
         headline: "Mein Jahresrückblick",

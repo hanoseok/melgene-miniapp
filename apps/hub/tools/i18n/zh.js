@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'cps',
+        kicker: "活动一下手指",
+        headline: "你一秒能点几下？",
+        blurb: "1、5或10秒内疯狂连点大方框",
+      },
+      {
+        id: 'enneagram',
+        kicker: "看世界的九种方式",
+        headline: "你是九型人格的哪一型？",
+        blurb: "12道日常小题，找到真正驱动你的东西。",
+      },
+      {
         id: 'wrapped',
         kicker: "一张卡片回顾今年",
         headline: "我的年度总结卡片",

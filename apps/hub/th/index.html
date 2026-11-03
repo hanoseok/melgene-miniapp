@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 73,
+  "numberOfItems": 75,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -591,6 +591,20 @@
       "url": "https://ballot.example.com/th/",
       "name": "โหวตลับ",
       "description": "ส่งมือถือเครื่องเดียววนกันโหวตแบบไม่ระบุชื่อ ทั้งมอบรางวัลงานเลี้ยงปีใหม่ เลือกร้าน หรือเรื่องในห้อง ไม่มีใครรู้ว่าใครเลือกอะไร แล้วลุ้นประกาศผลพร้อมกัน"
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "url": "https://cps.example.com/th/",
+      "name": "ทดสอบความเร็วคลิก",
+      "description": "คลิกให้เร็วที่สุดใน 1, 5 หรือ 10 วินาที แล้วดูว่าคุณคลิกได้กี่ครั้งต่อวินาที (CPS) พร้อมระดับของคุณ"
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "url": "https://enneagram.example.com/th/",
+      "name": "แบบทดสอบนพลักษณ์",
+      "description": "คำถามชีวิตประจำวัน 12 ข้อ ใช้เวลา 2 นาที อะไรคือแรงขับเคลื่อนตัวจริงของคุณ ค้นหาลักษณ์ของคุณจาก 9 แบบ ทำเล่นสนุก ๆ"
     }
   ]
 }
@@ -666,6 +680,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="cps">
+        <a class="cur-card" href="https://cps.example.com/th/" style="--h:118;--h2:144">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">วอร์มนิ้วให้พร้อม</span></span>
+            <h3 class="cur-headline">1 วินาทีคุณคลิกได้กี่ครั้ง?</h3>
+            <span class="cur-giant" aria-hidden="true">🖱️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">รัวแตะกล่องให้เร็วที่สุดใน 1, 5 หรือ 10 วินาที</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ทดสอบความเร็วคลิก</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="enneagram">
+        <a class="cur-card" href="https://enneagram.example.com/th/" style="--h:84;--h2:66">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เก้ามุมมองต่อโลก</span></span>
+            <h3 class="cur-headline">คุณเป็นนพลักษณ์แบบไหน?</h3>
+            <span class="cur-giant" aria-hidden="true">🔷</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">คำถามชีวิตประจำวัน 12 ข้อ เผยแรงขับเคลื่อนตัวจริงของคุณ</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">แบบทดสอบนพลักษณ์</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="wrapped">
         <a class="cur-card" href="https://wrapped.example.com/th/" style="--h:27;--h2:9">
           <span class="cur-art">
@@ -730,7 +776,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmascard">
+      <li class="cur-item" data-id="xmascard" hidden>
         <a class="cur-card" href="https://xmascard.example.com/th/" style="--h:123;--h2:149">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ส่งความสุขปลายปี</span></span>
@@ -746,7 +792,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="finger">
+      <li class="cur-item" data-id="finger" hidden>
         <a class="cur-card" href="https://finger.example.com/th/" style="--h:267;--h2:249">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">มือถือเครื่องเดียว นิ้วทุกคน</span></span>
@@ -794,45 +840,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingo" hidden>
-        <a class="cur-card" href="https://bingo.example.com/th/" style="--h:325;--h2:307">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">เป้าหมายปีใหม่</span></span>
-            <h3 class="cur-headline">ทำบิงโกเป้าหมายของคุณ</h3>
-            <span class="cur-giant" aria-hidden="true">🎯</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">เขียนเป้าหมายช่องละอย่าง ทำได้แล้วก็ปั๊มตรา</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">บิงโกเป้าหมายปีใหม่</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bracket" hidden>
-        <a class="cur-card" href="https://bracket.example.com/th/" style="--h:210;--h2:192">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ใครจะได้แชมป์?</span></span>
-            <h3 class="cur-headline">สร้างสายการแข่งขันเอง</h3>
-            <span class="cur-giant" aria-hidden="true">🏆</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">ใส่ชื่อ สุ่มสายอย่างยุติธรรม แตะผู้ชนะจนถึงรอบชิง</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">สร้างสายการแข่งขัน</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">73 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">75 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -854,6 +868,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="cps" data-cat="game">
+        <a class="tile-link" href="https://cps.example.com/th/" title="คลิกให้เร็วที่สุดใน 1, 5 หรือ 10 วินาที แล้วดูว่าคุณคลิกได้กี่ครั้งต่อวินาที (CPS) พร้อมระดับของคุณ" style="--h:118;--h2:144">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ทดสอบความเร็วคลิก</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="enneagram" data-cat="test">
+        <a class="tile-link" href="https://enneagram.example.com/th/" title="คำถามชีวิตประจำวัน 12 ข้อ ใช้เวลา 2 นาที อะไรคือแรงขับเคลื่อนตัวจริงของคุณ ค้นหาลักษณ์ของคุณจาก 9 แบบ ทำเล่นสนุก ๆ" style="--h:84;--h2:66">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แบบทดสอบนพลักษณ์</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="wrapped" data-cat="create">
         <a class="tile-link" href="https://wrapped.example.com/th/" title="เขียนคำประจำปี ช่วงเวลาที่ดีที่สุด เพลง อาหาร สถานที่ คนที่อยากขอบคุณ และเป้าหมายปีหน้า เลือกธีม แล้วได้การ์ดสรุปปีของคุณ บันทึกเป็นรูปหรือแชร์ลิงก์ได้" style="--h:27;--h2:9">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
@@ -912,14 +940,14 @@
       </li>
       <li class="tile" data-id="bingo" data-cat="create">
         <a class="tile-link" href="https://bingo.example.com/th/" title="เขียนเป้าหมายปีใหม่ลงตารางบิงโก 3×3, 4×4 หรือ 5×5 เลือกสี แล้วเซฟเป็นรูป ทำสำเร็จข้อไหนก็กดประทับตรา แล้วนับเส้นบิงโก" style="--h:325;--h2:307">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span></span>
           <span class="tile-name">บิงโกเป้าหมายปีใหม่</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="bracket" data-cat="vote">
         <a class="tile-link" href="https://bracket.example.com/th/" title="ใส่ชื่อหรือตัวเลือก 2–64 รายการ แล้วสุ่มสายการแข่งขันอย่างยุติธรรม เลือกผู้ชนะทีละคู่ หรือจับสายไว้ใช้แข่งจริงก็ได้" style="--h:210;--h2:192">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span></span>
           <span class="tile-name">สร้างสายการแข่งขัน</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

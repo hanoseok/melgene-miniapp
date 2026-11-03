@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'cps',
+        kicker: "Aqueça os dedos",
+        headline: "Quantos cliques por segundo?",
+        blurb: "Toque no quadro o mais rápido que puder por 1, 5 ou 10 segundos.",
+      },
+      {
+        id: 'enneagram',
+        kicker: "Nove jeitos de ver o mundo",
+        headline: "Qual é o seu tipo de eneagrama?",
+        blurb: "Doze perguntas do dia a dia revelam o que realmente te move.",
+      },
+      {
         id: 'wrapped',
         kicker: "Seu ano em um cartão",
         headline: "Meu resumo do ano",
