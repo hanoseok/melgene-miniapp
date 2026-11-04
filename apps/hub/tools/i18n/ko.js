@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'xmastree',
+        kicker: "반짝반짝 연말 준비",
+        headline: "나만의 크리스마스 트리",
+        blurb: "장식을 콕콕 달고 눈을 내려 이미지로 저장해요.",
+      },
+      {
+        id: 'truth',
+        kicker: "송년회 분위기 메이커",
+        headline: "진실 혹은 도전",
+        blurb: "순서대로 카드를 뽑아 진실을 말하거나 미션에 도전!",
+      },
+      {
         id: 'cps',
         kicker: "손가락 풀고 시작!",
         headline: "1초에 몇 번 클릭할 수 있을까?",

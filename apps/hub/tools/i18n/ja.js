@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'xmastree',
+        kicker: "キラキラ年末準備",
+        headline: "自分だけのクリスマスツリー",
+        blurb: "オーナメントを飾って雪を降らせ、画像で保存。",
+      },
+      {
+        id: 'truth',
+        kicker: "盛り上げ役はこれ",
+        headline: "真実か挑戦か",
+        blurb: "順番にカードを引いて、本音を話すかお題に挑戦!",
+      },
+      {
         id: 'cps',
         kicker: "指の準備はいい？",
         headline: "1秒に何回クリックできる？",

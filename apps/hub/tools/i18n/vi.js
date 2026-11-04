@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'xmastree',
+        kicker: "Đón Giáng sinh",
+        headline: "Trang trí cây thông Noel",
+        blurb: "Gắn đồ trang trí, cho tuyết rơi rồi lưu thành ảnh.",
+      },
+      {
+        id: 'truth',
+        kicker: "Khuấy động tiệc",
+        headline: "Sự thật hay thử thách",
+        blurb: "Lần lượt rút thẻ: nói thật hay nhận thử thách!",
+      },
+      {
         id: 'cps',
         kicker: "Khởi động ngón tay",
         headline: "Mỗi giây bạn click mấy lần?",

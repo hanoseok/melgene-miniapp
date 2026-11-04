@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 75,
+  "numberOfItems": 77,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -604,6 +604,20 @@
       "url": "https://enneagram.example.com/ko/",
       "name": "에니어그램 테스트",
       "description": "일상 질문 12개, 2분이면 끝. 나를 움직이는 진짜 동기는 뭘까? 9가지 중 내 에니어그램 유형과 성장 팁을 재미로 알아봐요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "url": "https://xmastree.example.com/ko/",
+      "name": "크리스마스 트리 꾸미기",
+      "description": "트리 모양과 배경을 고르고 공·별·지팡이 사탕·선물을 톡톡 달아 크리스마스 트리를 꾸며 보세요. 반짝이는 전구와 눈, 이미지 저장과 링크 공유까지."
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "url": "https://truth.example.com/ko/",
+      "name": "진실 게임",
+      "description": "송년회·모임용 진실 혹은 도전. 이름을 넣고 팩을 고르면 공평한 순서로 깔끔한 질문과 도전 카드를 한 장씩 뒤집어요."
     }
   ]
 }
@@ -679,6 +693,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmastree">
+        <a class="cur-card" href="https://xmastree.example.com/ko/" style="--h:353;--h2:335">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">반짝반짝 연말 준비</span></span>
+            <h3 class="cur-headline">나만의 크리스마스 트리</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">장식을 콕콕 달고 눈을 내려 이미지로 저장해요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">크리스마스 트리 꾸미기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="truth">
+        <a class="cur-card" href="https://truth.example.com/ko/" style="--h:315;--h2:297">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 분위기 메이커</span></span>
+            <h3 class="cur-headline">진실 혹은 도전</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">순서대로 카드를 뽑아 진실을 말하거나 미션에 도전!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">진실 게임</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="cps">
         <a class="cur-card" href="https://cps.example.com/ko/" style="--h:118;--h2:144">
           <span class="cur-art">
@@ -743,7 +789,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer">
+      <li class="cur-item" data-id="timer" hidden>
         <a class="cur-card" href="https://timer.example.com/ko/" style="--h:115;--h2:141">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">10초, 감으로 맞혀 봐</span></span>
@@ -759,7 +805,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="attach">
+      <li class="cur-item" data-id="attach" hidden>
         <a class="cur-card" href="https://attach.example.com/ko/" style="--h:163;--h2:145">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">나는 어떻게 가까워질까?</span></span>
@@ -807,45 +853,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hue" hidden>
-        <a class="cur-card" href="https://hue.example.com/ko/" style="--h:172;--h2:154">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">절대색감 도전</span></span>
-            <h3 class="cur-headline">다른 색 하나를 찾아라</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">다른 색 칸을 누르세요. 갈수록 칸은 늘고 차이는 줄어요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">다른 색 찾기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="job" hidden>
-        <a class="cur-card" href="https://job.example.com/ko/" style="--h:333;--h2:315">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">나는 어떤 일이 맞을까</span></span>
-            <h3 class="cur-headline">나에게 맞는 직업 테스트</h3>
-            <span class="cur-giant" aria-hidden="true">💼</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">몇 가지 고르면 내 일하는 스타일과 어울리는 직업이 나와요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">직업 적성 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">75개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">77개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -867,6 +881,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmastree" data-cat="create">
+        <a class="tile-link" href="https://xmastree.example.com/ko/" title="트리 모양과 배경을 고르고 공·별·지팡이 사탕·선물을 톡톡 달아 크리스마스 트리를 꾸며 보세요. 반짝이는 전구와 눈, 이미지 저장과 링크 공유까지." style="--h:353;--h2:335">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">크리스마스 트리 꾸미기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="truth" data-cat="vote">
+        <a class="tile-link" href="https://truth.example.com/ko/" title="송년회·모임용 진실 혹은 도전. 이름을 넣고 팩을 고르면 공평한 순서로 깔끔한 질문과 도전 카드를 한 장씩 뒤집어요." style="--h:315;--h2:297">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">진실 게임</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/ko/" title="1초·5초·10초 동안 최대한 빨리 클릭하세요. 초당 클릭 수(CPS)와 내 등급, 다른 사람과의 비교까지." style="--h:118;--h2:144">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
@@ -925,14 +953,14 @@
       </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/ko/" title="똑같아 보이는 색 타일 중 딱 하나만 살짝 달라요. 60초 안에 몇 단계까지 찾을 수 있을까요? 절대색감 테스트 게임." style="--h:172;--h2:154">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span>
           <span class="tile-name">다른 색 찾기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="job" data-cat="test">
         <a class="tile-link" href="https://job.example.com/ko/" title="가벼운 질문 11개, 2분이면 끝. 나는 어떤 방식으로 일할 때 빛날까? 내 일 스타일과 어울리는 직업을 재미로 알아봐요." style="--h:333;--h2:315">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span></span>
           <span class="tile-name">직업 적성 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

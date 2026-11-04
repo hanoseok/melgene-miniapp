@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 75,
+  "numberOfItems": 77,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -605,6 +605,20 @@
       "url": "https://enneagram.example.com/",
       "name": "九型人格测试",
       "description": "12道日常小题，2分钟。真正驱动你的是什么？在九种类型中找到你的九型人格和成长建议，仅供娱乐。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "url": "https://xmastree.example.com/",
+      "name": "装饰圣诞树",
+      "description": "选好树形和背景，点一点挂上彩球、星星、拐杖糖和礼物，再打开闪烁的彩灯和雪花，存成图片或发链接分享。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "url": "https://truth.example.com/",
+      "name": "真心话大冒险",
+      "description": "适合聚会和年会的真心话大冒险。输入名字、选择卡包，按公平顺序一张张翻开干净有趣的卡片。"
     }
   ]
 }
@@ -680,6 +694,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmastree">
+        <a class="cur-card" href="https://xmastree.example.com/" style="--h:353;--h2:335">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">提前过圣诞</span></span>
+            <h3 class="cur-headline">装饰我的圣诞树</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">点一点挂上装饰，下场雪，再存成图片。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">装饰圣诞树</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="truth">
+        <a class="cur-card" href="https://truth.example.com/" style="--h:315;--h2:297">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">聚会暖场神器</span></span>
+            <h3 class="cur-headline">真心话大冒险</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">轮流抽卡：说真心话，还是接受大冒险？</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">真心话大冒险</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="cps">
         <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
           <span class="cur-art">
@@ -744,7 +790,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer">
+      <li class="cur-item" data-id="timer" hidden>
         <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">在心里默数</span></span>
@@ -760,7 +806,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="attach">
+      <li class="cur-item" data-id="attach" hidden>
         <a class="cur-card" href="https://attach.example.com/" style="--h:163;--h2:145">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">你和人怎么亲近？</span></span>
@@ -808,45 +854,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hue" hidden>
-        <a class="cur-card" href="https://hue.example.com/" style="--h:172;--h2:154">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">色感大挑战</span></span>
-            <h3 class="cur-headline">找出那个不一样的颜色</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">点出颜色不同的格子，越往后格子越多、差别越小。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">找不同颜色</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="job" hidden>
-        <a class="cur-card" href="https://job.example.com/" style="--h:333;--h2:315">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">我适合做什么？</span></span>
-            <h3 class="cur-headline">测测你的职业性格</h3>
-            <span class="cur-giant" aria-hidden="true">💼</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">选几道题，看看你的工作风格和适合尝试的职业。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">职业性格测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">75个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">77个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -868,6 +882,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmastree" data-cat="create">
+        <a class="tile-link" href="https://xmastree.example.com/" title="选好树形和背景，点一点挂上彩球、星星、拐杖糖和礼物，再打开闪烁的彩灯和雪花，存成图片或发链接分享。" style="--h:353;--h2:335">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">装饰圣诞树</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="truth" data-cat="vote">
+        <a class="tile-link" href="https://truth.example.com/" title="适合聚会和年会的真心话大冒险。输入名字、选择卡包，按公平顺序一张张翻开干净有趣的卡片。" style="--h:315;--h2:297">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">真心话大冒险</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/" title="在1秒、5秒或10秒内尽情狂点，测出你的每秒点击数（CPS）和手速等级。" style="--h:118;--h2:144">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
@@ -926,14 +954,14 @@
       </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/" title="一模一样的色块里，只有一块颜色稍有不同。60 秒内你能找到第几关？" style="--h:172;--h2:154">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span>
           <span class="tile-name">找不同颜色</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="job" data-cat="test">
         <a class="tile-link" href="https://job.example.com/" title="11道轻松小题，2分钟。你在什么样的工作方式里最闪光？看看适合你的职业，仅供娱乐。" style="--h:333;--h2:315">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span></span>
           <span class="tile-name">职业性格测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

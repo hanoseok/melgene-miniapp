@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'xmastree',
+        kicker: "提前过圣诞",
+        headline: "装饰我的圣诞树",
+        blurb: "点一点挂上装饰，下场雪，再存成图片。",
+      },
+      {
+        id: 'truth',
+        kicker: "聚会暖场神器",
+        headline: "真心话大冒险",
+        blurb: "轮流抽卡：说真心话，还是接受大冒险？",
+      },
+      {
         id: 'cps',
         kicker: "活动一下手指",
         headline: "你一秒能点几下？",

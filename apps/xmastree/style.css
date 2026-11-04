@@ -1,0 +1,242 @@
+/* apps/xmastree/style.css — 크리스마스 트리 꾸미기: 깊은 전나무 초록 + 산타 빨강 + 금빛.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display·--font-script 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 트리 그림은 canvas(xmastree.js, 전구 반짝임·눈은 prefers-reduced-motion 이면 멈춤). 시작 화면 이모지(.xt-hero)도 움직임 줄이기면 멈춘다.
+ */
+:root {
+  --pine-0: #04140f;
+  --pine-1: #0b2a22;
+  --pine-2: #12483a;
+  --red: #e23d4f;
+  --red-2: #b81d33;
+  --gold: #ffd36e;
+  --gold-2: #f5b942;
+  --ink: #f4fbf7;
+  --ink-dim: rgba(244, 251, 247, 0.8);
+  --ink-faint: rgba(244, 251, 247, 0.5);
+  --on-gold: #3a1a00;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --font-script: var(--font-display);
+  --script-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--red);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: rgba(244, 251, 247, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 211, 110, 0.45);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(244, 251, 247, 0.2);
+  --mg-heart-bg: rgba(226, 61, 79, 0.12);
+  --mg-heart-border: rgba(226, 61, 79, 0.45);
+  --mg-heart-fg: #ff9aa6;
+  --mg-heart-on: #ff5a6c;
+  --mg-share-bg: rgba(244, 251, 247, 0.06);
+  --mg-share-border: rgba(244, 251, 247, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(244, 251, 247, 0.05);
+  --mg-faq-border: rgba(255, 211, 110, 0.28);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--gold), var(--gold-2));
+  --mg-end-retry-fg: var(--on-gold);
+  --toast-bg: rgba(18, 72, 58, 0.96);
+}
+
+html { background: var(--pine-0); }
+body.xt-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--pine-2), var(--pine-1) 45%, var(--pine-0) 80%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.xt-h1, .xt-kicker, .xt-h1-main, .xt-badge, .xt-btn, .xt-edit-title, .xt-chip, .xt-flag, .xt-tool, .xt-idea,
+.xt-eyebrow, .xt-label, .xt-doc h1 {
+  font-family: var(--font-display);
+}
+.xt-h1-main em { font-family: var(--font-script); }
+.xt-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.xt-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.xt-screen { padding-top: 12px; }
+
+.xt-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px;
+  padding: 12px 18px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.xt-btn-primary {
+  background: linear-gradient(135deg, #ff6b78, var(--red) 55%, var(--red-2));
+  color: #fff;
+  box-shadow: 0 10px 28px -8px rgba(226, 61, 79, 0.7), inset 0 -4px 0 rgba(90, 0, 15, 0.25);
+}
+.xt-btn-soft {
+  background: rgba(244, 251, 247, 0.08);
+  color: var(--ink);
+  border: 1.5px solid rgba(255, 211, 110, 0.45);
+}
+.xt-btn-sm { min-height: 50px; font-size: 16px; padding: 10px 12px; }
+.xt-btn:active { transform: scale(0.97); }
+.xt-btn:disabled { opacity: 0.6; cursor: progress; }
+.xt-btn:focus-visible, .xt-chip:focus-visible, .xt-kind:focus-visible, .xt-flag:focus-visible, .xt-tool:focus-visible, .xt-input:focus-visible, .xt-idea:focus-visible {
+  outline: 3px solid var(--gold); outline-offset: 3px;
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.xt-start { text-align: center; padding-top: 18px; }
+.xt-badge {
+  display: inline-block; margin: 0 0 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(226, 61, 79, 0.18); border: 1px solid rgba(255, 120, 135, 0.45);
+  color: #ffd9de; font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.xt-hero {
+  position: relative; width: 240px; height: 210px; margin: 0 auto;
+  border-radius: 36px;
+  background: radial-gradient(circle at 50% 55%, rgba(255, 211, 110, 0.3), transparent 68%);
+}
+.xt-hero span { position: absolute; line-height: 1; }
+.xt-hero-tree { left: 50%; top: 54%; font-size: 130px; transform: translate(-50%, -50%); animation: xt-bob 3.6s ease-in-out infinite; }
+.xt-hero-star { left: 50%; top: 2px; margin-left: -20px; font-size: 40px; animation: xt-twinkle 2.2s ease-in-out infinite; }
+.xt-hero-ball { left: 22px; top: 70px; font-size: 30px; animation: xt-bob 3s ease-in-out infinite -1s; }
+.xt-hero-gift { right: 8px; bottom: 6px; font-size: 48px; animation: xt-bob 3.2s ease-in-out infinite -1.6s; }
+.xt-hero-snow { right: 22px; top: 22px; font-size: 34px; animation: xt-twinkle 2.8s ease-in-out infinite -0.8s; }
+.xt-hero-bell { left: 12px; bottom: 14px; font-size: 40px; animation: xt-bob 2.8s ease-in-out infinite -2s; }
+@keyframes xt-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@keyframes xt-twinkle { 0%, 100% { opacity: 1; scale: 1; } 50% { opacity: 0.5; scale: 0.82; } }
+.xt-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.xt-kicker { display: block; margin-bottom: 6px; font-size: 15px; letter-spacing: 0.03em; color: var(--gold); }
+.xt-h1-main { display: block; font-size: 40px; color: var(--ink); text-shadow: 0 4px 0 rgba(4, 20, 15, 0.6); }
+.xt-h1-main em { font-style: normal; font-weight: var(--script-weight); color: var(--gold); text-shadow: 0 0 22px rgba(255, 211, 110, 0.5), 0 4px 0 rgba(4, 20, 15, 0.6); }
+.xt-hook { margin: 0 auto 20px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+
+/* ---------------- 꾸미기 ---------------- */
+.xt-edit-title { margin: 0 0 10px; font-size: 22px; line-height: 1.3; text-align: center; font-weight: var(--display-weight); color: var(--gold); }
+.xt-stage { width: 100%; max-width: 360px; margin: 0 auto 6px; }
+.xt-canvas {
+  display: block; width: 100%; height: auto; aspect-ratio: 1080 / 1350;
+  border-radius: 18px; background: var(--pine-1);
+  box-shadow: 0 22px 44px -22px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 211, 110, 0.3);
+}
+.xt-tree-canvas { touch-action: none; cursor: crosshair; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+.xt-hint { margin: 0 0 10px; text-align: center; font-size: 13.5px; line-height: 1.4; color: var(--ink-faint); }
+.xt-label { display: block; margin: 0 0 6px 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--gold); }
+.xt-orn-count { margin-left: 6px; font-size: 13px; font-weight: 700; color: var(--ink-faint); font-family: var(--font-sans); }
+.xt-palette {
+  display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; margin: 0 0 10px;
+}
+.xt-kind {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  aspect-ratio: 1; min-height: 40px; padding: 2px;
+  border-radius: 14px; border: 2px solid rgba(244, 251, 247, 0.14);
+  background: rgba(4, 20, 15, 0.5); cursor: pointer;
+}
+.xt-kind-ic { width: 100%; height: 100%; max-width: 44px; max-height: 44px; display: block; }
+.xt-erase span { font-size: 24px; line-height: 1; }
+.xt-kind.is-on, .xt-chip.is-on, .xt-flag.is-on { border-color: var(--gold); background: rgba(255, 211, 110, 0.16); color: var(--ink); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+.xt-tools { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0 0 4px; }
+.xt-tool {
+  min-height: 44px; padding: 6px 6px;
+  border-radius: 14px; border: 1.5px solid rgba(255, 211, 110, 0.45);
+  background: rgba(244, 251, 247, 0.07); color: var(--ink);
+  font-size: 14px; font-weight: var(--display-weight); line-height: 1.2; cursor: pointer;
+}
+.xt-tool:disabled { opacity: 0.4; cursor: default; }
+.xt-status { min-height: 1.4em; margin: 4px 0 8px; text-align: center; font-size: 13.5px; line-height: 1.4; color: #ffd9de; }
+.xt-chips {
+  display: flex; gap: 8px; margin: 0 -16px 12px; padding: 2px 16px 6px;
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.xt-chips::-webkit-scrollbar { display: none; }
+.xt-chip {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  min-width: 72px; min-height: 62px; padding: 7px 12px;
+  border-radius: 18px; border: 2px solid rgba(244, 251, 247, 0.14);
+  background: rgba(4, 20, 15, 0.5); color: var(--ink-dim);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.xt-chip-emoji { font-size: 26px; line-height: 1.1; }
+.xt-flags { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.xt-flag {
+  flex: 1 1 auto; min-height: 44px; padding: 8px 12px;
+  border-radius: 14px; border: 2px solid rgba(244, 251, 247, 0.14);
+  background: rgba(4, 20, 15, 0.5); color: var(--ink-dim);
+  font-size: 14.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.xt-field { display: block; margin-bottom: 12px; min-width: 0; }
+.xt-input {
+  box-sizing: border-box; width: 100%; min-width: 0; min-height: 52px; padding: 12px 10px 12px 14px;
+  border-radius: 16px; border: 1.5px solid rgba(255, 211, 110, 0.38);
+  background: rgba(4, 20, 15, 0.55); color: var(--ink);
+  font: inherit; font-size: 17px; color-scheme: dark;
+}
+.xt-input::placeholder { color: var(--ink-faint); }
+.xt-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+.xt-msg-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; }
+.xt-idea {
+  flex: 0 0 auto; margin-bottom: 4px; padding: 5px 12px; min-height: 34px;
+  border-radius: 999px; border: 1.5px solid rgba(255, 211, 110, 0.5);
+  background: rgba(255, 211, 110, 0.1); color: var(--gold);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.xt-count { margin: 4px 6px 0 0; text-align: right; font-size: 13px; color: var(--ink-faint); }
+.xt-count.is-full { color: #ff9aa6; }
+.xt-edit #done-btn { margin-top: 6px; }
+.xt-edit .mg-ad { margin-top: 20px; }
+
+/* ---------------- 끝 화면 ---------------- */
+.xt-card {
+  margin-top: 6px; padding: 18px 16px 16px;
+  border-radius: 28px; text-align: center;
+  background: radial-gradient(120% 60% at 50% 0%, rgba(255, 211, 110, 0.18), transparent 70%), linear-gradient(180deg, rgba(18, 72, 58, 0.9), rgba(11, 42, 34, 0.95));
+  border: 1.5px solid rgba(255, 211, 110, 0.42);
+  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.8);
+}
+.xt-eyebrow { margin: 0 0 12px; font-size: 16px; font-weight: var(--display-weight); line-height: 1.35; color: var(--gold); overflow-wrap: anywhere; }
+.xt-end-canvas { max-width: 320px; margin: 0 auto 14px; }
+.xt-end-actions { display: grid; gap: 10px; }
+.xt-end .xt-status { color: var(--ink-dim); }
+.xt-end .xt-status.is-bad { color: #ff9aa6; }
+
+/* ---------------- 개인정보 ---------------- */
+.xt-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.xt-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.25; }
+.xt-doc h2 { font-size: 17px; color: var(--gold); margin: 22px 0 6px; }
+.xt-doc a { text-decoration: underline; }
+
+.site-footer { color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .xt-body { line-height: 1.75; }
+html:lang(th) :is(.xt-h1-main, .xt-edit-title, .xt-chip, .xt-flag, .xt-tool, .xt-btn, .xt-label, .xt-eyebrow, .xt-idea) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .xt-kicker { letter-spacing: 0; }
+html:lang(vi) .xt-h1-main { line-height: 1.35; }
+
+@media (max-width: 374px) {
+  .xt-h1-main { font-size: 34px; }
+  .xt-palette { gap: 4px; }
+  .xt-tool { font-size: 13px; }
+  .xt-flag { font-size: 13.5px; padding: 8px 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xt-hero span { animation: none !important; }
+  .xt-btn { transition: none; }
+}

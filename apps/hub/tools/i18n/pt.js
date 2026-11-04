@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'xmastree',
+        kicker: "Clima de Natal",
+        headline: "Monte sua árvore de Natal",
+        blurb: "Pendure enfeites, faça nevar e salve como imagem.",
+      },
+      {
+        id: 'truth',
+        kicker: "Para animar a festa",
+        headline: "Verdade ou desafio",
+        blurb: "Cada um tira uma carta: verdade ou desafio!",
+      },
+      {
         id: 'cps',
         kicker: "Aqueça os dedos",
         headline: "Quantos cliques por segundo?",

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'xmastree',
+        kicker: "Esprit de Noël",
+        headline: "Décore ton sapin de Noël",
+        blurb: "Ajoute des boules, fais tomber la neige et enregistre l’image.",
+      },
+      {
+        id: 'truth',
+        kicker: "Ambiance de soirée",
+        headline: "Action ou vérité",
+        blurb: "Chacun son tour : dis la vérité ou relève le défi !",
+      },
+      {
         id: 'cps',
         kicker: "Échauffe tes doigts",
         headline: "Combien de clics par seconde ?",

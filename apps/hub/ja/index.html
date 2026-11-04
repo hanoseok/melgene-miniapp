@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 75,
+  "numberOfItems": 77,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -604,6 +604,20 @@
       "url": "https://enneagram.example.com/ja/",
       "name": "エニアグラム診断",
       "description": "日常の12問、約2分。あなたを動かす本当の動機は？9つの中からエニアグラムのタイプと成長のヒントを気軽にチェック。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "url": "https://xmastree.example.com/ja/",
+      "name": "クリスマスツリー飾り付け",
+      "description": "ツリーと背景を選んで、ボールや星、キャンディケイン、プレゼントをタップで飾り付け。きらめくライトと雪をつけて、画像保存やリンクでシェアできます。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "url": "https://truth.example.com/ja/",
+      "name": "真実か挑戦か",
+      "description": "忘年会やパーティーで遊べる真実か挑戦か。名前を入れてパックを選ぶと、公平な順番でカードが1枚ずつめくれます。"
     }
   ]
 }
@@ -679,6 +693,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="xmastree">
+        <a class="cur-card" href="https://xmastree.example.com/ja/" style="--h:353;--h2:335">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">キラキラ年末準備</span></span>
+            <h3 class="cur-headline">自分だけのクリスマスツリー</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">オーナメントを飾って雪を降らせ、画像で保存。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">クリスマスツリー飾り付け</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="truth">
+        <a class="cur-card" href="https://truth.example.com/ja/" style="--h:315;--h2:297">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">盛り上げ役はこれ</span></span>
+            <h3 class="cur-headline">真実か挑戦か</h3>
+            <span class="cur-giant" aria-hidden="true">🎲</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">順番にカードを引いて、本音を話すかお題に挑戦!</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">真実か挑戦か</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="cps">
         <a class="cur-card" href="https://cps.example.com/ja/" style="--h:118;--h2:144">
           <span class="cur-art">
@@ -743,7 +789,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer">
+      <li class="cur-item" data-id="timer" hidden>
         <a class="cur-card" href="https://timer.example.com/ja/" style="--h:115;--h2:141">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">頭の中でカウント</span></span>
@@ -759,7 +805,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="attach">
+      <li class="cur-item" data-id="attach" hidden>
         <a class="cur-card" href="https://attach.example.com/ja/" style="--h:163;--h2:145">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">人との距離感、どんな感じ？</span></span>
@@ -807,45 +853,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="hue" hidden>
-        <a class="cur-card" href="https://hue.example.com/ja/" style="--h:172;--h2:154">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">色彩感覚チャレンジ</span></span>
-            <h3 class="cur-headline">ひとつだけ違う色を探せ</h3>
-            <span class="cur-giant" aria-hidden="true">🎨</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">違う色のマスをタップ。進むほどマスが増えて差が小さく。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">色彩感覚テスト</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="job" hidden>
-        <a class="cur-card" href="https://job.example.com/ja/" style="--h:333;--h2:315">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">向いてる仕事は？</span></span>
-            <h3 class="cur-headline">あなたの適職診断</h3>
-            <span class="cur-giant" aria-hidden="true">💼</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">いくつか選ぶだけで、働き方のタイプと合う仕事がわかります。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">適職診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">75件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">77件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -867,6 +881,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="xmastree" data-cat="create">
+        <a class="tile-link" href="https://xmastree.example.com/ja/" title="ツリーと背景を選んで、ボールや星、キャンディケイン、プレゼントをタップで飾り付け。きらめくライトと雪をつけて、画像保存やリンクでシェアできます。" style="--h:353;--h2:335">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">クリスマスツリー飾り付け</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="truth" data-cat="vote">
+        <a class="tile-link" href="https://truth.example.com/ja/" title="忘年会やパーティーで遊べる真実か挑戦か。名前を入れてパックを選ぶと、公平な順番でカードが1枚ずつめくれます。" style="--h:315;--h2:297">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">真実か挑戦か</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/ja/" title="1秒・5秒・10秒でどれだけ速くクリックできる？1秒あたりのクリック数（CPS）とランクがすぐわかります。" style="--h:118;--h2:144">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
@@ -925,14 +953,14 @@
       </li>
       <li class="tile" data-id="hue" data-cat="game">
         <a class="tile-link" href="https://hue.example.com/ja/" title="同じに見えるタイルの中に、ほんの少しだけ色が違う1枚。60秒で何レベルまで見つけられる？" style="--h:172;--h2:154">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎨</span></span></span>
           <span class="tile-name">色彩感覚テスト</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="job" data-cat="test">
         <a class="tile-link" href="https://job.example.com/ja/" title="かんたんな11問、約2分。あなたが輝く働き方と、向いていそうな仕事は？気軽に楽しむ適職診断です。" style="--h:333;--h2:315">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">💼</span></span></span>
           <span class="tile-name">適職診断</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
