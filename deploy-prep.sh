@@ -183,15 +183,21 @@ if [[ "$PRIMARY_HOST" == "root" && -n "${CUSTOM_DOMAIN:-}" ]]; then
   #    Cloudflare Pages advanced mode(_worker.js) — 정적 파일 없이 모든 요청을 넘긴다.
   R="$DIST_DIR/miniapp"
   mkdir -p "$R"
+  #    단, 포털 첫 화면(아래 2)에서 복사하는 index·언어 사본·shared 등)은 이 서브도메인이 직접 서빙한다 —
+  #    루트 도메인 첫 화면은 ROOT_REDIRECT 로 다른 사이트에 가므로, miniapp.melgene.com 으로 들어온 사람은
+  #    거기로 가지 않고 미니앱 포털을 본다(사용자 지시 2026-11-06). 파일이 없는 경로(/<앱>/ 등)만 301.
   cat > "$R/_worker.js" <<JS
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const u = new URL(request.url);
+    if (request.method === 'GET' || request.method === 'HEAD') {
+      const r = await env.ASSETS.fetch(request);
+      if (r.status !== 404) return r;
+    }
     return Response.redirect('$HUB_URL' + u.pathname + u.search, 301);
   },
 };
 JS
-  redirect_page "$HUB_URL" 1 > "$R/index.html"
   echo "miniapp (cloudflare-redirect)" >> "$DIST_DIR/UNITS"
   echo "==> $OLD_MINIAPP_URL/* -> $HUB_URL/* (301)"
   M="$DIST_DIR/hub"
@@ -252,6 +258,19 @@ if [[ -n "${ROOT_REDIRECT:-}" && "$MAIN_UNIT" == hub ]]; then
     echo "/index.html $ROOT_REDIRECT 301"
   } > "$M/_redirects"
   echo "==> $PORTAL_URL/ -> $ROOT_REDIRECT (301, 첫 화면만)"
+fi
+# 루트 첫 화면을 다른 사이트로 보낼 때(root 모드) 미니앱 서브도메인에 포털 첫 화면만 복사 — 앱 폴더·검색용 파일은 빼고
+if [[ "$MAIN_UNIT" == hub ]]; then
+  R="$DIST_DIR/miniapp"
+  for f in "$M"/* "$M"/_l; do
+    b="$(basename "$f")"
+    [[ -d "$APPS_DIR/$b" && "$b" != hub ]] && continue          # /<앱>/ → 301 로 루트 도메인
+    case "$b" in _redirects|CNAME|404.html|robots.txt|sitemap*.xml|google*.html|*.txt) continue ;; esac
+    cp -R "$f" "$R/"
+  done
+  # 404.html 이 없으면 Pages 가 없는 경로에 index.html 을 200 으로 준다(SPA 대체) → worker 가 301 을 못 함
+  notfound_page "$HUB_URL" > "$R/404.html"
+  echo "==> $OLD_MINIAPP_URL/ = 포털 첫 화면 (그 밖 경로는 $HUB_URL 로 301)"
 fi
 [[ "$MAIN_UNIT" == miniapp ]] && echo "miniapp $REPO_miniapp" >> "$DIST_DIR/UNITS"
 [[ "$MAIN_UNIT" == hub ]] && echo "hub (cloudflare)" >> "$DIST_DIR/UNITS"
