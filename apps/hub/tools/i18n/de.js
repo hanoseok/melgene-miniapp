@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'aim',
+        kicker: "Aufwärmen fürs Zocken",
+        headline: "Wie schnell und genau zielst du?",
+        blurb: "Triff 30 Ziele oder so viele wie möglich in 30 Sekunden.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Ein festliches Quiz",
+        headline: "Welcher Weihnachtstyp bist du?",
+        blurb: "12 Fragen zu den Feiertagen – plus dein bestes Match.",
+      },
+      {
         id: 'xmastree',
         kicker: "Weihnachtsstimmung",
         headline: "Schmück deinen Weihnachtsbaum",

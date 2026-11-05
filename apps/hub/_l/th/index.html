@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "มินิแอปทั้งหมด",
   "inLanguage": "th",
-  "numberOfItems": 77,
+  "numberOfItems": 79,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -620,6 +620,20 @@
       "url": "https://truth.example.com/",
       "name": "จริงหรือกล้า",
       "description": "เกมจริงหรือกล้าแบบสุภาพสำหรับปาร์ตี้และงานเลี้ยงปีใหม่ ใส่ชื่อ เลือกชุดการ์ด แล้วเปิดทีละใบตามลำดับที่ยุติธรรม"
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "url": "https://aim.example.com/",
+      "name": "ฝึกเอม",
+      "description": "คลิกเป้าที่โผล่ขึ้นมาให้ไวที่สุด โหมดคลาสสิก 30 เป้า หรือจับเวลา 30 วินาที ดูเวลาเฉลี่ยและความแม่นยำ"
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "url": "https://xmastype.example.com/",
+      "name": "แบบทดสอบนิสัยคริสต์มาส",
+      "description": "คำถามช่วงเทศกาล 12 ข้อ ใช้เวลา 2 นาที คุณเหมือนสัญลักษณ์คริสต์มาสแบบไหน มาดูคาแรกเตอร์คริสต์มาสของคุณกับคู่ที่เข้ากันที่สุด ทำเล่นสนุก ๆ"
     }
   ]
 }
@@ -695,6 +709,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="aim">
+        <a class="cur-card" href="https://aim.example.com/" style="--h:223;--h2:205">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">วอร์มมือก่อนเล่นเกม</span></span>
+            <h3 class="cur-headline">เอมของคุณไวและแม่นแค่ไหน?</h3>
+            <span class="cur-giant" aria-hidden="true">🎯</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">คลิกเป้า 30 เป้า หรือแข่งกับเวลา 30 วินาที</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">ฝึกเอม</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="xmastype">
+        <a class="cur-card" href="https://xmastype.example.com/" style="--h:33;--h2:15">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">แบบทดสอบนิสัยช่วงเทศกาล</span></span>
+            <h3 class="cur-headline">คุณคือตัวละครคริสต์มาสแบบไหน</h3>
+            <span class="cur-giant" aria-hidden="true">🎄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">ตอบ 12 ข้อ รู้ตัวละครคริสต์มาสและคู่ที่เข้ากัน</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">แบบทดสอบนิสัยคริสต์มาส</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="xmastree">
         <a class="cur-card" href="https://xmastree.example.com/" style="--h:353;--h2:335">
           <span class="cur-art">
@@ -759,7 +805,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wrapped">
+      <li class="cur-item" data-id="wrapped" hidden>
         <a class="cur-card" href="https://wrapped.example.com/" style="--h:27;--h2:9">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">สรุปปีนี้ในการ์ดใบเดียว</span></span>
@@ -775,7 +821,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="ballot">
+      <li class="cur-item" data-id="ballot" hidden>
         <a class="cur-card" href="https://ballot.example.com/" style="--h:264;--h2:246">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">มือถือเครื่องเดียวก็โหวตได้</span></span>
@@ -823,45 +869,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmascard" hidden>
-        <a class="cur-card" href="https://xmascard.example.com/" style="--h:123;--h2:149">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ส่งความสุขปลายปี</span></span>
-            <h3 class="cur-headline">ทำการ์ดคริสต์มาสอบอุ่น ๆ</h3>
-            <span class="cur-giant" aria-hidden="true">🎄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">เลือกดีไซน์ เขียนข้อความ แล้วส่งการ์ดที่เปิดเหมือนซองจดหมาย</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">การ์ดคริสต์มาส</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="finger" hidden>
-        <a class="cur-card" href="https://finger.example.com/" style="--h:267;--h2:249">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">มือถือเครื่องเดียว นิ้วทุกคน</span></span>
-            <h3 class="cur-headline">ทุกคนวางนิ้ว ได้หนึ่งคน</h3>
-            <span class="cur-giant" aria-hidden="true">👆</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">วางนิ้วแล้วนิ่งไว้ ใครจ่าย ใครเริ่มก่อน รู้เลย</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">สุ่มนิ้ว</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">เล่นเลย</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="ดูแอปแนะนำที่ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="ดูแอปแนะนำที่ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="ดูแอปแนะนำที่ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="ดูแอปแนะนำที่ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="ดูแอปแนะนำที่ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="ดูแอปแนะนำที่ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">77 แอป</span></h2>
+      <h2 id="browse-h">มินิแอปทั้งหมด<span class="browse-count" id="hub-count" aria-live="polite">79 แอป</span></h2>
       <label class="sort">
         <span class="visually-hidden">เรียงตาม</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>มาใหม่</option><option value="popular">ยอดนิยม</option><option value="rating">คะแนนสูงสุด</option></select>
@@ -883,6 +897,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="aim" data-cat="game">
+        <a class="tile-link" href="https://aim.example.com/" title="คลิกเป้าที่โผล่ขึ้นมาให้ไวที่สุด โหมดคลาสสิก 30 เป้า หรือจับเวลา 30 วินาที ดูเวลาเฉลี่ยและความแม่นยำ" style="--h:223;--h2:205">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">ฝึกเอม</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="xmastype" data-cat="test">
+        <a class="tile-link" href="https://xmastype.example.com/" title="คำถามช่วงเทศกาล 12 ข้อ ใช้เวลา 2 นาที คุณเหมือนสัญลักษณ์คริสต์มาสแบบไหน มาดูคาแรกเตอร์คริสต์มาสของคุณกับคู่ที่เข้ากันที่สุด ทำเล่นสนุก ๆ" style="--h:33;--h2:15">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">แบบทดสอบนิสัยคริสต์มาส</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="xmastree" data-cat="create">
         <a class="tile-link" href="https://xmastree.example.com/" title="เลือกต้นไม้และฉากหลัง แตะเพื่อแขวนลูกบอล ดาว ไม้เท้าลูกกวาด และของขวัญ เปิดไฟกะพริบกับหิมะ แล้วบันทึกรูปหรือแชร์ลิงก์" style="--h:353;--h2:335">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
@@ -941,14 +969,14 @@
       </li>
       <li class="tile" data-id="xmascard" data-cat="create">
         <a class="tile-link" href="https://xmascard.example.com/" title="เลือกธีมและคำอวยพร ใส่ชื่อผู้รับ ผู้ส่ง และข้อความ แล้วทำการ์ดคริสต์มาส บันทึกเป็นรูป หรือส่งลิงก์ที่เปิดออกมาเหมือนซองจดหมาย" style="--h:123;--h2:149">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span></span>
           <span class="tile-name">การ์ดคริสต์มาส</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="finger" data-cat="vote">
         <a class="tile-link" href="https://finger.example.com/" title="ทุกคนวางนิ้วบนจอมือถือคนละนิ้ว รอแป๊บเดียวระบบจะสุ่มเลือกหนึ่งคน สุ่มหลายคนหรือแบ่งทีมก็ได้ ใครจ่าย ใครเริ่มก่อน รู้ทันที!" style="--h:267;--h2:249">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">👆</span></span></span>
           <span class="tile-name">สุ่มนิ้ว</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'aim',
+        kicker: "开黑前热热手",
+        headline: "你的瞄准有多快多准？",
+        blurb: "点中30个靶子，或挑战30秒限时。",
+      },
+      {
+        id: 'xmastype',
+        kicker: "节日趣味心理测试",
+        headline: "最像你的圣诞角色是？",
+        blurb: "12道节日小题，测出你的圣诞角色和最佳搭档。",
+      },
+      {
         id: 'xmastree',
         kicker: "提前过圣诞",
         headline: "装饰我的圣诞树",

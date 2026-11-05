@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'aim',
+        kicker: "Warm up your aim",
+        headline: "How fast and accurate is your aim?",
+        blurb: "Hit 30 targets or race a 30-second clock.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "A festive personality quiz",
+        headline: "What’s your holiday spirit?",
+        blurb: "12 quick holiday questions reveal your festive character.",
+      },
+      {
         id: 'xmastree',
         kicker: "Get festive",
         headline: "Decorate your own Christmas tree",

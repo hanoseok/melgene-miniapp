@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'aim',
+        kicker: "ゲーム前のウォームアップ",
+        headline: "あなたのエイム、速くて正確？",
+        blurb: "的30個か30秒間、現れる的をすばやくタップ。",
+      },
+      {
+        id: 'xmastype',
+        kicker: "冬のゆる心理テスト",
+        headline: "あなたに似たクリスマスキャラは？",
+        blurb: "年末あるある12問で、相性ぴったりの相手もわかる。",
+      },
+      {
         id: 'xmastree',
         kicker: "キラキラ年末準備",
         headline: "自分だけのクリスマスツリー",

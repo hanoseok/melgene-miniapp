@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'aim',
+        kicker: "Scalda la mira",
+        headline: "Quanto è veloce e precisa la tua mira?",
+        blurb: "Colpisci 30 bersagli o gioca 30 secondi a tempo.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Un quiz festivo",
+        headline: "Che personaggio di Natale sei?",
+        blurb: "12 domande sulle feste e la tua anima gemella natalizia.",
+      },
+      {
         id: 'xmastree',
         kicker: "Aria di Natale",
         headline: "Decora il tuo albero di Natale",

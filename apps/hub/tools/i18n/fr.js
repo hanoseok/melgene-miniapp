@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'aim',
+        kicker: "Échauffe ta visée",
+        headline: "Ta visée est-elle rapide et précise ?",
+        blurb: "Touche 30 cibles ou joue 30 secondes contre la montre.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Un quiz festif",
+        headline: "Quel esprit de Noël es-tu ?",
+        blurb: "12 questions sur les fêtes pour trouver ton personnage.",
+      },
+      {
         id: 'xmastree',
         kicker: "Esprit de Noël",
         headline: "Décore ton sapin de Noël",

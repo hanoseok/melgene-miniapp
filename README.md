@@ -168,6 +168,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | enneagram | apps/enneagram | 에니어그램 테스트(심리테스트): 일상 상황 12문항×4보기, 중심 6문항(gut·heart·head) + 태도 6문항(호나이 그룹: 주장·순응·물러남), 보기 = 세 값 2점 + 약한 보기 1점(회전 대칭), 동점 = 원 따라 다음 값·세 값 동점은 마지막 답 → 9종 r/type1~9.html(전수 4^12 각 10.98~11.38%), 바라는 것·피하는 것·강점 3·성장 팁 3·성장 방향(유형 이름만, 링크 없음), 방금 푼 사람에게만 축별 막대, poll 비율은 20표 이상일 때만, 재미용(RHETI 등 공식 검사·진단 아님) | `check-enneagram.js` |
 | xmastree | apps/xmastree | 크리스마스 트리 꾸미기(만들기): canvas 트리에 장식 13종 탭·끌기, 지우개·되돌리기(60단계)·자동 꾸미기, 트리 모양 4·배경 4·꼭대기 장식 4, 눈·전구 토글(움직임 줄이기면 멈춤), 이름·메시지, 1080×1350 PNG 저장, #d= 링크(받는 사람 = 트리 + 나도 꾸미기), 서버 전송 없음 | `check-xmastree.js` |
 | truth | apps/truth | 진실 게임(투표): 참가자 2~20명(이름 없이도 가능), 팩 4개(친구·가족·회사 송년회·커플, 모두 건전), crypto 셔플 차례(모두 한 번씩 돈 뒤 다시·연속 차례 없음), 진실/도전/랜덤 → 카드 한 장(언어마다 팩별 진실 42·도전 42, 게임 중 반복 없음), 누구나 넘어갈 수 있음, 끝 화면은 숫자 요약만, 카드 목록 노출 금지(check 가 검사) | `check-truth.js` |
+| aim | apps/aim | 에임 연습(게임, Aim Trainer): 가운데 시작 과녁을 맞히면 시작, Classic(과녁 30개, 평균 ms) · Timed(30초, 과녁이 줄다가 사라짐, 맞힌 수), pointerdown 만·중심 거리 판정(터치 여유 8px), crypto 위치, 등급 6단계(정확도 70% 미만이면 한 단계 내림, 내 것만), 탭 이탈 = 무효, 모드별 supa.submitScore 백분위(150ms 미만·Timed 100개 초과는 안 보냄) | `check-aim.js` (+ `flow-test.js`) |
+| xmastype | apps/xmastype | 크리스마스 성격 테스트(심리테스트): 연말 질문 12문항×4보기, 축 3개(energy·style·focus)×2 → 8종 r/<type>.html(전수 4^12 각 12.50%), 찰떡궁합·라이벌은 그림·이름만(링크 없음), 같은 결과 비율은 poll 20표 이상일 때만, 저작권 캐릭터 없음, 재미용 | `check-xmastype.js` (+ `check-flow.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

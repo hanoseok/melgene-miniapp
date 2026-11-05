@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'aim',
+        kicker: "Aquece a mão antes do jogo",
+        headline: "Sua mira é rápida e precisa?",
+        blurb: "Acerte 30 alvos ou jogue 30 segundos contra o relógio.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Um teste natalino",
+        headline: "Qual personagem de Natal é você?",
+        blurb: "12 perguntas de fim de ano e seu par perfeito.",
+      },
+      {
         id: 'xmastree',
         kicker: "Clima de Natal",
         headline: "Monte sua árvore de Natal",

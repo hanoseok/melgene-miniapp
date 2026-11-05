@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'aim',
+        kicker: "Khởi động tay trước trận",
+        headline: "Tay bạn nhanh và chuẩn cỡ nào?",
+        blurb: "Bấm trúng 30 mục tiêu hoặc đua 30 giây.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Trắc nghiệm vui mùa lễ hội",
+        headline: "Bạn là nhân vật Noel nào?",
+        blurb: "12 câu hỏi mùa lễ, tìm ra nhân vật và người hợp cạ.",
+      },
+      {
         id: 'xmastree',
         kicker: "Đón Giáng sinh",
         headline: "Trang trí cây thông Noel",

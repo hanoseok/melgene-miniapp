@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'aim',
+        kicker: "Calienta tu puntería",
+        headline: "¿Qué tan rápida es tu puntería?",
+        blurb: "Acierta 30 objetivos o juega 30 segundos contrarreloj.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "Un test navideño",
+        headline: "¿Qué personaje de Navidad eres?",
+        blurb: "12 preguntas de temporada y tu pareja ideal navideña.",
+      },
+      {
         id: 'xmastree',
         kicker: "Espíritu navideño",
         headline: "Decora tu árbol de Navidad",

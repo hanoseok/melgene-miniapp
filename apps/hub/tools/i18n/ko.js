@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'aim',
+        kicker: "게임 전 손풀기",
+        headline: "내 에임, 얼마나 빠르고 정확할까?",
+        blurb: "과녁 30개 또는 30초 동안 콕콕 맞혀 보세요.",
+      },
+      {
+        id: 'xmastype',
+        kicker: "연말 감성 심리테스트",
+        headline: "나를 닮은 크리스마스 캐릭터는?",
+        blurb: "연말 질문 12개로 알아보는 나와 찰떡궁합.",
+      },
+      {
         id: 'xmastree',
         kicker: "반짝반짝 연말 준비",
         headline: "나만의 크리스마스 트리",
