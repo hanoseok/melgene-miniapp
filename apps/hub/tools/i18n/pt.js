@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'nycard',
+        kicker: "Olá, 2027!",
+        headline: "Mande seus primeiros votos do ano",
+        blurb: "Escolha um modelo, escreva e envie o cartão.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Para a festa de fim de ano",
+        headline: "Cante o bingo numa tela só",
+        blurb: "Números gigantes, painel completo, sem repetir.",
+      },
+      {
         id: 'aim',
         kicker: "Aquece a mão antes do jogo",
         headline: "Sua mira é rápida e precisa?",

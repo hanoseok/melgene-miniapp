@@ -1,0 +1,268 @@
+/* apps/nycard/style.css — 2027 연하장: 깊은 연지 빨강 + 금빛 + 먹색.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display·--font-script 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 카드 그림은 canvas(nycard.js). 시작 화면 이모지(.ny-hero)와 봉투 열기(.ny-open.is-opening)는 prefers-reduced-motion 이면 멈춘다.
+ * (변수 이름 --pine-* 은 배경 3단 색 — 여기서는 붉은 계열)
+ */
+:root {
+  --pine-0: #2a0309;
+  --pine-1: #5a0816;
+  --pine-2: #8e1024;
+  --red: #e8433a;
+  --red-2: #b8241c;
+  --gold: #ffd36e;
+  --gold-2: #f5b942;
+  --snow: #fff8ee;
+  --ink: #fff8ee;
+  --ink-dim: rgba(255, 248, 238, 0.82);
+  --ink-faint: rgba(255, 248, 238, 0.52);
+  --line: rgba(255, 211, 110, 0.38);
+  --on-gold: #3a1a00;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --font-script: var(--font-display);
+  --script-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--red);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: rgba(255, 248, 238, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(255, 211, 110, 0.45);
+  /* 공통 끝 화면 */
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(255, 248, 238, 0.2);
+  --mg-heart-bg: rgba(226, 61, 79, 0.12);
+  --mg-heart-border: rgba(226, 61, 79, 0.45);
+  --mg-heart-fg: #ff9aa6;
+  --mg-heart-on: #ff5a6c;
+  --mg-share-bg: rgba(255, 248, 238, 0.06);
+  --mg-share-border: rgba(255, 248, 238, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-faq-bg: rgba(255, 248, 238, 0.05);
+  --mg-faq-border: rgba(255, 211, 110, 0.28);
+  --mg-end-retry-bg: linear-gradient(135deg, var(--gold), var(--gold-2));
+  --mg-end-retry-fg: var(--on-gold);
+  --toast-bg: rgba(142, 16, 36, 0.96);
+}
+
+html { background: var(--pine-0); }
+body.ny-body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse 130% 70% at 50% -10%, var(--pine-2), var(--pine-1) 45%, var(--pine-0) 80%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ny-h1, .ny-kicker, .ny-h1-main, .ny-badge, .ny-btn, .ny-edit-title, .ny-chip, .ny-deco, .ny-idea,
+.ny-eyebrow, .ny-label, .ny-open-eyebrow, .ny-doc h1 {
+  font-family: var(--font-display);
+}
+.ny-h1-main em, .ny-greet, .ny-open-from { font-family: var(--font-script); }
+.ny-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ny-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.ny-screen { padding-top: 12px; }
+
+.ny-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 56px;
+  padding: 12px 18px;
+  border: 0; border-radius: 999px;
+  font-size: 19px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.ny-btn-primary {
+  background: linear-gradient(135deg, #ffe39a, var(--gold) 50%, var(--gold-2));
+  color: var(--on-gold);
+  box-shadow: 0 10px 28px -8px rgba(255, 196, 80, 0.55), inset 0 -4px 0 rgba(120, 70, 0, 0.25);
+}
+.ny-btn-soft {
+  background: rgba(255, 248, 238, 0.08);
+  color: var(--ink);
+  border: 1.5px solid rgba(255, 211, 110, 0.45);
+}
+.ny-btn-sm { min-height: 50px; font-size: 16px; padding: 10px 12px; }
+.ny-btn:active { transform: scale(0.97); }
+.ny-btn:disabled { opacity: 0.6; cursor: progress; }
+.ny-btn:focus-visible, .ny-chip:focus-visible, .ny-greet:focus-visible, .ny-deco:focus-visible, .ny-input:focus-visible, .ny-idea:focus-visible, .ny-env:focus-visible {
+  outline: 3px solid var(--gold); outline-offset: 3px;
+}
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.ny-start { text-align: center; padding-top: 18px; }
+.ny-badge {
+  display: inline-block; margin: 0 0 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(226, 61, 79, 0.18); border: 1px solid rgba(255, 120, 135, 0.45);
+  color: #ffd9de; font-size: 14px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.ny-hero {
+  position: relative; width: 230px; height: 200px; margin: 0 auto;
+  border-radius: 36px;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 211, 110, 0.28), transparent 68%);
+}
+.ny-hero span { position: absolute; line-height: 1; }
+.ny-hero-main { left: 50%; top: 50%; font-size: 112px; transform: translate(-50%, -50%); animation: ny-bob 3.6s ease-in-out infinite; }
+.ny-hero-year { left: 50%; bottom: -6px; transform: translateX(-50%); font-family: var(--font-display); font-weight: 900; font-size: 30px; letter-spacing: 0.08em; color: var(--gold); text-shadow: 0 0 14px rgba(255, 211, 110, 0.6); }
+.ny-hero-star { left: 18px; top: 16px; font-size: 40px; animation: ny-twinkle 2.4s ease-in-out infinite; }
+.ny-hero-gift { right: 10px; bottom: 10px; font-size: 50px; animation: ny-bob 3s ease-in-out infinite -1.2s; }
+.ny-hero-snow { right: 26px; top: 10px; font-size: 38px; animation: ny-bob 3.3s ease-in-out infinite -0.6s; }
+.ny-hero-card { left: 10px; bottom: 16px; font-size: 46px; animation: ny-bob 2.9s ease-in-out infinite -2s; }
+@keyframes ny-bob { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@keyframes ny-twinkle { 0%, 100% { opacity: 1; scale: 1; } 50% { opacity: 0.55; scale: 0.85; } }
+.ny-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ny-kicker { display: block; margin-bottom: 6px; font-size: 15px; letter-spacing: 0.03em; color: var(--gold); }
+.ny-h1-main { display: block; font-size: 40px; color: var(--ink); text-shadow: 0 4px 0 rgba(42, 3, 9, 0.6); }
+.ny-h1-main em { font-style: normal; font-weight: var(--script-weight); color: var(--gold); text-shadow: 0 0 22px rgba(255, 211, 110, 0.5), 0 4px 0 rgba(42, 3, 9, 0.6); }
+.ny-hook { margin: 0 auto 20px; max-width: 360px; font-size: 16px; color: var(--ink-dim); }
+
+/* ---------------- 편집기 ---------------- */
+.ny-edit-title { margin: 0 0 10px; font-size: 22px; line-height: 1.3; text-align: center; font-weight: var(--display-weight); color: var(--gold); }
+.ny-chips, .ny-greets {
+  display: flex; gap: 8px; margin: 0 -16px 12px; padding: 2px 16px 6px;
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.ny-chips::-webkit-scrollbar, .ny-greets::-webkit-scrollbar { display: none; }
+.ny-chip {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  min-width: 72px; min-height: 64px; padding: 8px 12px;
+  border-radius: 18px; border: 2px solid rgba(255, 248, 238, 0.14);
+  background: rgba(42, 3, 9, 0.5); color: var(--ink-dim);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.ny-chip-emoji { font-size: 28px; line-height: 1.1; }
+.ny-chip.is-on, .ny-greet.is-on, .ny-deco.is-on { border-color: var(--gold); background: rgba(255, 211, 110, 0.16); color: var(--ink); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+.ny-greet {
+  flex: 0 0 auto; min-height: 46px; padding: 8px 16px;
+  border-radius: 999px; border: 2px solid rgba(255, 248, 238, 0.14);
+  background: rgba(42, 3, 9, 0.5); color: var(--ink-dim);
+  font-size: 17px; font-weight: var(--script-weight); line-height: 1.3; white-space: nowrap; cursor: pointer;
+}
+.ny-decos { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.ny-deco {
+  flex: 1 1 auto; min-height: 44px; padding: 8px 12px;
+  border-radius: 14px; border: 2px solid rgba(255, 248, 238, 0.14);
+  background: rgba(42, 3, 9, 0.5); color: var(--ink-dim);
+  font-size: 14.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+
+.ny-preview { width: 100%; max-width: 270px; margin: 0 auto 14px; }
+.ny-canvas {
+  display: block; width: 100%; height: auto; aspect-ratio: 1080 / 1350;
+  border-radius: 18px; background: var(--pine-1);
+  box-shadow: 0 22px 44px -22px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 211, 110, 0.3);
+}
+
+.ny-field { display: block; margin-bottom: 12px; min-width: 0; }
+.ny-label { display: block; margin: 0 0 6px 4px; font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--gold); }
+.ny-input {
+  box-sizing: border-box; width: 100%; min-width: 0; min-height: 52px; padding: 12px 10px 12px 14px;
+  border-radius: 16px; border: 1.5px solid rgba(255, 211, 110, 0.38);
+  background: rgba(42, 3, 9, 0.55); color: var(--ink);
+  font: inherit; font-size: 17px; color-scheme: dark;
+}
+.ny-textarea { display: block; resize: none; line-height: 1.5; min-height: 96px; }
+.ny-input::placeholder { color: var(--ink-faint); }
+.ny-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(255, 211, 110, 0.22); }
+.ny-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+.ny-msg-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; }
+.ny-msg-head .ny-label { margin-bottom: 6px; }
+.ny-idea {
+  flex: 0 0 auto; margin-bottom: 4px; padding: 5px 12px; min-height: 34px;
+  border-radius: 999px; border: 1.5px solid rgba(255, 211, 110, 0.5);
+  background: rgba(255, 211, 110, 0.1); color: var(--gold);
+  font-size: 13.5px; font-weight: var(--display-weight); line-height: 1.2; white-space: nowrap; cursor: pointer;
+}
+.ny-count { margin: 4px 6px 0 0; text-align: right; font-size: 13px; color: var(--ink-faint); }
+.ny-count.is-full { color: #ff9aa6; }
+.ny-edit #done-btn { margin-top: 6px; }
+.ny-edit .mg-ad { margin-top: 20px; }
+
+/* ---------------- 받은 카드: 봉투 ---------------- */
+.ny-open { text-align: center; padding-top: 22px; }
+.ny-open-eyebrow { margin: 0; font-size: 17px; font-weight: var(--display-weight); color: var(--gold); line-height: 1.35; }
+.ny-open-from { margin: 4px 0 18px; font-size: 26px; font-weight: var(--script-weight); line-height: 1.35; color: var(--ink); overflow-wrap: anywhere; }
+.ny-env {
+  position: relative; display: block; width: 260px; height: 190px; margin: 34px auto 28px; padding: 0;
+  border: 0; background: none; cursor: pointer; perspective: 800px;
+}
+.ny-env span { position: absolute; display: block; }
+.ny-env-back { inset: 0; z-index: 0; border-radius: 14px; background: #b8862a; }
+.ny-env-letter {
+  left: 18px; right: 18px; top: 14px; height: 150px; z-index: 1; border-radius: 10px;
+  background: #fff8ec; font-size: 64px; line-height: 150px; text-align: center;
+  transition: transform 0.6s ease 0.45s;
+}
+.ny-env-front {
+  inset: 0; z-index: 2; border-radius: 14px;
+  background: linear-gradient(160deg, #ffd36e, #e6a93a);
+  clip-path: polygon(0 32%, 50% 66%, 100% 32%, 100% 100%, 0 100%);
+}
+.ny-env-flap {
+  left: 0; right: 0; top: 0; height: 66%; z-index: 3;
+  background: linear-gradient(180deg, #ffe7a6, #f0be52);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  transform-origin: 50% 0; transition: transform 0.5s ease;
+  border-radius: 14px 14px 0 0;
+}
+.ny-env-seal { z-index: 4; left: 50%; top: 52%; font-size: 40px; line-height: 1; transform: translate(-50%, -50%); transition: opacity 0.2s ease; }
+.ny-open:not(.is-opening) .ny-env { animation: ny-wiggle 2.6s ease-in-out infinite; }
+.ny-open.is-opening .ny-env-flap { transform: rotateX(180deg); z-index: 0; }
+.ny-open.is-opening .ny-env-seal { opacity: 0; }
+.ny-open.is-opening .ny-env-letter { transform: translateY(-110px); }
+@keyframes ny-wiggle { 0%, 80%, 100% { rotate: 0deg; } 85% { rotate: -3deg; } 90% { rotate: 3deg; } 95% { rotate: -2deg; } }
+
+/* ---------------- 끝 화면 ---------------- */
+.ny-card {
+  margin-top: 6px; padding: 18px 16px 16px;
+  border-radius: 28px; text-align: center;
+  background: radial-gradient(120% 60% at 50% 0%, rgba(255, 211, 110, 0.18), transparent 70%), linear-gradient(180deg, rgba(142, 16, 36, 0.9), rgba(90, 8, 22, 0.95));
+  border: 1.5px solid rgba(255, 211, 110, 0.42);
+  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.8);
+}
+.ny-eyebrow { margin: 0 0 12px; font-size: 16px; font-weight: var(--display-weight); line-height: 1.35; color: var(--gold); overflow-wrap: anywhere; }
+.ny-end-canvas { max-width: 300px; margin: 0 auto 14px; }
+.ny-end-actions { display: grid; gap: 10px; }
+.ny-save-status { min-height: 1.4em; margin: 8px 0 0; font-size: 13.5px; color: var(--ink-dim); }
+.ny-save-status.is-bad { color: #ff9aa6; }
+
+/* ---------------- 개인정보 ---------------- */
+.ny-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.ny-doc h1 { font-size: 28px; color: var(--ink); margin: 8px 0 12px; line-height: 1.25; }
+.ny-doc h2 { font-size: 17px; color: var(--gold); margin: 22px 0 6px; }
+.ny-doc a { text-decoration: underline; }
+
+.site-footer { color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .ny-body { line-height: 1.75; }
+html:lang(th) :is(.ny-h1-main, .ny-edit-title, .ny-chip, .ny-greet, .ny-deco, .ny-btn, .ny-label, .ny-eyebrow, .ny-idea, .ny-open-from) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .ny-kicker { letter-spacing: 0; }
+html:lang(vi) :is(.ny-h1-main, .ny-open-from) { line-height: 1.35; }
+
+@media (max-width: 374px) {
+  .ny-h1-main { font-size: 34px; }
+  .ny-row { gap: 8px; }
+  .ny-deco { font-size: 13.5px; padding: 8px 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ny-hero span { animation: none !important; }
+  .ny-open .ny-env { animation: none !important; }
+  .ny-env span { transition: none !important; }
+  .ny-btn { transition: none; }
+}

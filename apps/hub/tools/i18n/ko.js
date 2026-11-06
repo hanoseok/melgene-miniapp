@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'nycard',
+        kicker: "새해 첫 인사",
+        headline: "2027 연하장, 카드 한 장으로",
+        blurb: "디자인 고르고 덕담 한 줄 적어 보내 보세요.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "송년회 빙고 진행",
+        headline: "빙고 번호, 화면 하나로 뽑기",
+        blurb: "큰 번호와 전체 판, 같은 번호는 안 나와요.",
+      },
+      {
         id: 'aim',
         kicker: "게임 전 손풀기",
         headline: "내 에임, 얼마나 빠르고 정확할까?",

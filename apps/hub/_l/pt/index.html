@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todos os mini apps",
   "inLanguage": "pt",
-  "numberOfItems": 79,
+  "numberOfItems": 81,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -633,6 +633,20 @@
       "url": "https://xmastype.example.com/",
       "name": "Teste de personalidade de Natal",
       "description": "12 perguntas de fim de ano, 2 minutos. Qual símbolo do Natal combina com você? Descubra seu personagem natalino e seu par perfeito, só por diversão."
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "url": "https://nycard.example.com/",
+      "name": "Cartão de Ano Novo 2027",
+      "description": "Escolha um modelo e uma saudação, escreva os nomes e uma mensagem e crie seu cartão de Ano Novo 2027. Salve como imagem ou mande um link que abre como um envelope."
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "url": "https://bingocall.example.com/",
+      "name": "Sorteador de bingo",
+      "description": "Cante o bingo da festa com um só celular ou a TV: 75 ou 90 bolas, intervalo livre, número gigante, painel completo, desfazer e sorteio automático."
     }
   ]
 }
@@ -708,6 +722,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="nycard">
+        <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Olá, 2027!</span></span>
+            <h3 class="cur-headline">Mande seus primeiros votos do ano</h3>
+            <span class="cur-giant" aria-hidden="true">🐐</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Escolha um modelo, escreva e envie o cartão.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Cartão de Ano Novo 2027</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bingocall">
+        <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Para a festa de fim de ano</span></span>
+            <h3 class="cur-headline">Cante o bingo numa tela só</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Números gigantes, painel completo, sem repetir.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Sorteador de bingo</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jogar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="aim">
         <a class="cur-card" href="https://aim.example.com/" style="--h:223;--h2:205">
           <span class="cur-art">
@@ -772,7 +818,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps">
+      <li class="cur-item" data-id="cps" hidden>
         <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Aqueça os dedos</span></span>
@@ -788,7 +834,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="enneagram">
+      <li class="cur-item" data-id="enneagram" hidden>
         <a class="cur-card" href="https://enneagram.example.com/" style="--h:84;--h2:66">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Nove jeitos de ver o mundo</span></span>
@@ -836,45 +882,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer" hidden>
-        <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Conte de cabeça</span></span>
-            <h3 class="cur-headline">Pare o cronômetro em 10,00</h3>
-            <span class="cur-giant" aria-hidden="true">⏱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Três tentativas, e no modo às cegas os números somem.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Desafio dos 10 segundos</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="attach" hidden>
-        <a class="cur-card" href="https://attach.example.com/" style="--h:163;--h2:145">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NOVO</span></span><span class="cur-kicker">Como você cria vínculos?</span></span>
-            <h3 class="cur-headline">Qual é o seu estilo de apego?</h3>
-            <span class="cur-giant" aria-hidden="true">🫂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">O dia a dia com amigos e amores mostra como você se conecta.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Teste de estilo de apego</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jogar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostrar indicação 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostrar indicação 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostrar indicação 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostrar indicação 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostrar indicação 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostrar indicação 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">79 apps</span></h2>
+      <h2 id="browse-h">Todos os mini apps<span class="browse-count" id="hub-count" aria-live="polite">81 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novidades</option><option value="popular">Populares</option><option value="rating">Bem avaliados</option></select>
@@ -896,6 +910,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="nycard" data-cat="create">
+        <a class="tile-link" href="https://nycard.example.com/" title="Escolha um modelo e uma saudação, escreva os nomes e uma mensagem e crie seu cartão de Ano Novo 2027. Salve como imagem ou mande um link que abre como um envelope." style="--h:105;--h2:131">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Cartão de Ano Novo 2027</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bingocall" data-cat="vote">
+        <a class="tile-link" href="https://bingocall.example.com/" title="Cante o bingo da festa com um só celular ou a TV: 75 ou 90 bolas, intervalo livre, número gigante, painel completo, desfazer e sorteio automático." style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NOVO</span></span>
+          <span class="tile-name">Sorteador de bingo</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="aim" data-cat="game">
         <a class="tile-link" href="https://aim.example.com/" title="Acerte os alvos o mais rápido que puder: 30 alvos no Clássico ou 30 segundos no Cronometrado. Tempo médio e precisão." style="--h:223;--h2:205">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NOVO</span></span>
@@ -954,14 +982,14 @@
       </li>
       <li class="tile" data-id="timer" data-cat="game">
         <a class="tile-link" href="https://timer.example.com/" title="Inicie o cronômetro e pare em 10,00 segundos cravados no feeling. Três tentativas e um modo às cegas em que os números somem." style="--h:115;--h2:141">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span></span>
           <span class="tile-name">Desafio dos 10 segundos</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="attach" data-cat="test">
         <a class="tile-link" href="https://attach.example.com/" title="11 perguntas do dia a dia sobre amigos, família e parceiros, 2 minutos. Como você cria vínculos? Descubra seu estilo de apego, por diversão." style="--h:163;--h2:145">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span></span>
           <span class="tile-name">Teste de estilo de apego</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

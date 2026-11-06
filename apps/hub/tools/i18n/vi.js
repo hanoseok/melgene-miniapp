@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'nycard',
+        kicker: "Xin chào 2027",
+        headline: "Gửi lời chúc đầu tiên của năm mới",
+        blurb: "Chọn mẫu, viết lời chúc và gửi thiệp ngay.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Trò chơi tiệc tất niên",
+        headline: "Quay số lô tô trên một màn hình",
+        blurb: "Số thật to, bảng số đầy đủ, không trùng.",
+      },
+      {
         id: 'aim',
         kicker: "Khởi động tay trước trận",
         headline: "Tay bạn nhanh và chuẩn cỡ nào?",

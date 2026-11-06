@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 79,
+  "numberOfItems": 81,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -634,6 +634,20 @@
       "url": "https://xmastype.example.com/",
       "name": "Test tính cách Noel",
       "description": "12 câu hỏi mùa lễ hội, 2 phút. Bạn giống biểu tượng Giáng sinh nào? Khám phá nhân vật Giáng sinh của bạn và người hợp cạ nhất, cho vui."
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "url": "https://nycard.example.com/",
+      "name": "Thiệp năm mới 2027",
+      "description": "Chọn mẫu và lời chúc, ghi tên và vài lời nhắn để làm thiệp chúc mừng năm mới 2027. Lưu thành ảnh hoặc gửi link mở ra như phong thư."
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "url": "https://bingocall.example.com/",
+      "name": "Máy quay số lô tô",
+      "description": "Làm quản trò lô tô, bingo tất niên chỉ với một điện thoại hay TV: 75 hoặc 90 số, tự chọn khoảng, số hiện thật to, bảng số đã ra, hoàn tác, quay tự động."
     }
   ]
 }
@@ -709,6 +723,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="nycard">
+        <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Xin chào 2027</span></span>
+            <h3 class="cur-headline">Gửi lời chúc đầu tiên của năm mới</h3>
+            <span class="cur-giant" aria-hidden="true">🐐</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Chọn mẫu, viết lời chúc và gửi thiệp ngay.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Thiệp năm mới 2027</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bingocall">
+        <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trò chơi tiệc tất niên</span></span>
+            <h3 class="cur-headline">Quay số lô tô trên một màn hình</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Số thật to, bảng số đầy đủ, không trùng.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Máy quay số lô tô</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="aim">
         <a class="cur-card" href="https://aim.example.com/" style="--h:223;--h2:205">
           <span class="cur-art">
@@ -773,7 +819,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps">
+      <li class="cur-item" data-id="cps" hidden>
         <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Khởi động ngón tay</span></span>
@@ -789,7 +835,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="enneagram">
+      <li class="cur-item" data-id="enneagram" hidden>
         <a class="cur-card" href="https://enneagram.example.com/" style="--h:84;--h2:66">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Chín cách nhìn thế giới</span></span>
@@ -837,45 +883,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer" hidden>
-        <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Đếm thầm trong đầu</span></span>
-            <h3 class="cur-headline">Dừng đồng hồ đúng 10,00 giây</h3>
-            <span class="cur-giant" aria-hidden="true">⏱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">3 lượt, chế độ che số làm con số biến mất.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Thử thách 10 giây</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="attach" hidden>
-        <a class="cur-card" href="https://attach.example.com/" style="--h:163;--h2:145">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Bạn gắn bó thế nào?</span></span>
-            <h3 class="cur-headline">Kiểu gắn bó của bạn là gì?</h3>
-            <span class="cur-giant" aria-hidden="true">🫂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Những khoảnh khắc thường ngày với bạn bè, người thân hé lộ cách bạn kết nối.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Trắc nghiệm kiểu gắn bó</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">79 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">81 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -897,6 +911,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="nycard" data-cat="create">
+        <a class="tile-link" href="https://nycard.example.com/" title="Chọn mẫu và lời chúc, ghi tên và vài lời nhắn để làm thiệp chúc mừng năm mới 2027. Lưu thành ảnh hoặc gửi link mở ra như phong thư." style="--h:105;--h2:131">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Thiệp năm mới 2027</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bingocall" data-cat="vote">
+        <a class="tile-link" href="https://bingocall.example.com/" title="Làm quản trò lô tô, bingo tất niên chỉ với một điện thoại hay TV: 75 hoặc 90 số, tự chọn khoảng, số hiện thật to, bảng số đã ra, hoàn tác, quay tự động." style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Máy quay số lô tô</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="aim" data-cat="game">
         <a class="tile-link" href="https://aim.example.com/" title="Bấm trúng mục tiêu nhanh nhất có thể: 30 mục tiêu chế độ Cổ điển hoặc 30 giây Tính giờ. Xem thời gian trung bình và độ chính xác." style="--h:223;--h2:205">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
@@ -955,14 +983,14 @@
       </li>
       <li class="tile" data-id="timer" data-cat="game">
         <a class="tile-link" href="https://timer.example.com/" title="Bấm đồng hồ và dừng đúng 10,00 giây chỉ bằng cảm giác. 3 lượt, thêm chế độ che số khiến con số biến mất." style="--h:115;--h2:141">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span></span>
           <span class="tile-name">Thử thách 10 giây</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="attach" data-cat="test">
         <a class="tile-link" href="https://attach.example.com/" title="11 câu hỏi đời thường về bạn bè, gia đình và người yêu, 2 phút. Bạn gắn bó với mọi người ra sao? Khám phá cho vui." style="--h:163;--h2:145">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span></span>
           <span class="tile-name">Trắc nghiệm kiểu gắn bó</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

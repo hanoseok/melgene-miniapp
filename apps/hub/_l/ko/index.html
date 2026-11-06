@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 79,
+  "numberOfItems": 81,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -633,6 +633,20 @@
       "url": "https://xmastype.example.com/",
       "name": "크리스마스 성격 테스트",
       "description": "연말 일상 질문 12개, 2분이면 끝. 나는 크리스마스의 어떤 상징을 닮았을까? 나의 연말 캐릭터와 찰떡궁합을 재미로 알아봐요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "url": "https://nycard.example.com/",
+      "name": "2027 연하장",
+      "description": "디자인과 새해 인사말을 고르고 이름과 덕담을 적어 2027 양띠 해 연하장을 만들어 보세요. 이미지로 저장하거나, 링크로 보내면 봉투가 열리며 카드가 나와요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "url": "https://bingocall.example.com/",
+      "name": "빙고 번호 추첨기",
+      "description": "송년회 빙고 진행을 휴대폰 하나로. 75볼·90볼·직접 범위, 큰 번호 화면, 지난 번호와 전체 판, 되돌리기, 자동 뽑기, 음성 안내까지."
     }
   ]
 }
@@ -708,6 +722,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="nycard">
+        <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">새해 첫 인사</span></span>
+            <h3 class="cur-headline">2027 연하장, 카드 한 장으로</h3>
+            <span class="cur-giant" aria-hidden="true">🐐</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">디자인 고르고 덕담 한 줄 적어 보내 보세요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">2027 연하장</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="bingocall">
+        <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 빙고 진행</span></span>
+            <h3 class="cur-headline">빙고 번호, 화면 하나로 뽑기</h3>
+            <span class="cur-giant" aria-hidden="true">🎱</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">큰 번호와 전체 판, 같은 번호는 안 나와요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">빙고 번호 추첨기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="aim">
         <a class="cur-card" href="https://aim.example.com/" style="--h:223;--h2:205">
           <span class="cur-art">
@@ -772,7 +818,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps">
+      <li class="cur-item" data-id="cps" hidden>
         <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">손가락 풀고 시작!</span></span>
@@ -788,7 +834,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="enneagram">
+      <li class="cur-item" data-id="enneagram" hidden>
         <a class="cur-card" href="https://enneagram.example.com/" style="--h:84;--h2:66">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">세상을 보는 아홉 가지 눈</span></span>
@@ -836,45 +882,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="timer" hidden>
-        <a class="cur-card" href="https://timer.example.com/" style="--h:115;--h2:141">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">10초, 감으로 맞혀 봐</span></span>
-            <h3 class="cur-headline">타이머를 딱 10.00초에 멈춰라</h3>
-            <span class="cur-giant" aria-hidden="true">⏱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">세 번 도전, 블라인드 모드는 숫자가 사라져요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">10초 맞추기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="attach" hidden>
-        <a class="cur-card" href="https://attach.example.com/" style="--h:163;--h2:145">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">나는 어떻게 가까워질까?</span></span>
-            <h3 class="cur-headline">나의 애착 유형은?</h3>
-            <span class="cur-giant" aria-hidden="true">🫂</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">친구·가족·연인과의 일상 속 반응으로 알아보는 관계 스타일.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">애착 유형 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">79개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">81개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -896,6 +910,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="nycard" data-cat="create">
+        <a class="tile-link" href="https://nycard.example.com/" title="디자인과 새해 인사말을 고르고 이름과 덕담을 적어 2027 양띠 해 연하장을 만들어 보세요. 이미지로 저장하거나, 링크로 보내면 봉투가 열리며 카드가 나와요." style="--h:105;--h2:131">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">2027 연하장</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="bingocall" data-cat="vote">
+        <a class="tile-link" href="https://bingocall.example.com/" title="송년회 빙고 진행을 휴대폰 하나로. 75볼·90볼·직접 범위, 큰 번호 화면, 지난 번호와 전체 판, 되돌리기, 자동 뽑기, 음성 안내까지." style="--h:313;--h2:295">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">빙고 번호 추첨기</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="aim" data-cat="game">
         <a class="tile-link" href="https://aim.example.com/" title="나타나는 과녁을 최대한 빨리 맞히세요. 과녁 30개 클래식·30초 타임어택으로 평균 반응 시간과 정확도를 재요." style="--h:223;--h2:205">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span>
@@ -954,14 +982,14 @@
       </li>
       <li class="tile" data-id="timer" data-cat="game">
         <a class="tile-link" href="https://timer.example.com/" title="스톱워치를 감으로 딱 10.00초에 멈춰 보세요. 3번 도전, 숫자가 사라지는 블라인드 모드까지." style="--h:115;--h2:141">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⏱️</span></span></span>
           <span class="tile-name">10초 맞추기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="attach" data-cat="test">
         <a class="tile-link" href="https://attach.example.com/" title="친구·가족·연인과의 일상 질문 11개, 2분이면 끝. 나는 사람과 어떻게 가까워질까? 내 애착 유형과 관계 팁을 재미로 알아봐요." style="--h:163;--h2:145">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🫂</span></span></span>
           <span class="tile-name">애착 유형 테스트</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

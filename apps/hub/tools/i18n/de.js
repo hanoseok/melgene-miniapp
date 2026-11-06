@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'nycard',
+        kicker: "Hallo, 2027",
+        headline: "Die ersten guten Wünsche des Jahres",
+        blurb: "Motiv wählen, Wunsch schreiben, Karte schicken.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Für die Weihnachtsfeier",
+        headline: "Bingo-Zahlen auf einem Bildschirm",
+        blurb: "Große Zahlen, ganze Tafel, keine doppelt.",
+      },
+      {
         id: 'aim',
         kicker: "Aufwärmen fürs Zocken",
         headline: "Wie schnell und genau zielst du?",

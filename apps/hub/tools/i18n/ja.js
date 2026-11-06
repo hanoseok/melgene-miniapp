@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'nycard',
+        kicker: "2027年 ひつじ年",
+        headline: "年賀状、一枚で気持ちを届けよう",
+        blurb: "デザインを選んでひと言書くだけ。",
+      },
+      {
+        id: 'bingocall',
+        kicker: "忘年会のビンゴ大会に",
+        headline: "ビンゴの抽選、画面ひとつで",
+        blurb: "大きな数字と一覧で、重複なし。",
+      },
+      {
         id: 'aim',
         kicker: "ゲーム前のウォームアップ",
         headline: "あなたのエイム、速くて正確？",

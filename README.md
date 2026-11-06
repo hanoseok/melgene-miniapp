@@ -170,6 +170,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | truth | apps/truth | 진실 게임(투표): 참가자 2~20명(이름 없이도 가능), 팩 4개(친구·가족·회사 송년회·커플, 모두 건전), crypto 셔플 차례(모두 한 번씩 돈 뒤 다시·연속 차례 없음), 진실/도전/랜덤 → 카드 한 장(언어마다 팩별 진실 42·도전 42, 게임 중 반복 없음), 누구나 넘어갈 수 있음, 끝 화면은 숫자 요약만, 카드 목록 노출 금지(check 가 검사) | `check-truth.js` |
 | aim | apps/aim | 에임 연습(게임, Aim Trainer): 가운데 시작 과녁을 맞히면 시작, Classic(과녁 30개, 평균 ms) · Timed(30초, 과녁이 줄다가 사라짐, 맞힌 수), pointerdown 만·중심 거리 판정(터치 여유 8px), crypto 위치, 등급 6단계(정확도 70% 미만이면 한 단계 내림, 내 것만), 탭 이탈 = 무효, 모드별 supa.submitScore 백분위(150ms 미만·Timed 100개 초과는 안 보냄) | `check-aim.js` (+ `flow-test.js`) |
 | xmastype | apps/xmastype | 크리스마스 성격 테스트(심리테스트): 연말 질문 12문항×4보기, 축 3개(energy·style·focus)×2 → 8종 r/<type>.html(전수 4^12 각 12.50%), 찰떡궁합·라이벌은 그림·이름만(링크 없음), 같은 결과 비율은 poll 20표 이상일 때만, 저작권 캐릭터 없음, 재미용 | `check-xmastype.js` (+ `check-flow.js`) |
+| nycard | apps/nycard | 2027 연하장(만들기): 디자인 6(홍색 금박·한지·귀여운 양·미니멀·눈 오는 밤·불꽃놀이)·언어별 인사말 4·꾸미기 3(양띠 배지 — canvas 도형 양 얼굴, 큰 2027, 반짝이; 띠 문화권 언어는 배지 기본 켬)·이름·덕담 120자(문구 추천 5), 1080×1350 PNG 저장·텍스트 복사·#d= 링크(받는 사람 = 봉투 열기 + 나도 만들기, start/done 안 셈), 서버 전송 없음 | `check-nycard.js` (+ `flow-test.js`) |
+| bingocall | apps/bingocall | 빙고 번호 추첨기(투표): 송년회 빙고 진행용 — 75볼(B-I-N-G-O)·90볼·직접 범위(5~150개), 누를 때마다 남은 번호 중 crypto 추첨(반복 없음, 되돌리기), 큰 공·지난 5개·전체 판, 자동 뽑기 3/5/8초, 읽어 주기(그 언어 음성 있을 때만)·효과음(기본 꺼짐), 전체 화면, 새로 고침해도 이어짐(localStorage `bingocall_state`), 진행 화면 광고 없음(TV용), 끝 화면은 뽑은 수·시간만 | `check-bingocall.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

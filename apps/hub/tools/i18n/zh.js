@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'nycard',
+        kicker: "你好，2027",
+        headline: "把新年第一句祝福写进贺卡",
+        blurb: "选个样式，写句祝福，发给想念的人。",
+      },
+      {
+        id: 'bingocall',
+        kicker: "尾牙年会必备",
+        headline: "宾果抽号，一块屏幕搞定",
+        blurb: "大号数字和号码面板，号码不重复。",
+      },
+      {
         id: 'aim',
         kicker: "开黑前热热手",
         headline: "你的瞄准有多快多准？",

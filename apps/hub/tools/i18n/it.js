@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'nycard',
+        kicker: "Ciao, 2027!",
+        headline: "Manda i primi auguri dell’anno",
+        blurb: "Scegli uno stile, scrivi due righe e invia.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Per la tombola di Natale",
+        headline: "Estrai i numeri su un solo schermo",
+        blurb: "Numeri giganti, tabellone, nessun doppione.",
+      },
+      {
         id: 'aim',
         kicker: "Scalda la mira",
         headline: "Quanto è veloce e precisa la tua mira?",

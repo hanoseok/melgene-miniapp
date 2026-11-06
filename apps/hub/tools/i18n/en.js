@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'nycard',
+        kicker: "Hello, 2027",
+        headline: "Send your first wishes of the year",
+        blurb: "Pick a design, write a short wish, send a card.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Year-end party game",
+        headline: "Run the bingo from one screen",
+        blurb: "Big numbers, a full board, no repeats.",
+      },
+      {
         id: 'aim',
         kicker: "Warm up your aim",
         headline: "How fast and accurate is your aim?",

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'nycard',
+        kicker: "Bonjour 2027",
+        headline: "Envoyez vos premiers vœux de l’année",
+        blurb: "Un style, quelques mots, et la carte part.",
+      },
+      {
+        id: 'bingocall',
+        kicker: "Pour la soirée de fin d’année",
+        headline: "Le boulier du loto sur un écran",
+        blurb: "Grands numéros, grille complète, aucun doublon.",
+      },
+      {
         id: 'aim',
         kicker: "Échauffe ta visée",
         headline: "Ta visée est-elle rapide et précise ?",
