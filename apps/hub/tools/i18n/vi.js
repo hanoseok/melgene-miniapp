@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'ski',
+        kicker: "Mùa đông đã tới",
+        headline: "Dốc tuyết bất tận, bạn đi được bao xa?",
+        blurb: "Né cây thông và luồn qua các cổng cờ slalom.",
+      },
+      {
+        id: 'brain',
+        kicker: "Trắc nghiệm kiểu tư duy",
+        headline: "Lý trí hay trực giác? Bạn nghiêng về đâu",
+        blurb: "12 câu hỏi đời thường, tỷ lệ trái/phải của bạn.",
+      },
+      {
         id: 'nycard',
         kicker: "Xin chào 2027",
         headline: "Gửi lời chúc đầu tiên của năm mới",

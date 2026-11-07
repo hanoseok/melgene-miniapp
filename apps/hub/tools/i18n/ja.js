@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'ski',
+        kicker: "ウィンターシーズン到来",
+        headline: "終わらないゲレンデ、どこまで滑れる？",
+        blurb: "木をよけて、旗のあいだをすり抜けよう。",
+      },
+      {
+        id: 'brain',
+        kicker: "思考グセ診断",
+        headline: "理屈派？直感派？あなたの脳バランス",
+        blurb: "日常の12問で左右のバランスをチェック。",
+      },
+      {
         id: 'nycard',
         kicker: "2027年 ひつじ年",
         headline: "年賀状、一枚で気持ちを届けよう",

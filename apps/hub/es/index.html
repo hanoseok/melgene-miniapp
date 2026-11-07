@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 81,
+  "numberOfItems": 83,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -646,6 +646,20 @@
       "url": "https://bingocall.example.com/es/",
       "name": "Bingo online",
       "description": "Canta el bingo de la fiesta con un solo móvil o la tele: 75 o 90 bolas, rango propio, número gigante, tablero completo, deshacer y sorteo automático."
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "url": "https://ski.example.com/es/",
+      "name": "Juego de esquí",
+      "description": "Baja por una pista nevada sin fin, esquiva pinos, rocas y muñecos de nieve, y pasa por las puertas de eslalon."
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "url": "https://brain.example.com/es/",
+      "name": "Test de hemisferios",
+      "description": "12 preguntas cotidianas, 2 minutos. ¿Lógica o intuición, plan o espontaneidad? Descubre tu equilibrio de estilo de pensamiento izquierdo/derecho y tu personaje cerebral, por diversión."
     }
   ]
 }
@@ -721,6 +735,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ski">
+        <a class="cur-card" href="https://ski.example.com/es/" style="--h:299;--h2:281">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Arranca la temporada</span></span>
+            <h3 class="cur-headline">¿Hasta dónde bajarás la montaña?</h3>
+            <span class="cur-giant" aria-hidden="true">⛷️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Esquiva los pinos y cuélate entre las puertas.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Juego de esquí</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="brain">
+        <a class="cur-card" href="https://brain.example.com/es/" style="--h:262;--h2:244">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de pensamiento</span></span>
+            <h3 class="cur-headline">¿Lógica o intuición? Mira hacia dónde tiras</h3>
+            <span class="cur-giant" aria-hidden="true">🧠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 preguntas cotidianas, tu equilibrio izquierda/derecha.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test de hemisferios</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="nycard">
         <a class="cur-card" href="https://nycard.example.com/es/" style="--h:105;--h2:131">
           <span class="cur-art">
@@ -785,7 +831,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree">
+      <li class="cur-item" data-id="xmastree" hidden>
         <a class="cur-card" href="https://xmastree.example.com/es/" style="--h:353;--h2:335">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Espíritu navideño</span></span>
@@ -801,7 +847,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="truth">
+      <li class="cur-item" data-id="truth" hidden>
         <a class="cur-card" href="https://truth.example.com/es/" style="--h:315;--h2:297">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Para animar la fiesta</span></span>
@@ -849,45 +895,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wrapped" hidden>
-        <a class="cur-card" href="https://wrapped.example.com/es/" style="--h:27;--h2:9">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Tu año en una tarjeta</span></span>
-            <h3 class="cur-headline">Mi resumen del año</h3>
-            <span class="cur-giant" aria-hidden="true">🎁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Una palabra, una canción, un momento: guárdalo en imagen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Resumen del año</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="ballot" hidden>
-        <a class="cur-card" href="https://ballot.example.com/es/" style="--h:264;--h2:246">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Vota en secreto</span></span>
-            <h3 class="cur-headline">Votación anónima</h3>
-            <span class="cur-giant" aria-hidden="true">🗳️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Pasa el móvil, vota en secreto y revelen juntos al ganador.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Votación anónima</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">81 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">83 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -909,6 +923,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="ski" data-cat="game">
+        <a class="tile-link" href="https://ski.example.com/es/" title="Baja por una pista nevada sin fin, esquiva pinos, rocas y muñecos de nieve, y pasa por las puertas de eslalon." style="--h:299;--h2:281">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Juego de esquí</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="brain" data-cat="test">
+        <a class="tile-link" href="https://brain.example.com/es/" title="12 preguntas cotidianas, 2 minutos. ¿Lógica o intuición, plan o espontaneidad? Descubre tu equilibrio de estilo de pensamiento izquierdo/derecho y tu personaje cerebral, por diversión." style="--h:262;--h2:244">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Test de hemisferios</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="nycard" data-cat="create">
         <a class="tile-link" href="https://nycard.example.com/es/" title="Elige un diseño y un saludo, escribe los nombres y un buen deseo y crea tu tarjeta de Año Nuevo 2027. Guárdala como imagen o envía un enlace que se abre como un sobre." style="--h:105;--h2:131">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NUEVO</span></span>
@@ -967,14 +995,14 @@
       </li>
       <li class="tile" data-id="wrapped" data-cat="create">
         <a class="tile-link" href="https://wrapped.example.com/es/" title="Escribe tu palabra del año, tu mejor momento, canción, comida, lugar, a quién agradecer y tu meta para el próximo año, elige un tema y obtén tu tarjeta de resumen del año." style="--h:27;--h2:9">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">Resumen del año</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="ballot" data-cat="vote">
         <a class="tile-link" href="https://ballot.example.com/es/" title="Pasa un solo móvil para una votación anónima de verdad: premios de fin de año, dónde comer, decisiones de clase. Nadie ve quién votó qué." style="--h:264;--h2:246">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span></span>
           <span class="tile-name">Votación anónima</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

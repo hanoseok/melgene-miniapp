@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'ski',
+        kicker: "Die Skisaison ist da",
+        headline: "Wie weit kommst du den Berg hinab?",
+        blurb: "Weich den Tannen aus und zieh durch die Slalomtore.",
+      },
+      {
+        id: 'brain',
+        kicker: "Denkstil-Quiz",
+        headline: "Logik oder Bauchgefühl – wohin neigst du?",
+        blurb: "12 Alltagsfragen, deine Links-rechts-Balance.",
+      },
+      {
         id: 'nycard',
         kicker: "Hallo, 2027",
         headline: "Die ersten guten Wünsche des Jahres",

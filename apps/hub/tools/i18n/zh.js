@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'ski',
+        kicker: "滑雪季来了",
+        headline: "无尽雪道，你能滑多远？",
+        blurb: "躲开松树，从旗门中间穿过去。",
+      },
+      {
+        id: 'brain',
+        kicker: "思维习惯小测试",
+        headline: "讲逻辑还是凭直觉？测测你的偏向",
+        blurb: "12道日常小题，看看你的左右比例。",
+      },
+      {
         id: 'nycard',
         kicker: "你好，2027",
         headline: "把新年第一句祝福写进贺卡",

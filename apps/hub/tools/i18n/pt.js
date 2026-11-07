@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'ski',
+        kicker: "Chegou a temporada",
+        headline: "Até onde você desce a montanha?",
+        blurb: "Desvie dos pinheiros e passe entre as portas.",
+      },
+      {
+        id: 'brain',
+        kicker: "Teste de pensamento",
+        headline: "Lógica ou intuição? Veja para onde pende",
+        blurb: "12 perguntas do dia a dia, seu equilíbrio esquerdo/direito.",
+      },
+      {
         id: 'nycard',
         kicker: "Olá, 2027!",
         headline: "Mande seus primeiros votos do ano",

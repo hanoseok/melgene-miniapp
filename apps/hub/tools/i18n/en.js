@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'ski',
+        kicker: "Winter is here",
+        headline: "How far down the mountain can you go?",
+        blurb: "Dodge the trees and slip through the slalom gates.",
+      },
+      {
+        id: 'brain',
+        kicker: "Thinking-style quiz",
+        headline: "Logic or intuition? See how you lean",
+        blurb: "12 everyday questions, your left/right balance.",
+      },
+      {
         id: 'nycard',
         kicker: "Hello, 2027",
         headline: "Send your first wishes of the year",

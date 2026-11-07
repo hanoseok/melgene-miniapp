@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'ski',
+        kicker: "겨울 시즌 개막",
+        headline: "끝없는 설산, 어디까지 내려갈까",
+        blurb: "나무는 피하고 깃발 사이로 쏙쏙 지나가세요.",
+      },
+      {
+        id: 'brain',
+        kicker: "생각 습관 테스트",
+        headline: "따지는 쪽? 느끼는 쪽? 내 뇌의 기울기",
+        blurb: "일상 질문 12개로 좌우 균형을 재미로 봐요.",
+      },
+      {
         id: 'nycard',
         kicker: "새해 첫 인사",
         headline: "2027 연하장, 카드 한 장으로",

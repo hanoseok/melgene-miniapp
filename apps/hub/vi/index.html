@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 81,
+  "numberOfItems": 83,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -647,6 +647,20 @@
       "url": "https://bingocall.example.com/vi/",
       "name": "Máy quay số lô tô",
       "description": "Làm quản trò lô tô, bingo tất niên chỉ với một điện thoại hay TV: 75 hoặc 90 số, tự chọn khoảng, số hiện thật to, bảng số đã ra, hoàn tác, quay tự động."
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "url": "https://ski.example.com/vi/",
+      "name": "Trượt tuyết",
+      "description": "Lao xuống con dốc tuyết bất tận, né cây thông, đá và người tuyết, luồn qua cổng cờ slalom để cộng mét thưởng."
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "url": "https://brain.example.com/vi/",
+      "name": "Test não trái hay phải",
+      "description": "12 câu hỏi đời thường, 2 phút. Lý trí hay trực giác, kế hoạch hay ngẫu hứng? Xem tỷ lệ phong cách tư duy não trái/não phải và nhân vật bộ não của bạn, cho vui."
     }
   ]
 }
@@ -722,6 +736,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="ski">
+        <a class="cur-card" href="https://ski.example.com/vi/" style="--h:299;--h2:281">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Mùa đông đã tới</span></span>
+            <h3 class="cur-headline">Dốc tuyết bất tận, bạn đi được bao xa?</h3>
+            <span class="cur-giant" aria-hidden="true">⛷️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Né cây thông và luồn qua các cổng cờ slalom.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Trượt tuyết</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="brain">
+        <a class="cur-card" href="https://brain.example.com/vi/" style="--h:262;--h2:244">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trắc nghiệm kiểu tư duy</span></span>
+            <h3 class="cur-headline">Lý trí hay trực giác? Bạn nghiêng về đâu</h3>
+            <span class="cur-giant" aria-hidden="true">🧠</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 câu hỏi đời thường, tỷ lệ trái/phải của bạn.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Test não trái hay phải</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="nycard">
         <a class="cur-card" href="https://nycard.example.com/vi/" style="--h:105;--h2:131">
           <span class="cur-art">
@@ -786,7 +832,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree">
+      <li class="cur-item" data-id="xmastree" hidden>
         <a class="cur-card" href="https://xmastree.example.com/vi/" style="--h:353;--h2:335">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Đón Giáng sinh</span></span>
@@ -802,7 +848,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="truth">
+      <li class="cur-item" data-id="truth" hidden>
         <a class="cur-card" href="https://truth.example.com/vi/" style="--h:315;--h2:297">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Khuấy động tiệc</span></span>
@@ -850,45 +896,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="wrapped" hidden>
-        <a class="cur-card" href="https://wrapped.example.com/vi/" style="--h:27;--h2:9">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Cả năm trong một tấm thiệp</span></span>
-            <h3 class="cur-headline">Thiệp tổng kết năm</h3>
-            <span class="cur-giant" aria-hidden="true">🎁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Một từ, một bài hát, một khoảnh khắc — lưu thành ảnh.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Thẻ tổng kết năm</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="ballot" hidden>
-        <a class="cur-card" href="https://ballot.example.com/vi/" style="--h:264;--h2:246">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Bầu chọn bí mật</span></span>
-            <h3 class="cur-headline">Bỏ phiếu ẩn danh</h3>
-            <span class="cur-giant" aria-hidden="true">🗳️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Chuyền máy, bầu bí mật, cùng nhau công bố kết quả.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Bỏ phiếu kín</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">81 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">83 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -910,6 +924,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="ski" data-cat="game">
+        <a class="tile-link" href="https://ski.example.com/vi/" title="Lao xuống con dốc tuyết bất tận, né cây thông, đá và người tuyết, luồn qua cổng cờ slalom để cộng mét thưởng." style="--h:299;--h2:281">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Trượt tuyết</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="brain" data-cat="test">
+        <a class="tile-link" href="https://brain.example.com/vi/" title="12 câu hỏi đời thường, 2 phút. Lý trí hay trực giác, kế hoạch hay ngẫu hứng? Xem tỷ lệ phong cách tư duy não trái/não phải và nhân vật bộ não của bạn, cho vui." style="--h:262;--h2:244">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Test não trái hay phải</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="nycard" data-cat="create">
         <a class="tile-link" href="https://nycard.example.com/vi/" title="Chọn mẫu và lời chúc, ghi tên và vài lời nhắn để làm thiệp chúc mừng năm mới 2027. Lưu thành ảnh hoặc gửi link mở ra như phong thư." style="--h:105;--h2:131">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span>
@@ -968,14 +996,14 @@
       </li>
       <li class="tile" data-id="wrapped" data-cat="create">
         <a class="tile-link" href="https://wrapped.example.com/vi/" title="Ghi từ khóa của năm, khoảnh khắc đẹp nhất, bài hát, món ăn, nơi chốn, người muốn cảm ơn và mục tiêu năm sau, chọn chủ đề để có thẻ tổng kết năm của riêng bạn." style="--h:27;--h2:9">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">Thẻ tổng kết năm</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="ballot" data-cat="vote">
         <a class="tile-link" href="https://ballot.example.com/vi/" title="Chuyền một chiếc điện thoại để bỏ phiếu kín thật sự: trao giải tiệc cuối năm, chọn quán, việc của lớp. Không ai biết ai chọn gì, rồi cùng công bố kết quả." style="--h:264;--h2:246">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🗳️</span></span></span>
           <span class="tile-name">Bỏ phiếu kín</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://brain.example.com/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/architect.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/architect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/architect.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/mapmaker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/mapmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/mapmaker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/debater.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/debater.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/debater.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/hacker.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/hacker.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/hacker.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/weaver.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/weaver.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/weaver.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/designer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/designer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/designer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/firework.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/firework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/firework.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/r/dreamer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/r/dreamer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/r/dreamer.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ja/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/zh/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ko/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/fr/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/de/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/th/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/vi/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/es/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/it/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/pt/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://brain.example.com/ru/guide.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brain.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://brain.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://brain.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://brain.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brain.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brain.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://brain.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://brain.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brain.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brain.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://brain.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://brain.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brain.example.com/guide.html"/>
+  </url>
+</urlset>

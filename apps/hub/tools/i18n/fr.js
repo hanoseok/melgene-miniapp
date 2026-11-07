@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'ski',
+        kicker: "La saison est ouverte",
+        headline: "Jusqu’où descendras-tu la montagne ?",
+        blurb: "Évite les sapins et file entre les portes de slalom.",
+      },
+      {
+        id: 'brain',
+        kicker: "Quiz style de pensée",
+        headline: "Logique ou intuition ? Ton penchant",
+        blurb: "12 questions du quotidien, ton équilibre gauche/droite.",
+      },
+      {
         id: 'nycard',
         kicker: "Bonjour 2027",
         headline: "Envoyez vos premiers vœux de l’année",
