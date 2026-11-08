@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'snowman',
+        kicker: "雪が降ったら",
+        headline: "自分だけの雪だるま作り",
+        blurb: "帽子やマフラーを選んで、名前もつけよう。",
+      },
+      {
+        id: 'raffle',
+        kicker: "忘年会の景品抽選",
+        headline: "1等は誰？一人ずつドキドキ発表",
+        blurb: "名簿を貼って景品を決めれば、大画面で当選者を発表",
+      },
+      {
         id: 'ski',
         kicker: "ウィンターシーズン到来",
         headline: "終わらないゲレンデ、どこまで滑れる？",

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Tutte le mini app",
   "inLanguage": "it",
-  "numberOfItems": 83,
+  "numberOfItems": 85,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -661,6 +661,20 @@
       "url": "https://brain.example.com/",
       "name": "Test degli emisferi",
       "description": "12 domande di tutti i giorni, 2 minuti. Logica o intuito, piani o istinto? Scopri il tuo equilibrio di stile di pensiero sinistro/destro e il tuo personaggio cervello, per gioco."
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "url": "https://snowman.example.com/",
+      "name": "Pupazzo di neve",
+      "description": "Crea il tuo pupazzo di neve online: impila le palle, scegli occhi, naso di carota, cappello, sciarpa e braccia, dagli un nome e salva l’immagine o condividi un link."
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "url": "https://raffle.example.com/",
+      "name": "Estrazione premi",
+      "description": "Estrai i premi della festa sul maxischermo: nomi incollati o biglietti numerati, premi, vincitori svelati uno alla volta, annulla, risultati da copiare o condividere."
     }
   ]
 }
@@ -736,6 +750,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowman">
+        <a class="cur-card" href="https://snowman.example.com/" style="--h:79;--h2:61">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Nevica!</span></span>
+            <h3 class="cur-headline">Crea il tuo pupazzo di neve</h3>
+            <span class="cur-giant" aria-hidden="true">⛄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Scegli cappello, sciarpa e naso di carota.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Pupazzo di neve</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="raffle">
+        <a class="cur-card" href="https://raffle.example.com/" style="--h:320;--h2:302">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Estrazione della festa</span></span>
+            <h3 class="cur-headline">Chi vince il primo premio?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Incolla i nomi, scegli i premi, svela un vincitore alla volta.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Estrazione premi</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Gioca</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="ski">
         <a class="cur-card" href="https://ski.example.com/" style="--h:299;--h2:281">
           <span class="cur-art">
@@ -800,7 +846,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="aim">
+      <li class="cur-item" data-id="aim" hidden>
         <a class="cur-card" href="https://aim.example.com/" style="--h:223;--h2:205">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Scalda la mira</span></span>
@@ -816,7 +862,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastype">
+      <li class="cur-item" data-id="xmastype" hidden>
         <a class="cur-card" href="https://xmastype.example.com/" style="--h:33;--h2:15">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Un quiz festivo</span></span>
@@ -864,45 +910,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps" hidden>
-        <a class="cur-card" href="https://cps.example.com/" style="--h:118;--h2:144">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Scalda le dita</span></span>
-            <h3 class="cur-headline">Quanti click al secondo?</h3>
-            <span class="cur-giant" aria-hidden="true">🖱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tocca il riquadro più veloce che puoi per 1, 5 o 10 secondi.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test dei click</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="enneagram" hidden>
-        <a class="cur-card" href="https://enneagram.example.com/" style="--h:84;--h2:66">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NUOVO</span></span><span class="cur-kicker">Nove modi di vedere il mondo</span></span>
-            <h3 class="cur-headline">Qual è il tuo tipo di enneagramma?</h3>
-            <span class="cur-giant" aria-hidden="true">🔷</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dodici domande quotidiane svelano cosa ti spinge davvero.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test dell’enneagramma</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Gioca</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Mostra selezione 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Mostra selezione 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Mostra selezione 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Mostra selezione 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Mostra selezione 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Mostra selezione 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">83 app</span></h2>
+      <h2 id="browse-h">Tutte le mini app<span class="browse-count" id="hub-count" aria-live="polite">85 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordina per</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Novità</option><option value="popular">Popolari</option><option value="rating">Più votate</option></select>
@@ -924,6 +938,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowman" data-cat="create">
+        <a class="tile-link" href="https://snowman.example.com/" title="Crea il tuo pupazzo di neve online: impila le palle, scegli occhi, naso di carota, cappello, sciarpa e braccia, dagli un nome e salva l’immagine o condividi un link." style="--h:79;--h2:61">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Pupazzo di neve</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="raffle" data-cat="vote">
+        <a class="tile-link" href="https://raffle.example.com/" title="Estrai i premi della festa sul maxischermo: nomi incollati o biglietti numerati, premi, vincitori svelati uno alla volta, annulla, risultati da copiare o condividere." style="--h:320;--h2:302">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="tile-name">Estrazione premi</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/" title="Scendi lungo una pista innevata senza fine, schiva abeti, rocce e pupazzi di neve e infila le porte dello slalom." style="--h:299;--h2:281">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NUOVO</span></span>
@@ -982,14 +1010,14 @@
       </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/" title="Clicca più veloce che puoi per 1, 5 o 10 secondi e scopri i tuoi click al secondo (CPS) e il tuo livello." style="--h:118;--h2:144">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span></span>
           <span class="tile-name">Test dei click</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="enneagram" data-cat="test">
         <a class="tile-link" href="https://enneagram.example.com/" title="12 domande quotidiane, 2 minuti. Cosa ti spinge davvero? Scopri il tuo tipo di enneagramma tra nove, con punti di forza e consigli, per gioco." style="--h:84;--h2:66">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NUOVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span></span>
           <span class="tile-name">Test dell’enneagramma</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

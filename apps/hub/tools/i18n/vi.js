@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'snowman',
+        kicker: "Tuyết rơi rồi",
+        headline: "Đắp người tuyết của riêng bạn",
+        blurb: "Chọn mũ, khăn, mũi cà rốt rồi đặt tên nhé.",
+      },
+      {
+        id: 'raffle',
+        kicker: "Quay thưởng tất niên",
+        headline: "Giải nhất về tay ai? Công bố từng người",
+        blurb: "Dán danh sách, đặt giải, quay từng người trên màn hình lớn.",
+      },
+      {
         id: 'ski',
         kicker: "Mùa đông đã tới",
         headline: "Dốc tuyết bất tận, bạn đi được bao xa?",

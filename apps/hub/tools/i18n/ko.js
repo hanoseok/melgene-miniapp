@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'snowman',
+        kicker: "첫눈 오는 날엔",
+        headline: "나만의 눈사람 만들기",
+        blurb: "모자·목도리·당근 코 골라 이름까지 붙여 줘요.",
+      },
+      {
+        id: 'raffle',
+        kicker: "송년회 경품 추첨",
+        headline: "1등은 누구? 한 명씩 두근두근",
+        blurb: "명단 붙여 넣고 경품 정하면 큰 화면에서 한 명씩 공개",
+      },
+      {
         id: 'ski',
         kicker: "겨울 시즌 개막",
         headline: "끝없는 설산, 어디까지 내려갈까",

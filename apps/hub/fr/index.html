@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Toutes les mini-apps",
   "inLanguage": "fr",
-  "numberOfItems": 83,
+  "numberOfItems": 85,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -660,6 +660,20 @@
       "url": "https://brain.example.com/fr/",
       "name": "Cerveau gauche/droit",
       "description": "12 questions du quotidien, 2 minutes. Logique ou intuition, plans ou spontanéité ? Découvre ton équilibre de style de pensée gauche/droite et ton personnage cerveau, pour s’amuser."
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "url": "https://snowman.example.com/fr/",
+      "name": "Bonhomme de neige",
+      "description": "Fais ton bonhomme de neige en ligne : empile les boules, choisis les yeux, le nez en carotte, le chapeau, l’écharpe et les bras, donne-lui un nom, puis enregistre l’image ou partage un lien."
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "url": "https://raffle.example.com/fr/",
+      "name": "Tirage au sort en ligne",
+      "description": "Le tirage des lots de la soirée sur grand écran : noms collés ou tickets numérotés, lots, gagnants révélés un par un, annulation, résultats à copier ou partager."
     }
   ]
 }
@@ -735,6 +749,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowman">
+        <a class="cur-card" href="https://snowman.example.com/fr/" style="--h:79;--h2:61">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Il neige !</span></span>
+            <h3 class="cur-headline">Fais ton bonhomme de neige</h3>
+            <span class="cur-giant" aria-hidden="true">⛄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Chapeau, écharpe, nez en carotte… et un prénom.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Bonhomme de neige</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="raffle">
+        <a class="cur-card" href="https://raffle.example.com/fr/" style="--h:320;--h2:302">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Tirage des lots</span></span>
+            <h3 class="cur-headline">Un gagnant après l’autre, sur grand écran</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Collez les noms, indiquez les lots et révélez chaque gagnant.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tirage au sort en ligne</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jouer</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="ski">
         <a class="cur-card" href="https://ski.example.com/fr/" style="--h:299;--h2:281">
           <span class="cur-art">
@@ -799,7 +845,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="aim">
+      <li class="cur-item" data-id="aim" hidden>
         <a class="cur-card" href="https://aim.example.com/fr/" style="--h:223;--h2:205">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Échauffe ta visée</span></span>
@@ -815,7 +861,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastype">
+      <li class="cur-item" data-id="xmastype" hidden>
         <a class="cur-card" href="https://xmastype.example.com/fr/" style="--h:33;--h2:15">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Un quiz festif</span></span>
@@ -863,45 +909,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps" hidden>
-        <a class="cur-card" href="https://cps.example.com/fr/" style="--h:118;--h2:144">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Échauffe tes doigts</span></span>
-            <h3 class="cur-headline">Combien de clics par seconde ?</h3>
-            <span class="cur-giant" aria-hidden="true">🖱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tape sur la zone le plus vite possible pendant 1, 5 ou 10 secondes.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test de clics</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="enneagram" hidden>
-        <a class="cur-card" href="https://enneagram.example.com/fr/" style="--h:84;--h2:66">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Neuf façons de voir le monde</span></span>
-            <h3 class="cur-headline">Quel est ton type d’ennéagramme ?</h3>
-            <span class="cur-giant" aria-hidden="true">🔷</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Douze questions du quotidien révèlent ce qui te motive vraiment.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Test ennéagramme</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jouer</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Afficher la sélection 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Afficher la sélection 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Afficher la sélection 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Afficher la sélection 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Afficher la sélection 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Afficher la sélection 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">83 apps</span></h2>
+      <h2 id="browse-h">Toutes les mini-apps<span class="browse-count" id="hub-count" aria-live="polite">85 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Trier par</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Nouveautés</option><option value="popular">Populaires</option><option value="rating">Mieux notées</option></select>
@@ -923,6 +937,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowman" data-cat="create">
+        <a class="tile-link" href="https://snowman.example.com/fr/" title="Fais ton bonhomme de neige en ligne : empile les boules, choisis les yeux, le nez en carotte, le chapeau, l’écharpe et les bras, donne-lui un nom, puis enregistre l’image ou partage un lien." style="--h:79;--h2:61">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Bonhomme de neige</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="raffle" data-cat="vote">
+        <a class="tile-link" href="https://raffle.example.com/fr/" title="Le tirage des lots de la soirée sur grand écran : noms collés ou tickets numérotés, lots, gagnants révélés un par un, annulation, résultats à copier ou partager." style="--h:320;--h2:302">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tirage au sort en ligne</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/fr/" title="Dévale une piste sans fin, évite sapins, rochers et bonshommes de neige, et passe les portes de slalom pour des mètres bonus." style="--h:299;--h2:281">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span>
@@ -981,14 +1009,14 @@
       </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/fr/" title="Clique le plus vite possible pendant 1, 5 ou 10 secondes et découvre tes clics par seconde (CPS) et ton niveau." style="--h:118;--h2:144">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span></span>
           <span class="tile-name">Test de clics</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="enneagram" data-cat="test">
         <a class="tile-link" href="https://enneagram.example.com/fr/" title="12 questions du quotidien, 2 minutes. Qu’est-ce qui te motive vraiment ? Découvre ton type parmi neuf et des conseils pour grandir, pour s’amuser." style="--h:84;--h2:66">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span></span>
           <span class="tile-name">Test ennéagramme</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

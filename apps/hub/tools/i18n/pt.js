@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: 'snowman',
+        kicker: "Caiu neve!",
+        headline: "Monte seu boneco de neve",
+        blurb: "Escolha chapéu, cachecol e nariz de cenoura.",
+      },
+      {
+        id: 'raffle',
+        kicker: "Sorteio da firma",
+        headline: "Quem leva o primeiro prêmio?",
+        blurb: "Cole os nomes, defina os prêmios e revele cada ganhador.",
+      },
+      {
         id: 'ski',
         kicker: "Chegou a temporada",
         headline: "Até onde você desce a montanha?",

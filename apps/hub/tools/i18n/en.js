@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'snowman',
+        kicker: "Let it snow",
+        headline: "Build your own snowman",
+        blurb: "Pick a hat, a scarf and a carrot nose, then name it.",
+      },
+      {
+        id: 'raffle',
+        kicker: "Office party prizes",
+        headline: "Draw the prizes, one winner at a time",
+        blurb: "Paste names or tickets, set prizes, reveal winners on the big screen.",
+      },
+      {
         id: 'ski',
         kicker: "Winter is here",
         headline: "How far down the mountain can you go?",

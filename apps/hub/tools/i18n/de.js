@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'snowman',
+        kicker: "Es schneit!",
+        headline: "Schneemann bauen – ganz nach dir",
+        blurb: "Hut, Schal und Karottennase wählen, Namen geben.",
+      },
+      {
+        id: 'raffle',
+        kicker: "Verlosung zur Feier",
+        headline: "Wer holt den Hauptpreis?",
+        blurb: "Namen einfügen, Preise festlegen, Gewinner einzeln ziehen.",
+      },
+      {
         id: 'ski',
         kicker: "Die Skisaison ist da",
         headline: "Wie weit kommst du den Berg hinab?",

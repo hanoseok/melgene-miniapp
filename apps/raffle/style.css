@@ -1,0 +1,279 @@
+/* apps/raffle/style.css — 경품 추첨기: 짙은 와인색 무대 + 금빛 리본, 크림색 카드, 선물 상자 느낌의 공개 칸.
+ * 모바일 한 줄(--app-width 480px). 발표 모드(body.rf-present)는 한 줄 폭 그대로 글자만 크게, 타이틀 바·바닥글·보조 정보 숨김.
+ * 셔플(.is-rolling)·공개(.is-pop)·색종이는 움직임 줄이기면 없음.
+ * 제목·버튼은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --wine: #3b0d1e;
+  --wine-2: #5a1530;
+  --wine-deep: #26070f;
+  --cream: #fff7ea;
+  --cream-2: #f6e8d2;
+  --ink: #2a1418;
+  --ink-dim: rgba(42, 20, 24, 0.78);
+  --ink-faint: rgba(42, 20, 24, 0.6);
+  --on-wine: #fff7ea;
+  --on-wine-dim: rgba(255, 247, 234, 0.8);
+  --gold: #ffcf4d;
+  --gold-2: #d99a12;
+  --ribbon: #e8384f;
+  --mint: #6fd3a6;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.06), 0 14px 28px -16px rgba(0, 0, 0, 0.75);
+
+  --font-display: 'Baloo 2', var(--font-sans);
+  --display-weight: 800;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--on-wine);
+  --mg-top-badge-bg: var(--gold);
+  --mg-top-badge-fg: var(--ink);
+  --lang-bg: var(--wine-deep);
+  --lang-fg: var(--on-wine);
+  --lang-border: rgba(255, 247, 234, 0.28);
+  --mg-star-on: var(--gold);
+  --mg-star-off: rgba(255, 247, 234, 0.28);
+  --mg-heart-bg: var(--wine-deep);
+  --mg-heart-border: var(--ribbon);
+  --mg-heart-fg: #ff9aa7;
+  --mg-heart-on: var(--ribbon);
+  --mg-share-bg: rgba(255, 247, 234, 0.1);
+  --mg-share-border: rgba(255, 247, 234, 0.26);
+  --mg-share-primary-bg: var(--gold);
+  --mg-share-primary-fg: var(--ink);
+  --mg-x: currentColor;
+  --mg-tiktok: currentColor;
+  --mg-faq-bg: rgba(255, 247, 234, 0.08);
+  --mg-faq-border: rgba(255, 247, 234, 0.24);
+  --mg-end-retry-bg: var(--gold);
+  --mg-end-retry-fg: var(--ink);
+  --toast-bg: var(--cream);
+  --toast-fg: var(--ink);
+}
+
+html { background: var(--wine); }
+body.rf-body {
+  min-height: 100vh;
+  color: var(--on-wine);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+  background-color: var(--wine);
+  background-image:
+    radial-gradient(circle at 12% 14%, rgba(255, 207, 77, 0.55) 0 3px, transparent 4px),
+    radial-gradient(circle at 86% 10%, rgba(255, 158, 199, 0.6) 0 3px, transparent 4px),
+    radial-gradient(circle at 78% 46%, rgba(111, 211, 166, 0.5) 0 3px, transparent 4px),
+    radial-gradient(circle at 16% 64%, rgba(255, 207, 77, 0.45) 0 3px, transparent 4px),
+    radial-gradient(ellipse at 50% -10%, rgba(232, 56, 79, 0.35), transparent 60%);
+  background-attachment: fixed;
+}
+[hidden] { display: none !important; }
+
+/* base.css :lang(zh|th|vi) 가 모든 요소 글꼴을 덮으므로 제목 요소에 다시 지정 */
+.rf-h1, .rf-kicker, .rf-h1-main, .rf-h1-main em, .rf-btn, .rf-h2, .rf-mode-name, .rf-label, .rf-mini, .rf-seg-btn, .rf-sum-kicker,
+.rf-doc h1, .rf-ready, .rf-prog, .rf-prize-now, .rf-slot-name, .rf-slot-chip, .rf-group-name, .rf-res-name, .rf-add, .rf-switch, .rf-prize-rank, .rf-prize-count {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+}
+
+.rf-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; overflow-x: clip; }
+.rf-screen { padding-top: 10px; }
+
+/* ---------------- 제목 ---------------- */
+.rf-h1 { margin: 4px 0 6px; text-align: center; line-height: 1.15; }
+.rf-kicker {
+  display: inline-block; margin-bottom: 10px; padding: 2px 14px; border-radius: 999px;
+  background: var(--gold); color: var(--ink); font-size: 15px; line-height: 1.6; box-shadow: 0 3px 0 var(--gold-2);
+}
+.rf-h1-main { display: block; font-size: 30px; color: var(--on-wine); overflow-wrap: break-word; }
+.rf-h1-main em { font-style: normal; color: var(--gold); }
+.rf-hook { margin: 6px auto 14px; max-width: 30em; text-align: center; font-size: 15px; color: var(--on-wine-dim); }
+
+/* ---------------- 카드·입력 ---------------- */
+.rf-card { background: var(--cream); color: var(--ink); border-radius: 18px; padding: 14px; box-shadow: var(--shadow); }
+.rf-card + .rf-card { margin-top: 12px; }
+.rf-form { display: grid; gap: 10px; }
+.rf-label { display: block; margin: 0; font-size: 15px; color: var(--ink); line-height: 1.4; }
+.rf-label-sm { font-size: 14px; color: var(--ink-dim); }
+.rf-hint { margin: 0; font-size: 12.5px; color: var(--ink-faint); line-height: 1.5; }
+.rf-modes { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+.rf-mode {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 8px; align-items: center;
+  min-width: 0; min-height: 64px; padding: 8px 10px; border: 2px solid transparent; border-radius: 14px;
+  background: var(--cream-2); color: var(--ink); text-align: left; cursor: pointer;
+}
+.rf-mode[aria-checked="true"] { border-color: var(--wine); background: #fff; box-shadow: 0 3px 0 var(--wine); }
+.rf-mode-icon { grid-row: 1 / 3; font-size: 22px; line-height: 1; }
+.rf-mode-name { font-size: 15.5px; line-height: 1.25; overflow-wrap: anywhere; }
+.rf-mode-desc { font-size: 12px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: anywhere; }
+.rf-names, .rf-numbers { display: grid; gap: 6px; }
+.rf-textarea {
+  width: 100%; min-height: 150px; padding: 10px 12px; border: 2px solid transparent; border-radius: 12px; resize: vertical;
+  background: #fff; color: var(--ink); font: 16px/1.5 var(--font-sans);
+}
+.rf-textarea:focus, .rf-input:focus, .rf-prize-name:focus { outline: none; border-color: var(--gold-2); }
+.rf-names-bar { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.rf-stat { flex: 1; min-width: 0; margin: 0; font-size: 13.5px; font-weight: 700; color: var(--wine-2); }
+.rf-link-btn { flex: none; padding: 4px 8px; border: 0; border-radius: 999px; background: var(--cream-2); color: var(--ink); font-size: 13px; cursor: pointer; }
+.rf-warn { margin: 0; padding: 8px 10px; border-radius: 10px; background: #fff0c9; color: #6b4300; font-size: 13px; line-height: 1.45; }
+.rf-num-field { display: grid; grid-template-columns: minmax(0, 1fr) 110px; gap: 10px; align-items: center; }
+.rf-input {
+  width: 100%; min-height: 46px; padding: 6px 10px; border: 2px solid transparent; border-radius: 12px;
+  background: #fff; color: var(--ink); font-size: 20px; font-weight: 700; text-align: center; font-variant-numeric: tabular-nums;
+}
+
+/* 경품 줄 */
+.rf-prize-list { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.rf-prize { display: grid; grid-template-columns: 26px minmax(0, 1fr) auto 30px; gap: 6px; align-items: center; }
+.rf-prize-rank { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--wine); color: var(--gold); font-size: 14px; line-height: 1; }
+.rf-prize-name { width: 100%; min-width: 0; min-height: 42px; padding: 6px 10px; border: 2px solid transparent; border-radius: 10px; background: #fff; color: var(--ink); font: 600 15px/1.3 var(--font-sans); }
+.rf-step { display: flex; align-items: center; gap: 2px; padding: 2px; border-radius: 999px; background: var(--cream-2); }
+.rf-step-btn { width: 32px; height: 32px; border: 0; border-radius: 50%; background: #fff; color: var(--ink); font-size: 18px; line-height: 1; cursor: pointer; }
+.rf-step-btn:disabled { opacity: 0.4; cursor: default; }
+.rf-prize-count { min-width: 30px; text-align: center; font-size: 17px; font-variant-numeric: tabular-nums; }
+.rf-prize-rm { width: 30px; height: 30px; border: 0; border-radius: 50%; background: transparent; color: var(--ink-faint); font-size: 20px; line-height: 1; cursor: pointer; }
+.rf-prize-rm:disabled { opacity: 0.3; cursor: default; }
+.rf-add { justify-self: start; padding: 6px 14px; border: 2px dashed rgba(59, 13, 30, 0.35); border-radius: 999px; background: transparent; color: var(--wine-2); font-size: 14.5px; cursor: pointer; }
+.rf-add:disabled { opacity: 0.45; cursor: default; }
+.rf-seg { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 4px; padding: 4px; border-radius: 14px; background: var(--cream-2); }
+.rf-seg-btn { min-width: 0; min-height: 40px; padding: 4px 6px; border: 0; border-radius: 10px; background: transparent; color: var(--ink-dim); font-size: 14.5px; line-height: 1.2; cursor: pointer; overflow-wrap: anywhere; }
+.rf-seg-btn[aria-checked="true"] { background: var(--wine); color: var(--on-wine); }
+.rf-switch {
+  display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 46px; padding: 6px 10px; border-radius: 14px;
+  background: var(--cream-2); font-size: 15px; line-height: 1.25; cursor: pointer; overflow-wrap: anywhere;
+}
+.rf-switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.rf-switch-ui { flex: none; position: relative; width: 40px; height: 24px; border-radius: 12px; background: rgba(42, 20, 24, 0.25); transition: background 0.2s; }
+.rf-switch-ui::after { content: ''; position: absolute; left: 3px; top: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; transition: transform 0.2s; }
+.rf-switch input:checked + .rf-switch-ui { background: var(--ribbon); }
+.rf-switch input:checked + .rf-switch-ui::after { transform: translateX(16px); }
+.rf-slots { margin: 0; font-size: 13.5px; font-weight: 700; color: var(--wine-2); text-align: right; }
+.rf-error { margin: 12px 0 0; padding: 10px 12px; border-radius: 12px; background: #ffe2dc; color: #8c1d14; font-size: 14px; font-weight: 700; }
+
+/* ---------------- 버튼 ---------------- */
+.rf-btn {
+  display: block; width: 100%; min-height: 52px; padding: 10px 16px; border: 0; border-radius: 16px; cursor: pointer;
+  font-size: 19px; line-height: 1.25; text-align: center; overflow-wrap: anywhere;
+}
+.rf-btn-primary { margin-top: 14px; background: var(--gold); color: var(--ink); box-shadow: 0 5px 0 var(--gold-2); }
+.rf-btn-primary:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--gold-2); }
+.rf-btn:disabled { opacity: 0.55; cursor: default; transform: none; }
+.rf-btn-ghost { min-height: 46px; font-size: 16px; background: rgba(255, 247, 234, 0.12); color: var(--on-wine); box-shadow: inset 0 0 0 2px rgba(255, 247, 234, 0.28); }
+.rf-card .rf-btn-ghost { margin-top: 10px; background: var(--cream-2); color: var(--ink); box-shadow: none; }
+.rf-btn:focus-visible, .rf-mode:focus-visible, .rf-mini:focus-visible, .rf-seg-btn:focus-visible, .rf-step-btn:focus-visible, .rf-add:focus-visible,
+.rf-link-btn:focus-visible, .rf-prize-rm:focus-visible, .rf-switch input:focus-visible + .rf-switch-ui { outline: 3px solid var(--gold); outline-offset: 3px; }
+.rf-fair { margin: 10px 0 0; text-align: center; font-size: 12px; color: var(--on-wine-dim); line-height: 1.5; }
+.rf-mini { flex: none; padding: 5px 12px; border: 0; border-radius: 999px; background: var(--cream); color: var(--ink); font-size: 14px; cursor: pointer; white-space: nowrap; }
+.rf-mini-ghost { background: rgba(255, 247, 234, 0.12); color: var(--on-wine); box-shadow: inset 0 0 0 1.5px rgba(255, 247, 234, 0.3); }
+.rf-mini[aria-pressed="true"] { background: var(--gold); color: var(--ink); box-shadow: none; }
+
+/* ---------------- 추첨 화면 ---------------- */
+.rf-bar { display: flex; align-items: center; gap: 6px; }
+.rf-prog { flex: 1; min-width: 0; margin: 0; font-size: 15px; color: var(--gold); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.rf-stage { position: relative; display: grid; justify-items: center; margin-top: 14px; padding: 16px 12px 18px; border-radius: 22px; text-align: center;
+  background: linear-gradient(180deg, rgba(255, 247, 234, 0.08), rgba(255, 247, 234, 0.02)); box-shadow: inset 0 0 0 2px rgba(255, 207, 77, 0.25); overflow: hidden; }
+.rf-stage.is-grand { box-shadow: inset 0 0 0 3px var(--gold), 0 0 34px -8px rgba(255, 207, 77, 0.6); }
+.rf-prize-now { margin: 0; max-width: 100%; font-size: 24px; line-height: 1.2; color: var(--gold); overflow-wrap: anywhere; }
+.rf-prize-sub { margin: 2px 0 0; font-size: 14px; color: var(--on-wine-dim); }
+/* 공개 칸: 리본을 두른 선물 상자 */
+.rf-slot {
+  position: relative; display: grid; place-items: center; width: 100%; min-height: 150px; margin-top: 14px; padding: 18px 14px; border-radius: 18px;
+  background: var(--cream); color: var(--ink); box-shadow: 0 6px 0 var(--cream-2), 0 18px 30px -16px rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(90deg, transparent calc(50% - 7px), rgba(232, 56, 79, 0.09) calc(50% - 7px), rgba(232, 56, 79, 0.09) calc(50% + 7px), transparent calc(50% + 7px));
+}
+.rf-slot.is-empty { background-color: var(--wine-deep); color: var(--gold); box-shadow: inset 0 0 0 3px rgba(255, 207, 77, 0.4); background-image: none; }
+.rf-slot-name { position: relative; max-width: 100%; font-size: clamp(34px, 11vw, 52px); line-height: 1.15; overflow-wrap: anywhere; }
+.rf-slot-name.is-long { font-size: clamp(24px, 7.5vw, 36px); }
+.rf-slot-multi { position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.rf-slot-chip { padding: 4px 12px; border-radius: 999px; background: var(--wine); color: var(--gold); font-size: 18px; line-height: 1.35; overflow-wrap: anywhere; }
+.rf-slot.is-rolling .rf-slot-name { opacity: 0.8; filter: blur(0.4px); }
+.rf-slot.is-rolling { animation: rf-shake 0.24s linear infinite; }
+.rf-slot.is-pop { animation: rf-pop 0.5s ease-out; }
+.rf-ready { margin: 12px 0 0; font-size: 15px; color: var(--on-wine-dim); }
+.rf-confetti { position: absolute; inset: 0; pointer-events: none; }
+.rf-bit { position: absolute; top: -12px; width: 8px; height: 13px; border-radius: 2px; opacity: 0; animation: rf-fall 1.7s ease-in forwards; }
+
+.rf-draw-btn { min-height: 64px; font-size: 23px; }
+.rf-draw-btn.is-finish { background: var(--mint); box-shadow: 0 5px 0 #3a9c72; }
+.rf-skip { margin-top: 10px; }
+.rf-controls { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin-top: 12px; }
+.rf-left { margin: 10px 0 0; text-align: center; font-size: 13.5px; color: var(--on-wine-dim); }
+
+.rf-board-wrap { margin-top: 18px; }
+.rf-draw .rf-board-title { margin: 0 0 8px; font-size: 18px; color: var(--on-wine); }
+.rf-board { display: grid; gap: 8px; }
+.rf-group { padding: 10px 12px; border-radius: 14px; background: rgba(255, 247, 234, 0.08); }
+.rf-group-h, .rf-res-h { display: flex; align-items: baseline; gap: 8px; margin: 0 0 6px; font-size: 16px; line-height: 1.3; }
+.rf-group-name, .rf-res-name { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.rf-group-name { color: var(--gold); }
+.rf-group-count, .rf-res-count { flex: none; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.rf-group-count { color: var(--on-wine-dim); }
+.rf-group-list, .rf-res-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.rf-winner { padding: 2px 10px; border-radius: 999px; background: rgba(255, 247, 234, 0.14); font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; }
+.rf-winner.is-new { background: var(--gold); color: var(--ink); font-weight: 700; }
+.rf-new { margin-top: 18px; }
+
+/* 발표 모드(TV·프로젝터): 한 줄 폭 그대로, 상·이름은 더 크게, 보조 정보 숨김 */
+body.rf-present .mg-top, body.rf-present .site-footer, body.rf-present .rf-board-wrap, body.rf-present .rf-new, body.rf-present .rf-left { display: none !important; }
+body.rf-present .rf-stage { min-height: 52vh; align-content: center; }
+body.rf-present .rf-prize-now { font-size: clamp(30px, 8vw, 40px); }
+body.rf-present .rf-prize-sub { font-size: 17px; }
+body.rf-present .rf-slot { min-height: 34vh; }
+body.rf-present .rf-slot-name { font-size: clamp(44px, 14vw, 68px); }
+body.rf-present .rf-slot-name.is-long { font-size: clamp(30px, 9.5vw, 46px); }
+body.rf-present .rf-slot-chip { font-size: 22px; }
+
+/* ---------------- 결과 화면 ---------------- */
+.rf-end > * + * { margin-top: 14px; }
+.rf-sum { text-align: center; padding: 18px 16px; border-top: 6px solid var(--ribbon); animation: rf-in 0.35s ease-out; }
+.rf-sum-kicker { margin: 0; font-size: 15px; color: var(--ribbon); }
+.rf-h2 { margin: 0; font-size: 28px; line-height: 1.2; color: var(--ink); }
+.rf-sum-sub { margin: 10px 0 0; font-size: 14.5px; color: var(--ink-dim); }
+.rf-results { display: grid; gap: 8px; margin-top: 14px; text-align: left; }
+.rf-res { padding: 10px 12px; border-radius: 14px; background: var(--cream-2); }
+.rf-res-name { color: var(--wine-2); }
+.rf-res-count { min-width: 26px; padding: 0 8px; border-radius: 999px; background: var(--wine); color: var(--gold); text-align: center; line-height: 1.6; }
+.rf-res-item { padding: 2px 10px; border-radius: 999px; background: #fff; font-size: 15.5px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.rf-copy { margin-top: 16px; }
+
+@keyframes rf-shake { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-1.4deg); } 75% { transform: rotate(1.4deg); } }
+@keyframes rf-pop { from { transform: scale(0.8); } 60% { transform: scale(1.06); } to { transform: none; } }
+@keyframes rf-in { from { transform: scale(0.96); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes rf-fall { 0% { opacity: 1; transform: translate(0, 0) rotate(0); } 100% { opacity: 0; transform: translate(var(--dx, 0), 260px) rotate(var(--rot, 180deg)); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .rf-slot.is-rolling, .rf-slot.is-pop, .rf-sum, .rf-bit { animation: none; }
+  .rf-switch-ui, .rf-switch-ui::after { transition: none; }
+}
+
+/* ---------------- 개인정보·바닥글 ---------------- */
+.rf-doc { padding: 18px 16px; margin-top: 12px; background: var(--cream); color: var(--ink); border-radius: 16px; box-shadow: var(--shadow); }
+.rf-doc h1 { font-size: 24px; margin: 0 0 12px; }
+.rf-doc h2 { font-size: 17px; margin: 18px 0 6px; }
+.rf-doc p { font-size: 14.5px; color: var(--ink-dim); }
+.rf-doc a { color: #b3262b; }
+.site-footer { margin-top: 36px; padding: 18px 0 30px; text-align: center; font-size: 12.5px; color: var(--on-wine-dim); }
+.site-footer a { color: var(--on-wine); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .rf-h1, html:lang(th) .rf-btn, html:lang(th) .rf-mode-name, html:lang(th) .rf-switch, html:lang(th) .rf-h2,
+html:lang(th) .rf-seg-btn, html:lang(th) .rf-prize-now, html:lang(th) .rf-slot-name { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) .rf-h1-main { line-height: 1.45; }
+html:lang(th) body { word-break: normal; line-break: strict; }
+html:lang(vi) .rf-h1-main, html:lang(vi) .rf-mode-name, html:lang(vi) .rf-slot-name { line-height: 1.4; }
+html:lang(ja) body { word-break: auto-phrase; }
+html:lang(de) .rf-label, html:lang(de) .rf-btn, html:lang(de) .rf-hint, html:lang(de) .rf-mode-desc, html:lang(de) .rf-switch,
+html:lang(de) .rf-seg-btn, html:lang(de) .rf-warn { hyphens: auto; -webkit-hyphens: auto; }
+
+@media (max-width: 380px) {
+  .rf-h1-main { font-size: 26px; }
+  .rf-btn { font-size: 17px; }
+  .rf-draw-btn { font-size: 21px; }
+  .rf-mode { padding: 8px; column-gap: 6px; }
+  .rf-mode-name { font-size: 14.5px; }
+  .rf-switch { font-size: 14px; padding: 6px 8px; }
+  .rf-step-btn { width: 30px; height: 30px; }
+}

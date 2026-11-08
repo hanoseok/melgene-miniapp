@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "すべてのミニアプリ",
   "inLanguage": "ja",
-  "numberOfItems": 83,
+  "numberOfItems": 85,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -660,6 +660,20 @@
       "url": "https://brain.example.com/ja/",
       "name": "右脳左脳診断",
       "description": "日常の12問、約2分。理屈派？それとも直感派？あなたの左脳タイプ・右脳タイプの思考バランスと、ぴったりの脳キャラを気軽に診断。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "url": "https://snowman.example.com/ja/",
+      "name": "雪だるま作り",
+      "description": "雪玉の大きさから目・口・にんじんの鼻・帽子・マフラー・腕までタップで選んで、自分だけの雪だるまを作ろう。名前をつけて画像保存やリンクでシェア。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "url": "https://raffle.example.com/ja/",
+      "name": "景品抽選",
+      "description": "忘年会の景品抽選を大画面で。名前の貼り付けや番号札、1等・2等・3等の景品、一人ずつドキドキ発表、取り消し、結果のコピーと共有まで。"
     }
   ]
 }
@@ -735,6 +749,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowman">
+        <a class="cur-card" href="https://snowman.example.com/ja/" style="--h:79;--h2:61">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">雪が降ったら</span></span>
+            <h3 class="cur-headline">自分だけの雪だるま作り</h3>
+            <span class="cur-giant" aria-hidden="true">⛄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">帽子やマフラーを選んで、名前もつけよう。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">雪だるま作り</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="raffle">
+        <a class="cur-card" href="https://raffle.example.com/ja/" style="--h:320;--h2:302">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">忘年会の景品抽選</span></span>
+            <h3 class="cur-headline">1等は誰？一人ずつドキドキ発表</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">名簿を貼って景品を決めれば、大画面で当選者を発表</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">景品抽選</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="ski">
         <a class="cur-card" href="https://ski.example.com/ja/" style="--h:299;--h2:281">
           <span class="cur-art">
@@ -799,7 +845,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="aim">
+      <li class="cur-item" data-id="aim" hidden>
         <a class="cur-card" href="https://aim.example.com/ja/" style="--h:223;--h2:205">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">ゲーム前のウォームアップ</span></span>
@@ -815,7 +861,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastype">
+      <li class="cur-item" data-id="xmastype" hidden>
         <a class="cur-card" href="https://xmastype.example.com/ja/" style="--h:33;--h2:15">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">冬のゆる心理テスト</span></span>
@@ -863,45 +909,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps" hidden>
-        <a class="cur-card" href="https://cps.example.com/ja/" style="--h:118;--h2:144">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">指の準備はいい？</span></span>
-            <h3 class="cur-headline">1秒に何回クリックできる？</h3>
-            <span class="cur-giant" aria-hidden="true">🖱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">1・5・10秒、ボックスをひたすら連打</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">クリック速度テスト</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="enneagram" hidden>
-        <a class="cur-card" href="https://enneagram.example.com/ja/" style="--h:84;--h2:66">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">9つのタイプで見る性格</span></span>
-            <h3 class="cur-headline">あなたのエニアグラムタイプは？</h3>
-            <span class="cur-giant" aria-hidden="true">🔷</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">日常の12問で、心の奥の動機がわかる。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">エニアグラム診断</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">今すぐ遊ぶ</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1番目のおすすめを表示" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="2" aria-label="3番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="3" aria-label="4番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="4" aria-label="5番目のおすすめを表示"></button><button type="button" class="cur-dot" data-i="5" aria-label="6番目のおすすめを表示"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">83件</span></h2>
+      <h2 id="browse-h">すべてのミニアプリ<span class="browse-count" id="hub-count" aria-live="polite">85件</span></h2>
       <label class="sort">
         <span class="visually-hidden">並び替え</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>新着順</option><option value="popular">人気順</option><option value="rating">評価順</option></select>
@@ -923,6 +937,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowman" data-cat="create">
+        <a class="tile-link" href="https://snowman.example.com/ja/" title="雪玉の大きさから目・口・にんじんの鼻・帽子・マフラー・腕までタップで選んで、自分だけの雪だるまを作ろう。名前をつけて画像保存やリンクでシェア。" style="--h:79;--h2:61">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">雪だるま作り</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="raffle" data-cat="vote">
+        <a class="tile-link" href="https://raffle.example.com/ja/" title="忘年会の景品抽選を大画面で。名前の貼り付けや番号札、1等・2等・3等の景品、一人ずつドキドキ発表、取り消し、結果のコピーと共有まで。" style="--h:320;--h2:302">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">景品抽選</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/ja/" title="終わりのないゲレンデを滑り降り、木や岩や雪だるまをよけて旗門をくぐるスキーゲーム。" style="--h:299;--h2:281">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span>
@@ -981,14 +1009,14 @@
       </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/ja/" title="1秒・5秒・10秒でどれだけ速くクリックできる？1秒あたりのクリック数（CPS）とランクがすぐわかります。" style="--h:118;--h2:144">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span></span>
           <span class="tile-name">クリック速度テスト</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="enneagram" data-cat="test">
         <a class="tile-link" href="https://enneagram.example.com/ja/" title="日常の12問、約2分。あなたを動かす本当の動機は？9つの中からエニアグラムのタイプと成長のヒントを気軽にチェック。" style="--h:84;--h2:66">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span></span>
           <span class="tile-name">エニアグラム診断</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

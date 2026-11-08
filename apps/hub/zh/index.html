@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 83,
+  "numberOfItems": 85,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -660,6 +660,20 @@
       "url": "https://brain.example.com/zh/",
       "name": "左脑右脑测试",
       "description": "12道日常小题，2分钟。你更讲逻辑还是更凭直觉？测出你的左脑式·右脑式思维比例和专属大脑角色，仅供娱乐。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "url": "https://snowman.example.com/zh/",
+      "name": "堆雪人",
+      "description": "从雪球大小到眼睛、嘴巴、胡萝卜鼻子、帽子、围巾和手臂，点一点就能堆出自己的雪人。取个名字，存成图片或发链接分享。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "url": "https://raffle.example.com/zh/",
+      "name": "在线抽奖",
+      "description": "年会、尾牙抽奖上大屏幕：粘贴名单或用号码牌，设置一二三等奖，逐个揭晓中奖者，可撤销，结果一键复制和分享。"
     }
   ]
 }
@@ -735,6 +749,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowman">
+        <a class="cur-card" href="https://snowman.example.com/zh/" style="--h:79;--h2:61">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">下雪啦</span></span>
+            <h3 class="cur-headline">堆一个专属雪人</h3>
+            <span class="cur-giant" aria-hidden="true">⛄</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">挑帽子、围巾和胡萝卜鼻子，再取个名字。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">堆雪人</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="raffle">
+        <a class="cur-card" href="https://raffle.example.com/zh/" style="--h:320;--h2:302">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">年会抽奖</span></span>
+            <h3 class="cur-headline">一等奖花落谁家？逐个揭晓</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">贴上名单、设好奖项，大屏幕上一个一个抽</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">在线抽奖</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="ski">
         <a class="cur-card" href="https://ski.example.com/zh/" style="--h:299;--h2:281">
           <span class="cur-art">
@@ -799,7 +845,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="aim">
+      <li class="cur-item" data-id="aim" hidden>
         <a class="cur-card" href="https://aim.example.com/zh/" style="--h:223;--h2:205">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎯</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">开黑前热热手</span></span>
@@ -815,7 +861,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastype">
+      <li class="cur-item" data-id="xmastype" hidden>
         <a class="cur-card" href="https://xmastype.example.com/zh/" style="--h:33;--h2:15">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">节日趣味心理测试</span></span>
@@ -863,45 +909,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="cps" hidden>
-        <a class="cur-card" href="https://cps.example.com/zh/" style="--h:118;--h2:144">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">活动一下手指</span></span>
-            <h3 class="cur-headline">你一秒能点几下？</h3>
-            <span class="cur-giant" aria-hidden="true">🖱️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">1、5或10秒内疯狂连点大方框</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">点击速度测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="enneagram" hidden>
-        <a class="cur-card" href="https://enneagram.example.com/zh/" style="--h:84;--h2:66">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">看世界的九种方式</span></span>
-            <h3 class="cur-headline">你是九型人格的哪一型？</h3>
-            <span class="cur-giant" aria-hidden="true">🔷</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12道日常小题，找到真正驱动你的东西。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">九型人格测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">83个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">85个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -923,6 +937,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowman" data-cat="create">
+        <a class="tile-link" href="https://snowman.example.com/zh/" title="从雪球大小到眼睛、嘴巴、胡萝卜鼻子、帽子、围巾和手臂，点一点就能堆出自己的雪人。取个名字，存成图片或发链接分享。" style="--h:79;--h2:61">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">堆雪人</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="raffle" data-cat="vote">
+        <a class="tile-link" href="https://raffle.example.com/zh/" title="年会、尾牙抽奖上大屏幕：粘贴名单或用号码牌，设置一二三等奖，逐个揭晓中奖者，可撤销，结果一键复制和分享。" style="--h:320;--h2:302">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">在线抽奖</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/zh/" title="沿着无尽雪道一路向下，躲开松树、岩石和雪人，穿过旗门拿奖励米数的滑雪游戏。" style="--h:299;--h2:281">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span>
@@ -981,14 +1009,14 @@
       </li>
       <li class="tile" data-id="cps" data-cat="game">
         <a class="tile-link" href="https://cps.example.com/zh/" title="在1秒、5秒或10秒内尽情狂点，测出你的每秒点击数（CPS）和手速等级。" style="--h:118;--h2:144">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🖱️</span></span></span>
           <span class="tile-name">点击速度测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="enneagram" data-cat="test">
         <a class="tile-link" href="https://enneagram.example.com/zh/" title="12道日常小题，2分钟。真正驱动你的是什么？在九种类型中找到你的九型人格和成长建议，仅供娱乐。" style="--h:84;--h2:66">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔷</span></span></span>
           <span class="tile-name">九型人格测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

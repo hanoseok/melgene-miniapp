@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'snowman',
+        kicker: "下雪啦",
+        headline: "堆一个专属雪人",
+        blurb: "挑帽子、围巾和胡萝卜鼻子，再取个名字。",
+      },
+      {
+        id: 'raffle',
+        kicker: "年会抽奖",
+        headline: "一等奖花落谁家？逐个揭晓",
+        blurb: "贴上名单、设好奖项，大屏幕上一个一个抽",
+      },
+      {
         id: 'ski',
         kicker: "滑雪季来了",
         headline: "无尽雪道，你能滑多远？",

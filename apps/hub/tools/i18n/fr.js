@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'snowman',
+        kicker: "Il neige !",
+        headline: "Fais ton bonhomme de neige",
+        blurb: "Chapeau, écharpe, nez en carotte… et un prénom.",
+      },
+      {
+        id: 'raffle',
+        kicker: "Tirage des lots",
+        headline: "Un gagnant après l’autre, sur grand écran",
+        blurb: "Collez les noms, indiquez les lots et révélez chaque gagnant.",
+      },
+      {
         id: 'ski',
         kicker: "La saison est ouverte",
         headline: "Jusqu’où descendras-tu la montagne ?",
