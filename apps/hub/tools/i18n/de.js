@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'icefish',
+        kicker: "Zugefrorener See",
+        headline: "Eisangeln im Eisloch",
+        blurb: "60 Sekunden, so viele Fische wie möglich – ohne Schnurriss.",
+      },
+      {
+        id: 'introvert',
+        kicker: "Woher kommt deine Energie?",
+        headline: "Introvertiert oder extrovertiert?",
+        blurb: "12 Alltagssituationen zeigen, wo du stehst.",
+      },
+      {
         id: 'snowman',
         kicker: "Es schneit!",
         headline: "Schneemann bauen – ganz nach dir",

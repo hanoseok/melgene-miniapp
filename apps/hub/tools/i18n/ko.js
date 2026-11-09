@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'icefish',
+        kicker: "꽁꽁 언 호수 위에서",
+        headline: "얼음 구멍으로 물고기 낚기",
+        blurb: "60초 동안 최대한 많이! 줄이 끊어지지 않게 감아요.",
+      },
+      {
+        id: 'introvert',
+        kicker: "혼자 충전? 같이 충전?",
+        headline: "나는 내향인일까 외향인일까",
+        blurb: "일상 상황 12개로 알아보는 나의 사회적 에너지",
+      },
+      {
         id: 'snowman',
         kicker: "첫눈 오는 날엔",
         headline: "나만의 눈사람 만들기",

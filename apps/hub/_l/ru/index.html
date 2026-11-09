@@ -80,7 +80,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 85,
+  "numberOfItems": 87,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -676,6 +676,20 @@
       "url": "https://raffle.example.com/",
       "name": "Розыгрыш призов",
       "description": "Розыгрыш призов на корпоративе на большом экране: имена или номера билетов, призы, победители по одному, отмена, итоги можно скопировать и отправить."
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "url": "https://icefish.example.com/",
+      "name": "Зимняя рыбалка",
+      "description": "Опусти леску в лунку на замёрзшем озере, дождись поклёвки и вытащи рыбу, не порвав леску. 60 секунд на раунд."
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "url": "https://introvert.example.com/",
+      "name": "Интро или экстраверт",
+      "description": "12 бытовых ситуаций, 2 минуты. Ты заряжаешься в одиночестве или среди людей? Узнай, где ты между интровертом и экстравертом, и своего персонажа социальной энергии — для развлечения."
     }
   ]
 }
@@ -751,6 +765,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="icefish">
+        <a class="cur-card" href="https://icefish.example.com/" style="--h:47;--h2:29">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Замёрзшее озеро</span></span>
+            <h3 class="cur-headline">Зимняя рыбалка через лунку</h3>
+            <span class="cur-giant" aria-hidden="true">🎣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">60 секунд — поймай как можно больше рыбы и не порви леску.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Зимняя рыбалка</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="introvert">
+        <a class="cur-card" href="https://introvert.example.com/" style="--h:23;--h2:5">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Где ты черпаешь энергию?</span></span>
+            <h3 class="cur-headline">Интроверт или экстраверт?</h3>
+            <span class="cur-giant" aria-hidden="true">🔌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 жизненных ситуаций покажут, где ты на шкале общительности.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Интро или экстраверт</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowman">
         <a class="cur-card" href="https://snowman.example.com/" style="--h:79;--h2:61">
           <span class="cur-art">
@@ -815,7 +861,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard">
+      <li class="cur-item" data-id="nycard" hidden>
         <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Привет, 2027!</span></span>
@@ -831,7 +877,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingocall">
+      <li class="cur-item" data-id="bingocall" hidden>
         <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Для новогоднего корпоратива</span></span>
@@ -879,45 +925,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree" hidden>
-        <a class="cur-card" href="https://xmastree.example.com/" style="--h:353;--h2:335">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Новогоднее настроение</span></span>
-            <h3 class="cur-headline">Наряди свою ёлку</h3>
-            <span class="cur-giant" aria-hidden="true">🎄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Вешай игрушки, включи снег и сохрани картинку.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Нарядить ёлку</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="truth" hidden>
-        <a class="cur-card" href="https://truth.example.com/" style="--h:315;--h2:297">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Для вечеринки</span></span>
-            <h3 class="cur-headline">Правда или действие</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">По очереди тяни карту: правда или действие!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Правда или действие</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 85</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 87</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -939,6 +953,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="icefish" data-cat="game">
+        <a class="tile-link" href="https://icefish.example.com/" title="Опусти леску в лунку на замёрзшем озере, дождись поклёвки и вытащи рыбу, не порвав леску. 60 секунд на раунд." style="--h:47;--h2:29">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Зимняя рыбалка</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="introvert" data-cat="test">
+        <a class="tile-link" href="https://introvert.example.com/" title="12 бытовых ситуаций, 2 минуты. Ты заряжаешься в одиночестве или среди людей? Узнай, где ты между интровертом и экстравертом, и своего персонажа социальной энергии — для развлечения." style="--h:23;--h2:5">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Интро или экстраверт</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/" title="Слепи снеговика онлайн: выбери комы, глаза, нос-морковку, шапку, шарф и руки, дай ему имя — и сохрани картинку или отправь ссылку." style="--h:79;--h2:61">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
@@ -997,14 +1025,14 @@
       </li>
       <li class="tile" data-id="xmastree" data-cat="create">
         <a class="tile-link" href="https://xmastree.example.com/" title="Выбери ёлку и фон, нажимай, чтобы повесить шары, звёзды, леденцы и подарки, включи гирлянду и снег — и сохрани картинку или отправь ссылку." style="--h:353;--h2:335">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span></span>
           <span class="tile-name">Нарядить ёлку</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="truth" data-cat="vote">
         <a class="tile-link" href="https://truth.example.com/" title="Правда или действие без пошлостей для вечеринок и корпоративов: впиши имена, выбери набор и открывай по одной карточке." style="--h:315;--h2:297">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">Правда или действие</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 85,
+  "numberOfItems": 87,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -674,6 +674,20 @@
       "url": "https://raffle.example.com/zh/",
       "name": "在线抽奖",
       "description": "年会、尾牙抽奖上大屏幕：粘贴名单或用号码牌，设置一二三等奖，逐个揭晓中奖者，可撤销，结果一键复制和分享。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "url": "https://icefish.example.com/zh/",
+      "name": "冰钓游戏",
+      "description": "在冰封湖面的冰洞里放下鱼线，鱼儿咬钩后控制拉力收线，别让线断掉。每局60秒的冰钓游戏。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "url": "https://introvert.example.com/zh/",
+      "name": "内向外向测试",
+      "description": "12个日常场景，2分钟。你是独处充电，还是和人在一起才有电？测出你在内向与外向之间的位置和专属能量角色，仅供娱乐。"
     }
   ]
 }
@@ -749,6 +763,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="icefish">
+        <a class="cur-card" href="https://icefish.example.com/zh/" style="--h:47;--h2:29">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">冰封湖面上</span></span>
+            <h3 class="cur-headline">从冰洞里钓鱼</h3>
+            <span class="cur-giant" aria-hidden="true">🎣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">60秒内钓得越多越好——小心别把线拉断。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">冰钓游戏</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="introvert">
+        <a class="cur-card" href="https://introvert.example.com/zh/" style="--h:23;--h2:5">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">独处充电还是社交充电?</span></span>
+            <h3 class="cur-headline">你是内向还是外向?</h3>
+            <span class="cur-giant" aria-hidden="true">🔌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12个日常场景,看看你的社交能量在哪一端</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">内向外向测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowman">
         <a class="cur-card" href="https://snowman.example.com/zh/" style="--h:79;--h2:61">
           <span class="cur-art">
@@ -813,7 +859,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard">
+      <li class="cur-item" data-id="nycard" hidden>
         <a class="cur-card" href="https://nycard.example.com/zh/" style="--h:105;--h2:131">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">你好，2027</span></span>
@@ -829,7 +875,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingocall">
+      <li class="cur-item" data-id="bingocall" hidden>
         <a class="cur-card" href="https://bingocall.example.com/zh/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">尾牙年会必备</span></span>
@@ -877,45 +923,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree" hidden>
-        <a class="cur-card" href="https://xmastree.example.com/zh/" style="--h:353;--h2:335">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">提前过圣诞</span></span>
-            <h3 class="cur-headline">装饰我的圣诞树</h3>
-            <span class="cur-giant" aria-hidden="true">🎄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">点一点挂上装饰，下场雪，再存成图片。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">装饰圣诞树</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="truth" hidden>
-        <a class="cur-card" href="https://truth.example.com/zh/" style="--h:315;--h2:297">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">聚会暖场神器</span></span>
-            <h3 class="cur-headline">真心话大冒险</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">轮流抽卡：说真心话，还是接受大冒险？</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">真心话大冒险</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">85个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">87个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -937,6 +951,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="icefish" data-cat="game">
+        <a class="tile-link" href="https://icefish.example.com/zh/" title="在冰封湖面的冰洞里放下鱼线，鱼儿咬钩后控制拉力收线，别让线断掉。每局60秒的冰钓游戏。" style="--h:47;--h2:29">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">冰钓游戏</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="introvert" data-cat="test">
+        <a class="tile-link" href="https://introvert.example.com/zh/" title="12个日常场景，2分钟。你是独处充电，还是和人在一起才有电？测出你在内向与外向之间的位置和专属能量角色，仅供娱乐。" style="--h:23;--h2:5">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">内向外向测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/zh/" title="从雪球大小到眼睛、嘴巴、胡萝卜鼻子、帽子、围巾和手臂，点一点就能堆出自己的雪人。取个名字，存成图片或发链接分享。" style="--h:79;--h2:61">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
@@ -995,14 +1023,14 @@
       </li>
       <li class="tile" data-id="xmastree" data-cat="create">
         <a class="tile-link" href="https://xmastree.example.com/zh/" title="选好树形和背景，点一点挂上彩球、星星、拐杖糖和礼物，再打开闪烁的彩灯和雪花，存成图片或发链接分享。" style="--h:353;--h2:335">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span></span>
           <span class="tile-name">装饰圣诞树</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="truth" data-cat="vote">
         <a class="tile-link" href="https://truth.example.com/zh/" title="适合聚会和年会的真心话大冒险。输入名字、选择卡包，按公平顺序一张张翻开干净有趣的卡片。" style="--h:315;--h2:297">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">真心话大冒险</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

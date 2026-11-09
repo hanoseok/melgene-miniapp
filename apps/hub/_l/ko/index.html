@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 85,
+  "numberOfItems": 87,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -675,6 +675,20 @@
       "url": "https://raffle.example.com/",
       "name": "경품 추첨기",
       "description": "송년회·회식 경품 추첨을 큰 화면으로. 이름 붙여 넣기나 번호표, 1등·2등·3등 경품, 한 명씩 두근두근 공개, 되돌리기, 결과 복사·공유까지."
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "url": "https://icefish.example.com/",
+      "name": "얼음 낚시",
+      "description": "꽁꽁 언 호수 구멍에 낚싯줄을 내리고, 입질이 오면 장력을 조절하며 감아 올리는 60초 얼음낚시 게임."
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "url": "https://introvert.example.com/",
+      "name": "내향형 외향형 테스트",
+      "description": "일상 상황 12개, 2분이면 끝. 혼자 있을 때 충전될까, 사람들 속에서 충전될까? 내향과 외향 사이 나의 위치와 나를 닮은 에너지 캐릭터를 재미로 알아봐요."
     }
   ]
 }
@@ -750,6 +764,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="icefish">
+        <a class="cur-card" href="https://icefish.example.com/" style="--h:47;--h2:29">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">꽁꽁 언 호수 위에서</span></span>
+            <h3 class="cur-headline">얼음 구멍으로 물고기 낚기</h3>
+            <span class="cur-giant" aria-hidden="true">🎣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">60초 동안 최대한 많이! 줄이 끊어지지 않게 감아요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">얼음 낚시</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="introvert">
+        <a class="cur-card" href="https://introvert.example.com/" style="--h:23;--h2:5">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">혼자 충전? 같이 충전?</span></span>
+            <h3 class="cur-headline">나는 내향인일까 외향인일까</h3>
+            <span class="cur-giant" aria-hidden="true">🔌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">일상 상황 12개로 알아보는 나의 사회적 에너지</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">내향형 외향형 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowman">
         <a class="cur-card" href="https://snowman.example.com/" style="--h:79;--h2:61">
           <span class="cur-art">
@@ -814,7 +860,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard">
+      <li class="cur-item" data-id="nycard" hidden>
         <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">새해 첫 인사</span></span>
@@ -830,7 +876,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingocall">
+      <li class="cur-item" data-id="bingocall" hidden>
         <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 빙고 진행</span></span>
@@ -878,45 +924,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree" hidden>
-        <a class="cur-card" href="https://xmastree.example.com/" style="--h:353;--h2:335">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">반짝반짝 연말 준비</span></span>
-            <h3 class="cur-headline">나만의 크리스마스 트리</h3>
-            <span class="cur-giant" aria-hidden="true">🎄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">장식을 콕콕 달고 눈을 내려 이미지로 저장해요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">크리스마스 트리 꾸미기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="truth" hidden>
-        <a class="cur-card" href="https://truth.example.com/" style="--h:315;--h2:297">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 분위기 메이커</span></span>
-            <h3 class="cur-headline">진실 혹은 도전</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">순서대로 카드를 뽑아 진실을 말하거나 미션에 도전!</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">진실 게임</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">85개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">87개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -938,6 +952,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="icefish" data-cat="game">
+        <a class="tile-link" href="https://icefish.example.com/" title="꽁꽁 언 호수 구멍에 낚싯줄을 내리고, 입질이 오면 장력을 조절하며 감아 올리는 60초 얼음낚시 게임." style="--h:47;--h2:29">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">얼음 낚시</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="introvert" data-cat="test">
+        <a class="tile-link" href="https://introvert.example.com/" title="일상 상황 12개, 2분이면 끝. 혼자 있을 때 충전될까, 사람들 속에서 충전될까? 내향과 외향 사이 나의 위치와 나를 닮은 에너지 캐릭터를 재미로 알아봐요." style="--h:23;--h2:5">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">내향형 외향형 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/" title="눈덩이 크기부터 눈·입·당근 코·모자·목도리·팔까지 톡톡 골라 나만의 눈사람을 만들어 보세요. 눈 내리는 배경, 이름 붙이기, 이미지 저장과 링크 공유까지." style="--h:79;--h2:61">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
@@ -996,14 +1024,14 @@
       </li>
       <li class="tile" data-id="xmastree" data-cat="create">
         <a class="tile-link" href="https://xmastree.example.com/" title="트리 모양과 배경을 고르고 공·별·지팡이 사탕·선물을 톡톡 달아 크리스마스 트리를 꾸며 보세요. 반짝이는 전구와 눈, 이미지 저장과 링크 공유까지." style="--h:353;--h2:335">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span></span>
           <span class="tile-name">크리스마스 트리 꾸미기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="truth" data-cat="vote">
         <a class="tile-link" href="https://truth.example.com/" title="송년회·모임용 진실 혹은 도전. 이름을 넣고 팩을 고르면 공평한 순서로 깔끔한 질문과 도전 카드를 한 장씩 뒤집어요." style="--h:315;--h2:297">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">진실 게임</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

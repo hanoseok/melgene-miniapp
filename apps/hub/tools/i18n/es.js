@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'icefish',
+        kicker: "Lago congelado",
+        headline: "Pesca bajo el hielo",
+        blurb: "60 segundos para sacar todos los peces que puedas sin romper el sedal.",
+      },
+      {
+        id: 'introvert',
+        kicker: "¿Solo o en compañía?",
+        headline: "¿Introvertido o extrovertido?",
+        blurb: "12 situaciones cotidianas revelan tu energía social.",
+      },
+      {
         id: 'snowman',
         kicker: "¡Nieva!",
         headline: "Haz tu propio muñeco de nieve",

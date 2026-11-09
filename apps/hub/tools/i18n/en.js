@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'icefish',
+        kicker: "Frozen lake, one hole",
+        headline: "Catch fish through the ice",
+        blurb: "60 seconds to reel in as many fish as you can — don't snap the line.",
+      },
+      {
+        id: 'introvert',
+        kicker: "Alone or in a crowd?",
+        headline: "Introvert or extrovert?",
+        blurb: "12 everyday situations reveal where you sit on the social spectrum.",
+      },
+      {
         id: 'snowman',
         kicker: "Let it snow",
         headline: "Build your own snowman",

@@ -146,7 +146,7 @@ a { color: inherit; }
 .br-hero-result { width: 180px; height: 180px; margin: 0 auto; }
 
 /* ---------------- 시작 화면 (티징만) ---------------- */
-.br-start { tebr-align: center; padding-top: 16px; }
+.br-start { text-align: center; padding-top: 16px; }
 .br-badge {
   display: inline-block; margin: 0 0 4px; max-width: 100%;
   padding: 5px 14px; border-radius: 999px;
@@ -179,7 +179,7 @@ a { color: inherit; }
   background: repeating-linear-gradient(-45deg, var(--warm-deep) 0 8px, #fff 8px 14px);
   transition: width 0.3s ease;
 }
-.br-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; tebr-align: right; }
+.br-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
 
 .br-q-card {
   position: relative;
@@ -199,7 +199,7 @@ a { color: inherit; }
 .br-choice {
   width: 100%; min-height: 54px;
   padding: 12px 16px;
-  tebr-align: left;
+  text-align: left;
   border: 2px solid var(--line);
   border-radius: 14px;
   background: var(--paper-2);
@@ -215,7 +215,7 @@ a { color: inherit; }
 .br-quiz .mg-ad { margin-top: 20px; }
 
 /* ---------------- 분석 중 ---------------- */
-.br-loading { tebr-align: center; padding: 40px 0; }
+.br-loading { text-align: center; padding: 40px 0; }
 .br-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); color: var(--navy); }
 .br-loading-sub { margin: 0; font-size: 14px; color: var(--warm-deep); font-weight: 700; }
 
@@ -235,7 +235,7 @@ a { color: inherit; }
 .br-card {
   position: relative;
   margin-top: 14px; padding: 18px 18px 20px;
-  tebr-align: center;
+  text-align: center;
   background: var(--card);
   border: 2.5px solid var(--navy);
   border-radius: 22px;
@@ -256,13 +256,13 @@ a { color: inherit; }
   background: var(--c-ink); border: 1.5px dashed var(--c-main);
   color: var(--c-deep); font-size: 13.5px; font-weight: 800;
 }
-.br-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); tebr-align: left; }
-.br-sub { margin: 18px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); tebr-align: left; line-height: 1.3; }
+.br-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.br-sub { margin: 18px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; line-height: 1.3; }
 
-.br-traits { margin: 0; padding: 0; list-style: none; tebr-align: left; }
+.br-traits { margin: 0; padding: 0; list-style: none; text-align: left; }
 .br-traits li { position: relative; margin: 0 0 6px; padding: 0 0 0 26px; font-size: 15px; line-height: 1.55; color: var(--ink-dim); }
 .br-traits li::before { content: '✦'; position: absolute; left: 4px; top: 0; font-weight: 900; color: var(--c-main); }
-.br-note { margin-top: 14px; padding: 2px 14px 12px; border-radius: 14px; background: var(--c-ink); border: 1.5px dashed var(--c-main); tebr-align: left; }
+.br-note { margin-top: 14px; padding: 2px 14px 12px; border-radius: 14px; background: var(--c-ink); border: 1.5px dashed var(--c-main); text-align: left; }
 .br-note .br-sub { margin: 10px 0 4px; font-size: 16px; }
 .br-perfect { margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--navy); font-weight: 700; }
 
@@ -306,7 +306,7 @@ a { color: inherit; }
 .br-tips li::before { content: '→'; position: absolute; left: 4px; top: 0; font-weight: 900; color: var(--c-main); }
 
 /* 재미용 안내 */
-.br-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: #fff; border: 1.5px dashed rgba(35, 48, 74, 0.3); font-size: 13px; line-height: 1.5; color: var(--ink-dim); tebr-align: center; }
+.br-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: #fff; border: 1.5px dashed rgba(35, 48, 74, 0.3); font-size: 13px; line-height: 1.5; color: var(--ink-dim); text-align: center; }
 
 /* ---------------- 개인정보 ---------------- */
 .br-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'icefish',
+        kicker: "Hồ đóng băng",
+        headline: "Câu cá qua lỗ băng",
+        blurb: "60 giây câu càng nhiều càng tốt — đừng để đứt dây.",
+      },
+      {
+        id: 'introvert',
+        kicker: "Một mình hay cùng mọi người?",
+        headline: "Bạn hướng nội hay hướng ngoại?",
+        blurb: "12 tình huống thường ngày cho biết năng lượng xã hội của bạn.",
+      },
+      {
         id: 'snowman',
         kicker: "Tuyết rơi rồi",
         headline: "Đắp người tuyết của riêng bạn",

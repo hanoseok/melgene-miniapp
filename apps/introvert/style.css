@@ -1,0 +1,343 @@
+/* apps/introvert/style.css — 내향형 외향형 테스트: 왼쪽 조용한 밤(인디고) · 오른쪽 환한 낮(햇살 주황)으로 나뉜 바탕 + 남색 잉크, 말랑한 에너지 콩 그림(tools/art.js).
+ * 결과 페이지는 그 결과 색(--c-main 강조 · --c-deep 글자 · --c-ink 옅은 바탕)으로 물든다.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 변수 이름: --warm* = 내향 쪽(왼쪽, 인디고), --cool* = 외향 쪽(오른쪽, 햇살).
+ */
+:root {
+  --paper: #f8f6fd;
+  --paper-2: #fffdfa;
+  --warm: #7484e6;
+  --warm-deep: #3f4cb0;
+  --warm-soft: #eceefc;
+  --cool: #ffbf5a;
+  --cool-deep: #b25a10;
+  --cool-soft: #fff4de;
+  --navy: #262a4a;
+  --gold: #ffd23f;
+  --ink: #262a4a;
+  --ink-dim: #4c5870;
+  --ink-faint: #8089a0;
+  --card: #ffffff;
+  --line: rgba(35, 48, 74, 0.16);
+  /* 결과 색 (결과 페이지 body 의 style 이 덮어쓴다) */
+  --c-main: #8a7ae0;
+  --c-deep: #3b2f86;
+  --c-ink: #f3f0ff;
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--navy);
+  --mg-top-badge-bg: var(--warm-deep);
+  --mg-top-badge-fg: #fff;
+  --lang-bg: #fff;
+  --lang-fg: var(--navy);
+  --lang-border: rgba(35, 48, 74, 0.25);
+  /* 공통 끝 화면 */
+  --mg-star-on: #ffb400;
+  --mg-star-off: rgba(35, 48, 74, 0.18);
+  --mg-heart-bg: #fff0f3;
+  --mg-heart-border: #ffc2cf;
+  --mg-heart-fg: #d43a62;
+  --mg-heart-on: #e6456e;
+  --mg-share-bg: #fff;
+  --mg-share-border: rgba(35, 48, 74, 0.16);
+  --mg-x: var(--navy);
+  --mg-tiktok: var(--navy);
+  --mg-faq-bg: #fff;
+  --mg-faq-border: rgba(35, 48, 74, 0.14);
+  --mg-end-retry-bg: var(--navy);
+  --mg-end-retry-fg: #fff;
+  --toast-bg: rgba(35, 48, 74, 0.95);
+}
+
+html { background: var(--paper); }
+body.iv-body {
+  min-height: 100vh;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(rgba(35, 48, 74, 0.07) 1.6px, transparent 1.8px),
+    linear-gradient(90deg, var(--warm-soft) 0 50%, var(--cool-soft) 50% 100%);
+  background-size: 26px 26px, auto;
+  background-attachment: scroll, fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+body.iv-result-page {
+  background-image:
+    radial-gradient(ellipse 120% 40% at 50% -8%, color-mix(in srgb, var(--c-main) 26%, transparent), transparent 70%),
+    radial-gradient(rgba(35, 48, 74, 0.07) 1.6px, transparent 1.8px),
+    linear-gradient(90deg, var(--warm-soft) 0 50%, var(--cool-soft) 50% 100%);
+  background-size: auto, 26px 26px, auto;
+  background-attachment: scroll, scroll, fixed;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.iv-h1, .iv-kicker, .iv-h1-main, .iv-h1-main em, .iv-badge, .iv-btn, .iv-q-text, .iv-q-num, .iv-result-name, .iv-eyebrow, .iv-vibe, .iv-sub,
+.iv-loading-text, .iv-cta strong, .iv-doc h1, .iv-progress-num, .iv-meta span, .iv-keys li, .iv-pair-label, .iv-pair-name, .iv-perfect {
+  font-family: var(--font-display);
+}
+
+/* ---------------- 배경: 천천히 떠다니는 장식 (고정, 가로 넘침 없음) ---------------- */
+.iv-sky { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.iv-float {
+  position: absolute; font-size: 26px; line-height: 1; opacity: 0.24;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  animation: iv-drift 9s ease-in-out infinite alternate;
+}
+.iv-float-1 { top: 14%; left: calc(50% - 240px - 54px); }
+.iv-float-2 { top: 38%; right: calc(50% - 240px - 50px); animation-delay: -3s; }
+.iv-float-3 { top: 70%; left: calc(50% - 240px - 46px); animation-delay: -6s; }
+.iv-float-4 { top: 84%; right: calc(50% - 240px - 56px); animation-delay: -1.5s; }
+@keyframes iv-drift { from { transform: translateY(10px) rotate(-8deg); } to { transform: translateY(-12px) rotate(8deg); } }
+
+.mg-top, .iv-shell { position: relative; z-index: 1; }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.iv-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.iv-screen { padding-top: 12px; }
+
+.iv-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; min-height: 58px;
+  padding: 12px 20px;
+  border: 0; border-radius: 16px;
+  font-size: 21px; font-weight: var(--display-weight);
+  line-height: 1.25;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.iv-btn-primary {
+  background: var(--warm-deep);
+  color: #fff;
+  border: 3px solid var(--navy);
+  box-shadow: 0 5px 0 var(--navy);
+}
+.iv-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--navy); }
+.iv-btn:focus-visible, .iv-choice:focus-visible, .iv-back:focus-visible { outline: 3px dashed var(--navy); outline-offset: 4px; }
+
+/* ---------------- 그림 ---------------- */
+.iv-hero { position: relative; display: grid; place-items: center; width: 188px; height: 188px; margin: 10px auto 0; }
+.iv-art {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  filter: drop-shadow(0 10px 18px color-mix(in srgb, var(--h-main) 30%, transparent));
+}
+.iv-char { transform-box: view-box; transform-origin: 100px 170px; animation: iv-sway 3.2s ease-in-out infinite; }
+@keyframes iv-sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg) translateY(-3px); } }
+.iv-q {
+  position: absolute; right: -2px; top: -2px; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--gold); color: var(--navy); border: 3px solid var(--navy);
+  font: 700 28px/1 'Fredoka', 'Nunito', sans-serif;
+  box-shadow: 0 4px 0 var(--navy);
+  animation: iv-bob 2.2s ease-in-out infinite reverse;
+}
+@keyframes iv-bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-4px) rotate(4deg); } }
+.iv-hero-loading { width: 170px; height: 170px; margin-bottom: 14px; }
+.iv-hero-loading .iv-char { animation-duration: 0.7s; }
+.iv-hero-result { width: 180px; height: 180px; margin: 0 auto; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.iv-start { text-align: center; padding-top: 16px; }
+.iv-badge {
+  display: inline-block; margin: 0 0 4px; max-width: 100%;
+  padding: 5px 14px; border-radius: 999px;
+  background: #fff; border: 2px solid var(--navy);
+  color: var(--navy); font-size: 15px; font-weight: var(--display-weight); line-height: 1.3;
+}
+.iv-h1 { margin: 12px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.iv-kicker { display: block; margin-bottom: 8px; font-size: 17px; color: var(--warm-deep); letter-spacing: 0.02em; }
+.iv-h1-main { display: block; font-size: 35px; line-height: 1.22; color: var(--navy); overflow-wrap: break-word; }
+.iv-h1-main em {
+  font-style: normal;
+  background: linear-gradient(transparent 58%, rgba(242, 183, 5, 0.55) 58%);
+  padding: 0 2px;
+}
+.iv-hook { margin: 0 auto 14px; max-width: 390px; font-size: 16px; color: var(--ink-dim); }
+.iv-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; font-size: 15px; color: var(--ink-dim); }
+.iv-meta span { padding: 4px 12px; border-radius: 999px; background: #fff; border: 1px solid var(--line); }
+
+/* ---------------- 질문 ---------------- */
+.iv-progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.iv-back {
+  flex: 0 0 auto; width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 2px solid var(--navy); border-radius: 50%;
+  background: #fff; color: var(--navy); cursor: pointer;
+}
+.iv-progress { flex: 1; height: 12px; border-radius: 999px; background: rgba(35, 48, 74, 0.1); overflow: hidden; }
+.iv-progress-fill {
+  height: 100%; width: 0; border-radius: inherit;
+  background: repeating-linear-gradient(-45deg, var(--warm-deep) 0 8px, #fff 8px 14px);
+  transition: width 0.3s ease;
+}
+.iv-progress-num { flex: 0 0 auto; font-size: 16px; color: var(--ink-dim); min-width: 3.4em; text-align: right; }
+
+.iv-q-card {
+  position: relative;
+  padding: 20px 16px 16px;
+  border-radius: 20px;
+  background: var(--card);
+  border: 2.5px solid var(--navy);
+  box-shadow: 0 6px 0 var(--navy);
+  animation: iv-in 0.28s ease;
+}
+@keyframes iv-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.iv-q-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.iv-q-emoji { font-size: 28px; line-height: 1; }
+.iv-q-num { font-size: 17px; color: var(--warm-deep); font-weight: var(--display-weight); }
+.iv-q-text { margin: 0 0 16px; font-size: 21px; line-height: 1.4; font-weight: var(--display-weight); color: var(--navy); overflow-wrap: break-word; }
+.iv-choices { display: flex; flex-direction: column; gap: 10px; }
+.iv-choice {
+  width: 100%; min-height: 54px;
+  padding: 12px 16px;
+  text-align: left;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper-2);
+  color: var(--ink);
+  font-size: 16px; line-height: 1.4; font-weight: 600;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+@media (hover: hover) { .iv-choice:hover { border-color: var(--navy); background: #f0f1fd; } }
+.iv-choice:active { transform: scale(0.985); }
+.iv-choice.is-picked { border-color: var(--navy); background: var(--gold); box-shadow: 0 3px 0 var(--navy); }
+.iv-quiz .mg-ad { margin-top: 20px; }
+
+/* ---------------- 분석 중 ---------------- */
+.iv-loading { text-align: center; padding: 40px 0; }
+.iv-loading-text { margin: 0 0 4px; font-size: 23px; font-weight: var(--display-weight); color: var(--navy); }
+.iv-loading-sub { margin: 0; font-size: 14px; color: var(--warm-deep); font-weight: 700; }
+
+/* ---------------- 결과 ---------------- */
+.iv-cta {
+  display: flex; align-items: center; gap: 12px;
+  margin: 8px 0 14px; padding: 12px 16px;
+  border-radius: 16px; border: 2px solid var(--navy);
+  background: #f0f1fd; color: var(--navy); text-decoration: none;
+  box-shadow: 0 4px 0 var(--navy);
+}
+.iv-cta-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.35; }
+.iv-cta-text strong { font-size: 17px; font-weight: var(--display-weight); }
+.iv-cta-text span { font-size: 14px; color: var(--ink-dim); }
+.iv-cta-arrow { font-size: 22px; }
+
+.iv-card {
+  position: relative;
+  margin-top: 14px; padding: 18px 18px 20px;
+  text-align: center;
+  background: var(--card);
+  border: 2.5px solid var(--navy);
+  border-radius: 22px;
+  box-shadow: 0 7px 0 var(--navy);
+}
+.iv-eyebrow { margin: 8px 0 0; font-size: 16px; font-weight: var(--display-weight); color: var(--ink-dim); }
+.iv-result-title { margin: 4px 0 0; line-height: 1.2; }
+.iv-result-name { display: block; font-size: 31px; font-weight: var(--display-weight); line-height: 1.2; color: var(--c-deep); overflow-wrap: break-word; }
+.iv-vibe { margin: 10px 0 0; font-size: 18px; line-height: 1.45; font-weight: var(--display-weight); color: var(--navy); }
+.iv-keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.iv-keys li {
+  padding: 4px 12px; border-radius: 999px;
+  background: var(--c-ink); border: 1.5px solid var(--c-main);
+  color: var(--c-deep); font-size: 14px; font-weight: var(--display-weight); line-height: 1.35;
+}
+.iv-same {
+  display: inline-block; margin: 12px 0 0; padding: 4px 14px; border-radius: 999px;
+  background: var(--c-ink); border: 1.5px dashed var(--c-main);
+  color: var(--c-deep); font-size: 13.5px; font-weight: 800;
+}
+.iv-desc { margin: 14px 0 4px; font-size: 15.5px; line-height: 1.75; color: var(--ink-dim); text-align: left; }
+.iv-sub { margin: 18px 0 8px; font-size: 18px; font-weight: var(--display-weight); color: var(--c-deep); text-align: left; line-height: 1.3; }
+
+.iv-traits { margin: 0; padding: 0; list-style: none; text-align: left; }
+.iv-traits li { position: relative; margin: 0 0 6px; padding: 0 0 0 26px; font-size: 15px; line-height: 1.55; color: var(--ink-dim); }
+.iv-traits li::before { content: '✦'; position: absolute; left: 4px; top: 0; font-weight: 900; color: var(--c-main); }
+.iv-note { margin-top: 14px; padding: 2px 14px 12px; border-radius: 14px; background: var(--c-ink); border: 1.5px dashed var(--c-main); text-align: left; }
+.iv-note .iv-sub { margin: 10px 0 4px; font-size: 16px; }
+.iv-perfect { margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--navy); font-weight: 700; }
+
+/* 찰떡궁합·라이벌: 보여주기만 (링크·hover·pointer 없음 — 누를 수 있어 보이지 않게) */
+.iv-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 16px; }
+.iv-pair-card {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0;
+  padding: 10px 8px 12px; border-radius: 16px;
+  background: var(--paper-2); border: 1.5px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  cursor: default; user-select: none;
+}
+.iv-pair-label { font-size: 13px; font-weight: var(--display-weight); line-height: 1.3; color: var(--ink-dim); overflow-wrap: anywhere; }
+.iv-pair-art { display: block; width: 64px; height: 72px; }
+.iv-mini { width: 100%; height: 100%; max-width: none; }
+.iv-pair-name { font-size: 15px; font-weight: var(--display-weight); line-height: 1.3; color: var(--navy); overflow-wrap: break-word; max-width: 100%; }
+
+/* 결과 그림 배지(그 결과 이모지) */
+.iv-emo {
+  position: absolute; right: -4px; bottom: 2px; width: 50px; height: 50px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 26px; line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  background: #fff; border: 3px solid var(--navy); box-shadow: 0 4px 0 var(--navy);
+}
+
+/* 내향/외향 막대 (본인 답으로 계산) */
+.iv-ie { margin: 16px 0 0; padding: 12px 14px 12px; border-radius: 16px; background: var(--paper-2); border: 2px solid var(--navy); text-align: left; }
+.iv-ie-title { margin: 0 0 8px; font-family: var(--font-display); font-weight: var(--display-weight); font-size: 15.5px; line-height: 1.35; color: var(--navy); text-align: center; }
+.iv-ie-labels, .iv-ie-nums { display: flex; justify-content: space-between; gap: 10px; }
+.iv-ie-labels span { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 13.5px; line-height: 1.3; min-width: 0; overflow-wrap: break-word; }
+.iv-ie-i { color: var(--warm-deep); }
+.iv-ie-e { color: var(--cool-deep); text-align: right; }
+.iv-ie-track { position: relative; height: 18px; margin: 6px 0 4px; border-radius: 999px; background: var(--cool); border: 2px solid var(--navy); overflow: hidden; }
+.iv-ie-track::after { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: rgba(255, 255, 255, 0.85); }
+.iv-ie-fill { height: 100%; width: 50%; background: var(--warm); border-right: 2px solid var(--navy); transition: width 0.8s ease; }
+.iv-ie-nums span { font-family: var(--font-display); font-weight: 700; font-size: 18px; line-height: 1.2; color: var(--navy); }
+.iv-ie-lean { margin: 6px 0 0; font-size: 14.5px; font-weight: 700; line-height: 1.45; color: var(--navy); text-align: center; }
+.iv-ie-note { margin: 6px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--ink-faint); text-align: center; }
+
+.iv-tips { margin: 0; padding: 0; list-style: none; text-align: left; }
+.iv-tips li { position: relative; margin: 0 0 6px; padding: 0 0 0 26px; font-size: 15px; line-height: 1.55; color: var(--ink-dim); }
+.iv-tips li::before { content: '→'; position: absolute; left: 4px; top: 0; font-weight: 900; color: var(--c-main); }
+
+/* 재미용 안내 */
+.iv-disclaimer { margin: 14px 0 0; padding: 8px 12px; border-radius: 12px; background: #fff; border: 1.5px dashed rgba(35, 48, 74, 0.3); font-size: 13px; line-height: 1.5; color: var(--ink-dim); text-align: center; }
+
+/* ---------------- 개인정보 ---------------- */
+.iv-doc { padding: 16px 0; font-size: 15px; line-height: 1.75; color: var(--ink-dim); }
+.iv-doc h1 { font-size: 28px; color: var(--navy); margin: 8px 0 12px; line-height: 1.3; }
+.iv-doc h2 { font-size: 17px; color: var(--warm-deep); margin: 22px 0 6px; }
+.iv-doc a { text-decoration: underline; }
+
+.site-footer { position: relative; z-index: 1; color: var(--ink-faint); }
+
+/* 언어별 조정 */
+html:lang(th) .iv-body { line-height: 1.75; }
+html:lang(th) :is(.iv-h1-main, .iv-result-name, .iv-q-text, .iv-vibe, .iv-pair-name) { line-height: 1.5; letter-spacing: 0; }
+html:lang(th) :is(.iv-kicker, .iv-badge, .iv-pair-label, .iv-ie-labels span) { letter-spacing: 0; }
+html:lang(th) :is(.iv-ie-title, .iv-ie-lean, .iv-tips li) { line-height: 1.7; }
+html:lang(vi) :is(.iv-h1-main, .iv-result-name, .iv-q-text) { line-height: 1.4; }
+html:lang(ru) .iv-doc h1 { line-height: 1.25; }
+html:lang(de) :is(.iv-pair-label, .iv-pair-name, .iv-result-name, .iv-q-text, .iv-choice, .iv-h1-main, .iv-ie-labels span) { hyphens: auto; -webkit-hyphens: auto; }
+html:lang(ru) :is(.iv-pair-label, .iv-pair-name, .iv-result-name) { hyphens: auto; -webkit-hyphens: auto; }
+html:lang(ja) :is(.iv-h1-main, .iv-result-name, .iv-q-text, .iv-vibe) { word-break: auto-phrase; }
+html:lang(ko) :is(.iv-h1-main, .iv-result-name, .iv-q-text, .iv-vibe, .iv-hook, .iv-desc, .iv-traits li, .iv-tips li, .iv-perfect, .iv-pair-name, .iv-ie-lean, .iv-ie-note) { word-break: keep-all; }
+
+@media (max-width: 374px) {
+  .iv-h1-main { font-size: 30px; }
+  .iv-result-name { font-size: 28px; }
+  .iv-q-text { font-size: 19px; }
+  .iv-hero-result { width: 160px; height: 160px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .iv-float, .iv-char, .iv-q, .iv-q-card { animation: none !important; }
+  .iv-ie-fill { transition: none; }
+  .iv-progress-fill, .iv-btn, .iv-choice { transition: none; }
+}

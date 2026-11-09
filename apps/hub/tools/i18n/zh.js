@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'icefish',
+        kicker: "冰封湖面上",
+        headline: "从冰洞里钓鱼",
+        blurb: "60秒内钓得越多越好——小心别把线拉断。",
+      },
+      {
+        id: 'introvert',
+        kicker: "独处充电还是社交充电?",
+        headline: "你是内向还是外向?",
+        blurb: "12个日常场景,看看你的社交能量在哪一端",
+      },
+      {
         id: 'snowman',
         kicker: "下雪啦",
         headline: "堆一个专属雪人",

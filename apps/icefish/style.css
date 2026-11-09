@@ -1,0 +1,231 @@
+/* apps/icefish/style.css — 얼음 낚시: 얼음 하늘색 + 깊은 호수 남청색 + 찌 빨강·황금 물고기 포인트, 숫자는 Fredoka.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ */
+:root {
+  --ice-0: #f4f9fe;
+  --ice-1: #e3f0fb;
+  --ice-2: #c9e0f4;
+  --navy: #0b3a5c;
+  --navy-2: #145079;
+  --sky: #2f7de1;
+  --sky-2: #1a4f9a;
+  --frost: #6ec6ff;
+  --red: #e8574c;
+  --red-2: #a8222f;
+  --gold: #f4b63f;
+  --pine: #1f5f4a;
+  --ink: #0b3a5c;
+  --ink-dim: rgba(11, 58, 92, 0.8);
+  --ink-faint: rgba(11, 58, 92, 0.58);
+  --card: #ffffff;
+  --line: rgba(47, 125, 225, 0.28);
+
+  --font-display: 'Fredoka', var(--font-sans);
+  --font-num: 'Fredoka', 'Pretendard', sans-serif;
+  --display-weight: 600;
+  --wb: normal;
+  --hyphens: manual;
+
+  /* 공통 타이틀 바 · 언어 선택 */
+  --mg-top-fg: var(--navy);
+  --mg-top-badge-bg: var(--navy);
+  --mg-top-badge-fg: #ffffff;
+  --lang-bg: rgba(255, 255, 255, 0.8);
+  --lang-fg: var(--navy);
+  --lang-border: rgba(13, 42, 74, 0.22);
+  /* 공통 끝 화면 */
+  --mg-star-on: #f2b632;
+  --mg-star-off: rgba(13, 42, 74, 0.16);
+  --mg-heart-bg: rgba(232, 72, 85, 0.08);
+  --mg-heart-border: rgba(232, 72, 85, 0.42);
+  --mg-heart-fg: var(--red);
+  --mg-heart-on: var(--red);
+  --mg-share-bg: #ffffff;
+  --mg-share-border: rgba(13, 42, 74, 0.14);
+  --mg-x: var(--navy);
+  --mg-tiktok: var(--navy);
+  --mg-faq-bg: rgba(255, 255, 255, 0.8);
+  --mg-faq-border: rgba(47, 125, 225, 0.22);
+  --mg-end-retry-bg: var(--navy);
+  --mg-end-retry-fg: #ffffff;
+  --toast-bg: rgba(13, 42, 74, 0.96);
+}
+
+html { background: var(--ice-0); }
+body.ice-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 130% 50% at 50% -10%, var(--ice-2), var(--ice-1) 46%, var(--ice-0) 80%) fixed;
+  color: var(--ink);
+  line-height: 1.6;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+  -webkit-hyphens: var(--hyphens);
+}
+[hidden] { display: none !important; }
+
+/* 제목·버튼 글꼴: base.css 의 :lang(zh|th|vi) 규칙보다 뒤에서 다시 지정 */
+.ice-h1, .ice-kicker, .ice-h1-main, .ice-h1-main em, .ice-badge, .ice-btn, .ice-how-txt,
+.ice-hud-label, .ice-hint, .ice-paused-title, .ice-eyebrow, .ice-newbest, .ice-stat dt, .ice-tier-name, .ice-top, .ice-bestcatch, .ice-doc h1 {
+  font-family: var(--font-display);
+}
+.ice-hud-val, .ice-score-big, .ice-unit, .ice-stat dd { font-family: var(--font-num); }
+
+/* ---------------- 공통 레이아웃 ---------------- */
+.ice-shell { max-width: var(--app-width); margin: 0 auto; padding: 8px 16px 0; }
+.ice-screen { padding-top: 12px; }
+
+.ice-btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; min-height: 58px;
+  padding: 12px 18px;
+  border: 0; border-radius: 16px;
+  font-size: 20px; font-weight: var(--display-weight);
+  line-height: 1.25; letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.ice-btn-primary { background: var(--navy); color: #ffffff; box-shadow: 0 5px 0 #061a30, 0 12px 26px rgba(13, 42, 74, 0.25); }
+.ice-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #061a30; }
+.ice-field:focus-visible { outline: none; border-color: var(--sky); }
+.ice-btn:focus-visible, .ice-pause:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; }
+.ice-btn-sm { width: auto; min-height: 50px; padding: 10px 28px; font-size: 18px; }
+
+/* ---------------- 시작 화면 (티징 + 짧은 방법) ---------------- */
+.ice-start { text-align: center; padding-top: 14px; }
+.ice-badge {
+  display: inline-block; margin: 0 0 12px;
+  padding: 6px 14px; border-radius: 999px;
+  background: #ffffff; color: var(--sky-2);
+  border: 1.5px solid rgba(47, 125, 225, 0.35);
+  font-size: 13px; line-height: 1.35;
+}
+.ice-hero { position: relative; margin: 0 auto 4px; max-width: 260px; }
+.ice-hero-art { display: block; width: 100%; height: auto; filter: drop-shadow(0 10px 24px rgba(13, 42, 74, 0.25)); }
+.ice-h1 { margin: 14px 0 10px; line-height: 1.15; font-weight: var(--display-weight); }
+.ice-kicker {
+  display: inline-block; max-width: 100%; margin-bottom: 10px; padding: 3px 12px;
+  background: var(--red); color: #ffffff; border-radius: 6px;
+  font-size: 15px; line-height: 1.35; letter-spacing: 0.03em;
+}
+.ice-h1-main { display: block; font-size: 36px; color: var(--navy); overflow-wrap: break-word; }
+.ice-h1-main em { font-style: normal; color: var(--sky); }
+.ice-hook { margin: 0 auto 16px; max-width: 380px; font-size: 16px; color: var(--ink-dim); }
+.ice-how {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  margin: 0 0 18px; padding: 0; list-style: none;
+}
+.ice-how li {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0;
+  padding: 10px 6px; border-radius: 14px;
+  background: var(--card); border: 1.5px solid rgba(13, 42, 74, 0.08);
+  box-shadow: 0 4px 12px rgba(13, 42, 74, 0.06);
+}
+.ice-how-ico { font-size: 24px; line-height: 1; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+.ice-how-txt { font-size: 14px; line-height: 1.25; color: var(--ink); overflow-wrap: break-word; max-width: 100%; }
+.ice-facts { margin: 14px 0 0; font-size: 13px; color: var(--ink-faint); letter-spacing: 0.02em; }
+
+/* ---------------- 게임 화면 ---------------- */
+.ice-play { padding-top: 6px; }
+.ice-hud {
+  display: grid; grid-template-columns: 1.2fr 1fr auto; gap: 6px; align-items: stretch;
+  margin: 0 auto 8px; max-width: 448px;
+}
+.ice-hud-box {
+  position: relative; display: flex; flex-direction: column; justify-content: center; min-width: 0;
+  padding: 4px 10px 5px; border-radius: 12px; background: #ffffff; border: 1.5px solid rgba(13, 42, 74, 0.1);
+}
+.ice-hud-label { font-size: 11px; line-height: 1.2; letter-spacing: 0.06em; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ice-hud-val { font-size: 22px; font-weight: 600; line-height: 1.1; color: var(--navy); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ice-hud-val small { margin-left: 2px; font-size: 13px; color: var(--ink-faint); }
+.ice-hud-dist .ice-hud-val { color: var(--sky-2); }
+.ice-pause {
+  display: grid; place-items: center; width: 44px; min-height: 44px; padding: 0;
+  border-radius: 12px; border: 1.5px solid rgba(13, 42, 74, 0.14); background: #ffffff; cursor: pointer;
+}
+.ice-pause span { display: block; width: 14px; height: 16px; border-left: 5px solid var(--navy); border-right: 5px solid var(--navy); }
+
+.ice-field {
+  position: relative; margin: 0 auto; max-width: 448px; height: 440px;
+  border-radius: 18px; overflow: hidden; outline: none; cursor: pointer;
+  touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  border: 3px solid var(--navy);
+  background: #0b2a48;
+  box-shadow: 0 12px 30px rgba(13, 42, 74, 0.22);
+}
+.ice-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.ice-hint {
+  position: absolute; left: 50%; top: 46%; transform: translateX(-50%);
+  max-width: calc(100% - 32px); margin: 0; padding: 6px 16px; border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92); color: var(--navy); font-size: 16px; line-height: 1.35; text-align: center;
+  pointer-events: none; white-space: normal; width: max-content; box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.ice-overlay {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+  text-align: center; padding: 16px;
+}
+.ice-paused { background: rgba(13, 42, 74, 0.72); cursor: default; }
+.ice-paused-title { margin: 0; font-size: 34px; line-height: 1.2; color: #ffffff; }
+.ice-paused .ice-btn-primary { background: #ffffff; color: var(--navy); box-shadow: 0 5px 0 var(--ice-2); }
+
+/* ---------------- 끝 화면: 점수 카드 ---------------- */
+.ice-end { padding-top: 10px; }
+.ice-result {
+  position: relative; margin: 0 0 22px; padding: 20px 16px 18px; text-align: center;
+  border-radius: 24px; border: 2px solid var(--line);
+  background: linear-gradient(175deg, #ffffff 0%, #eef6fd 100%);
+  box-shadow: 0 14px 34px rgba(13, 42, 74, 0.14);
+}
+.ice-eyebrow {
+  display: inline-block; max-width: 100%; margin: 0 0 6px; padding: 4px 14px; border-radius: 999px;
+  background: var(--navy); color: #ffffff; font-size: 16px; line-height: 1.35;
+}
+.ice-score-line { margin: 4px 0 0; line-height: 1; }
+.ice-score-big { font-size: 68px; font-weight: 700; line-height: 1.05; color: var(--navy); font-variant-numeric: tabular-nums; }
+.ice-unit { font-size: 26px; font-weight: 600; color: var(--sky); }
+.ice-newbest {
+  display: inline-block; margin: 10px 0 0; padding: 3px 12px; border-radius: 8px;
+  background: var(--gold); color: var(--navy); font-size: 16px; line-height: 1.35; transform: rotate(-2deg);
+}
+.ice-best { margin: 8px 0 0; font-size: 16px; color: var(--ink-dim); }
+.ice-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 16px 0 0; }
+.ice-stat { min-width: 0; padding: 10px 6px; border-radius: 14px; background: #ffffff; border: 1.5px solid rgba(13, 42, 74, 0.08); }
+.ice-stat dt { font-size: 13px; line-height: 1.3; color: var(--ink-faint); overflow-wrap: break-word; }
+.ice-stat dd { margin: 2px 0 0; font-size: 26px; font-weight: 600; line-height: 1.15; color: var(--navy); font-variant-numeric: tabular-nums; }
+.ice-bestcatch { margin: 12px 0 0; font-size: 17px; line-height: 1.35; color: var(--navy-2); }
+.ice-tier { margin: 14px 0 0; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.ice-tier-label { font-size: 13px; color: var(--ink-faint); }
+.ice-tier-name { font-size: 24px; line-height: 1.25; color: var(--sky-2); }
+.ice-rank { margin: 14px 0 0; padding: 12px 10px; border-radius: 14px; background: rgba(47, 125, 225, 0.06); border: 1.5px dashed rgba(47, 125, 225, 0.4); }
+.ice-comparing { margin: 0; font-size: 14px; color: var(--ink-faint); }
+.ice-top { margin: 0; font-size: 30px; line-height: 1.2; color: var(--red); }
+.ice-beat { margin: 4px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--ink); }
+.ice-others { margin: 2px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-faint); }
+
+/* ---------------- 언어별 ---------------- */
+html:lang(th) .ice-h1-main, html:lang(th) .ice-kicker, html:lang(th) .ice-how-txt, html:lang(th) .ice-btn, html:lang(th) .ice-hook, html:lang(th) .ice-hint,
+html:lang(th) .ice-tier-name, html:lang(th) .ice-eyebrow, html:lang(th) .ice-bestcatch { line-height: 1.6; letter-spacing: 0; }
+html:lang(th) .ice-hud-label, html:lang(th) .ice-stat dt { line-height: 1.5; letter-spacing: 0; }
+html:lang(vi) .ice-h1-main, html:lang(vi) .ice-kicker { line-height: 1.35; }
+html:lang(ja) .ice-h1-main, html:lang(zh) .ice-h1-main, html:lang(ko) .ice-h1-main { font-size: 32px; line-height: 1.25; }
+html:lang(ja) .ice-how-txt, html:lang(zh) .ice-how-txt, html:lang(ko) .ice-how-txt { font-size: 13px; }
+html:lang(ru) .ice-h1-main, html:lang(vi) .ice-h1-main { font-size: 32px; }
+html:lang(ru) .ice-hud-label { letter-spacing: 0.02em; }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.ice-doc { padding: 16px 0 8px; }
+.ice-doc h1 { font-size: 28px; line-height: 1.25; margin: 8px 0 14px; }
+.ice-doc h2 { font-size: 17px; margin: 22px 0 6px; color: var(--sky-2); }
+.ice-doc p { color: var(--ink-dim); font-size: 15px; }
+.ice-doc a, .site-footer a { color: var(--sky-2); }
+.site-footer { color: var(--ink-faint); }
+
+/* ---------------- 움직임 줄이기 ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  .ice-btn { transition: none; }
+}
+@media (max-width: 359px) {
+  .ice-h1-main { font-size: 30px; }
+  .ice-hud-val { font-size: 19px; }
+}

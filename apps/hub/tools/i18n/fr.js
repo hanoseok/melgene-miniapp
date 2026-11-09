@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'icefish',
+        kicker: "Lac gelé, un seul trou",
+        headline: "Pêche sous la glace",
+        blurb: "60 secondes pour remonter un max de poissons sans casser la ligne.",
+      },
+      {
+        id: 'introvert',
+        kicker: "Seul ou entouré ?",
+        headline: "Introverti ou extraverti ?",
+        blurb: "12 situations du quotidien pour situer ton énergie sociale.",
+      },
+      {
         id: 'snowman',
         kicker: "Il neige !",
         headline: "Fais ton bonhomme de neige",

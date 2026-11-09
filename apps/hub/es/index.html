@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 85,
+  "numberOfItems": 87,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -674,6 +674,20 @@
       "url": "https://raffle.example.com/es/",
       "name": "Sorteo online",
       "description": "Sortea los premios de la cena de empresa en la pantalla grande: nombres o números, premios, ganadores uno a uno, deshacer y resultados para copiar o compartir."
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "url": "https://icefish.example.com/es/",
+      "name": "Pesca en hielo",
+      "description": "Baja el sedal por un agujero en el lago helado, espera la picada y recoge sin que se rompa la línea. 60 segundos por partida."
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "url": "https://introvert.example.com/es/",
+      "name": "Intro o extrovertido",
+      "description": "12 situaciones cotidianas, 2 minutos. ¿Recargas energía a solas o con gente? Descubre dónde estás entre introvertido y extrovertido y tu personaje de energía social, por diversión."
     }
   ]
 }
@@ -749,6 +763,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="icefish">
+        <a class="cur-card" href="https://icefish.example.com/es/" style="--h:47;--h2:29">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Lago congelado</span></span>
+            <h3 class="cur-headline">Pesca bajo el hielo</h3>
+            <span class="cur-giant" aria-hidden="true">🎣</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">60 segundos para sacar todos los peces que puedas sin romper el sedal.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Pesca en hielo</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="introvert">
+        <a class="cur-card" href="https://introvert.example.com/es/" style="--h:23;--h2:5">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¿Solo o en compañía?</span></span>
+            <h3 class="cur-headline">¿Introvertido o extrovertido?</h3>
+            <span class="cur-giant" aria-hidden="true">🔌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 situaciones cotidianas revelan tu energía social.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Intro o extrovertido</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowman">
         <a class="cur-card" href="https://snowman.example.com/es/" style="--h:79;--h2:61">
           <span class="cur-art">
@@ -813,7 +859,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard">
+      <li class="cur-item" data-id="nycard" hidden>
         <a class="cur-card" href="https://nycard.example.com/es/" style="--h:105;--h2:131">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¡Hola, 2027!</span></span>
@@ -829,7 +875,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="bingocall">
+      <li class="cur-item" data-id="bingocall" hidden>
         <a class="cur-card" href="https://bingocall.example.com/es/" style="--h:313;--h2:295">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Para la cena de empresa</span></span>
@@ -877,45 +923,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="xmastree" hidden>
-        <a class="cur-card" href="https://xmastree.example.com/es/" style="--h:353;--h2:335">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Espíritu navideño</span></span>
-            <h3 class="cur-headline">Decora tu árbol de Navidad</h3>
-            <span class="cur-giant" aria-hidden="true">🎄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Pon adornos, haz que nieve y guárdalo como imagen.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Decorar el árbol de Navidad</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="truth" hidden>
-        <a class="cur-card" href="https://truth.example.com/es/" style="--h:315;--h2:297">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Para animar la fiesta</span></span>
-            <h3 class="cur-headline">Verdad o reto</h3>
-            <span class="cur-giant" aria-hidden="true">🎲</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Por turnos saca una carta: ¿verdad o reto?</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Verdad o reto</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">85 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">87 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -937,6 +951,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="icefish" data-cat="game">
+        <a class="tile-link" href="https://icefish.example.com/es/" title="Baja el sedal por un agujero en el lago helado, espera la picada y recoge sin que se rompa la línea. 60 segundos por partida." style="--h:47;--h2:29">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Pesca en hielo</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="introvert" data-cat="test">
+        <a class="tile-link" href="https://introvert.example.com/es/" title="12 situaciones cotidianas, 2 minutos. ¿Recargas energía a solas o con gente? Descubre dónde estás entre introvertido y extrovertido y tu personaje de energía social, por diversión." style="--h:23;--h2:5">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Intro o extrovertido</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/es/" title="Haz tu muñeco de nieve online: apila las bolas, elige ojos, nariz de zanahoria, sombrero, bufanda y brazos, ponle nombre y guarda la imagen o comparte un enlace." style="--h:79;--h2:61">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NUEVO</span></span>
@@ -995,14 +1023,14 @@
       </li>
       <li class="tile" data-id="xmastree" data-cat="create">
         <a class="tile-link" href="https://xmastree.example.com/es/" title="Elige un árbol y un fondo, toca para colgar bolas, estrellas, bastones de caramelo y regalos, enciende las luces y la nieve, y guarda la imagen o comparte un enlace." style="--h:353;--h2:335">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span></span>
           <span class="tile-name">Decorar el árbol de Navidad</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="truth" data-cat="vote">
         <a class="tile-link" href="https://truth.example.com/es/" title="Verdad o reto sin sustos para fiestas y cenas de empresa: añade nombres, elige un paquete y gira una carta cada vez." style="--h:315;--h2:297">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎲</span></span></span>
           <span class="tile-name">Verdad o reto</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'icefish',
+        kicker: "凍った湖でのんびり",
+        headline: "氷の穴から魚を釣ろう",
+        blurb: "60秒でどれだけ釣れる? 糸が切れないように巻き上げて。",
+      },
+      {
+        id: 'introvert',
+        kicker: "ひとり充電?みんなで充電?",
+        headline: "内向型?外向型?",
+        blurb: "日常の12場面でわかる、あなたのエネルギーのタイプ",
+      },
+      {
         id: 'snowman',
         kicker: "雪が降ったら",
         headline: "自分だけの雪だるま作り",
