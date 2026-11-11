@@ -178,6 +178,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | raffle | apps/raffle | 경품 추첨기(투표): 이름 붙여 넣기(`이름*3` 응모권, 중복 경고)·번호표 1~N, 경품별 인원(최대 12개), 1등은 마지막에/1등부터, 한 번만 당첨, 누를 때 crypto 로 당첨자 결정(가중치) 후 셔플 공개(건너뛰기)·남은 인원 한꺼번에·묶음 되돌리기·발표 모드(전체 화면, Space/리모컨), localStorage 이어하기, 결과 복사·`#r=` 공유, 추첨 화면 광고 없음 | `check-raffle.js` (+ `flow-test.js`) |
 | icefish | apps/icefish | 얼음 낚시(게임): canvas 얼음 호수 단면, 물속을 누른 깊이로 줄 내리기(↓/↑/Space), 멈춘 바늘 앞을 지나는 물고기마다 crypto 시드 입질 확률, 누르면 감고 장력 상승 — 꽉 차면 줄 끊김·1.8초 느슨하면 놓침, 어종 4(10·20·35·60점, 언어별 현지 어종 이름)·황금 물고기 150점(약 2.6%)·장화 0점, 60초 한 판, 등급 6단계, supa.submitScore 백분위(60초 미완·1500점·30마리 초과 미전송), 탭 숨김 일시정지, 플레이 중 광고 없음 | `check-icefish.js` (+ `flow-test.js`) |
 | introvert | apps/introvert | 내향형 외향형 테스트(심리테스트): 일상 상황 12문항, 축 3개(충전 방식·관계 크기·표현 방식)×2 → 8종 r/<type>.html(전수 4^12 각 12.50%), 본인 답으로 계산한 내향↔외향 막대(`#i=`, 없으면 숨김, 50±6 = 양향형 구간), 찰떡·정반대 유형은 그림·이름만, poll 20표 이상만 비율, MBTI 용어 금지, "재미용·임상 검사 아님"을 결과·FAQ·가이드에 명시 | `check-introvert.js` (+ `check-flow.js`) |
+| snowflake | apps/snowflake | 눈꽃 만들기(만들기): 시드로 만든 가지 하나를 60도×6 회전·좌우 대칭으로 눈 결정 채우기, 슬라이더 3(가지 수·복잡도·길이)·가지 모양 4·색 5, 피어나는 애니메이션(움직임 줄이기면 생략), PNG 1080×1080 저장(서버 전송 없음), `#d=` 공유 링크(설정·시드만) | `check-snowflake.js` |
+| penalty | apps/penalty | 벌칙 카드 뒤집기(투표): 인원 2~12·벌칙 카드 장수·벌칙 문구(언어별 기본 10개)·이름(선택) → 카드 섞기 순간 crypto 거부 샘플링 + Fisher–Yates 로 배정, 뒤집기는 보여 주기만, 끝 화면 당첨자·벌칙 요약·글로 복사·`#d=` 결과 링크 | `check-penalty.js` (+ `flow-test.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

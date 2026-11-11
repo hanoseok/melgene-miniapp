@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: 'snowflake',
+        kicker: '初雪の日に',
+        headline: '自分だけの雪の結晶を作ろう',
+        blurb: '枝の形を選んでPNGで保存、友だちにも送れます。',
+      },
+      {
+        id: 'penalty',
+        kicker: '忘年会の罰ゲーム',
+        headline: 'カードをめくって罰ゲームを決定',
+        blurb: '人数分のカードを混ぜて、誰が何をするか一度で決めます。',
+      },
+      {
         id: 'icefish',
         kicker: "凍った湖でのんびり",
         headline: "氷の穴から魚を釣ろう",

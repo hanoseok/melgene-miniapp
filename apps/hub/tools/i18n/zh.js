@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: 'snowflake',
+        kicker: '初雪的日子',
+        headline: '做一朵属于你的雪花',
+        blurb: '调整枝条形状，保存 PNG 图片，分享给朋友。',
+      },
+      {
+        id: 'penalty',
+        kicker: '聚会惩罚抽签',
+        headline: '翻牌抽取惩罚，谁来执行',
+        blurb: '按人数洗好卡片，一张张翻开，公平又快速。',
+      },
+      {
         id: 'icefish',
         kicker: "冰封湖面上",
         headline: "从冰洞里钓鱼",

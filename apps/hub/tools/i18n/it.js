@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'Quando arriva la prima neve',
+        headline: 'Crea il tuo fiocco di neve',
+        blurb: 'Regola i rami, salva il PNG e mandalo agli amici.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Festa di fine anno',
+        headline: 'Gira le carte e scopri la penitenza',
+        blurb: 'Una carta a testa, mescolate: chi paga stavolta?',
+      },
+      {
         id: 'icefish',
         kicker: "Lago ghiacciato",
         headline: "Pesca nel buco del ghiaccio",

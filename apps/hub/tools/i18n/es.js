@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'Cuando cae la primera nieve',
+        headline: 'Crea tu propio copo de nieve',
+        blurb: 'Ajusta las ramas, guárdalo en PNG y compártelo.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Cena de fin de año',
+        headline: 'Voltea cartas y saca el castigo',
+        blurb: 'Una carta por persona, mezcladas al azar. Descubre quién paga.',
+      },
+      {
         id: 'icefish',
         kicker: "Lago congelado",
         headline: "Pesca bajo el hielo",

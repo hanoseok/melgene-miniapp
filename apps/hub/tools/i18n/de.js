@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'An Tagen mit erstem Schnee',
+        headline: 'Deine eigene Schneeflocke',
+        blurb: 'Äste anpassen, als PNG speichern und an Freunde schicken.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Silvesterparty',
+        headline: 'Karten umdrehen, Strafe ziehen',
+        blurb: 'Pro Person eine Karte mischen und der Reihe nach aufdecken.',
+      },
+      {
         id: 'icefish',
         kicker: "Zugefrorener See",
         headline: "Eisangeln im Eisloch",

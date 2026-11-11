@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'First snow of the year',
+        headline: 'Make your own snowflake',
+        blurb: 'Tweak the branches, save a PNG and send it to friends.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Year-end party forfeit',
+        headline: 'Flip cards to draw the penalty',
+        blurb: 'Shuffle one card per player and see who pays the forfeit.',
+      },
+      {
         id: 'icefish',
         kicker: "Frozen lake, one hole",
         headline: "Catch fish through the ice",

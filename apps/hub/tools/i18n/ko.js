@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: 'snowflake',
+        kicker: '첫눈 오는 날엔',
+        headline: '나만의 눈꽃 한 송이 만들기',
+        blurb: '대칭 결정을 골라 PNG로 저장하고 친구에게 보내요.',
+      },
+      {
+        id: 'penalty',
+        kicker: '송년회 벌칙 정하기',
+        headline: '카드 한 장씩 뒤집어 벌칙 뽑기',
+        blurb: '인원 수만큼 카드를 섞어 누가 무엇을 할지 정해요.',
+      },
+      {
         id: 'icefish',
         kicker: "꽁꽁 언 호수 위에서",
         headline: "얼음 구멍으로 물고기 낚기",

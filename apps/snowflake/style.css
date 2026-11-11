@@ -1,0 +1,262 @@
+/* apps/snowflake/style.css — 눈꽃 만들기: 깊은 겨울 파랑 + 얼음 하늘색 + 눈 흰색.
+ * 모바일 한 줄(--app-width 480px). 글꼴은 언어 파일 fonts → :root 변수(--font-display 등, 생성기가 이 파일 뒤에 둔다).
+ * 공통 타이틀 바(G.topBar)·끝 화면(data-mg-end)은 --mg-* 변수로만 색을 맞춘다.
+ * 눈꽃 그림은 canvas(snowflake.js). 피어나는 애니메이션은 prefers-reduced-motion 이면 생략된다.
+ */
+:root {
+  --ice-0: #071a33;
+  --ice-1: #0b2545;
+  --ice-2: #1b4a7a;
+  --frost: #eaf8ff;
+  --sky: #9fe3ff;
+  --sky-2: #5fb8e8;
+  --ink: #eaf8ff;
+  --ink-dim: rgba(234, 248, 255, 0.82);
+  --ink-faint: rgba(234, 248, 255, 0.55);
+  --bad: #ff9a9a;
+
+  --font-display: 'Nunito', var(--font-sans);
+  --display-weight: 900;
+  --font-script: var(--font-display);
+  --script-weight: 400;
+  --wb: normal;
+  --hyphens: manual;
+
+  --mg-top-fg: var(--ink);
+  --mg-top-badge-bg: var(--sky-2);
+  --mg-top-badge-fg: #04172d;
+  --lang-bg: rgba(234, 248, 255, 0.07);
+  --lang-fg: var(--ink);
+  --lang-border: rgba(159, 227, 255, 0.45);
+  --mg-star-on: #ffd36e;
+  --mg-star-off: rgba(234, 248, 255, 0.2);
+  --mg-heart-bg: rgba(159, 227, 255, 0.1);
+  --mg-heart-border: rgba(159, 227, 255, 0.45);
+  --mg-heart-fg: #bfeaff;
+  --mg-heart-on: #7fd8ff;
+  --mg-share-bg: rgba(234, 248, 255, 0.06);
+  --mg-share-border: rgba(234, 248, 255, 0.16);
+  --mg-x: var(--ink);
+  --mg-tiktok: var(--ink);
+  --mg-end-retry-bg: var(--sky);
+  --mg-end-retry-fg: #04172d;
+  --mg-share-primary-bg: var(--sky);
+  --mg-share-primary-fg: #04172d;
+  --mg-faq-border: rgba(159, 227, 255, 0.22);
+  --mg-faq-bg: rgba(234, 248, 255, 0.05);
+  --toast-bg: rgba(7, 26, 51, 0.94);
+}
+
+html { background: var(--ice-0); }
+body.sf-body {
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse 90% 60% at 50% -10%, rgba(95, 184, 232, 0.28), transparent 70%),
+    linear-gradient(180deg, var(--ice-2) 0%, var(--ice-1) 46%, var(--ice-0) 100%);
+  background-attachment: fixed;
+}
+
+.sf-shell {
+  max-width: var(--app-width, 480px);
+  margin: 0 auto;
+  padding: 0 16px 36px;
+}
+.sf-screen { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.sf-screen[hidden] { display: none; }
+
+/* ---------------- 시작 화면 (티징만) ---------------- */
+.sf-start { padding-top: 34px; gap: 6px; }
+.sf-badge {
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(159, 227, 255, 0.14);
+  border: 1px solid rgba(159, 227, 255, 0.4);
+  color: var(--sky);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.sf-hero {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 18px auto 6px;
+}
+.sf-hero-main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 128px;
+  line-height: 1;
+  filter: drop-shadow(0 0 22px rgba(159, 227, 255, 0.7));
+  animation: sf-spin 18s linear infinite;
+}
+.sf-hero-a, .sf-hero-b, .sf-hero-c {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(159, 227, 255, 0.9);
+  animation: sf-twinkle 2.6s ease-in-out infinite;
+}
+.sf-hero-a { left: 4px; top: 18px; font-size: 22px; }
+.sf-hero-b { right: 6px; top: 6px; font-size: 26px; animation-delay: 0.9s; }
+.sf-hero-c { right: 18px; bottom: 14px; font-size: 20px; animation-delay: 1.6s; }
+@keyframes sf-spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+@keyframes sf-twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+.sf-h1 {
+  margin: 10px 0 0;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  line-height: 1.2;
+  word-break: var(--wb);
+  hyphens: var(--hyphens);
+}
+.sf-kicker {
+  display: block;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--sky);
+  margin-bottom: 6px;
+}
+.sf-h1-main { display: block; font-size: 34px; color: var(--frost); }
+.sf-h1-main em { font-style: normal; color: var(--sky); }
+.sf-hook {
+  margin: 14px 0 22px;
+  max-width: 360px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-dim);
+  word-break: var(--wb);
+}
+
+/* ---------------- 버튼 ---------------- */
+.sf-btn {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 15px 30px;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.sf-btn:hover { filter: brightness(1.06); }
+.sf-btn:active { transform: scale(0.97); }
+.sf-btn:focus-visible, .sf-tool:focus-visible, input[type="range"]:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; }
+.sf-btn-primary {
+  background: linear-gradient(180deg, #bfeaff, var(--sky-2));
+  color: #04172d;
+  box-shadow: 0 6px 0 #2f7aa8, 0 14px 28px rgba(0, 0, 0, 0.3);
+}
+.sf-btn-primary:active { box-shadow: 0 2px 0 #2f7aa8; }
+.sf-btn-soft {
+  background: rgba(234, 248, 255, 0.1);
+  color: var(--ink);
+  border: 1px solid rgba(159, 227, 255, 0.4);
+}
+.sf-btn-sm { padding: 12px 22px; font-size: 15px; }
+
+/* ---------------- 만들기 화면 ---------------- */
+.sf-edit { gap: 12px; padding-top: 18px; }
+.sf-edit-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 24px;
+  color: var(--frost);
+}
+.sf-stage { width: 100%; max-width: 440px; }
+.sf-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), inset 0 0 0 1px rgba(159, 227, 255, 0.18);
+  background: var(--ice-1);
+}
+
+.sf-sliders {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-lg);
+  background: rgba(234, 248, 255, 0.06);
+  border: 1px solid rgba(159, 227, 255, 0.2);
+  text-align: left;
+}
+.sf-slider { display: grid; gap: 4px; font-size: 14px; font-weight: 700; }
+.sf-slider-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; color: var(--ink-dim); }
+.sf-slider output { font-weight: 800; color: var(--sky); font-variant-numeric: tabular-nums; }
+input[type="range"] {
+  width: 100%;
+  accent-color: var(--sky);
+  margin: 4px 0 0;
+}
+
+.sf-tools {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.sf-tool {
+  appearance: none;
+  min-height: 48px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(159, 227, 255, 0.34);
+  background: rgba(234, 248, 255, 0.08);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.3;
+  cursor: pointer;
+  word-break: var(--wb);
+  overflow-wrap: anywhere;
+}
+.sf-tool:active { transform: scale(0.97); }
+.sf-tool:first-child { grid-column: 1 / -1; background: rgba(159, 227, 255, 0.18); }
+.sf-tool-label { color: var(--ink-dim); font-weight: 700; }
+.sf-tool-value { color: var(--sky); }
+.sf-status { min-height: 1.4em; margin: 0; font-size: 14px; color: var(--sky); font-weight: 700; }
+.sf-status.is-bad { color: var(--bad); }
+#done-btn { margin-top: 2px; }
+
+/* ---------------- 끝 화면 ---------------- */
+.sf-end { gap: 14px; padding-top: 22px; align-items: stretch; }
+.sf-card { width: 100%; margin: 0; }
+.sf-eyebrow { margin: 0 0 12px; font-size: 17px; font-weight: 800; color: var(--sky); }
+.sf-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.sf-end-stage { width: 100%; max-width: 440px; margin: 0 auto; }
+.sf-end-canvas { box-shadow: 0 18px 44px rgba(0, 0, 0, 0.42), inset 0 0 0 1px rgba(159, 227, 255, 0.22); }
+.sf-end-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 6px; }
+.sf-end .sf-status { margin-top: 2px; }
+/* 공통 끝 화면(data-mg-end)은 이 폭 안에서 늘어난다 (가로 넘침 방지) */
+.sf-end .mg-end { width: 100%; max-width: var(--app-width, 480px); }
+
+/* ---------------- 개인정보처리방침 ---------------- */
+.sf-doc { text-align: left; padding: 24px 0 8px; line-height: 1.7; color: var(--ink-dim); font-size: 15px; }
+.sf-doc h1 { font-family: var(--font-display); font-weight: var(--display-weight); font-size: 28px; color: var(--frost); }
+.sf-doc h2 { font-size: 17px; color: var(--frost); margin: 22px 0 6px; }
+.sf-doc a { color: var(--sky); text-decoration: underline; text-underline-offset: 2px; }
+
+@media (max-width: 380px) {
+  .sf-h1-main { font-size: 30px; }
+  .sf-tool { font-size: 13px; padding: 9px 10px; }
+  .sf-btn { font-size: 16px; padding: 14px 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sf-hero-main, .sf-hero-a, .sf-hero-b, .sf-hero-c { animation: none; }
+}

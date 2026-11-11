@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'Ngày đầu mùa tuyết',
+        headline: 'Tạo bông tuyết của riêng bạn',
+        blurb: 'Chỉnh nhánh tuyết, lưu PNG và gửi cho bạn bè.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Tiệc cuối năm',
+        headline: 'Lật bài bốc hình phạt',
+        blurb: 'Xáo bài theo số người rồi lật từng lá, ai nhận phạt?',
+      },
+      {
         id: 'icefish',
         kicker: "Hồ đóng băng",
         headline: "Câu cá qua lỗ băng",

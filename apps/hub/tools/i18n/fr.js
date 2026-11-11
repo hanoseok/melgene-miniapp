@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: 'snowflake',
+        kicker: 'Premiers flocons',
+        headline: 'Crée ton propre flocon',
+        blurb: 'Ajuste les branches, enregistre en PNG et partage-le.',
+      },
+      {
+        id: 'penalty',
+        kicker: 'Soirée, gages',
+        headline: 'Retourne les cartes, tire le gage',
+        blurb: 'Une carte par joueur, mélangée au hasard, pour une soirée drôle.',
+      },
+      {
         id: 'icefish',
         kicker: "Lac gelé, un seul trou",
         headline: "Pêche sous la glace",
