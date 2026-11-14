@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: "award",
+        kicker: "年末の表彰式に",
+        headline: "感謝を込めて表彰状を作ろう",
+        blurb: "名前と理由、はんこまで入れて画像で保存。",
+      },
+      {
+        id: "order",
+        kicker: "発表は誰から？",
+        headline: "1番から最後まで公平に順番決め",
+        blurb: "名前を入れてシャッフル、番号カードが1枚ずつ開きます。",
+      },
+      {
         id: "snowball",
         kicker: "雪が積もった庭で",
         headline: "投げて、しゃがんで、雪合戦",

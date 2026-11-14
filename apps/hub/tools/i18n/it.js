@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: "award",
+        kicker: "Premiazioni di fine anno",
+        headline: "Crea un attestato per chi vuoi",
+        blurb: "Nome, motivo, cornice dorata e timbro: salvalo come immagine.",
+      },
+      {
+        id: "order",
+        kicker: "Chi presenta per primo?",
+        headline: "Estrai un ordine equo dal primo all’ultimo",
+        blurb: "Inserisci i nomi e svela l’ordine una carta alla volta.",
+      },
+      {
         id: "snowball",
         kicker: "Neve fresca in cortile",
         headline: "Lancia, abbassati e vinci la battaglia",

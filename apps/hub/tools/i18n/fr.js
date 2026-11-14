@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: "award",
+        kicker: "Remise de prix de fin d’année",
+        headline: "Créez un diplôme pour qui vous voulez",
+        blurb: "Nom, motif, cadre doré et sceau — à enregistrer en image.",
+      },
+      {
+        id: "order",
+        kicker: "Qui passe en premier ?",
+        headline: "Tirez l’ordre de passage au sort",
+        blurb: "Entrez les noms, puis révélez l’ordre carte par carte.",
+      },
+      {
         id: "snowball",
         kicker: "Neige fraîche au jardin",
         headline: "Lance, esquive, gagne la bataille",

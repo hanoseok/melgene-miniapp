@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: "award",
+        kicker: "연말 시상식 준비",
+        headline: "고마운 사람에게 상장 하나",
+        blurb: "이름·수상 이유·도장까지 넣고 이미지로 저장해요.",
+      },
+      {
+        id: "order",
+        kicker: "발표 누가 먼저?",
+        headline: "1번부터 끝까지 공정하게 순서 정하기",
+        blurb: "이름만 넣고 섞으면 번호 카드가 한 장씩 열려요.",
+      },
+      {
         id: "snowball",
         kicker: "첫눈 쌓인 마당에서",
         headline: "던지고 숙이고, 눈싸움 한 판",

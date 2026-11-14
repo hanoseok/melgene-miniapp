@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: "award",
+        kicker: "Zeit für Jahresend-Ehrungen",
+        headline: "Eine Urkunde für jeden erstellen",
+        blurb: "Name, Grund, Goldrahmen und Siegel — als Bild speichern.",
+      },
+      {
+        id: "order",
+        kicker: "Wer hält zuerst das Referat?",
+        headline: "Faire Reihenfolge vom Ersten bis zum Letzten",
+        blurb: "Namen eintragen, mischen und Platz für Platz aufdecken.",
+      },
+      {
         id: "snowball",
         kicker: "Neuschnee im Garten",
         headline: "Werfen, ducken, Schlacht gewinnen",

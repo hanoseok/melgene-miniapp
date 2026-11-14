@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: "award",
+        kicker: "Year-end awards time",
+        headline: "Make a certificate for anyone",
+        blurb: "Name, reason, a gold frame and a seal — save it as an image.",
+      },
+      {
+        id: "order",
+        kicker: "Who presents first?",
+        headline: "Shuffle a fair order, 1st to last",
+        blurb: "Type the names, then reveal the order one numbered card at a time.",
+      },
+      {
         id: "snowball",
         kicker: "Fresh snow in the yard",
         headline: "Throw, duck and win the snowball fight",

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: "award",
+        kicker: "Lễ trao giải cuối năm",
+        headline: "Tạo giấy khen cho người bạn quý",
+        blurb: "Tên, lý do, khung vàng và con dấu — lưu thành ảnh.",
+      },
+      {
+        id: "order",
+        kicker: "Ai thuyết trình trước?",
+        headline: "Bốc thăm thứ tự công bằng từ đầu đến cuối",
+        blurb: "Nhập tên, xáo một lần rồi lật từng thẻ số.",
+      },
+      {
         id: "snowball",
         kicker: "Sân phủ tuyết mới",
         headline: "Ném, nấp và thắng trận ném tuyết",

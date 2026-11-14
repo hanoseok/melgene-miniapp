@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "All mini apps",
   "inLanguage": "en",
-  "numberOfItems": 91,
+  "numberOfItems": 93,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -717,6 +717,20 @@
       "url": "https://mental.example.com/",
       "name": "Mental Strength Test",
       "description": "12 everyday mini-crises, 2 minutes. Missed alarms, harsh feedback, canceled plans: how tough is your mind? Get your own mental strength score and the material that matches you, just for fun."
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "url": "https://award.example.com/",
+      "name": "Award Certificate Maker",
+      "description": "Write an award title, the winner’s name and a reason, pick a frame and seal, and make a funny or heartfelt certificate. Save it as an image or send a link that opens like an award ceremony."
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "url": "https://order.example.com/",
+      "name": "Random Order Picker",
+      "description": "Fair presentation order, game turns or chore rota: shuffle names or numbers, reveal 1st to last one card at a time, then copy or share the list."
     }
   ]
 }
@@ -792,6 +806,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="award">
+        <a class="cur-card" href="https://award.example.com/" style="--h:63;--h2:45">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Year-end awards time</span></span>
+            <h3 class="cur-headline">Make a certificate for anyone</h3>
+            <span class="cur-giant" aria-hidden="true">🏆</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Name, reason, a gold frame and a seal — save it as an image.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Award Certificate Maker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="order">
+        <a class="cur-card" href="https://order.example.com/" style="--h:138;--h2:164">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Who presents first?</span></span>
+            <h3 class="cur-headline">Shuffle a fair order, 1st to last</h3>
+            <span class="cur-giant" aria-hidden="true">🔢</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Type the names, then reveal the order one numbered card at a time.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Random Order Picker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowball">
         <a class="cur-card" href="https://snowball.example.com/" style="--h:268;--h2:250">
           <span class="cur-art">
@@ -856,10 +902,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="icefish">
+      <li class="cur-item" data-id="icefish" hidden>
         <a class="cur-card" href="https://icefish.example.com/" style="--h:47;--h2:29">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Frozen lake, one hole</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span></span><span class="cur-kicker">Frozen lake, one hole</span></span>
             <h3 class="cur-headline">Catch fish through the ice</h3>
             <span class="cur-giant" aria-hidden="true">🎣</span>
           </span>
@@ -872,10 +918,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="introvert">
+      <li class="cur-item" data-id="introvert" hidden>
         <a class="cur-card" href="https://introvert.example.com/" style="--h:23;--h2:5">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Alone or in a crowd?</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span></span><span class="cur-kicker">Alone or in a crowd?</span></span>
             <h3 class="cur-headline">Introvert or extrovert?</h3>
             <span class="cur-giant" aria-hidden="true">🔌</span>
           </span>
@@ -920,45 +966,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="ski" hidden>
-        <a class="cur-card" href="https://ski.example.com/" style="--h:299;--h2:281">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span></span><span class="cur-kicker">Winter is here</span></span>
-            <h3 class="cur-headline">How far down the mountain can you go?</h3>
-            <span class="cur-giant" aria-hidden="true">⛷️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Dodge the trees and slip through the slalom gates.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Ski Downhill</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="brain" hidden>
-        <a class="cur-card" href="https://brain.example.com/" style="--h:262;--h2:244">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span><span class="cur-kicker">Thinking-style quiz</span></span>
-            <h3 class="cur-headline">Logic or intuition? See how you lean</h3>
-            <span class="cur-giant" aria-hidden="true">🧠</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">12 everyday questions, your left/right balance.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Left or Right Brain Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Show pick 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Show pick 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Show pick 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Show pick 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Show pick 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Show pick 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">91 apps</span></h2>
+      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">93 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sort by</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Newest</option><option value="popular">Popular</option><option value="rating">Top rated</option></select>
@@ -980,6 +994,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="award" data-cat="create">
+        <a class="tile-link" href="https://award.example.com/" title="Write an award title, the winner’s name and a reason, pick a frame and seal, and make a funny or heartfelt certificate. Save it as an image or send a link that opens like an award ceremony." style="--h:63;--h2:45">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Award Certificate Maker</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="order" data-cat="vote">
+        <a class="tile-link" href="https://order.example.com/" title="Fair presentation order, game turns or chore rota: shuffle names or numbers, reveal 1st to last one card at a time, then copy or share the list." style="--h:138;--h2:164">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Random Order Picker</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowball" data-cat="game">
         <a class="tile-link" href="https://snowball.example.com/" title="Peek over your snow wall, hit the kids popping up from their forts and duck when a snowball flies your way. 60 seconds, 3 hearts." style="--h:268;--h2:250">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☃️</span></span><span class="app-badge">NEW</span></span>
@@ -1010,14 +1038,14 @@
       </li>
       <li class="tile" data-id="icefish" data-cat="game">
         <a class="tile-link" href="https://icefish.example.com/" title="Drop your line through a hole in the frozen lake, wait for a bite and reel in without snapping the line. 60 seconds per round." style="--h:47;--h2:29">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎣</span></span></span>
           <span class="tile-name">Ice Fishing</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="introvert" data-cat="test">
         <a class="tile-link" href="https://introvert.example.com/" title="12 everyday situations, 2 minutes. Do you recharge alone or with people? See where you sit between introvert and extrovert and the social energy character that fits you, just for fun." style="--h:23;--h2:5">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔌</span></span></span>
           <span class="tile-name">Introvert or Extrovert Test</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: "award",
+        kicker: "年终颁奖时刻",
+        headline: "给值得表扬的人一张奖状",
+        blurb: "写上名字和理由，盖个章，保存成图片。",
+      },
+      {
+        id: "order",
+        kicker: "谁先上台汇报？",
+        headline: "从第1到最后，公平随机排序",
+        blurb: "输入名字打乱一次，号码卡片逐张揭晓。",
+      },
+      {
         id: "snowball",
         kicker: "院子里积雪啦",
         headline: "扔雪球、快蹲下，打一场雪仗",
