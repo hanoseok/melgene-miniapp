@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: "snowball",
+        kicker: "Neuschnee im Garten",
+        headline: "Werfen, ducken, Schlacht gewinnen",
+        blurb: "Triff Kinder an den Schneeburgen, duck dich, wenn ein Ball kommt.",
+      },
+      {
+        id: "mental",
+        kicker: "Verschlafen? Kritik?",
+        headline: "Wie stark ist deine Psyche?",
+        blurb: "12 kleine Alltagskrisen zeigen deine mentale Stärke.",
+      },
+      {
         id: 'snowflake',
         kicker: 'An Tagen mit erstem Schnee',
         headline: 'Deine eigene Schneeflocke',

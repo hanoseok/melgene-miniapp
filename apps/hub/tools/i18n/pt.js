@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: "snowball",
+        kicker: "Neve fresquinha no quintal",
+        headline: "Arremesse, se abaixe e vença a guerra",
+        blurb: "Acerte quem aparece nos fortes e se abaixe quando a bola vier.",
+      },
+      {
+        id: "mental",
+        kicker: "Perrengue? Crítica?",
+        headline: "Quão forte é a sua mente?",
+        blurb: "12 perrengues do dia a dia medem sua força mental.",
+      },
+      {
         id: 'snowflake',
         kicker: 'Dia da primeira neve',
         headline: 'Crie seu próprio floco de neve',

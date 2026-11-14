@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: "snowball",
+        kicker: "院子里积雪啦",
+        headline: "扔雪球、快蹲下，打一场雪仗",
+        blurb: "砸中雪堡后探头的小伙伴，雪球飞来就赶紧蹲下。",
+      },
+      {
+        id: "mental",
+        kicker: "睡过头、被挑刺、计划泡汤",
+        headline: "你的内心有多抗压？",
+        blurb: "12个日常小危机，测出你的心理韧性分数",
+      },
+      {
         id: 'snowflake',
         kicker: '初雪的日子',
         headline: '做一朵属于你的雪花',

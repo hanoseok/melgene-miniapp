@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: "snowball",
+        kicker: "Fresh snow in the yard",
+        headline: "Throw, duck and win the snowball fight",
+        blurb: "Hit kids popping up from their forts, and duck when they throw back.",
+      },
+      {
+        id: "mental",
+        kicker: "Missed alarm? Harsh words?",
+        headline: "How tough is your mind?",
+        blurb: "12 everyday mini-crises reveal your mental strength score.",
+      },
+      {
         id: 'snowflake',
         kicker: 'First snow of the year',
         headline: 'Make your own snowflake',

@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: "snowball",
+        kicker: "Sân phủ tuyết mới",
+        headline: "Ném, nấp và thắng trận ném tuyết",
+        blurb: "Ném trúng bạn nhỏ ló sau pháo đài, cúi nấp khi cầu tuyết bay tới.",
+      },
+      {
+        id: "mental",
+        kicker: "Ngủ quên, bị chê, hủy kèo",
+        headline: "Tinh thần bạn vững cỡ nào?",
+        blurb: "12 tình huống “xui” đời thường đo sức mạnh tinh thần.",
+      },
+      {
         id: 'snowflake',
         kicker: 'Ngày đầu mùa tuyết',
         headline: 'Tạo bông tuyết của riêng bạn',

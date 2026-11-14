@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: "snowball",
+        kicker: "Neige fraîche au jardin",
+        headline: "Lance, esquive, gagne la bataille",
+        blurb: "Touche ceux qui sortent des forts, baisse-toi quand ça riposte.",
+      },
+      {
+        id: "mental",
+        kicker: "Réveil raté, critique sèche",
+        headline: "Ton mental est-il solide ?",
+        blurb: "12 petites galères pour mesurer ta force mentale.",
+      },
+      {
         id: 'snowflake',
         kicker: 'Premiers flocons',
         headline: 'Crée ton propre flocon',

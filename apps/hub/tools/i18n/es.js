@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: "snowball",
+        kicker: "Nieve fresca en el patio",
+        headline: "Lanza, agáchate y gana la guerra",
+        blurb: "Acierta a quien asoma tras los fuertes y agáchate cuando te lancen.",
+      },
+      {
+        id: "mental",
+        kicker: "¿Alarma muda? ¿Críticas?",
+        headline: "¿Qué tan fuerte es tu mente?",
+        blurb: "12 mini crisis cotidianas miden tu fortaleza mental.",
+      },
+      {
         id: 'snowflake',
         kicker: 'Cuando cae la primera nieve',
         headline: 'Crea tu propio copo de nieve',

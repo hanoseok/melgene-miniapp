@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: "snowball",
+        kicker: "첫눈 쌓인 마당에서",
+        headline: "던지고 숙이고, 눈싸움 한 판",
+        blurb: "요새에서 고개 내민 친구를 맞히고, 날아오면 얼른 숙여요.",
+      },
+      {
+        id: "mental",
+        kicker: "늦잠, 잔소리, 약속 취소…",
+        headline: "내 멘탈은 얼마나 단단할까",
+        blurb: "일상 속 작은 위기 12개로 보는 나의 멘탈 점수",
+      },
+      {
         id: 'snowflake',
         kicker: '첫눈 오는 날엔',
         headline: '나만의 눈꽃 한 송이 만들기',

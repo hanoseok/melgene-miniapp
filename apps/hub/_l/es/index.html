@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Todas las miniapps",
   "inLanguage": "es",
-  "numberOfItems": 89,
+  "numberOfItems": 91,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -703,6 +703,20 @@
       "url": "https://penalty.example.com/",
       "name": "Castigo con cartas",
       "description": "Voltea las cartas una a una para sacar un castigo en fiestas o noches de copas."
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "url": "https://snowball.example.com/",
+      "name": "Bolas de nieve",
+      "description": "Acierta a los niños que asoman tras sus fuertes de nieve y agáchate cuando te lancen una bola. 60 segundos y 3 corazones."
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "url": "https://mental.example.com/",
+      "name": "Fortaleza mental",
+      "description": "12 mini crisis cotidianas, 2 minutos. Alarma que no suena, críticas, planes cancelados: ¿qué tan fuerte es tu mente? Descubre tu puntaje de fortaleza mental y el material que te representa, por diversión."
     }
   ]
 }
@@ -778,6 +792,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowball">
+        <a class="cur-card" href="https://snowball.example.com/" style="--h:268;--h2:250">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☃️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Nieve fresca en el patio</span></span>
+            <h3 class="cur-headline">Lanza, agáchate y gana la guerra</h3>
+            <span class="cur-giant" aria-hidden="true">☃️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Acierta a quien asoma tras los fuertes y agáchate cuando te lancen.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Bolas de nieve</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mental">
+        <a class="cur-card" href="https://mental.example.com/" style="--h:15;--h2:357">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛡️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¿Alarma muda? ¿Críticas?</span></span>
+            <h3 class="cur-headline">¿Qué tan fuerte es tu mente?</h3>
+            <span class="cur-giant" aria-hidden="true">🛡️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 mini crisis cotidianas miden tu fortaleza mental.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Fortaleza mental</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Jugar</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowflake">
         <a class="cur-card" href="https://snowflake.example.com/" style="--h:82;--h2:64">
           <span class="cur-art">
@@ -842,10 +888,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowman">
+      <li class="cur-item" data-id="snowman" hidden>
         <a class="cur-card" href="https://snowman.example.com/" style="--h:79;--h2:61">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">¡Nieva!</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span></span><span class="cur-kicker">¡Nieva!</span></span>
             <h3 class="cur-headline">Haz tu propio muñeco de nieve</h3>
             <span class="cur-giant" aria-hidden="true">⛄</span>
           </span>
@@ -858,10 +904,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="raffle">
+      <li class="cur-item" data-id="raffle" hidden>
         <a class="cur-card" href="https://raffle.example.com/" style="--h:320;--h2:302">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Sorteo de la cena</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span><span class="cur-kicker">Sorteo de la cena</span></span>
             <h3 class="cur-headline">¿Quién se lleva el primer premio?</h3>
             <span class="cur-giant" aria-hidden="true">🎁</span>
           </span>
@@ -877,7 +923,7 @@
       <li class="cur-item" data-id="ski" hidden>
         <a class="cur-card" href="https://ski.example.com/" style="--h:299;--h2:281">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Arranca la temporada</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span></span><span class="cur-kicker">Arranca la temporada</span></span>
             <h3 class="cur-headline">¿Hasta dónde bajarás la montaña?</h3>
             <span class="cur-giant" aria-hidden="true">⛷️</span>
           </span>
@@ -893,7 +939,7 @@
       <li class="cur-item" data-id="brain" hidden>
         <a class="cur-card" href="https://brain.example.com/" style="--h:262;--h2:244">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NUEVO</span></span><span class="cur-kicker">Test de pensamiento</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span><span class="cur-kicker">Test de pensamiento</span></span>
             <h3 class="cur-headline">¿Lógica o intuición? Mira hacia dónde tiras</h3>
             <span class="cur-giant" aria-hidden="true">🧠</span>
           </span>
@@ -906,45 +952,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard" hidden>
-        <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span></span><span class="cur-kicker">¡Hola, 2027!</span></span>
-            <h3 class="cur-headline">Envía tus primeros buenos deseos del año</h3>
-            <span class="cur-giant" aria-hidden="true">🐐</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Elige un diseño, escribe un deseo y envíala.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Tarjeta de Año Nuevo 2027</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bingocall" hidden>
-        <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span><span class="cur-kicker">Para la cena de empresa</span></span>
-            <h3 class="cur-headline">Canta el bingo desde una pantalla</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Números gigantes, tablero completo, sin repetir.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Bingo online</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Jugar</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Ver recomendación 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Ver recomendación 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Ver recomendación 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Ver recomendación 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Ver recomendación 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Ver recomendación 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">89 apps</span></h2>
+      <h2 id="browse-h">Todas las miniapps<span class="browse-count" id="hub-count" aria-live="polite">91 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Ordenar por</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Más nuevas</option><option value="popular">Populares</option><option value="rating">Mejor valoradas</option></select>
@@ -966,6 +980,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowball" data-cat="game">
+        <a class="tile-link" href="https://snowball.example.com/" title="Acierta a los niños que asoman tras sus fuertes de nieve y agáchate cuando te lancen una bola. 60 segundos y 3 corazones." style="--h:268;--h2:250">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☃️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Bolas de nieve</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mental" data-cat="test">
+        <a class="tile-link" href="https://mental.example.com/" title="12 mini crisis cotidianas, 2 minutos. Alarma que no suena, críticas, planes cancelados: ¿qué tan fuerte es tu mente? Descubre tu puntaje de fortaleza mental y el material que te representa, por diversión." style="--h:15;--h2:357">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛡️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="tile-name">Fortaleza mental</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowflake" data-cat="create">
         <a class="tile-link" href="https://snowflake.example.com/" title="Crea tu propio copo de nieve simétrico con unos toques y guárdalo como imagen PNG." style="--h:82;--h2:64">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span><span class="app-badge">NUEVO</span></span>
@@ -996,28 +1024,28 @@
       </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/" title="Haz tu muñeco de nieve online: apila las bolas, elige ojos, nariz de zanahoria, sombrero, bufanda y brazos, ponle nombre y guarda la imagen o comparte un enlace." style="--h:79;--h2:61">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span></span>
           <span class="tile-name">Muñeco de nieve</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="raffle" data-cat="vote">
         <a class="tile-link" href="https://raffle.example.com/" title="Sortea los premios de la cena de empresa en la pantalla grande: nombres o números, premios, ganadores uno a uno, deshacer y resultados para copiar o compartir." style="--h:320;--h2:302">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">Sorteo online</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/" title="Baja por una pista nevada sin fin, esquiva pinos, rocas y muñecos de nieve, y pasa por las puertas de eslalon." style="--h:299;--h2:281">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span></span>
           <span class="tile-name">Juego de esquí</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="brain" data-cat="test">
         <a class="tile-link" href="https://brain.example.com/" title="12 preguntas cotidianas, 2 minutos. ¿Lógica o intuición, plan o espontaneidad? Descubre tu equilibrio de estilo de pensamiento izquierdo/derecho y tu personaje cerebral, por diversión." style="--h:262;--h2:244">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NUEVO</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span>
           <span class="tile-name">Test de hemisferios</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

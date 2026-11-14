@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "全部小应用",
   "inLanguage": "zh",
-  "numberOfItems": 89,
+  "numberOfItems": 91,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -703,6 +703,20 @@
       "url": "https://penalty.example.com/",
       "name": "惩罚翻牌",
       "description": "一张张翻牌抽取惩罚，适合聚会和饮酒场合，快速又公平。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "url": "https://snowball.example.com/",
+      "name": "打雪仗",
+      "description": "朝雪堡后探出头的小伙伴扔雪球，雪球飞来时赶紧躲到雪墙后面。每局60秒的打雪仗游戏。"
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "url": "https://mental.example.com/",
+      "name": "心理韧性测试",
+      "description": "12个日常小危机，2分钟。闹钟没响、被挑毛病、计划临时取消，你的内心有多抗压？测出你的心理韧性分数和专属“材料”角色，仅供娱乐。"
     }
   ]
 }
@@ -778,6 +792,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="snowball">
+        <a class="cur-card" href="https://snowball.example.com/" style="--h:268;--h2:250">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☃️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">院子里积雪啦</span></span>
+            <h3 class="cur-headline">扔雪球、快蹲下，打一场雪仗</h3>
+            <span class="cur-giant" aria-hidden="true">☃️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">砸中雪堡后探头的小伙伴，雪球飞来就赶紧蹲下。</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">打雪仗</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="mental">
+        <a class="cur-card" href="https://mental.example.com/" style="--h:15;--h2:357">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛡️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">睡过头、被挑刺、计划泡汤</span></span>
+            <h3 class="cur-headline">你的内心有多抗压？</h3>
+            <span class="cur-giant" aria-hidden="true">🛡️</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12个日常小危机，测出你的心理韧性分数</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">心理韧性测试</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">马上玩</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="snowflake">
         <a class="cur-card" href="https://snowflake.example.com/" style="--h:82;--h2:64">
           <span class="cur-art">
@@ -842,10 +888,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowman">
+      <li class="cur-item" data-id="snowman" hidden>
         <a class="cur-card" href="https://snowman.example.com/" style="--h:79;--h2:61">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">下雪啦</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span></span><span class="cur-kicker">下雪啦</span></span>
             <h3 class="cur-headline">堆一个专属雪人</h3>
             <span class="cur-giant" aria-hidden="true">⛄</span>
           </span>
@@ -858,10 +904,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="raffle">
+      <li class="cur-item" data-id="raffle" hidden>
         <a class="cur-card" href="https://raffle.example.com/" style="--h:320;--h2:302">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">年会抽奖</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span><span class="cur-kicker">年会抽奖</span></span>
             <h3 class="cur-headline">一等奖花落谁家？逐个揭晓</h3>
             <span class="cur-giant" aria-hidden="true">🎁</span>
           </span>
@@ -877,7 +923,7 @@
       <li class="cur-item" data-id="ski" hidden>
         <a class="cur-card" href="https://ski.example.com/" style="--h:299;--h2:281">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">滑雪季来了</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span></span><span class="cur-kicker">滑雪季来了</span></span>
             <h3 class="cur-headline">无尽雪道，你能滑多远？</h3>
             <span class="cur-giant" aria-hidden="true">⛷️</span>
           </span>
@@ -893,7 +939,7 @@
       <li class="cur-item" data-id="brain" hidden>
         <a class="cur-card" href="https://brain.example.com/" style="--h:262;--h2:244">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">思维习惯小测试</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span><span class="cur-kicker">思维习惯小测试</span></span>
             <h3 class="cur-headline">讲逻辑还是凭直觉？测测你的偏向</h3>
             <span class="cur-giant" aria-hidden="true">🧠</span>
           </span>
@@ -906,45 +952,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="nycard" hidden>
-        <a class="cur-card" href="https://nycard.example.com/" style="--h:105;--h2:131">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🐐</span></span></span><span class="cur-kicker">你好，2027</span></span>
-            <h3 class="cur-headline">把新年第一句祝福写进贺卡</h3>
-            <span class="cur-giant" aria-hidden="true">🐐</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">选个样式，写句祝福，发给想念的人。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">2027 新年贺卡制作</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="bingocall" hidden>
-        <a class="cur-card" href="https://bingocall.example.com/" style="--h:313;--h2:295">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎱</span></span></span><span class="cur-kicker">尾牙年会必备</span></span>
-            <h3 class="cur-headline">宾果抽号，一块屏幕搞定</h3>
-            <span class="cur-giant" aria-hidden="true">🎱</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">大号数字和号码面板，号码不重复。</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">宾果抽号器</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">马上玩</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="查看第 1 个推荐" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="查看第 2 个推荐"></button><button type="button" class="cur-dot" data-i="2" aria-label="查看第 3 个推荐"></button><button type="button" class="cur-dot" data-i="3" aria-label="查看第 4 个推荐"></button><button type="button" class="cur-dot" data-i="4" aria-label="查看第 5 个推荐"></button><button type="button" class="cur-dot" data-i="5" aria-label="查看第 6 个推荐"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">89个</span></h2>
+      <h2 id="browse-h">全部小应用<span class="browse-count" id="hub-count" aria-live="polite">91个</span></h2>
       <label class="sort">
         <span class="visually-hidden">排序</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>最新上线</option><option value="popular">最热门</option><option value="rating">评分最高</option></select>
@@ -966,6 +980,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="snowball" data-cat="game">
+        <a class="tile-link" href="https://snowball.example.com/" title="朝雪堡后探出头的小伙伴扔雪球，雪球飞来时赶紧躲到雪墙后面。每局60秒的打雪仗游戏。" style="--h:268;--h2:250">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">☃️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">打雪仗</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="mental" data-cat="test">
+        <a class="tile-link" href="https://mental.example.com/" title="12个日常小危机，2分钟。闹钟没响、被挑毛病、计划临时取消，你的内心有多抗压？测出你的心理韧性分数和专属“材料”角色，仅供娱乐。" style="--h:15;--h2:357">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛡️</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">心理韧性测试</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="snowflake" data-cat="create">
         <a class="tile-link" href="https://snowflake.example.com/" title="几次点击就能做出对称的雪花图案，并保存为 PNG 图片。" style="--h:82;--h2:64">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span><span class="app-badge">NEW</span></span>
@@ -996,28 +1024,28 @@
       </li>
       <li class="tile" data-id="snowman" data-cat="create">
         <a class="tile-link" href="https://snowman.example.com/" title="从雪球大小到眼睛、嘴巴、胡萝卜鼻子、帽子、围巾和手臂，点一点就能堆出自己的雪人。取个名字，存成图片或发链接分享。" style="--h:79;--h2:61">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span></span>
           <span class="tile-name">堆雪人</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="raffle" data-cat="vote">
         <a class="tile-link" href="https://raffle.example.com/" title="年会、尾牙抽奖上大屏幕：粘贴名单或用号码牌，设置一二三等奖，逐个揭晓中奖者，可撤销，结果一键复制和分享。" style="--h:320;--h2:302">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span>
           <span class="tile-name">在线抽奖</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="ski" data-cat="game">
         <a class="tile-link" href="https://ski.example.com/" title="沿着无尽雪道一路向下，躲开松树、岩石和雪人，穿过旗门拿奖励米数的滑雪游戏。" style="--h:299;--h2:281">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛷️</span></span></span>
           <span class="tile-name">滑雪游戏</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="brain" data-cat="test">
         <a class="tile-link" href="https://brain.example.com/" title="12道日常小题，2分钟。你更讲逻辑还是更凭直觉？测出你的左脑式·右脑式思维比例和专属大脑角色，仅供娱乐。" style="--h:262;--h2:244">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🧠</span></span></span>
           <span class="tile-name">左脑右脑测试</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

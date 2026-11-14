@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: "snowball",
+        kicker: "雪が積もった庭で",
+        headline: "投げて、しゃがんで、雪合戦",
+        blurb: "砦から顔を出した相手に当てて、飛んできたらしゃがもう。",
+      },
+      {
+        id: "mental",
+        kicker: "寝坊、ダメ出し、ドタキャン",
+        headline: "あなたの心はどれくらい強い？",
+        blurb: "日常のピンチ12問でわかるメンタル強度スコア",
+      },
+      {
         id: 'snowflake',
         kicker: '初雪の日に',
         headline: '自分だけの雪の結晶を作ろう',

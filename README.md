@@ -180,6 +180,8 @@ AdSense는 루트 도메인(`melgene.com`)으로 신청한다. 승인되면 서�
 | introvert | apps/introvert | 내향형 외향형 테스트(심리테스트): 일상 상황 12문항, 축 3개(충전 방식·관계 크기·표현 방식)×2 → 8종 r/<type>.html(전수 4^12 각 12.50%), 본인 답으로 계산한 내향↔외향 막대(`#i=`, 없으면 숨김, 50±6 = 양향형 구간), 찰떡·정반대 유형은 그림·이름만, poll 20표 이상만 비율, MBTI 용어 금지, "재미용·임상 검사 아님"을 결과·FAQ·가이드에 명시 | `check-introvert.js` (+ `check-flow.js`) |
 | snowflake | apps/snowflake | 눈꽃 만들기(만들기): 시드로 만든 가지 하나를 60도×6 회전·좌우 대칭으로 눈 결정 채우기, 슬라이더 3(가지 수·복잡도·길이)·가지 모양 4·색 5, 피어나는 애니메이션(움직임 줄이기면 생략), PNG 1080×1080 저장(서버 전송 없음), `#d=` 공유 링크(설정·시드만) | `check-snowflake.js` |
 | penalty | apps/penalty | 벌칙 카드 뒤집기(투표): 인원 2~12·벌칙 카드 장수·벌칙 문구(언어별 기본 10개)·이름(선택) → 카드 섞기 순간 crypto 거부 샘플링 + Fisher–Yates 로 배정, 뒤집기는 보여 주기만, 끝 화면 당첨자·벌칙 요약·글로 복사·`#d=` 결과 링크 | `check-penalty.js` (+ `flow-test.js`) |
+| snowball | apps/snowball | 눈싸움(게임): canvas 요새 5곳(뒷줄 2·앞줄 3)에서 솟는 상대를 눌러 던지기(비행 0.24/0.30초, 쿨다운 0.2초), 아이 10·눈사람 15·황금 눈사람 50점, 강아지·흰 깃발 아이 친구 −25점, 콤보 배율, 상대가 팔을 들면 ❗ — 공이 오면 눈벽/숙이기 버튼(Space·↓)으로 숨기, 하트 3·60초, 50초에 걸쳐 난이도 상승, 등급 6단계, supa.submitScore 백분위(비정상 점수 미전송), crypto 시드, 탭 숨김 일시정지, 플레이 중 광고 없음 | `check-snowball.js` (+ `flow-test.js`) |
+| mental | apps/mental | 멘탈 강도 테스트(심리테스트): 일상 속 작은 위기 12문항, 축 3개(회복력·평정심·자기 확신)×2 → 재료 비유 8종 r/<type>.html(전수 4^12 각 12.50%), 본인 답으로 계산한 멘탈 게이지 0~100(`#s=`, 없으면 숨김, ≤42/43~57/≥58 구간), 찰떡·정반대 유형은 그림·이름만, poll 20표 이상만 비율, 임상 용어 금지, "재미용·임상 검사 아님"을 결과·FAQ·가이드에 명시 | `check-mental.js` (+ `check-flow.js`) |
 
 새 앱: `apps/<id>/` 폴더 = `app.config.js`(12개 언어 제목·설명, category, added — 5일간 NEW) + `README.md` + `tools/i18n/<12개 언어>.js` + `tools/gen-i18n.js`·`check-<id>.js`(자동 탐색됨) + `shared -> ../../shared`. 중앙 등록 없음. 절차는 `.claude/skills/melgene-miniapp/references/new-app.md`.
 

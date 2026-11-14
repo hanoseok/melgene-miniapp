@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mental.example.com/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/silk.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/silk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/silk.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/ember.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/ember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/ember.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/pearl.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/pearl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/pearl.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/oak.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/oak.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/oak.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/jelly.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/jelly.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/jelly.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/wave.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/wave.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/wave.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/bamboo.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/bamboo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/bamboo.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/r/diamond.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/r/diamond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/r/diamond.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ja/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/zh/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ko/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/fr/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/de/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/th/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/vi/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/es/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/it/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/pt/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+  <url>
+    <loc>https://mental.example.com/ru/guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mental.example.com/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mental.example.com/ja/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mental.example.com/zh/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mental.example.com/ko/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mental.example.com/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mental.example.com/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://mental.example.com/th/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://mental.example.com/vi/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mental.example.com/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mental.example.com/it/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mental.example.com/pt/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mental.example.com/ru/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mental.example.com/guide.html"/>
+  </url>
+</urlset>

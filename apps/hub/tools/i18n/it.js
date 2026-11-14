@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: "snowball",
+        kicker: "Neve fresca in cortile",
+        headline: "Lancia, abbassati e vinci la battaglia",
+        blurb: "Colpisci chi spunta dai fortini e abbassati quando arriva la palla.",
+      },
+      {
+        id: "mental",
+        kicker: "Sveglia saltata? Critiche?",
+        headline: "Quanto è forte la tua mente?",
+        blurb: "12 piccole crisi quotidiane misurano la tua forza mentale.",
+      },
+      {
         id: 'snowflake',
         kicker: 'Quando arriva la prima neve',
         headline: 'Crea il tuo fiocco di neve',
