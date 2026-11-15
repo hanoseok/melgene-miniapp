@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: "sled",
+        kicker: "Ab auf den Rodelhang",
+        headline: "Mit dem Schlitten an Tannen vorbei",
+        blurb: "Lenk nach links und rechts, weich Steinen aus, sammle Fahnen.",
+      },
+      {
+        id: "partytype",
+        kicker: "Die Partysaison beginnt",
+        headline: "Was für ein Partygast bist du?",
+        blurb: "12 Momente auf einer Feier zeigen deinen Party-Typ.",
+      },
+      {
         id: "award",
         kicker: "Zeit für Jahresend-Ehrungen",
         headline: "Eine Urkunde für jeden erstellen",

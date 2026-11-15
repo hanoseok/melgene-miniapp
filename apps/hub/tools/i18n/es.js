@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: "sled",
+        kicker: "En la colina nevada",
+        headline: "Esquiva los árboles en trineo a toda velocidad",
+        blurb: "Gira, evita las rocas y recoge banderas.",
+      },
+      {
+        id: "partytype",
+        kicker: "Temporada de fiestas",
+        headline: "¿Qué tipo de invitado eres en una fiesta?",
+        blurb: "12 momentos de una reunión revelan tu tipo fiestero.",
+      },
+      {
         id: "award",
         kicker: "Premios de fin de año",
         headline: "Crea un diploma para quien quieras",

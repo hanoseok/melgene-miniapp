@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: "sled",
+        kicker: "Từ đỉnh đồi phủ tuyết",
+        headline: "Lao xe trượt tuyết, né hàng cây",
+        blurb: "Rẽ trái rẽ phải tránh đá và nhặt cờ dọc đường.",
+      },
+      {
+        id: "partytype",
+        kicker: "Mùa tiệc cuối năm",
+        headline: "Đi tiệc, bạn là kiểu người nào?",
+        blurb: "12 khoảnh khắc trong buổi tiệc cho biết kiểu tiệc của bạn.",
+      },
+      {
         id: "award",
         kicker: "Lễ trao giải cuối năm",
         headline: "Tạo giấy khen cho người bạn quý",

@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: "sled",
+        kicker: "Do alto de um morro nevado",
+        headline: "Desça de trenó desviando das árvores",
+        blurb: "Vire para os lados, fuja das pedras e pegue as bandeirinhas.",
+      },
+      {
+        id: "partytype",
+        kicker: "Chegou a época das festas",
+        headline: "Que tipo de convidado você é na festa?",
+        blurb: "12 momentos de uma confraternização revelam seu tipo de festeiro.",
+      },
+      {
         id: "award",
         kicker: "Premiação de fim de ano",
         headline: "Faça um certificado para quem merece",

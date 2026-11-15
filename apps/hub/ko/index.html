@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "모든 미니앱",
   "inLanguage": "ko",
-  "numberOfItems": 93,
+  "numberOfItems": 95,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -730,6 +730,20 @@
       "url": "https://order.example.com/ko/",
       "name": "순서 정하기",
       "description": "발표 순서·게임 순서·청소 당번을 공정하게. 이름이나 번호를 섞어 1번부터 마지막까지 한 장씩 공개하고, 결과는 복사·링크로 공유해요."
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "url": "https://sled.example.com/ko/",
+      "name": "썰매 레이스",
+      "description": "끝없는 눈 언덕을 썰매로 내려가며 나무·바위·눈사람을 피하고, 깃발·선물·황금 별을 모으고, 점프대로 날아오르는 90초 레이스."
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "url": "https://partytype.example.com/ko/",
+      "name": "파티 유형 테스트",
+      "description": "송년회, 생일파티, 홈파티의 흔한 장면 12개, 2분이면 끝. 모임에서 나는 어떤 역할일까? 나의 파티 유형과 내 답으로 계산한 파티 에너지 점수를 재미로 알아봐요."
     }
   ]
 }
@@ -805,6 +819,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="sled">
+        <a class="cur-card" href="https://sled.example.com/ko/" style="--h:196;--h2:178">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛷</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">눈 덮인 언덕 꼭대기에서</span></span>
+            <h3 class="cur-headline">나무 피해 쌩쌩, 썰매 레이스</h3>
+            <span class="cur-giant" aria-hidden="true">🛷</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">좌우로 꺾어 장애물을 피하고 깃발을 모아요.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">썰매 레이스</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="partytype">
+        <a class="cur-card" href="https://partytype.example.com/ko/" style="--h:238;--h2:220">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎉</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 시즌</span></span>
+            <h3 class="cur-headline">파티에서 나는 어떤 캐릭터일까</h3>
+            <span class="cur-giant" aria-hidden="true">🎉</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">모임 속 12가지 순간으로 보는 나의 파티 유형</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">파티 유형 테스트</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">지금 하기</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="award">
         <a class="cur-card" href="https://award.example.com/ko/" style="--h:63;--h2:45">
           <span class="cur-art">
@@ -869,10 +915,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowflake">
+      <li class="cur-item" data-id="snowflake" hidden>
         <a class="cur-card" href="https://snowflake.example.com/ko/" style="--h:82;--h2:64">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">첫눈 오는 날엔</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span><span class="cur-kicker">첫눈 오는 날엔</span></span>
             <h3 class="cur-headline">나만의 눈꽃 한 송이 만들기</h3>
             <span class="cur-giant" aria-hidden="true">❄️</span>
           </span>
@@ -885,10 +931,10 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="penalty">
+      <li class="cur-item" data-id="penalty" hidden>
         <a class="cur-card" href="https://penalty.example.com/ko/" style="--h:343;--h2:325">
           <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">송년회 벌칙 정하기</span></span>
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">송년회 벌칙 정하기</span></span>
             <h3 class="cur-headline">카드 한 장씩 뒤집어 벌칙 뽑기</h3>
             <span class="cur-giant" aria-hidden="true">🃏</span>
           </span>
@@ -933,45 +979,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowman" hidden>
-        <a class="cur-card" href="https://snowman.example.com/ko/" style="--h:79;--h2:61">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">⛄</span></span></span><span class="cur-kicker">첫눈 오는 날엔</span></span>
-            <h3 class="cur-headline">나만의 눈사람 만들기</h3>
-            <span class="cur-giant" aria-hidden="true">⛄</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">모자·목도리·당근 코 골라 이름까지 붙여 줘요.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">눈사람 만들기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="raffle" hidden>
-        <a class="cur-card" href="https://raffle.example.com/ko/" style="--h:320;--h2:302">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span></span><span class="cur-kicker">송년회 경품 추첨</span></span>
-            <h3 class="cur-headline">1등은 누구? 한 명씩 두근두근</h3>
-            <span class="cur-giant" aria-hidden="true">🎁</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">명단 붙여 넣고 경품 정하면 큰 화면에서 한 명씩 공개</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">경품 추첨기</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">지금 하기</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="1번째 추천 보기" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="2번째 추천 보기"></button><button type="button" class="cur-dot" data-i="2" aria-label="3번째 추천 보기"></button><button type="button" class="cur-dot" data-i="3" aria-label="4번째 추천 보기"></button><button type="button" class="cur-dot" data-i="4" aria-label="5번째 추천 보기"></button><button type="button" class="cur-dot" data-i="5" aria-label="6번째 추천 보기"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">93개</span></h2>
+      <h2 id="browse-h">모든 미니앱<span class="browse-count" id="hub-count" aria-live="polite">95개</span></h2>
       <label class="sort">
         <span class="visually-hidden">정렬</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>최신순</option><option value="popular">인기순</option><option value="rating">평점순</option></select>
@@ -993,6 +1007,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="sled" data-cat="game">
+        <a class="tile-link" href="https://sled.example.com/ko/" title="끝없는 눈 언덕을 썰매로 내려가며 나무·바위·눈사람을 피하고, 깃발·선물·황금 별을 모으고, 점프대로 날아오르는 90초 레이스." style="--h:196;--h2:178">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🛷</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">썰매 레이스</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="partytype" data-cat="test">
+        <a class="tile-link" href="https://partytype.example.com/ko/" title="송년회, 생일파티, 홈파티의 흔한 장면 12개, 2분이면 끝. 모임에서 나는 어떤 역할일까? 나의 파티 유형과 내 답으로 계산한 파티 에너지 점수를 재미로 알아봐요." style="--h:238;--h2:220">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎉</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">파티 유형 테스트</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="award" data-cat="create">
         <a class="tile-link" href="https://award.example.com/ko/" title="상 이름과 받는 사람, 수상 이유를 적고 디자인과 도장을 골라 웃기고 따뜻한 상장을 만들어요. 이미지로 저장하거나 링크로 보내면 상장 수여식이 열려요." style="--h:63;--h2:45">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span>
@@ -1023,14 +1051,14 @@
       </li>
       <li class="tile" data-id="snowflake" data-cat="create">
         <a class="tile-link" href="https://snowflake.example.com/ko/" title="몇 번 누르는 것만으로 나만의 대칭 눈 결정을 만들고 PNG 이미지로 저장하는 눈꽃 만들기 도구." style="--h:82;--h2:64">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span>
           <span class="tile-name">눈꽃 만들기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>
       </li>
       <li class="tile" data-id="penalty" data-cat="vote">
         <a class="tile-link" href="https://penalty.example.com/ko/" title="카드를 한 장씩 뒤집어 벌칙을 정하는 송년회·술자리용 벌칙 뽑기. 누가 무엇을 할지 바로 정한다." style="--h:343;--h2:325">
-          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span><span class="app-badge">NEW</span></span>
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span>
           <span class="tile-name">벌칙 카드 뒤집기</span>
           <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
         </a>

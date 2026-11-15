@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: "sled",
+        kicker: "雪の丘のてっぺんから",
+        headline: "木をよけて一気に、そりレース",
+        blurb: "左右に曲がって障害物をかわし、旗を集めよう。",
+      },
+      {
+        id: "partytype",
+        kicker: "忘年会シーズン",
+        headline: "パーティーでの私はどんなキャラ？",
+        blurb: "集まりの12の場面でわかる、あなたのパーティータイプ。",
+      },
+      {
         id: "award",
         kicker: "年末の表彰式に",
         headline: "感謝を込めて表彰状を作ろう",

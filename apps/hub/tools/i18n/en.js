@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: "sled",
+        kicker: "From the top of a snowy hill",
+        headline: "Dodge the trees on a speedy sled run",
+        blurb: "Steer left and right, skip the rocks, grab the flags.",
+      },
+      {
+        id: "partytype",
+        kicker: "Party season is here",
+        headline: "What kind of party guest are you?",
+        blurb: "12 moments at a get-together reveal your party type.",
+      },
+      {
         id: "award",
         kicker: "Year-end awards time",
         headline: "Make a certificate for anyone",

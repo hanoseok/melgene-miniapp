@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: "sled",
+        kicker: "Sulla pista innevata",
+        headline: "Slitta a tutta velocità tra gli abeti",
+        blurb: "Sterza, evita i sassi e prendi le bandierine.",
+      },
+      {
+        id: "partytype",
+        kicker: "È stagione di feste",
+        headline: "Che tipo di invitato sei alle feste?",
+        blurb: "12 momenti di una serata per scoprire il tuo tipo da festa.",
+      },
+      {
         id: "award",
         kicker: "Premiazioni di fine anno",
         headline: "Crea un attestato per chi vuoi",

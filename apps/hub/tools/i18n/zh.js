@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: "sled",
+        kicker: "从雪坡顶端出发",
+        headline: "躲开大树，雪橇飞驰竞速",
+        blurb: "左右转向避开障碍，沿路收集小旗。",
+      },
+      {
+        id: "partytype",
+        kicker: "年末聚会季",
+        headline: "聚会上的你是哪种角色？",
+        blurb: "用聚会中的12个瞬间，测出你的派对类型。",
+      },
+      {
         id: "award",
         kicker: "年终颁奖时刻",
         headline: "给值得表扬的人一张奖状",

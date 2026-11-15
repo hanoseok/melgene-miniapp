@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: "sled",
+        kicker: "Sur la piste enneigée",
+        headline: "Évite les sapins en luge à toute allure",
+        blurb: "Tourne, esquive les rochers et attrape les drapeaux.",
+      },
+      {
+        id: "partytype",
+        kicker: "La saison des fêtes arrive",
+        headline: "Quel invité es-tu en soirée ?",
+        blurb: "12 moments de fête pour révéler ton profil de fêtard.",
+      },
+      {
         id: "award",
         kicker: "Remise de prix de fin d’année",
         headline: "Créez un diplôme pour qui vous voulez",

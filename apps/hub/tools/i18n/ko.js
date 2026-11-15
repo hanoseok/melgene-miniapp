@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: "sled",
+        kicker: "눈 덮인 언덕 꼭대기에서",
+        headline: "나무 피해 쌩쌩, 썰매 레이스",
+        blurb: "좌우로 꺾어 장애물을 피하고 깃발을 모아요.",
+      },
+      {
+        id: "partytype",
+        kicker: "송년회 시즌",
+        headline: "파티에서 나는 어떤 캐릭터일까",
+        blurb: "모임 속 12가지 순간으로 보는 나의 파티 유형",
+      },
+      {
         id: "award",
         kicker: "연말 시상식 준비",
         headline: "고마운 사람에게 상장 하나",
