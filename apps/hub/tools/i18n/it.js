@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: "advent",
+        kicker: "Dal 1° dicembre",
+        headline: "Calendario dell'Avvento per un amico",
+        blurb: "Nascondi 24 messaggi, se ne apre uno al giorno.",
+      },
+      {
+        id: "proscons",
+        kicker: "Indeciso tra due scelte?",
+        headline: "Metti pro e contro sulla bilancia",
+        blurb: "Dai un peso a ogni punto e guarda dove pende.",
+      },
+      {
         id: "sled",
         kicker: "Sulla pista innevata",
         headline: "Slitta a tutta velocità tra gli abeti",

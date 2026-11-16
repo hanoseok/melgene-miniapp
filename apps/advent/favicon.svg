@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="24" fill="#123a26"/>
+  <rect x="14" y="16" width="72" height="70" rx="10" fill="#fff3dc" stroke="#f4c95d" stroke-width="4"/>
+  <rect x="22" y="24" width="24" height="24" rx="5" fill="#d8362f"/>
+  <rect x="54" y="24" width="24" height="24" rx="5" fill="#d8362f"/>
+  <rect x="22" y="54" width="24" height="24" rx="5" fill="#d8362f"/>
+  <path d="M54 54 h10 l-6 24 h-4z" fill="#a8231f"/>
+  <text x="70" y="72" font-size="16" text-anchor="middle">⭐</text>
+</svg>

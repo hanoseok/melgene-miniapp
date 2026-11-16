@@ -25,6 +25,18 @@ module.exports = {
     h2: 'Mini app hôm nay',
     items: [
       {
+        id: "advent",
+        kicker: "Mỗi ngày một ô từ 1/12",
+        headline: "Lịch Advent tặng bạn bè",
+        blurb: "Giấu 24 lời nhắn, mỗi ngày mở một ô.",
+      },
+      {
+        id: "proscons",
+        kicker: "Phân vân A hay B?",
+        headline: "Đặt ưu và nhược lên bàn cân",
+        blurb: "Cho mỗi ý một trọng lượng rồi xem cân nghiêng.",
+      },
+      {
         id: "sled",
         kicker: "Từ đỉnh đồi phủ tuyết",
         headline: "Lao xe trượt tuyết, né hàng cây",

@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: "advent",
+        kicker: "Dès le 1er décembre",
+        headline: "Un calendrier de l'Avent pour un ami",
+        blurb: "Cache 24 messages, un s'ouvre chaque jour.",
+      },
+      {
+        id: "proscons",
+        kicker: "Tu hésites entre deux choix ?",
+        headline: "Pose le pour et le contre sur la balance",
+        blurb: "Donne un poids à chaque point et regarde.",
+      },
+      {
         id: "sled",
         kicker: "Sur la piste enneigée",
         headline: "Évite les sapins en luge à toute allure",

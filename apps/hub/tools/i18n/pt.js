@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: "advent",
+        kicker: "A partir de 1º de dezembro",
+        headline: "Calendário do Advento para um amigo",
+        blurb: "Esconda 24 mensagens e abra uma por dia.",
+      },
+      {
+        id: "proscons",
+        kicker: "Na dúvida entre duas opções?",
+        headline: "Coloque prós e contras na balança",
+        blurb: "Dê peso a cada ponto e veja para onde pende.",
+      },
+      {
         id: "sled",
         kicker: "Do alto de um morro nevado",
         headline: "Desça de trenó desviando das árvores",

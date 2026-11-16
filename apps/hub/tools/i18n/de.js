@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: "advent",
+        kicker: "Ab 1. Dezember ein Türchen",
+        headline: "Adventskalender für Freunde",
+        blurb: "24 Botschaften verstecken, täglich eine öffnen.",
+      },
+      {
+        id: "proscons",
+        kicker: "A oder B?",
+        headline: "Pro und Contra auf die Waage",
+        blurb: "Gewichte jeden Punkt und sieh, wohin es kippt.",
+      },
+      {
         id: "sled",
         kicker: "Ab auf den Rodelhang",
         headline: "Mit dem Schlitten an Tannen vorbei",

@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: "advent",
+        kicker: "12월 1일부터 하루 한 칸",
+        headline: "친구에게 줄 어드벤트 캘린더",
+        blurb: "24칸에 메시지를 숨겨 두면 날마다 하나씩 열려요.",
+      },
+      {
+        id: "proscons",
+        kicker: "A냐 B냐 고민될 때",
+        headline: "장단점을 저울에 올려 보기",
+        blurb: "좋은 점·아쉬운 점에 무게를 달면 기울어요.",
+      },
+      {
         id: "sled",
         kicker: "눈 덮인 언덕 꼭대기에서",
         headline: "나무 피해 쌩쌩, 썰매 레이스",

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#123a26">
+<title>어드벤트 캘린더 만들기 - 친구에게 24칸 선물 | 멜진 미니앱</title>
+<meta name="description" content="어드벤트 캘린더 만들기: 24칸에 짧은 메시지를 숨겨 링크로 보내면 12월 1일부터 하루에 한 칸씩 열려요. 가입 없이 무료, 메시지는 링크 안에만 담겨요.">
+<link rel="canonical" href="https://advent.example.com/ko/">
+<script>(function(w,d){var C=["en","ja","zh","ko","fr","de","th","vi","es","it","pt","ru"],DEF="en",VAR=true,REL="index.html",DIR="_l",L=(d.documentElement.getAttribute('lang')||DEF).toLowerCase().split('-')[0],loc=w.location;function ok(c){return C.indexOf(c)>=0}function ck(){try{var m=d.cookie.match(/(?:^|;\s*)mg_lang=([^;]*)/);return m?decodeURIComponent(m[1]):null}catch(e){return null}}function ls(){try{return localStorage.getItem('mg_lang')||localStorage.getItem('lang_pref')}catch(e){return null}}function save(c){if(!ok(c))return;try{localStorage.setItem('mg_lang',c);localStorage.setItem('lang_pref',c)}catch(e){}try{d.cookie='mg_lang='+c+'; Path=/; Max-Age=31536000; SameSite=Lax'+(loc.protocol==='https:'?'; Secure':'')+(/(^|\.)melgene\.com$/.test(loc.hostname)?'; Domain=.melgene.com':'')}catch(e){}}function get(){var c=ck(),s=ls(),p=ok(c)?c:(ok(s)?s:null);if(p&&(c!==p||s!==p))save(p);return p}var tail=REL.replace(/(^|\/)index\.html$/,'$1'),pn=loc.pathname,head=pn;var nx=REL.replace(/\.html$/,'');if(pn.slice(-REL.length)===REL)head=pn.slice(0,pn.length-REL.length);else if(tail&&pn.slice(-tail.length)===tail)head=pn.slice(0,pn.length-tail.length);else if(nx!==REL&&pn.slice(-nx.length)===nx)head=pn.slice(0,pn.length-nx.length);var m=head.match(new RegExp('/(?:'+DIR+'/)?('+C.join('|')+')/$')),kind='clean',base=head;if(m&&head.indexOf('/'+DIR+'/')>=0){kind='direct';base=head.slice(0,head.length-m[0].length+1)}else if(m&&!VAR&&m[1]===L&&L!==DEF){kind='folder';base=head.slice(0,head.length-m[0].length+1)}function clean(nolang){var q='';try{var u=new URLSearchParams(loc.search);u.delete('lang');q=u.toString();q=q?'?'+q:''}catch(e){q=loc.search}return loc.protocol+'//'+loc.host+base+tail+q+(nolang?'#nolang':loc.hash)}function toClean(href){try{var u=new URL(href,loc.href);u.pathname=u.pathname.replace(new RegExp('/(?:'+DIR+'/)?(?:'+C.join('|')+')/'),'/');u.searchParams.delete('lang');return u.href}catch(e){return href}}var q=null;try{q=new URLSearchParams(loc.search).get('lang')}catch(e){}if(ok(q)){save(q);try{history.replaceState(history.state,'',clean())}catch(e){}}var P=get();w.MG_LANG={codes:C,page:L,variant:VAR,kind:kind,get:get,save:save,clean:clean,toClean:toClean};if(/^#nolang\b/.test(loc.hash)||navigator.webdriver||new RegExp("(^|[^a-z])bot([^a-z]|$)|[a-z]bot\\/|crawl|spider|slurp|googlebot|google-inspectiontool|mediapartners|adsbot|bingbot|bingpreview|yandex|baiduspider|duckduckbot|sogou|exabot|facebookexternalhit|facebot|meta-externalagent|twitterbot|linkedinbot|pinterest|slackbot|discordbot|telegrambot|whatsapp|skypeuripreview|embedly|quora link preview|applebot|petalbot|semrush|ahrefs|mj12bot|dotbot|headlesschrome|lighthouse|pagespeed|gtmetrix|prerender|phantomjs|puppeteer|playwright",'i').test(navigator.userAgent||''))return;function stop(){try{d.write('<plaintext style="display:none">')}catch(e){}}if(kind!=='clean'){if(!P)save(L);loc.replace(clean());stop();return}if(!VAR&&P&&P!==L&&w.fetch){stop();fetch(base+DIR+'/'+P+'/'+REL,{credentials:'same-origin'}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){d.open();d.write(h);d.close()})['catch'](function(){loc.replace(clean(true))})}})(window,document);</script>
+<meta name="robots" content="noindex">
+<link rel="alternate" hreflang="en" href="https://advent.example.com/">
+<link rel="alternate" hreflang="ja" href="https://advent.example.com/ja/">
+<link rel="alternate" hreflang="zh" href="https://advent.example.com/zh/">
+<link rel="alternate" hreflang="ko" href="https://advent.example.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://advent.example.com/fr/">
+<link rel="alternate" hreflang="de" href="https://advent.example.com/de/">
+<link rel="alternate" hreflang="th" href="https://advent.example.com/th/">
+<link rel="alternate" hreflang="vi" href="https://advent.example.com/vi/">
+<link rel="alternate" hreflang="es" href="https://advent.example.com/es/">
+<link rel="alternate" hreflang="it" href="https://advent.example.com/it/">
+<link rel="alternate" hreflang="pt" href="https://advent.example.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://advent.example.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://advent.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="멜진 미니앱">
+<meta property="og:title" content="어드벤트 캘린더 만들기 🎄">
+<meta property="og:description" content="소중한 사람에게 24개의 작은 메시지를. 12월이 되면 하루에 한 칸씩 열려요.">
+<meta property="og:image" content="https://advent.example.com/og/ko/default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://advent.example.com/ko/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&amp;family=Jua&amp;display=swap">
+<link rel="stylesheet" href="./shared/base.css">
+<link rel="stylesheet" href="./style.css">
+<style>:root { --font-display: 'Jua', 'Nunito', var(--font-sans); --display-weight: 400; --wb: keep-all; --hyphens: manual; }</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://advent.example.com/ko/#app","name":"어드벤트 캘린더 만들기","description":"어드벤트 캘린더 만들기: 24칸에 짧은 메시지를 숨겨 링크로 보내면 12월 1일부터 하루에 한 칸씩 열려요. 가입 없이 무료, 메시지는 링크 안에만 담겨요.","url":"https://advent.example.com/ko/","inLanguage":"ko","applicationCategory":"MultimediaApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"멜진 미니앱","url":"https://example.com/ko/"},"image":"https://advent.example.com/og/ko/default.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"멜진 미니앱","item":"https://example.com/ko/"},{"@type":"ListItem","position":2,"name":"어드벤트 캘린더 만들기","item":"https://advent.example.com/ko/"}]}]}</script>
+<meta name="mg-guide" content="guide.html">
+</head>
+<body class="ad-body">
+<header class="mg-top"><a class="mg-home" href="https://example.com/" aria-label="멜진 미니앱 홈으로"><span class="mg-home-mark" aria-hidden="true"></span><span class="mg-home-word">Melgene</span><span class="mg-home-badge">미니앱</span></a><div class="lang-switch"><label class="lang-select"><span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="언어 선택"><option value="en" data-hreflang="en" lang="en">English</option><option value="ja" data-hreflang="ja" lang="ja">日本語</option><option value="zh" data-hreflang="zh" lang="zh">简体中文</option><option value="ko" data-hreflang="ko" lang="ko" selected>한국어</option><option value="fr" data-hreflang="fr" lang="fr">Français</option><option value="de" data-hreflang="de" lang="de">Deutsch</option><option value="th" data-hreflang="th" lang="th">ไทย</option><option value="vi" data-hreflang="vi" lang="vi">Tiếng Việt</option><option value="es" data-hreflang="es" lang="es">Español</option><option value="it" data-hreflang="it" lang="it">Italiano</option><option value="pt" data-hreflang="pt" lang="pt">Português</option><option value="ru" data-hreflang="ru" lang="ru">Русский</option></select></label><noscript><nav class="lang-links" aria-label="언어 선택"><a href="./" hreflang="en" lang="en">English</a> <a href="./" hreflang="ja" lang="ja">日本語</a> <a href="./" hreflang="zh" lang="zh">简体中文</a> <a href="./" hreflang="ko" lang="ko">한국어</a> <a href="./" hreflang="fr" lang="fr">Français</a> <a href="./" hreflang="de" lang="de">Deutsch</a> <a href="./" hreflang="th" lang="th">ไทย</a> <a href="./" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="./" hreflang="es" lang="es">Español</a> <a href="./" hreflang="it" lang="it">Italiano</a> <a href="./" hreflang="pt" lang="pt">Português</a> <a href="./" hreflang="ru" lang="ru">Русский</a></nav></noscript></div></header>
+
+<main class="ad-shell">
+  <!-- 시작 화면: 티징만 (배지·그림·h1·훅·시작 버튼·맨 아래 광고 1개) — 입력 칸·FAQ 없음 -->
+  <section id="screen-start" class="ad-screen ad-start">
+    <p class="ad-badge">🎄 크리스마스 카운트다운</p>
+    <div class="ad-hero" aria-hidden="true"><span class="ad-hero-grid"><i>7</i><i>18</i><i>3</i><i class="is-open">🍪</i><i>12</i><i>24</i><i>9</i><i>1</i><i>15</i></span><span class="ad-hero-tree">🎄</span><span class="ad-hero-star">⭐</span><span class="ad-hero-gift">🎁</span><span class="ad-hero-snow">❄️</span></div>
+    <h1 class="ad-h1"><span class="ad-kicker">어드벤트 캘린더 만들기</span><span class="ad-h1-main">24개의 작은 문,<br>하루 한 번 <em>깜짝 선물</em></span></h1>
+    <p class="ad-hook">소중한 사람을 위해 칸마다 메시지를 숨겨 두세요. 12월 1일부터 하루에 한 칸씩 열 수 있어요.</p>
+    <button id="start-btn" class="ad-btn ad-btn-primary" type="button">캘린더 만들기 →</button>
+    <div class="mg-ad mg-ad-start"></div>
+  </section>
+
+  <!-- 편집기 (진행 중 화면의 광고 1자리: 편집기 아래) -->
+  <section id="screen-edit" class="ad-screen ad-edit" hidden>
+    <h2 class="ad-edit-title">캘린더 채우기</h2>
+    <div id="themes" class="ad-chips" role="radiogroup" aria-label="캘린더 디자인">
+      <button type="button" class="ad-chip ad-theme is-on" role="radio" data-t="0" aria-checked="true"><span class="ad-chip-emoji" aria-hidden="true">🎄</span><span class="ad-chip-name">클래식</span></button>
+      <button type="button" class="ad-chip ad-theme" role="radio" data-t="1" aria-checked="false"><span class="ad-chip-emoji" aria-hidden="true">❄️</span><span class="ad-chip-name">눈 내리는</span></button>
+      <button type="button" class="ad-chip ad-theme" role="radio" data-t="2" aria-checked="false"><span class="ad-chip-emoji" aria-hidden="true">⭐</span><span class="ad-chip-name">별빛 골드</span></button>
+      <button type="button" class="ad-chip ad-theme" role="radio" data-t="3" aria-checked="false"><span class="ad-chip-emoji" aria-hidden="true">🍭</span><span class="ad-chip-name">캔디</span></button>
+    </div>
+    <div class="ad-row">
+      <label class="ad-field" for="f-to"><span class="ad-label">받는 사람</span>
+        <input id="f-to" class="ad-input" type="text" maxlength="60" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="예) 민지">
+      </label>
+      <label class="ad-field" for="f-from"><span class="ad-label">보내는 사람</span>
+        <input id="f-from" class="ad-input" type="text" maxlength="60" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="예) 준호">
+      </label>
+    </div>
+    <p class="ad-label ad-days-label" id="days-label">문 뒤에 숨길 메시지</p>
+    <p class="ad-days-hint">한 칸에 80자까지 써요. 빈 칸에는 작은 간식이 숨어 있어요.</p>
+    <div class="ad-days-bar"><p id="day-count" class="ad-count" aria-live="polite"></p><button id="fill-btn" class="ad-mini" type="button">🎲 빈 칸 채우기</button></div>
+    <div id="days" class="ad-days" role="group" aria-labelledby="days-label">
+      <div class="ad-day"><label class="ad-day-num" for="m-1" aria-label="1번 칸 메시지">1</label><input id="m-1" class="ad-input ad-day-input" type="text" data-day="1" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="1" aria-label="1번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-2" aria-label="2번 칸 메시지">2</label><input id="m-2" class="ad-input ad-day-input" type="text" data-day="2" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="2" aria-label="2번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-3" aria-label="3번 칸 메시지">3</label><input id="m-3" class="ad-input ad-day-input" type="text" data-day="3" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="3" aria-label="3번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-4" aria-label="4번 칸 메시지">4</label><input id="m-4" class="ad-input ad-day-input" type="text" data-day="4" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="4" aria-label="4번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-5" aria-label="5번 칸 메시지">5</label><input id="m-5" class="ad-input ad-day-input" type="text" data-day="5" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="5" aria-label="5번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-6" aria-label="6번 칸 메시지">6</label><input id="m-6" class="ad-input ad-day-input" type="text" data-day="6" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="6" aria-label="6번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-7" aria-label="7번 칸 메시지">7</label><input id="m-7" class="ad-input ad-day-input" type="text" data-day="7" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="7" aria-label="7번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-8" aria-label="8번 칸 메시지">8</label><input id="m-8" class="ad-input ad-day-input" type="text" data-day="8" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="8" aria-label="8번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-9" aria-label="9번 칸 메시지">9</label><input id="m-9" class="ad-input ad-day-input" type="text" data-day="9" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="9" aria-label="9번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-10" aria-label="10번 칸 메시지">10</label><input id="m-10" class="ad-input ad-day-input" type="text" data-day="10" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="10" aria-label="10번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-11" aria-label="11번 칸 메시지">11</label><input id="m-11" class="ad-input ad-day-input" type="text" data-day="11" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="11" aria-label="11번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-12" aria-label="12번 칸 메시지">12</label><input id="m-12" class="ad-input ad-day-input" type="text" data-day="12" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="12" aria-label="12번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-13" aria-label="13번 칸 메시지">13</label><input id="m-13" class="ad-input ad-day-input" type="text" data-day="13" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="13" aria-label="13번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-14" aria-label="14번 칸 메시지">14</label><input id="m-14" class="ad-input ad-day-input" type="text" data-day="14" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="14" aria-label="14번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-15" aria-label="15번 칸 메시지">15</label><input id="m-15" class="ad-input ad-day-input" type="text" data-day="15" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="15" aria-label="15번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-16" aria-label="16번 칸 메시지">16</label><input id="m-16" class="ad-input ad-day-input" type="text" data-day="16" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="16" aria-label="16번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-17" aria-label="17번 칸 메시지">17</label><input id="m-17" class="ad-input ad-day-input" type="text" data-day="17" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="17" aria-label="17번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-18" aria-label="18번 칸 메시지">18</label><input id="m-18" class="ad-input ad-day-input" type="text" data-day="18" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="18" aria-label="18번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-19" aria-label="19번 칸 메시지">19</label><input id="m-19" class="ad-input ad-day-input" type="text" data-day="19" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="19" aria-label="19번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-20" aria-label="20번 칸 메시지">20</label><input id="m-20" class="ad-input ad-day-input" type="text" data-day="20" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="20" aria-label="20번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-21" aria-label="21번 칸 메시지">21</label><input id="m-21" class="ad-input ad-day-input" type="text" data-day="21" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="21" aria-label="21번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-22" aria-label="22번 칸 메시지">22</label><input id="m-22" class="ad-input ad-day-input" type="text" data-day="22" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="22" aria-label="22번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-23" aria-label="23번 칸 메시지">23</label><input id="m-23" class="ad-input ad-day-input" type="text" data-day="23" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="23" aria-label="23번 칸 랜덤 메시지">🎲</button></div>
+      <div class="ad-day"><label class="ad-day-num" for="m-24" aria-label="24번 칸 메시지">24</label><input id="m-24" class="ad-input ad-day-input" type="text" data-day="24" maxlength="240" autocomplete="off" enterkeyhint="next" spellcheck="false" placeholder="메시지를 써 주세요…"><button type="button" class="ad-dice" data-day="24" aria-label="24번 칸 랜덤 메시지">🎲</button></div>
+    </div>
+    <p id="edit-status" class="ad-status" aria-live="polite"></p>
+    <div class="ad-actions">
+      <button id="preview-btn" class="ad-btn ad-btn-soft" type="button">👀 미리보기</button>
+      <button id="create-btn" class="ad-btn ad-btn-primary" type="button">링크 만들기</button>
+    </div>
+    <div class="mg-ad"></div>
+  </section>
+
+  <!-- 미리보기: 만든 사람만 (편집기·끝 화면에서만 들어옴, 링크로는 열 수 없음) — 모든 문이 열림 -->
+  <section id="screen-preview" class="ad-screen ad-preview" hidden>
+    <p class="ad-preview-badge">👀 미리보기</p>
+    <p class="ad-preview-note">나만 보이는 화면이에요. 메시지를 확인할 수 있게 모든 문이 열려 있어요. 받는 사람에게는 하루에 한 칸씩 열려요.</p>
+    <div id="preview-wrap" class="ad-cal"><div id="preview-grid" class="ad-grid"></div></div>
+    <button id="preview-back" class="ad-btn ad-btn-soft" type="button">← 돌아가기</button>
+  </section>
+
+  <!-- 끝 화면: 결과(만든 사람 = 링크 · 받은 사람 = 캘린더) → 공통 끝 화면 -->
+  <section id="screen-end" class="ad-screen ad-end" hidden>
+    <article id="end-mine" class="ad-card" aria-labelledby="end-eyebrow">
+      <h2 id="end-eyebrow" class="ad-eyebrow">어드벤트 캘린더가 완성됐어요!</h2>
+      <label class="ad-label" for="link-box">캘린더 링크</label>
+      <div class="ad-link"><input id="link-box" class="ad-input ad-link-input" type="text" readonly><button id="copy-btn" class="ad-btn ad-btn-primary ad-btn-sm" type="button">링크 복사</button></div>
+      <p id="end-status" class="ad-status" aria-live="polite"></p>
+      <p class="ad-note">메시지는 이 링크 안에만 담겨 있어요. 링크가 있으면 누구나 날짜가 된 칸을 열 수 있으니, 받을 사람에게만 보내 주세요.</p>
+      <div class="ad-end-actions">
+        <button id="save-btn" class="ad-btn ad-btn-soft ad-btn-sm" type="button"><span aria-hidden="true">📥</span> 이미지 저장</button>
+        <button id="end-preview-btn" class="ad-btn ad-btn-soft ad-btn-sm" type="button"><span aria-hidden="true">👀</span> 모든 문 미리보기</button>
+        <button id="edit-btn" class="ad-btn ad-btn-soft ad-btn-sm" type="button"><span aria-hidden="true">✏️</span> 고치기</button>
+      </div>
+    </article>
+    <article id="end-friend" class="ad-cal ad-friend" aria-labelledby="cal-for" hidden>
+      <p class="ad-cal-heading">어드벤트 캘린더</p>
+      <h2 id="cal-for" class="ad-cal-for"></h2>
+      <p id="cal-from" class="ad-cal-from"></p>
+      <p id="cal-status" class="ad-cal-status" aria-live="polite"></p>
+      <div id="cal-grid" class="ad-grid"></div>
+      <p class="ad-cal-hint">문을 눌러서 열어 보세요</p>
+      <button id="make-own" class="ad-btn ad-btn-primary" type="button">🎄 나도 만들기</button>
+    </article>
+    <div data-mg-end="advent"></div>
+  </section>
+
+  <!-- 문 안의 메시지 (textContent 로만 채운다) -->
+  <div id="door-modal" class="ad-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="ad-modal-card">
+      <p id="modal-emoji" class="ad-modal-emoji" aria-hidden="true"></p>
+      <p id="modal-title" class="ad-modal-title"></p>
+      <p id="modal-msg" class="ad-modal-msg"></p>
+      <button id="modal-close" class="ad-btn ad-btn-primary ad-btn-sm" type="button">닫기</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    © <span id="year"></span> 어드벤트 캘린더 만들기 · <a href="privacy.html">개인정보처리방침</a> · <a href="guide.html">가이드</a>
+  </footer>
+</main>
+
+<script src="./shared/site.config.js"></script>
+<script src="./shared/i18n.js"></script>
+<script>window.PAGE_I18N = {"lang":"ko","editor":{"counter":"24칸 중 {n}칸 채움","needOne":"메시지를 한 칸 이상 써 주세요."},"ideas":["좋은 아침! 오늘도 너라서 참 좋은 하루야.","이번 주 따뜻한 코코아는 내가 쏠게. 카페만 골라 줘.","네가 내 곁에 있어서 정말 다행이야. 그게 오늘의 메시지야.","좋아하는 노래 틀고 1분만 춤춰 보기. 이건 의사 선생님 처방이야.","우리 배 아프게 웃었던 그날 기억나? 나는 아직도 생각나.","쿠폰: 영화 한 편, 네가 고르고 간식은 내가 살게.","너는 생각보다 훨씬 용감하고, 알고 있는 것보다 더 다정한 사람이야.","오늘의 미션: 웃음 나게 하는 걸 하나 찍어서 보내 주기.","작은 알림: 물 한 잔 마시고 기지개 한 번 켜기.","오늘 하루가 길게 느껴진다면, 이 쪽지가 작은 포옹이야.","너랑 있으면 평범한 날도 휴일처럼 느껴져.","오늘 밤에 전화할래? 네 하루 얘기 듣고 싶어.","쿠폰: 언제든 쓸 수 있는 포옹 1회. 유효기간 없음.","오늘은 달달한 거 하나 사 먹기. 충분히 그럴 자격 있어.","크리스마스까지 벌써 반 왔어! 여기까지 온 너 대단해.","잠깐 밖에 나가서 하늘 한 번 보기. 어쩌면 첫눈이 올지도 몰라.","네가 좋은 이유 세 가지: 웃음소리, 마음씨, 그리고 플레이리스트.","올해 좋았던 일 하나 적어 보기. 내 건 너를 만난 거.","쿠폰: 네가 고른 집안일 하나, 군말 없이 내가 할게.","너는 내가 제일 반가운 알림이야.","오늘 밤엔 초 하나 켜고 소원 빌어 보기.","쉬는 것도 할 일이야. 오늘은 느긋하게 보내.","내일은 오늘보다 크리스마스에 더 가까워. 조금만 힘내!","메리 크리스마스 이브! 너라서 고마워.","새해에 같이 할 재밌는 일 하나 정해 보자.","오늘 밤엔 제일 포근한 이불 속으로 쏙.","TMI: 너는 사랑하기 정말 쉬운 사람이야.","오늘 누군가에게 다정한 메시지 하나 보내기. 나부터 시작해도 돼.","멀리 있어도 마음은 늘 네 옆에 있어.","붕어빵이든 호떡이든, 오늘은 겨울 간식 먹는 날!"],"calendar":{"heading":"어드벤트 캘린더","forName":"{name}에게","forNone":"당신을 위한 어드벤트 캘린더","fromName":"보낸 사람: {name}","before":{"other":"첫 번째 문은 {date}에 열려요. {n}일 남았어요!"},"during":"오늘은 {date}! 오늘의 문을 열어 보세요.","after":"크리스마스가 왔어요. 모든 문이 열렸어요.","locked":{"other":"{day}번 문은 {date}에 열려요. {n}일 남았어요."},"hint":"문을 눌러서 열어 보세요","doorAria":"{day}번 문","dayTitle":"{date}","treat":"오늘은 메시지 대신 작은 간식을 준비했어요.","close":"닫기","makeOwn":"🎄 나도 만들기"},"preview":{"badge":"👀 미리보기","note":"나만 보이는 화면이에요. 메시지를 확인할 수 있게 모든 문이 열려 있어요. 받는 사람에게는 하루에 한 칸씩 열려요.","back":"← 돌아가기"},"result":{"eyebrowMine":"어드벤트 캘린더가 완성됐어요!","eyebrowFriend":"당신을 위해 만든 캘린더","linkLabel":"캘린더 링크","copy":"링크 복사","copied":"링크를 복사했어요!","copyFail":"복사하지 못했어요. 링크를 길게 눌러 복사해 주세요.","note":"메시지는 이 링크 안에만 담겨 있어요. 링크가 있으면 누구나 날짜가 된 칸을 열 수 있으니, 받을 사람에게만 보내 주세요.","save":"이미지 저장","saving":"이미지를 만드는 중…","saved":"이미지를 저장했어요!","saveFail":"이미지를 만들지 못했어요. 화면을 캡처해 주세요.","imageAlt":"닫힌 문 24개가 있는 어드벤트 캘린더","preview":"모든 문 미리보기","edit":"고치기","retry":"캘린더 하나 더 만들기","retryFriend":"나도 만들기","shareTitle":"어드벤트 캘린더 만들기","shareText":"너를 위한 어드벤트 캘린더를 만들었어 🎄 12월 1일부터 하루에 한 칸씩 열려:","shareTextFriend":"소중한 사람에게 어드벤트 캘린더를 만들어 보세요 🎄","fileName":"advent-calendar"}};</script>
+<script>window.MG_FAQ = [{"q":"문은 언제 열리나요?","a":"받는 사람 휴대폰이나 컴퓨터의 날짜를 기준으로 12월 1일에 1번 문, 2일에 2번 문… 24일에 24번 문이 열려요. 12월 25일부터 1월 31일까지는 모든 문이 열려 있고, 12월 전에는 모두 잠겨 있어요."},{"q":"쓴 메시지는 어디에 저장되나요?","a":"링크 안에만 담겨요. 쓴 내용은 서버로 보내지 않아요. 그래서 링크를 가진 사람은 문이 열리는 날 메시지를 볼 수 있으니, 받을 사람에게만 보내 주세요."},{"q":"링크를 보낸 뒤에 메시지를 고칠 수 있나요?","a":"링크 자체에 메시지가 들어 있어서 나중에 고칠 수는 없어요. 캘린더를 고친 뒤 새 링크를 만들어 다시 보내 주세요."},{"q":"빈 칸을 열면 무엇이 보이나요?","a":"그날의 작은 간식이 나와요. 쿠키, 사탕, 별 같은 것들이요. 모든 칸을 채워도 되고, 몇 칸만 채우거나 🎲로 아이디어를 받아도 돼요."}];</script>
+<script src="./shared/common.js"></script>
+<script src="./shared/supa.js"></script>
+<script src="./advent-core.js"></script>
+<script src="./advent.js"></script>
+</body>
+</html>

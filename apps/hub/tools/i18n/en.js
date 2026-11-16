@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: "advent",
+        kicker: "One door a day from Dec 1",
+        headline: "Make an advent calendar for a friend",
+        blurb: "Hide 24 notes, and one opens each day.",
+      },
+      {
+        id: "proscons",
+        kicker: "Torn between two choices?",
+        headline: "Put the pros and cons on a scale",
+        blurb: "Weigh each point and watch it tip.",
+      },
+      {
         id: "sled",
         kicker: "From the top of a snowy hill",
         headline: "Dodge the trees on a speedy sled run",

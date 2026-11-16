@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: "advent",
+        kicker: "从12月1日起每天一格",
+        headline: "送给朋友的降临节日历",
+        blurb: "把24条留言藏进小门，每天打开一条。",
+      },
+      {
+        id: "proscons",
+        kicker: "A还是B，拿不定主意？",
+        headline: "把优缺点放上天平",
+        blurb: "给每一点加上分量，看它往哪边倒。",
+      },
+      {
         id: "sled",
         kicker: "从雪坡顶端出发",
         headline: "躲开大树，雪橇飞驰竞速",

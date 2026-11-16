@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: "advent",
+        kicker: "12月1日から毎日ひとつ",
+        headline: "友だちに贈るアドベントカレンダー",
+        blurb: "24の窓にメッセージを隠して毎日ひらこう。",
+      },
+      {
+        id: "proscons",
+        kicker: "AかBか迷ったら",
+        headline: "メリット・デメリットを天秤に",
+        blurb: "重さをつけるとどちらかに傾きます。",
+      },
+      {
         id: "sled",
         kicker: "雪の丘のてっぺんから",
         headline: "木をよけて一気に、そりレース",
