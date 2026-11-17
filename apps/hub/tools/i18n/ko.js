@@ -23,6 +23,18 @@ module.exports = {
     h2: '오늘의 미니앱',
     items: [
       {
+        id: "reindeer",
+        kicker: "밤하늘 지붕 위를 달려요",
+        headline: "한 번 누르면 폴짝, 순록 점프",
+        blurb: "굴뚝을 뛰어넘고 선물을 모아요.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "올해 선물 고르기 전에",
+        headline: "나는 어떤 선물을 주는 사람일까",
+        blurb: "12가지 상황으로 보는 나의 선물 스타일",
+      },
+      {
         id: "advent",
         kicker: "12월 1일부터 하루 한 칸",
         headline: "친구에게 줄 어드벤트 캘린더",

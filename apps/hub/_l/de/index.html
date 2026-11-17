@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Alle Mini-Apps",
   "inLanguage": "de",
-  "numberOfItems": 97,
+  "numberOfItems": 99,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -759,6 +759,20 @@
       "url": "https://proscons.example.com/",
       "name": "Pro und Contra",
       "description": "Unentschlossen? Pro und Contra notieren, jedem Punkt ein Gewicht von 1 bis 3 geben und zusehen, wohin die Waage kippt. Dann den Link teilen."
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "url": "https://reindeer.example.com/",
+      "name": "Rentier-Sprung",
+      "description": "Ein-Knopf-Lauf über verschneite Dächer bei Nacht: tippen, halten für mehr Höhe, Doppelsprung über Schornsteine, Krähen und Lücken."
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "url": "https://giftstyle.example.com/",
+      "name": "Geschenke-Typ-Test",
+      "description": "12 Geschenk-Momente aus dem Alltag, 2 Minuten: Finde deinen Schenk-Stil heraus. Ein Quiz nur zum Spaß."
     }
   ]
 }
@@ -834,6 +848,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="reindeer">
+        <a class="cur-card" href="https://reindeer.example.com/" style="--h:204;--h2:186">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Über die Dächer bei Nacht</span></span>
+            <h3 class="cur-headline">Tippen und springen: Rentier</h3>
+            <span class="cur-giant" aria-hidden="true">🦌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Spring über Kamine, sammle Geschenke.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Rentier-Sprung</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="giftstyle">
+        <a class="cur-card" href="https://giftstyle.example.com/" style="--h:53;--h2:35">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Vor dem Geschenkekauf</span></span>
+            <h3 class="cur-headline">Welcher Schenker-Typ bist du?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 Momente zeigen deinen Geschenkstil</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Geschenke-Typ-Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Spielen</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="advent">
         <a class="cur-card" href="https://advent.example.com/" style="--h:0;--h2:342">
           <span class="cur-art">
@@ -898,7 +944,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="award">
+      <li class="cur-item" data-id="award" hidden>
         <a class="cur-card" href="https://award.example.com/" style="--h:63;--h2:45">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Zeit für Jahresend-Ehrungen</span></span>
@@ -914,7 +960,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="order">
+      <li class="cur-item" data-id="order" hidden>
         <a class="cur-card" href="https://order.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEU</span></span><span class="cur-kicker">Wer hält zuerst das Referat?</span></span>
@@ -962,45 +1008,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowflake" hidden>
-        <a class="cur-card" href="https://snowflake.example.com/" style="--h:82;--h2:64">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span><span class="cur-kicker">An Tagen mit erstem Schnee</span></span>
-            <h3 class="cur-headline">Deine eigene Schneeflocke</h3>
-            <span class="cur-giant" aria-hidden="true">❄️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Äste anpassen, als PNG speichern und an Freunde schicken.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Schneeflocken-Maker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="penalty" hidden>
-        <a class="cur-card" href="https://penalty.example.com/" style="--h:343;--h2:325">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Silvesterparty</span></span>
-            <h3 class="cur-headline">Karten umdrehen, Strafe ziehen</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Pro Person eine Karte mischen und der Reihe nach aufdecken.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Strafkarten-Ziehen</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Spielen</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Empfehlung 1 anzeigen" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Empfehlung 2 anzeigen"></button><button type="button" class="cur-dot" data-i="2" aria-label="Empfehlung 3 anzeigen"></button><button type="button" class="cur-dot" data-i="3" aria-label="Empfehlung 4 anzeigen"></button><button type="button" class="cur-dot" data-i="4" aria-label="Empfehlung 5 anzeigen"></button><button type="button" class="cur-dot" data-i="5" aria-label="Empfehlung 6 anzeigen"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">97 Apps</span></h2>
+      <h2 id="browse-h">Alle Mini-Apps<span class="browse-count" id="hub-count" aria-live="polite">99 Apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sortieren nach</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Neu</option><option value="popular">Beliebt</option><option value="rating">Top bewertet</option></select>
@@ -1022,6 +1036,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="reindeer" data-cat="game">
+        <a class="tile-link" href="https://reindeer.example.com/" title="Ein-Knopf-Lauf über verschneite Dächer bei Nacht: tippen, halten für mehr Höhe, Doppelsprung über Schornsteine, Krähen und Lücken." style="--h:204;--h2:186">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Rentier-Sprung</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="giftstyle" data-cat="test">
+        <a class="tile-link" href="https://giftstyle.example.com/" title="12 Geschenk-Momente aus dem Alltag, 2 Minuten: Finde deinen Schenk-Stil heraus. Ein Quiz nur zum Spaß." style="--h:53;--h2:35">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEU</span></span>
+          <span class="tile-name">Geschenke-Typ-Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="advent" data-cat="create">
         <a class="tile-link" href="https://advent.example.com/" title="Erstelle einen Adventskalender mit 24 Türchen für Freunde, Partner oder Familie. Hinter jedem Türchen eine kurze Nachricht – ab dem 1. Dezember öffnet sich täglich eins." style="--h:0;--h2:342">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEU</span></span>

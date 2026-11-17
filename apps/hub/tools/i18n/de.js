@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-Apps des Tages',
     items: [
       {
+        id: "reindeer",
+        kicker: "Über die Dächer bei Nacht",
+        headline: "Tippen und springen: Rentier",
+        blurb: "Spring über Kamine, sammle Geschenke.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Vor dem Geschenkekauf",
+        headline: "Welcher Schenker-Typ bist du?",
+        blurb: "12 Momente zeigen deinen Geschenkstil",
+      },
+      {
         id: "advent",
         kicker: "Ab 1. Dezember ein Türchen",
         headline: "Adventskalender für Freunde",

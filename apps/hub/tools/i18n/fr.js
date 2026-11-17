@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini-apps du jour',
     items: [
       {
+        id: "reindeer",
+        kicker: "Cours sur les toits la nuit",
+        headline: "Un tap, un saut : le renne",
+        blurb: "Saute les cheminées et attrape les cadeaux.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Avant tes achats de Noël",
+        headline: "Quel genre d’offreur es-tu ?",
+        blurb: "12 situations pour ton style de cadeau",
+      },
+      {
         id: "advent",
         kicker: "Dès le 1er décembre",
         headline: "Un calendrier de l'Avent pour un ami",

@@ -78,7 +78,7 @@
   "@type": "ItemList",
   "name": "All mini apps",
   "inLanguage": "en",
-  "numberOfItems": 97,
+  "numberOfItems": 99,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -758,6 +758,20 @@
       "url": "https://proscons.example.com/",
       "name": "Pros and Cons Scale",
       "description": "Stuck on a decision? List the pros and cons, give each a weight from 1 to 3 and watch the scale tip. See the margin, then send the link to a friend."
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "url": "https://reindeer.example.com/",
+      "name": "Reindeer Jump",
+      "description": "A one-button runner on snowy night rooftops: tap to jump, hold to go higher, double jump over chimneys, crows and gaps."
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "url": "https://giftstyle.example.com/",
+      "name": "Gift Giver Test",
+      "description": "12 everyday gift moments, 2 minutes. Birthdays, holidays, Secret Santa: what kind of gift giver are you? Get your gifting style and your own planning score, just for fun."
     }
   ]
 }
@@ -833,6 +847,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="reindeer">
+        <a class="cur-card" href="https://reindeer.example.com/" style="--h:204;--h2:186">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Run across the rooftops</span></span>
+            <h3 class="cur-headline">Tap to jump: Reindeer Jump</h3>
+            <span class="cur-giant" aria-hidden="true">🦌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Hop over chimneys and grab gifts.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Reindeer Jump</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="giftstyle">
+        <a class="cur-card" href="https://giftstyle.example.com/" style="--h:53;--h2:35">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Before you shop this year</span></span>
+            <h3 class="cur-headline">What kind of gift giver are you?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 moments that reveal your gift style</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Gift Giver Test</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Play now</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="advent">
         <a class="cur-card" href="https://advent.example.com/" style="--h:0;--h2:342">
           <span class="cur-art">
@@ -897,7 +943,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="award">
+      <li class="cur-item" data-id="award" hidden>
         <a class="cur-card" href="https://award.example.com/" style="--h:63;--h2:45">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Year-end awards time</span></span>
@@ -913,7 +959,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="order">
+      <li class="cur-item" data-id="order" hidden>
         <a class="cur-card" href="https://order.example.com/" style="--h:138;--h2:164">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Who presents first?</span></span>
@@ -961,45 +1007,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowflake" hidden>
-        <a class="cur-card" href="https://snowflake.example.com/" style="--h:82;--h2:64">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span><span class="cur-kicker">First snow of the year</span></span>
-            <h3 class="cur-headline">Make your own snowflake</h3>
-            <span class="cur-giant" aria-hidden="true">❄️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Tweak the branches, save a PNG and send it to friends.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Snowflake Maker</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="penalty" hidden>
-        <a class="cur-card" href="https://penalty.example.com/" style="--h:343;--h2:325">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Year-end party forfeit</span></span>
-            <h3 class="cur-headline">Flip cards to draw the penalty</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Shuffle one card per player and see who pays the forfeit.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Penalty Card Flip</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Play now</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Show pick 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Show pick 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Show pick 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Show pick 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Show pick 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Show pick 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">97 apps</span></h2>
+      <h2 id="browse-h">All mini apps<span class="browse-count" id="hub-count" aria-live="polite">99 apps</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sort by</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Newest</option><option value="popular">Popular</option><option value="rating">Top rated</option></select>
@@ -1021,6 +1035,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="reindeer" data-cat="game">
+        <a class="tile-link" href="https://reindeer.example.com/" title="A one-button runner on snowy night rooftops: tap to jump, hold to go higher, double jump over chimneys, crows and gaps." style="--h:204;--h2:186">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Reindeer Jump</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="giftstyle" data-cat="test">
+        <a class="tile-link" href="https://giftstyle.example.com/" title="12 everyday gift moments, 2 minutes. Birthdays, holidays, Secret Santa: what kind of gift giver are you? Get your gifting style and your own planning score, just for fun." style="--h:53;--h2:35">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Gift Giver Test</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="advent" data-cat="create">
         <a class="tile-link" href="https://advent.example.com/" title="Make a 24-door advent calendar for a friend, partner or family. Hide a short note behind each door and one opens every day from December 1. Messages live only in the link." style="--h:0;--h2:342">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>

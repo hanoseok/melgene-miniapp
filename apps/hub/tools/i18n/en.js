@@ -23,6 +23,18 @@ module.exports = {
     h2: 'Today’s Mini Apps',
     items: [
       {
+        id: "reindeer",
+        kicker: "Run across the rooftops",
+        headline: "Tap to jump: Reindeer Jump",
+        blurb: "Hop over chimneys and grab gifts.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Before you shop this year",
+        headline: "What kind of gift giver are you?",
+        blurb: "12 moments that reveal your gift style",
+      },
+      {
         id: "advent",
         kicker: "One door a day from Dec 1",
         headline: "Make an advent calendar for a friend",

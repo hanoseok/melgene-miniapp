@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini apps de hoje',
     items: [
       {
+        id: "reindeer",
+        kicker: "Corra pelos telhados à noite",
+        headline: "Toque e pule: Rena Saltitante",
+        blurb: "Pule chaminés e pegue presentes.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Antes do amigo secreto",
+        headline: "Que tipo de presenteador é você?",
+        blurb: "12 momentos mostram seu estilo",
+      },
+      {
         id: "advent",
         kicker: "A partir de 1º de dezembro",
         headline: "Calendário do Advento para um amigo",

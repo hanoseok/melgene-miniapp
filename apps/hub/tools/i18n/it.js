@@ -20,6 +20,18 @@ module.exports = {
     h2: 'Mini app di oggi',
     items: [
       {
+        id: "reindeer",
+        kicker: "Corri sui tetti di notte",
+        headline: "Tocca e salta: la renna",
+        blurb: "Salta i comignoli e prendi i regali.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Prima dei regali di Natale",
+        headline: "Che tipo di regalatore sei?",
+        blurb: "12 momenti per il tuo stile regalo",
+      },
+      {
         id: "advent",
         kicker: "Dal 1° dicembre",
         headline: "Calendario dell'Avvento per un amico",

@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Tất cả mini app",
   "inLanguage": "vi",
-  "numberOfItems": 97,
+  "numberOfItems": 99,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -759,6 +759,20 @@
       "url": "https://proscons.example.com/vi/",
       "name": "Cân ưu nhược điểm",
       "description": "Phân vân nên làm hay không, chọn A hay B? Ghi ưu và nhược điểm, chấm trọng số 1–3 rồi xem cán cân nghiêng về đâu và gửi link cho bạn bè."
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "url": "https://reindeer.example.com/vi/",
+      "name": "Tuần lộc nhảy",
+      "description": "Game chạy một nút trên mái nhà tuyết ban đêm: chạm để nhảy, giữ để nhảy cao, nhảy đôi qua ống khói, quạ và khe hở, nhặt quà dọc đường."
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "url": "https://giftstyle.example.com/vi/",
+      "name": "Phong cách tặng quà",
+      "description": "12 khoảnh khắc tặng quà, chỉ 2 phút để biết phong cách tặng quà của bạn. Chơi cho vui thôi nhé!"
     }
   ]
 }
@@ -834,6 +848,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="reindeer">
+        <a class="cur-card" href="https://reindeer.example.com/vi/" style="--h:204;--h2:186">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Chạy trên mái nhà đêm đông</span></span>
+            <h3 class="cur-headline">Chạm để nhảy cùng tuần lộc</h3>
+            <span class="cur-giant" aria-hidden="true">🦌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Nhảy qua ống khói, nhặt quà.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Tuần lộc nhảy</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="giftstyle">
+        <a class="cur-card" href="https://giftstyle.example.com/vi/" style="--h:53;--h2:35">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Trước khi chọn quà năm nay</span></span>
+            <h3 class="cur-headline">Bạn là kiểu người tặng quà nào?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 tình huống cho phong cách tặng quà</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Phong cách tặng quà</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="advent">
         <a class="cur-card" href="https://advent.example.com/vi/" style="--h:0;--h2:342">
           <span class="cur-art">
@@ -898,7 +944,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="award">
+      <li class="cur-item" data-id="award" hidden>
         <a class="cur-card" href="https://award.example.com/vi/" style="--h:63;--h2:45">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Lễ trao giải cuối năm</span></span>
@@ -914,7 +960,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="order">
+      <li class="cur-item" data-id="order" hidden>
         <a class="cur-card" href="https://order.example.com/vi/" style="--h:138;--h2:164">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Ai thuyết trình trước?</span></span>
@@ -962,45 +1008,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowflake" hidden>
-        <a class="cur-card" href="https://snowflake.example.com/vi/" style="--h:82;--h2:64">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span><span class="cur-kicker">Ngày đầu mùa tuyết</span></span>
-            <h3 class="cur-headline">Tạo bông tuyết của riêng bạn</h3>
-            <span class="cur-giant" aria-hidden="true">❄️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Chỉnh nhánh tuyết, lưu PNG và gửi cho bạn bè.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Tạo bông tuyết</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="penalty" hidden>
-        <a class="cur-card" href="https://penalty.example.com/vi/" style="--h:343;--h2:325">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Tiệc cuối năm</span></span>
-            <h3 class="cur-headline">Lật bài bốc hình phạt</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Xáo bài theo số người rồi lật từng lá, ai nhận phạt?</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Bốc hình phạt</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Chơi ngay</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Xem gợi ý thứ 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Xem gợi ý thứ 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Xem gợi ý thứ 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Xem gợi ý thứ 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Xem gợi ý thứ 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Xem gợi ý thứ 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">97 app</span></h2>
+      <h2 id="browse-h">Tất cả mini app<span class="browse-count" id="hub-count" aria-live="polite">99 app</span></h2>
       <label class="sort">
         <span class="visually-hidden">Sắp xếp</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Mới nhất</option><option value="popular">Phổ biến</option><option value="rating">Đánh giá cao</option></select>
@@ -1022,6 +1036,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="reindeer" data-cat="game">
+        <a class="tile-link" href="https://reindeer.example.com/vi/" title="Game chạy một nút trên mái nhà tuyết ban đêm: chạm để nhảy, giữ để nhảy cao, nhảy đôi qua ống khói, quạ và khe hở, nhặt quà dọc đường." style="--h:204;--h2:186">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Tuần lộc nhảy</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="giftstyle" data-cat="test">
+        <a class="tile-link" href="https://giftstyle.example.com/vi/" title="12 khoảnh khắc tặng quà, chỉ 2 phút để biết phong cách tặng quà của bạn. Chơi cho vui thôi nhé!" style="--h:53;--h2:35">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Phong cách tặng quà</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="advent" data-cat="create">
         <a class="tile-link" href="https://advent.example.com/vi/" title="Tạo lịch Advent 24 ô tặng bạn bè, người yêu hay gia đình. Giấu một lời nhắn ngắn sau mỗi ô, từ ngày 1/12 mỗi ngày mở được một ô. Lời nhắn chỉ nằm trong link." style="--h:0;--h2:342">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>

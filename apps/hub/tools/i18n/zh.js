@@ -26,6 +26,18 @@ module.exports = {
     h2: '今日小应用',
     items: [
       {
+        id: "reindeer",
+        kicker: "在夜空屋顶上奔跑",
+        headline: "一点就跳，驯鹿跳跳",
+        blurb: "跳过烟囱，收集礼物。",
+      },
+      {
+        id: "giftstyle",
+        kicker: "今年挑礼物之前",
+        headline: "你是哪种送礼的人？",
+        blurb: "12个场景看你的送礼风格",
+      },
+      {
         id: "advent",
         kicker: "从12月1日起每天一格",
         headline: "送给朋友的降临节日历",

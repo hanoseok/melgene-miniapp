@@ -79,7 +79,7 @@
   "@type": "ItemList",
   "name": "Все мини-приложения",
   "inLanguage": "ru",
-  "numberOfItems": 97,
+  "numberOfItems": 99,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -759,6 +759,20 @@
       "url": "https://proscons.example.com/ru/",
       "name": "Плюсы и минусы",
       "description": "Не можешь решить? Запиши плюсы и минусы, дай каждому вес от 1 до 3 и посмотри, куда склонятся весы. Потом отправь ссылку другу."
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "url": "https://reindeer.example.com/ru/",
+      "name": "Прыжки оленя",
+      "description": "Раннер в одну кнопку по снежным ночным крышам: нажми — прыжок, держи — выше, двойным прыжком через трубы, ворон и пропасти за подарками."
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "url": "https://giftstyle.example.com/ru/",
+      "name": "Какой ты даритель",
+      "description": "Как ты выбираешь подарки? 12 ситуаций с подарками, 2 минуты — узнай свой стиль дарить. Просто для развлечения."
     }
   ]
 }
@@ -834,6 +848,38 @@
     </div>
     <p class="hub-total" id="hub-total" hidden></p>
     <ul class="cur-track" id="cur-track">
+      <li class="cur-item" data-id="reindeer">
+        <a class="cur-card" href="https://reindeer.example.com/ru/" style="--h:204;--h2:186">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Бег по крышам ночью</span></span>
+            <h3 class="cur-headline">Тап — прыжок: олень</h3>
+            <span class="cur-giant" aria-hidden="true">🦌</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">Перепрыгивай трубы и лови подарки.</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Прыжки оленя</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
+      <li class="cur-item" data-id="giftstyle">
+        <a class="cur-card" href="https://giftstyle.example.com/ru/" style="--h:53;--h2:35">
+          <span class="cur-art">
+            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Перед покупкой подарков</span></span>
+            <h3 class="cur-headline">Какой ты даритель?</h3>
+            <span class="cur-giant" aria-hidden="true">🎁</span>
+          </span>
+          <span class="cur-body">
+            <span class="cur-blurb">12 ситуаций покажут твой стиль</span>
+            <span class="cur-foot">
+              <span class="cur-app"><span class="cur-name">Какой ты даритель</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
+              <span class="cur-cta" aria-hidden="true">Играть</span>
+            </span>
+          </span>
+        </a>
+      </li>
       <li class="cur-item" data-id="advent">
         <a class="cur-card" href="https://advent.example.com/ru/" style="--h:0;--h2:342">
           <span class="cur-art">
@@ -898,7 +944,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="award">
+      <li class="cur-item" data-id="award" hidden>
         <a class="cur-card" href="https://award.example.com/ru/" style="--h:63;--h2:45">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🏆</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Новогоднее награждение</span></span>
@@ -914,7 +960,7 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="order">
+      <li class="cur-item" data-id="order" hidden>
         <a class="cur-card" href="https://order.example.com/ru/" style="--h:138;--h2:164">
           <span class="cur-art">
             <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🔢</span></span><span class="app-badge">NEW</span></span><span class="cur-kicker">Кто выступает первым?</span></span>
@@ -962,45 +1008,13 @@
           </span>
         </a>
       </li>
-      <li class="cur-item" data-id="snowflake" hidden>
-        <a class="cur-card" href="https://snowflake.example.com/ru/" style="--h:82;--h2:64">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">❄️</span></span></span><span class="cur-kicker">В день первого снега</span></span>
-            <h3 class="cur-headline">Создай свою снежинку</h3>
-            <span class="cur-giant" aria-hidden="true">❄️</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">Подбирай ветки, сохрани PNG и отправь друзьям.</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Создать снежинку</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
-      <li class="cur-item" data-id="penalty" hidden>
-        <a class="cur-card" href="https://penalty.example.com/ru/" style="--h:343;--h2:325">
-          <span class="cur-art">
-            <span class="cur-top"><span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🃏</span></span></span><span class="cur-kicker">Новогодний корпоратив</span></span>
-            <h3 class="cur-headline">Переверни карту и узнай наказание</h3>
-            <span class="cur-giant" aria-hidden="true">🃏</span>
-          </span>
-          <span class="cur-body">
-            <span class="cur-blurb">По карте на каждого, перемешанных случайно. Кому достанется?</span>
-            <span class="cur-foot">
-              <span class="cur-app"><span class="cur-name">Карты наказаний</span><span class="cur-stats" aria-hidden="true"><span class="sk sk-num"></span></span></span>
-              <span class="cur-cta" aria-hidden="true">Играть</span>
-            </span>
-          </span>
-        </a>
-      </li>
     </ul>
     <div class="cur-dots"><button type="button" class="cur-dot" data-i="0" aria-label="Показать карточку 1" aria-current="true"></button><button type="button" class="cur-dot" data-i="1" aria-label="Показать карточку 2"></button><button type="button" class="cur-dot" data-i="2" aria-label="Показать карточку 3"></button><button type="button" class="cur-dot" data-i="3" aria-label="Показать карточку 4"></button><button type="button" class="cur-dot" data-i="4" aria-label="Показать карточку 5"></button><button type="button" class="cur-dot" data-i="5" aria-label="Показать карточку 6"></button></div>
   </section>
 
   <section class="browse" aria-labelledby="browse-h">
     <div class="browse-head">
-      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 97</span></h2>
+      <h2 id="browse-h">Все мини-приложения<span class="browse-count" id="hub-count" aria-live="polite">всего 99</span></h2>
       <label class="sort">
         <span class="visually-hidden">Сортировка</span>
         <select id="hub-sort" class="sort-select"><option value="newest" selected>Новые</option><option value="popular">Популярные</option><option value="rating">По рейтингу</option></select>
@@ -1022,6 +1036,20 @@
     </div>
     <div class="shelf">
       <ul class="grid is-loading" id="hub-grid">
+      <li class="tile" data-id="reindeer" data-cat="game">
+        <a class="tile-link" href="https://reindeer.example.com/ru/" title="Раннер в одну кнопку по снежным ночным крышам: нажми — прыжок, держи — выше, двойным прыжком через трубы, ворон и пропасти за подарками." style="--h:204;--h2:186">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🦌</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Прыжки оленя</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
+      <li class="tile" data-id="giftstyle" data-cat="test">
+        <a class="tile-link" href="https://giftstyle.example.com/ru/" title="Как ты выбираешь подарки? 12 ситуаций с подарками, 2 минуты — узнай свой стиль дарить. Просто для развлечения." style="--h:53;--h2:35">
+          <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎁</span></span><span class="app-badge">NEW</span></span>
+          <span class="tile-name">Какой ты даритель</span>
+          <span class="tile-meta" aria-hidden="true"><span class="sk sk-tiny"></span></span>
+        </a>
+      </li>
       <li class="tile" data-id="advent" data-cat="create">
         <a class="tile-link" href="https://advent.example.com/ru/" title="Сделай адвент-календарь на 24 окошка для друга, любимого человека или семьи. Спрячь в каждом короткое послание — с 1 декабря открывается по одному окошку в день." style="--h:0;--h2:342">
           <span class="app-icon-wrap"><span class="app-icon" aria-hidden="true"><span class="app-emoji">🎄</span></span><span class="app-badge">NEW</span></span>

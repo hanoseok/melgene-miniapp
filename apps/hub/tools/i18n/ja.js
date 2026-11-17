@@ -23,6 +23,18 @@ module.exports = {
     h2: '今日のミニアプリ',
     items: [
       {
+        id: "reindeer",
+        kicker: "夜空の屋根の上を走ろう",
+        headline: "タップでジャンプ、トナカイジャンプ",
+        blurb: "煙突を跳び越えてプレゼントを集めよう。",
+      },
+      {
+        id: "giftstyle",
+        kicker: "プレゼント選びの前に",
+        headline: "あなたはどんな贈り主？",
+        blurb: "12の場面でわかるギフトスタイル",
+      },
+      {
         id: "advent",
         kicker: "12月1日から毎日ひとつ",
         headline: "友だちに贈るアドベントカレンダー",

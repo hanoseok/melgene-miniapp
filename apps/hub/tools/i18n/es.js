@@ -21,6 +21,18 @@ module.exports = {
     h2: 'Mini apps de hoy',
     items: [
       {
+        id: "reindeer",
+        kicker: "Corre por los tejados",
+        headline: "Toca y salta: Reno Saltarín",
+        blurb: "Salta chimeneas y atrapa regalos.",
+      },
+      {
+        id: "giftstyle",
+        kicker: "Antes de comprar regalos",
+        headline: "¿Qué tipo de regalador eres?",
+        blurb: "12 momentos que revelan tu estilo",
+      },
+      {
         id: "advent",
         kicker: "Desde el 1 de diciembre",
         headline: "Calendario de Adviento para un amigo",
